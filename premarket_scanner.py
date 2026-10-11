@@ -84,7 +84,7 @@ def load_universe() -> list[str]:
 # --------------------------------------------------------------------------- #
 # Yahoo Finance: gap %, price, pre-market volume
 # --------------------------------------------------------------------------- #
-def _frame_for(data: pd.DataFrame | pd.Series | None, ticker: str, single: bool) -> pd.DataFrame | pd.Series | None:
+def _frame_for(data: pd.DataFrame, ticker: str, single: bool) -> pd.DataFrame | None:
     if data is None or data.empty:
         return None
     if single and not isinstance(data.columns, pd.MultiIndex):
@@ -109,8 +109,7 @@ def compute_premarket_stats(
 
     # Previous regular-session close = last daily close dated before today (ET)
     d = daily.dropna(subset=["Close"]).copy()
-    d_idx = pd.DatetimeIndex(d.index)
-    d_idx = d_idx.tz_convert(ET) if d_idx.tz is not None else d_idx.tz_localize(ET)
+    d_idx = d.index.tz_convert(ET) if d.index.tz is not None else d.index.tz_localize(ET)
     d = d[d_idx.date < today]
     if d.empty:
         return None
@@ -118,10 +117,9 @@ def compute_premarket_stats(
 
     # Today's bars: pre-market (04:00–09:29) and regular session (09:30–15:59) ET
     m = minute.copy()
-    m_idx = pd.DatetimeIndex(m.index)
-    m.index = m_idx.tz_convert(ET) if m_idx.tz is not None else m_idx.tz_localize(ET)
-    t = m_idx.time
-    day = m[(m_idx.date == today) & (t >= PREMARKET_START) & (t < REGULAR_CLOSE)]
+    m.index = m.index.tz_convert(ET) if m.index.tz is not None else m.index.tz_localize(ET)
+    t = m.index.time
+    day = m[(m.index.date == today) & (t >= PREMARKET_START) & (t < REGULAR_CLOSE)]
     pm = day[day.index.time < REGULAR_OPEN]
     if pm.empty or prev_close <= 0:
         return None
@@ -157,6 +155,90 @@ def scan_yahoo(tickers: list[str], today: dt.date, batch_size: int = 200, pause:
                 rows.append(stats)
         time.sleep(pause)
     return rows
+
+
+# --------------------------------------------------------------------------- #
+# Fast pre-filter (Yahoo batch quotes) — narrows ~7,000 symbols to the few that
+# are actually up, so only those need 1-minute bars. Deliberately generous:
+# the exact gap / price / pre-market volume checks still run on 1-minute bars.
+# --------------------------------------------------------------------------- #
+QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote"
+QUOTE_FIELDS = ("symbol,marketState,regularMarketPrice,regularMarketPreviousClose,regularMarketChangePercent,"
+                "regularMarketTime,preMarketPrice,preMarketChangePercent,preMarketTime")
+QUOTE_BATCH = 150
+PREFILTER_MARGIN = 1.0          # keep anything up ≥ (min_gap - 1)% to be safe
+PREFILTER_MIN_UNIVERSE = 300    # small ticker lists are scanned directly
+PREFILTER_MIN_COVERAGE = 0.5    # need quotes for ≥50% of symbols, else fall back
+
+
+def _quote_candidate(q: dict, gap_floor: float, price_floor: float, today: dt.date) -> bool:
+    """Generous check: is this quote plausibly up ≥ gap_floor% today?"""
+    def fresh(ts) -> bool:
+        try:
+            return dt.datetime.fromtimestamp(int(ts), ET).date() == today
+        except (TypeError, ValueError, OSError):
+            return False
+
+    prices, changes = [], []
+    if q.get("preMarketPrice") and fresh(q.get("preMarketTime")):
+        prices.append(q["preMarketPrice"])
+        if q.get("preMarketChangePercent") is not None:
+            changes.append(q["preMarketChangePercent"])
+    if q.get("regularMarketPrice") and fresh(q.get("regularMarketTime")):
+        prices.append(q["regularMarketPrice"])
+        if q.get("regularMarketChangePercent") is not None:
+            changes.append(q["regularMarketChangePercent"])
+    if not prices:
+        return False
+    latest = max(prices)
+    if latest < price_floor:
+        return False
+    # reference = smallest plausible "yesterday close" (avoids missing a gap when Yahoo's
+    # previous-close field hasn't rolled over yet in pre-market)
+    refs = [x for x in (q.get("regularMarketPreviousClose"), q.get("regularMarketPrice")) if x]
+    if any(c >= gap_floor for c in changes):
+        return True
+    return any(latest / r - 1 >= gap_floor / 100 for r in refs if r > 0)
+
+
+def prefilter_quotes(universe: list[str], min_gap: float, min_price: float, today: dt.date) -> list[str] | None:
+    """Return candidate tickers, or None if the quote endpoint isn't usable (→ full scan)."""
+    try:
+        from yfinance.data import YfData
+        yf_utils._setup_cache()
+        data = YfData()
+    except Exception as e:
+        print(f"  pre-filter init failed: {e}", file=sys.stderr)
+        return None
+
+    gap_floor, price_floor = min_gap - PREFILTER_MARGIN, min_price * 0.9
+    quoted, cands, failures = 0, [], 0
+    for i in range(0, len(universe), QUOTE_BATCH):
+        batch = universe[i : i + QUOTE_BATCH]
+        result = None
+        for attempt in range(3):
+            try:
+                js = data.get_raw_json(QUOTE_URL, params={"symbols": ",".join(batch), "fields": QUOTE_FIELDS,
+                                                          "formatted": "false", "lang": "en-US", "region": "US"})
+                result = (js.get("quoteResponse") or {}).get("result") or []
+                break
+            except Exception as e:
+                if attempt == 2:
+                    print(f"  quote batch {i // QUOTE_BATCH + 1} failed: {e}", file=sys.stderr)
+                time.sleep(1 + attempt)
+        if result is None:
+            failures += 1
+            if failures >= 5 and quoted == 0:      # endpoint clearly not working
+                return None
+            continue
+        quoted += len(result)
+        cands += [q["symbol"] for q in result if q.get("symbol") and _quote_candidate(q, gap_floor, price_floor, today)]
+        time.sleep(0.2)
+
+    if quoted < PREFILTER_MIN_COVERAGE * len(universe):
+        print(f"  pre-filter got quotes for only {quoted}/{len(universe)} symbols", file=sys.stderr)
+        return None
+    return sorted(set(cands))
 
 
 def apply_filters(rows: list[dict], min_gap: float, min_price: float, min_volume: int) -> list[dict]:
@@ -308,9 +390,20 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
     else:
         print("Loading US stock universe…", file=sys.stderr)
         universe = load_universe()
-    print(f"Scanning {len(universe)} symbols from Yahoo Finance…", file=sys.stderr)
+    to_scan = universe
+    mode = "full"
+    if len(universe) > PREFILTER_MIN_UNIVERSE:
+        t0 = time.time()
+        cands = prefilter_quotes(universe, min_gap, min_price, today)
+        if cands is not None:
+            to_scan, mode = cands, "fast"
+            print(f"Fast pre-filter: {len(cands)} of {len(universe)} symbols are up ≥{min_gap - PREFILTER_MARGIN:g}% "
+                  f"({time.time() - t0:.0f}s)", file=sys.stderr)
+        else:
+            print("Fast pre-filter unavailable — falling back to full scan.", file=sys.stderr)
+    print(f"Scanning {len(to_scan)} symbols from Yahoo Finance ({mode} mode)…", file=sys.stderr)
 
-    rows = scan_yahoo(universe, today, batch_size=batch_size)
+    rows = scan_yahoo(to_scan, today, batch_size=batch_size) if to_scan else []
     hits = apply_filters(rows, min_gap, min_price, min_volume)
     print(f"{len(hits)} stocks passed the filters. Fetching Benzinga catalysts…", file=sys.stderr)
 

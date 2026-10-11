@@ -117,8 +117,7 @@ def run_cycle(start: dt.datetime, kind: str, args) -> str:
     if a_path:
         try:
             b_report, _ = B.run_strategy(a_path, outdir=args.signal_dir)
-            results = a_payload.get("results", []) if a_payload is not None else []
-            B.write_watchlist([r["ticker"] for r in results], day, args.watchlist_dir)
+            B.write_watchlist([r["ticker"] for r in a_payload.get("results", [])], day, args.watchlist_dir)
         except Exception as e:
             traceback.print_exc()
             b_note = f"Scanner B failed: {e}"
@@ -136,6 +135,21 @@ def run_cycle(start: dt.datetime, kind: str, args) -> str:
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
+def parse_slot(text: str) -> tuple[int, int]:
+    """Accept '10:00', '10', '1000', '10.00', '9:30', ' 10 : 30 '."""
+    s = text.strip().replace(" ", "").replace(".", ":")
+    if ":" in s:
+        h, m = s.split(":", 1)
+    elif len(s) in (3, 4) and s.isdigit():
+        h, m = s[:-2], s[-2:]
+    else:
+        h, m = s, "0"
+    h, m = int(h), int(m or 0)
+    if not (0 <= h < 24 and 0 <= m < 60):
+        raise ValueError(text)
+    return h, m
+
+
 def next_slot(after: dt.datetime) -> tuple[dt.datetime, str]:
     d = after.date()
     while True:
@@ -171,7 +185,11 @@ def main() -> int:
         return 0
 
     if args.slot:
-        h, m = map(int, args.slot.split(":"))
+        try:
+            h, m = parse_slot(args.slot)
+        except ValueError:
+            print(f"Invalid --slot '{args.slot}'. Use HH:MM, e.g. 10:00", file=sys.stderr)
+            return 2
         start = dt.datetime.combine(now.date(), dt.time(h, m), ET)
         kind = dict((s.time(), k) for s, k in slots_for(now.date())).get(start.time(), "A+B")
         if not is_trading_day(now.date()):
