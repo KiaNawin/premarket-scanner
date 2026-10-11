@@ -1,0 +1,130 @@
+//@version=6
+// ============================================================================
+//  Trend-join Long — strategy scanner
+//  Use on a 1–5 minute chart WITH EXTENDED HOURS ON (needed for the pre-market high).
+//  Signal window: after 10:00 AM New York time.
+//
+//  Entry criteria (all must pass):
+//    1. Price > yesterday's daily high
+//    2. Yesterday's close > daily 200 SMA (as of yesterday)
+//    3. Price > today's pre-market high (04:00–09:30 ET)
+//    4. Price > current high of day (regular-session high made BEFORE this bar,
+//       i.e. the bar closes at a new high of day)
+//
+//  Outputs
+//    • Green "TJL" triangle + levels on the chart
+//    • Checklist table (top-right)
+//    • alert() with a JSON payload for webhooks / automated reporting
+//    • Data-window plots usable as columns in TradingView's Pine Screener
+// ============================================================================
+indicator("Trend-join Long Scanner", shorttitle = "TJL", overlay = true, max_labels_count = 500)
+
+// ── Inputs ──────────────────────────────────────────────────────────────────
+smaLen      = input.int(200, "Daily SMA length", minval = 1)
+tz          = input.string("America/New_York", "Market time zone")
+pmSess      = input.session("0400-0930", "Pre-market session")
+rthSess     = input.session("0930-1600", "Regular session")
+signalSess  = input.session("1000-1600", "Signal window (after 10:00 AM)")
+onePerDay   = input.bool(true, "Only the first signal of the day")
+showLevels  = input.bool(true, "Plot levels")
+showTable   = input.bool(true, "Show checklist table")
+
+if not timeframe.isintraday
+    runtime.error("Trend-join Long needs an intraday chart (1–5 min) with extended hours on.")
+
+// ── Daily reference data (regular session, non-repainting) ──────────────────
+dailyTicker = ticker.new(syminfo.prefix, syminfo.ticker, session.regular)
+[yHigh, yClose, ySma] = request.security(dailyTicker, "D", [high[1], close[1], ta.sma(close, smaLen)[1]], lookahead = barmerge.lookahead_on)
+
+// ── Session flags ───────────────────────────────────────────────────────────
+inPM     = not na(time(timeframe.period, pmSess, tz))
+inRTH    = not na(time(timeframe.period, rthSess, tz))
+inSignal = not na(time(timeframe.period, signalSess, tz))
+dom      = dayofmonth(time, tz)
+newDay   = bar_index == 0 or dom != dom[1]
+
+// ── Intraday state ──────────────────────────────────────────────────────────
+var float pmHigh  = na     // today's pre-market high
+var float rthHigh = na     // today's regular-session high, up to the previous bar
+var bool  fired   = false  // a signal already fired today
+var float sigPx   = na
+
+if newDay
+    pmHigh  := na
+    rthHigh := na
+    fired   := false
+    sigPx   := na
+
+if inPM
+    pmHigh := na(pmHigh) ? high : math.max(pmHigh, high)
+
+priorHod = rthHigh   // high of day BEFORE this bar
+
+// ── Criteria ────────────────────────────────────────────────────────────────
+c1 = not na(yHigh) and close > yHigh
+c2 = not na(ySma)  and yClose > ySma
+c3 = not na(pmHigh) and close > pmHigh
+c4 = not na(priorHod) and close > priorHod
+allPass = c1 and c2 and c3 and c4
+signal  = inSignal and allPass and (not onePerDay or not fired)
+
+if signal
+    fired := true
+    sigPx := close
+
+// update high of day AFTER evaluating this bar
+if inRTH
+    rthHigh := na(rthHigh) ? high : math.max(rthHigh, high)
+
+// ── Alerts (JSON payload for webhook / reporting) ───────────────────────────
+f(x) => str.tostring(x, "#.####")
+
+if signal
+    payload = '{"strategy":"Trend-join Long","signal":"VALID_ENTRY"' +
+      ',"ticker":"' + syminfo.ticker + '","exchange":"' + syminfo.prefix + '"' +
+      ',"price":' + f(close) +
+      ',"time_et":"' + str.format_time(time_close, "yyyy-MM-dd'T'HH:mm:ss", tz) + '"' +
+      ',"yesterday_high":' + f(yHigh) +
+      ',"yesterday_close":' + f(yClose) +
+      ',"sma' + str.tostring(smaLen) + '":' + f(ySma) +
+      ',"premarket_high":' + f(pmHigh) +
+      ',"hod_before_signal":' + f(priorHod) + '}'
+    alert(payload, alert.freq_once_per_bar_close)
+
+alertcondition(signal, "Trend-join Long entry", "{{ticker}} Trend-join Long VALID ENTRY at {{close}} ({{timenow}})")
+
+// ── Visuals ─────────────────────────────────────────────────────────────────
+plot(showLevels ? yHigh    : na, "Yesterday high",  color.orange, 1, plot.style_linebr)
+plot(showLevels ? pmHigh   : na, "Pre-market high", color.purple, 1, plot.style_linebr)
+plot(showLevels ? priorHod : na, "High of day",     color.teal,   1, plot.style_linebr)
+plotshape(signal, "Valid entry", style = shape.triangleup, location = location.belowbar, color = color.green, size = size.small, text = "TJL", textcolor = color.green)
+bgcolor(signal ? color.new(color.green, 85) : na, title = "Signal bar")
+
+// Pine Screener columns (1 = true)
+plot(signal ? 1 : 0,           "Signal (this bar)",  display = display.data_window)
+plot(fired ? 1 : 0,            "Signal fired today", display = display.data_window)
+plot(allPass ? 1 : 0,          "All criteria now",   display = display.data_window)
+plot(fired ? sigPx : na,       "Signal price",       display = display.data_window)
+
+// ── Checklist table ─────────────────────────────────────────────────────────
+mark(bool ok) => ok ? "✅" : "❌"
+var table tbl = table.new(position.top_right, 2, 8, bgcolor = color.new(color.black, 15), border_width = 1)
+
+if showTable and barstate.islast
+    txt = color.white
+    table.cell(tbl, 0, 0, "Trend-join Long", text_color = txt, text_size = size.small)
+    table.cell(tbl, 1, 0, syminfo.ticker,    text_color = txt, text_size = size.small)
+    table.cell(tbl, 0, 1, "Price > yesterday high (" + f(yHigh) + ")", text_color = txt, text_size = size.small)
+    table.cell(tbl, 1, 1, mark(c1), text_size = size.small)
+    table.cell(tbl, 0, 2, "Y close > SMA" + str.tostring(smaLen) + " (" + f(ySma) + ")", text_color = txt, text_size = size.small)
+    table.cell(tbl, 1, 2, mark(c2), text_size = size.small)
+    table.cell(tbl, 0, 3, "Price > pre-market high (" + f(pmHigh) + ")", text_color = txt, text_size = size.small)
+    table.cell(tbl, 1, 3, mark(c3), text_size = size.small)
+    table.cell(tbl, 0, 4, "Price > high of day (" + f(priorHod) + ")", text_color = txt, text_size = size.small)
+    table.cell(tbl, 1, 4, mark(c4), text_size = size.small)
+    table.cell(tbl, 0, 5, "After 10:00 ET", text_color = txt, text_size = size.small)
+    table.cell(tbl, 1, 5, mark(inSignal), text_size = size.small)
+    table.cell(tbl, 0, 6, "Status", text_color = txt, text_size = size.small)
+    table.cell(tbl, 1, 6, fired ? "VALID ENTRY @ " + f(sigPx) : "waiting", text_color = fired ? color.lime : color.silver, text_size = size.small)
+    if syminfo.session != session.extended
+        table.cell(tbl, 0, 7, "⚠ Turn on extended hours for the pre-market high", text_color = color.yellow, text_size = size.small)
