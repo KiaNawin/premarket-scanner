@@ -241,10 +241,64 @@ def prefilter_quotes(universe: list[str], min_gap: float, min_price: float, toda
     return sorted(set(cands))
 
 
+# --------------------------------------------------------------------------- #
+# Pre-market volume fallback (Nasdaq) — used only if Yahoo's extended-hours
+# 1-minute bars carry no volume. Only the handful of gap+price survivors are looked up.
+# --------------------------------------------------------------------------- #
+VOLUME_CHECK_MIN = 3            # need ≥3 gappers all at 0 volume before calling Yahoo's volume broken
+NASDAQ_MAX_LOOKUPS = 80
+NASDAQ_URL = "https://api.nasdaq.com/api/quote/{sym}/extended-trading"
+NASDAQ_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/128.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Origin": "https://www.nasdaq.com",
+    "Referer": "https://www.nasdaq.com/",
+}
+
+
+def _to_int(x) -> int | None:
+    if isinstance(x, (int, float)):
+        return int(x)
+    if isinstance(x, str):
+        s = re.sub(r"[^\d]", "", x)
+        return int(s) if s else None
+    return None
+
+
+def _find_volumes(node) -> list[int]:
+    """Collect every value under a key containing 'volume' anywhere in a JSON tree."""
+    found: list[int] = []
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if "volume" in str(k).lower():
+                n = _to_int(v)
+                if n is not None:
+                    found.append(n)
+            found += _find_volumes(v)
+    elif isinstance(node, list):
+        for v in node:
+            found += _find_volumes(v)
+    return found
+
+
+def nasdaq_premarket_volume(ticker: str) -> int | None:
+    sym = ticker.replace("-", ".")
+    try:
+        r = requests.get(NASDAQ_URL.format(sym=sym), params={"assetclass": "stocks", "markettype": "pre"},
+                         headers=NASDAQ_HEADERS, timeout=10)
+        if not r.ok:
+            return None
+        vols = _find_volumes((r.json() or {}).get("data") or {})
+        return max(vols) if vols else None
+    except Exception:
+        return None
+
+
 def apply_filters(rows: list[dict], min_gap: float, min_price: float, min_volume: int) -> list[dict]:
     hits = [
         r for r in rows
-        if r["gap_pct"] > min_gap and r["price"] > min_price and r["premarket_volume"] > min_volume
+        if r["gap_pct"] > min_gap and r["price"] > min_price and (r["premarket_volume"] or 0) > min_volume
     ]
     return sorted(hits, key=lambda r: r["gap_pct"], reverse=True)
 
@@ -346,7 +400,8 @@ def print_table(results: list[dict]) -> None:
     print()
 
 
-def save_json(results: list[dict], today: dt.date, outdir: str, criteria: dict, scanned: int) -> tuple[str, dict]:
+def save_json(results: list[dict], today: dt.date, outdir: str, criteria: dict, scanned: int,
+              funnel: dict | None = None) -> tuple[str, dict]:
     os.makedirs(outdir, exist_ok=True)
     path = os.path.join(outdir, f"premarket_scan_{today.isoformat()}.json")
     now = dt.datetime.now(ET)
@@ -355,6 +410,7 @@ def save_json(results: list[dict], today: dt.date, outdir: str, criteria: dict, 
         "generated_at_et": now.strftime("%Y-%m-%d %H:%M:%S %Z"),
         "scan_time_et": now.strftime("%H:%M"),
         "criteria": criteria,
+        "funnel": funnel or {},
         "symbols_scanned": scanned,
         "count": len(results),
         "results": [
@@ -404,7 +460,36 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
     print(f"Scanning {len(to_scan)} symbols from Yahoo Finance ({mode} mode)…", file=sys.stderr)
 
     rows = scan_yahoo(to_scan, today, batch_size=batch_size) if to_scan else []
-    hits = apply_filters(rows, min_gap, min_price, min_volume)
+
+    # ---- funnel: gap → price → pre-market volume (with source fallback)
+    gapped = [r for r in rows if r["gap_pct"] > min_gap]
+    gp = [r for r in gapped if r["price"] > min_price]
+    volume_status = "yahoo"
+    if len(gp) >= VOLUME_CHECK_MIN and not any((r["premarket_volume"] or 0) > 0 for r in gp):
+        print(f"Yahoo reports 0 pre-market volume for all {len(gp)} gappers — trying Nasdaq…", file=sys.stderr)
+        got = 0
+        for r in gp[:NASDAQ_MAX_LOOKUPS]:
+            v = nasdaq_premarket_volume(r["ticker"])
+            if v is not None:
+                r["premarket_volume"], got = v, got + 1
+        if got:
+            volume_status = "nasdaq"
+        else:
+            volume_status = "unavailable"
+            for r in gp:
+                r["premarket_volume"] = None
+    if volume_status == "unavailable":
+        hits = sorted(gp, key=lambda r: r["gap_pct"], reverse=True)
+        print("⚠ Pre-market volume unavailable from Yahoo and Nasdaq — listing gappers WITHOUT the volume filter.",
+              file=sys.stderr)
+    else:
+        hits = apply_filters(gp, min_gap, min_price, min_volume)
+    funnel = {"universe": len(universe), "prefilter": len(to_scan) if mode == "fast" else None,
+              "with_data": len(rows), "gap": len(gapped), "gap_price": len(gp), "passed": len(hits),
+              "volume_source": volume_status, "mode": mode}
+    print("Funnel: " + " → ".join(f"{k} {v}" for k, v in funnel.items() if v is not None), file=sys.stderr)
+    for r in sorted(gp, key=lambda r: r["gap_pct"], reverse=True)[:8]:
+        print(f"    {r['ticker']:<6} ${r['price']:<8} {r['gap_pct']:+6.2f}%  PM vol {r['premarket_volume']}", file=sys.stderr)
     print(f"{len(hits)} stocks passed the filters. Fetching Benzinga catalysts…", file=sys.stderr)
 
     api_key = os.environ.get("BENZINGA_API_KEY")
@@ -413,7 +498,7 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
 
     print_table(hits)
     criteria = {"min_gap_pct": min_gap, "min_price": min_price, "min_premarket_volume": min_volume}
-    path, payload = save_json(hits, today, outdir, criteria, scanned=len(universe))
+    path, payload = save_json(hits, today, outdir, criteria, scanned=len(universe), funnel=funnel)
     print(f"Saved → {path}")
     return path, payload
 

@@ -68,7 +68,7 @@ def _money(x) -> str:
 
 def _vol(v) -> str:
     if v is None:
-        return "—"
+        return "n/a"
     if v >= 1_000_000:
         return f"{v / 1_000_000:.1f}M"
     if v >= 1_000:
@@ -90,6 +90,19 @@ def section_a(payload: dict | None, note: str | None = None) -> str:
                  + (f" · {_e(note)}" if note else ""))
     lines.append(f"Filters: gap &gt;{c.get('min_gap_pct', 5):g}% · price &gt;${c.get('min_price', 3):g} · "
                  f"PM vol &gt;{_vol(c.get('min_premarket_volume', 50000))}")
+    f = payload.get("funnel") or {}
+    if f:
+        steps = [f"{f.get('universe', 0):,} stocks"]
+        if f.get("prefilter") is not None:
+            steps.append(f"up≥4%: {f['prefilter']}")
+        steps += [f"gap&gt;{c.get('min_gap_pct', 5):g}%: {f.get('gap', 0)}", f"price&gt;${c.get('min_price', 3):g}: {f.get('gap_price', 0)}"]
+        if f.get("volume_source") != "unavailable":
+            steps.append(f"PM vol: {f.get('passed', 0)}")
+        lines.append("🔎 " + " → ".join(steps))
+        if f.get("volume_source") == "unavailable":
+            lines.append("⚠️ Pre-market volume unavailable — list below is NOT volume-filtered")
+        elif f.get("volume_source") == "nasdaq":
+            lines.append("ℹ️ PM volume from Nasdaq (Yahoo had none)")
     results = payload.get("results", [])
     if not results:
         lines.append("No stocks passed the filters.")

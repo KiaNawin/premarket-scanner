@@ -1,16 +1,16 @@
 name: Scanners → Telegram
 
-# Fires every 30 min between 12:00 and 19:30 UTC on weekdays. run_cycle.py --once converts to
-# New York time and only runs when the time falls in a scheduled slot, so the schedule stays
-# correct through US daylight-saving changes and skips NYSE holidays:
-#   Scanner A 08:30–14:00 ET every 30 min · Scanner B 5 min after each, last at 14:35 ET
-#   → one Telegram message per cycle.
-# Note: GitHub may start scheduled jobs a few minutes late. For exact timing use
-# `python run_cycle.py --loop` on an always-on computer/VPS instead.
+# Triggers twice per 30-min slot, a few minutes past :00/:30 (GitHub often delays or drops
+# jobs scheduled exactly on the hour/half-hour). run_cycle.py --once converts to New York time,
+# runs the slot that matches, and skips if that slot was already done (state/last_slot.txt),
+# so the second trigger is a safety net and never sends a duplicate message.
+#   Scanner A 08:30–14:00 ET every 30 min · Scanner B right after (5 min after slot start)
+#   Handles US daylight saving and NYSE holidays automatically.
+# Tip: an external trigger (e.g. cron-job.org → workflow_dispatch) gives exact timing.
 
 on:
   schedule:
-    - cron: "0,30 12-19 * * 1-5"
+    - cron: "3,13,33,43 12-19 * * 1-5"
   workflow_dispatch:
     inputs:
       slot:
@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name "scanner-bot"
           git config user.email "scanner-bot@users.noreply.github.com"
-          git add scans/ signals/ watchlists/ 2>/dev/null || true
+          git add scans/ signals/ watchlists/ state/ 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Scan results $(TZ=America/New_York date '+%F %H:%M ET')"
           git pull --rebase && git push
