@@ -1,0 +1,18 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-12",
+  "generated_at_et": "2026-10-12 12:10:55 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-12.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 0,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [],
+  "scan_time_et": "12:10"
+}
