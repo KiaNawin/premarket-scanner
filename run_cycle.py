@@ -135,6 +135,20 @@ def run_cycle(start: dt.datetime, kind: str, args) -> str:
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
+def read_last_slot(path: str) -> str | None:
+    try:
+        with open(path, encoding="utf-8") as f:
+            return f.read().strip() or None
+    except OSError:
+        return None
+
+
+def write_last_slot(path: str, key: str) -> None:
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(key + "\n")
+
+
 def parse_slot(text: str) -> tuple[int, int]:
     """Accept '10:00', '10', '1000', '10.00', '9:30', ' 10 : 30 '."""
     s = text.strip().replace(" ", "").replace(".", ":")
@@ -172,6 +186,8 @@ def main() -> int:
     ap.add_argument("--scan-dir", default="scans")
     ap.add_argument("--signal-dir", default="signals")
     ap.add_argument("--watchlist-dir", default="watchlists")
+    ap.add_argument("--state-file", default=os.path.join("state", "last_slot.txt"),
+                    help="Remembers the last completed slot so repeated triggers don't send twice")
     args = ap.parse_args()
 
     now = dt.datetime.now(ET)
@@ -208,7 +224,12 @@ def main() -> int:
         if not slot:
             print(f"{now:%H:%M} ET is outside the 08:30–15:00 schedule — nothing to do.")
             return 0
+        key = slot[0].strftime("%Y-%m-%d %H:%M")
+        if read_last_slot(args.state_file) == key:
+            print(f"Slot {key} ET already done — skipping duplicate trigger.")
+            return 0
         run_cycle(*slot, args)
+        write_last_slot(args.state_file, key)
         return 0
 
     # --loop
