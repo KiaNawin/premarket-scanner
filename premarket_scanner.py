@@ -266,20 +266,43 @@ def _to_int(x) -> int | None:
     return None
 
 
-def _find_volumes(node) -> list[int]:
-    """Collect every value under a key containing 'volume' anywhere in a JSON tree."""
-    found: list[int] = []
+def _find_volumes(node, path: str = "") -> list[tuple[str, int]]:
+    """Collect (json-path, value) for every key containing 'volume' anywhere in a JSON tree."""
+    found: list[tuple[str, int]] = []
     if isinstance(node, dict):
         for k, v in node.items():
+            p = f"{path}.{k}" if path else str(k)
             if "volume" in str(k).lower():
                 n = _to_int(v)
                 if n is not None:
-                    found.append(n)
-            found += _find_volumes(v)
+                    found.append((p, n))
+            found += _find_volumes(v, p)
     elif isinstance(node, list):
-        for v in node:
-            found += _find_volumes(v)
+        for i, v in enumerate(node):
+            found += _find_volumes(v, f"{path}[{i}]")
     return found
+
+
+# --------------------------------------------------------------------------- #
+# Debug dumps: raw API responses for the first few tickers each run are saved to
+# debug/ (committed by the workflow) so data formats can be checked. DEBUG_DUMP=0 disables.
+# --------------------------------------------------------------------------- #
+DEBUG_DIR = "debug"
+DEBUG_PER_KIND = 2
+_debug_counts: dict[str, int] = {}
+
+
+def debug_dump(kind: str, ticker: str, obj) -> None:
+    if os.environ.get("DEBUG_DUMP", "1") == "0" or _debug_counts.get(kind, 0) >= DEBUG_PER_KIND:
+        return
+    _debug_counts[kind] = _debug_counts.get(kind, 0) + 1
+    try:
+        os.makedirs(DEBUG_DIR, exist_ok=True)
+        with open(os.path.join(DEBUG_DIR, f"{kind}_{_debug_counts[kind]}.json"), "w", encoding="utf-8") as f:
+            json.dump({"ticker": ticker, "saved_at_et": dt.datetime.now(ET).isoformat(timespec="seconds"),
+                       "response": obj}, f, indent=2, ensure_ascii=False, default=str)
+    except Exception as e:
+        print(f"    debug dump failed: {e}", file=sys.stderr)
 
 
 def nasdaq_premarket_volume(ticker: str) -> int | None:
@@ -288,10 +311,19 @@ def nasdaq_premarket_volume(ticker: str) -> int | None:
         r = requests.get(NASDAQ_URL.format(sym=sym), params={"assetclass": "stocks", "markettype": "pre"},
                          headers=NASDAQ_HEADERS, timeout=10)
         if not r.ok:
+            print(f"    Nasdaq volume {ticker}: HTTP {r.status_code}", file=sys.stderr)
             return None
-        vols = _find_volumes((r.json() or {}).get("data") or {})
-        return max(vols) if vols else None
-    except Exception:
+        js = r.json() or {}
+        debug_dump("nasdaq_premarket", ticker, js)
+        vols = _find_volumes(js.get("data") or {})
+        if not vols:
+            return None
+        path, best = max(vols, key=lambda pv: pv[1])
+        print(f"    Nasdaq volume {ticker}: {best:,} from '{path}' "
+              f"(all: {', '.join(f'{p}={v:,}' for p, v in vols[:6])})", file=sys.stderr)
+        return best
+    except Exception as e:
+        print(f"    Nasdaq volume {ticker}: {e}", file=sys.stderr)
         return None
 
 
@@ -347,8 +379,10 @@ def yahoo_feed_catalyst(ticker: str) -> dict | None:
     """Prefer Benzinga stories in Yahoo's ticker news feed; fall back to latest headline."""
     try:
         news = yf.Ticker(ticker).news or []
-    except Exception:
+    except Exception as e:
+        print(f"    Yahoo news {ticker}: {e}", file=sys.stderr)
         return None
+    debug_dump("yahoo_news", ticker, news[:3])
     parsed = []
     for n in news:
         c = n.get("content", n)  # yfinance >=0.2.50 nests under 'content'
@@ -371,6 +405,49 @@ def yahoo_feed_catalyst(ticker: str) -> dict | None:
             "catalyst_url": pick["url"], "catalyst_headline": pick["title"]}
 
 
+NASDAQ_NEWS_URL = "https://api.nasdaq.com/api/news/topic/articlebysymbol"
+
+
+def _find_articles(node) -> list[dict]:
+    """Every dict in the tree that has a 'title' (Nasdaq's news JSON nests rows a few levels deep)."""
+    out: list[dict] = []
+    if isinstance(node, dict):
+        if isinstance(node.get("title"), str) and node["title"].strip():
+            out.append(node)
+        for v in node.values():
+            out += _find_articles(v)
+    elif isinstance(node, list):
+        for v in node:
+            out += _find_articles(v)
+    return out
+
+
+def nasdaq_news_catalyst(ticker: str) -> dict | None:
+    sym = ticker.replace("-", ".")
+    try:
+        r = requests.get(NASDAQ_NEWS_URL, params={"q": f"{sym}|stocks", "offset": 0, "limit": 10, "fallback": "false"},
+                         headers=NASDAQ_HEADERS, timeout=10)
+        if not r.ok:
+            print(f"    Nasdaq news {ticker}: HTTP {r.status_code}", file=sys.stderr)
+            return None
+        js = r.json() or {}
+        debug_dump("nasdaq_news", ticker, js)
+        arts = _find_articles(js.get("data") or {})
+    except Exception as e:
+        print(f"    Nasdaq news {ticker}: {e}", file=sys.stderr)
+        return None
+    if not arts:
+        return None
+    bz = [a for a in arts if "benzinga" in str(a.get("publisher", "")).lower()]
+    a = (bz or arts)[0]
+    url = a.get("url") or ""
+    if url.startswith("/"):
+        url = "https://www.nasdaq.com" + url
+    sentence = one_sentence(a.get("summary") or "") or one_sentence(a["title"])
+    return {"catalyst": sentence, "catalyst_source": a.get("publisher") or "Nasdaq",
+            "catalyst_url": url or None, "catalyst_headline": a["title"]}
+
+
 def get_catalyst(ticker: str, today: dt.date, api_key: str | None) -> dict:
     if api_key:
         try:
@@ -379,9 +456,12 @@ def get_catalyst(ticker: str, today: dt.date, api_key: str | None) -> dict:
                 return res
         except Exception as e:
             print(f"    Benzinga API error for {ticker}: {e}", file=sys.stderr)
-    res = yahoo_feed_catalyst(ticker)
-    if res:
-        return res
+    for source in (yahoo_feed_catalyst, nasdaq_news_catalyst):
+        res = source(ticker)
+        if res:
+            print(f"    catalyst {ticker}: {res['catalyst_source']}", file=sys.stderr)
+            return res
+    print(f"    catalyst {ticker}: none found", file=sys.stderr)
     return {"catalyst": "No recent news catalyst found.", "catalyst_source": None,
             "catalyst_url": None, "catalyst_headline": None}
 

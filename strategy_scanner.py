@@ -90,7 +90,9 @@ def evaluate(ticker: str, daily: pd.DataFrame | None, minute: pd.DataFrame | Non
     d = _to_et(daily.dropna(subset=["Close"]))
     d = d[d.index.date < today]
     if len(d) < sma_len:
-        res["reason"] = f"Only {len(d)} daily bars (< {sma_len} needed for SMA)"
+        res["status"] = "SHORT_HISTORY"
+        res["reason"] = f"Only {len(d)} trading days of history (< {sma_len} needed for SMA{sma_len})"
+        res["history_days"] = len(d)
         return res
     y_high = float(d["High"].iloc[-1])
     y_close = float(d["Close"].iloc[-1])

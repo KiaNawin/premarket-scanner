@@ -152,8 +152,10 @@ def section_b(rep: dict | None, note: str | None = None) -> str:
             st = r.get("status")
             if st == "WAITING":
                 why = "waiting 10:00" if "10:00" in (r.get("reason") or "") else "waiting"
+            elif st == "SHORT_HISTORY":
+                why = f"{r.get('history_days', '?')}d history, need 200 for SMA"
             elif st == "NO_DATA":
-                why = "no data"
+                why = "no price data"
             else:
                 fails = [lab for k, lab in _FAIL_LABELS.items() if not (r.get("checks_now") or {}).get(k, True)]
                 why = ", ".join(fails) or "no closed-bar signal yet"
