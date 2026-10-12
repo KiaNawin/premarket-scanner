@@ -1,13 +1,120 @@
 {
   "scan_date": "2026-10-12",
-  "generated_at_et": "2026-10-12 12:10:55 EDT",
-  "scan_time_et": "12:10",
+  "generated_at_et": "2026-10-12 13:00:03 EDT",
+  "scan_time_et": "13:00",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
     "min_premarket_volume": 50000
   },
+  "funnel": {
+    "universe": 7109,
+    "prefilter": 386,
+    "with_data": 340,
+    "gap": 29,
+    "gap_price": 29,
+    "passed": 8,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
   "symbols_scanned": 7109,
-  "count": 0,
-  "results": []
+  "count": 8,
+  "results": [
+    {
+      "ticker": "MNDR",
+      "price": 4.07,
+      "gap_pct": 378.81,
+      "catalyst": "Why FuelCell EnergyStock Dropped on Monday.",
+      "prev_close": 0.85,
+      "premarket_volume": 57162009,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Why FuelCell EnergyStock Dropped on Monday",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-fuelcell-energystock-dropped-monday"
+    },
+    {
+      "ticker": "GIXI",
+      "price": 5.58,
+      "gap_pct": 43.44,
+      "catalyst": "Why FuelCell EnergyStock Dropped on Monday.",
+      "prev_close": 3.89,
+      "premarket_volume": 12001882,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Why FuelCell EnergyStock Dropped on Monday",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-fuelcell-energystock-dropped-monday"
+    },
+    {
+      "ticker": "GRML",
+      "price": 6.25,
+      "gap_pct": 20.89,
+      "catalyst": "SRX Global Liquidates 2 Portfolio Investments, Adds Onconetix Ahead Of Realbotix Deal.",
+      "prev_close": 5.17,
+      "premarket_volume": 112569,
+      "session": "regular",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "SRX Global Liquidates 2 Portfolio Investments, Adds Onconetix Ahead Of Realbotix Deal ",
+      "catalyst_url": "https://www.nasdaq.com/articles/srx-global-liquidates-2-portfolio-investments-adds-onconetix-ahead-realbotix-deal"
+    },
+    {
+      "ticker": "CCC",
+      "price": 7.7,
+      "gap_pct": 9.76,
+      "catalyst": "CCC Intelligent Solutions Holdings Inc.",
+      "prev_close": 7.02,
+      "premarket_volume": 1291173,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "CCC Intelligent Solutions Holdings Inc. (CCCS) Matches Q3 Earnings Estimates",
+      "catalyst_url": "https://www.nasdaq.com/articles/ccc-intelligent-solutions-holdings-inc-cccs-matches-q3-earnings-estimates"
+    },
+    {
+      "ticker": "TRAX",
+      "price": 34.58,
+      "gap_pct": 8.59,
+      "catalyst": "Stocks Pressured by Rising Crude Prices and Chipmaker Weakness.",
+      "prev_close": 31.85,
+      "premarket_volume": 1360406,
+      "session": "regular",
+      "catalyst_source": "Barchart",
+      "catalyst_headline": "Stocks Pressured by Rising Crude Prices and Chipmaker Weakness",
+      "catalyst_url": "https://www.nasdaq.com/articles/stocks-pressured-rising-crude-prices-and-chipmaker-weakness"
+    },
+    {
+      "ticker": "MEDS",
+      "price": 3.18,
+      "gap_pct": 7.6,
+      "catalyst": "DataMeds' Helomics Secures Humana Medicaid Coverage For ChemoFx Cancer Assay; Stock Up.",
+      "prev_close": 2.96,
+      "premarket_volume": 14668523,
+      "session": "regular",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "DataMeds' Helomics Secures Humana Medicaid Coverage For ChemoFx Cancer Assay; Stock Up ",
+      "catalyst_url": "https://www.nasdaq.com/articles/datameds-helomics-secures-humana-medicaid-coverage-chemofx-cancer-assay-stock"
+    },
+    {
+      "ticker": "BORR",
+      "price": 5.07,
+      "gap_pct": 6.04,
+      "catalyst": "Monday Sector Leaders: Hospital & Medical Practitioners, Oil & Gas Exploration & Production Stocks.",
+      "prev_close": 4.78,
+      "premarket_volume": 229312,
+      "session": "regular",
+      "catalyst_source": "BNK Invest",
+      "catalyst_headline": "Monday Sector Leaders: Hospital & Medical Practitioners, Oil & Gas Exploration & Production Stocks  ",
+      "catalyst_url": "https://www.nasdaq.com/articles/monday-sector-leaders-hospital-medical-practitioners-oil-gas-exploration-production-stocks"
+    },
+    {
+      "ticker": "DHT",
+      "price": 25.89,
+      "gap_pct": 5.05,
+      "catalyst": "$285 million, 10.3%, and 0.163: One of These Numbers Is the Real Reason This Energy Stock Is a Screaming Buy Right Now.",
+      "prev_close": 24.64,
+      "premarket_volume": 131560,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "$285 million, 10.3%, and 0.163: One of These Numbers Is the Real Reason This Energy Stock Is a Screaming Buy Right Now.",
+      "catalyst_url": "https://www.nasdaq.com/articles/285-million-103-and-0163-one-these-numbers-real-reason-energy-stock-screaming-buy-right"
+    }
+  ]
 }

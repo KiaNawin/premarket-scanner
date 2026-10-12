@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-12",
-  "generated_at_et": "2026-10-12 12:10:55 EDT",
+  "generated_at_et": "2026-10-12 13:00:04 EDT",
   "source_premarket_file": "premarket_scan_2026-10-12.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,9 +10,154 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 0,
+  "candidates": 8,
   "valid_count": 0,
   "valid_entries": [],
-  "evaluated": [],
-  "scan_time_et": "12:10"
+  "evaluated": [
+    {
+      "ticker": "BORR",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 4.8,
+      "yesterday_close": 4.78,
+      "sma200": 4.8755,
+      "premarket_high": 4.9491,
+      "last_price": 5.07,
+      "last_bar_et": "12:59",
+      "high_of_day": 5.23,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.04,
+      "catalyst": "Monday Sector Leaders: Hospital & Medical Practitioners, Oil & Gas Exploration & Production Stocks."
+    },
+    {
+      "ticker": "CCC",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "yesterday_high": 7.18,
+      "yesterday_close": 7.02,
+      "sma200": 6.1093,
+      "premarket_high": 7.88,
+      "last_price": 7.705,
+      "last_bar_et": "12:59",
+      "high_of_day": 7.77,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 9.76,
+      "catalyst": "CCC Intelligent Solutions Holdings Inc."
+    },
+    {
+      "ticker": "DHT",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "yesterday_high": 25.04,
+      "yesterday_close": 24.64,
+      "sma200": 17.8383,
+      "premarket_high": 26.0,
+      "last_price": 25.915,
+      "last_bar_et": "12:59",
+      "high_of_day": 26.47,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 5.05,
+      "catalyst": "$285 million, 10.3%, and 0.163: One of These Numbers Is the Real Reason This Energy Stock Is a Screaming Buy Right Now."
+    },
+    {
+      "ticker": "GIXI",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 27 trading days of history (< 200 needed for SMA200)",
+      "history_days": 27,
+      "gap_pct": 43.44,
+      "catalyst": "Why FuelCell EnergyStock Dropped on Monday."
+    },
+    {
+      "ticker": "GRML",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 6.28,
+      "yesterday_close": 5.17,
+      "sma200": 14.542,
+      "premarket_high": 5.21,
+      "last_price": 6.205,
+      "last_bar_et": "12:59",
+      "high_of_day": 6.57,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 20.89,
+      "catalyst": "SRX Global Liquidates 2 Portfolio Investments, Adds Onconetix Ahead Of Realbotix Deal."
+    },
+    {
+      "ticker": "MEDS",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 3.3,
+      "yesterday_close": 2.96,
+      "sma200": 7.2135,
+      "premarket_high": 4.6999,
+      "last_price": 3.19,
+      "last_bar_et": "12:59",
+      "high_of_day": 3.8,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.6,
+      "catalyst": "DataMeds' Helomics Secures Humana Medicaid Coverage For ChemoFx Cancer Assay; Stock Up."
+    },
+    {
+      "ticker": "MNDR",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 0.9,
+      "yesterday_close": 0.85,
+      "sma200": 4.201,
+      "premarket_high": 2.89,
+      "last_price": 4.015,
+      "last_bar_et": "13:00",
+      "high_of_day": 5.67,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 378.81,
+      "catalyst": "Why FuelCell EnergyStock Dropped on Monday."
+    },
+    {
+      "ticker": "TRAX",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 131 trading days of history (< 200 needed for SMA200)",
+      "history_days": 131,
+      "gap_pct": 8.59,
+      "catalyst": "Stocks Pressured by Rising Crude Prices and Chipmaker Weakness."
+    }
+  ],
+  "scan_time_et": "13:00"
 }
