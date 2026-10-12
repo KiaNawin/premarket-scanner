@@ -315,13 +315,14 @@ def nasdaq_premarket_volume(ticker: str) -> int | None:
             return None
         js = r.json() or {}
         debug_dump("nasdaq_premarket", ticker, js)
-        vols = _find_volumes(js.get("data") or {})
-        if not vols:
-            return None
-        path, best = max(vols, key=lambda pv: pv[1])
-        print(f"    Nasdaq volume {ticker}: {best:,} from '{path}' "
-              f"(all: {', '.join(f'{p}={v:,}' for p, v in vols[:6])})", file=sys.stderr)
-        return best
+        data = js.get("data") or {}
+        rows = ((data.get("infoTable") or {}).get("rows") or [])
+        if rows and _to_int(rows[0].get("volume")) is not None:      # "Pre-Market Share Volume"
+            vol = _to_int(rows[0]["volume"])
+            print(f"    Nasdaq PM volume {ticker}: {vol:,}", file=sys.stderr)
+            return vol
+        print(f"    Nasdaq PM volume {ticker}: field not found", file=sys.stderr)
+        return None
     except Exception as e:
         print(f"    Nasdaq volume {ticker}: {e}", file=sys.stderr)
         return None
@@ -422,7 +423,11 @@ def _find_articles(node) -> list[dict]:
     return out
 
 
-def nasdaq_news_catalyst(ticker: str) -> dict | None:
+NEWS_MAX_AGE_DAYS = 3
+
+
+def nasdaq_news_catalyst(ticker: str, today: dt.date | None = None) -> dict | None:
+    today = today or dt.datetime.now(ET).date()
     sym = ticker.replace("-", ".")
     try:
         r = requests.get(NASDAQ_NEWS_URL, params={"q": f"{sym}|stocks", "offset": 0, "limit": 10, "fallback": "false"},
@@ -436,15 +441,26 @@ def nasdaq_news_catalyst(ticker: str) -> dict | None:
     except Exception as e:
         print(f"    Nasdaq news {ticker}: {e}", file=sys.stderr)
         return None
-    if not arts:
-        return None
-    bz = [a for a in arts if "benzinga" in str(a.get("publisher", "")).lower()]
-    a = (bz or arts)[0]
+    tag, low = f"{sym.lower()}|stocks", sym.lower()
+
+    def recent(a) -> bool:
+        try:
+            return (today - dt.datetime.strptime(a.get("created", ""), "%b %d, %Y").date()).days <= NEWS_MAX_AGE_DAYS
+        except ValueError:
+            return True
+
+    primary = [a for a in arts if str(a.get("primarysymbol", "")).lower() == low and recent(a)]
+    focused = [a for a in arts if tag in (a.get("related_symbols") or []) and len(a.get("related_symbols") or []) <= 3
+               and recent(a)]
+    pool = primary or focused
+    if not pool:
+        return None          # only market-wide articles: better "none" than a wrong catalyst
+    bz = [a for a in pool if "benzinga" in str(a.get("publisher", "")).lower()]
+    a = (bz or pool)[0]
     url = a.get("url") or ""
     if url.startswith("/"):
         url = "https://www.nasdaq.com" + url
-    sentence = one_sentence(a.get("summary") or "") or one_sentence(a["title"])
-    return {"catalyst": sentence, "catalyst_source": a.get("publisher") or "Nasdaq",
+    return {"catalyst": one_sentence(a["title"]), "catalyst_source": a.get("publisher") or "Nasdaq",
             "catalyst_url": url or None, "catalyst_headline": a["title"]}
 
 
@@ -456,7 +472,7 @@ def get_catalyst(ticker: str, today: dt.date, api_key: str | None) -> dict:
                 return res
         except Exception as e:
             print(f"    Benzinga API error for {ticker}: {e}", file=sys.stderr)
-    for source in (yahoo_feed_catalyst, nasdaq_news_catalyst):
+    for source in (yahoo_feed_catalyst, lambda t: nasdaq_news_catalyst(t, today)):
         res = source(ticker)
         if res:
             print(f"    catalyst {ticker}: {res['catalyst_source']}", file=sys.stderr)
@@ -545,8 +561,7 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
     gapped = [r for r in rows if r["gap_pct"] > min_gap]
     gp = [r for r in gapped if r["price"] > min_price]
     volume_status = "yahoo"
-    if len(gp) >= VOLUME_CHECK_MIN and not any((r["premarket_volume"] or 0) > 0 for r in gp):
-        print(f"Yahoo reports 0 pre-market volume for all {len(gp)} gappers — trying Nasdaq…", file=sys.stderr)
+    if gp:
         got = 0
         for r in gp[:NASDAQ_MAX_LOOKUPS]:
             v = nasdaq_premarket_volume(r["ticker"])
@@ -554,7 +569,7 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
                 r["premarket_volume"], got = v, got + 1
         if got:
             volume_status = "nasdaq"
-        else:
+        elif len(gp) >= VOLUME_CHECK_MIN and not any((r["premarket_volume"] or 0) > 0 for r in gp):
             volume_status = "unavailable"
             for r in gp:
                 r["premarket_volume"] = None
