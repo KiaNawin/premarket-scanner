@@ -1,0 +1,144 @@
+{
+  "scan_date": "2026-10-14",
+  "generated_at_et": "2026-10-14 13:03:45 EDT",
+  "scan_time_et": "13:03",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7103,
+    "prefilter": 530,
+    "with_data": 495,
+    "gap": 36,
+    "gap_price": 33,
+    "passed": 10,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7103,
+  "count": 10,
+  "results": [
+    {
+      "ticker": "AEHL",
+      "price": 25.04,
+      "gap_pct": 192.89,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 8.55,
+      "premarket_volume": 3172648,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "GLND",
+      "price": 3.92,
+      "gap_pct": 77.25,
+      "catalyst": "Pre-Market Most Active for Oct 14, 2026 : GLND, NOK, SQQQ, TLT, KVUE, TQQQ, INTC, RIG, CRWV, BAC, AEG, IONQ.",
+      "prev_close": 2.21,
+      "premarket_volume": 61492116,
+      "session": "regular",
+      "catalyst_source": "NASDAQ.com",
+      "catalyst_headline": "Pre-Market Most Active for Oct 14, 2026 :  GLND, NOK, SQQQ, TLT, KVUE, TQQQ, INTC, RIG, CRWV, BAC, AEG, IONQ",
+      "catalyst_url": "https://www.nasdaq.com/articles/pre-market-most-active-oct-14-2026-glnd-nok-sqqq-tlt-kvue-tqqq-intc-rig-crwv-bac-aeg-ionq"
+    },
+    {
+      "ticker": "BSP",
+      "price": 55.16,
+      "gap_pct": 45.69,
+      "catalyst": "Why Bending Spoons Stock Popped Today.",
+      "prev_close": 37.86,
+      "premarket_volume": 1161769,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Why Bending Spoons Stock Popped Today",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-bending-spoons-stock-popped-today"
+    },
+    {
+      "ticker": "LQDA",
+      "price": 33.94,
+      "gap_pct": 26.59,
+      "catalyst": "Liquidia Settles All Litigation With United Therapeutics; Shares Rise.",
+      "prev_close": 26.81,
+      "premarket_volume": 3474638,
+      "session": "regular",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Liquidia Settles All Litigation With United Therapeutics; Shares Rise ",
+      "catalyst_url": "https://www.nasdaq.com/articles/liquidia-settles-all-litigation-united-therapeutics-shares-rise"
+    },
+    {
+      "ticker": "GRML",
+      "price": 6.82,
+      "gap_pct": 23.1,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.54,
+      "premarket_volume": 12330831,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CANG",
+      "price": 3.84,
+      "gap_pct": 9.67,
+      "catalyst": "New Strong Sell Stocks for October 13th.",
+      "prev_close": 3.5,
+      "premarket_volume": 65862,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "New Strong Sell Stocks for October 13th",
+      "catalyst_url": "https://www.nasdaq.com/articles/new-strong-sell-stocks-october-13th"
+    },
+    {
+      "ticker": "GIXI",
+      "price": 4.2,
+      "gap_pct": 8.53,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.87,
+      "premarket_volume": 129510,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "VSTM",
+      "price": 8.08,
+      "gap_pct": 8.46,
+      "catalyst": "Verastem Surges Ahead With VS-7375 Cancer Data, $250M Offering And New CEO Appointment.",
+      "prev_close": 7.45,
+      "premarket_volume": 4675974,
+      "session": "regular",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Verastem Surges Ahead With VS-7375 Cancer Data, $250M Offering And New CEO Appointment ",
+      "catalyst_url": "https://www.nasdaq.com/articles/verastem-surges-ahead-vs-7375-cancer-data-250m-offering-and-new-ceo-appointment"
+    },
+    {
+      "ticker": "BKYI",
+      "price": 3.05,
+      "gap_pct": 7.86,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 2.83,
+      "premarket_volume": 585589,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "GFS",
+      "price": 49.6,
+      "gap_pct": 6.21,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 46.7,
+      "premarket_volume": 665064,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    }
+  ]
+}

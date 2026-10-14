@@ -1,0 +1,193 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-14",
+  "generated_at_et": "2026-10-14 13:05:00 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-14.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 10,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "AEHL",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 9.2,
+      "yesterday_close": 8.55,
+      "sma200": 34.4582,
+      "premarket_high": 29.76,
+      "last_price": 25.7921,
+      "last_bar_et": "13:04",
+      "high_of_day": 30.6,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 192.89,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BKYI",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 4.3,
+      "yesterday_close": 2.83,
+      "sma200": 4.7682,
+      "premarket_high": 2.9,
+      "last_price": 3.0301,
+      "last_bar_et": "13:04",
+      "high_of_day": 3.1,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.86,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BSP",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 73 trading days of history (< 200 needed for SMA200)",
+      "history_days": 73,
+      "gap_pct": 45.69,
+      "catalyst": "Why Bending Spoons Stock Popped Today."
+    },
+    {
+      "ticker": "CANG",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 3.8,
+      "yesterday_close": 3.5,
+      "sma200": 5.2359,
+      "premarket_high": 3.7,
+      "last_price": 3.8251,
+      "last_bar_et": "13:03",
+      "high_of_day": 3.855,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.67,
+      "catalyst": "New Strong Sell Stocks for October 13th."
+    },
+    {
+      "ticker": "GFS",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 48.44,
+      "yesterday_close": 46.7,
+      "sma200": 54.6684,
+      "premarket_high": 53.0,
+      "last_price": 49.025,
+      "last_bar_et": "13:04",
+      "high_of_day": 49.8,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.21,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GIXI",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 29 trading days of history (< 200 needed for SMA200)",
+      "history_days": 29,
+      "gap_pct": 8.53,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GLND",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 142 trading days of history (< 200 needed for SMA200)",
+      "history_days": 142,
+      "gap_pct": 77.25,
+      "catalyst": "Pre-Market Most Active for Oct 14, 2026 : GLND, NOK, SQQQ, TLT, KVUE, TQQQ, INTC, RIG, CRWV, BAC, AEG, IONQ."
+    },
+    {
+      "ticker": "GRML",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 5.88,
+      "yesterday_close": 5.54,
+      "sma200": 14.4175,
+      "premarket_high": 8.0699,
+      "last_price": 6.8799,
+      "last_bar_et": "13:04",
+      "high_of_day": 7.53,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 23.1,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "LQDA",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 27.4,
+      "yesterday_close": 26.81,
+      "sma200": 53.9276,
+      "premarket_high": 43.5,
+      "last_price": 33.83,
+      "last_bar_et": "13:04",
+      "high_of_day": 38.64,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 26.59,
+      "catalyst": "Liquidia Settles All Litigation With United Therapeutics; Shares Rise."
+    },
+    {
+      "ticker": "VSTM",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "yesterday_high": 8.2,
+      "yesterday_close": 7.45,
+      "sma200": 6.0405,
+      "premarket_high": 9.24,
+      "last_price": 8.085,
+      "last_bar_et": "13:04",
+      "high_of_day": 8.955,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 8.46,
+      "catalyst": "Verastem Surges Ahead With VS-7375 Cancer Data, $250M Offering And New CEO Appointment."
+    }
+  ],
+  "scan_time_et": "13:05"
+}
