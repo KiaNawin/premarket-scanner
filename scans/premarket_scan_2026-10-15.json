@@ -1,0 +1,144 @@
+{
+  "scan_date": "2026-10-15",
+  "generated_at_et": "2026-10-15 12:53:44 EDT",
+  "scan_time_et": "12:53",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7105,
+    "prefilter": 565,
+    "with_data": 399,
+    "gap": 190,
+    "gap_price": 185,
+    "passed": 10,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7105,
+  "count": 10,
+  "results": [
+    {
+      "ticker": "ERIC",
+      "price": 10.39,
+      "gap_pct": 8.4,
+      "catalyst": "Ericsson (ERIC) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 9.58,
+      "premarket_volume": 3914806,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Ericsson (ERIC) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/ericsson-eric-q3-2026-earnings-call-transcript"
+    },
+    {
+      "ticker": "AEHL",
+      "price": 12.45,
+      "gap_pct": 8.36,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 11.49,
+      "premarket_volume": 176675,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CRCL",
+      "price": 85.34,
+      "gap_pct": 7.28,
+      "catalyst": "Why Circle Internet Group, Inc.",
+      "prev_close": 79.55,
+      "premarket_volume": 754880,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Why Circle Internet Group, Inc. (CRCL) is Poised to Beat Earnings Estimates Again",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-circle-internet-group-inc-crcl-poised-beat-earnings-estimates-again"
+    },
+    {
+      "ticker": "FIGR",
+      "price": 26.45,
+      "gap_pct": 5.59,
+      "catalyst": "Notable Wednesday Option Activity: FIGR, RH, LAD.",
+      "prev_close": 25.05,
+      "premarket_volume": 107573,
+      "session": "regular",
+      "catalyst_source": "BNK Invest",
+      "catalyst_headline": "Notable Wednesday Option Activity: FIGR, RH, LAD",
+      "catalyst_url": "https://www.nasdaq.com/articles/notable-wednesday-option-activity-figr-rh-lad"
+    },
+    {
+      "ticker": "FIG",
+      "price": 22.67,
+      "gap_pct": 5.52,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 21.48,
+      "premarket_volume": 113228,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CRML",
+      "price": 6.61,
+      "gap_pct": 5.51,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 6.26,
+      "premarket_volume": 294939,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CANG",
+      "price": 3.87,
+      "gap_pct": 5.45,
+      "catalyst": "New Strong Sell Stocks for October 13th.",
+      "prev_close": 3.67,
+      "premarket_volume": 118337,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "New Strong Sell Stocks for October 13th",
+      "catalyst_url": "https://www.nasdaq.com/articles/new-strong-sell-stocks-october-13th"
+    },
+    {
+      "ticker": "APP",
+      "price": 276.28,
+      "gap_pct": 5.37,
+      "catalyst": "AppLovin vs.",
+      "prev_close": 262.19,
+      "premarket_volume": 60681,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy in 2026?",
+      "catalyst_url": "https://www.nasdaq.com/articles/applovin-vs-reddit-which-technology-stock-better-buy-2026-1"
+    },
+    {
+      "ticker": "CPB",
+      "price": 20.1,
+      "gap_pct": 5.26,
+      "catalyst": "General Mills Q1 Beat Masks Earnings Pressure While Guidance Holds.",
+      "prev_close": 19.1,
+      "premarket_volume": 52357,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "General Mills Q1 Beat Masks Earnings Pressure While Guidance Holds",
+      "catalyst_url": "https://www.nasdaq.com/articles/general-mills-q1-beat-masks-earnings-pressure-while-guidance-holds"
+    },
+    {
+      "ticker": "CPRT",
+      "price": 27.62,
+      "gap_pct": 5.16,
+      "catalyst": "Why CCC Intelligent Solutions Stock Soared Today.",
+      "prev_close": 26.27,
+      "premarket_volume": 97034,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Why CCC Intelligent Solutions Stock Soared Today",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-ccc-intelligent-solutions-stock-soared-today"
+    }
+  ]
+}

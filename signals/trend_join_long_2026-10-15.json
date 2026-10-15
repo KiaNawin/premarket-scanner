@@ -1,0 +1,229 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-15",
+  "generated_at_et": "2026-10-15 12:53:45 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-15.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 10,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "AEHL",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 30.6,
+      "yesterday_close": 11.49,
+      "sma200": 33.8965,
+      "premarket_high": 11.5,
+      "last_price": 12.71,
+      "last_bar_et": "12:52",
+      "high_of_day": 14.85,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.36,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "APP",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 273.0,
+      "yesterday_close": 262.19,
+      "sma200": 438.9691,
+      "premarket_high": 261.36,
+      "last_price": 275.88,
+      "last_bar_et": "12:53",
+      "high_of_day": 278.62,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.37,
+      "catalyst": "AppLovin vs."
+    },
+    {
+      "ticker": "CANG",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 3.86,
+      "yesterday_close": 3.67,
+      "sma200": 5.1847,
+      "premarket_high": 3.8,
+      "last_price": 3.87,
+      "last_bar_et": "12:52",
+      "high_of_day": 4.09,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.45,
+      "catalyst": "New Strong Sell Stocks for October 13th."
+    },
+    {
+      "ticker": "CPB",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 19.19,
+      "yesterday_close": 19.1,
+      "sma200": 22.8467,
+      "premarket_high": 19.45,
+      "last_price": 20.075,
+      "last_bar_et": "12:53",
+      "high_of_day": 20.5,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.26,
+      "catalyst": "General Mills Q1 Beat Masks Earnings Pressure While Guidance Holds."
+    },
+    {
+      "ticker": "CPRT",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 26.35,
+      "yesterday_close": 26.27,
+      "sma200": 33.0037,
+      "premarket_high": 26.97,
+      "last_price": 27.535,
+      "last_bar_et": "12:53",
+      "high_of_day": 27.71,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.16,
+      "catalyst": "Why CCC Intelligent Solutions Stock Soared Today."
+    },
+    {
+      "ticker": "CRCL",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 84.0,
+      "yesterday_close": 79.55,
+      "sma200": 86.0377,
+      "premarket_high": 77.5399,
+      "last_price": 85.055,
+      "last_bar_et": "12:53",
+      "high_of_day": 85.575,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.28,
+      "catalyst": "Why Circle Internet Group, Inc."
+    },
+    {
+      "ticker": "CRML",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 6.81,
+      "yesterday_close": 6.26,
+      "sma200": 9.5548,
+      "premarket_high": 6.31,
+      "last_price": 6.5992,
+      "last_bar_et": "12:53",
+      "high_of_day": 6.66,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.51,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "ERIC",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 9.71,
+      "yesterday_close": 9.58,
+      "sma200": 10.8884,
+      "premarket_high": 10.78,
+      "last_price": 10.35,
+      "last_bar_et": "12:53",
+      "high_of_day": 10.66,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.4,
+      "catalyst": "Ericsson (ERIC) Q3 2026 Earnings Call Transcript."
+    },
+    {
+      "ticker": "FIG",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 21.94,
+      "yesterday_close": 21.48,
+      "sma200": 23.9123,
+      "premarket_high": 21.49,
+      "last_price": 22.615,
+      "last_bar_et": "12:53",
+      "high_of_day": 23.09,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.52,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "FIGR",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 26.6,
+      "yesterday_close": 25.05,
+      "sma200": 35.9101,
+      "premarket_high": 25.05,
+      "last_price": 26.355,
+      "last_bar_et": "12:53",
+      "high_of_day": 26.45,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.59,
+      "catalyst": "Notable Wednesday Option Activity: FIGR, RH, LAD."
+    }
+  ],
+  "scan_time_et": "12:53"
+}
