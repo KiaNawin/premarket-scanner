@@ -1,0 +1,72 @@
+{
+  "scan_date": "2026-10-16",
+  "generated_at_et": "2026-10-16 12:32:18 EDT",
+  "scan_time_et": "12:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7107,
+    "prefilter": 456,
+    "with_data": 413,
+    "gap": 20,
+    "gap_price": 17,
+    "passed": 4,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7107,
+  "count": 4,
+  "results": [
+    {
+      "ticker": "IAM",
+      "price": 23.21,
+      "gap_pct": 22.74,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 18.91,
+      "premarket_volume": 50670,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "SITC",
+      "price": 3.53,
+      "gap_pct": 17.11,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.01,
+      "premarket_volume": 491009,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "QXL",
+      "price": 4.2,
+      "gap_pct": 8.28,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.88,
+      "premarket_volume": 51691,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "AA",
+      "price": 42.78,
+      "gap_pct": 5.83,
+      "catalyst": "Why Alcoa Stock Popped on Friday.",
+      "prev_close": 40.42,
+      "premarket_volume": 167255,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Why Alcoa Stock Popped on Friday",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-alcoa-stock-popped-friday"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-16",
+  "generated_at_et": "2026-10-16 12:35:00 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-16.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 4,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "AA",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 40.68,
+      "yesterday_close": 40.42,
+      "sma200": 57.5811,
+      "premarket_high": 41.85,
+      "last_price": 42.73,
+      "last_bar_et": "12:34",
+      "high_of_day": 44.348,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.83,
+      "catalyst": "Why Alcoa Stock Popped on Friday."
+    },
+    {
+      "ticker": "IAM",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 1 trading days of history (< 200 needed for SMA200)",
+      "history_days": 1,
+      "gap_pct": 22.74,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "QXL",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "yesterday_high": 4.1996,
+      "yesterday_close": 3.879,
+      "sma200": 3.5063,
+      "premarket_high": 4.79,
+      "last_price": 4.2,
+      "last_bar_et": "12:24",
+      "high_of_day": 4.5,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 8.28,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "SITC",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 3.08,
+      "yesterday_close": 3.01,
+      "sma200": 4.8335,
+      "premarket_high": 3.65,
+      "last_price": 3.515,
+      "last_bar_et": "12:34",
+      "high_of_day": 3.645,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 17.11,
+      "catalyst": "No recent news catalyst found."
+    }
+  ],
+  "scan_time_et": "12:35"
+}
