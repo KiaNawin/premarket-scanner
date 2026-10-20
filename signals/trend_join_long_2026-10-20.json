@@ -1,0 +1,401 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-20",
+  "generated_at_et": "2026-10-20 12:52:26 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-20.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 17,
+  "valid_count": 4,
+  "valid_entries": [
+    {
+      "ticker": "BB",
+      "signal_time_et": "2026-10-20 10:00",
+      "entry_price": 8.28,
+      "last_price": 8.65,
+      "gap_pct": 5.94,
+      "yesterday_high": 8.26,
+      "yesterday_close": 8.16,
+      "sma200": 6.6315,
+      "premarket_high": 8.1218,
+      "hod_before_signal": 8.26,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BMNR",
+      "signal_time_et": "2026-10-20 10:00",
+      "entry_price": 22.185,
+      "last_price": 23.105,
+      "gap_pct": 6.28,
+      "yesterday_high": 22.15,
+      "yesterday_close": 21.57,
+      "sma200": 21.3668,
+      "premarket_high": 21.71,
+      "hod_before_signal": 22.0963,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BNC",
+      "signal_time_et": "2026-10-20 10:12",
+      "entry_price": 5.01,
+      "last_price": 5.14,
+      "gap_pct": 10.28,
+      "yesterday_high": 4.84,
+      "yesterday_close": 4.67,
+      "sma200": 3.6611,
+      "premarket_high": 5.0,
+      "hod_before_signal": 5.0,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "HIMS",
+      "signal_time_et": "2026-10-20 10:28",
+      "entry_price": 29.07,
+      "last_price": 29.61,
+      "gap_pct": 6.09,
+      "yesterday_high": 29.0,
+      "yesterday_close": 28.15,
+      "sma200": 27.2451,
+      "premarket_high": 28.14,
+      "hod_before_signal": 28.97,
+      "catalyst": "Hims Is Reaching the Three Million Member Milestone."
+    }
+  ],
+  "evaluated": [
+    {
+      "ticker": "BB",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 8.26,
+      "yesterday_close": 8.16,
+      "sma200": 6.6315,
+      "premarket_high": 8.1218,
+      "last_price": 8.65,
+      "last_bar_et": "12:52",
+      "high_of_day": 8.745,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-20 10:00",
+      "entry_price": 8.28,
+      "hod_before_signal": 8.26,
+      "gap_pct": 5.94,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BMNR",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 22.15,
+      "yesterday_close": 21.57,
+      "sma200": 21.3668,
+      "premarket_high": 21.71,
+      "last_price": 23.105,
+      "last_bar_et": "12:52",
+      "high_of_day": 23.46,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-20 10:00",
+      "entry_price": 22.185,
+      "hod_before_signal": 22.0963,
+      "gap_pct": 6.28,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BNC",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 4.84,
+      "yesterday_close": 4.67,
+      "sma200": 3.6611,
+      "premarket_high": 5.0,
+      "last_price": 5.14,
+      "last_bar_et": "12:51",
+      "high_of_day": 5.19,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-20 10:12",
+      "entry_price": 5.01,
+      "hod_before_signal": 5.0,
+      "gap_pct": 10.28,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "HIMS",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 29.0,
+      "yesterday_close": 28.15,
+      "sma200": 27.2451,
+      "premarket_high": 28.14,
+      "last_price": 29.61,
+      "last_bar_et": "12:52",
+      "high_of_day": 30.02,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-20 10:28",
+      "entry_price": 29.07,
+      "hod_before_signal": 28.97,
+      "gap_pct": 6.09,
+      "catalyst": "Hims Is Reaching the Three Million Member Milestone."
+    },
+    {
+      "ticker": "AIBZ",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 92 trading days of history (< 200 needed for SMA200)",
+      "history_days": 92,
+      "gap_pct": 11.36,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "AIXI",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 2.88,
+      "yesterday_close": 2.2,
+      "sma200": 6.2057,
+      "premarket_high": 3.7,
+      "last_price": 3.07,
+      "last_bar_et": "12:52",
+      "high_of_day": 3.84,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 37.5,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BRZE",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "yesterday_high": 30.17,
+      "yesterday_close": 30.04,
+      "sma200": 23.9142,
+      "premarket_high": 46.0,
+      "last_price": 45.54,
+      "last_bar_et": "12:52",
+      "high_of_day": 45.59,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 51.6,
+      "catalyst": "Why Braze Stock Skyrocketed Today."
+    },
+    {
+      "ticker": "CHWY",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 20.913,
+      "yesterday_close": 20.53,
+      "sma200": 23.7734,
+      "premarket_high": 20.64,
+      "last_price": 21.595,
+      "last_bar_et": "12:52",
+      "high_of_day": 21.69,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.09,
+      "catalyst": "Chewy vs."
+    },
+    {
+      "ticker": "CRCL",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 84.801,
+      "yesterday_close": 81.37,
+      "sma200": 86.092,
+      "premarket_high": 82.07,
+      "last_price": 86.1798,
+      "last_bar_et": "12:52",
+      "high_of_day": 86.66,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.35,
+      "catalyst": "Nasdaq's CEO Says Tokenized Money Is the Key to Unlocking Tens of Billions in Trapped Capital."
+    },
+    {
+      "ticker": "EXYN",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 108 trading days of history (< 200 needed for SMA200)",
+      "history_days": 108,
+      "gap_pct": 12.68,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "FIG",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 21.845,
+      "yesterday_close": 21.54,
+      "sma200": 23.6783,
+      "premarket_high": 21.71,
+      "last_price": 22.945,
+      "last_bar_et": "12:52",
+      "high_of_day": 22.955,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.15,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GLND",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 146 trading days of history (< 200 needed for SMA200)",
+      "history_days": 146,
+      "gap_pct": 6.13,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GRML",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 5.99,
+      "yesterday_close": 5.61,
+      "sma200": 14.2276,
+      "premarket_high": 5.86,
+      "last_price": 6.19,
+      "last_bar_et": "12:52",
+      "high_of_day": 6.5,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.45,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "HAS",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "yesterday_high": 100.05,
+      "yesterday_close": 98.49,
+      "sma200": 91.0746,
+      "premarket_high": 103.0,
+      "last_price": 105.9,
+      "last_bar_et": "12:52",
+      "high_of_day": 108.2999,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 7.52,
+      "catalyst": "Hasbro Q3 26 Earnings Conference Call At 8:30 AM ET."
+    },
+    {
+      "ticker": "HSAI",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 13.34,
+      "yesterday_close": 12.92,
+      "sma200": 20.4387,
+      "premarket_high": 14.65,
+      "last_price": 14.095,
+      "last_bar_et": "12:51",
+      "high_of_day": 14.27,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.21,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "KVYO",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 17.59,
+      "yesterday_close": 17.52,
+      "sma200": 18.391,
+      "premarket_high": 20.19,
+      "last_price": 19.38,
+      "last_bar_et": "12:52",
+      "high_of_day": 19.59,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 10.02,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "LI",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 11.4,
+      "yesterday_close": 11.29,
+      "sma200": 15.0736,
+      "premarket_high": 11.68,
+      "last_price": 12.005,
+      "last_bar_et": "12:52",
+      "high_of_day": 12.03,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.2,
+      "catalyst": "No recent news catalyst found."
+    }
+  ],
+  "scan_time_et": "12:52"
+}
