@@ -1,202 +1,196 @@
 {
-  "ticker": "BRZE",
-  "saved_at_et": "2026-10-20T12:51:11-04:00",
+  "ticker": "CYPH",
+  "saved_at_et": "2026-10-21T13:07:46-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "1 hour ago",
-          "created": "Oct 20, 2026",
-          "description": "Key PointsBraze is paying $5.66 billion, or $47.50 a share for Salesforce.",
-          "id": 28578996,
+          "ago": "Oct 10, 2026",
+          "created": "Oct 10, 2026",
+          "description": "Key PointsA handful of high-profile investors have been buying Zcash and Hyperliquid lately.",
+          "id": 28520906,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
+          "primarysymbol": "",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "brze|stocks",
-            "crm|stocks"
+            "uber|stocks",
+            "btc|crypto",
+            "cyph|stocks"
           ],
-          "title": "Why Braze Stock Skyrocketed Today",
-          "url": "/articles/why-braze-stock-skyrocketed-today"
+          "title": "2 Cryptocurrencies Poised to Surge 100% in the Coming Years That Savvy Investors Are Already Buying",
+          "url": "/articles/2-cryptocurrencies-poised-surge-100-coming-years-savvy-investors-are-already-buying"
         },
         {
-          "ago": "4 hours ago",
-          "created": "Oct 20, 2026",
-          "description": "(RTTNews) - Tuesday, Salesforce, Inc. (CRM) announced an agreement to acquire Braze, Inc. (BRZE), a customer engagement platform, for approximately $5.66 billion in enterprise value.",
-          "id": 28576891,
+          "ago": "Sep 21, 2026",
+          "created": "Sep 21, 2026",
+          "description": "Key PointsBuying AI or semiconductor stocks right now means anticipating that their rapid growth rates will continue or even accelerate.",
+          "id": 28398821,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
+          "primarysymbol": "",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "btc|crypto",
+            "arm|stocks",
+            "cyph|stocks"
+          ],
+          "title": "2 Cryptocurrencies Worth Buying Over AI Stocks Right Now",
+          "url": "/articles/2-cryptocurrencies-worth-buying-over-ai-stocks-right-now"
+        },
+        {
+          "ago": "Sep 15, 2026",
+          "created": "Sep 15, 2026",
+          "description": "The average one-year price target for Cypherpunk Technologies (NASDAQCM:CYPH) has been revised to $5.00 / share. This is an increase of 206.25% from the prior estimate of $1.63 dated August 25, 2026. These figures represent aggregate analyst targets compiled by Fintel and do not",
+          "id": 28372846,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cyph",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "cyph|stocks"
+          ],
+          "title": "Cypherpunk Technologies Consensus Price Target Increased by 206.25% to $5.00",
+          "url": "/articles/cypherpunk-technologies-consensus-price-target-increased-20625-500"
+        },
+        {
+          "ago": "Sep 4, 2026",
+          "created": "Sep 4, 2026",
+          "description": "(RTTNews) - Cypherpunk Technologies Inc. (CYPH), a privacy technology company focused on its Zcash treasury strategy and privacy-focused investments, recently reported a second-quarter profit, primarily driven by an unrealized gain on the fair value of its ZEC holdings.",
+          "id": 28312571,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cyph",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "cyph|stocks"
+          ],
+          "title": "Cypherpunk Swings To Q2 Profit On Zcash Treasury Gains; Advances Phase 3 Sirexatamab Plans;Stock Up ",
+          "url": "/articles/cypherpunk-swings-q2-profit-zcash-treasury-gains-advances-phase-3-sirexatamab-plansstock"
+        },
+        {
+          "ago": "Sep 3, 2026",
+          "created": "Sep 3, 2026",
+          "description": "(RTTNews) - Today's top gainers in the biotech and healthcare space include BioXcel Therapeutics, following an asset sale agreement with Teva and Chapter 11 filing; bioAffinity Technologies, on strong CyPath Lung testing growth; Cypherpunk Technologies, amid continued Zcash treas",
+          "id": 28309256,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cyph",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "cyph|stocks"
+          ],
+          "title": "Biotech Gainers: BTAI Asset Deal, BIAF CyPath Growth, CYPH Zcash, GRI Pipeline Drive Gains ",
+          "url": "/articles/biotech-gainers-btai-asset-deal-biaf-cypath-growth-cyph-zcash-gri-pipeline-drive-gains"
+        },
+        {
+          "ago": "Aug 14, 2025",
+          "created": "Aug 14, 2025",
+          "description": "Key PointsNet loss per share (GAAP) was $(0.40) in Q2 2025, missing analyst estimates by $(0.11).",
+          "id": 25544946,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "lptx",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "cyph|stocks"
+          ],
+          "title": "Leap Therapeutics Slashes R&D Spending",
+          "url": "/articles/leap-therapeutics-slashes-rd-spending"
+        },
+        {
+          "ago": "Jun 23, 2025",
+          "created": "Jun 23, 2025",
+          "description": "(RTTNews) - Leap Therapeutics (LPTX) said it has initiated a process to explore strategic alternatives, including leveraging cash balance and exploring potential sale or partnership opportunities for sirexatamab and FL-501. The company is taking additional steps to reduce spendin",
+          "id": 25102711,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "lptx",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "cyph|stocks"
+          ],
+          "title": "Leap Therapeutics Initiates Process To Explore Strategic Options ",
+          "url": "/articles/leap-therapeutics-initiates-process-explore-strategic-options"
+        },
+        {
+          "ago": "May 13, 2025",
+          "created": "May 13, 2025",
+          "description": "(RTTNews) - Leap Therapeutics, Inc. (LPTX) (LPTX) reported Loss for first quarter that  beat the Street estimates.",
+          "id": 24799831,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "lptx",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "RTTNews",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "brze|stocks",
-            "crm|stocks"
+            "cyph|stocks"
           ],
-          "title": "Salesforce To Acquire Braze For $5.66 Bln ",
-          "url": "/articles/salesforce-acquire-braze-566-bln"
+          "title": "Leap Therapeutics, Inc. (LPTX) Q1 Loss Beats Estimates ",
+          "url": "/articles/leap-therapeutics-inc-lptx-q1-loss-beats-estimates"
         },
         {
-          "ago": "Oct 13, 2026",
-          "created": "Oct 13, 2026",
-          "description": "INTU is working to revive Mailchimp's growth as revenues decline and customer churn rises, while margin expansion, SMS adoption and retention gains offer hope.",
-          "id": 28534491,
+          "ago": "Mar 26, 2025",
+          "created": "Mar 26, 2025",
+          "description": "LEAP THERAPEUTICS ($LPTX) posted quarterly earnings results on Wednesday, March 26th. The company reported earnings of -$0.37 per share, missing estimates of -$0.37 by $0.00. The company also reported revenue of $0, equaling estimates of $0 by $0.",
+          "id": 24359296,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
+          "primarysymbol": "lptx",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "publisher": "Quiver Quantitative",
+          "publisher_logo": "",
           "related_symbols": [
-            "intu|stocks",
-            "brze|stocks",
-            "kvyo|stocks"
+            "cyph|stocks"
           ],
-          "title": "Intuit's Mailchimp Faces Headwinds: Can It Stage a Turnaround?",
-          "url": "/articles/intuits-mailchimp-faces-headwinds-can-it-stage-turnaround"
+          "title": "LEAP THERAPEUTICS Earnings Results: $LPTX Reports Quarterly Earnings",
+          "url": "/articles/leap-therapeutics-earnings-results-lptx-reports-quarterly-earnings"
         },
         {
-          "ago": "Sep 24, 2026",
-          "created": "Sep 24, 2026",
-          "description": "Zeta Global's super-scaled customer count reached 197 in Q2 2026, extending seven straight quarters of growth. Its long-term pace is expected to moderate.",
-          "id": 28425911,
+          "ago": "Mar 26, 2025",
+          "created": "Mar 26, 2025",
+          "description": "(RTTNews) - Leap Therapeutics, Inc. (LPTX) Wednesday reported positive preliminary data from DeFianCe Phase 2 study of sirexatamab, the company's most advanced drug candidate, in colorectal cancer.",
+          "id": 24353846,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "zeta|stocks",
-            "brze|stocks",
-            "kvyo|stocks"
-          ],
-          "title": "Can Super-Scaled Customer Growth Sustain ZETA's Momentum?",
-          "url": "/articles/can-super-scaled-customer-growth-sustain-zetas-momentum"
-        },
-        {
-          "ago": "Sep 18, 2026",
-          "created": "Sep 18, 2026",
-          "description": "Customer engagement software can help businesses gather and track critical data to strengthen client relationships, potentially driving higher revenue and better retention. At a time when customers are increasingly picky about how they spend their money, the customer engagement",
-          "id": 28396471,
-          "image": "/marketbeat/med_20260917153515_image-6.png",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "MarketBeat",
-          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png",
-          "related_symbols": [
-            "brze|stocks",
-            "snow|stocks",
-            "kvyo|stocks",
-            "smwb|stocks"
-          ],
-          "title": "Braze Beat Expectations—Now 2 SaaS Peers Are in Focus",
-          "url": "/articles/braze-beat-expectations-now-2-saas-peers-are-focus"
-        },
-        {
-          "ago": "Sep 12, 2026",
-          "created": "Sep 12, 2026",
-          "description": "Key PointsBraze posted better-than-expected fiscal Q2 results.",
-          "id": 28354676,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "brze|stocks"
-          ],
-          "title": "Why Braze Stock Plummeted This Week",
-          "url": "/articles/why-braze-stock-plummeted-week"
-        },
-        {
-          "ago": "Sep 10, 2026",
-          "created": "Sep 10, 2026",
-          "description": "Braze’s (NASDAQ: BRZE) September price crash looks like a buying opportunity, because the trigger for selling was questionable, and analyst activity has run counter to the move. The trigger was softer-than-expected Q3 guidance that forecast a penny less in earnings than the cons",
-          "id": 28351021,
-          "image": "/marketbeat/med_20260909124734_image.png",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "MarketBeat",
-          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png",
-          "related_symbols": [
-            "brze|stocks",
-            "amzn|stocks"
-          ],
-          "title": "Why Braze’s Guidance Miss May Be a Gift for Investors",
-          "url": "/articles/why-brazes-guidance-miss-may-be-gift-investors"
-        },
-        {
-          "ago": "Sep 9, 2026",
-          "created": "Sep 9, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28339331,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "brze|stocks"
-          ],
-          "title": "Braze (BRZE) Q2 2027 Earnings Call Transcript",
-          "url": "/articles/braze-brze-q2-2027-earnings-call-transcript"
-        },
-        {
-          "ago": "Sep 8, 2026",
-          "created": "Sep 8, 2026",
-          "description": "(RTTNews) - Below are the earnings highlights for Braze, Inc. (BRZE):",
-          "id": 28330586,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
+          "primarysymbol": "lptx",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
           "publisher": "RTTNews",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "brze|stocks"
+            "cyph|stocks"
           ],
-          "title": "Braze, Inc. Q2 Earnings Summary ",
-          "url": "/articles/braze-inc-q2-earnings-summary"
-        },
-        {
-          "ago": "Sep 8, 2026",
-          "created": "Sep 8, 2026",
-          "description": "Key PointsA mix of new customers, upsells, and renewals drove revenue 26% higher.",
-          "id": 28330321,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brze",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "brze|stocks"
-          ],
-          "title": "Why Braze Stock Tumbled by Over 5% on Tuesday",
-          "url": "/articles/why-braze-stock-tumbled-over-5-tuesday"
+          "title": "Leap Therapeutics Reports Positive DeFianCe Phase 2 Data Of Sirexatamab In Colorectal Cancer ",
+          "url": "/articles/leap-therapeutics-reports-positive-defiance-phase-2-data-sirexatamab-colorectal-cancer"
         }
       ],
-      "totalrecords": 156
+      "totalrecords": 12
     },
     "message": null,
     "status": {
