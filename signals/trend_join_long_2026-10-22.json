@@ -1,0 +1,272 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-22",
+  "generated_at_et": "2026-10-22 13:08:19 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-22.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 13,
+  "valid_count": 1,
+  "valid_entries": [
+    {
+      "ticker": "PG",
+      "signal_time_et": "2026-10-22 12:57",
+      "entry_price": 166.84,
+      "last_price": 166.435,
+      "gap_pct": 6.12,
+      "yesterday_high": 158.67,
+      "yesterday_close": 156.84,
+      "sma200": 148.2699,
+      "premarket_high": 162.78,
+      "hod_before_signal": 166.815,
+      "catalyst": "The Procter & Gamble Company Reports Fiscal Year 2027 First Quarter Net Sales of $23.3 billion."
+    }
+  ],
+  "evaluated": [
+    {
+      "ticker": "PG",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 158.67,
+      "yesterday_close": 156.84,
+      "sma200": 148.2699,
+      "premarket_high": 162.78,
+      "last_price": 166.435,
+      "last_bar_et": "13:08",
+      "high_of_day": 166.85,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-22 12:57",
+      "entry_price": 166.84,
+      "hod_before_signal": 166.815,
+      "gap_pct": 6.12,
+      "catalyst": "The Procter & Gamble Company Reports Fiscal Year 2027 First Quarter Net Sales of $23.3 billion."
+    },
+    {
+      "ticker": "ALK",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 35.86,
+      "yesterday_close": 33.54,
+      "sma200": 44.4976,
+      "premarket_high": 33.53,
+      "last_price": 35.35,
+      "last_bar_et": "13:08",
+      "high_of_day": 35.65,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.47,
+      "catalyst": "Alaska Air: 3 Key Takeaways for Long-Term Investors."
+    },
+    {
+      "ticker": "ATOM",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 3.07,
+      "yesterday_close": 3.02,
+      "sma200": 5.4727,
+      "premarket_high": 3.9699,
+      "last_price": 3.2,
+      "last_bar_et": "13:07",
+      "high_of_day": 3.5586,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.62,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "AVEX",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 130 trading days of history (< 200 needed for SMA200)",
+      "history_days": 130,
+      "gap_pct": 8.58,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BHVN",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 12.165,
+      "yesterday_close": 11.75,
+      "sma200": 12.0892,
+      "premarket_high": 18.39,
+      "last_price": 14.6075,
+      "last_bar_et": "13:08",
+      "high_of_day": 16.54,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 23.91,
+      "catalyst": "Biohaven's Troriluzole NDA Accepted For FDA Review; Decision In Q1 2027; Stock Up."
+    },
+    {
+      "ticker": "BX",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 112.0,
+      "yesterday_close": 109.57,
+      "sma200": 125.4989,
+      "premarket_high": 109.2,
+      "last_price": 116.5,
+      "last_bar_et": "13:08",
+      "high_of_day": 117.53,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.56,
+      "catalyst": "Blackstone Inc."
+    },
+    {
+      "ticker": "CSGP",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 33.29,
+      "yesterday_close": 32.9,
+      "sma200": 37.7339,
+      "premarket_high": 34.01,
+      "last_price": 34.925,
+      "last_bar_et": "13:08",
+      "high_of_day": 35.63,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.34,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "FND",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 46.07,
+      "yesterday_close": 45.11,
+      "sma200": 55.4352,
+      "premarket_high": 45.11,
+      "last_price": 47.61,
+      "last_bar_et": "13:08",
+      "high_of_day": 48.4,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.61,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GIXI",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 35 trading days of history (< 200 needed for SMA200)",
+      "history_days": 35,
+      "gap_pct": 11.5,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GLND",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 148 trading days of history (< 200 needed for SMA200)",
+      "history_days": 148,
+      "gap_pct": 6.38,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "LCID",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 3.48,
+      "yesterday_close": 3.21,
+      "sma200": 7.1379,
+      "premarket_high": 3.22,
+      "last_price": 3.515,
+      "last_bar_et": "13:08",
+      "high_of_day": 3.56,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.03,
+      "catalyst": "Lucid Group (LCID) Stock Slides as Market Rises: Facts to Know Before You Trade."
+    },
+    {
+      "ticker": "LMT",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 552.82,
+      "yesterday_close": 551.51,
+      "sma200": 565.4095,
+      "premarket_high": 580.0,
+      "last_price": 584.21,
+      "last_bar_et": "13:08",
+      "high_of_day": 608.0,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.87,
+      "catalyst": "Lockheed Martin Corporation Reports Third Quarter 2026 Financial Results."
+    },
+    {
+      "ticker": "QXO",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 10.62,
+      "yesterday_close": 10.31,
+      "sma200": 17.7649,
+      "premarket_high": 10.2483,
+      "last_price": 10.885,
+      "last_bar_et": "13:08",
+      "high_of_day": 11.11,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.87,
+      "catalyst": "No recent news catalyst found."
+    }
+  ],
+  "scan_time_et": "13:08"
+}

@@ -1,0 +1,180 @@
+{
+  "scan_date": "2026-10-22",
+  "generated_at_et": "2026-10-22 13:08:18 EDT",
+  "scan_time_et": "13:08",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7104,
+    "prefilter": 615,
+    "with_data": 470,
+    "gap": 118,
+    "gap_price": 111,
+    "passed": 13,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7104,
+  "count": 13,
+  "results": [
+    {
+      "ticker": "BHVN",
+      "price": 14.56,
+      "gap_pct": 23.91,
+      "catalyst": "Biohaven's Troriluzole NDA Accepted For FDA Review; Decision In Q1 2027; Stock Up.",
+      "prev_close": 11.75,
+      "premarket_volume": 12341184,
+      "session": "regular",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Biohaven's Troriluzole NDA Accepted For FDA Review; Decision In Q1 2027; Stock Up ",
+      "catalyst_url": "https://www.nasdaq.com/articles/biohavens-troriluzole-nda-accepted-fda-review-decision-q1-2027-stock"
+    },
+    {
+      "ticker": "GIXI",
+      "price": 4.46,
+      "gap_pct": 11.5,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 4.0,
+      "premarket_volume": 6264117,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "AVEX",
+      "price": 10.51,
+      "gap_pct": 8.58,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 9.68,
+      "premarket_volume": 530990,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "LCID",
+      "price": 3.47,
+      "gap_pct": 8.03,
+      "catalyst": "Lucid Group (LCID) Stock Slides as Market Rises: Facts to Know Before You Trade.",
+      "prev_close": 3.21,
+      "premarket_volume": 144006,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Lucid Group (LCID) Stock Slides as Market Rises: Facts to Know Before You Trade",
+      "catalyst_url": "https://www.nasdaq.com/articles/lucid-group-lcid-stock-slides-market-rises-facts-know-you-trade"
+    },
+    {
+      "ticker": "ATOM",
+      "price": 3.22,
+      "gap_pct": 6.62,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.02,
+      "premarket_volume": 1218951,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "BX",
+      "price": 116.76,
+      "gap_pct": 6.56,
+      "catalyst": "Blackstone Inc.",
+      "prev_close": 109.57,
+      "premarket_volume": 116474,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Blackstone Inc. Reports Third Quarter 2026 Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/blackstone-inc-reports-third-quarter-2026-results"
+    },
+    {
+      "ticker": "GLND",
+      "price": 3.17,
+      "gap_pct": 6.38,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 2.98,
+      "premarket_volume": 188953,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CSGP",
+      "price": 34.99,
+      "gap_pct": 6.34,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 32.9,
+      "premarket_volume": 63108,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "PG",
+      "price": 166.45,
+      "gap_pct": 6.12,
+      "catalyst": "The Procter & Gamble Company Reports Fiscal Year 2027 First Quarter Net Sales of $23.3 billion.",
+      "prev_close": 156.84,
+      "premarket_volume": 571738,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "The Procter & Gamble Company Reports Fiscal Year 2027 First Quarter Net Sales of $23.3 billion",
+      "catalyst_url": "https://www.nasdaq.com/articles/procter-gamble-company-reports-fiscal-year-2027-first-quarter-net-sales-233-billion"
+    },
+    {
+      "ticker": "LMT",
+      "price": 583.9,
+      "gap_pct": 5.87,
+      "catalyst": "Lockheed Martin Corporation Reports Third Quarter 2026 Financial Results.",
+      "prev_close": 551.51,
+      "premarket_volume": 112023,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Lockheed Martin Corporation Reports Third Quarter 2026 Financial Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/lockheed-martin-corporation-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "ticker": "QXO",
+      "price": 10.91,
+      "gap_pct": 5.87,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 10.31,
+      "premarket_volume": 78823,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "FND",
+      "price": 47.64,
+      "gap_pct": 5.61,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 45.11,
+      "premarket_volume": 118067,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "ALK",
+      "price": 35.38,
+      "gap_pct": 5.47,
+      "catalyst": "Alaska Air: 3 Key Takeaways for Long-Term Investors.",
+      "prev_close": 33.54,
+      "premarket_volume": 84593,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Alaska Air: 3 Key Takeaways for Long-Term Investors",
+      "catalyst_url": "https://www.nasdaq.com/articles/alaska-air-3-key-takeaways-long-term-investors"
+    }
+  ]
+}
