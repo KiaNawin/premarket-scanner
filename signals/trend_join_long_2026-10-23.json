@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 12:36:51 EDT",
+  "generated_at_et": "2026-10-23 13:06:13 EDT",
   "source_premarket_file": "premarket_scan_2026-10-23.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -11,14 +11,14 @@
     "Signal only after 10:00 AM ET"
   ],
   "candidates": 17,
-  "valid_count": 6,
+  "valid_count": 7,
   "valid_entries": [
     {
       "ticker": "EQNR",
       "signal_time_et": "2026-10-23 10:00",
       "entry_price": 48.625,
-      "last_price": 49.0172,
-      "gap_pct": 5.67,
+      "last_price": 48.77,
+      "gap_pct": 5.11,
       "yesterday_high": 47.0,
       "yesterday_close": 46.42,
       "sma200": 36.8655,
@@ -30,8 +30,8 @@
       "ticker": "NAUT",
       "signal_time_et": "2026-10-23 10:02",
       "entry_price": 2.8709,
-      "last_price": 3.18,
-      "gap_pct": 22.12,
+      "last_price": 3.135,
+      "gap_pct": 19.81,
       "yesterday_high": 2.86,
       "yesterday_close": 2.6,
       "sma200": 2.0908,
@@ -43,8 +43,8 @@
       "ticker": "CRWD",
       "signal_time_et": "2026-10-23 10:07",
       "entry_price": 246.705,
-      "last_price": 251.81,
-      "gap_pct": 5.71,
+      "last_price": 252.635,
+      "gap_pct": 6.46,
       "yesterday_high": 246.36,
       "yesterday_close": 237.94,
       "sma200": 162.9251,
@@ -56,8 +56,8 @@
       "ticker": "FSLY",
       "signal_time_et": "2026-10-23 10:07",
       "entry_price": 23.52,
-      "last_price": 24.08,
-      "gap_pct": 7.15,
+      "last_price": 24.26,
+      "gap_pct": 7.75,
       "yesterday_high": 23.44,
       "yesterday_close": 22.45,
       "sma200": 20.9867,
@@ -69,8 +69,8 @@
       "ticker": "RIG",
       "signal_time_et": "2026-10-23 10:57",
       "entry_price": 6.4398,
-      "last_price": 6.4925,
-      "gap_pct": 6.99,
+      "last_price": 6.4513,
+      "gap_pct": 6.33,
       "yesterday_high": 6.11,
       "yesterday_close": 6.08,
       "sma200": 5.789,
@@ -82,14 +82,27 @@
       "ticker": "CLF",
       "signal_time_et": "2026-10-23 11:20",
       "entry_price": 13.96,
-      "last_price": 14.015,
-      "gap_pct": 7.32,
+      "last_price": 13.935,
+      "gap_pct": 6.86,
       "yesterday_high": 13.9,
       "yesterday_close": 13.05,
       "sma200": 11.3398,
       "premarket_high": 13.15,
       "hod_before_signal": 13.95,
       "catalyst": "Friday 10/23 Insider Buying Report: CLF, AGMB."
+    },
+    {
+      "ticker": "NET",
+      "signal_time_et": "2026-10-23 12:50",
+      "entry_price": 324.49,
+      "last_price": 325.39,
+      "gap_pct": 6.93,
+      "yesterday_high": 324.33,
+      "yesterday_close": 303.61,
+      "sma200": 244.3014,
+      "premarket_high": 318.0,
+      "hod_before_signal": 324.48,
+      "catalyst": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know."
     }
   ],
   "evaluated": [
@@ -101,8 +114,8 @@
       "yesterday_close": 46.42,
       "sma200": 36.8655,
       "premarket_high": 47.42,
-      "last_price": 49.0172,
-      "last_bar_et": "12:36",
+      "last_price": 48.77,
+      "last_bar_et": "13:06",
       "high_of_day": 49.075,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -113,7 +126,7 @@
       "signal_time_et": "2026-10-23 10:00",
       "entry_price": 48.625,
       "hod_before_signal": 48.6,
-      "gap_pct": 5.67,
+      "gap_pct": 5.11,
       "catalyst": "Equinor vs Cenovus: Which Energy Stock Is a Better Investment?"
     },
     {
@@ -124,8 +137,8 @@
       "yesterday_close": 2.6,
       "sma200": 2.0908,
       "premarket_high": 2.6783,
-      "last_price": 3.18,
-      "last_bar_et": "12:36",
+      "last_price": 3.135,
+      "last_bar_et": "13:06",
       "high_of_day": 3.26,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -136,7 +149,7 @@
       "signal_time_et": "2026-10-23 10:02",
       "entry_price": 2.8709,
       "hod_before_signal": 2.85,
-      "gap_pct": 22.12,
+      "gap_pct": 19.81,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -147,9 +160,9 @@
       "yesterday_close": 237.94,
       "sma200": 162.9251,
       "premarket_high": 240.7,
-      "last_price": 251.81,
-      "last_bar_et": "12:36",
-      "high_of_day": 252.668,
+      "last_price": 252.635,
+      "last_bar_et": "13:06",
+      "high_of_day": 253.81,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -159,7 +172,7 @@
       "signal_time_et": "2026-10-23 10:07",
       "entry_price": 246.705,
       "hod_before_signal": 246.49,
-      "gap_pct": 5.71,
+      "gap_pct": 6.46,
       "catalyst": "CrowdStrike vs."
     },
     {
@@ -170,9 +183,9 @@
       "yesterday_close": 22.45,
       "sma200": 20.9867,
       "premarket_high": 22.77,
-      "last_price": 24.08,
-      "last_bar_et": "12:36",
-      "high_of_day": 24.18,
+      "last_price": 24.26,
+      "last_bar_et": "13:06",
+      "high_of_day": 24.32,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -182,7 +195,7 @@
       "signal_time_et": "2026-10-23 10:07",
       "entry_price": 23.52,
       "hod_before_signal": 23.4,
-      "gap_pct": 7.15,
+      "gap_pct": 7.75,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -193,8 +206,8 @@
       "yesterday_close": 6.08,
       "sma200": 5.789,
       "premarket_high": 6.13,
-      "last_price": 6.4925,
-      "last_bar_et": "12:36",
+      "last_price": 6.4513,
+      "last_bar_et": "13:06",
       "high_of_day": 6.52,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -205,7 +218,7 @@
       "signal_time_et": "2026-10-23 10:57",
       "entry_price": 6.4398,
       "hod_before_signal": 6.43,
-      "gap_pct": 6.99,
+      "gap_pct": 6.33,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -216,8 +229,8 @@
       "yesterday_close": 13.05,
       "sma200": 11.3398,
       "premarket_high": 13.15,
-      "last_price": 14.015,
-      "last_bar_et": "12:36",
+      "last_price": 13.935,
+      "last_bar_et": "13:06",
       "high_of_day": 14.06,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -228,8 +241,52 @@
       "signal_time_et": "2026-10-23 11:20",
       "entry_price": 13.96,
       "hod_before_signal": 13.95,
-      "gap_pct": 7.32,
+      "gap_pct": 6.86,
       "catalyst": "Friday 10/23 Insider Buying Report: CLF, AGMB."
+    },
+    {
+      "ticker": "NET",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 324.33,
+      "yesterday_close": 303.61,
+      "sma200": 244.3014,
+      "premarket_high": 318.0,
+      "last_price": 325.39,
+      "last_bar_et": "13:05",
+      "high_of_day": 325.52,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-23 12:50",
+      "entry_price": 324.49,
+      "hod_before_signal": 324.48,
+      "gap_pct": 6.93,
+      "catalyst": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know."
+    },
+    {
+      "ticker": "AIXI",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 2.919,
+      "yesterday_close": 2.48,
+      "sma200": 6.115,
+      "premarket_high": 3.64,
+      "last_price": 3.04,
+      "last_bar_et": "13:05",
+      "high_of_day": 3.44,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 21.77,
+      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "BKYI",
@@ -239,8 +296,8 @@
       "yesterday_close": 2.74,
       "sma200": 4.6517,
       "premarket_high": 3.36,
-      "last_price": 3.6799,
-      "last_bar_et": "12:36",
+      "last_price": 3.62,
+      "last_bar_et": "13:06",
       "high_of_day": 3.92,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -249,7 +306,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 32.81,
+      "gap_pct": 32.66,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -260,8 +317,8 @@
       "yesterday_close": 5.19,
       "sma200": 3.6443,
       "premarket_high": 5.6,
-      "last_price": 5.505,
-      "last_bar_et": "12:36",
+      "last_price": 5.48,
+      "last_bar_et": "13:06",
       "high_of_day": 5.6,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -281,8 +338,8 @@
       "yesterday_close": 78.83,
       "sma200": 82.218,
       "premarket_high": 90.4,
-      "last_price": 86.2,
-      "last_bar_et": "12:36",
+      "last_price": 86.79,
+      "last_bar_et": "13:06",
       "high_of_day": 91.4495,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -291,7 +348,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.36,
+      "gap_pct": 9.89,
       "catalyst": "Crown Castle Inc."
     },
     {
@@ -302,9 +359,9 @@
       "yesterday_close": 257.75,
       "sma200": 194.1495,
       "premarket_high": 259.34,
-      "last_price": 271.625,
-      "last_bar_et": "12:36",
-      "high_of_day": 271.9999,
+      "last_price": 272.415,
+      "last_bar_et": "13:05",
+      "high_of_day": 272.9899,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": true,
@@ -312,29 +369,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 5.21,
+      "gap_pct": 5.64,
       "catalyst": "Arista Networks vs."
-    },
-    {
-      "ticker": "HCAI",
-      "status": "FAIL",
-      "signal": false,
-      "yesterday_high": 4.312,
-      "yesterday_close": 3.304,
-      "sma200": 123.5615,
-      "premarket_high": 4.9301,
-      "last_price": 3.2213,
-      "last_bar_et": "12:35",
-      "high_of_day": 3.68,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.02,
-      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "HSAI",
@@ -344,8 +380,8 @@
       "yesterday_close": 12.14,
       "sma200": 20.2597,
       "premarket_high": 12.97,
-      "last_price": 13.06,
-      "last_bar_et": "12:36",
+      "last_price": 13.04,
+      "last_bar_et": "13:06",
       "high_of_day": 13.21,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -358,27 +394,6 @@
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "NET",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "yesterday_high": 324.33,
-      "yesterday_close": 303.61,
-      "sma200": 244.3014,
-      "premarket_high": 318.0,
-      "last_price": 323.015,
-      "last_bar_et": "12:36",
-      "high_of_day": 323.48,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 6.13,
-      "catalyst": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know."
-    },
-    {
       "ticker": "RITM",
       "status": "FAIL",
       "signal": false,
@@ -386,8 +401,8 @@
       "yesterday_close": 8.68,
       "sma200": 9.7665,
       "premarket_high": 9.28,
-      "last_price": 9.235,
-      "last_bar_et": "12:36",
+      "last_price": 9.255,
+      "last_bar_et": "13:05",
       "high_of_day": 9.435,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -396,7 +411,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.51,
+      "gap_pct": 6.28,
       "catalyst": "Rithm Capital Corp."
     },
     {
@@ -407,8 +422,8 @@
       "yesterday_close": 79.42,
       "sma200": 47.6465,
       "premarket_high": 93.0,
-      "last_price": 84.765,
-      "last_bar_et": "12:36",
+      "last_price": 85.06,
+      "last_bar_et": "13:06",
       "high_of_day": 98.14,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -417,7 +432,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 6.94,
+      "gap_pct": 7.01,
       "catalyst": "RingCentral, Inc."
     },
     {
@@ -428,8 +443,8 @@
       "yesterday_close": 5.28,
       "sma200": 10.0831,
       "premarket_high": 6.96,
-      "last_price": 6.385,
-      "last_bar_et": "12:36",
+      "last_price": 6.5928,
+      "last_bar_et": "13:06",
       "high_of_day": 7.07,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -438,7 +453,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.42,
+      "gap_pct": 23.25,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -449,9 +464,9 @@
       "yesterday_close": 73.89,
       "sma200": 128.0099,
       "premarket_high": 77.94,
-      "last_price": 79.69,
-      "last_bar_et": "12:36",
-      "high_of_day": 79.99,
+      "last_price": 79.28,
+      "last_bar_et": "13:05",
+      "high_of_day": 80.045,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -459,9 +474,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.57,
+      "gap_pct": 7.31,
       "catalyst": "Why TTM Technologies Stock Plunged This Week."
     }
   ],
-  "scan_time_et": "12:36"
+  "scan_time_et": "13:06"
 }

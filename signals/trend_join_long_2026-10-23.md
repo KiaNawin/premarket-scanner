@@ -1,23 +1,23 @@
 **Trend-join Long — 2026-10-23**
-6 valid entries out of 17 pre-market gappers (generated 2026-10-23 12:36:51 EDT)
+7 valid entries out of 17 pre-market gappers (generated 2026-10-23 13:06:13 EDT)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| EQNR | 10:00 | $48.62 | +5.67% | Equinor vs Cenovus: Which Energy Stock Is a Better Investment? |
-| NAUT | 10:02 | $2.87 | +22.12% | No recent news catalyst found. |
-| CRWD | 10:07 | $246.71 | +5.71% | CrowdStrike vs. |
-| FSLY | 10:07 | $23.52 | +7.15% | No recent news catalyst found. |
-| RIG | 10:57 | $6.44 | +6.99% | No recent news catalyst found. |
-| CLF | 11:20 | $13.96 | +7.32% | Friday 10/23 Insider Buying Report: CLF, AGMB. |
+| EQNR | 10:00 | $48.62 | +5.11% | Equinor vs Cenovus: Which Energy Stock Is a Better Investment? |
+| NAUT | 10:02 | $2.87 | +19.81% | No recent news catalyst found. |
+| CRWD | 10:07 | $246.71 | +6.46% | CrowdStrike vs. |
+| FSLY | 10:07 | $23.52 | +7.75% | No recent news catalyst found. |
+| RIG | 10:57 | $6.44 | +6.33% | No recent news catalyst found. |
+| CLF | 11:20 | $13.96 | +6.86% | Friday 10/23 Insider Buying Report: CLF, AGMB. |
+| NET | 12:50 | $324.49 | +6.93% | Cloudflare (NET) Stock Moves -1.18%: What You Should Know. |
 
 Not triggered:
+- AIXI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BKYI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BNC: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - CCI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - DDOG: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_high_of_day
-- HCAI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - HSAI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- NET: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_high_of_day
 - RITM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - RNG: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - SAIQ: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)

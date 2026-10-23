@@ -1,192 +1,233 @@
 {
-  "ticker": "NAUT",
-  "saved_at_et": "2026-10-23T12:35:48-04:00",
+  "ticker": "SAIQ",
+  "saved_at_et": "2026-10-23T13:05:01-04:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "Roth Capital Initiates Coverage of Nautilus Biotechnology with Buy",
+          "ago": "11 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "The average one-year price target for Cango (NYSE:CANG) (MUN:9C00) has been revised to $14.45 / share. This is a decrease of 26.41% from the prior estimate of $19.64 dated September 29, 2026. These figures represent aggregate analyst targets compiled by Fintel and do not constitu",
+          "id": 28618751,
           "image": "",
-          "created": "Sep 29, 2026",
-          "ago": "Sep 29, 2026",
-          "primarysymbol": "naut",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cang",
           "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "naut|stocks"
+            "cang|stocks"
           ],
-          "url": "/articles/roth-capital-initiates-coverage-nautilus-biotechnology-buy",
-          "id": 28453201,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Fintel reports that on September 29, 2026, Roth Capital initiated coverage of Nautilus Biotechnology (NASDAQCM:NAUT) with a Buy recommendation.On the day of the coverage initiation, September 29, 2026, the latest close for the stock was $1.36. This follows a pre-action close of $",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+          "title": "Cango Consensus Price Target Decreased by 26.41% to $14.45",
+          "url": "/articles/cango-consensus-price-target-decreased-2641-1445"
         },
         {
-          "title": "Leerink Partners Initiates Coverage of Nautilus Biotechnology with Outperform",
-          "image": "",
-          "created": "Sep 9, 2026",
-          "ago": "Sep 9, 2026",
-          "primarysymbol": "naut",
+          "ago": "13 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) is down -0.45%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -1.08%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.08%.  December E-mini S&P futures (ESZ26 ) are down -0.43%, and December E-mini Nasdaq futures (NQZ26...",
+          "id": 28618046,
+          "image": "/barchart/Road%2520sign%2520of%2520New%2520York%2520Wall%2520street%2520corner%2520Broad%2520street%2520by%2520Mezzotint%2520via%2520Shutterstock.jpg",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
           "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Barchart",
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
+          "related_symbols": [
+            "slb|stocks",
+            "txn|stocks",
+            "tsla|stocks",
+            "t|stocks",
+            "nclh|stocks",
+            "amd|stocks",
+            "spy|etf",
+            "dia|etf",
+            "mara|stocks",
+            "meta|stocks",
+            "cci|stocks",
+            "amt|stocks",
+            "mu|stocks",
+            "qqq|etf",
+            "tmus|stocks",
+            "iren|stocks",
+            "axp|stocks",
+            "soxx|etf",
+            "mrvl|stocks"
+          ],
+          "title": "Stocks See Continued Downward Pressure from AI Anxiety and Oil Prices",
+          "url": "/articles/stocks-see-continued-downward-pressure-ai-anxiety-and-oil-prices"
+        },
+        {
+          "ago": "14 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "Key Points\nNetflix’s third-quarter revenue and earnings were strong, but its fourth-quarter guidance was disappointing.",
+          "id": 28618711,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "nflx",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "nflx|stocks"
+          ],
+          "title": "Is Netflix Stock a Buy Near Its 52-Week Low?",
+          "url": "/articles/netflix-stock-buy-near-its-52-week-low"
+        },
+        {
+          "ago": "14 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "Key PointsAdobe maintains high net margins and a massive user base of 1 billion monthly active users across its creative and document platforms.",
+          "id": 28618706,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "adbe",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "adbe|stocks",
+            "crm|stocks"
+          ],
+          "title": "Adobe vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
+          "url": "/articles/adobe-vs-salesforce-which-technology-stock-better-buy-2026"
+        },
+        {
+          "ago": "18 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) fell -1.21%, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.02%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) fell -2.90%.  December E-mini S&P futures (ESZ26 ) fell -1.18%, and December E-mini Nasdaq futures (NQZ26 ) fell -2.79%. A...",
+          "id": 28609626,
+          "image": "/barchart/The%2520Wall%2520Street%2520sign%2520is%2520seen%2520outside%2520the%2520New%2520York%2520Stock%2520Exchange%2520by%2520hapabapa%2520via%2520iStock.jpg",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Barchart",
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
+          "related_symbols": [
+            "googl|stocks",
+            "aapl|stocks",
+            "glxy|stocks",
+            "lvs|stocks",
+            "msft|stocks",
+            "tsla|stocks",
+            "gfs|stocks",
+            "ibm|stocks",
+            "lrcx|stocks",
+            "amd|stocks",
+            "spy|etf",
+            "dia|etf",
+            "klac|stocks",
+            "meta|stocks",
+            "nvda|stocks",
+            "spot|stocks",
+            "qqq|etf",
+            "iren|stocks",
+            "intc|stocks",
+            "pg|stocks",
+            "riot|stocks",
+            "amzn|stocks",
+            "mrvl|stocks"
+          ],
+          "title": "Stocks Fall Sharply on Risk-Off as Meta Slides -7%",
+          "url": "/articles/stocks-fall-sharply-risk-meta-slides-7"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "(RTTNews) - Bolt Biotherapeutics, Inc. (BOLT) announced its acquisition of Prana Therapies, Inc. through a stock-for-stock reverse merger to advance Prana's pipeline of half-life-extended multispecific antibodies developed using its proprietary INSPIRE platform.",
+          "id": 28618746,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "bolt",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "bolt|stocks"
+          ],
+          "title": "Bolt Biotherapeutics Acquires Prana, Secures $120M To Advance PRA-216 Pipeline; Stock Up ",
+          "url": "/articles/bolt-biotherapeutics-acquires-prana-secures-120m-advance-pra-216-pipeline-stock"
+        },
+        {
+          "ago": "21 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28618576,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "wrld",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "wrld|stocks"
+          ],
+          "title": "World Acceptance (WRLD) Q2 2027 Earnings Call Transcript",
+          "url": "/articles/world-acceptance-wrld-q2-2027-earnings-call-transcript"
+        },
+        {
+          "ago": "22 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28618571,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "rdy",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "rdy|stocks"
+          ],
+          "title": "Dr. Reddy's (RDY) Q2 2027 Earnings Call Transcript",
+          "url": "/articles/dr-reddys-rdy-q2-2027-earnings-call-transcript"
+        },
+        {
+          "ago": "22 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "Key PointsAT&T turned in solid Q3 results, but the company was unable to ease investors' fears over potential competition coming from SpaceX.",
+          "id": 28618566,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "t",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "t|stocks"
+          ],
+          "title": "AT&T Stock Sinks on Subscriber and SpaceX Worries. Is the Stock a Buy on the Dip?",
+          "url": "/articles/att-stock-sinks-subscriber-and-spacex-worries-stock-buy-dip"
+        },
+        {
+          "ago": "24 minutes ago",
+          "created": "Oct 23, 2026",
+          "description": "The average one-year price target for ARMOUR Residential REIT, Inc. - Preferred Stock (NYSE:ARR.PRC) has been revised to $27.74 per share, as of October 22, 2026. This is an increase of 21.05% from the prior estimate of $22.92 dated June 8, 2026. These figures r",
+          "id": 28618551,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "arr.prc",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "naut|stocks"
+            "arr.prc|stocks"
           ],
-          "url": "/articles/leerink-partners-initiates-coverage-nautilus-biotechnology-outperform",
-          "id": 28340486,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Fintel reports that on September 9, 2026, Leerink Partners initiated coverage of Nautilus Biotechnology (NASDAQCM:NAUT) with a Outperform recommendation.Prior to this rating action, the stock closed at $0.93 on September 8, 2026. This represents a one-week price change of +0.15%",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "Nautilus Biotechnology Reveals Tau Proteoform Insights In Nature Methods Publication ",
-          "image": "",
-          "created": "Sep 4, 2026",
-          "ago": "Sep 4, 2026",
-          "primarysymbol": "naut",
-          "primarytopic": "Biotech|4146",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-biotechnology-reveals-tau-proteoform-insights-nature-methods-publication",
-          "id": 28313651,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - Nautilus Biotechnology, Inc. (NAUT), a development-stage life sciences company focused on single-molecule proteomics, on Friday announced a peer-reviewed publication in Nature Methods demonstrating its Iterative Mapping technology for large-scale analysis of tau prote",
-          "primarytopic_url": "/topic/biotech",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "Nautilus Reports Q2 Results And Reaffirms 2027 Voyager Launch; Stock Falls 27% ",
-          "image": "",
-          "created": "Jul 29, 2026",
-          "ago": "Jul 29, 2026",
-          "primarysymbol": "naut",
-          "primarytopic": "Biotech|4146",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-reports-q2-results-and-reaffirms-2027-voyager-launch-stock-falls-27",
-          "id": 28035651,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - Nautilus Biotechnology (NAUT) on Tuesday reported second-quarter financial results, turning a narrower net loss than the previous year.",
-          "primarytopic_url": "/topic/biotech",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "Nautilus Biotechnology Q2 Earnings Call Highlights",
-          "image": "/marketbeat/nautilus-biotechnology-inc-logo-1200x675.png",
-          "created": "Jul 28, 2026",
-          "ago": "Jul 28, 2026",
-          "primarysymbol": "naut",
-          "primarytopic": "Stocks|4301",
-          "publisher": "MarketBeat",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-biotechnology-q2-earnings-call-highlights",
-          "id": 28040286,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Nautilus Biotechnology (NASDAQ:NAUT) said it is shifting a significant share of its research and development resources toward proteoform applications, citing customer interest and a delay in its Broadscale broad-proteome program.\n\nChief Executive Officer Sujal Patel said the comp",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png"
-        },
-        {
-          "title": "Nautilus (NAUT) Q1 2026 Earnings Transcript",
-          "image": "",
-          "created": "Jun 2, 2026",
-          "ago": "Jun 2, 2026",
-          "primarysymbol": "naut",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-naut-q1-2026-earnings-transcript",
-          "id": 27699716,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Nautilus Reports Q1 Results, Advances Early Access And Platform Development; Stock Up ",
-          "image": "",
-          "created": "Apr 28, 2026",
-          "ago": "Apr 28, 2026",
-          "primarysymbol": "naut",
-          "primarytopic": "Biotech|4146",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-reports-q1-results-advances-early-access-and-platform-development-stock",
-          "id": 27427036,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - Nautilus Biotechnology, Inc. (NAUT), a company developing a single-molecule proteome analysis platform, reported its financial results for the first quarter ended March 31, 2026, highlighting progress toward commercialization and continued platform development.",
-          "primarytopic_url": "/topic/biotech",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "Nautilus Biotechnology (NAUT) Price Target Increased by 60.00% to 4.08",
-          "image": "",
-          "created": "Mar 27, 2026",
-          "ago": "Mar 27, 2026",
-          "primarysymbol": "naut",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-biotechnology-naut-price-target-increased-6000-408",
-          "id": 27221681,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "The average one-year price target for Nautilus Biotechnology (NasdaqCM:NAUT) has been revised to $4.08 / share. This is an increase of 60.00% from the prior estimate of $2.55 dated February 21, 2026.  The price target is an average of many targets provided by a",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "Nautilus (NAUT) Q4 2025 Earnings Call Transcript",
-          "image": "",
-          "created": "Feb 26, 2026",
-          "ago": "Feb 26, 2026",
-          "primarysymbol": "naut",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-naut-q4-2025-earnings-call-transcript",
-          "id": 27033871,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Nautilus (NAUT) Q3 2025 Earnings Call Transcript",
-          "image": "",
-          "created": "Oct 28, 2025",
-          "ago": "Oct 28, 2025",
-          "primarysymbol": "naut",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "url": "/articles/nautilus-naut-q3-2025-earnings-call-transcript",
-          "id": 26081981,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+          "title": "ARMOUR Residential REIT, Inc. - Preferred Stock Price Target Increased by 21.05% to $27.74",
+          "url": "/articles/armour-residential-reit-inc-preferred-stock-price-target-increased-2105-2774"
         }
       ],
-      "totalrecords": 17,
-      "message": null
+      "totalrecords": 500
     },
     "message": null,
     "status": {
