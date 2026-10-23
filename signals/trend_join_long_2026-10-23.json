@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 09:05:00 EDT",
+  "generated_at_et": "2026-10-23 09:35:01 EDT",
   "source_premarket_file": "premarket_scan_2026-10-23.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,20 +10,29 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 10,
+  "candidates": 9,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
     {
       "ticker": "AIXI",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "yesterday_high": 2.919,
       "yesterday_close": 2.48,
       "sma200": 6.115,
       "premarket_high": 3.64,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 27.82,
+      "last_price": 3.03,
+      "last_bar_et": "09:34",
+      "high_of_day": 3.315,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 26.81,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -33,21 +42,39 @@
       "yesterday_high": 182.78,
       "yesterday_close": 181.57,
       "sma200": 176.9771,
-      "premarket_high": 201.63,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.43,
+      "premarket_high": 204.25,
+      "last_price": 196.535,
+      "last_bar_et": "09:34",
+      "high_of_day": 202.13,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Before 10:00 ET signal window",
+      "gap_pct": 9.16,
       "catalyst": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses."
     },
     {
       "ticker": "BKYI",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "yesterday_high": 3.25,
       "yesterday_close": 2.74,
       "sma200": 4.6517,
-      "premarket_high": 3.27,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 15.69,
+      "premarket_high": 3.36,
+      "last_price": 3.67,
+      "last_bar_et": "09:34",
+      "high_of_day": 3.73,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 28.43,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -58,44 +85,80 @@
       "yesterday_close": 5.19,
       "sma200": 3.6443,
       "premarket_high": 5.6,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.74,
+      "last_price": 5.515,
+      "last_bar_et": "09:34",
+      "high_of_day": 5.6,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Before 10:00 ET signal window",
+      "gap_pct": 6.94,
       "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "CCI",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "yesterday_high": 80.4,
       "yesterday_close": 78.83,
       "sma200": 82.218,
-      "premarket_high": 89.99,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 13.47,
+      "premarket_high": 92.11,
+      "last_price": 89.8098,
+      "last_bar_et": "09:34",
+      "high_of_day": 91.4495,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 14.55,
       "catalyst": "Crown Castle Inc."
     },
     {
       "ticker": "HSAI",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "yesterday_high": 12.65,
       "yesterday_close": 12.14,
       "sma200": 20.2597,
       "premarket_high": 12.97,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.68,
+      "last_price": 13.02,
+      "last_bar_et": "09:34",
+      "high_of_day": 13.04,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.85,
       "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "RITM",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "yesterday_high": 8.79,
       "yesterday_close": 8.68,
       "sma200": 9.7665,
       "premarket_high": 9.28,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.76,
+      "last_price": 9.1083,
+      "last_bar_et": "09:34",
+      "high_of_day": 9.1807,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.41,
       "catalyst": "Rithm Capital Corp."
     },
     {
@@ -106,34 +169,40 @@
       "yesterday_close": 79.42,
       "sma200": 47.6465,
       "premarket_high": 93.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 12.69,
+      "last_price": 90.9362,
+      "last_bar_et": "09:34",
+      "high_of_day": 98.14,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Before 10:00 ET signal window",
+      "gap_pct": 18.98,
       "catalyst": "RingCentral, Inc."
     },
     {
       "ticker": "SAIQ",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "yesterday_high": 8.85,
       "yesterday_close": 5.28,
       "sma200": 10.0831,
       "premarket_high": 6.96,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 27.84,
+      "last_price": 6.55,
+      "last_bar_et": "09:34",
+      "high_of_day": 6.77,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 25.95,
       "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "ZLAB",
-      "status": "WAITING",
-      "signal": false,
-      "yesterday_high": 22.88,
-      "yesterday_close": 22.04,
-      "sma200": 20.8458,
-      "premarket_high": 24.7332,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.76,
-      "catalyst": "Zai Lab Limited Announces $250 Million Private Placement."
     }
   ],
-  "scan_time_et": "09:05"
+  "scan_time_et": "09:35"
 }
