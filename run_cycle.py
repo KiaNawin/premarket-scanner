@@ -37,6 +37,7 @@ ET = ZoneInfo("America/New_York")
 A_START, A_END = dt.time(8, 30), dt.time(14, 0)   # Scanner A window
 B_END = dt.time(15, 0)                              # Scanner B runs until 15:00
 B_DELAY = dt.timedelta(minutes=5)
+ALERT_START, ALERT_END = dt.time(10, 0), dt.time(11, 30)   # fast 5-min Scanner B checks (--alert)
 STEP = dt.timedelta(minutes=30)
 
 # NYSE full-day closures (update yearly: nyse.com/markets/hours-calendars)
@@ -88,6 +89,57 @@ def _today_scan_file(scan_dir: str, day: dt.date) -> str | None:
     return p if os.path.exists(p) else None
 
 
+def _alerted_path(state_dir: str, day: dt.date) -> str:
+    return os.path.join(state_dir, f"alerted_{day.isoformat()}.txt")
+
+
+def read_alerted(state_dir: str, day: dt.date) -> set[str]:
+    try:
+        with open(_alerted_path(state_dir, day), encoding="utf-8") as f:
+            return {ln.strip() for ln in f if ln.strip()}
+    except OSError:
+        return set()
+
+
+def add_alerted(state_dir: str, day: dt.date, tickers: list[str]) -> None:
+    os.makedirs(state_dir, exist_ok=True)
+    with open(_alerted_path(state_dir, day), "a", encoding="utf-8") as f:   # one ticker per line (git union-merge)
+        for t in tickers:
+            f.write(t + "\n")
+
+
+def send_new_alerts(rep: dict | None, day: dt.date, args) -> list[str]:
+    """Send one loud Telegram alert for valid entries not alerted before today. Returns tickers alerted."""
+    if not rep:
+        return []
+    done = read_alerted(args.state_dir, day)
+    new = [r for r in rep.get("evaluated", []) if r.get("signal") and r["ticker"] not in done]
+    if not new:
+        return []
+    msg = tg.build_alert(new, rep.get("scan_time_et"))
+    if args.dry_run:
+        print("----- ALERT (sound on) -----\n" + msg)
+    elif not tg.send_telegram(msg, silent=False):
+        return []                                  # not delivered → try again next run
+    tickers = [r["ticker"] for r in new]
+    add_alerted(args.state_dir, day, tickers)
+    print(f"Alerted new entries: {', '.join(tickers)}", file=sys.stderr)
+    return tickers
+
+
+def run_alert(now: dt.datetime, args) -> int:
+    """Fast check: re-run Scanner B on today's gappers, alert only on brand-new signals."""
+    day = now.date()
+    a_path = _today_scan_file(args.scan_dir, day)
+    if not a_path:
+        print("No Scanner A results yet today — nothing to check.")
+        return 0
+    rep, _ = B.run_strategy(a_path, outdir=args.signal_dir)
+    sent = send_new_alerts(rep, day, args)
+    print(f"Alert check {now:%H:%M} ET: {rep.get('valid_count', 0)} valid, {len(sent)} new.")
+    return 0
+
+
 def run_cycle(start: dt.datetime, kind: str, args) -> str:
     day = start.date()
     a_payload = a_note = b_report = b_note = None
@@ -124,11 +176,15 @@ def run_cycle(start: dt.datetime, kind: str, args) -> str:
     else:
         b_note = "No Scanner A results today, nothing to check."
 
+    try:
+        send_new_alerts(b_report, day, args)
+    except Exception:
+        traceback.print_exc()
     msg = tg.build_message(a_payload, b_report, a_note, b_note)
     if args.dry_run:
-        print(msg)
+        print("----- REPORT (silent) -----\n" + msg)
     else:
-        tg.send_telegram(msg)
+        tg.send_telegram(msg, silent=True)
     return msg
 
 
@@ -181,11 +237,15 @@ def main() -> int:
     mode.add_argument("--once", action="store_true", help="Run the slot matching the current time, then exit")
     mode.add_argument("--slot", help="Run this slot now, e.g. 10:00 (testing)")
     mode.add_argument("--show-schedule", action="store_true")
+    mode.add_argument("--alert", action="store_true",
+                      help="Fast Scanner B check (10:00–11:30 ET); Telegram only for NEW valid entries")
     ap.add_argument("--dry-run", action="store_true", help="Print the Telegram message instead of sending")
     ap.add_argument("--tickers", help="Limit Scanner A to these tickers (testing)")
     ap.add_argument("--scan-dir", default="scans")
     ap.add_argument("--signal-dir", default="signals")
     ap.add_argument("--watchlist-dir", default="watchlists")
+    ap.add_argument("--state-dir", default="state")
+    ap.add_argument("--force", action="store_true", help="--alert: run even outside 10:00–11:30 ET / non-trading days")
     ap.add_argument("--state-file", default=os.path.join("state", "last_slot.txt"),
                     help="Remembers the last completed slot so repeated triggers don't send twice")
     args = ap.parse_args()
@@ -215,6 +275,16 @@ def main() -> int:
         args.no_wait = True
         run_cycle(min(start, now), kind, args)
         return 0
+
+    if args.alert:
+        if not args.force:
+            if not is_trading_day(now.date()):
+                print(f"{now.date()} is not a US trading day — nothing to do.")
+                return 0
+            if not (ALERT_START <= now.time() <= ALERT_END):
+                print(f"{now:%H:%M} ET is outside the {ALERT_START:%H:%M}–{ALERT_END:%H:%M} alert window — nothing to do.")
+                return 0
+        return run_alert(now, args)
 
     if args.once:
         if not is_trading_day(now.date()):

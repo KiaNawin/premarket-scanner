@@ -119,6 +119,32 @@ def section_a(payload: dict | None, note: str | None = None) -> str:
     return "\n".join(lines)
 
 
+def setup_lines(r: dict) -> list[str]:
+    """Trade-setup block for one valid Trend-join Long entry."""
+    sig_t = (r.get("signal_time_et") or "")[-5:]
+    out = [
+        f"✅ <b>{_e(r['ticker'])}</b> — LONG entry {_money(r.get('entry_price'))} @ {sig_t} ET",
+        f"   Y-High {_money(r.get('yesterday_high'))} · PM-High {_money(r.get('premarket_high'))} · "
+        f"HOD {_money(r.get('hod_before_signal'))} · SMA200 {_money(r.get('sma200'))}",
+        f"   Last {_money(r.get('last_price'))} · Gap {r.get('gap_pct') or 0:+.2f}%",
+    ]
+    if r.get("catalyst"):
+        out.append(f"   📰 {_e(r['catalyst'])}")
+    return out
+
+
+ALERT_HEADER = "🚨 Trend-join Long — NEW ENTRY"
+
+
+def build_alert(new_entries: list[dict], scan_time_et: str | None = None) -> str:
+    """Short, loud message for signals that appeared for the first time today."""
+    title = ALERT_HEADER + ("" if len(new_entries) == 1 else f" ×{len(new_entries)}")
+    lines = [f"<b>{title}</b>" + (f"  (checked {scan_time_et} ET)" if scan_time_et else "")]
+    for r in new_entries:
+        lines += [""] + setup_lines(r)
+    return "\n".join(lines)
+
+
 def section_b(rep: dict | None, note: str | None = None) -> str:
     lines = [HEADER_B]
     if rep is None:
@@ -133,16 +159,7 @@ def section_b(rep: dict | None, note: str | None = None) -> str:
 
     if valid:
         for r in valid:
-            sig_t = (r.get("signal_time_et") or "")[-5:]
-            lines += [
-                "",
-                f"✅ <b>{_e(r['ticker'])}</b> — LONG entry {_money(r.get('entry_price'))} @ {sig_t} ET",
-                f"   Y-High {_money(r.get('yesterday_high'))} · PM-High {_money(r.get('premarket_high'))} · "
-                f"HOD {_money(r.get('hod_before_signal'))} · SMA200 {_money(r.get('sma200'))}",
-                f"   Last {_money(r.get('last_price'))} · Gap {r.get('gap_pct') or 0:+.2f}%",
-            ]
-            if r.get("catalyst"):
-                lines.append(f"   📰 {_e(r['catalyst'])}")
+            lines += [""] + setup_lines(r)
     else:
         lines.append("No valid entries yet.")
 
@@ -187,7 +204,9 @@ def split_message(text: str, limit: int = TG_LIMIT) -> list[str]:
     return chunks
 
 
-def send_telegram(text: str, token: str | None = None, chat_id: str | None = None, retries: int = 3) -> bool:
+def send_telegram(text: str, token: str | None = None, chat_id: str | None = None, retries: int = 3,
+                  silent: bool = False) -> bool:
+    """silent=True delivers without a notification sound (used for the routine 30-min report)."""
     token = token or os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = chat_id or os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat_id:
@@ -199,7 +218,8 @@ def send_telegram(text: str, token: str | None = None, chat_id: str | None = Non
         for attempt in range(1, retries + 1):
             try:
                 r = requests.post(url, json={"chat_id": chat_id, "text": chunk, "parse_mode": "HTML",
-                                             "disable_web_page_preview": True}, timeout=20)
+                                             "disable_web_page_preview": True,
+                                             "disable_notification": silent}, timeout=20)
                 if r.status_code == 429:                       # rate limited
                     time.sleep(int(r.json().get("parameters", {}).get("retry_after", 3)))
                     continue
