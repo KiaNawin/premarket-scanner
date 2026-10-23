@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 08:35:00 EDT",
+  "generated_at_et": "2026-10-23 09:05:00 EDT",
   "source_premarket_file": "premarket_scan_2026-10-23.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,22 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 9,
+  "candidates": 10,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "AIXI",
+      "status": "WAITING",
+      "signal": false,
+      "yesterday_high": 2.919,
+      "yesterday_close": 2.48,
+      "sma200": 6.115,
+      "premarket_high": 3.64,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 27.82,
+      "catalyst": "No recent news catalyst found."
+    },
     {
       "ticker": "AMT",
       "status": "WAITING",
@@ -21,9 +33,9 @@
       "yesterday_high": 182.78,
       "yesterday_close": 181.57,
       "sma200": 176.9771,
-      "premarket_high": 199.6967,
+      "premarket_high": 201.63,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.6,
+      "gap_pct": 10.43,
       "catalyst": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses."
     },
     {
@@ -35,7 +47,7 @@
       "sma200": 4.6517,
       "premarket_high": 3.27,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 12.36,
+      "gap_pct": 15.69,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -57,19 +69,10 @@
       "yesterday_high": 80.4,
       "yesterday_close": 78.83,
       "sma200": 82.218,
-      "premarket_high": 89.3,
+      "premarket_high": 89.99,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 12.79,
+      "gap_pct": 13.47,
       "catalyst": "Crown Castle Inc."
-    },
-    {
-      "ticker": "EROC",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 94 trading days of history (< 200 needed for SMA200)",
-      "history_days": 94,
-      "gap_pct": 5.68,
-      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "HSAI",
@@ -80,7 +83,7 @@
       "sma200": 20.2597,
       "premarket_high": 12.97,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.27,
+      "gap_pct": 5.68,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -90,10 +93,22 @@
       "yesterday_high": 8.79,
       "yesterday_close": 8.68,
       "sma200": 9.7665,
-      "premarket_high": 9.2783,
+      "premarket_high": 9.28,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.89,
-      "catalyst": "SoFi Technologies, Inc."
+      "gap_pct": 5.76,
+      "catalyst": "Rithm Capital Corp."
+    },
+    {
+      "ticker": "RNG",
+      "status": "WAITING",
+      "signal": false,
+      "yesterday_high": 82.38,
+      "yesterday_close": 79.42,
+      "sma200": 47.6465,
+      "premarket_high": 93.0,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 12.69,
+      "catalyst": "RingCentral, Inc."
     },
     {
       "ticker": "SAIQ",
@@ -104,7 +119,7 @@
       "sma200": 10.0831,
       "premarket_high": 6.96,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 26.14,
+      "gap_pct": 27.84,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -116,9 +131,9 @@
       "sma200": 20.8458,
       "premarket_high": 24.7332,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.21,
+      "gap_pct": 7.76,
       "catalyst": "Zai Lab Limited Announces $250 Million Private Placement."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
