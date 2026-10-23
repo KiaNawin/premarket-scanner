@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 11:36:55 EDT",
-  "scan_time_et": "11:36",
+  "generated_at_et": "2026-10-23 12:06:24 EDT",
+  "scan_time_et": "12:06",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7103,
-    "prefilter": 320,
-    "with_data": 249,
-    "gap": 88,
-    "gap_price": 83,
+    "prefilter": 340,
+    "with_data": 263,
+    "gap": 92,
+    "gap_price": 84,
     "passed": 17,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "BKYI",
-      "price": 3.63,
-      "gap_pct": 32.48,
+      "price": 3.78,
+      "gap_pct": 37.92,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 2.74,
       "premarket_volume": 5645939,
@@ -33,21 +33,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "AIXI",
-      "price": 3.02,
-      "gap_pct": 21.77,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 2.48,
-      "premarket_volume": 10622293,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "NAUT",
-      "price": 3.09,
-      "gap_pct": 18.88,
+      "price": 3.17,
+      "gap_pct": 22.12,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 2.6,
       "premarket_volume": 69602,
@@ -57,21 +45,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "SAIQ",
-      "price": 5.97,
-      "gap_pct": 13.07,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 5.28,
-      "premarket_volume": 2200964,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "CCI",
-      "price": 87.45,
-      "gap_pct": 10.93,
+      "price": 87.68,
+      "gap_pct": 11.23,
       "catalyst": "Crown Castle Inc.",
       "prev_close": 78.83,
       "premarket_volume": 498473,
@@ -81,21 +57,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026"
     },
     {
-      "ticker": "RITM",
-      "price": 9.43,
-      "gap_pct": 8.58,
-      "catalyst": "Rithm Capital Corp.",
-      "prev_close": 8.68,
-      "premarket_volume": 301622,
+      "ticker": "SAIQ",
+      "price": 5.75,
+      "gap_pct": 8.9,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.28,
+      "premarket_volume": 2200964,
       "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "Rithm Capital Corp. Announces Third Quarter 2026 Results",
-      "catalyst_url": "https://www.nasdaq.com/articles/rithm-capital-corp-announces-third-quarter-2026-results"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     },
     {
       "ticker": "RNG",
-      "price": 86.03,
-      "gap_pct": 8.32,
+      "price": 85.91,
+      "gap_pct": 8.17,
       "catalyst": "RingCentral, Inc.",
       "prev_close": 79.42,
       "premarket_volume": 72261,
@@ -105,33 +81,33 @@
       "catalyst_url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results"
     },
     {
-      "ticker": "HSAI",
-      "price": 13.12,
-      "gap_pct": 8.07,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 12.14,
-      "premarket_volume": 84990,
+      "ticker": "TTMI",
+      "price": 79.65,
+      "gap_pct": 7.8,
+      "catalyst": "Why TTM Technologies Stock Plunged This Week.",
+      "prev_close": 73.89,
+      "premarket_volume": 181587,
       "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Why TTM Technologies Stock Plunged This Week",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-ttm-technologies-stock-plunged-week"
     },
     {
-      "ticker": "RIG",
-      "price": 6.51,
-      "gap_pct": 6.99,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 6.08,
-      "premarket_volume": 67058,
+      "ticker": "RITM",
+      "price": 9.35,
+      "gap_pct": 7.78,
+      "catalyst": "Rithm Capital Corp.",
+      "prev_close": 8.68,
+      "premarket_volume": 301622,
       "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Rithm Capital Corp. Announces Third Quarter 2026 Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/rithm-capital-corp-announces-third-quarter-2026-results"
     },
     {
       "ticker": "CLF",
-      "price": 13.95,
-      "gap_pct": 6.9,
+      "price": 14.04,
+      "gap_pct": 7.58,
       "catalyst": "Friday 10/23 Insider Buying Report: CLF, AGMB.",
       "prev_close": 13.05,
       "premarket_volume": 121721,
@@ -142,8 +118,8 @@
     },
     {
       "ticker": "FSLY",
-      "price": 23.95,
-      "gap_pct": 6.7,
+      "price": 24.05,
+      "gap_pct": 7.13,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 22.45,
       "premarket_volume": 53737,
@@ -153,33 +129,33 @@
       "catalyst_url": null
     },
     {
-      "ticker": "VG",
-      "price": 13.64,
-      "gap_pct": 6.48,
-      "catalyst": "Is the Options Market Predicting a Spike in Venture Global Stock?",
-      "prev_close": 12.81,
-      "premarket_volume": 66480,
+      "ticker": "RIG",
+      "price": 6.5,
+      "gap_pct": 6.91,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 6.08,
+      "premarket_volume": 67058,
       "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Is the Options Market Predicting a Spike in Venture Global Stock?",
-      "catalyst_url": "https://www.nasdaq.com/articles/options-market-predicting-spike-venture-global-stock"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     },
     {
-      "ticker": "TTMI",
-      "price": 78.66,
-      "gap_pct": 6.46,
-      "catalyst": "Why TTM Technologies Stock Plunged This Week.",
-      "prev_close": 73.89,
-      "premarket_volume": 181587,
+      "ticker": "HSAI",
+      "price": 12.97,
+      "gap_pct": 6.8,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 12.14,
+      "premarket_volume": 84990,
       "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "Why TTM Technologies Stock Plunged This Week",
-      "catalyst_url": "https://www.nasdaq.com/articles/why-ttm-technologies-stock-plunged-week"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     },
     {
       "ticker": "BNC",
-      "price": 5.51,
-      "gap_pct": 6.07,
+      "price": 5.52,
+      "gap_pct": 6.36,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.19,
       "premarket_volume": 86638,
@@ -190,8 +166,8 @@
     },
     {
       "ticker": "NET",
-      "price": 321.99,
-      "gap_pct": 6.05,
+      "price": 322.61,
+      "gap_pct": 6.26,
       "catalyst": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know.",
       "prev_close": 303.61,
       "premarket_volume": 96099,
@@ -201,9 +177,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/cloudflare-net-stock-moves-118-what-you-should-know"
     },
     {
+      "ticker": "VG",
+      "price": 13.6,
+      "gap_pct": 6.21,
+      "catalyst": "Is the Options Market Predicting a Spike in Venture Global Stock?",
+      "prev_close": 12.81,
+      "premarket_volume": 66480,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Is the Options Market Predicting a Spike in Venture Global Stock?",
+      "catalyst_url": "https://www.nasdaq.com/articles/options-market-predicting-spike-venture-global-stock"
+    },
+    {
       "ticker": "CRWD",
-      "price": 251.21,
-      "gap_pct": 5.58,
+      "price": 252.51,
+      "gap_pct": 6.12,
       "catalyst": "CrowdStrike vs.",
       "prev_close": 237.94,
       "premarket_volume": 67038,
@@ -214,8 +202,8 @@
     },
     {
       "ticker": "EQNR",
-      "price": 48.97,
-      "gap_pct": 5.5,
+      "price": 48.95,
+      "gap_pct": 5.45,
       "catalyst": "Equinor vs Cenovus: Which Energy Stock Is a Better Investment?",
       "prev_close": 46.42,
       "premarket_volume": 131479,
@@ -223,6 +211,18 @@
       "catalyst_source": "Zacks",
       "catalyst_headline": "Equinor vs Cenovus: Which Energy Stock Is a Better Investment?",
       "catalyst_url": "https://www.nasdaq.com/articles/equinor-vs-cenovus-which-energy-stock-better-investment"
+    },
+    {
+      "ticker": "DDOG",
+      "price": 271.42,
+      "gap_pct": 5.3,
+      "catalyst": "Arista Networks vs.",
+      "prev_close": 257.75,
+      "premarket_volume": 129227,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+      "catalyst_url": "https://www.nasdaq.com/articles/arista-networks-vs-datadog-which-technology-stock-better-buy-2026"
     }
   ]
 }
