@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 09:32:45 EDT",
-  "scan_time_et": "09:32",
+  "generated_at_et": "2026-10-23 10:04:14 EDT",
+  "scan_time_et": "10:04",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,33 @@
   },
   "funnel": {
     "universe": 7103,
-    "prefilter": 105,
-    "with_data": 74,
-    "gap": 30,
-    "gap_price": 29,
-    "passed": 9,
+    "prefilter": 200,
+    "with_data": 167,
+    "gap": 49,
+    "gap_price": 44,
+    "passed": 13,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7103,
-  "count": 9,
+  "count": 13,
   "results": [
     {
+      "ticker": "YMAT",
+      "price": 3.14,
+      "gap_pct": 63.54,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 1.92,
+      "premarket_volume": 16563460,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "BKYI",
-      "price": 3.52,
-      "gap_pct": 28.43,
+      "price": 3.69,
+      "gap_pct": 34.67,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 2.74,
       "premarket_volume": 5645939,
@@ -33,21 +45,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "AIXI",
-      "price": 3.14,
-      "gap_pct": 26.81,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 2.48,
-      "premarket_volume": 10622293,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "SAIQ",
-      "price": 6.65,
-      "gap_pct": 25.95,
+      "price": 6.48,
+      "gap_pct": 22.73,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.28,
       "premarket_volume": 2200964,
@@ -57,21 +57,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "RNG",
-      "price": 94.49,
-      "gap_pct": 18.98,
-      "catalyst": "RingCentral, Inc.",
-      "prev_close": 79.42,
-      "premarket_volume": 72261,
-      "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "RingCentral, Inc. Reports Third Quarter 2026 Financial Results",
-      "catalyst_url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results"
-    },
-    {
       "ticker": "CCI",
-      "price": 90.3,
-      "gap_pct": 14.55,
+      "price": 87.38,
+      "gap_pct": 10.84,
       "catalyst": "Crown Castle Inc.",
       "prev_close": 78.83,
       "premarket_volume": 498473,
@@ -81,9 +69,57 @@
       "catalyst_url": "https://www.nasdaq.com/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026"
     },
     {
+      "ticker": "RNG",
+      "price": 85.96,
+      "gap_pct": 8.23,
+      "catalyst": "RingCentral, Inc.",
+      "prev_close": 79.42,
+      "premarket_volume": 72261,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "RingCentral, Inc. Reports Third Quarter 2026 Financial Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "ticker": "HSAI",
+      "price": 13.1,
+      "gap_pct": 7.91,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 12.14,
+      "premarket_volume": 84990,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "ZLAB",
+      "price": 23.61,
+      "gap_pct": 7.15,
+      "catalyst": "Zai Lab Limited Announces $250 Million Private Placement.",
+      "prev_close": 22.04,
+      "premarket_volume": 84006,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Zai Lab Limited Announces $250 Million Private Placement",
+      "catalyst_url": "https://www.nasdaq.com/articles/zai-lab-limited-announces-250-million-private-placement"
+    },
+    {
+      "ticker": "RITM",
+      "price": 9.27,
+      "gap_pct": 6.74,
+      "catalyst": "Rithm Capital Corp.",
+      "prev_close": 8.68,
+      "premarket_volume": 301622,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Rithm Capital Corp. Announces Third Quarter 2026 Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/rithm-capital-corp-announces-third-quarter-2026-results"
+    },
+    {
       "ticker": "AMT",
-      "price": 198.21,
-      "gap_pct": 9.16,
+      "price": 191.91,
+      "gap_pct": 5.7,
       "catalyst": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses.",
       "prev_close": 181.57,
       "premarket_volume": 394480,
@@ -94,8 +130,8 @@
     },
     {
       "ticker": "BNC",
-      "price": 5.55,
-      "gap_pct": 6.94,
+      "price": 5.48,
+      "gap_pct": 5.59,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.19,
       "premarket_volume": 86638,
@@ -105,28 +141,40 @@
       "catalyst_url": null
     },
     {
-      "ticker": "HSAI",
-      "price": 12.85,
-      "gap_pct": 5.85,
+      "ticker": "RIG",
+      "price": 6.41,
+      "gap_pct": 5.44,
       "catalyst": "No recent news catalyst found.",
-      "prev_close": 12.14,
-      "premarket_volume": 84990,
+      "prev_close": 6.08,
+      "premarket_volume": 67058,
       "session": "regular",
       "catalyst_source": null,
       "catalyst_headline": null,
       "catalyst_url": null
     },
     {
-      "ticker": "RITM",
-      "price": 9.15,
-      "gap_pct": 5.41,
-      "catalyst": "Rithm Capital Corp.",
-      "prev_close": 8.68,
-      "premarket_volume": 301622,
+      "ticker": "AXTI",
+      "price": 54.26,
+      "gap_pct": 5.25,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 51.56,
+      "premarket_volume": 1048045,
       "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "Rithm Capital Corp. Announces Third Quarter 2026 Results",
-      "catalyst_url": "https://www.nasdaq.com/articles/rithm-capital-corp-announces-third-quarter-2026-results"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "VG",
+      "price": 13.47,
+      "gap_pct": 5.11,
+      "catalyst": "Is the Options Market Predicting a Spike in Venture Global Stock?",
+      "prev_close": 12.81,
+      "premarket_volume": 66480,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Is the Options Market Predicting a Spike in Venture Global Stock?",
+      "catalyst_url": "https://www.nasdaq.com/articles/options-market-predicting-spike-venture-global-stock"
     }
   ]
 }

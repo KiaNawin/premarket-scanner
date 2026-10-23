@@ -1,173 +1,192 @@
 {
-  "ticker": "AIXI",
-  "saved_at_et": "2026-10-23T09:32:19-04:00",
+  "ticker": "BKYI",
+  "saved_at_et": "2026-10-23T10:03:12-04:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "Oct 8, 2026",
-          "created": "Oct 8, 2026",
-          "description": "The NASDAQ 100 Pre-Market Indicator is down -198.93 to 30,961.15.  The total Pre-Market volume is currently 120,264,182 shares traded.The following are the most active stocks for the pre-market session: XIAO-I Corporation (AIXI) is +0.69 at $2.01, with 21,402,779 shares traded.Pr",
-          "id": 28507826,
+          "title": "BIO-key (BKYI) Q2 2026 Earnings Call Transcript",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aixi",
-          "primarytopic": "Pre-Market|4291",
-          "primarytopic_url": "/topic/pre-market",
-          "publisher": "NASDAQ.com",
-          "publisher_logo": "",
-          "related_symbols": [
-            "aixi|stocks",
-            "sqqq|etf",
-            "tqqq|etf",
-            "ibit|etf",
-            "apld|stocks",
-            "intc|stocks",
-            "nok|stocks",
-            "stla|stocks",
-            "hln|stocks",
-            "wolf|stocks",
-            "ionq|stocks",
-            "bab|etf"
-          ],
-          "title": "Pre-Market Most Active for Oct 8, 2026 :  AIXI, SQQQ, TQQQ, IBIT, APLD, INTC, NOK, STLA, HLN, WOLF, IONQ, BABA",
-          "url": "/articles/pre-market-most-active-oct-8-2026-aixi-sqqq-tqqq-ibit-apld-intc-nok-stla-hln-wolf-ionq"
-        },
-        {
-          "ago": "Oct 7, 2026",
-          "created": "Oct 7, 2026",
-          "description": "The NASDAQ 100 After Hours Indicator is down -14.22 to 31,145.86.  The total After hours volume is currently 219,964,918 shares traded.The following are the most active stocks for the after hours session: Grab Holdings Limited (GRAB) is unchanged at $3.08, with 20,338,943 shares",
-          "id": 28503816,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "grab",
-          "primarytopic": "After-Hours|4206",
-          "primarytopic_url": "/topic/after-hours",
-          "publisher": "NASDAQ.com",
-          "publisher_logo": "",
-          "related_symbols": [
-            "grab|stocks",
-            "frsh|stocks",
-            "aixi|stocks",
-            "hut|stocks",
-            "csco|stocks",
-            "nvd|etf"
-          ],
-          "title": "After Hours Most Active for Oct 7, 2026 :  GRAB, FRSH, AIXI, HUT, CSCO, NVDA",
-          "url": "/articles/after-hours-most-active-oct-7-2026-grab-frsh-aixi-hut-csco-nvda"
-        },
-        {
-          "ago": "Oct 6, 2026",
-          "created": "Oct 6, 2026",
-          "description": "The NASDAQ 100 Pre-Market Indicator is up 157.68 to 31,234.12.  The total Pre-Market volume is currently 242,419,674 shares traded.The following are the most active stocks for the pre-market session: XIAO-I Corporation (AIXI) is +1.7899 at $3.30, with 40,672,847 shares traded.Spa",
-          "id": 28490881,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aixi",
-          "primarytopic": "Pre-Market|4291",
-          "primarytopic_url": "/topic/pre-market",
-          "publisher": "NASDAQ.com",
-          "publisher_logo": "",
-          "related_symbols": [
-            "aixi|stocks",
-            "sqqq|etf",
-            "tqqq|etf",
-            "nvda|stocks",
-            "tsll|etf",
-            "stla|stocks",
-            "nok|stocks",
-            "bmnr|stocks",
-            "nke|stocks",
-            "joby|stocks",
-            "sm|stocks"
-          ],
-          "title": "Pre-Market Most Active for Oct 6, 2026 :  AIXI, SPCX, SQQQ, TQQQ, NVDA, TSLL, STLA, NOK, BMNR, NKE, JOBY, SMR",
-          "url": "/articles/pre-market-most-active-oct-6-2026-aixi-spcx-sqqq-tqqq-nvda-tsll-stla-nok-bmnr-nke-joby-smr"
-        },
-        {
-          "ago": "Jun 23, 2026",
-          "created": "Jun 23, 2026",
-          "description": "The NASDAQ 100 Pre-Market Indicator is down -891.64 to 29,455.44.  The total Pre-Market volume is currently 279,838,318 shares traded.The following are the most active stocks for the pre-market session: XIAO-I Corporation (AIXI) is +0.2193 at $3.28, with 25,246,339 shares traded.",
-          "id": 27815126,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aixi",
-          "primarytopic": "Pre-Market|4291",
-          "primarytopic_url": "/topic/pre-market",
-          "publisher": "NASDAQ.com",
-          "publisher_logo": "",
-          "related_symbols": [
-            "aixi|stocks",
-            "bold|stocks",
-            "sqqq|etf",
-            "tqqq|etf",
-            "nok|stocks",
-            "tsll|etf",
-            "amc|stocks",
-            "infq|stocks",
-            "qbts|stocks",
-            "smr|stocks"
-          ],
-          "title": "Pre-Market Most Active for Jun 23, 2026 :  AIXI, BOLD, SPCX, SQQQ, TQQQ, NOK, TSLL, AMC, INFQ, QBTS, SMR, VICI",
-          "url": "/articles/pre-market-most-active-jun-23-2026-aixi-bold-spcx-sqqq-tqqq-nok-tsll-amc-infq-qbts-smr"
-        },
-        {
-          "ago": "Oct 31, 2025",
-          "created": "Oct 31, 2025",
-          "description": "(RTTNews) - Xiao-I Corp. (AIXI), a global cognitive intelligence solution, Friday announced that it has renewed its strategic partnership with a multinational life insurance provider to continue deploying its enterprise-grade conversational AI platform, iBot Pro.",
-          "id": 26134276,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aixi",
+          "created": "Aug 21, 2026",
+          "ago": "Aug 21, 2026",
+          "primarysymbol": "bkyi",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "publisher": "The Motley Fool",
           "related_symbols": [
-            "aixi|stocks"
+            "bkyi|stocks"
           ],
-          "title": "Xiao-I Renews Partnership With Global Insurer To Expand AI-Driven Customer Service ",
-          "url": "/articles/xiao-i-renews-partnership-global-insurer-expand-ai-driven-customer-service"
+          "url": "/articles/bio-key-bkyi-q2-2026-earnings-call-transcript",
+          "id": 28232566,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
         },
         {
-          "ago": "May 6, 2025",
-          "created": "May 6, 2025",
-          "description": "(RTTNews) - Xiao-I Corp. (AIXI), an enterprise in AI, Tuesday announced that it has extended its collaboration with insurance giant AIA China through a one-year agreement worth 3 to 4 million RMB.",
-          "id": 24725956,
+          "title": "BIO-key Surges In Pre-Market On Securing Major Digital Identity Contract In Portugal ",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aixi",
+          "created": "Jan 28, 2026",
+          "ago": "Jan 28, 2026",
+          "primarysymbol": "bkyi",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
           "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "aixi|stocks"
+            "bkyi|stocks"
           ],
-          "title": "Xiao-I, AIA China Deepen AI Partnership With Approx. 4 Mln RMB Contract, Stock Up ",
-          "url": "/articles/xiao-i-aia-china-deepen-ai-partnership-approx-4-mln-rmb-contract-stock"
+          "url": "/articles/bio-key-surges-pre-market-securing-major-digital-identity-contract-portugal",
+          "id": 26764321,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Shares of BIO-key International, Inc (BKYI) are up around 40% in pre-market trading Wednesday after the company announced a significant contract win in Portugal to secure digital identities across a large municipal ecosystem.",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
         },
         {
-          "ago": "Mar 19, 2025",
-          "created": "Mar 19, 2025",
-          "description": "(RTTNews) - Xiao-I Corp. (AIXI), an artificial intelligence company, Wednesday announced a global strategic partnership with TF International Securities Group Limited, a Hong Kong-based financial institution under Hubei Hongtai Group and Tianfeng Securities.",
-          "id": 24304286,
+          "title": "BIO-key (BKYI) Q2 2025 Earnings Call Transcript",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aixi",
+          "created": "Aug 13, 2025",
+          "ago": "Aug 13, 2025",
+          "primarysymbol": "bkyi",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "publisher": "The Motley Fool",
           "related_symbols": [
-            "aixi|stocks"
+            "bkyi|stocks"
           ],
-          "title": "Xiao-I, TF International Partner To Advance AI In Finance, Stock Down ",
-          "url": "/articles/xiao-i-tf-international-partner-advance-ai-finance-stock-down"
+          "url": "/articles/bio-key-bkyi-q2-2025-earnings-call-transcript",
+          "id": 25537906,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "BIO-key Revenue Jumps 49 Percent in Q2",
+          "image": "",
+          "created": "Aug 13, 2025",
+          "ago": "Aug 13, 2025",
+          "primarysymbol": "bkyi",
+          "primarytopic": "Markets|4006",
+          "publisher": "The Motley Fool",
+          "related_symbols": [
+            "bkyi|stocks"
+          ],
+          "url": "/articles/bio-key-revenue-jumps-49-percent-q2",
+          "id": 25535536,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "BIO-key International (NASDAQ:BKYI) reported Q2 2025 earnings on August 13, 2025, highlighting a 49% year-over-year revenue increase to $1.7 million (GAAP) and an 8.5% reduction in operating expenses versus Q2 2024. Management discussed strategic pivots into defense/intelligence",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "BIO-key International, Inc. Joins ISMS Forum to Enhance Cybersecurity Collaboration in Spain",
+          "image": "",
+          "created": "Jun 25, 2025",
+          "ago": "Jun 25, 2025",
+          "primarysymbol": "bkyi",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Quiver Quantitative",
+          "related_symbols": [
+            "bkyi|stocks"
+          ],
+          "url": "/articles/bio-key-international-inc-joins-isms-forum-enhance-cybersecurity-collaboration-spain",
+          "id": 25123541,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "BIO-key International joins ISMS Forum to enhance cybersecurity, focusing on identity management and collaboration in Spain.",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": ""
+        },
+        {
+          "title": "BIO-key International Partners with Cloud Distribution Co. to Enhance IAM Solutions in the Middle East",
+          "image": "",
+          "created": "May 19, 2025",
+          "ago": "May 19, 2025",
+          "primarysymbol": "bkyi",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Quiver Quantitative",
+          "related_symbols": [
+            "bkyi|stocks"
+          ],
+          "url": "/articles/bio-key-international-partners-cloud-distribution-co-enhance-iam-solutions-middle-east",
+          "id": 24854891,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "BIO-key announces a partnership with Cloud Distribution to enhance IAM solutions across Saudi Arabia and the UAE.",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": ""
+        },
+        {
+          "title": "BIO-key International, Inc. to Host First Quarter 2025 Investor Call on May 16th",
+          "image": "",
+          "created": "May 9, 2025",
+          "ago": "May 9, 2025",
+          "primarysymbol": "bkyi",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Quiver Quantitative",
+          "related_symbols": [
+            "bkyi|stocks"
+          ],
+          "url": "/articles/bio-key-international-inc-host-first-quarter-2025-investor-call-may-16th",
+          "id": 24778611,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "BIO-key International will host its Q1 2025 investor call on May 16, following results release post-market on May 15.",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": ""
+        },
+        {
+          "title": "BIO-key International, Inc. Regains Nasdaq Compliance After Timely Filing of Annual Report",
+          "image": "",
+          "created": "Apr 24, 2025",
+          "ago": "Apr 24, 2025",
+          "primarysymbol": "bkyi",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Quiver Quantitative",
+          "related_symbols": [
+            "bkyi|stocks"
+          ],
+          "url": "/articles/bio-key-international-inc-regains-nasdaq-compliance-after-timely-filing-annual-report",
+          "id": 24609626,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "BIO-key International complies with Nasdaq rules after filing its delayed annual report. Listing and trading remain unaffected.",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": ""
+        },
+        {
+          "title": "BIO-KEY INTERNATIONAL Earnings Results: $BKYI Reports Quarterly Earnings",
+          "image": "",
+          "created": "Mar 27, 2025",
+          "ago": "Mar 27, 2025",
+          "primarysymbol": "bkyi",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Quiver Quantitative",
+          "related_symbols": [
+            "bkyi|stocks"
+          ],
+          "url": "/articles/bio-key-international-earnings-results-bkyi-reports-quarterly-earnings",
+          "id": 24366396,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "BIO-KEY INTERNATIONAL ($BKYI) posted quarterly earnings results on Thursday, March 27th. The company reported earnings of -$0.53 per share, missing estimates of -$0.36 by $0.17. The company also reported revenue of $1,460,000, missing estimates of $2,335,800 by $-875,800.",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": ""
+        },
+        {
+          "title": "BIO-KEY INTERNATIONAL Earnings Preview: Recent $BKYI Insider Trading, Hedge Fund Activity, and More",
+          "image": "",
+          "created": "Mar 25, 2025",
+          "ago": "Mar 25, 2025",
+          "primarysymbol": "bkyi",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Quiver Quantitative",
+          "related_symbols": [
+            "bkyi|stocks"
+          ],
+          "url": "/articles/bio-key-international-earnings-preview-recent-bkyi-insider-trading-hedge-fund-activity-and",
+          "id": 24350951,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "BIO-KEY INTERNATIONAL ($BKYI) is expected to release its quarterly earnings data on Thursday, March 27th before market open, per Finnhub. Analysts are expecting revenue of $2,335,800 and earnings of -$0.36 per share.",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": ""
         }
       ],
-      "totalrecords": 7
+      "totalrecords": 14,
+      "message": null
     },
     "message": null,
     "status": {
