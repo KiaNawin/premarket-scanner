@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 10:05:01 EDT",
+  "generated_at_et": "2026-10-23 10:35:01 EDT",
   "source_premarket_file": "premarket_scan_2026-10-23.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -11,20 +11,46 @@
     "Signal only after 10:00 AM ET"
   ],
   "candidates": 13,
-  "valid_count": 1,
+  "valid_count": 3,
   "valid_entries": [
     {
       "ticker": "VG",
       "signal_time_et": "2026-10-23 10:00",
       "entry_price": 13.465,
-      "last_price": 13.495,
-      "gap_pct": 5.11,
+      "last_price": 13.505,
+      "gap_pct": 5.35,
       "yesterday_high": 13.08,
       "yesterday_close": 12.81,
       "sma200": 12.4973,
       "premarket_high": 13.0,
       "hod_before_signal": 13.46,
       "catalyst": "Is the Options Market Predicting a Spike in Venture Global Stock?"
+    },
+    {
+      "ticker": "NAUT",
+      "signal_time_et": "2026-10-23 10:02",
+      "entry_price": 2.8709,
+      "last_price": 3.0991,
+      "gap_pct": 16.92,
+      "yesterday_high": 2.86,
+      "yesterday_close": 2.6,
+      "sma200": 2.0908,
+      "premarket_high": 2.6783,
+      "hod_before_signal": 2.85,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "FSLY",
+      "signal_time_et": "2026-10-23 10:07",
+      "entry_price": 23.52,
+      "last_price": 23.445,
+      "gap_pct": 5.39,
+      "yesterday_high": 23.44,
+      "yesterday_close": 22.45,
+      "sma200": 20.9867,
+      "premarket_high": 22.77,
+      "hod_before_signal": 23.4,
+      "catalyst": "No recent news catalyst found."
     }
   ],
   "evaluated": [
@@ -36,9 +62,9 @@
       "yesterday_close": 12.81,
       "sma200": 12.4973,
       "premarket_high": 13.0,
-      "last_price": 13.495,
-      "last_bar_et": "10:04",
-      "high_of_day": 13.55,
+      "last_price": 13.505,
+      "last_bar_et": "10:34",
+      "high_of_day": 13.56,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -48,8 +74,75 @@
       "signal_time_et": "2026-10-23 10:00",
       "entry_price": 13.465,
       "hod_before_signal": 13.46,
-      "gap_pct": 5.11,
+      "gap_pct": 5.35,
       "catalyst": "Is the Options Market Predicting a Spike in Venture Global Stock?"
+    },
+    {
+      "ticker": "NAUT",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 2.86,
+      "yesterday_close": 2.6,
+      "sma200": 2.0908,
+      "premarket_high": 2.6783,
+      "last_price": 3.0991,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.12,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-23 10:02",
+      "entry_price": 2.8709,
+      "hod_before_signal": 2.85,
+      "gap_pct": 16.92,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "FSLY",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "yesterday_high": 23.44,
+      "yesterday_close": 22.45,
+      "sma200": 20.9867,
+      "premarket_high": 22.77,
+      "last_price": 23.445,
+      "last_bar_et": "10:34",
+      "high_of_day": 23.8086,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-23 10:07",
+      "entry_price": 23.52,
+      "hod_before_signal": 23.4,
+      "gap_pct": 5.39,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "AIXI",
+      "status": "FAIL",
+      "signal": false,
+      "yesterday_high": 2.919,
+      "yesterday_close": 2.48,
+      "sma200": 6.115,
+      "premarket_high": 3.64,
+      "last_price": 3.05,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.44,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 22.98,
+      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "AMT",
@@ -59,8 +152,8 @@
       "yesterday_close": 181.57,
       "sma200": 176.9771,
       "premarket_high": 202.0,
-      "last_price": 192.21,
-      "last_bar_et": "10:04",
+      "last_price": 193.14,
+      "last_bar_et": "10:34",
       "high_of_day": 202.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -69,29 +162,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.7,
+      "gap_pct": 6.69,
       "catalyst": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses."
-    },
-    {
-      "ticker": "AXTI",
-      "status": "FAIL",
-      "signal": false,
-      "yesterday_high": 56.72,
-      "yesterday_close": 51.56,
-      "sma200": 63.822,
-      "premarket_high": 56.39,
-      "last_price": 54.33,
-      "last_bar_et": "10:04",
-      "high_of_day": 55.2,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.25,
-      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "BKYI",
@@ -101,8 +173,8 @@
       "yesterday_close": 2.74,
       "sma200": 4.6517,
       "premarket_high": 3.36,
-      "last_price": 3.3799,
-      "last_bar_et": "10:04",
+      "last_price": 3.505,
+      "last_bar_et": "10:33",
       "high_of_day": 3.8,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -111,28 +183,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 34.67,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "BNC",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "yesterday_high": 5.45,
-      "yesterday_close": 5.19,
-      "sma200": 3.6443,
-      "premarket_high": 5.6,
-      "last_price": 5.46,
-      "last_bar_et": "10:04",
-      "high_of_day": 5.6,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.59,
+      "gap_pct": 28.83,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -143,8 +194,8 @@
       "yesterday_close": 78.83,
       "sma200": 82.218,
       "premarket_high": 90.4,
-      "last_price": 87.76,
-      "last_bar_et": "10:04",
+      "last_price": 88.17,
+      "last_bar_et": "10:34",
       "high_of_day": 91.4495,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -153,7 +204,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.84,
+      "gap_pct": 12.27,
       "catalyst": "Crown Castle Inc."
     },
     {
@@ -164,8 +215,8 @@
       "yesterday_close": 12.14,
       "sma200": 20.2597,
       "premarket_high": 12.97,
-      "last_price": 13.18,
-      "last_bar_et": "10:04",
+      "last_price": 13.1,
+      "last_bar_et": "10:34",
       "high_of_day": 13.21,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -178,27 +229,6 @@
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "RIG",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "yesterday_high": 6.11,
-      "yesterday_close": 6.08,
-      "sma200": 5.789,
-      "premarket_high": 6.13,
-      "last_price": 6.345,
-      "last_bar_et": "10:04",
-      "high_of_day": 6.43,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 5.44,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
       "ticker": "RITM",
       "status": "FAIL",
       "signal": false,
@@ -206,8 +236,8 @@
       "yesterday_close": 8.68,
       "sma200": 9.7665,
       "premarket_high": 9.28,
-      "last_price": 9.22,
-      "last_bar_et": "10:04",
+      "last_price": 9.2299,
+      "last_bar_et": "10:34",
       "high_of_day": 9.32,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -216,7 +246,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.74,
+      "gap_pct": 6.16,
       "catalyst": "Rithm Capital Corp."
     },
     {
@@ -227,8 +257,8 @@
       "yesterday_close": 79.42,
       "sma200": 47.6465,
       "premarket_high": 93.0,
-      "last_price": 85.2,
-      "last_bar_et": "10:04",
+      "last_price": 85.29,
+      "last_bar_et": "10:34",
       "high_of_day": 98.14,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -237,7 +267,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 8.23,
+      "gap_pct": 7.45,
       "catalyst": "RingCentral, Inc."
     },
     {
@@ -248,9 +278,9 @@
       "yesterday_close": 5.28,
       "sma200": 10.0831,
       "premarket_high": 6.96,
-      "last_price": 6.366,
-      "last_bar_et": "10:04",
-      "high_of_day": 6.91,
+      "last_price": 6.1252,
+      "last_bar_et": "10:34",
+      "high_of_day": 7.07,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -258,29 +288,29 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 22.73,
+      "gap_pct": 18.56,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "YMAT",
+      "ticker": "TTMI",
       "status": "FAIL",
       "signal": false,
-      "yesterday_high": 2.3,
-      "yesterday_close": 1.92,
-      "sma200": 2.294,
-      "premarket_high": 3.72,
-      "last_price": 3.05,
-      "last_bar_et": "10:04",
-      "high_of_day": 3.56,
+      "yesterday_high": 84.09,
+      "yesterday_close": 73.89,
+      "sma200": 128.0099,
+      "premarket_high": 77.94,
+      "last_price": 77.645,
+      "last_bar_et": "10:34",
+      "high_of_day": 78.39,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 63.54,
-      "catalyst": "No recent news catalyst found."
+      "gap_pct": 5.03,
+      "catalyst": "Why TTM Technologies Stock Plunged This Week."
     },
     {
       "ticker": "ZLAB",
@@ -290,8 +320,8 @@
       "yesterday_close": 22.04,
       "sma200": 20.8458,
       "premarket_high": 24.7332,
-      "last_price": 23.635,
-      "last_bar_et": "10:04",
+      "last_price": 23.27,
+      "last_bar_et": "10:34",
       "high_of_day": 24.24,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -300,9 +330,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 7.15,
+      "gap_pct": 5.94,
       "catalyst": "Zai Lab Limited Announces $250 Million Private Placement."
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }
