@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 12:06:24 EDT",
-  "scan_time_et": "12:06",
+  "generated_at_et": "2026-10-23 12:36:48 EDT",
+  "scan_time_et": "12:36",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7103,
-    "prefilter": 340,
-    "with_data": 263,
-    "gap": 92,
-    "gap_price": 84,
+    "prefilter": 363,
+    "with_data": 282,
+    "gap": 97,
+    "gap_price": 88,
     "passed": 17,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "BKYI",
-      "price": 3.78,
-      "gap_pct": 37.92,
+      "price": 3.64,
+      "gap_pct": 32.81,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 2.74,
       "premarket_volume": 5645939,
@@ -45,21 +45,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "CCI",
-      "price": 87.68,
-      "gap_pct": 11.23,
-      "catalyst": "Crown Castle Inc.",
-      "prev_close": 78.83,
-      "premarket_volume": 498473,
-      "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "Crown Castle Inc. Reports Third Quarter 2026 Results and Updates Outlook for Full Year 2026",
-      "catalyst_url": "https://www.nasdaq.com/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026"
-    },
-    {
       "ticker": "SAIQ",
-      "price": 5.75,
-      "gap_pct": 8.9,
+      "price": 6.2,
+      "gap_pct": 17.42,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.28,
       "premarket_volume": 2200964,
@@ -69,21 +57,21 @@
       "catalyst_url": null
     },
     {
-      "ticker": "RNG",
-      "price": 85.91,
-      "gap_pct": 8.17,
-      "catalyst": "RingCentral, Inc.",
-      "prev_close": 79.42,
-      "premarket_volume": 72261,
+      "ticker": "CCI",
+      "price": 86.21,
+      "gap_pct": 9.36,
+      "catalyst": "Crown Castle Inc.",
+      "prev_close": 78.83,
+      "premarket_volume": 498473,
       "session": "regular",
       "catalyst_source": "Fintel",
-      "catalyst_headline": "RingCentral, Inc. Reports Third Quarter 2026 Financial Results",
-      "catalyst_url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results"
+      "catalyst_headline": "Crown Castle Inc. Reports Third Quarter 2026 Results and Updates Outlook for Full Year 2026",
+      "catalyst_url": "https://www.nasdaq.com/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026"
     },
     {
       "ticker": "TTMI",
-      "price": 79.65,
-      "gap_pct": 7.8,
+      "price": 79.48,
+      "gap_pct": 7.57,
       "catalyst": "Why TTM Technologies Stock Plunged This Week.",
       "prev_close": 73.89,
       "premarket_volume": 181587,
@@ -93,21 +81,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/why-ttm-technologies-stock-plunged-week"
     },
     {
-      "ticker": "RITM",
-      "price": 9.35,
-      "gap_pct": 7.78,
-      "catalyst": "Rithm Capital Corp.",
-      "prev_close": 8.68,
-      "premarket_volume": 301622,
+      "ticker": "HSAI",
+      "price": 13.03,
+      "gap_pct": 7.33,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 12.14,
+      "premarket_volume": 84990,
       "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "Rithm Capital Corp. Announces Third Quarter 2026 Results",
-      "catalyst_url": "https://www.nasdaq.com/articles/rithm-capital-corp-announces-third-quarter-2026-results"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     },
     {
       "ticker": "CLF",
-      "price": 14.04,
-      "gap_pct": 7.58,
+      "price": 14.01,
+      "gap_pct": 7.32,
       "catalyst": "Friday 10/23 Insider Buying Report: CLF, AGMB.",
       "prev_close": 13.05,
       "premarket_volume": 121721,
@@ -118,8 +106,8 @@
     },
     {
       "ticker": "FSLY",
-      "price": 24.05,
-      "gap_pct": 7.13,
+      "price": 24.06,
+      "gap_pct": 7.15,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 22.45,
       "premarket_volume": 53737,
@@ -130,8 +118,8 @@
     },
     {
       "ticker": "RIG",
-      "price": 6.5,
-      "gap_pct": 6.91,
+      "price": 6.51,
+      "gap_pct": 6.99,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 6.08,
       "premarket_volume": 67058,
@@ -141,33 +129,33 @@
       "catalyst_url": null
     },
     {
-      "ticker": "HSAI",
-      "price": 12.97,
-      "gap_pct": 6.8,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 12.14,
-      "premarket_volume": 84990,
+      "ticker": "RNG",
+      "price": 84.93,
+      "gap_pct": 6.94,
+      "catalyst": "RingCentral, Inc.",
+      "prev_close": 79.42,
+      "premarket_volume": 72261,
       "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "RingCentral, Inc. Reports Third Quarter 2026 Financial Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results"
     },
     {
-      "ticker": "BNC",
-      "price": 5.52,
-      "gap_pct": 6.36,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 5.19,
-      "premarket_volume": 86638,
+      "ticker": "RITM",
+      "price": 9.24,
+      "gap_pct": 6.51,
+      "catalyst": "Rithm Capital Corp.",
+      "prev_close": 8.68,
+      "premarket_volume": 301622,
       "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Rithm Capital Corp. Announces Third Quarter 2026 Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/rithm-capital-corp-announces-third-quarter-2026-results"
     },
     {
       "ticker": "NET",
-      "price": 322.61,
-      "gap_pct": 6.26,
+      "price": 322.22,
+      "gap_pct": 6.13,
       "catalyst": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know.",
       "prev_close": 303.61,
       "premarket_volume": 96099,
@@ -177,21 +165,9 @@
       "catalyst_url": "https://www.nasdaq.com/articles/cloudflare-net-stock-moves-118-what-you-should-know"
     },
     {
-      "ticker": "VG",
-      "price": 13.6,
-      "gap_pct": 6.21,
-      "catalyst": "Is the Options Market Predicting a Spike in Venture Global Stock?",
-      "prev_close": 12.81,
-      "premarket_volume": 66480,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Is the Options Market Predicting a Spike in Venture Global Stock?",
-      "catalyst_url": "https://www.nasdaq.com/articles/options-market-predicting-spike-venture-global-stock"
-    },
-    {
       "ticker": "CRWD",
-      "price": 252.51,
-      "gap_pct": 6.12,
+      "price": 251.53,
+      "gap_pct": 5.71,
       "catalyst": "CrowdStrike vs.",
       "prev_close": 237.94,
       "premarket_volume": 67038,
@@ -202,8 +178,8 @@
     },
     {
       "ticker": "EQNR",
-      "price": 48.95,
-      "gap_pct": 5.45,
+      "price": 49.05,
+      "gap_pct": 5.67,
       "catalyst": "Equinor vs Cenovus: Which Energy Stock Is a Better Investment?",
       "prev_close": 46.42,
       "premarket_volume": 131479,
@@ -213,9 +189,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/equinor-vs-cenovus-which-energy-stock-better-investment"
     },
     {
+      "ticker": "BNC",
+      "price": 5.48,
+      "gap_pct": 5.59,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.19,
+      "premarket_volume": 86638,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "DDOG",
-      "price": 271.42,
-      "gap_pct": 5.3,
+      "price": 271.17,
+      "gap_pct": 5.21,
       "catalyst": "Arista Networks vs.",
       "prev_close": 257.75,
       "premarket_volume": 129227,
@@ -223,6 +211,18 @@
       "catalyst_source": "The Motley Fool",
       "catalyst_headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
       "catalyst_url": "https://www.nasdaq.com/articles/arista-networks-vs-datadog-which-technology-stock-better-buy-2026"
+    },
+    {
+      "ticker": "HCAI",
+      "price": 3.47,
+      "gap_pct": 5.02,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.3,
+      "premarket_volume": 446984,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     }
   ]
 }
