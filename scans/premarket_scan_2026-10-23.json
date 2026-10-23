@@ -1,0 +1,132 @@
+{
+  "scan_date": "2026-10-23",
+  "generated_at_et": "2026-10-23 08:32:56 EDT",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7102,
+    "prefilter": 203,
+    "with_data": 190,
+    "gap": 33,
+    "gap_price": 31,
+    "passed": 9,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7102,
+  "count": 9,
+  "results": [
+    {
+      "ticker": "SAIQ",
+      "price": 6.66,
+      "gap_pct": 26.14,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.28,
+      "premarket_volume": 1952732,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CCI",
+      "price": 88.91,
+      "gap_pct": 12.79,
+      "catalyst": "Crown Castle Inc.",
+      "prev_close": 78.83,
+      "premarket_volume": 110810,
+      "session": "pre-market",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Crown Castle Inc. Reports Third Quarter 2026 Results and Updates Outlook for Full Year 2026",
+      "catalyst_url": "https://www.nasdaq.com/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026"
+    },
+    {
+      "ticker": "BKYI",
+      "price": 3.08,
+      "gap_pct": 12.36,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 2.74,
+      "premarket_volume": 3851684,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "AMT",
+      "price": 199.0,
+      "gap_pct": 9.6,
+      "catalyst": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses.",
+      "prev_close": 181.57,
+      "premarket_volume": 64551,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses",
+      "catalyst_url": "https://www.nasdaq.com/articles/crown-castles-q3-affo-beats-estimates-lower-expenses"
+    },
+    {
+      "ticker": "ZLAB",
+      "price": 23.63,
+      "gap_pct": 7.21,
+      "catalyst": "Zai Lab Limited Announces $250 Million Private Placement.",
+      "prev_close": 22.04,
+      "premarket_volume": 55447,
+      "session": "pre-market",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Zai Lab Limited Announces $250 Million Private Placement",
+      "catalyst_url": "https://www.nasdaq.com/articles/zai-lab-limited-announces-250-million-private-placement"
+    },
+    {
+      "ticker": "RITM",
+      "price": 9.28,
+      "gap_pct": 6.89,
+      "catalyst": "SoFi Technologies, Inc.",
+      "prev_close": 8.68,
+      "premarket_volume": 202005,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "SoFi Technologies, Inc. (SOFI) Reports Next Week: Wall Street Expects Earnings Growth",
+      "catalyst_url": "https://www.nasdaq.com/articles/sofi-technologies-inc-sofi-reports-next-week-wall-street-expects-earnings-growth-1"
+    },
+    {
+      "ticker": "BNC",
+      "price": 5.54,
+      "gap_pct": 6.74,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.19,
+      "premarket_volume": 76570,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "EROC",
+      "price": 8.75,
+      "gap_pct": 5.68,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 8.28,
+      "premarket_volume": 82777,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "HSAI",
+      "price": 12.78,
+      "gap_pct": 5.27,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 12.14,
+      "premarket_volume": 69304,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    }
+  ]
+}

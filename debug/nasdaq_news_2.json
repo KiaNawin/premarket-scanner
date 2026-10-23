@@ -1,214 +1,198 @@
 {
-  "ticker": "GIXI",
-  "saved_at_et": "2026-10-22T13:07:24-04:00",
+  "ticker": "CCI",
+  "saved_at_et": "2026-10-23T08:32:25-04:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "Tech Stocks Lead Broad Market Lower as Meta Slides -6%",
-          "image": "/barchart/Nasdaq%2520Times%2520Square%2520by%2520Lucky%2520Photographer%2520via%2520iStock.jpg",
+          "ago": "20 hours ago",
           "created": "Oct 22, 2026",
-          "ago": "6 minutes ago",
+          "description": "CCI's Q3 2026 AFFO beat estimates on lower interest expenses, despite declining revenues, while management raised its full-year AFFO and EBITDA outlook.",
+          "id": 28606581,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
-          "publisher": "Barchart",
-          "related_symbols": [
-            "klac|stocks",
-            "meta|stocks",
-            "nvda|stocks",
-            "googl|stocks",
-            "amat|stocks",
-            "aapl|stocks",
-            "spot|stocks",
-            "lvs|stocks",
-            "qqq|etf",
-            "tsla|stocks",
-            "ibm|stocks",
-            "intc|stocks",
-            "pg|stocks",
-            "lrcx|stocks",
-            "spy|etf",
-            "dia|etf",
-            "amzn|stocks"
-          ],
-          "url": "/articles/tech-stocks-lead-broad-market-lower-meta-slides-6",
-          "id": 28604001,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) is down -0.78%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -1.50%.  December E-mini S&P futures (ESZ26 ) are down -0.81%, and December E-mini Nasdaq futures (NQZ26...",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png"
-        },
-        {
-          "title": "Daily Dividend Report: BAC,AWI,HCI,IBM,PNW,SHW,NSC",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "7 minutes ago",
-          "primarysymbol": "bac",
-          "primarytopic": "Markets|4006",
-          "publisher": "BNK Invest",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
           "related_symbols": [
-            "bac|stocks",
-            "awi|stocks",
-            "hci|stocks",
-            "ibm|stocks",
-            "pnw|stocks",
-            "shw|stocks",
-            "nsc|stocks"
+            "cci|stocks",
+            "amt|stocks",
+            "pld|stocks"
           ],
-          "url": "/articles/daily-dividend-report-bacawihciibmpnwshwnsc",
-          "id": 28605651,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Bank of America announced the Board of Directors declared a regular quarterly cash dividend on Bank of America common stock of $0.32 per share, payable on December 24, 2026 to shareholders of record as of December 4, 2026.\n\nArmstrong World Industries, an Americas leader in the d",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
+          "title": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses",
+          "url": "/articles/crown-castles-q3-affo-beats-estimates-lower-expenses"
         },
         {
-          "title": "Hexcel (HXL) Q3 2026 Earnings Call Transcript",
-          "image": "",
+          "ago": "1 day ago",
           "created": "Oct 22, 2026",
-          "ago": "7 minutes ago",
-          "primarysymbol": "hxl",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "hxl|stocks"
-          ],
-          "url": "/articles/hexcel-hxl-q3-2026-earnings-call-transcript",
-          "id": 28605686,
+          "description": "Crown Castle Inc. reported results for the third quarter ended September 30, 2026. Net income (loss) for the third quarter 2026 was $283 million compared to $323 million for the third quarter 2025. Third quarter 2026 Adjusted EBITDA was $673 million compared to $718 million for t",
+          "id": 28596856,
+          "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Getty Realty (GTY) Q3 2026 Earnings Call Transcript",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "7 minutes ago",
-          "primarysymbol": "gty",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "gty|stocks"
-          ],
-          "url": "/articles/getty-realty-gty-q3-2026-earnings-call-transcript",
-          "id": 28605681,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "SouthState (SSB) Q3 2026 Earnings Call Transcript",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "7 minutes ago",
-          "primarysymbol": "ssb",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "ssb|stocks"
-          ],
-          "url": "/articles/southstate-ssb-q3-2026-earnings-call-transcript",
-          "id": 28605676,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "United Rentals (URI) Q3 2026 Earnings Call Transcript",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "7 minutes ago",
-          "primarysymbol": "uri",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "uri|stocks"
-          ],
-          "url": "/articles/united-rentals-uri-q3-2026-earnings-call-transcript",
-          "id": 28605671,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Medpace (MEDP) Q3 2026 Earnings Call Transcript",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "7 minutes ago",
-          "primarysymbol": "medp",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "medp|stocks"
-          ],
-          "url": "/articles/medpace-medp-q3-2026-earnings-call-transcript",
-          "id": 28605666,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "argenx SE Reports Third Quarter 2026 Financial Results and Business Update",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "8 minutes ago",
-          "primarysymbol": "argx",
+          "primarysymbol": "cci",
           "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "argx|stocks"
-          ],
-          "url": "/articles/argenx-se-reports-third-quarter-2026-financial-results-and-business-update",
-          "id": 28605641,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "argenx SE reported its third quarter 2026 financial results, highlighted by global product net sales of $1.7 billion for VYVGART, representing 54% year-over-year growth and 13% quarter-over-quarter growth. Total operating income for the three months ended September 30, 2026 was $",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "cci|stocks"
+          ],
+          "title": "Crown Castle Inc. Reports Third Quarter 2026 Results and Updates Outlook for Full Year 2026",
+          "url": "/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026"
         },
         {
-          "title": "See Which Recent 13F Filers Hold TSM But Bucket List Wealth Management Exited",
+          "ago": "1 day ago",
+          "created": "Oct 21, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28595666,
           "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "8 minutes ago",
-          "primarysymbol": "tsm",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cci",
           "primarytopic": "Markets|4006",
-          "publisher": "BNK Invest",
-          "related_symbols": [
-            "tsm|stocks"
-          ],
-          "url": "/articles/see-which-recent-13f-filers-hold-tsm-bucket-list-wealth-management-exited",
-          "id": 28605646,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "At Holdings Channel, we have reviewed the latest batch of the 58 most recent 13F filings for the 09/30/2026 reporting period, and noticed that Taiwan Semiconductor Manufacturing Co., Ltd. (Symbol: TSM) was held by 28 of these funds.  When hedge fund managers appear to be thinking",
           "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "cci|stocks"
+          ],
+          "title": "Crown Castle (CCI) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/crown-castle-cci-q3-2026-earnings-call-transcript"
         },
         {
-          "title": "Norfolk Southern Corporation Reports Third Quarter 2026 Revenue of $3.5 billion",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "8 minutes ago",
-          "primarysymbol": "nsc",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "nsc|stocks"
-          ],
-          "url": "/articles/norfolk-southern-corporation-reports-third-quarter-2026-revenue-35-billion",
-          "id": 28605636,
+          "ago": "1 day ago",
+          "created": "Oct 21, 2026",
+          "description": "SpaceX's Spectrum Deal Hits Telecom Stocks but Gives Tower REITs a New OpportunityCrown Castle (NYSE:CCI) raised its full-year 2026 outlook after reporting third-quarter results that reflected continued organic tower leasing growth, operating-cost reductions and a customer agreem",
+          "id": 28610906,
+          "image": "/marketbeat/crown-castle-inc-logo-1200x675.jpg",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Norfolk Southern Corporation announced its third quarter 2026 financial results, reporting railway operating revenues of $3.5 billion, which represents a quarterly record and an increase of 14% compared to the third quarter 2025. Diluted earnings per share for the quarter were $3",
+          "primarysymbol": "cci",
+          "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+          "publisher": "MarketBeat",
+          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png",
+          "related_symbols": [
+            "cci|stocks"
+          ],
+          "title": "What Crown Castle (CCI) Said on Its Q3 Earnings Call",
+          "url": "/articles/what-crown-castle-cci-said-its-q3-earnings-call"
+        },
+        {
+          "ago": "1 day ago",
+          "created": "Oct 21, 2026",
+          "description": "(RTTNews) - Crown Castle Inc. (CCI) released earnings for third quarter that Dropped, from last year",
+          "id": 28593906,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cci",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "cci|stocks"
+          ],
+          "title": "Crown Castle Inc. Q3 Profit Declines ",
+          "url": "/articles/crown-castle-inc-q3-profit-declines"
+        },
+        {
+          "ago": "1 day ago",
+          "created": "Oct 21, 2026",
+          "description": "Although the revenue and EPS for Crown Castle (CCI) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
+          "id": 28594511,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "cci|stocks"
+          ],
+          "title": "Compared to Estimates, Crown Castle (CCI) Q3 Earnings: A Look at Key Metrics",
+          "url": "/articles/compared-estimates-crown-castle-cci-q3-earnings-look-key-metrics"
+        },
+        {
+          "ago": "1 day ago",
+          "created": "Oct 21, 2026",
+          "description": "Crown Castle (CCI) delivered FFO and revenue surprises of +3.33% and -1.38%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "id": 28595116,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "cci|stocks",
+            "alx|stocks"
+          ],
+          "title": "Crown Castle (CCI) Tops Q3 FFO Estimates",
+          "url": "/articles/crown-castle-cci-tops-q3-ffo-estimates"
+        },
+        {
+          "ago": "1 day ago",
+          "created": "Oct 21, 2026",
+          "description": "(RTTNews) - Crown Castle Inc. (CCI) will host a conference call at 4:45 PM ET on October 21, 2026, to discuss Q3 26 earnings results.",
+          "id": 28592036,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cci",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "cci|stocks"
+          ],
+          "title": "Crown Castle Q3 26 Earnings Conference Call At 4:45 PM ET ",
+          "url": "/articles/crown-castle-q3-26-earnings-conference-call-4-45-pm-et"
+        },
+        {
+          "ago": "4 days ago",
+          "created": "Oct 19, 2026",
+          "description": "CCI's tower growth prospects and $8.4B asset sale strengthen its outlook, but DISH losses, carrier dependence and $17.1B debt cloud the picture.",
+          "id": 28570111,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "cci|stocks",
+            "t|stocks",
+            "vz|stocks",
+            "tmus|stocks"
+          ],
+          "title": "Is It Wise to Retain Crown Castle Stock in Your Portfolio Right Now?",
+          "url": "/articles/it-wise-retain-crown-castle-stock-your-portfolio-right-now"
+        },
+        {
+          "ago": "7 days ago",
+          "created": "Oct 16, 2026",
+          "description": "In trading on Friday, shares of Crown Castle Inc (Symbol: CCI) crossed above their 200 day moving average of $82.42, changing hands as high as $83.26 per share.  Crown Castle Inc shares are currently trading up about 3.1% on the day.  The chart below shows the one year performan",
+          "id": 28562191,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cci",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "cci|stocks"
+          ],
+          "title": "Bullish Two Hundred Day Moving Average Cross - CCI",
+          "url": "/articles/bullish-two-hundred-day-moving-average-cross-cci"
         }
       ],
-      "totalrecords": 500,
-      "message": null
+      "totalrecords": 288
     },
     "message": null,
     "status": {
