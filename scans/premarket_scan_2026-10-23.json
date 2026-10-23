@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-23",
-  "generated_at_et": "2026-10-23 13:36:33 EDT",
-  "scan_time_et": "13:36",
+  "generated_at_et": "2026-10-23 14:06:08 EDT",
+  "scan_time_et": "14:06",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7103,
-    "prefilter": 366,
-    "with_data": 279,
-    "gap": 84,
-    "gap_price": 79,
-    "passed": 18,
+    "prefilter": 388,
+    "with_data": 287,
+    "gap": 95,
+    "gap_price": 88,
+    "passed": 16,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7103,
-  "count": 18,
+  "count": 16,
   "results": [
     {
       "ticker": "BKYI",
-      "price": 3.56,
-      "gap_pct": 29.93,
+      "price": 3.78,
+      "gap_pct": 37.96,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 2.74,
       "premarket_volume": 5645939,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "NAUT",
-      "price": 3.18,
-      "gap_pct": 22.5,
+      "price": 3.14,
+      "gap_pct": 20.77,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 2.6,
       "premarket_volume": 69602,
@@ -45,21 +45,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "AIXI",
-      "price": 3.03,
-      "gap_pct": 22.18,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 2.48,
-      "premarket_volume": 10622293,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "SAIQ",
-      "price": 6.38,
-      "gap_pct": 20.83,
+      "price": 6.3,
+      "gap_pct": 19.36,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.28,
       "premarket_volume": 2200964,
@@ -70,8 +58,8 @@
     },
     {
       "ticker": "CCI",
-      "price": 86.46,
-      "gap_pct": 9.68,
+      "price": 85.97,
+      "gap_pct": 9.06,
       "catalyst": "Crown Castle Inc.",
       "prev_close": 78.83,
       "premarket_volume": 498473,
@@ -82,8 +70,8 @@
     },
     {
       "ticker": "FSLY",
-      "price": 24.16,
-      "gap_pct": 7.62,
+      "price": 24.39,
+      "gap_pct": 8.64,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 22.45,
       "premarket_volume": 53737,
@@ -93,33 +81,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "TTMI",
-      "price": 79.38,
-      "gap_pct": 7.42,
-      "catalyst": "Why TTM Technologies Stock Plunged This Week.",
-      "prev_close": 73.89,
-      "premarket_volume": 181587,
-      "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "Why TTM Technologies Stock Plunged This Week",
-      "catalyst_url": "https://www.nasdaq.com/articles/why-ttm-technologies-stock-plunged-week"
-    },
-    {
-      "ticker": "HSAI",
-      "price": 13.02,
-      "gap_pct": 7.25,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 12.14,
-      "premarket_volume": 84990,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "NET",
-      "price": 324.62,
-      "gap_pct": 6.92,
+      "price": 327.41,
+      "gap_pct": 7.84,
       "catalyst": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know.",
       "prev_close": 303.61,
       "premarket_volume": 96099,
@@ -129,16 +93,64 @@
       "catalyst_url": "https://www.nasdaq.com/articles/cloudflare-net-stock-moves-118-what-you-should-know"
     },
     {
-      "ticker": "ZLAB",
-      "price": 23.48,
-      "gap_pct": 6.53,
-      "catalyst": "Zai Lab Limited Announces $250 Million Private Placement.",
-      "prev_close": 22.04,
-      "premarket_volume": 84006,
+      "ticker": "HSAI",
+      "price": 13.09,
+      "gap_pct": 7.83,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 12.14,
+      "premarket_volume": 84990,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "TTMI",
+      "price": 79.52,
+      "gap_pct": 7.62,
+      "catalyst": "Why TTM Technologies Stock Plunged This Week.",
+      "prev_close": 73.89,
+      "premarket_volume": 181587,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Why TTM Technologies Stock Plunged This Week",
+      "catalyst_url": "https://www.nasdaq.com/articles/why-ttm-technologies-stock-plunged-week"
+    },
+    {
+      "ticker": "RNG",
+      "price": 85.19,
+      "gap_pct": 7.27,
+      "catalyst": "RingCentral, Inc.",
+      "prev_close": 79.42,
+      "premarket_volume": 72261,
       "session": "regular",
       "catalyst_source": "Fintel",
-      "catalyst_headline": "Zai Lab Limited Announces $250 Million Private Placement",
-      "catalyst_url": "https://www.nasdaq.com/articles/zai-lab-limited-announces-250-million-private-placement"
+      "catalyst_headline": "RingCentral, Inc. Reports Third Quarter 2026 Financial Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "ticker": "CRWD",
+      "price": 254.11,
+      "gap_pct": 6.8,
+      "catalyst": "CrowdStrike vs.",
+      "prev_close": 237.94,
+      "premarket_volume": 67038,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "CrowdStrike vs. SentinelOne: Which Cybersecurity Stock Is a Better Buy in 2026?",
+      "catalyst_url": "https://www.nasdaq.com/articles/crowdstrike-vs-sentinelone-which-cybersecurity-stock-better-buy-2026"
+    },
+    {
+      "ticker": "RIG",
+      "price": 6.49,
+      "gap_pct": 6.66,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 6.08,
+      "premarket_volume": 67058,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     },
     {
       "ticker": "RITM",
@@ -153,57 +165,9 @@
       "catalyst_url": "https://www.nasdaq.com/articles/rithm-capital-corp-announces-third-quarter-2026-results"
     },
     {
-      "ticker": "RNG",
-      "price": 84.5,
-      "gap_pct": 6.4,
-      "catalyst": "RingCentral, Inc.",
-      "prev_close": 79.42,
-      "premarket_volume": 72261,
-      "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "RingCentral, Inc. Reports Third Quarter 2026 Financial Results",
-      "catalyst_url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results"
-    },
-    {
-      "ticker": "VG",
-      "price": 13.61,
-      "gap_pct": 6.28,
-      "catalyst": "Is the Options Market Predicting a Spike in Venture Global Stock?",
-      "prev_close": 12.81,
-      "premarket_volume": 66480,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Is the Options Market Predicting a Spike in Venture Global Stock?",
-      "catalyst_url": "https://www.nasdaq.com/articles/options-market-predicting-spike-venture-global-stock"
-    },
-    {
-      "ticker": "RIG",
-      "price": 6.46,
-      "gap_pct": 6.25,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 6.08,
-      "premarket_volume": 67058,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
-      "ticker": "CRWD",
-      "price": 252.04,
-      "gap_pct": 5.93,
-      "catalyst": "CrowdStrike vs.",
-      "prev_close": 237.94,
-      "premarket_volume": 67038,
-      "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "CrowdStrike vs. SentinelOne: Which Cybersecurity Stock Is a Better Buy in 2026?",
-      "catalyst_url": "https://www.nasdaq.com/articles/crowdstrike-vs-sentinelone-which-cybersecurity-stock-better-buy-2026"
-    },
-    {
       "ticker": "CLF",
-      "price": 13.81,
-      "gap_pct": 5.86,
+      "price": 13.89,
+      "gap_pct": 6.4,
       "catalyst": "Friday 10/23 Insider Buying Report: CLF, AGMB.",
       "prev_close": 13.05,
       "premarket_volume": 121721,
@@ -214,8 +178,8 @@
     },
     {
       "ticker": "DDOG",
-      "price": 271.69,
-      "gap_pct": 5.41,
+      "price": 273.18,
+      "gap_pct": 5.99,
       "catalyst": "Arista Networks vs.",
       "prev_close": 257.75,
       "premarket_volume": 129227,
@@ -235,6 +199,18 @@
       "catalyst_source": null,
       "catalyst_headline": null,
       "catalyst_url": null
+    },
+    {
+      "ticker": "EQNR",
+      "price": 48.87,
+      "gap_pct": 5.27,
+      "catalyst": "Equinor vs Cenovus: Which Energy Stock Is a Better Investment?",
+      "prev_close": 46.42,
+      "premarket_volume": 131479,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Equinor vs Cenovus: Which Energy Stock Is a Better Investment?",
+      "catalyst_url": "https://www.nasdaq.com/articles/equinor-vs-cenovus-which-energy-stock-better-investment"
     }
   ]
 }
