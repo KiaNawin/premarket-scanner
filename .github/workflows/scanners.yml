@@ -58,5 +58,5 @@ jobs:
           done
           git diff --cached --quiet && exit 0
           git commit -m "Scan results $(TZ=America/New_York date '+%F %H:%M ET')"
-          git pull --rebase -X theirs || git pull --rebase
+          git pull --rebase --autostash -X theirs
           git push

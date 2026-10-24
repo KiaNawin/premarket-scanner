@@ -25,6 +25,7 @@ import datetime as dt
 import json
 import os
 import sys
+import tempfile
 import time
 import traceback
 from zoneinfo import ZoneInfo
@@ -127,14 +128,57 @@ def send_new_alerts(rep: dict | None, day: dt.date, args) -> list[str]:
     return tickers
 
 
+def _results_by_ticker(path: str | None) -> dict[str, dict]:
+    if not path:
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            return {r["ticker"]: r for r in json.load(f).get("results", [])}
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
 def run_alert(now: dt.datetime, args) -> int:
-    """Fast check: re-run Scanner B on today's gappers, alert only on brand-new signals."""
+    """Fast check every 5 min: refresh Scanner A (no news), run Scanner B, alert only on NEW signals.
+
+    Refreshing Scanner A matters: a stock that starts gapping (or reaches the pre-market volume
+    bar) between the 30-min reports would otherwise not be checked until the next report.
+    """
     day = now.date()
-    a_path = _today_scan_file(args.scan_dir, day)
+    official = _today_scan_file(args.scan_dir, day)       # latest 30-min report (has news)
+    a_path = None
+    if not args.no_refresh:
+        try:
+            import premarket_scanner as A
+            tmp = tempfile.mkdtemp(prefix="alert_scan_")
+            a_path, payload = A.run_scan(outdir=tmp, fetch_catalysts=False)
+            print(f"Fresh Scanner A: {payload.get('count', 0)} gappers", file=sys.stderr)
+        except Exception:
+            traceback.print_exc()
+            a_path = None
+    if not a_path:
+        a_path = official
     if not a_path:
         print("No Scanner A results yet today — nothing to check.")
         return 0
+
     rep, _ = B.run_strategy(a_path, outdir=args.signal_dir)
+
+    # news: reuse the 30-min report's catalyst, else look it up — only for entries about to be alerted
+    known = _results_by_ticker(official)
+    done = read_alerted(args.state_dir, day)
+    for r in rep.get("evaluated", []):
+        if not r.get("signal") or r["ticker"] in done:
+            continue
+        cat = (known.get(r["ticker"]) or {}).get("catalyst")
+        if not cat:
+            try:
+                import premarket_scanner as A
+                cat = A.get_catalyst(r["ticker"], day, os.environ.get("BENZINGA_API_KEY"))["catalyst"]
+            except Exception:
+                cat = None
+        r["catalyst"] = cat
+
     sent = send_new_alerts(rep, day, args)
     print(f"Alert check {now:%H:%M} ET: {rep.get('valid_count', 0)} valid, {len(sent)} new.")
     return 0
@@ -245,6 +289,8 @@ def main() -> int:
     ap.add_argument("--signal-dir", default="signals")
     ap.add_argument("--watchlist-dir", default="watchlists")
     ap.add_argument("--state-dir", default="state")
+    ap.add_argument("--no-refresh", action="store_true",
+                    help="--alert: don't re-run Scanner A, just re-check the last 30-min report's tickers")
     ap.add_argument("--force", action="store_true", help="--alert: run even outside 10:00–11:30 ET / non-trading days")
     ap.add_argument("--state-file", default=os.path.join("state", "last_slot.txt"),
                     help="Remembers the last completed slot so repeated triggers don't send twice")

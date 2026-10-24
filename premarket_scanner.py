@@ -534,8 +534,10 @@ def save_json(results: list[dict], today: dt.date, outdir: str, criteria: dict, 
 # Main
 # --------------------------------------------------------------------------- #
 def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: float = 3.0,
-             min_volume: int = 50_000, outdir: str = "scans", batch_size: int = 200) -> tuple[str, dict]:
-    """Run one full scan and save the day's JSON. Returns (path, payload)."""
+             min_volume: int = 50_000, outdir: str = "scans", batch_size: int = 200,
+             fetch_catalysts: bool = True) -> tuple[str, dict]:
+    """Run one full scan and save the day's JSON. Returns (path, payload).
+    fetch_catalysts=False skips the news lookups (used by the fast 5-min alert check)."""
     today = dt.datetime.now(ET).date()
     if tickers:
         universe = [t.strip().upper().replace(".", "-") for t in tickers if t.strip()]
@@ -585,11 +587,13 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
     print("Funnel: " + " → ".join(f"{k} {v}" for k, v in funnel.items() if v is not None), file=sys.stderr)
     for r in sorted(gp, key=lambda r: r["gap_pct"], reverse=True)[:8]:
         print(f"    {r['ticker']:<6} ${r['price']:<8} {r['gap_pct']:+6.2f}%  PM vol {r['premarket_volume']}", file=sys.stderr)
-    print(f"{len(hits)} stocks passed the filters. Fetching Benzinga catalysts…", file=sys.stderr)
-
     api_key = os.environ.get("BENZINGA_API_KEY")
-    for r in hits:
-        r.update(get_catalyst(r["ticker"], today, api_key))
+    if fetch_catalysts:
+        print(f"{len(hits)} stocks passed the filters. Fetching Benzinga catalysts…", file=sys.stderr)
+        for r in hits:
+            r.update(get_catalyst(r["ticker"], today, api_key))
+    else:
+        print(f"{len(hits)} stocks passed the filters (news lookup skipped).", file=sys.stderr)
 
     print_table(hits)
     criteria = {"min_gap_pct": min_gap, "min_price": min_price, "min_premarket_volume": min_volume}

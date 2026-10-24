@@ -38,18 +38,19 @@ jobs:
           DEBUG_DUMP: "0"
         run: |
           if [ "${{ inputs.force }}" = "true" ]; then
-            python run_cycle.py --alert --force
+            python run_cycle.py --alert --force --signal-dir "$RUNNER_TEMP/signals"
           else
-            python run_cycle.py --alert
+            python run_cycle.py --alert --signal-dir "$RUNNER_TEMP/signals"
           fi
       - name: Remember what was alerted
         if: always()
         run: |
           [ -d state ] || exit 0
+          # only state/ is saved here; signals are written to a temp folder so the tree stays clean
           git config user.name "scanner-bot"
           git config user.email "scanner-bot@users.noreply.github.com"
           git add state
           git diff --cached --quiet && exit 0
           git commit -m "Alerts $(TZ=America/New_York date '+%F %H:%M ET')"
-          git pull --rebase || { git rebase --abort; git pull --no-rebase --no-edit; }
+          git pull --rebase --autostash
           git push
