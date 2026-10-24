@@ -162,3 +162,30 @@ Scheduled automatically by `run_cycle.py` (see *Automation + Telegram* above): e
 * Benzinga News API keys come from benzinga.com/apis (paid; a trial is available). Without one, the script still pulls Benzinga stories where Yahoo carries them.
 * Yahoo data via `yfinance` is unofficial and for personal use; it can occasionally rate-limit — failed batches are skipped and the scan continues.
 * Not investment advice.
+
+---
+
+# Trade plan in 🚨 alerts + daily journal
+
+Every 🚨 alert now includes a mechanical trade plan (settings in **`trade_config.json`** — edit on GitHub, no code change needed):
+
+| Setting | Default | Meaning |
+|---|---|---|
+| `risk_per_trade_usd` | 100 | Max $ lost if the stop is hit → sets the share count |
+| `max_position_usd` | 10000 | Position size cap (shares × entry) |
+| `stop_atr_buffer` | 0.25 | Stop = breakout level − 0.25 × daily ATR(14) |
+| `min_stop_pct` | 0.5 | Stop is at least 0.5 % below entry |
+| `wide_stop_pct` | 8 | Stops wider than this get a ⚠️ warning |
+| `targets_r` | [1, 2] | Targets shown in the alert (entry + n × risk) |
+| `exit_target_r` | 2 | Target used when scoring trades in the journal |
+
+Breakout level = highest of yesterday's high, pre-market high and the high of day before the signal.
+
+**Daily summary (16:20 ET, silent):** `.github/workflows/eod.yml`, triggered by a 3rd cron-job.org job.
+It replays each alert's frozen plan on 1-minute bars (stop → −1R, target → +2R, else exit at the close;
+stop assumed first if both hit in the same minute), appends the result to **`history/trades.csv`**
+(open in Excel) and sends today's results plus all-time win rate, average R, total R, profit factor
+and max drawdown. Back-test of the rules only — no slippage or commissions. Not investment advice.
+
+Score a past day manually: Actions → *Daily summary (EOD)* → Run workflow → date `YYYY-MM-DD`
+(only days that have alerts in `history/signals/`).

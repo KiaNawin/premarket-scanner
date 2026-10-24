@@ -50,6 +50,7 @@ jobs:
           git config user.name "scanner-bot"
           git config user.email "scanner-bot@users.noreply.github.com"
           git add state
+          if [ -d history ]; then git add history; fi
           git diff --cached --quiet && exit 0
           git commit -m "Alerts $(TZ=America/New_York date '+%F %H:%M ET')"
           git pull --rebase --autostash

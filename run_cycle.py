@@ -32,6 +32,8 @@ from zoneinfo import ZoneInfo
 
 import strategy_scanner as B
 import telegram_notify as tg
+import trade_journal
+import trade_plan
 
 ET = ZoneInfo("America/New_York")
 
@@ -117,6 +119,9 @@ def send_new_alerts(rep: dict | None, day: dt.date, args) -> list[str]:
     new = [r for r in rep.get("evaluated", []) if r.get("signal") and r["ticker"] not in done]
     if not new:
         return []
+    cfg = trade_plan.load_config()
+    for r in new:
+        r["plan"] = trade_plan.make_plan(r, cfg)
     msg = tg.build_alert(new, rep.get("scan_time_et"))
     if args.dry_run:
         print("----- ALERT (sound on) -----\n" + msg)
@@ -124,6 +129,10 @@ def send_new_alerts(rep: dict | None, day: dt.date, args) -> list[str]:
         return []                                  # not delivered → try again next run
     tickers = [r["ticker"] for r in new]
     add_alerted(args.state_dir, day, tickers)
+    try:                                           # freeze the plan for the end-of-day scorecard
+        trade_journal.record_alerts(day, new, dt.datetime.now(ET).strftime("%H:%M"))
+    except Exception:
+        traceback.print_exc()
     print(f"Alerted new entries: {', '.join(tickers)}", file=sys.stderr)
     return tickers
 
@@ -181,6 +190,24 @@ def run_alert(now: dt.datetime, args) -> int:
 
     sent = send_new_alerts(rep, day, args)
     print(f"Alert check {now:%H:%M} ET: {rep.get('valid_count', 0)} valid, {len(sent)} new.")
+    return 0
+
+
+def _fetch_minutes(tickers: list[str]) -> dict:
+    import yf_utils
+    return yf_utils.download(tickers, period="5d", interval="1m", prepost=False)
+
+
+def run_eod(day: dt.date, args) -> int:
+    """After the close: replay today's alerts with their plans, update history/trades.csv, send summary."""
+    scored = trade_journal.score_day(day, _fetch_minutes)
+    st = trade_journal.stats()
+    msg = tg.build_eod_message(day.isoformat(), scored, st)
+    if args.dry_run:
+        print("----- EOD SUMMARY (silent) -----\n" + msg)
+    else:
+        tg.send_telegram(msg, silent=True)         # arrives ~03:20 Bangkok time, so no sound
+    print(f"EOD {day}: {len(scored)} alerts scored, {st.get('trades', 0)} trades in history.")
     return 0
 
 
@@ -281,6 +308,8 @@ def main() -> int:
     mode.add_argument("--once", action="store_true", help="Run the slot matching the current time, then exit")
     mode.add_argument("--slot", help="Run this slot now, e.g. 10:00 (testing)")
     mode.add_argument("--show-schedule", action="store_true")
+    mode.add_argument("--eod", action="store_true",
+                      help="After the close: score today's alerts, update history/trades.csv, send daily summary")
     mode.add_argument("--alert", action="store_true",
                       help="Fast Scanner B check (10:00–11:30 ET); Telegram only for NEW valid entries")
     ap.add_argument("--dry-run", action="store_true", help="Print the Telegram message instead of sending")
@@ -289,6 +318,7 @@ def main() -> int:
     ap.add_argument("--signal-dir", default="signals")
     ap.add_argument("--watchlist-dir", default="watchlists")
     ap.add_argument("--state-dir", default="state")
+    ap.add_argument("--date", help="--eod: score this date (YYYY-MM-DD) instead of today")
     ap.add_argument("--no-refresh", action="store_true",
                     help="--alert: don't re-run Scanner A, just re-check the last 30-min report's tickers")
     ap.add_argument("--force", action="store_true", help="--alert: run even outside 10:00–11:30 ET / non-trading days")
@@ -321,6 +351,17 @@ def main() -> int:
         args.no_wait = True
         run_cycle(min(start, now), kind, args)
         return 0
+
+    if args.eod:
+        day = dt.date.fromisoformat(args.date) if args.date else now.date()
+        if not args.date and not args.force:
+            if not is_trading_day(day):
+                print(f"{day} is not a US trading day — nothing to do.")
+                return 0
+            if now.time() < dt.time(16, 0):
+                print(f"{now:%H:%M} ET — the market hasn't closed yet. Use --force to run anyway.")
+                return 0
+        return run_eod(day, args)
 
     if args.alert:
         if not args.force:

@@ -97,6 +97,13 @@ def evaluate(ticker: str, daily: pd.DataFrame | None, minute: pd.DataFrame | Non
     y_high = float(d["High"].iloc[-1])
     y_close = float(d["Close"].iloc[-1])
     sma = float(d["Close"].rolling(sma_len).mean().iloc[-1])
+    atr = None                                     # ATR(14) on daily bars, for the stop-loss buffer
+    if {"High", "Low", "Close"} <= set(d.columns):
+        prev_c = d["Close"].shift(1)
+        tr = pd.concat([d["High"] - d["Low"], (d["High"] - prev_c).abs(), (d["Low"] - prev_c).abs()], axis=1).max(axis=1)
+        atr_v = tr.rolling(14).mean().iloc[-1]
+        atr = None if pd.isna(atr_v) else float(atr_v)
+    res["atr14"] = _r(atr)
 
     # Intraday
     m = _to_et(minute.dropna(subset=["Close"]))

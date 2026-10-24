@@ -53,7 +53,7 @@ jobs:
           git config user.name "scanner-bot"
           git config user.email "scanner-bot@users.noreply.github.com"
           # add only folders that exist (one missing folder would make `git add` skip everything)
-          for d in scans signals watchlists state debug; do
+          for d in scans signals watchlists state history debug; do
             if [ -e "$d" ]; then git add "$d"; fi
           done
           git diff --cached --quiet && exit 0

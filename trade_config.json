@@ -1,0 +1,10 @@
+{
+  "_help": "Edit these to match your account. risk_per_trade_usd = the most you are willing to lose if the stop is hit.",
+  "risk_per_trade_usd": 100,
+  "max_position_usd": 10000,
+  "stop_atr_buffer": 0.25,
+  "min_stop_pct": 0.5,
+  "wide_stop_pct": 8.0,
+  "targets_r": [1, 2],
+  "exit_target_r": 2
+}

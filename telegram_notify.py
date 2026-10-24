@@ -63,7 +63,9 @@ def _e(s) -> str:
 
 
 def _money(x) -> str:
-    return "—" if x is None else f"${x:,.2f}"
+    if x is None:
+        return "—"
+    return f"${x:,.3f}" if abs(x) < 10 else f"${x:,.2f}"     # 3 decimals under $10 so small stops stay visible
 
 
 def _vol(v) -> str:
@@ -120,17 +122,79 @@ def section_a(payload: dict | None, note: str | None = None) -> str:
 
 
 def setup_lines(r: dict) -> list[str]:
-    """Trade-setup block for one valid Trend-join Long entry."""
+    """Trade-setup block for one valid Trend-join Long entry (with trade plan if r['plan'] is set)."""
     sig_t = (r.get("signal_time_et") or "")[-5:]
-    out = [
-        f"✅ <b>{_e(r['ticker'])}</b> — LONG entry {_money(r.get('entry_price'))} @ {sig_t} ET",
-        f"   Y-High {_money(r.get('yesterday_high'))} · PM-High {_money(r.get('premarket_high'))} · "
-        f"HOD {_money(r.get('hod_before_signal'))} · SMA200 {_money(r.get('sma200'))}",
-        f"   Last {_money(r.get('last_price'))} · Gap {r.get('gap_pct') or 0:+.2f}%",
-    ]
+    out = [f"✅ <b>{_e(r['ticker'])}</b> — LONG entry {_money(r.get('entry_price'))} @ {sig_t} ET"]
+    p = r.get("plan")
+    if p:
+        tg = " · ".join(f"{k} {_money(v)}" for k, v in p["targets"].items())
+        out.append(f"   🛑 Stop {_money(p['stop'])} (−{_money(p['risk_per_share'])}, {p['stop_pct']:.1f}%) · 🎯 {tg}")
+        size = f"   📦 {p['shares']:,} sh ≈ ${p['position_usd']:,.0f} · risk ${p['risk_usd']:,.0f}"
+        if p.get("size_capped"):
+            size += " (capped by max position)"
+        out.append(size)
+        if p.get("wide_stop"):
+            out.append("   ⚠️ Wide stop — consider a smaller size")
+        out.append(f"   Breakout {_money(p['breakout_level'])} ({_e(p['breakout_name'])})"
+                   + (f" · ATR {_money(p['atr14'])}" if p.get("atr14") else "")
+                   + f" · Gap {r.get('gap_pct') or 0:+.2f}%")
+    else:
+        out += [
+            f"   Y-High {_money(r.get('yesterday_high'))} · PM-High {_money(r.get('premarket_high'))} · "
+            f"HOD {_money(r.get('hod_before_signal'))} · SMA200 {_money(r.get('sma200'))}",
+            f"   Last {_money(r.get('last_price'))} · Gap {r.get('gap_pct') or 0:+.2f}%",
+        ]
     if r.get("catalyst"):
         out.append(f"   📰 {_e(r['catalyst'])}")
     return out
+
+
+def _signed_money(x) -> str:
+    return "—" if x is None else (f"+${x:,.0f}" if x >= 0 else f"−${-x:,.0f}")
+
+
+def build_eod_message(day: str, scored: list[dict], st: dict) -> str:
+    """Daily summary after the close: today's alerts replayed with the plan, plus all-time stats."""
+    lines = [f"<b>📊 Trend-join Long — Daily Summary {day}</b>"]
+    done = [r for r in scored if r.get("result_r") is not None]
+    if not scored:
+        lines.append("No alerts today.")
+    else:
+        day_r = sum(float(r["result_r"]) for r in done)
+        day_usd = sum(float(r["pnl_usd"] or 0) for r in done)
+        lines.append(f"Alerts today: {len(scored)} · Day result: <b>{day_r:+.2f}R</b> ({_signed_money(day_usd)})")
+        lines.append("")
+        for r in scored:
+            if r.get("result_r") is None:
+                lines.append(f"❔ <b>{_e(r['ticker'])}</b> — {_e(r.get('exit_reason'))}")
+                continue
+            reason = str(r["exit_reason"])
+            icon = "🎯" if reason.startswith("target") else "🛑" if reason == "stop" else "⏹"
+            what = (f"{reason} {r['exit_time_et']}" if reason != "close" else f"close {_money(_f(r['exit_price']))}")
+            lines.append(f"{icon} <b>{_e(r['ticker'])}</b> {_money(_f(r['entry']))} → {what} · "
+                         f"<b>{float(r['result_r']):+.2f}R</b> ({_signed_money(_f(r['pnl_usd']))})"
+                         + (" · hit 1R" if str(r.get("hit_1r")) in ("True", "true") and not reason.startswith("target") else ""))
+    if st.get("trades"):
+        lines += ["", f"<b>📈 All-time ({st['trades']} trades since {st['since']})</b>",
+                  f"Win rate {st['win_rate']:.0%} · Avg {st['avg_r']:+.2f}R · Total {st['total_r']:+.2f}R ({_signed_money(st['total_pnl'])})",
+                  f"Avg win {st['avg_win_r']:+.2f}R · Avg loss {st['avg_loss_r']:+.2f}R · "
+                  + (f"Profit factor {st['profit_factor']:.2f}" if st.get("profit_factor") else "Profit factor —")
+                  + f" · Max drawdown {st['max_dd_r']:.2f}R",
+                  f"Exits: 🎯 {st['exits']['target']} · 🛑 {st['exits']['stop']} · ⏹ {st['exits']['close']}"]
+        if st["trades"] > st["last_n"] or st["trades"] >= 5:
+            l = st["last"]
+            lines.append(f"Last {st['last_n']}: {l['win_rate']:.0%} win · {l['avg_r']:+.2f}R avg")
+        if st["trades"] < 30:
+            lines.append(f"<i>Small sample ({st['trades']} trades) — judge the strategy after ~30+.</i>")
+    lines.append("<i>Back-test of the alert rules: stop/target/close exits, no slippage or fees.</i>")
+    return "\n".join(lines)
+
+
+def _f(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
 
 
 ALERT_HEADER = "🚨 Trend-join Long — NEW ENTRY"

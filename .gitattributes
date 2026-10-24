@@ -1,1 +1,2 @@
 state/alerted_*.txt merge=union
+history/signals/*.jsonl merge=union
