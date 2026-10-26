@@ -1,12 +1,12 @@
 {
   "ticker": "ARKO",
-  "saved_at_et": "2026-10-26T08:31:12-04:00",
+  "saved_at_et": "2026-10-26T09:01:20-04:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $3.81",
       "lastUpdateInfo": [
         "This page refreshes every 30 seconds.",
-        "Data last updated Oct 26, 2026 08:30 AM ET."
+        "Data last updated Oct 26, 2026 09:01 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,7 +19,7 @@
         },
         "rows": [
           {
-            "consolidated": "$3.88 +0.07 (+1.84%)",
+            "consolidated": "$3.93 +0.12 (+3.15%)",
             "volume": "1,741",
             "highPrice": "$4.0693 (05:04:08 AM)",
             "lowPrice": "$3.87 (05:10:29 AM)",
@@ -35,6 +35,11 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "08:25:03",
+            "price": "$3.93",
+            "shareVolume": "60"
+          },
           {
             "time": "08:09:48",
             "price": "$3.88",

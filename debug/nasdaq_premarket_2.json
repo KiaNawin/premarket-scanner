@@ -1,12 +1,12 @@
 {
   "ticker": "AXIL",
-  "saved_at_et": "2026-10-26T08:31:13-04:00",
+  "saved_at_et": "2026-10-26T09:01:22-04:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $5.7",
       "lastUpdateInfo": [
         "This page refreshes every 30 seconds.",
-        "Data last updated Oct 26, 2026 08:31 AM ET."
+        "Data last updated Oct 26, 2026 09:00 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,8 +19,8 @@
         },
         "rows": [
           {
-            "consolidated": "$5.7536 +0.0536 (+0.94%)",
-            "volume": "1,445",
+            "consolidated": "$6.16 +0.46 (+8.07%)",
+            "volume": "1,534",
             "highPrice": "$6.8201 (07:04:34 AM)",
             "lowPrice": "$6.82 (07:04:34 AM)",
             "delta": "up"
@@ -35,6 +35,41 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "08:39:17",
+            "price": "$6.16",
+            "shareVolume": "2"
+          },
+          {
+            "time": "08:38:05",
+            "price": "$6.24",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:31:30",
+            "price": "$5.6",
+            "shareVolume": "83"
+          },
+          {
+            "time": "08:29:44",
+            "price": "$6.6155",
+            "shareVolume": "2"
+          },
+          {
+            "time": "08:29:31",
+            "price": "$6.15",
+            "shareVolume": "9"
+          },
+          {
+            "time": "08:29:31",
+            "price": "$6.1",
+            "shareVolume": "74"
+          },
+          {
+            "time": "08:26:55",
+            "price": "$6.15",
+            "shareVolume": "1"
+          },
           {
             "time": "08:11:05",
             "price": "$5.7536",
