@@ -1,0 +1,7 @@
+﻿date,ticker,signal_time_et,alerted_at_et,entry,stop,risk_per_share,stop_pct,target_1r,target_2r,exit_target_r,shares,position_usd,risk_usd,breakout_level,breakout_name,atr14,gap_pct,catalyst,exit_reason,exit_time_et,exit_price,result_r,pnl_usd,hit_1r,mfe_r,mae_r,close_price
+2026-10-26,RRC,2026-10-26 10:00,10:02,53.285,52.9082,0.3768,0.71,53.6618,54.0385,2,187,9964.3,70.46,53.21,HOD,1.2071,11.97,Range Resources Corporation to Merge with EQT Corporation in All-Stock Transaction.,stop,10:05,52.9082,-1.0,-70.46,False,0.97,-1.05,53.56
+2026-10-26,S,2026-10-26 10:08,10:35,24.49,24.1663,0.3237,1.32,24.8137,25.1373,2,308,7542.92,99.69,24.48,HOD,1.2547,5.46,CrowdStrike vs.,target 2R,10:21,25.1374,2.0,199.4,True,3.31,-0.12,25.505
+2026-10-26,FRO,2026-10-26 10:09,13:07,54.93,54.2282,0.7018,1.28,55.6318,56.3336,2,142,7800.06,99.65,54.855,HOD,2.5071,5.27,No recent news catalyst found.,close,15:59,55.21,0.4,39.76,True,1.34,-0.37,55.21
+2026-10-26,FSLY,2026-10-26 10:20,11:06,25.0899,24.4831,0.6068,2.42,25.6967,26.3036,2,164,4114.74,99.52,25.0375,HOD,2.2178,5.41,No recent news catalyst found.,close,15:59,25.61,0.86,85.3,True,1.55,-0.31,25.61
+2026-10-26,INTC,2026-10-26 10:51,13:07,88.945,87.5782,1.3668,1.54,90.3118,91.6785,2,73,6492.98,99.77,88.94,HOD,5.4471,5.21,Intel vs.,target 2R,13:12,91.6786,2.0,199.55,True,2.3,-0.04,90.51
+2026-10-26,MXL,2026-10-26 11:00,11:36,66.6415,64.0545,2.587,3.88,69.2285,71.8155,2,38,2532.38,98.31,66.19,HOD,8.5421,5.38,MaxLinear: 3 Key Takeaways for Long-Term Investors.,close,15:59,66.38,-0.1,-9.94,False,0.83,-0.33,66.38
