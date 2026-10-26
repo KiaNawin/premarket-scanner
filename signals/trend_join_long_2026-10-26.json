@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-26",
-  "generated_at_et": "2026-10-26 09:35:00 EDT",
+  "generated_at_et": "2026-10-26 10:05:00 EDT",
   "source_premarket_file": "premarket_scan_2026-10-26.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,48 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 7,
-  "valid_count": 0,
-  "valid_entries": [],
+  "candidates": 8,
+  "valid_count": 1,
+  "valid_entries": [
+    {
+      "ticker": "RRC",
+      "signal_time_et": "2026-10-26 10:00",
+      "entry_price": 53.285,
+      "last_price": 53.065,
+      "gap_pct": 16.89,
+      "yesterday_high": 45.74,
+      "yesterday_close": 45.52,
+      "sma200": 39.8791,
+      "premarket_high": 52.78,
+      "hod_before_signal": 53.21,
+      "catalyst": "Range Resources Corporation to Merge with EQT Corporation in All-Stock Transaction."
+    }
+  ],
   "evaluated": [
+    {
+      "ticker": "RRC",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 1.2071,
+      "yesterday_high": 45.74,
+      "yesterday_close": 45.52,
+      "sma200": 39.8791,
+      "premarket_high": 52.78,
+      "last_price": 53.065,
+      "last_bar_et": "10:04",
+      "high_of_day": 53.36,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-26 10:00",
+      "entry_price": 53.285,
+      "hod_before_signal": 53.21,
+      "gap_pct": 16.89,
+      "catalyst": "Range Resources Corporation to Merge with EQT Corporation in All-Stock Transaction."
+    },
     {
       "ticker": "CLRO",
       "status": "FAIL",
@@ -23,17 +61,17 @@
       "yesterday_close": 3.25,
       "sma200": 4.7011,
       "premarket_high": 4.4097,
-      "last_price": 4.07,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.6899,
+      "last_price": 5.32,
+      "last_bar_et": "10:04",
+      "high_of_day": 5.5,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 43.07,
+      "gap_pct": 60.31,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -44,10 +82,10 @@
       "yesterday_high": 28.37,
       "yesterday_close": 27.5,
       "sma200": 31.6698,
-      "premarket_high": 29.62,
-      "last_price": 29.44,
-      "last_bar_et": "09:34",
-      "high_of_day": 29.55,
+      "premarket_high": 29.3,
+      "last_price": 28.975,
+      "last_bar_et": "10:04",
+      "high_of_day": 29.59,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -55,30 +93,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.51,
+      "gap_pct": 5.4,
       "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "RRC",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 1.2071,
-      "yesterday_high": 45.74,
-      "yesterday_close": 45.52,
-      "sma200": 39.8791,
-      "premarket_high": 52.78,
-      "last_price": 52.04,
-      "last_bar_et": "09:34",
-      "high_of_day": 52.8011,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 11.97,
-      "catalyst": "Range Resources Corporation to Merge with EQT Corporation in All-Stock Transaction."
     },
     {
       "ticker": "SAIQ",
@@ -89,61 +105,74 @@
       "yesterday_close": 6.12,
       "sma200": 10.0621,
       "premarket_high": 7.32,
-      "last_price": 6.66,
-      "last_bar_et": "09:34",
-      "high_of_day": 6.95,
+      "last_price": 7.455,
+      "last_bar_et": "10:03",
+      "high_of_day": 7.47,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.11,
+      "gap_pct": 20.26,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "VCX",
-      "status": "SHORT_HISTORY",
+      "ticker": "SGRY",
+      "status": "NO_SIGNAL",
       "signal": false,
-      "reason": "Only 152 trading days of history (< 200 needed for SMA200)",
-      "history_days": 152,
-      "gap_pct": 6.88,
-      "catalyst": "No recent news catalyst found."
+      "atr14": 0.555,
+      "yesterday_high": 16.16,
+      "yesterday_close": 15.75,
+      "sma200": 14.4438,
+      "premarket_high": 19.71,
+      "last_price": 22.995,
+      "last_bar_et": "10:04",
+      "high_of_day": 23.14,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 46.17,
+      "catalyst": "Bon Secours Nears $6 Billion Deal For Surgery Partners; Stock Up."
     },
     {
-      "ticker": "XLAB",
+      "ticker": "TSLA",
       "status": "FAIL",
       "signal": false,
-      "atr14": 0.7185,
-      "yesterday_high": 4.48,
-      "yesterday_close": 3.35,
-      "sma200": 8.2114,
-      "premarket_high": 3.65,
-      "last_price": 3.46,
-      "last_bar_et": "09:34",
-      "high_of_day": 3.7502,
+      "atr14": 11.7014,
+      "yesterday_high": 377.32,
+      "yesterday_close": 372.22,
+      "sma200": 386.3474,
+      "premarket_high": 383.87,
+      "last_price": 394.35,
+      "last_bar_et": "10:04",
+      "high_of_day": 394.93,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.7,
-      "catalyst": "No recent news catalyst found."
+      "gap_pct": 5.96,
+      "catalyst": "An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy?"
     },
     {
       "ticker": "XNCR",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 1.4084,
       "yesterday_high": 25.81,
       "yesterday_close": 25.18,
       "sma200": 16.5683,
       "premarket_high": 35.51,
-      "last_price": 32.4499,
-      "last_bar_et": "09:34",
+      "last_price": 30.49,
+      "last_bar_et": "10:04",
       "high_of_day": 33.58,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -151,10 +180,32 @@
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 29.75,
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 17.14,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "ZURA",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.425,
+      "yesterday_high": 3.595,
+      "yesterday_close": 3.36,
+      "sma200": 5.266,
+      "premarket_high": 3.44,
+      "last_price": 3.72,
+      "last_bar_et": "10:04",
+      "high_of_day": 3.74,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.38,
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }
