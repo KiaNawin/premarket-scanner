@@ -1,0 +1,71 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-26",
+  "generated_at_et": "2026-10-26 08:35:00 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-26.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 4,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "CLRO",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.5886,
+      "yesterday_high": 4.69,
+      "yesterday_close": 3.25,
+      "sma200": 4.7011,
+      "premarket_high": 4.34,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 17.22,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "RRC",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.2071,
+      "yesterday_high": 45.74,
+      "yesterday_close": 45.52,
+      "sma200": 39.8791,
+      "premarket_high": 52.78,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 8.08,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "SGRY",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.555,
+      "yesterday_high": 16.16,
+      "yesterday_close": 15.75,
+      "sma200": 14.4438,
+      "premarket_high": 19.71,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 23.56,
+      "catalyst": "Bon Secours Nears $6 Billion Deal For Surgery Partners; Stock Up."
+    },
+    {
+      "ticker": "XNCR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.4084,
+      "yesterday_high": 25.81,
+      "yesterday_close": 25.18,
+      "sma200": 16.5683,
+      "premarket_high": 35.51,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 32.37,
+      "catalyst": "No recent news catalyst found."
+    }
+  ],
+  "scan_time_et": "08:35"
+}

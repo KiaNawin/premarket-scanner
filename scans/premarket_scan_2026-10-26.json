@@ -1,0 +1,72 @@
+{
+  "scan_date": "2026-10-26",
+  "generated_at_et": "2026-10-26 08:32:14 EDT",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7101,
+    "prefilter": 200,
+    "with_data": 197,
+    "gap": 23,
+    "gap_price": 19,
+    "passed": 4,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7101,
+  "count": 4,
+  "results": [
+    {
+      "ticker": "XNCR",
+      "price": 33.33,
+      "gap_pct": 32.37,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 25.18,
+      "premarket_volume": 1493510,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "SGRY",
+      "price": 19.46,
+      "gap_pct": 23.56,
+      "catalyst": "Bon Secours Nears $6 Billion Deal For Surgery Partners; Stock Up.",
+      "prev_close": 15.75,
+      "premarket_volume": 114597,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Bon Secours Nears $6 Billion Deal For Surgery Partners; Stock Up ",
+      "catalyst_url": "https://www.nasdaq.com/articles/bon-secours-nears-6-billion-deal-surgery-partners-stock"
+    },
+    {
+      "ticker": "CLRO",
+      "price": 3.81,
+      "gap_pct": 17.22,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.25,
+      "premarket_volume": 10577201,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "RRC",
+      "price": 49.2,
+      "gap_pct": 8.08,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 45.52,
+      "premarket_volume": 258532,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    }
+  ]
+}
