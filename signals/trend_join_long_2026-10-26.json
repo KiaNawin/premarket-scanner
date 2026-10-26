@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-26",
-  "generated_at_et": "2026-10-26 09:05:00 EDT",
+  "generated_at_et": "2026-10-26 09:35:00 EDT",
   "source_premarket_file": "premarket_scan_2026-10-26.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,34 +10,52 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 6,
+  "candidates": 7,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
     {
       "ticker": "CLRO",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "atr14": 0.5886,
       "yesterday_high": 4.69,
       "yesterday_close": 3.25,
       "sma200": 4.7011,
       "premarket_high": 4.4097,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 28.0,
+      "last_price": 4.07,
+      "last_bar_et": "09:34",
+      "high_of_day": 4.6899,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 43.07,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "HSAI",
-      "status": "WAITING",
+      "ticker": "DXYZ",
+      "status": "FAIL",
       "signal": false,
-      "atr14": 0.915,
-      "yesterday_high": 13.31,
-      "yesterday_close": 13.13,
-      "sma200": 20.1899,
-      "premarket_high": 14.06,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.71,
+      "atr14": 1.4668,
+      "yesterday_high": 28.37,
+      "yesterday_close": 27.5,
+      "sma200": 31.6698,
+      "premarket_high": 29.62,
+      "last_price": 29.44,
+      "last_bar_et": "09:34",
+      "high_of_day": 29.55,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.51,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -49,34 +67,70 @@
       "yesterday_close": 45.52,
       "sma200": 39.8791,
       "premarket_high": 52.78,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 11.01,
+      "last_price": 52.04,
+      "last_bar_et": "09:34",
+      "high_of_day": 52.8011,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Before 10:00 ET signal window",
+      "gap_pct": 11.97,
+      "catalyst": "Range Resources Corporation to Merge with EQT Corporation in All-Stock Transaction."
+    },
+    {
+      "ticker": "SAIQ",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.5981,
+      "yesterday_high": 7.07,
+      "yesterday_close": 6.12,
+      "sma200": 10.0621,
+      "premarket_high": 7.32,
+      "last_price": 6.66,
+      "last_bar_et": "09:34",
+      "high_of_day": 6.95,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 11.11,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "SGRY",
-      "status": "WAITING",
+      "ticker": "VCX",
+      "status": "SHORT_HISTORY",
       "signal": false,
-      "atr14": 0.555,
-      "yesterday_high": 16.16,
-      "yesterday_close": 15.75,
-      "sma200": 14.4438,
-      "premarket_high": 19.71,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 23.56,
-      "catalyst": "Bon Secours Nears $6 Billion Deal For Surgery Partners; Stock Up."
+      "reason": "Only 152 trading days of history (< 200 needed for SMA200)",
+      "history_days": 152,
+      "gap_pct": 6.88,
+      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "XLAB",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "atr14": 0.7185,
       "yesterday_high": 4.48,
       "yesterday_close": 3.35,
       "sma200": 8.2114,
-      "premarket_high": 3.6397,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.14,
+      "premarket_high": 3.65,
+      "last_price": 3.46,
+      "last_bar_et": "09:34",
+      "high_of_day": 3.7502,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.7,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -88,10 +142,19 @@
       "yesterday_close": 25.18,
       "sma200": 16.5683,
       "premarket_high": 35.51,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 32.61,
+      "last_price": 32.4499,
+      "last_bar_et": "09:34",
+      "high_of_day": 33.58,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Before 10:00 ET signal window",
+      "gap_pct": 29.75,
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "09:05"
+  "scan_time_et": "09:35"
 }

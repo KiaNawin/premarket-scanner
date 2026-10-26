@@ -1,89 +1,33 @@
 {
-  "ticker": "XNCR",
-  "saved_at_et": "2026-10-26T09:02:19-04:00",
+  "ticker": "CLRO",
+  "saved_at_et": "2026-10-26T09:31:48-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "Aug 31, 2026",
-          "created": "Aug 31, 2026",
-          "description": "Key PointsJ&J's portfolio primarily includes small biotech and medtech companies.",
-          "id": 28277971,
+          "ago": "Jul 2, 2026",
+          "created": "Jul 2, 2026",
+          "description": "(RTTNews) - Vivani Medical, Inc. (VANI), a clinical-stage biopharmaceutical company developing miniature, ultra long-acting drug implants, has announced that its wholly owned subsidiary Cortigent, Inc. will merge with ClearOne, Inc. (CLRO).",
+          "id": 27871556,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "ptgx",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "ptgx|stocks",
-            "jnj|stocks",
-            "lab|stocks",
-            "xncr|stocks",
-            "mgtx|stocks",
-            "tak|stocks",
-            "fate|stocks",
-            "legn|stocks",
-            "cbrs|stocks",
-            "rapp|stocks",
-            "vor|stocks",
-            "prct|stocks",
-            "nmra|stocks",
-            "nbtx|stocks",
-            "cvrx|stocks",
-            "ctnm|stocks",
-            "acet|stocks"
-          ],
-          "title": "Johnson & Johnson Owns Stakes in 15 Stocks. Here's the Best of the Bunch.",
-          "url": "/articles/johnson-johnson-owns-stakes-15-stocks-heres-best-bunch"
-        },
-        {
-          "ago": "Aug 26, 2026",
-          "created": "Aug 26, 2026",
-          "description": "In recent trading, shares of Xencor, Inc (Symbol: XNCR) have crossed above the average analyst 12-month target price of $29.00, changing hands for $29.33/share.  When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuatio",
-          "id": 28255576,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "xncr",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
-          "related_symbols": [
-            "xncr|stocks"
-          ],
-          "title": "Xencor Reaches Analyst Target Price",
-          "url": "/articles/xencor-reaches-analyst-target-price"
-        },
-        {
-          "ago": "Aug 13, 2026",
-          "created": "Aug 13, 2026",
-          "description": "(RTTNews) - The following biotech stocks reached a 52-week high on August 12, 2026, driven up by key catalysts such as positive quarterly reports or promising results from clinical trials.",
-          "id": 28176626,
-          "image": "/rttnews_article/neuroscientist-30072026-m.jpg",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "acad",
+          "primarysymbol": "clro",
           "primarytopic": "Biotech|4146",
           "primarytopic_url": "/topic/biotech",
           "publisher": "RTTNews",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "acad|stocks",
-            "anro|stocks",
-            "bivi|stocks",
-            "hae|stocks",
-            "xncr|stocks"
+            "clro|stocks"
           ],
-          "title": "Biotech Stocks At 52-Week Highs - BIVI +22%, XNCR, ANRO, HAE, ACAD ",
-          "url": "/articles/biotech-stocks-52-week-highs-bivi-22-xncr-anro-hae-acad"
+          "title": "Vivani Subsidiary Cortigent To Merge With ClearOne, Creating Nasdaq-Listed Cortigent Holdings ",
+          "url": "/articles/vivani-subsidiary-cortigent-merge-clearone-creating-nasdaq-listed-cortigent-holdings"
         },
         {
-          "ago": "Aug 5, 2026",
-          "created": "Aug 5, 2026",
-          "description": "Xencor (XNCR) delivered earnings and revenue surprises of +64.63% and +337.04%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "id": 28111181,
+          "ago": "Oct 9, 2025",
+          "created": "Oct 9, 2025",
+          "description": "SAP's cloud and AI push, Novartis' strong drug lineup, and Philip Morris' smoke-free growth headline Zacks' latest analyst picks.",
+          "id": 25913761,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
@@ -92,136 +36,190 @@
           "publisher": "Zacks",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
           "related_symbols": [
-            "xncr|stocks",
-            "cron|stocks"
+            "nvs|stocks",
+            "pm|stocks",
+            "sap|stocks",
+            "clro|stocks",
+            "iccc|stocks"
           ],
-          "title": "Xencor (XNCR) Reports Q2 Loss, Beats Revenue Estimates",
-          "url": "/articles/xencor-xncr-reports-q2-loss-beats-revenue-estimates"
+          "title": "The Zacks Analyst Blog Highlights SAP, Novartis, Philip Morris International, ImmuCell and ClearOne",
+          "url": "/articles/zacks-analyst-blog-highlights-sap-novartis-philip-morris-international-immucell-and"
         },
         {
-          "ago": "Jul 31, 2026",
-          "created": "Jul 31, 2026",
-          "description": "(RTTNews) - The following biotech stocks reached 52-week highs on July 30, 2026, driven by key catalysts such as positive quarterly reports or announced settlement agreements.",
-          "id": 28065211,
-          "image": "/rttnews_article/biotech-10072026-m.jpg",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "bax|stocks",
-            "cort|stocks",
-            "neog|stocks",
-            "trax|stocks",
-            "xncr|stocks"
-          ],
-          "title": "Biotech Stocks At 52-Week Highs- CORT +30%, NEOG +22% & BAX +7% With Quarterly Results, TRAX, XNCR ",
-          "url": "/articles/biotech-stocks-52-week-highs-cort-30-neog-22-bax-7-quarterly-results-trax-xncr"
-        },
-        {
-          "ago": "Jul 22, 2026",
-          "created": "Jul 22, 2026",
-          "description": "(RTTNews) - The following biotech stocks reached 52-week highs on July 21, 2026, due to reports on the progress of clinical trials or upcoming quarterly financial results.",
-          "id": 27981641,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "achc",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "achc|stocks",
-            "cphi|stocks",
-            "eton|stocks",
-            "txg|stocks",
-            "xncr|stocks"
-          ],
-          "title": "Biotech Stocks At 52-Week Highs - CPHI Soars +790%, XNCR, ETON, TXG, ACHC ",
-          "url": "/articles/biotech-stocks-52-week-highs-cphi-soars-790-xncr-eton-txg-achc"
-        },
-        {
-          "ago": "Jul 21, 2026",
-          "created": "Jul 21, 2026",
-          "description": "(RTTNews) - The following biotech stocks reached a 52-week high on July 20, 2026, driven by key catalysts such as upcoming clinical trial launches and the prospective release of data from these studies.",
-          "id": 27971556,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "acrs",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "acrs|stocks",
-            "coag|stocks",
-            "mnpr|stocks",
-            "soph|stocks",
-            "xncr|stocks"
-          ],
-          "title": "Biotech Stocks At 52-Week Highs - XNCR, COAG, MNPR, SOPH, ACRS ",
-          "url": "/articles/biotech-stocks-52-week-highs-xncr-coag-mnpr-soph-acrs"
-        },
-        {
-          "ago": "Jul 20, 2026",
-          "created": "Jul 20, 2026",
-          "description": "Xencor (XNCR) saw its shares surge in the last session with trading volume being higher than average. The latest trend in earnings estimate revisions may not translate into further price increase in the near term.",
-          "id": 27964991,
+          "ago": "Oct 8, 2025",
+          "created": "Oct 8, 2025",
+          "description": "SAP, Novartis and Philip Morris headline today's top Zacks reports, each showing strong momentum and strategic growth drivers despite industry headwinds.",
+          "id": 25905211,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
           "publisher": "Zacks",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
           "related_symbols": [
-            "xncr|stocks",
-            "aqst|stocks"
+            "nvs|stocks",
+            "pm|stocks",
+            "sap|stocks",
+            "clro|stocks",
+            "iccc|stocks",
+            "uber|stocks",
+            "net|stocks",
+            "hood|stocks"
           ],
-          "title": "Xencor (XNCR) Soars 16.9%: Is Further Upside Left in the Stock?",
-          "url": "/articles/xencor-xncr-soars-169-further-upside-left-stock"
+          "title": "Top Stock Reports for SAP, Novartis & Philip Morris",
+          "url": "/articles/top-stock-reports-sap-novartis-philip-morris"
         },
         {
-          "ago": "May 6, 2026",
-          "created": "May 6, 2026",
-          "description": "Xencor (XNCR) delivered earnings and revenue surprises of -164.58% and -75.38%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "id": 27514271,
+          "ago": "Aug 21, 2025",
+          "created": "Aug 21, 2025",
+          "description": "CLRO posts a wider Q2 loss on revenue decline, rising costs and supply issues as it pursues an asset sale to address ongoing risks.",
+          "id": 25591601,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
           "publisher": "Zacks",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
           "related_symbols": [
-            "xncr|stocks"
+            "clro|stocks"
           ],
-          "title": "Xencor (XNCR) Reports Q1 Loss, Lags Revenue Estimates",
-          "url": "/articles/xencor-xncr-reports-q1-loss-lags-revenue-estimates"
+          "title": "ClearOne Stock Falls on Wider Q2 Loss, Revenue Decline and Sale Plan",
+          "url": "/articles/clearone-stock-falls-wider-q2-loss-revenue-decline-and-sale-plan"
         },
         {
-          "ago": "Apr 30, 2026",
-          "created": "Apr 30, 2026",
-          "description": "Corcept (CORT) delivered earnings and revenue surprises of -1.11% and -4.37%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "id": 27465391,
+          "ago": "Aug 18, 2025",
+          "created": "Aug 18, 2025",
+          "description": "(RTTNews) - At 6.50 a.m. ET on Monday, premarket trading is seeing notable activity in several stocks, with early price movements signaling potential opportunities before the opening bell.",
+          "id": 25563161,
+          "image": "/rttnews_article/gainersandloser-18082025-m.jpg",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "adn",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "clro|stocks",
+            "dfli|stocks",
+            "empd|stocks",
+            "flye|stocks",
+            "gbr|stocks",
+            "nuwe|stocks",
+            "otlk|stocks",
+            "ppcb|stocks",
+            "cnsy|stocks",
+            "rtb|stocks",
+            "sora|stocks",
+            "srxh|stocks",
+            "tnxp|stocks"
+          ],
+          "title": "Stocks Moving Premarket: PPCB, BTAI, TNXP, DAY, TPIC, And Other Gainers & Losers ",
+          "url": "/articles/stocks-moving-premarket-ppcb-btai-tnxp-day-tpic-and-other-gainers-losers"
+        },
+        {
+          "ago": "Jul 29, 2025",
+          "created": "Jul 29, 2025",
+          "description": "MSFT, SAP, and AMD drive tech gains with cloud and AI tailwinds, while PNRG thrives on energy strength and CLRO faces sharp revenue declines.",
+          "id": 25398816,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
           "publisher": "Zacks",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
           "related_symbols": [
-            "cort|stocks",
-            "xncr|stocks"
+            "amd|stocks",
+            "sap|stocks",
+            "clro|stocks",
+            "pnrg|stocks"
           ],
-          "title": "Corcept Therapeutics (CORT) Reports Q1 Loss, Misses Revenue Estimates",
-          "url": "/articles/corcept-therapeutics-cort-reports-q1-loss-misses-revenue-estimates"
+          "title": "The Zacks Analyst Blog Highlights Microsoft, SAP, AMD, PrimeEnergy Resources and ClearOne",
+          "url": "/articles/zacks-analyst-blog-highlights-microsoft-sap-amd-primeenergy-resources-and-clearone"
+        },
+        {
+          "ago": "Jul 28, 2025",
+          "created": "Jul 28, 2025",
+          "description": "MSFT, SAP, and AMD are driving growth with cloud, AI, and chip innovation despite competitive and cost headwinds.",
+          "id": 25389981,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "amd|stocks",
+            "msft|stocks",
+            "bsx|stocks",
+            "cb|stocks",
+            "sap|stocks",
+            "rost|stocks",
+            "clro|stocks",
+            "pnrg|stocks"
+          ],
+          "title": "Top Stock Reports for Microsoft, SAP & AMD",
+          "url": "/articles/top-stock-reports-microsoft-sap-amd"
+        },
+        {
+          "ago": "May 27, 2025",
+          "created": "May 27, 2025",
+          "description": "CLRO faces mounting challenges from supply-chain issues, weak margins and increased losses as it navigates strategic alternatives for future viability.",
+          "id": 24913931,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "clro|stocks"
+          ],
+          "title": "ClearOne Stock Sinks 27% After Posting Wider Q1 Loss, Y/Y Revenue Dip",
+          "url": "/articles/clearone-stock-sinks-27-after-posting-wider-q1-loss-y-y-revenue-dip"
+        },
+        {
+          "ago": "Apr 3, 2025",
+          "created": "Apr 3, 2025",
+          "description": "The CLRO stock plunges 41% in a month as Q4 revenues rise 18% sequentially but fall y/y. Losses widen amid certification and demand challenges.",
+          "id": 24424056,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "clro|stocks"
+          ],
+          "title": "ClearOne Slides on Q4 Loss Despite Cost Cuts & Latest Launches",
+          "url": "/articles/clearone-slides-q4-loss-despite-cost-cuts-latest-launches"
+        },
+        {
+          "ago": "Mar 3, 2025",
+          "created": "Mar 3, 2025",
+          "description": "$CLRO stock has now risen 12% today, according to our price data from Polygon. There has been approximately $12,896,926 of trading volume.",
+          "id": 24165061,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "clro",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Quiver Quantitative",
+          "publisher_logo": "",
+          "related_symbols": [
+            "clro|stocks"
+          ],
+          "title": "$CLRO stock is up 12% today. Here's what we see in our data.",
+          "url": "/articles/clro-stock-12-today-heres-what-we-see-our-data"
         }
       ],
-      "totalrecords": 54
+      "totalrecords": 10
     },
     "message": null,
     "status": {
