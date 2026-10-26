@@ -1,9 +1,9 @@
 {
-  "ticker": "BKHAU",
-  "saved_at_et": "2026-10-26T10:01:24-04:00",
+  "ticker": "AIFA",
+  "saved_at_et": "2026-10-26T10:31:29-04:00",
   "response": {
     "data": {
-      "previousInfo": " Market Close: $5.0",
+      "previousInfo": " Market Close: $4.55",
       "lastUpdateInfo": [
         "Data last updated Oct 26, 2026 09:30 AM ET.",
         "This page will resume updating on Oct 27, 2026 04:00 AM ET."
@@ -19,11 +19,11 @@
         },
         "rows": [
           {
-            "consolidated": "$4.87 -0.13 (-2.60%)",
-            "volume": "192",
-            "highPrice": "$5.1 (08:16:24 AM)",
-            "lowPrice": "$5.1 (08:16:24 AM)",
-            "delta": "down"
+            "consolidated": "$4.72 +0.17 (+3.74%)",
+            "volume": "305",
+            "highPrice": "$4.5 (06:58:07 AM)",
+            "lowPrice": "$4.4 (06:56:28 AM)",
+            "delta": "up"
           }
         ]
       },
@@ -36,44 +36,29 @@
         },
         "rows": [
           {
-            "time": "08:20:53",
-            "price": "$4.87",
-            "shareVolume": "68"
+            "time": "08:46:07",
+            "price": "$4.72",
+            "shareVolume": "8"
           },
           {
-            "time": "08:20:53",
-            "price": "$4.87",
-            "shareVolume": "24"
+            "time": "06:58:07",
+            "price": "$4.5",
+            "shareVolume": "165"
           },
           {
-            "time": "08:16:24",
-            "price": "$5.1",
+            "time": "06:56:29",
+            "price": "$4.4",
+            "shareVolume": "32"
+          },
+          {
+            "time": "06:56:28",
+            "price": "$4.4",
             "shareVolume": "100"
           },
           {
-            "time": "08:08:54",
-            "price": "$4.93",
-            "shareVolume": "24"
-          },
-          {
-            "time": "07:50:42",
-            "price": "$4.93",
+            "time": "04:00:16",
+            "price": "$4.55",
             "shareVolume": "5"
-          },
-          {
-            "time": "07:49:39",
-            "price": "$5",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:49:39",
-            "price": "$4.93",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:33:34",
-            "price": "$4.87",
-            "shareVolume": "33"
           }
         ]
       },
