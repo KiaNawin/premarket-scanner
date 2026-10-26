@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-26",
-  "generated_at_et": "2026-10-26 10:35:01 EDT",
+  "generated_at_et": "2026-10-26 11:06:27 EDT",
   "source_premarket_file": "premarket_scan_2026-10-26.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 11,
-  "valid_count": 2,
+  "candidates": 18,
+  "valid_count": 3,
   "valid_entries": [
     {
       "ticker": "RRC",
       "signal_time_et": "2026-10-26 10:00",
       "entry_price": 53.285,
-      "last_price": 52.65,
-      "gap_pct": 15.64,
+      "last_price": 52.44,
+      "gap_pct": 15.18,
       "yesterday_high": 45.74,
       "yesterday_close": 45.52,
       "sma200": 39.8791,
@@ -30,14 +30,27 @@
       "ticker": "S",
       "signal_time_et": "2026-10-26 10:08",
       "entry_price": 24.49,
-      "last_price": 25.3502,
-      "gap_pct": 5.46,
+      "last_price": 25.435,
+      "gap_pct": 6.42,
       "yesterday_high": 24.07,
       "yesterday_close": 24.0,
       "sma200": 17.36,
       "premarket_high": 24.25,
       "hod_before_signal": 24.48,
       "catalyst": "CrowdStrike vs."
+    },
+    {
+      "ticker": "FSLY",
+      "signal_time_et": "2026-10-26 10:20",
+      "entry_price": 25.0899,
+      "last_price": 25.43,
+      "gap_pct": 5.41,
+      "yesterday_high": 24.54,
+      "yesterday_close": 24.41,
+      "sma200": 21.0561,
+      "premarket_high": 24.8,
+      "hod_before_signal": 25.0375,
+      "catalyst": "No recent news catalyst found."
     }
   ],
   "evaluated": [
@@ -50,8 +63,8 @@
       "yesterday_close": 45.52,
       "sma200": 39.8791,
       "premarket_high": 52.78,
-      "last_price": 52.65,
-      "last_bar_et": "10:34",
+      "last_price": 52.44,
+      "last_bar_et": "11:06",
       "high_of_day": 53.36,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -62,7 +75,7 @@
       "signal_time_et": "2026-10-26 10:00",
       "entry_price": 53.285,
       "hod_before_signal": 53.22,
-      "gap_pct": 15.64,
+      "gap_pct": 15.18,
       "catalyst": "Range Resources Corporation to Merge with EQT Corporation in All-Stock Transaction."
     },
     {
@@ -74,9 +87,9 @@
       "yesterday_close": 24.0,
       "sma200": 17.36,
       "premarket_high": 24.25,
-      "last_price": 25.3502,
-      "last_bar_et": "10:34",
-      "high_of_day": 25.425,
+      "last_price": 25.435,
+      "last_bar_et": "11:06",
+      "high_of_day": 25.555,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -86,8 +99,98 @@
       "signal_time_et": "2026-10-26 10:08",
       "entry_price": 24.49,
       "hod_before_signal": 24.48,
-      "gap_pct": 5.46,
+      "gap_pct": 6.42,
       "catalyst": "CrowdStrike vs."
+    },
+    {
+      "ticker": "FSLY",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 2.2178,
+      "yesterday_high": 24.54,
+      "yesterday_close": 24.41,
+      "sma200": 21.0561,
+      "premarket_high": 24.8,
+      "last_price": 25.43,
+      "last_bar_et": "11:06",
+      "high_of_day": 25.75,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-26 10:20",
+      "entry_price": 25.0899,
+      "hod_before_signal": 25.0375,
+      "gap_pct": 5.41,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "ARM",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 14.2028,
+      "yesterday_high": 215.05,
+      "yesterday_close": 210.33,
+      "sma200": 226.0674,
+      "premarket_high": 214.76,
+      "last_price": 222.23,
+      "last_bar_et": "11:06",
+      "high_of_day": 223.35,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.67,
+      "catalyst": "Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year."
+    },
+    {
+      "ticker": "AXTI",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 6.3293,
+      "yesterday_high": 55.2,
+      "yesterday_close": 52.08,
+      "sma200": 63.9618,
+      "premarket_high": 54.56,
+      "last_price": 55.5364,
+      "last_bar_et": "11:06",
+      "high_of_day": 56.23,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.33,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 19.6466,
+      "yesterday_high": 206.0,
+      "yesterday_close": 193.3,
+      "sma200": 219.2872,
+      "premarket_high": 199.5,
+      "last_price": 208.08,
+      "last_bar_et": "11:06",
+      "high_of_day": 209.64,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.66,
+      "catalyst": "Where Will Bloom Energy Stock Be in 5 Years?"
     },
     {
       "ticker": "CLRO",
@@ -98,8 +201,8 @@
       "yesterday_close": 3.25,
       "sma200": 4.7011,
       "premarket_high": 4.4097,
-      "last_price": 4.58,
-      "last_bar_et": "10:34",
+      "last_price": 4.66,
+      "last_bar_et": "11:06",
       "high_of_day": 5.85,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -108,52 +211,127 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 44.03,
+      "gap_pct": 39.38,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "FRMM",
+      "ticker": "COHR",
       "status": "FAIL",
       "signal": false,
-      "atr14": 0.3113,
-      "yesterday_high": 3.4,
-      "yesterday_close": 3.38,
-      "sma200": 4.5415,
-      "premarket_high": 3.9,
-      "last_price": 3.76,
-      "last_bar_et": "10:34",
-      "high_of_day": 3.8399,
+      "atr14": 21.7714,
+      "yesterday_high": 215.38,
+      "yesterday_close": 209.29,
+      "sma200": 295.3475,
+      "premarket_high": 217.45,
+      "last_price": 219.32,
+      "last_bar_et": "11:06",
+      "high_of_day": 220.83,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.43,
+      "gap_pct": 5.16,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "RENT",
+      "ticker": "CRWV",
       "status": "FAIL",
       "signal": false,
-      "atr14": 0.167,
-      "yesterday_high": 2.39,
-      "yesterday_close": 2.3,
-      "sma200": 4.2341,
-      "premarket_high": 3.49,
-      "last_price": 3.08,
-      "last_bar_et": "10:34",
-      "high_of_day": 3.1,
+      "atr14": 6.4461,
+      "yesterday_high": 56.11,
+      "yesterday_close": 54.235,
+      "sma200": 92.0,
+      "premarket_high": 53.2,
+      "last_price": 56.91,
+      "last_bar_et": "11:06",
+      "high_of_day": 57.4699,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": true
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 31.17,
+      "gap_pct": 5.37,
+      "catalyst": "MarketBeat Week in Review – 10/19 - 10/23."
+    },
+    {
+      "ticker": "GLND",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 150 trading days of history (< 200 needed for SMA200)",
+      "history_days": 150,
+      "gap_pct": 5.17,
       "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "HUT",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 7.2496,
+      "yesterday_high": 65.49,
+      "yesterday_close": 61.23,
+      "sma200": 82.3735,
+      "premarket_high": 60.9668,
+      "last_price": 65.33,
+      "last_bar_et": "11:06",
+      "high_of_day": 65.8,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.45,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "LITE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 71.7243,
+      "yesterday_high": 788.895,
+      "yesterday_close": 756.17,
+      "sma200": 788.0438,
+      "premarket_high": 782.814,
+      "last_price": 813.12,
+      "last_bar_et": "11:06",
+      "high_of_day": 820.7061,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.21,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "NOK",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5486,
+      "yesterday_high": 8.27,
+      "yesterday_close": 8.14,
+      "sma200": 10.2457,
+      "premarket_high": 8.47,
+      "last_price": 8.555,
+      "last_bar_et": "11:06",
+      "high_of_day": 8.58,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.22,
+      "catalyst": "Nokia: 3 Key Takeaways for Long-Term Investors."
     },
     {
       "ticker": "SAIQ",
@@ -164,8 +342,8 @@
       "yesterday_close": 6.12,
       "sma200": 10.0621,
       "premarket_high": 7.32,
-      "last_price": 6.855,
-      "last_bar_et": "10:34",
+      "last_price": 6.679,
+      "last_bar_et": "11:06",
       "high_of_day": 7.57,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -174,7 +352,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.5,
+      "gap_pct": 8.99,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -186,8 +364,8 @@
       "yesterday_close": 15.75,
       "sma200": 14.4438,
       "premarket_high": 19.71,
-      "last_price": 23.055,
-      "last_bar_et": "10:34",
+      "last_price": 23.035,
+      "last_bar_et": "11:06",
       "high_of_day": 23.14,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -196,8 +374,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 46.22,
-      "catalyst": "Bon Secours Nears $6 Billion Deal For Surgery Partners; Stock Up."
+      "gap_pct": 46.25,
+      "catalyst": "Surgery Partners To Be Acquired By HealthSpan Partners In $5.7 Bln Deal; Shares Jump."
+    },
+    {
+      "ticker": "TSEM",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 16.0879,
+      "yesterday_high": 169.98,
+      "yesterday_close": 167.56,
+      "sma200": 203.613,
+      "premarket_high": 173.8,
+      "last_price": 178.57,
+      "last_bar_et": "11:06",
+      "high_of_day": 179.65,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.7,
+      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "TSLA",
@@ -208,8 +408,8 @@
       "yesterday_close": 372.22,
       "sma200": 386.3474,
       "premarket_high": 383.87,
-      "last_price": 393.58,
-      "last_bar_et": "10:34",
+      "last_price": 394.53,
+      "last_bar_et": "11:06",
       "high_of_day": 396.65,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -218,65 +418,21 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.96,
+      "gap_pct": 6.38,
       "catalyst": "An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy?"
     },
     {
-      "ticker": "XLAB",
+      "ticker": "WULF",
       "status": "FAIL",
       "signal": false,
-      "atr14": 0.7185,
-      "yesterday_high": 4.48,
-      "yesterday_close": 3.35,
-      "sma200": 8.2114,
-      "premarket_high": 3.65,
-      "last_price": 3.5785,
-      "last_bar_et": "10:34",
-      "high_of_day": 3.7502,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.07,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "XNCR",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 1.4084,
-      "yesterday_high": 25.81,
-      "yesterday_close": 25.18,
-      "sma200": 16.5683,
-      "premarket_high": 35.51,
-      "last_price": 29.54,
-      "last_bar_et": "10:34",
-      "high_of_day": 33.58,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 19.62,
-      "catalyst": "Xencor, Inc."
-    },
-    {
-      "ticker": "ZURA",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.425,
-      "yesterday_high": 3.595,
-      "yesterday_close": 3.36,
-      "sma200": 5.266,
-      "premarket_high": 3.44,
-      "last_price": 3.63,
-      "last_bar_et": "10:34",
-      "high_of_day": 3.8,
+      "atr14": 1.1029,
+      "yesterday_high": 11.95,
+      "yesterday_close": 11.32,
+      "sma200": 18.1133,
+      "premarket_high": 11.62,
+      "last_price": 12.0358,
+      "last_bar_et": "11:06",
+      "high_of_day": 12.1199,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -284,9 +440,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.52,
-      "catalyst": "No recent news catalyst found."
+      "gap_pct": 6.49,
+      "catalyst": "TeraWulf Inc."
     }
   ],
-  "scan_time_et": "10:35"
+  "scan_time_et": "11:06"
 }

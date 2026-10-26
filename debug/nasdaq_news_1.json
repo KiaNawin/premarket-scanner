@@ -1,12 +1,30 @@
 {
   "ticker": "SGRY",
-  "saved_at_et": "2026-10-26T10:33:17-04:00",
+  "saved_at_et": "2026-10-26T11:05:09-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "6 hours ago",
+          "ago": "26 minutes ago",
+          "created": "Oct 26, 2026",
+          "description": "(RTTNews) - Outpatient surgical facility operator Surgery Partners, Inc. (SGRY) announced on Monday that it has agreed to be acquired by HealthSpan Partners in an all-cash transaction valued at about $5.7 billion.",
+          "id": 28630161,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "sgry",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "sgry|stocks"
+          ],
+          "title": "Surgery Partners To Be Acquired By HealthSpan Partners In $5.7 Bln Deal; Shares Jump ",
+          "url": "/articles/surgery-partners-be-acquired-healthspan-partners-57-bln-deal-shares-jump"
+        },
+        {
+          "ago": "7 hours ago",
           "created": "Oct 26, 2026",
           "description": "(RTTNews) - Bon Secours Mercy Health is reportedly in late-stage talks to acquire a majority stake in Surgery Partners (SGRY), in a transaction that would value the outpatient surgery provider at approximately $6 billion, including debt. The deal could be announced as early as to",
           "id": 28625796,
@@ -180,37 +198,9 @@
           ],
           "title": "Surgery Partners Q2 Earnings Call Highlights",
           "url": "/articles/surgery-partners-q2-earnings-call-highlights"
-        },
-        {
-          "ago": "Aug 10, 2026",
-          "created": "Aug 10, 2026",
-          "description": "AVAH, FDS and SHOP lead Zacks' recent standouts, with several picks posting strong gains versus the S&P 500.",
-          "id": 28146311,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "payx|stocks",
-            "adp|stocks",
-            "tmo|stocks",
-            "fds|stocks",
-            "crs|stocks",
-            "caci|stocks",
-            "hei|stocks",
-            "shop|stocks",
-            "sgry|stocks",
-            "avah|stocks",
-            "twfg|stocks"
-          ],
-          "title": "Beat the Market Like Zacks: Aveanna, FactSet, Shopify in Focus",
-          "url": "/articles/beat-market-zacks-aveanna-factset-shopify-focus"
         }
       ],
-      "totalrecords": 88
+      "totalrecords": 89
     },
     "message": null,
     "status": {
