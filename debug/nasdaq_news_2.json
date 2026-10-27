@@ -1,16 +1,34 @@
 {
   "ticker": "AIOK",
-  "saved_at_et": "2026-10-27T13:36:07-04:00",
+  "saved_at_et": "2026-10-27T14:06:03-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "2 minutes ago",
+          "ago": "7 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) is up +0.42%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.02%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.92%.  December E-mini S&P futures (ESZ26 ) are up +0.50%, and December E-mini Nasdaq futures (NQZ26...",
-          "id": 28645326,
-          "image": "/barchart/View%25202%2520of%2520the%2520trading%2520floor%2520of%2520New%2520York%2520Stock%2520Exchange%2520by%2520Lev%2520Radin%2520via%2520Shutterstock.jpg",
+          "description": "(RTTNews) - On Tuesday, IonQ (IONQ) received an additional $7.5 million from the Air Force Research Laboratory for Phase 2 of its quantum networking project.",
+          "id": 28645886,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "ionq",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "ionq|stocks"
+          ],
+          "title": "IonQ Receives Additional $7.5 Mln From Research Lab For Phase 2 ",
+          "url": "/articles/ionq-receives-additional-75-mln-research-lab-phase-2"
+        },
+        {
+          "ago": "11 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) rose +0.67% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) rose +1.09%.  December E-mini S&P futures (ESZ26 ) rose +0.70%, and December E-mini Nasdaq futures (NQZ26 ) rose...",
+          "id": 28635026,
+          "image": "/barchart/Wall%2520street%2520sign%2520in%2520New%2520York%2520City%2520by%2520f11photo%2520via%2520Shutterstock.jpg",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
@@ -18,189 +36,173 @@
           "publisher": "Barchart",
           "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
           "related_symbols": [
-            "meta|stocks",
-            "aapl|stocks",
-            "avgo|stocks",
-            "ko|stocks",
-            "gm|stocks",
+            "rrc|stocks",
+            "adi|stocks",
             "glxy|stocks",
-            "qqq|etf",
-            "iren|stocks",
+            "txn|stocks",
+            "coin|stocks",
+            "msft|stocks",
+            "bmnr|stocks",
             "tsla|stocks",
-            "intc|stocks",
-            "amd|stocks",
-            "ups|stocks",
-            "soxx|etf",
-            "riot|stocks",
-            "mrna|stocks",
             "spy|etf",
             "dia|etf",
-            "on|stocks"
+            "meta|stocks",
+            "nxpi|stocks",
+            "ewz|etf",
+            "eqt|stocks",
+            "qqq|etf",
+            "iren|stocks",
+            "intc|stocks",
+            "soxx|etf",
+            "arm|stocks",
+            "sgry|stocks"
           ],
-          "title": "Stocks See Support as Crude Oil Prices Ease and FOMC Awaited",
-          "url": "/articles/stocks-see-support-crude-oil-prices-ease-and-fomc-awaited"
+          "title": "Stocks Rally Ahead of Busy Week as Crude Oil Prices Ease",
+          "url": "/articles/stocks-rally-ahead-busy-week-crude-oil-prices-ease-0"
         },
         {
-          "ago": "3 minutes ago",
+          "ago": "14 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645681,
+          "description": "(RTTNews) - Welltower Inc. (WELL) is down 5.69 percent, losing $13.69 to $226.92 on Tuesday. The decline possibly follows the company's third-quarter results announced yesterday, with net income falling to $280.56 million, or $0.41 per share, from $396.59 million, or $0.54 per sh",
+          "id": 28645881,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "phar",
+          "primarysymbol": "well",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "well|stocks"
+          ],
+          "title": "Welltower Stock Falls 6% ",
+          "url": "/articles/welltower-stock-falls-6"
+        },
+        {
+          "ago": "14 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "Key PointsAltria is a Dividend King that pays a 6% yield.",
+          "id": 28645836,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "mo",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "phar|stocks"
+            "mo|stocks"
           ],
-          "title": "Pharming (PHAR) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/pharming-phar-q3-2026-earnings-call-transcript"
+          "title": "All It Takes Is 226 Shares of Altria Stock to Earn $1,000 a Year in Dividends. Is It Worth It?",
+          "url": "/articles/all-it-takes-226-shares-altria-stock-earn-1000-year-dividends-it-worth-it"
         },
         {
-          "ago": "5 minutes ago",
+          "ago": "15 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645676,
+          "description": "Oncolytics Biotech Inc. announced updated clinical data from Cohort 4 of its Phase 1/2 GOBLET study, which is evaluating pelareorep in combination with atezolizumab in patients with second-line or later squamous cell anal cancer. Although median overall survival has not yet been",
+          "id": 28645806,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "pii",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "pii|stocks"
-          ],
-          "title": "Polaris (PII) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/polaris-pii-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645671,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "naut",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "naut|stocks"
-          ],
-          "title": "Nautilus (NAUT) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/nautilus-naut-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645666,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "tru",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "tru|stocks"
-          ],
-          "title": "TransUnion (TRU) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/transunion-tru-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645661,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "dq",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "dq|stocks"
-          ],
-          "title": "Daqo (DQ) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/daqo-dq-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645656,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "ab",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "ab|stocks"
-          ],
-          "title": "AllianceBernstein (AB) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/alliancebernstein-ab-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645651,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "sndl",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "sndl|stocks"
-          ],
-          "title": "SNDL (SNDL) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/sndl-sndl-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645646,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "cnp",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "cnp|stocks"
-          ],
-          "title": "CenterPoint Energy (CNP) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/centerpoint-energy-cnp-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "SunCoke Energy, Inc. reported its financial results for the third quarter of 2026, with net income of $23.8 million, compared to $23.8 million in the prior year period. Net income attributable to the company was $21.8 million, or $0.25 per diluted share, compared to $22.2 million",
-          "id": 28645626,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "sxc",
+          "primarysymbol": "oncy",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
           "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "sxc|stocks"
+            "oncy|stocks"
           ],
-          "title": "SunCoke Energy, Inc. Reports Third Quarter 2026 Results",
-          "url": "/articles/suncoke-energy-inc-reports-third-quarter-2026-results"
+          "title": "Oncolytics Biotech Inc. Reports Updated Clinical Data from Cohort 4 of GOBLET Study",
+          "url": "/articles/oncolytics-biotech-inc-reports-updated-clinical-data-cohort-4-goblet-study"
+        },
+        {
+          "ago": "16 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "Five Star Bancorp reported net income of $21.9 million for the three months ended September 30, 2026, representing an increase from $19.4 million for the three months ended June 30, 2026 and $16.3 million for the three months ended September 30, 2025. Net interest income for the",
+          "id": 28645801,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "fsbc",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "fsbc|stocks"
+          ],
+          "title": "Five Star Bancorp Reports Net Income of $21.9 million for Third Quarter 2026 and Raises $130.0 million in Public Offering",
+          "url": "/articles/five-star-bancorp-reports-net-income-219-million-third-quarter-2026-and-raises-1300"
+        },
+        {
+          "ago": "16 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "Applied Industrial Technologies, Inc. reported its fiscal 2027 first quarter results for the period ended September 30, 2026. Net sales for the quarter of $1.3 billion increased 7.6% over the prior year, or 7.1% on an organic basis. The company reported net income of $110.4 milli",
+          "id": 28645796,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "ait",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "ait|stocks"
+          ],
+          "title": "Applied Industrial Technologies Reports Fiscal 2027 First Quarter Results",
+          "url": "/articles/applied-industrial-technologies-reports-fiscal-2027-first-quarter-results"
+        },
+        {
+          "ago": "18 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645831,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "bro",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "bro|stocks"
+          ],
+          "title": "Brown & Brown (BRO) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/brown-brown-bro-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645866,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "rcl",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "rcl|stocks"
+          ],
+          "title": "Royal Caribbean (RCL) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/royal-caribbean-rcl-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645861,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "ait",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "ait|stocks"
+          ],
+          "title": "Applied Industrial (AIT) Q1 2027 Earnings Call Transcript",
+          "url": "/articles/applied-industrial-ait-q1-2027-earnings-call-transcript"
         }
       ],
       "totalrecords": 500

@@ -1,13 +1,12 @@
 **Trend-join Long — 2026-10-27**
-5 valid entries out of 23 pre-market gappers (generated 2026-10-27 13:37:38 EDT)
+4 valid entries out of 22 pre-market gappers (generated 2026-10-27 14:07:36 EDT)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| DELL | 10:24 | $489.80 | +8.14% | Dell Technologies vs. |
-| ALAB | 10:33 | $273.52 | +9.94% | Astera Labs, Inc. |
-| CYPH | 10:55 | $3.02 | +12.19% | No recent news catalyst found. |
-| AMD | 11:14 | $555.36 | +5.28% | AMD Deepens AI Infrastructure Partnership With Meta, To Invest In Equity Offering. |
-| BNC | 11:48 | $5.66 | +6.66% | No recent news catalyst found. |
+| ALAB | 10:33 | $273.52 | +9.47% | Astera Labs, Inc. |
+| CYPH | 10:55 | $3.02 | +10.07% | No recent news catalyst found. |
+| AMD | 11:14 | $555.36 | +5.14% | AMD Deepens AI Infrastructure Partnership With Meta, To Invest In Equity Offering. |
+| BNC | 11:48 | $5.66 | +5.82% | No recent news catalyst found. |
 
 Not triggered:
 - AAOI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
