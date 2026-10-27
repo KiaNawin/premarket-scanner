@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-27",
-  "generated_at_et": "2026-10-27 12:07:43 EDT",
+  "generated_at_et": "2026-10-27 12:38:13 EDT",
   "source_premarket_file": "premarket_scan_2026-10-27.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,28 +10,28 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 26,
+  "candidates": 25,
   "valid_count": 5,
   "valid_entries": [
     {
       "ticker": "DELL",
       "signal_time_et": "2026-10-27 10:24",
       "entry_price": 489.8,
-      "last_price": 506.345,
-      "gap_pct": 8.3,
+      "last_price": 504.1,
+      "gap_pct": 8.47,
       "yesterday_high": 475.38,
       "yesterday_close": 467.09,
       "sma200": 324.1921,
       "premarket_high": 477.6494,
       "hod_before_signal": 489.795,
-      "catalyst": "3 AI Stocks That Can Beat the Nasdaq Composite in 2027."
+      "catalyst": "Dell Technologies vs."
     },
     {
       "ticker": "ALAB",
       "signal_time_et": "2026-10-27 10:33",
       "entry_price": 273.52,
-      "last_price": 280.485,
-      "gap_pct": 7.72,
+      "last_price": 282.7001,
+      "gap_pct": 9.52,
       "yesterday_high": 268.0,
       "yesterday_close": 259.51,
       "sma200": 253.0103,
@@ -43,8 +43,8 @@
       "ticker": "CYPH",
       "signal_time_et": "2026-10-27 10:55",
       "entry_price": 3.015,
-      "last_price": 3.075,
-      "gap_pct": 7.77,
+      "last_price": 3.18,
+      "gap_pct": 10.18,
       "yesterday_high": 2.9,
       "yesterday_close": 2.83,
       "sma200": 1.2393,
@@ -56,8 +56,8 @@
       "ticker": "AMD",
       "signal_time_et": "2026-10-27 11:14",
       "entry_price": 555.36,
-      "last_price": 560.1,
-      "gap_pct": 5.57,
+      "last_price": 559.6,
+      "gap_pct": 5.21,
       "yesterday_high": 533.5,
       "yesterday_close": 531.28,
       "sma200": 403.7163,
@@ -69,8 +69,8 @@
       "ticker": "BNC",
       "signal_time_et": "2026-10-27 11:48",
       "entry_price": 5.6602,
-      "last_price": 5.645,
-      "gap_pct": 6.0,
+      "last_price": 5.675,
+      "gap_pct": 6.44,
       "yesterday_high": 5.65,
       "yesterday_close": 5.33,
       "sma200": 3.6419,
@@ -89,9 +89,9 @@
       "yesterday_close": 467.09,
       "sma200": 324.1921,
       "premarket_high": 477.6494,
-      "last_price": 506.345,
-      "last_bar_et": "12:07",
-      "high_of_day": 506.4957,
+      "last_price": 504.1,
+      "last_bar_et": "12:38",
+      "high_of_day": 507.385,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -101,8 +101,8 @@
       "signal_time_et": "2026-10-27 10:24",
       "entry_price": 489.8,
       "hod_before_signal": 489.795,
-      "gap_pct": 8.3,
-      "catalyst": "3 AI Stocks That Can Beat the Nasdaq Composite in 2027."
+      "gap_pct": 8.47,
+      "catalyst": "Dell Technologies vs."
     },
     {
       "ticker": "ALAB",
@@ -113,19 +113,19 @@
       "yesterday_close": 259.51,
       "sma200": 253.0103,
       "premarket_high": 269.29,
-      "last_price": 280.485,
-      "last_bar_et": "12:07",
-      "high_of_day": 280.485,
+      "last_price": 282.7001,
+      "last_bar_et": "12:38",
+      "high_of_day": 284.94,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "signal_time_et": "2026-10-27 10:33",
       "entry_price": 273.52,
       "hod_before_signal": 273.38,
-      "gap_pct": 7.72,
+      "gap_pct": 9.52,
       "catalyst": "Astera Labs, Inc."
     },
     {
@@ -137,9 +137,9 @@
       "yesterday_close": 2.83,
       "sma200": 1.2393,
       "premarket_high": 2.89,
-      "last_price": 3.075,
-      "last_bar_et": "12:07",
-      "high_of_day": 3.08,
+      "last_price": 3.18,
+      "last_bar_et": "12:38",
+      "high_of_day": 3.18,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -149,7 +149,7 @@
       "signal_time_et": "2026-10-27 10:55",
       "entry_price": 3.015,
       "hod_before_signal": 3.01,
-      "gap_pct": 7.77,
+      "gap_pct": 10.18,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -161,8 +161,8 @@
       "yesterday_close": 531.28,
       "sma200": 403.7163,
       "premarket_high": 548.99,
-      "last_price": 560.1,
-      "last_bar_et": "12:07",
+      "last_price": 559.6,
+      "last_bar_et": "12:38",
       "high_of_day": 561.309,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -173,7 +173,7 @@
       "signal_time_et": "2026-10-27 11:14",
       "entry_price": 555.36,
       "hod_before_signal": 555.11,
-      "gap_pct": 5.57,
+      "gap_pct": 5.21,
       "catalyst": "AMD Deepens AI Infrastructure Partnership With Meta, To Invest In Equity Offering."
     },
     {
@@ -185,11 +185,11 @@
       "yesterday_close": 5.33,
       "sma200": 3.6419,
       "premarket_high": 5.59,
-      "last_price": 5.645,
-      "last_bar_et": "12:05",
+      "last_price": 5.675,
+      "last_bar_et": "12:38",
       "high_of_day": 5.69,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
@@ -197,7 +197,7 @@
       "signal_time_et": "2026-10-27 11:48",
       "entry_price": 5.6602,
       "hod_before_signal": 5.66,
-      "gap_pct": 6.0,
+      "gap_pct": 6.44,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -209,300 +209,9 @@
       "yesterday_close": 71.94,
       "sma200": 113.3263,
       "premarket_high": 74.4,
-      "last_price": 76.87,
-      "last_bar_et": "12:07",
+      "last_price": 76.65,
+      "last_bar_et": "12:38",
       "high_of_day": 77.14,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.89,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "ACHR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.2551,
-      "yesterday_high": 3.96,
-      "yesterday_close": 3.94,
-      "sma200": 5.9003,
-      "premarket_high": 4.03,
-      "last_price": 4.24,
-      "last_bar_et": "12:06",
-      "high_of_day": 4.245,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.1,
-      "catalyst": "Wall Street Thinks Archer Aviation Is a Buy."
-    },
-    {
-      "ticker": "AIOK",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 12 trading days of history (< 200 needed for SMA200)",
-      "history_days": 12,
-      "gap_pct": 46.99,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "AMKR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.7393,
-      "yesterday_high": 39.14,
-      "yesterday_close": 36.81,
-      "sma200": 57.4809,
-      "premarket_high": 39.33,
-      "last_price": 39.23,
-      "last_bar_et": "12:07",
-      "high_of_day": 39.5,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.31,
-      "catalyst": "Amkor (AMKR) Q3 2026 Earnings Call Transcript."
-    },
-    {
-      "ticker": "APLD",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.8176,
-      "yesterday_high": 18.67,
-      "yesterday_close": 17.83,
-      "sma200": 31.6892,
-      "premarket_high": 18.55,
-      "last_price": 19.475,
-      "last_bar_et": "12:07",
-      "high_of_day": 19.575,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.72,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "ASTS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 4.2649,
-      "yesterday_high": 41.59,
-      "yesterday_close": 39.45,
-      "sma200": 78.5758,
-      "premarket_high": 40.14,
-      "last_price": 42.74,
-      "last_bar_et": "12:07",
-      "high_of_day": 43.1,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.86,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "BE",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 19.9001,
-      "yesterday_high": 210.86,
-      "yesterday_close": 203.92,
-      "sma200": 219.6976,
-      "premarket_high": 213.5,
-      "last_price": 220.09,
-      "last_bar_et": "12:07",
-      "high_of_day": 224.17,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.13,
-      "catalyst": "Bloom Energy Stock Has Plunged Despite Explosive Growth."
-    },
-    {
-      "ticker": "BRAI",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 177 trading days of history (< 200 needed for SMA200)",
-      "history_days": 177,
-      "gap_pct": 74.29,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "BRUN",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.2012,
-      "yesterday_high": 7.825,
-      "yesterday_close": 7.48,
-      "sma200": 18.1267,
-      "premarket_high": 8.19,
-      "last_price": 8.3,
-      "last_bar_et": "12:07",
-      "high_of_day": 8.45,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.36,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "CBRS",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 114 trading days of history (< 200 needed for SMA200)",
-      "history_days": 114,
-      "gap_pct": 8.75,
-      "catalyst": "Prediction: 2 Stocks That Will Be Worth More Than AMD 5 Years From Now."
-    },
-    {
-      "ticker": "CCCC",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.2011,
-      "yesterday_high": 3.07,
-      "yesterday_close": 2.98,
-      "sma200": 3.1856,
-      "premarket_high": 2.9801,
-      "last_price": 3.215,
-      "last_bar_et": "12:06",
-      "high_of_day": 3.215,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.55,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "CIFR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.0903,
-      "yesterday_high": 8.235,
-      "yesterday_close": 7.71,
-      "sma200": 17.937,
-      "premarket_high": 8.1,
-      "last_price": 8.385,
-      "last_bar_et": "12:07",
-      "high_of_day": 8.53,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.72,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "CLF",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.935,
-      "yesterday_high": 14.22,
-      "yesterday_close": 13.38,
-      "sma200": 11.3547,
-      "premarket_high": 13.6085,
-      "last_price": 14.05,
-      "last_bar_et": "12:07",
-      "high_of_day": 14.165,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 5.01,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "CLRO",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.7443,
-      "yesterday_high": 5.85,
-      "yesterday_close": 4.97,
-      "sma200": 4.7003,
-      "premarket_high": 6.71,
-      "last_price": 5.445,
-      "last_bar_et": "12:07",
-      "high_of_day": 6.23,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 10.25,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "CLS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 22.9157,
-      "yesterday_high": 273.14,
-      "yesterday_close": 246.65,
-      "sma200": 332.9239,
-      "premarket_high": 292.49,
-      "last_price": 276.49,
-      "last_bar_et": "12:07",
-      "high_of_day": 283.0,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.8,
-      "catalyst": "Celestica Inc."
-    },
-    {
-      "ticker": "COHR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 22.2636,
-      "yesterday_high": 225.66,
-      "yesterday_close": 221.5,
-      "sma200": 295.5892,
-      "premarket_high": 233.44,
-      "last_price": 236.25,
-      "last_bar_et": "12:07",
-      "high_of_day": 236.415,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -514,6 +223,319 @@
       "catalyst": "No recent news catalyst found."
     },
     {
+      "ticker": "ACHR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2551,
+      "yesterday_high": 3.96,
+      "yesterday_close": 3.94,
+      "sma200": 5.9003,
+      "premarket_high": 4.03,
+      "last_price": 4.2499,
+      "last_bar_et": "12:38",
+      "high_of_day": 4.28,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.55,
+      "catalyst": "Wall Street Thinks Archer Aviation Is a Buy."
+    },
+    {
+      "ticker": "AIOK",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 12 trading days of history (< 200 needed for SMA200)",
+      "history_days": 12,
+      "gap_pct": 45.31,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "AMKR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.7393,
+      "yesterday_high": 39.14,
+      "yesterday_close": 36.81,
+      "sma200": 57.4809,
+      "premarket_high": 39.33,
+      "last_price": 38.88,
+      "last_bar_et": "12:38",
+      "high_of_day": 39.5,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.17,
+      "catalyst": "Amkor (AMKR) Q3 2026 Earnings Call Transcript."
+    },
+    {
+      "ticker": "APLD",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.8176,
+      "yesterday_high": 18.67,
+      "yesterday_close": 17.83,
+      "sma200": 31.6892,
+      "premarket_high": 18.55,
+      "last_price": 19.52,
+      "last_bar_et": "12:38",
+      "high_of_day": 19.575,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.28,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "ASTS",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 4.2649,
+      "yesterday_high": 41.59,
+      "yesterday_close": 39.45,
+      "sma200": 78.5758,
+      "premarket_high": 40.14,
+      "last_price": 43.19,
+      "last_bar_et": "12:38",
+      "high_of_day": 43.43,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.66,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 19.9001,
+      "yesterday_high": 210.86,
+      "yesterday_close": 203.92,
+      "sma200": 219.6976,
+      "premarket_high": 213.5,
+      "last_price": 220.875,
+      "last_bar_et": "12:38",
+      "high_of_day": 224.17,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.03,
+      "catalyst": "Bloom Energy Stock Has Plunged Despite Explosive Growth."
+    },
+    {
+      "ticker": "BRAI",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 177 trading days of history (< 200 needed for SMA200)",
+      "history_days": 177,
+      "gap_pct": 87.97,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BRUN",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.2012,
+      "yesterday_high": 7.825,
+      "yesterday_close": 7.48,
+      "sma200": 18.1267,
+      "premarket_high": 8.19,
+      "last_price": 8.35,
+      "last_bar_et": "12:38",
+      "high_of_day": 8.45,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 10.23,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BTDR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.752,
+      "yesterday_high": 7.36,
+      "yesterday_close": 7.085,
+      "sma200": 11.8073,
+      "premarket_high": 7.28,
+      "last_price": 7.46,
+      "last_bar_et": "12:37",
+      "high_of_day": 7.66,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.22,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CBRS",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 114 trading days of history (< 200 needed for SMA200)",
+      "history_days": 114,
+      "gap_pct": 8.52,
+      "catalyst": "Prediction: 2 Stocks That Will Be Worth More Than AMD 5 Years From Now."
+    },
+    {
+      "ticker": "CCCC",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2011,
+      "yesterday_high": 3.07,
+      "yesterday_close": 2.98,
+      "sma200": 3.1856,
+      "premarket_high": 2.9801,
+      "last_price": 3.235,
+      "last_bar_et": "12:38",
+      "high_of_day": 3.24,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.89,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CIFR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.0903,
+      "yesterday_high": 8.235,
+      "yesterday_close": 7.71,
+      "sma200": 17.937,
+      "premarket_high": 8.1,
+      "last_price": 8.395,
+      "last_bar_et": "12:38",
+      "high_of_day": 8.53,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.82,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CLF",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.935,
+      "yesterday_high": 14.22,
+      "yesterday_close": 13.38,
+      "sma200": 11.3547,
+      "premarket_high": 13.6085,
+      "last_price": 14.06,
+      "last_bar_et": "12:38",
+      "high_of_day": 14.165,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
+      "gap_pct": 5.27,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CLRO",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.7443,
+      "yesterday_high": 5.85,
+      "yesterday_close": 4.97,
+      "sma200": 4.7003,
+      "premarket_high": 6.71,
+      "last_price": 5.5279,
+      "last_bar_et": "12:38",
+      "high_of_day": 6.23,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 10.04,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CLS",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 22.9157,
+      "yesterday_high": 273.14,
+      "yesterday_close": 246.65,
+      "sma200": 332.9239,
+      "premarket_high": 292.49,
+      "last_price": 277.87,
+      "last_bar_et": "12:38",
+      "high_of_day": 283.0,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 12.87,
+      "catalyst": "Celestica Inc."
+    },
+    {
+      "ticker": "COHR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 22.2636,
+      "yesterday_high": 225.66,
+      "yesterday_close": 221.5,
+      "sma200": 295.5892,
+      "premarket_high": 233.44,
+      "last_price": 235.7499,
+      "last_bar_et": "12:38",
+      "high_of_day": 236.79,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.6,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
       "ticker": "CRDO",
       "status": "FAIL",
       "signal": false,
@@ -522,17 +544,17 @@
       "yesterday_close": 151.15,
       "sma200": 180.9065,
       "premarket_high": 161.0,
-      "last_price": 164.55,
-      "last_bar_et": "12:07",
-      "high_of_day": 164.55,
+      "last_price": 165.49,
+      "last_bar_et": "12:38",
+      "high_of_day": 166.11,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.53,
+      "gap_pct": 9.55,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -544,9 +566,9 @@
       "yesterday_close": 6.38,
       "sma200": 9.4285,
       "premarket_high": 6.64,
-      "last_price": 6.965,
-      "last_bar_et": "12:07",
-      "high_of_day": 6.99,
+      "last_price": 7.015,
+      "last_bar_et": "12:38",
+      "high_of_day": 7.05,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -554,7 +576,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.77,
+      "gap_pct": 10.11,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -566,9 +588,9 @@
       "yesterday_close": 55.19,
       "sma200": 91.8905,
       "premarket_high": 57.88,
-      "last_price": 59.41,
-      "last_bar_et": "12:07",
-      "high_of_day": 59.42,
+      "last_price": 59.321,
+      "last_bar_et": "12:38",
+      "high_of_day": 59.56,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -576,53 +598,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.25,
+      "gap_pct": 7.49,
       "catalyst": "Is CoreWeave a Screaming Buy Right Now?"
-    },
-    {
-      "ticker": "FCEL",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.4929,
-      "yesterday_high": 12.22,
-      "yesterday_close": 11.46,
-      "sma200": 14.8454,
-      "premarket_high": 12.12,
-      "last_price": 12.3,
-      "last_bar_et": "12:07",
-      "high_of_day": 12.37,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.81,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "FER",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.0425,
-      "yesterday_high": 50.54,
-      "yesterday_close": 50.35,
-      "sma200": 64.527,
-      "premarket_high": 55.61,
-      "last_price": 54.305,
-      "last_bar_et": "12:07",
-      "high_of_day": 54.555,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.71,
-      "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "12:07"
+  "scan_time_et": "12:38"
 }
