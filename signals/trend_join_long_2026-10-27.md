@@ -1,13 +1,13 @@
 **Trend-join Long — 2026-10-27**
-5 valid entries out of 24 pre-market gappers (generated 2026-10-27 13:07:58 EDT)
+5 valid entries out of 23 pre-market gappers (generated 2026-10-27 13:37:38 EDT)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| DELL | 10:24 | $489.80 | +7.90% | Dell Technologies vs. |
-| ALAB | 10:33 | $273.52 | +9.16% | Astera Labs, Inc. |
-| CYPH | 10:55 | $3.02 | +11.48% | No recent news catalyst found. |
-| AMD | 11:14 | $555.36 | +5.23% | AMD Deepens AI Infrastructure Partnership With Meta, To Invest In Equity Offering. |
-| BNC | 11:48 | $5.66 | +6.19% | No recent news catalyst found. |
+| DELL | 10:24 | $489.80 | +8.14% | Dell Technologies vs. |
+| ALAB | 10:33 | $273.52 | +9.94% | Astera Labs, Inc. |
+| CYPH | 10:55 | $3.02 | +12.19% | No recent news catalyst found. |
+| AMD | 11:14 | $555.36 | +5.28% | AMD Deepens AI Infrastructure Partnership With Meta, To Invest In Equity Offering. |
+| BNC | 11:48 | $5.66 | +6.66% | No recent news catalyst found. |
 
 Not triggered:
 - AAOI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -19,7 +19,6 @@ Not triggered:
 - BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BRAI: SHORT_HISTORY — Only 177 trading days of history (< 200 needed for SMA200)
 - BRUN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- BTDR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CBRS: SHORT_HISTORY — Only 114 trading days of history (< 200 needed for SMA200)
 - CCCC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CIFR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)

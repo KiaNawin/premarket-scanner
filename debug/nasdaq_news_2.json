@@ -1,16 +1,16 @@
 {
   "ticker": "AIOK",
-  "saved_at_et": "2026-10-27T13:06:05-04:00",
+  "saved_at_et": "2026-10-27T13:36:07-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "3 minutes ago",
+          "ago": "2 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) is up +0.30%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.03%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.60%.  December E-mini S&P futures (ESZ26 ) are up +0.09%, and December E-mini Nasdaq futures (NQZ26...",
-          "id": 28643531,
-          "image": "/barchart/New%2520York%2520Stock%2520Exchange%2520during%2520sunrise%2520by%2520Deberarr%2520via%2520iStock.jpg",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) is up +0.42%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.02%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.92%.  December E-mini S&P futures (ESZ26 ) are up +0.50%, and December E-mini Nasdaq futures (NQZ26...",
+          "id": 28645326,
+          "image": "/barchart/View%25202%2520of%2520the%2520trading%2520floor%2520of%2520New%2520York%2520Stock%2520Exchange%2520by%2520Lev%2520Radin%2520via%2520Shutterstock.jpg",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
@@ -23,6 +23,7 @@
             "avgo|stocks",
             "ko|stocks",
             "gm|stocks",
+            "glxy|stocks",
             "qqq|etf",
             "iren|stocks",
             "tsla|stocks",
@@ -36,172 +37,170 @@
             "dia|etf",
             "on|stocks"
           ],
-          "title": "Stocks See Support as Crude Oil Prices Ease",
-          "url": "/articles/stocks-see-support-crude-oil-prices-ease"
+          "title": "Stocks See Support as Crude Oil Prices Ease and FOMC Awaited",
+          "url": "/articles/stocks-see-support-crude-oil-prices-ease-and-fomc-awaited"
         },
         {
-          "ago": "4 minutes ago",
+          "ago": "3 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "The Baldwin Insurance Group, Inc. announced its preliminary financial results for the third quarter ended September 30, 2026. The Company reported total revenue of $480.3 million, representing a 31% increase from $365.4 million in the prior-year period, with organic revenue growt",
-          "id": 28645031,
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645681,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "bwin",
+          "primarysymbol": "phar",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "phar|stocks"
+          ],
+          "title": "Pharming (PHAR) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/pharming-phar-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645676,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "pii",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "pii|stocks"
+          ],
+          "title": "Polaris (PII) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/polaris-pii-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645671,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "naut",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "naut|stocks"
+          ],
+          "title": "Nautilus (NAUT) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/nautilus-naut-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645666,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "tru",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "tru|stocks"
+          ],
+          "title": "TransUnion (TRU) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/transunion-tru-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645661,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "dq",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "dq|stocks"
+          ],
+          "title": "Daqo (DQ) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/daqo-dq-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645656,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "ab",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "ab|stocks"
+          ],
+          "title": "AllianceBernstein (AB) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/alliancebernstein-ab-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645651,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "sndl",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "sndl|stocks"
+          ],
+          "title": "SNDL (SNDL) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/sndl-sndl-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28645646,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cnp",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "cnp|stocks"
+          ],
+          "title": "CenterPoint Energy (CNP) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/centerpoint-energy-cnp-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "5 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "SunCoke Energy, Inc. reported its financial results for the third quarter of 2026, with net income of $23.8 million, compared to $23.8 million in the prior year period. Net income attributable to the company was $21.8 million, or $0.25 per diluted share, compared to $22.2 million",
+          "id": 28645626,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "sxc",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
           "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "bwin|stocks"
+            "sxc|stocks"
           ],
-          "title": "The Baldwin Insurance Group, Inc. Announces Preliminary Third Quarter 2026 Results",
-          "url": "/articles/baldwin-insurance-group-inc-announces-preliminary-third-quarter-2026-results"
-        },
-        {
-          "ago": "4 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "On October 27, 2026, aTyr Pharma, Inc. filed a Certificate of Amendment to its Restated Certificate of Incorporation to effect a one-for-forty (1-for-40) reverse stock split of its outstanding common stock. The amendment will become effective at 5:00 p.m. Eastern Time on October",
-          "id": 28645026,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "life",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "life|stocks"
-          ],
-          "title": "aTyr Pharma, Inc. Announces 1-for-40 Reverse Stock Split",
-          "url": "/articles/atyr-pharma-inc-announces-1-40-reverse-stock-split"
-        },
-        {
-          "ago": "4 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Pulmatrix, Inc. held a special meeting of stockholders on October 26, 2026, in connection with its proposed merger with Eos SENOLYTIX, Inc. Stockholders approved the issuance of shares of Pulmatrix common stock representing more than 20% of the shares outstanding immediately prio",
-          "id": 28645021,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "pulm",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "pulm|stocks"
-          ],
-          "title": "Pulmatrix, Inc. Stockholders Approve Merger-Related Proposals and Reverse Stock Split",
-          "url": "/articles/pulmatrix-inc-stockholders-approve-merger-related-proposals-and-reverse-stock-split"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645056,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "cts",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "cts|stocks"
-          ],
-          "title": "CTS (CTS) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/cts-cts-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645051,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "eeft",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "eeft|stocks"
-          ],
-          "title": "Euronet (EEFT) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/euronet-eeft-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645046,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "cbc",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "cbc|stocks"
-          ],
-          "title": "Central Banc (CBC) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/central-banc-cbc-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645041,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "itw",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "itw|stocks"
-          ],
-          "title": "ITW (ITW) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/itw-itw-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "5 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28645036,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "mrp",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "mrp|stocks"
-          ],
-          "title": "Millrose (MRP) Q3 2026 Earnings Call Transcript",
-          "url": "/articles/millrose-mrp-q3-2026-earnings-call-transcript"
-        },
-        {
-          "ago": "11 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Key PointsConstellation Energy, Vistra, and Bloom Energy are all down 36% to 38% from their all-time highs.",
-          "id": 28644961,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "ceg",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "ceg|stocks",
-            "be|stocks",
-            "vst|stocks"
-          ],
-          "title": "3 Energy Stocks I'm Not Selling, No Matter What the Market Does",
-          "url": "/articles/3-energy-stocks-im-not-selling-no-matter-what-market-does"
+          "title": "SunCoke Energy, Inc. Reports Third Quarter 2026 Results",
+          "url": "/articles/suncoke-energy-inc-reports-third-quarter-2026-results"
         }
       ],
       "totalrecords": 500
