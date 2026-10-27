@@ -1,69 +1,69 @@
 {
   "ticker": "BRAI",
-  "saved_at_et": "2026-10-27T09:02:51-04:00",
+  "saved_at_et": "2026-10-27T09:32:57-04:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "Jul 14, 2026",
-          "created": "Jul 14, 2026",
-          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
-          "id": 27928676,
+          "title": "Company News for July 14, 2026",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "created": "Jul 14, 2026",
+          "ago": "Jul 14, 2026",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
           "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
           "related_symbols": [
             "xom|stocks",
             "nvda|stocks",
             "mgm|stocks",
             "brai|stocks"
           ],
-          "title": "Company News for July 14, 2026",
-          "url": "/articles/company-news-july-14-2026"
+          "url": "/articles/company-news-july-14-2026",
+          "id": 27928676,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png"
         },
         {
-          "ago": "Jun 28, 2026",
-          "created": "Jun 28, 2026",
-          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
-          "id": 27843721,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brai",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "brai|stocks"
-          ],
           "title": "Why Braiin Stock Plummeted This Week",
-          "url": "/articles/why-braiin-stock-plummeted-week"
-        },
-        {
-          "ago": "May 26, 2026",
-          "created": "May 26, 2026",
-          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
-          "id": 27654061,
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "created": "Jun 28, 2026",
+          "ago": "Jun 28, 2026",
           "primarysymbol": "brai",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "publisher": "The Motley Fool",
           "related_symbols": [
             "brai|stocks"
           ],
+          "url": "/articles/why-braiin-stock-plummeted-week",
+          "id": 27843721,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
           "title": "Braiin Limited Stock Surges 106% Over Partnership With Switchcraft ",
-          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft"
+          "image": "",
+          "created": "May 26, 2026",
+          "ago": "May 26, 2026",
+          "primarysymbol": "brai",
+          "primarytopic": "Markets|4006",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "brai|stocks"
+          ],
+          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft",
+          "id": 27654061,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
         }
       ],
-      "totalrecords": 3
+      "totalrecords": 3,
+      "message": null
     },
     "message": null,
     "status": {

@@ -1,22 +1,127 @@
 {
   "ticker": "AIOK",
-  "saved_at_et": "2026-10-27T09:02:57-04:00",
+  "saved_at_et": "2026-10-27T09:33:02-04:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "2 minutes ago",
+          "title": "First Financial Corporation Announces Increase In Q3 Bottom Line ",
+          "image": "",
           "created": "Oct 27, 2026",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) rose +0.67% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) rose +1.09%.  December E-mini S&P futures (ESZ26 ) rose +0.70%, and December E-mini Nasdaq futures (NQZ26 ) rose...",
-          "id": 28635026,
-          "image": "/barchart/Wall%2520street%2520sign%2520in%2520New%2520York%2520City%2520by%2520f11photo%2520via%2520Shutterstock.jpg",
+          "ago": "3 minutes ago",
+          "primarysymbol": "thff",
+          "primarytopic": "Markets|4006",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "thff|stocks"
+          ],
+          "url": "/articles/first-financial-corporation-announces-increase-q3-bottom-line",
+          "id": 28641231,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - First Financial Corporation (THFF) revealed a profit for its third quarter that Increased, from last year",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "West Coast Community Bancorp Q3 Profit Advances ",
+          "image": "",
+          "created": "Oct 27, 2026",
+          "ago": "9 minutes ago",
+          "primarysymbol": "wccb",
+          "primarytopic": "Markets|4006",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "wccb|stocks"
+          ],
+          "url": "/articles/west-coast-community-bancorp-q3-profit-advances",
+          "id": 28641226,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - West Coast Community Bancorp (WCCB) announced a profit for its third quarter that Increases, from the same period last year",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Johnson Controls International plc Reports Q4 and FY26 Results; Initiates FY27 Guidance",
+          "image": "",
+          "created": "Oct 27, 2026",
+          "ago": "10 minutes ago",
+          "primarysymbol": "jci",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Fintel",
+          "related_symbols": [
+            "jci|stocks"
+          ],
+          "url": "/articles/johnson-controls-international-plc-reports-q4-and-fy26-results-initiates-fy27-guidance",
+          "id": 28641181,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Johnson Controls International plc announced fiscal fourth quarter 2026 GAAP earnings per share of $1.60, while adjusted EPS was $1.66. Q4 sales increased 10% to $7.1 billion and organic sales increased 12%. For the quarter, GAAP net income from continuing operations attributable",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+        },
+        {
+          "title": "The Coca-Cola Company Reports Third Quarter 2026 Results and Raises Full Year Guidance",
+          "image": "",
+          "created": "Oct 27, 2026",
+          "ago": "10 minutes ago",
+          "primarysymbol": "ko",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Fintel",
+          "related_symbols": [
+            "ko|stocks"
+          ],
+          "url": "/articles/coca-cola-company-reports-third-quarter-2026-results-and-raises-full-year-guidance",
+          "id": 28641176,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "The Coca-Cola Company reported its third quarter 2026 financial results, showing net revenues growth of 7% to $13.4 billion. Organic revenues grew 7%, driven by a 7% increase in concentrate sales and 1% growth in price/mix. Operating income grew 12%, while comparable currency neu",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+        },
+        {
+          "title": "Here's How Much a $10,000 Investment in Realty Income Will Get You in Monthly Dividends",
+          "image": "",
+          "created": "Oct 27, 2026",
+          "ago": "10 minutes ago",
+          "primarysymbol": "o",
+          "primarytopic": "Markets|4006",
+          "publisher": "The Motley Fool",
+          "related_symbols": [
+            "o|stocks"
+          ],
+          "url": "/articles/heres-how-much-10000-investment-realty-income-will-get-you-monthly-dividends",
+          "id": 28641206,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Key PointsRealty Income pays its dividends on a monthly schedule.",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "Coca-Cola Yields Just 2.2% Compared to 4.3% for PepsiCo. Here's the Better Dividend King Stock for Generating Long-Term Passive Income.",
+          "image": "",
+          "created": "Oct 27, 2026",
+          "ago": "14 minutes ago",
+          "primarysymbol": "ko",
+          "primarytopic": "Markets|4006",
+          "publisher": "The Motley Fool",
+          "related_symbols": [
+            "ko|stocks",
+            "pep|stocks",
+            "yum|stocks"
+          ],
+          "url": "/articles/coca-cola-yields-just-22-compared-43-pepsico-heres-better-dividend-king-stock-generating",
+          "id": 28641216,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Key PointsBoth Coca-Cola and Pepsi are Dividend Kings, having boosted their payouts for more than 50 consecutive years.",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "Stocks Rally Ahead of Busy Week as Crude Oil Prices Ease",
+          "image": "/barchart/Wall%2520street%2520sign%2520in%2520New%2520York%2520City%2520by%2520f11photo%2520via%2520Shutterstock.jpg",
+          "created": "Oct 27, 2026",
+          "ago": "16 minutes ago",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
           "publisher": "Barchart",
-          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
           "related_symbols": [
             "rrc|stocks",
             "adi|stocks",
@@ -39,182 +144,70 @@
             "arm|stocks",
             "sgry|stocks"
           ],
-          "title": "Stocks Rally Ahead of Busy Week as Crude Oil Prices Ease",
-          "url": "/articles/stocks-rally-ahead-busy-week-crude-oil-prices-ease-0"
-        },
-        {
-          "ago": "9 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Cementos Pacasmayo S.A.A. reported its unaudited interim consolidated financial statements as of September 30, 2026. For the nine-month period ended September 30, 2026, sales of goods reached 1,781,947 thousand Soles, compared to 1,557,339 thousand Soles for the nine-month period",
-          "id": 28640441,
-          "image": "",
+          "url": "/articles/stocks-rally-ahead-busy-week-crude-oil-prices-ease-0",
+          "id": 28635026,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "cpac",
-          "primarytopic": "Stocks|4301",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) rose +0.67% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) rose +1.09%.  December E-mini S&P futures (ESZ26 ) rose +0.70%, and December E-mini Nasdaq futures (NQZ26 ) rose...",
           "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "cpac|stocks"
-          ],
-          "title": "Cementos Pacasmayo S.A.A. Reports Unaudited Interim Financial Results for the Period Ended September 30, 2026",
-          "url": "/articles/cementos-pacasmayo-saa-reports-unaudited-interim-financial-results-period-ended-september"
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png"
         },
         {
-          "ago": "9 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "On October 27, 2026, Vertiv Corporation, a subsidiary of Vertiv Holdings Co, completed the acquisition of Utility Innovation Holdings, Inc., which operates as UtilityInnovation Group. Under the terms of the transaction, Vertiv paid approximately $1.45 billion in upfront cash at c",
-          "id": 28640436,
+          "title": "SoFi Expects to Earn 48% More in 2027. Is the Stock a Buy?",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "vrt",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "vrt|stocks"
-          ],
-          "title": "Vertiv Holdings Co Completes Acquisition of Utility Innovation Holdings, Inc. for $1.45 billion",
-          "url": "/articles/vertiv-holdings-co-completes-acquisition-utility-innovation-holdings-inc-145-billion"
-        },
-        {
-          "ago": "12 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "Should you buy stock in Meta Platforms right now?\nBefore you buy stock in Meta Platforms, consider this:Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only a",
-          "id": 28640396,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "meta",
+          "ago": "16 minutes ago",
+          "primarysymbol": "sofi",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "meta|stocks"
+            "sofi|stocks"
           ],
-          "title": "Why Is Everyone Talking About Meta Stock?",
-          "url": "/articles/why-everyone-talking-about-meta-stock-0"
-        },
-        {
-          "ago": "12 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Key PointsElon Musk is warning that access to capital for AI data centers is harder to come by.",
-          "id": 28640391,
-          "image": "",
+          "url": "/articles/sofi-expects-earn-48-more-2027-stock-buy",
+          "id": 28641211,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Markets|4006",
+          "description": "Key PointsSoFi raised its 2026 guidance and introduced a 2027 forecast that surprised analysts.",
           "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "meta|stocks",
-            "msft|stocks",
-            "googl|stocks",
-            "aapl|stocks",
-            "tsla|stocks",
-            "amzn|stocks",
-            "nbis|stocks",
-            "avgo|stocks",
-            "goog|stocks",
-            "crwv|stocks"
-          ],
-          "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
-          "url": "/articles/prediction-stock-market-could-crash-2027-and-elon-musk-just-explained-why"
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
         },
         {
-          "ago": "19 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Atlantic Union Bankshares Corporation released an investor presentation outlining its financial outlook for the full year 2026 and its medium-term financial targets for 2026 to 2027. For the full year 2026, the company expects end-of-period loans to range between $29.0 – 30",
-          "id": 28640386,
+          "title": "SNDL Inc. Reports Third Quarter 2026 Financial and Operational Results and Record Free Cash Flow of $20 Million",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aub",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "aub|stocks"
-          ],
-          "title": "Atlantic Union Bankshares Corporation Outlines 2026 Financial Outlook and Medium-Term Targets",
-          "url": "/articles/atlantic-union-bankshares-corporation-outlines-2026-financial-outlook-and-medium-term"
-        },
-        {
+          "created": "Oct 27, 2026",
           "ago": "20 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Travel + Leisure Co. reported its financial results for the third quarter ended September 30, 2026, with net revenue of $1.10 billion, net income of $108 million, and diluted earnings per share of $1.73. The company achieved gross VOI sales of $720 million, representing a 6% incr",
-          "id": 28640381,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "tnl",
+          "primarysymbol": "sndl",
           "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "tnl|stocks"
+            "sndl|stocks"
           ],
-          "title": "Travel + Leisure Co. Reports Third Quarter 2026 Results",
-          "url": "/articles/travel-leisure-co-reports-third-quarter-2026-results"
+          "url": "/articles/sndl-inc-reports-third-quarter-2026-financial-and-operational-results-and-record-free-cash",
+          "id": 28640971,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "SNDL Inc. reported its financial and operational results for the third quarter ended September 30, 2026. Net revenue for the third quarter of 2026 was $238.0 million, representing a -2.5% decrease compared with the same period of the prior year. Gross profit of $57.9 million for",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
         },
         {
+          "title": "Pentair plc Reports Third Quarter 2026 Sales of $976 million",
+          "image": "",
+          "created": "Oct 27, 2026",
           "ago": "20 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Herc Holdings Inc. reported its financial results for the third quarter ended September 30, 2026, featuring record total revenues of $1,364 million, an increase of 5% compared to $1,304 million in the prior-year period. Equipment rental revenue grew 12% to $1,254 million, driven",
-          "id": 28640376,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "hri",
+          "primarysymbol": "pnr",
           "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "hri|stocks"
+            "pnr|stocks"
           ],
-          "title": "Herc Holdings Reports Third Quarter 2026 Results and Increases 2026 Full Year Guidance",
-          "url": "/articles/herc-holdings-reports-third-quarter-2026-results-and-increases-2026-full-year-guidance"
-        },
-        {
-          "ago": "24 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "(RTTNews) - Pfizer Inc. (PFE), on Tuesday, announced positive topline results from the Phase 3 MagnetisMM-32 study evaluating ELREXFIO (elranatamab) as monotherapy in adults with relapsed or refractory multiple myeloma (RRMM) who had previously received anti-CD38 therapy and lena",
-          "id": 28640301,
-          "image": "",
+          "url": "/articles/pentair-plc-reports-third-quarter-2026-sales-976-million",
+          "id": 28640966,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "pfe",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "pfe|stocks"
-          ],
-          "title": "Pfizer's ELREXFIO Meets Phase 3 Endpoint; Median PFS Not Yet Reached; Stock Down ",
-          "url": "/articles/pfizers-elrexfio-meets-phase-3-endpoint-median-pfs-not-yet-reached-stock-down"
-        },
-        {
-          "ago": "25 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "(RTTNews) - While reporting financial results for the third quarter on Tuesday, Ecolab Inc. (ECL) said it expects adjusted earnings for the fourth quarter in a range of $2.13 to $2.23 per share on sales growth of 12 to 14 percent, with organic sales growth of 6 to 7 percent.",
-          "id": 28640246,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "ecl",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "ecl|stocks"
-          ],
-          "title": "Ecolab Narrows FY26 Adj. EPS Outlook Range - Update ",
-          "url": "/articles/ecolab-narrows-fy26-adj-eps-outlook-range-update"
+          "description": "Pentair plc announced third quarter 2026 sales of $976 million, which were down 4 percent compared to sales for the same period last year. Excluding currency translation, acquisitions and divestitures, core sales declined 5 percent in the third quarter. Third quarter 2026 earning",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
         }
       ],
-      "totalrecords": 500
+      "totalrecords": 500,
+      "message": null
     },
     "message": null,
     "status": {
