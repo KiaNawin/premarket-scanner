@@ -1,213 +1,69 @@
 {
-  "ticker": "AIOK",
-  "saved_at_et": "2026-10-27T09:33:02-04:00",
+  "ticker": "BRAI",
+  "saved_at_et": "2026-10-27T10:03:31-04:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "First Financial Corporation Announces Increase In Q3 Bottom Line ",
+          "ago": "Jul 14, 2026",
+          "created": "Jul 14, 2026",
+          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
+          "id": 27928676,
           "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "3 minutes ago",
-          "primarysymbol": "thff",
-          "primarytopic": "Markets|4006",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "thff|stocks"
-          ],
-          "url": "/articles/first-financial-corporation-announces-increase-q3-bottom-line",
-          "id": 28641231,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - First Financial Corporation (THFF) revealed a profit for its third quarter that Increased, from last year",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "West Coast Community Bancorp Q3 Profit Advances ",
-          "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "9 minutes ago",
-          "primarysymbol": "wccb",
-          "primarytopic": "Markets|4006",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "wccb|stocks"
-          ],
-          "url": "/articles/west-coast-community-bancorp-q3-profit-advances",
-          "id": 28641226,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - West Coast Community Bancorp (WCCB) announced a profit for its third quarter that Increases, from the same period last year",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "Johnson Controls International plc Reports Q4 and FY26 Results; Initiates FY27 Guidance",
-          "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "10 minutes ago",
-          "primarysymbol": "jci",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "jci|stocks"
-          ],
-          "url": "/articles/johnson-controls-international-plc-reports-q4-and-fy26-results-initiates-fy27-guidance",
-          "id": 28641181,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Johnson Controls International plc announced fiscal fourth quarter 2026 GAAP earnings per share of $1.60, while adjusted EPS was $1.66. Q4 sales increased 10% to $7.1 billion and organic sales increased 12%. For the quarter, GAAP net income from continuing operations attributable",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "The Coca-Cola Company Reports Third Quarter 2026 Results and Raises Full Year Guidance",
-          "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "10 minutes ago",
-          "primarysymbol": "ko",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "ko|stocks"
-          ],
-          "url": "/articles/coca-cola-company-reports-third-quarter-2026-results-and-raises-full-year-guidance",
-          "id": 28641176,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "The Coca-Cola Company reported its third quarter 2026 financial results, showing net revenues growth of 7% to $13.4 billion. Organic revenues grew 7%, driven by a 7% increase in concentrate sales and 1% growth in price/mix. Operating income grew 12%, while comparable currency neu",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "Here's How Much a $10,000 Investment in Realty Income Will Get You in Monthly Dividends",
-          "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "10 minutes ago",
-          "primarysymbol": "o",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "o|stocks"
-          ],
-          "url": "/articles/heres-how-much-10000-investment-realty-income-will-get-you-monthly-dividends",
-          "id": 28641206,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Key PointsRealty Income pays its dividends on a monthly schedule.",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Coca-Cola Yields Just 2.2% Compared to 4.3% for PepsiCo. Here's the Better Dividend King Stock for Generating Long-Term Passive Income.",
-          "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "ko",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "ko|stocks",
-            "pep|stocks",
-            "yum|stocks"
-          ],
-          "url": "/articles/coca-cola-yields-just-22-compared-43-pepsico-heres-better-dividend-king-stock-generating",
-          "id": 28641216,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Key PointsBoth Coca-Cola and Pepsi are Dividend Kings, having boosted their payouts for more than 50 consecutive years.",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Stocks Rally Ahead of Busy Week as Crude Oil Prices Ease",
-          "image": "/barchart/Wall%2520street%2520sign%2520in%2520New%2520York%2520City%2520by%2520f11photo%2520via%2520Shutterstock.jpg",
-          "created": "Oct 27, 2026",
-          "ago": "16 minutes ago",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
-          "publisher": "Barchart",
-          "related_symbols": [
-            "rrc|stocks",
-            "adi|stocks",
-            "glxy|stocks",
-            "txn|stocks",
-            "coin|stocks",
-            "msft|stocks",
-            "bmnr|stocks",
-            "tsla|stocks",
-            "spy|etf",
-            "dia|etf",
-            "meta|stocks",
-            "nxpi|stocks",
-            "ewz|etf",
-            "eqt|stocks",
-            "qqq|etf",
-            "iren|stocks",
-            "intc|stocks",
-            "soxx|etf",
-            "arm|stocks",
-            "sgry|stocks"
-          ],
-          "url": "/articles/stocks-rally-ahead-busy-week-crude-oil-prices-ease-0",
-          "id": 28635026,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) rose +0.67% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) rose +1.09%.  December E-mini S&P futures (ESZ26 ) rose +0.70%, and December E-mini Nasdaq futures (NQZ26 ) rose...",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png"
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "xom|stocks",
+            "nvda|stocks",
+            "mgm|stocks",
+            "brai|stocks"
+          ],
+          "title": "Company News for July 14, 2026",
+          "url": "/articles/company-news-july-14-2026"
         },
         {
-          "title": "SoFi Expects to Earn 48% More in 2027. Is the Stock a Buy?",
+          "ago": "Jun 28, 2026",
+          "created": "Jun 28, 2026",
+          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
+          "id": 27843721,
           "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "16 minutes ago",
-          "primarysymbol": "sofi",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "brai",
           "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "sofi|stocks"
-          ],
-          "url": "/articles/sofi-expects-earn-48-more-2027-stock-buy",
-          "id": 28641211,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Key PointsSoFi raised its 2026 guidance and introduced a 2027 forecast that surprised analysts.",
           "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "brai|stocks"
+          ],
+          "title": "Why Braiin Stock Plummeted This Week",
+          "url": "/articles/why-braiin-stock-plummeted-week"
         },
         {
-          "title": "SNDL Inc. Reports Third Quarter 2026 Financial and Operational Results and Record Free Cash Flow of $20 Million",
+          "ago": "May 26, 2026",
+          "created": "May 26, 2026",
+          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
+          "id": 27654061,
           "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "20 minutes ago",
-          "primarysymbol": "sndl",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "sndl|stocks"
-          ],
-          "url": "/articles/sndl-inc-reports-third-quarter-2026-financial-and-operational-results-and-record-free-cash",
-          "id": 28640971,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "SNDL Inc. reported its financial and operational results for the third quarter ended September 30, 2026. Net revenue for the third quarter of 2026 was $238.0 million, representing a -2.5% decrease compared with the same period of the prior year. Gross profit of $57.9 million for",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "Pentair plc Reports Third Quarter 2026 Sales of $976 million",
-          "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "20 minutes ago",
-          "primarysymbol": "pnr",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
+          "primarysymbol": "brai",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "pnr|stocks"
+            "brai|stocks"
           ],
-          "url": "/articles/pentair-plc-reports-third-quarter-2026-sales-976-million",
-          "id": 28640966,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Pentair plc announced third quarter 2026 sales of $976 million, which were down 4 percent compared to sales for the same period last year. Excluding currency translation, acquisitions and divestitures, core sales declined 5 percent in the third quarter. Third quarter 2026 earning",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+          "title": "Braiin Limited Stock Surges 106% Over Partnership With Switchcraft ",
+          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft"
         }
       ],
-      "totalrecords": 500,
-      "message": null
+      "totalrecords": 3
     },
     "message": null,
     "status": {

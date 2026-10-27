@@ -1,6 +1,6 @@
 {
   "ticker": "AEYE",
-  "saved_at_et": "2026-10-27T09:31:10-04:00",
+  "saved_at_et": "2026-10-27T10:01:16-04:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $7.42",
@@ -19,7 +19,7 @@
         },
         "rows": [
           {
-            "consolidated": "$7.81 +0.39 (+5.26%)",
+            "consolidated": "$8.05 +0.63 (+8.49%)",
             "volume": "1,927",
             "highPrice": "$7.91 (09:28:00 AM)",
             "lowPrice": "$7.81 (08:16:45 AM)",
@@ -35,6 +35,51 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "09:29:51",
+            "price": "$8.05",
+            "shareVolume": "9"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$7.83",
+            "shareVolume": "200"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$7.83",
+            "shareVolume": "400"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$7.83",
+            "shareVolume": "300"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$7.83",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$7.91",
+            "shareVolume": "216"
+          },
+          {
+            "time": "09:27:50",
+            "price": "$7.83",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:26:58",
+            "price": "$7.91",
+            "shareVolume": "43"
+          },
+          {
+            "time": "09:23:08",
+            "price": "$7.91",
+            "shareVolume": "68"
+          },
           {
             "time": "08:16:45",
             "price": "$7.81",
