@@ -1,193 +1,69 @@
 {
-  "ticker": "AIOK",
-  "saved_at_et": "2026-10-27T10:34:42-04:00",
+  "ticker": "BRAI",
+  "saved_at_et": "2026-10-27T11:04:58-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "8 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Looking at the universe of stocks we cover at Dividend Channel, on 10/29/26, Carrier Global Corp (Symbol: CARR) will trade ex-dividend, for its quarterly dividend of $0.24, payable on 11/18/26.  As a percentage of CARR's recent stock price of $56.57, this dividend works out to a",
-          "id": 28642111,
+          "ago": "Jul 14, 2026",
+          "created": "Jul 14, 2026",
+          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
+          "id": 27928676,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "carr",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
-          "related_symbols": [
-            "carr|stocks",
-            "ctec|etf"
-          ],
-          "title": "Reminder - Carrier Global (CARR) Goes Ex-Dividend Soon",
-          "url": "/articles/reminder-carrier-global-carr-goes-ex-dividend-soon"
-        },
-        {
-          "ago": "9 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "S&P Global Inc. reported third-quarter 2026 revenue of $3.678 billion, representing an increase of 7% compared to the third quarter of 2025. Third quarter GAAP net income increased 20% to $1.298 billion and GAAP diluted earnings per share increased 26% to $4.45. Adjusted net",
-          "id": 28642106,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "spgi",
+          "primarysymbol": "",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
           "related_symbols": [
-            "spgi|stocks"
+            "xom|stocks",
+            "nvda|stocks",
+            "mgm|stocks",
+            "brai|stocks"
           ],
-          "title": "S&P Global Reports Third Quarter 2026 Revenue of $3.678 billion and Strategic Review for Capital IQ",
-          "url": "/articles/sp-global-reports-third-quarter-2026-revenue-3678-billion-and-strategic-review-capital-iq"
+          "title": "Company News for July 14, 2026",
+          "url": "/articles/company-news-july-14-2026"
         },
         {
-          "ago": "9 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Innate Pharma S.A. announced that AstraZeneca has updated the expected timing for the PACIFIC-9 Phase 3 trial high-level data readout to the first half of 2027, from the second half of 2026 previously. The company stated that the revised timing reflects the event-driven nature of",
-          "id": 28642101,
+          "ago": "Jun 28, 2026",
+          "created": "Jun 28, 2026",
+          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
+          "id": 27843721,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "ipha",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "ipha|stocks"
-          ],
-          "title": "Innate Pharma S.A. Announces PACIFIC-9 Phase 3 Trial Readout Timing Updated to H1 2027",
-          "url": "/articles/innate-pharma-sa-announces-pacific-9-phase-3-trial-readout-timing-updated-h1-2027"
-        },
-        {
-          "ago": "9 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Pharming Group N.V. reported its third quarter 2026 financial results, with total revenues increasing by 21% to US$117.6 million, compared to US$97.3 million in the third quarter of 2025. RUCONEST revenues amounted to US$93.8 million, a 14% increase compared to the third quarter",
-          "id": 28642096,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "phar",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "phar|stocks"
-          ],
-          "title": "Pharming Group reports third quarter 2026 financial results; strong revenue growth, Joenja APDS expansion and CVID topline data in November",
-          "url": "/articles/pharming-group-reports-third-quarter-2026-financial-results-strong-revenue-growth-joenja"
-        },
-        {
-          "ago": "12 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Key PointsMeta's daily audience of billions of users gives it unmatched reach to monetize new AI products like Muse.",
-          "id": 28642086,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "meta",
+          "primarysymbol": "brai",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "meta|stocks"
+            "brai|stocks"
           ],
-          "title": "3 Reasons to Buy Meta Platforms Stock Before 2027",
-          "url": "/articles/3-reasons-buy-meta-platforms-stock-2027"
+          "title": "Why Braiin Stock Plummeted This Week",
+          "url": "/articles/why-braiin-stock-plummeted-week"
         },
         {
-          "ago": "15 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Key PointsRocket Lab's stock has been falling sharply in recent months, ever since the SpaceX IPO.",
-          "id": 28642091,
+          "ago": "May 26, 2026",
+          "created": "May 26, 2026",
+          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
+          "id": 27654061,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "rklb",
+          "primarysymbol": "brai",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "rklb|stocks"
+            "brai|stocks"
           ],
-          "title": "Down Nearly 65% From Its 52-Week High, Has Rocket Lab Stock Become a Bargain Buy?",
-          "url": "/articles/down-nearly-65-its-52-week-high-has-rocket-lab-stock-become-bargain-buy"
-        },
-        {
-          "ago": "20 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "The Sherwin-Williams Company announced its financial results for the third quarter ended September 30, 2026, reporting that consolidated Net sales increased 7.9% to $6.86 billion in the quarter. Diluted net income per share increased 0.9% to $3.38 per share in the quarter compare",
-          "id": 28641921,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "shw",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "shw|stocks"
-          ],
-          "title": "The Sherwin-Williams Company Reports 2026 Third Quarter Financial Results",
-          "url": "/articles/sherwin-williams-company-reports-2026-third-quarter-financial-results"
-        },
-        {
-          "ago": "20 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Repligen Corporation reported its financial results for the third quarter ended September 30, 2026, with reported revenue of $209 million, representing a year-over-year increase of 11% as reported and 12.5% organic. Under GAAP, the company recorded a loss from operations of $29.5",
-          "id": 28641916,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "rgen",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "rgen|stocks"
-          ],
-          "title": "Repligen Corporation Reports Third Quarter 2026 Revenue of $209 million",
-          "url": "/articles/repligen-corporation-reports-third-quarter-2026-revenue-209-million"
-        },
-        {
-          "ago": "20 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "IQVIA Holdings Inc. reported its third-quarter 2026 financial results, with revenue reaching $4,428 million, representing an increase of 8.0% on a reported basis and 8.6% at constant currency compared to the third quarter of 2025. GAAP Net Income for the quarter was $350 million,",
-          "id": 28641911,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "iqv",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "iqv|stocks"
-          ],
-          "title": "IQVIA Holdings Inc. Reports Third-Quarter 2026 Revenue of $4,428 million and Raises Full-Year Guidance",
-          "url": "/articles/iqvia-holdings-inc-reports-third-quarter-2026-revenue-4428-million-and-raises-full-year"
-        },
-        {
-          "ago": "27 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Key PointsKinder Morgan reported a record backlog of $14.4 billion in projects.",
-          "id": 28641676,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "kmi",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "kmi|stocks"
-          ],
-          "title": "Kinder Morgan: 1 Number From Q3 Earnings Every Investor Should See",
-          "url": "/articles/kinder-morgan-1-number-q3-earnings-every-investor-should-see"
+          "title": "Braiin Limited Stock Surges 106% Over Partnership With Switchcraft ",
+          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft"
         }
       ],
-      "totalrecords": 500
+      "totalrecords": 3
     },
     "message": null,
     "status": {
