@@ -1,220 +1,190 @@
 {
   "ticker": "AIOK",
-  "saved_at_et": "2026-10-27T10:03:28-04:00",
+  "saved_at_et": "2026-10-27T10:34:42-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "10 minutes ago",
+          "ago": "8 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "Asbury Automotive Group, Inc. reported third quarter 2026 net income of $105 million ($5.84 per diluted share), a decrease of 29% from $147 million ($7.52 per diluted share) in third quarter 2025. The company reported adjusted net income of $111 million ($6.16 per diluted share),",
-          "id": 28641421,
+          "description": "Looking at the universe of stocks we cover at Dividend Channel, on 10/29/26, Carrier Global Corp (Symbol: CARR) will trade ex-dividend, for its quarterly dividend of $0.24, payable on 11/18/26.  As a percentage of CARR's recent stock price of $56.57, this dividend works out to a",
+          "id": 28642111,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "abg",
+          "primarysymbol": "carr",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "carr|stocks",
+            "ctec|etf"
+          ],
+          "title": "Reminder - Carrier Global (CARR) Goes Ex-Dividend Soon",
+          "url": "/articles/reminder-carrier-global-carr-goes-ex-dividend-soon"
+        },
+        {
+          "ago": "9 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "S&P Global Inc. reported third-quarter 2026 revenue of $3.678 billion, representing an increase of 7% compared to the third quarter of 2025. Third quarter GAAP net income increased 20% to $1.298 billion and GAAP diluted earnings per share increased 26% to $4.45. Adjusted net",
+          "id": 28642106,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "spgi",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
           "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "abg|stocks"
+            "spgi|stocks"
           ],
-          "title": "Asbury Automotive Group, Inc. Reports Third Quarter 2026 Results",
-          "url": "/articles/asbury-automotive-group-inc-reports-third-quarter-2026-results"
+          "title": "S&P Global Reports Third Quarter 2026 Revenue of $3.678 billion and Strategic Review for Capital IQ",
+          "url": "/articles/sp-global-reports-third-quarter-2026-revenue-3678-billion-and-strategic-review-capital-iq"
         },
         {
-          "ago": "10 minutes ago",
+          "ago": "9 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "SoFi Technologies, Inc. reported its financial results for the third quarter ended September 30, 2026, with record GAAP net revenue of $1.4 billion, which increased 44% relative to the prior-year period's $961.6 million. During the quarter, GAAP net income reached $241.0 million",
-          "id": 28641416,
+          "description": "Innate Pharma S.A. announced that AstraZeneca has updated the expected timing for the PACIFIC-9 Phase 3 trial high-level data readout to the first half of 2027, from the second half of 2026 previously. The company stated that the revised timing reflects the event-driven nature of",
+          "id": 28642101,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "sofi",
+          "primarysymbol": "ipha",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
           "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "sofi|stocks"
+            "ipha|stocks"
           ],
-          "title": "SoFi Technologies, Inc. Reports Third Quarter 2026 with Record Net Revenue of $1.4 Billion and Net Income of $241 Million",
-          "url": "/articles/sofi-technologies-inc-reports-third-quarter-2026-record-net-revenue-14-billion-and-net"
+          "title": "Innate Pharma S.A. Announces PACIFIC-9 Phase 3 Trial Readout Timing Updated to H1 2027",
+          "url": "/articles/innate-pharma-sa-announces-pacific-9-phase-3-trial-readout-timing-updated-h1-2027"
         },
         {
-          "ago": "10 minutes ago",
+          "ago": "9 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "American Tower Corporation reported its financial results for the third quarter ended September 30, 2026. Total revenue increased 2.5% to $2,785 million, and total property revenue rose 4.5% to $2,734 million. Net income decreased 14.4% to $781 million, while net income attributa",
-          "id": 28641411,
+          "description": "Pharming Group N.V. reported its third quarter 2026 financial results, with total revenues increasing by 21% to US$117.6 million, compared to US$97.3 million in the third quarter of 2025. RUCONEST revenues amounted to US$93.8 million, a 14% increase compared to the third quarter",
+          "id": 28642096,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "amt",
+          "primarysymbol": "phar",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
           "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "amt|stocks"
+            "phar|stocks"
           ],
-          "title": "American Tower Corporation Reports Third Quarter 2026 Financial Results and $2.0 billion Share Repurchase Authorization",
-          "url": "/articles/american-tower-corporation-reports-third-quarter-2026-financial-results-and-20-billion"
+          "title": "Pharming Group reports third quarter 2026 financial results; strong revenue growth, Joenja APDS expansion and CVID topline data in November",
+          "url": "/articles/pharming-group-reports-third-quarter-2026-financial-results-strong-revenue-growth-joenja"
         },
         {
-          "ago": "13 minutes ago",
+          "ago": "12 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "Key PointsAlibaba continues to transition toward an AI-driven cloud services model while maintaining a significant global e-commerce presence.",
-          "id": 28641441,
+          "description": "Key PointsMeta's daily audience of billions of users gives it unmatched reach to monetize new AI products like Muse.",
+          "id": 28642086,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "baba",
+          "primarysymbol": "meta",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "baba|stocks",
-            "tgt|stocks"
+            "meta|stocks"
           ],
-          "title": "Alibaba vs. Target: Which Consumer Stock Is a Better Buy in 2026?",
-          "url": "/articles/alibaba-vs-target-which-consumer-stock-better-buy-2026"
+          "title": "3 Reasons to Buy Meta Platforms Stock Before 2027",
+          "url": "/articles/3-reasons-buy-meta-platforms-stock-2027"
         },
         {
-          "ago": "13 minutes ago",
+          "ago": "15 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "Key PointsAres Capital is acquiring MidCap Financial in a $2.6 billion cash-and-stock deal.",
-          "id": 28641436,
+          "description": "Key PointsRocket Lab's stock has been falling sharply in recent months, ever since the SpaceX IPO.",
+          "id": 28642091,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "arcc",
+          "primarysymbol": "rklb",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "arcc|stocks",
-            "mfic|stocks"
+            "rklb|stocks"
           ],
-          "title": "Ares Capital is Making a $2.6 Billion Acquisition. Here’s What it Means for its 10%-Yielding Dividend.",
-          "url": "/articles/ares-capital-making-26-billion-acquisition-heres-what-it-means-its-10-yielding-dividend"
-        },
-        {
-          "ago": "14 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "Key PointsThe Vanguard Morningstar Growth ETF mimics the Morningstar U.S. Large Cap Growth index, which holds 134 of America's most valuable growth stocks.",
-          "id": 28641426,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "vug",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "vug|etf",
-            "aapl|stocks",
-            "avgo|stocks",
-            "msft|stocks",
-            "googl|stocks",
-            "nvda|stocks",
-            "meta|stocks",
-            "amzn|stocks",
-            "amd|stocks",
-            "goog|stocks",
-            "pltr|stocks"
-          ],
-          "title": "If I Were in My 20s, I'd Buy This Magnificent Vanguard ETF and Hold It Until Retirement",
-          "url": "/articles/if-i-were-my-20s-id-buy-magnificent-vanguard-etf-and-hold-it-until-retirement"
+          "title": "Down Nearly 65% From Its 52-Week High, Has Rocket Lab Stock Become a Bargain Buy?",
+          "url": "/articles/down-nearly-65-its-52-week-high-has-rocket-lab-stock-become-bargain-buy"
         },
         {
           "ago": "20 minutes ago",
           "created": "Oct 27, 2026",
-          "description": "(RTTNews) - Kiniksa Pharmaceuticals International plc (KNSA) reported third quarter 2026 financial results, with revenue growth driven by strong demand for ARCALYST (rilonacept), its treatment for recurrent pericarditis.",
-          "id": 28641446,
+          "description": "The Sherwin-Williams Company announced its financial results for the third quarter ended September 30, 2026, reporting that consolidated Net sales increased 7.9% to $6.86 billion in the quarter. Diluted net income per share increased 0.9% to $3.38 per share in the quarter compare",
+          "id": 28641921,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "knsa",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "knsa|stocks"
-          ],
-          "title": "Kiniksa Q3 Revenue Jumps 58%, Raises ARCALYST 2026 Sales Outlook; StocK Up ",
-          "url": "/articles/kiniksa-q3-revenue-jumps-58-raises-arcalyst-2026-sales-outlook-stock"
-        },
-        {
-          "ago": "26 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "(RTTNews) - Gilead Sciences, Inc. (GILD) on Tuesday reported it concluded negotiations with the pan-Canadian Pharmaceutical Alliance (pCPA) on public reimbursement terms for Lyvdelzi (seladelpar), a treatment for primary biliary cholangitis (PBC).",
-          "id": 28641471,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "gild",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "gild|stocks"
-          ],
-          "title": "Gilead Reaches Canadian Reimbursement Deal For Liver Disease Drug Lyvdelzi ",
-          "url": "/articles/gilead-reaches-canadian-reimbursement-deal-liver-disease-drug-lyvdelzi"
-        },
-        {
-          "ago": "27 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "(RTTNews) - Apple Inc. (AAPL) has announced major updates to Apple Creator Studio, a collection of creative apps that offers professional tools to creators using Mac, iPad and iPhone.",
-          "id": 28641466,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aapl",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "aapl|stocks"
-          ],
-          "title": "Apple Announces Major Updates To Creator Studio With New AI Features ",
-          "url": "/articles/apple-announces-major-updates-creator-studio-new-ai-features"
-        },
-        {
-          "ago": "27 minutes ago",
-          "created": "Oct 27, 2026",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) rose +0.67% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) rose +1.09%.  December E-mini S&P futures (ESZ26 ) rose +0.70%, and December E-mini Nasdaq futures (NQZ26 ) rose...",
-          "id": 28635026,
-          "image": "/barchart/Wall%2520street%2520sign%2520in%2520New%2520York%2520City%2520by%2520f11photo%2520via%2520Shutterstock.jpg",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
+          "primarysymbol": "shw",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
-          "publisher": "Barchart",
-          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "rrc|stocks",
-            "adi|stocks",
-            "glxy|stocks",
-            "txn|stocks",
-            "coin|stocks",
-            "msft|stocks",
-            "bmnr|stocks",
-            "tsla|stocks",
-            "spy|etf",
-            "dia|etf",
-            "meta|stocks",
-            "nxpi|stocks",
-            "ewz|etf",
-            "eqt|stocks",
-            "qqq|etf",
-            "iren|stocks",
-            "intc|stocks",
-            "soxx|etf",
-            "arm|stocks",
-            "sgry|stocks"
+            "shw|stocks"
           ],
-          "title": "Stocks Rally Ahead of Busy Week as Crude Oil Prices Ease",
-          "url": "/articles/stocks-rally-ahead-busy-week-crude-oil-prices-ease-0"
+          "title": "The Sherwin-Williams Company Reports 2026 Third Quarter Financial Results",
+          "url": "/articles/sherwin-williams-company-reports-2026-third-quarter-financial-results"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "Repligen Corporation reported its financial results for the third quarter ended September 30, 2026, with reported revenue of $209 million, representing a year-over-year increase of 11% as reported and 12.5% organic. Under GAAP, the company recorded a loss from operations of $29.5",
+          "id": 28641916,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "rgen",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "rgen|stocks"
+          ],
+          "title": "Repligen Corporation Reports Third Quarter 2026 Revenue of $209 million",
+          "url": "/articles/repligen-corporation-reports-third-quarter-2026-revenue-209-million"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "IQVIA Holdings Inc. reported its third-quarter 2026 financial results, with revenue reaching $4,428 million, representing an increase of 8.0% on a reported basis and 8.6% at constant currency compared to the third quarter of 2025. GAAP Net Income for the quarter was $350 million,",
+          "id": 28641911,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "iqv",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "iqv|stocks"
+          ],
+          "title": "IQVIA Holdings Inc. Reports Third-Quarter 2026 Revenue of $4,428 million and Raises Full-Year Guidance",
+          "url": "/articles/iqvia-holdings-inc-reports-third-quarter-2026-revenue-4428-million-and-raises-full-year"
+        },
+        {
+          "ago": "27 minutes ago",
+          "created": "Oct 27, 2026",
+          "description": "Key PointsKinder Morgan reported a record backlog of $14.4 billion in projects.",
+          "id": 28641676,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "kmi",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "kmi|stocks"
+          ],
+          "title": "Kinder Morgan: 1 Number From Q3 Earnings Every Investor Should See",
+          "url": "/articles/kinder-morgan-1-number-q3-earnings-every-investor-should-see"
         }
       ],
       "totalrecords": 500
