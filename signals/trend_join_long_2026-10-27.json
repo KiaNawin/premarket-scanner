@@ -1,0 +1,172 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-10-27",
+  "generated_at_et": "2026-10-27 08:35:00 EDT",
+  "source_premarket_file": "premarket_scan_2026-10-27.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 13,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "AIOK",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 12 trading days of history (< 200 needed for SMA200)",
+      "history_days": 12,
+      "gap_pct": 25.87,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BRAI",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 177 trading days of history (< 200 needed for SMA200)",
+      "history_days": 177,
+      "gap_pct": 46.26,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CLRO",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.7443,
+      "yesterday_high": 5.85,
+      "yesterday_close": 4.97,
+      "sma200": 4.7003,
+      "premarket_high": 6.71,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 19.04,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CLS",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 22.9157,
+      "yesterday_high": 273.14,
+      "yesterday_close": 246.65,
+      "sma200": 332.9239,
+      "premarket_high": 292.49,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 11.9,
+      "catalyst": "Celestica Inc."
+    },
+    {
+      "ticker": "FER",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.0425,
+      "yesterday_high": 50.54,
+      "yesterday_close": 50.35,
+      "sma200": 64.527,
+      "premarket_high": 55.61,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 10.17,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GUNN",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 1 trading days of history (< 200 needed for SMA200)",
+      "history_days": 1,
+      "gap_pct": 10.03,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "IMSR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2839,
+      "yesterday_high": 2.975,
+      "yesterday_close": 2.94,
+      "sma200": 6.4655,
+      "premarket_high": 3.32,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 10.18,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "INIO",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 98 trading days of history (< 200 needed for SMA200)",
+      "history_days": 98,
+      "gap_pct": 11.24,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "MFIC",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.1857,
+      "yesterday_high": 8.48,
+      "yesterday_close": 8.36,
+      "sma200": 10.2914,
+      "premarket_high": 10.438,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 22.61,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "RCL",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 9.11,
+      "yesterday_high": 286.69,
+      "yesterday_close": 280.6,
+      "sma200": 286.2824,
+      "premarket_high": 298.5,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.19,
+      "catalyst": "Royal Caribbean Cruises Boosts FY26 Adj."
+    },
+    {
+      "ticker": "SAIQ",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.5496,
+      "yesterday_high": 7.57,
+      "yesterday_close": 6.73,
+      "sma200": 10.0441,
+      "premarket_high": 7.51,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.84,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "SOFI",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.6303,
+      "yesterday_high": 14.67,
+      "yesterday_close": 14.46,
+      "sma200": 17.9852,
+      "premarket_high": 16.4115,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 12.72,
+      "catalyst": "SoFi Technologies Q3 Results Climb, Lifts Annual Guidance, Initiates 2027 Outlook; Stock Up 8%."
+    },
+    {
+      "ticker": "WVE",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.1629,
+      "yesterday_high": 3.24,
+      "yesterday_close": 3.21,
+      "sma200": 7.635,
+      "premarket_high": 3.4899,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.23,
+      "catalyst": "Wave Life Sciences Ltd."
+    }
+  ],
+  "scan_time_et": "08:35"
+}

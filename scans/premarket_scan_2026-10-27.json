@@ -1,0 +1,180 @@
+{
+  "scan_date": "2026-10-27",
+  "generated_at_et": "2026-10-27 08:33:38 EDT",
+  "scan_time_et": "08:33",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7100,
+    "prefilter": 265,
+    "with_data": 255,
+    "gap": 40,
+    "gap_price": 39,
+    "passed": 13,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7100,
+  "count": 13,
+  "results": [
+    {
+      "ticker": "BRAI",
+      "price": 3.1,
+      "gap_pct": 46.26,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 2.12,
+      "premarket_volume": 5071542,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "AIOK",
+      "price": 11.53,
+      "gap_pct": 25.87,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 9.16,
+      "premarket_volume": 3156031,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "MFIC",
+      "price": 10.25,
+      "gap_pct": 22.61,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 8.36,
+      "premarket_volume": 659454,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CLRO",
+      "price": 5.92,
+      "gap_pct": 19.04,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 4.97,
+      "premarket_volume": 11848147,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "SOFI",
+      "price": 16.3,
+      "gap_pct": 12.72,
+      "catalyst": "SoFi Technologies Q3 Results Climb, Lifts Annual Guidance, Initiates 2027 Outlook; Stock Up 8%.",
+      "prev_close": 14.46,
+      "premarket_volume": 14559860,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "SoFi Technologies Q3 Results Climb, Lifts Annual Guidance, Initiates 2027 Outlook; Stock Up 8% ",
+      "catalyst_url": "https://www.nasdaq.com/articles/sofi-technologies-q3-results-climb-lifts-annual-guidance-initiates-2027-outlook-stock-8"
+    },
+    {
+      "ticker": "CLS",
+      "price": 276.0,
+      "gap_pct": 11.9,
+      "catalyst": "Celestica Inc.",
+      "prev_close": 246.65,
+      "premarket_volume": 311519,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Celestica Inc. Q3 26 Earnings Conference Call At 8:00 AM ET ",
+      "catalyst_url": "https://www.nasdaq.com/articles/celestica-inc-q3-26-earnings-conference-call-8-00-am-et"
+    },
+    {
+      "ticker": "INIO",
+      "price": 18.5,
+      "gap_pct": 11.24,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 16.63,
+      "premarket_volume": 475691,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "IMSR",
+      "price": 3.24,
+      "gap_pct": 10.18,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 2.94,
+      "premarket_volume": 189471,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "FER",
+      "price": 55.47,
+      "gap_pct": 10.17,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 50.35,
+      "premarket_volume": 113883,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "GUNN",
+      "price": 10.31,
+      "gap_pct": 10.03,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 9.37,
+      "premarket_volume": 776358,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "SAIQ",
+      "price": 7.26,
+      "gap_pct": 7.84,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 6.73,
+      "premarket_volume": 766091,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "WVE",
+      "price": 3.41,
+      "gap_pct": 6.23,
+      "catalyst": "Wave Life Sciences Ltd.",
+      "prev_close": 3.21,
+      "premarket_volume": 52149,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Wave Life Sciences Ltd. Q3 Sales Increase ",
+      "catalyst_url": "https://www.nasdaq.com/articles/wave-life-sciences-ltd-q3-sales-increase"
+    },
+    {
+      "ticker": "RCL",
+      "price": 297.98,
+      "gap_pct": 6.19,
+      "catalyst": "Royal Caribbean Cruises Boosts FY26 Adj.",
+      "prev_close": 280.6,
+      "premarket_volume": 82680,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Royal Caribbean Cruises Boosts FY26 Adj. EPS Outlook; Stock Up 4% - Update ",
+      "catalyst_url": "https://www.nasdaq.com/articles/royal-caribbean-cruises-boosts-fy26-adj-eps-outlook-stock-4-update"
+    }
+  ]
+}
