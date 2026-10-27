@@ -1,12 +1,12 @@
 {
   "ticker": "ACHV",
-  "saved_at_et": "2026-10-27T08:31:15-04:00",
+  "saved_at_et": "2026-10-27T09:01:23-04:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $6.54",
       "lastUpdateInfo": [
         "This page refreshes every 30 seconds.",
-        "Data last updated Oct 27, 2026 08:31 AM ET."
+        "Data last updated Oct 27, 2026 09:00 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,11 +19,11 @@
         },
         "rows": [
           {
-            "consolidated": "$6.53 -0.01 (-0.15%)",
-            "volume": "668",
+            "consolidated": "$6.7607 +0.2207 (+3.37%)",
+            "volume": "678",
             "highPrice": "$7.01 (05:15:52 AM)",
             "lowPrice": "$7.01 (05:15:52 AM)",
-            "delta": "down"
+            "delta": "up"
           }
         ]
       },
@@ -35,6 +35,16 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "08:33:51",
+            "price": "$6.7607",
+            "shareVolume": "10"
+          },
+          {
+            "time": "08:29:00",
+            "price": "$6.7607",
+            "shareVolume": "20"
+          },
           {
             "time": "07:57:53",
             "price": "$6.53",
