@@ -1,10 +1,28 @@
 {
   "ticker": "AXGN",
-  "saved_at_et": "2026-10-28T12:05:06-04:00",
+  "saved_at_et": "2026-10-28T12:35:17-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
+        {
+          "ago": "41 minutes ago",
+          "created": "Oct 28, 2026",
+          "description": "Axogen, Inc. reported its financial results for the third quarter ended September 30, 2026. Revenue for the quarter was $75.8 million, an increase of 26.2% compared to $60.1 million in the third quarter of 2025. Net income was $2.3 million, or $0.04 per share, compared to $0.7 mi",
+          "id": 28658726,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "axgn",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "axgn|stocks"
+          ],
+          "title": "Axogen, Inc. Reports Third Quarter 2026 Financial Results and Raises Full Year Revenue Guidance to at Least 29% Growth or $290 million",
+          "url": "/articles/axogen-inc-reports-third-quarter-2026-financial-results-and-raises-full-year-revenue"
+        },
         {
           "ago": "4 hours ago",
           "created": "Oct 28, 2026",
@@ -189,27 +207,9 @@
           ],
           "title": "Axogen To Acquire BioCircuit Technologies, Announces $208.7M Public Offering; Stock Down ",
           "url": "/articles/axogen-acquire-biocircuit-technologies-announces-2087m-public-offering-stock-down"
-        },
-        {
-          "ago": "Sep 10, 2026",
-          "created": "Sep 10, 2026",
-          "description": "(RTTNews) - Axogen (AXGN) has entered into a definitive agreement to acquire BioCircuit Technologies, a privately held medical device company and developer of NerveTape, the first FDA-approved device for sutureless nerve repair. Axogen will acquire BioCircuit for total considerat",
-          "id": 28340911,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "axgn",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "axgn|stocks"
-          ],
-          "title": "Axogen To Acquire BioCircuit Technologies ",
-          "url": "/articles/axogen-acquire-biocircuit-technologies"
         }
       ],
-      "totalrecords": 91
+      "totalrecords": 92
     },
     "message": null,
     "status": {
