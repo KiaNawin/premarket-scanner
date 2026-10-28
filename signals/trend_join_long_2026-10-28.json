@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-28",
-  "generated_at_et": "2026-10-28 10:36:29 EDT",
+  "generated_at_et": "2026-10-28 11:06:21 EDT",
   "source_premarket_file": "premarket_scan_2026-10-28.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 20,
+  "candidates": 18,
   "valid_count": 3,
   "valid_entries": [
     {
       "ticker": "EAT",
       "signal_time_et": "2026-10-28 10:02",
       "entry_price": 215.305,
-      "last_price": 214.21,
-      "gap_pct": 8.57,
+      "last_price": 222.185,
+      "gap_pct": 13.43,
       "yesterday_high": 198.04,
       "yesterday_close": 196.72,
       "sma200": 173.6293,
@@ -30,8 +30,8 @@
       "ticker": "RXRX",
       "signal_time_et": "2026-10-28 10:13",
       "entry_price": 4.36,
-      "last_price": 4.32,
-      "gap_pct": 6.54,
+      "last_price": 4.3863,
+      "gap_pct": 8.89,
       "yesterday_high": 4.145,
       "yesterday_close": 4.05,
       "sma200": 3.5356,
@@ -43,8 +43,8 @@
       "ticker": "TEM",
       "signal_time_et": "2026-10-28 10:17",
       "entry_price": 76.86,
-      "last_price": 76.5,
-      "gap_pct": 5.61,
+      "last_price": 76.7,
+      "gap_pct": 6.53,
       "yesterday_high": 72.89,
       "yesterday_close": 72.15,
       "sma200": 56.8333,
@@ -63,9 +63,9 @@
       "yesterday_close": 196.72,
       "sma200": 173.6293,
       "premarket_high": 210.01,
-      "last_price": 214.21,
-      "last_bar_et": "10:36",
-      "high_of_day": 218.0,
+      "last_price": 222.185,
+      "last_bar_et": "11:06",
+      "high_of_day": 223.56,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -75,7 +75,7 @@
       "signal_time_et": "2026-10-28 10:02",
       "entry_price": 215.305,
       "hod_before_signal": 214.59,
-      "gap_pct": 8.57,
+      "gap_pct": 13.43,
       "catalyst": "Brinker International Boosts FY27 Outlook - Update."
     },
     {
@@ -87,9 +87,9 @@
       "yesterday_close": 4.05,
       "sma200": 3.5356,
       "premarket_high": 4.09,
-      "last_price": 4.32,
-      "last_bar_et": "10:36",
-      "high_of_day": 4.385,
+      "last_price": 4.3863,
+      "last_bar_et": "11:06",
+      "high_of_day": 4.42,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -99,7 +99,7 @@
       "signal_time_et": "2026-10-28 10:13",
       "entry_price": 4.36,
       "hod_before_signal": 4.35,
-      "gap_pct": 6.54,
+      "gap_pct": 8.89,
       "catalyst": "Why Investors Need to Take Advantage of These 2 Medical Stocks Now."
     },
     {
@@ -111,9 +111,9 @@
       "yesterday_close": 72.15,
       "sma200": 56.8333,
       "premarket_high": 73.06,
-      "last_price": 76.5,
-      "last_bar_et": "10:36",
-      "high_of_day": 77.06,
+      "last_price": 76.7,
+      "last_bar_et": "11:06",
+      "high_of_day": 77.08,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -123,7 +123,7 @@
       "signal_time_et": "2026-10-28 10:17",
       "entry_price": 76.86,
       "hod_before_signal": 76.8,
-      "gap_pct": 5.61,
+      "gap_pct": 6.53,
       "catalyst": "Tempus AI (TEM) Expected to Beat Earnings Estimates: Can the Stock Move Higher?"
     },
     {
@@ -135,8 +135,8 @@
       "yesterday_close": 6.87,
       "sma200": 7.0711,
       "premarket_high": 7.2,
-      "last_price": 7.51,
-      "last_bar_et": "10:36",
+      "last_price": 7.555,
+      "last_bar_et": "11:06",
       "high_of_day": 7.6,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -145,7 +145,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.83,
+      "gap_pct": 9.9,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -154,7 +154,7 @@
       "signal": false,
       "reason": "Only 13 trading days of history (< 200 needed for SMA200)",
       "history_days": 13,
-      "gap_pct": 42.3,
+      "gap_pct": 25.48,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -166,9 +166,9 @@
       "yesterday_close": 37.46,
       "sma200": 39.2954,
       "premarket_high": 46.25,
-      "last_price": 46.5603,
-      "last_bar_et": "10:36",
-      "high_of_day": 46.7347,
+      "last_price": 47.485,
+      "last_bar_et": "11:06",
+      "high_of_day": 47.7999,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -176,7 +176,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 24.47,
+      "gap_pct": 26.6,
       "catalyst": "AxoGen, Inc."
     },
     {
@@ -188,8 +188,8 @@
       "yesterday_close": 58.23,
       "sma200": 64.2902,
       "premarket_high": 60.73,
-      "last_price": 61.4,
-      "last_bar_et": "10:36",
+      "last_price": 61.91,
+      "last_bar_et": "11:06",
       "high_of_day": 62.105,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -198,7 +198,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.5,
+      "gap_pct": 5.58,
       "catalyst": "AXT, Inc."
     },
     {
@@ -210,9 +210,9 @@
       "yesterday_close": 2.74,
       "sma200": 4.6076,
       "premarket_high": 3.4,
-      "last_price": 3.2329,
-      "last_bar_et": "10:36",
-      "high_of_day": 3.25,
+      "last_price": 3.1393,
+      "last_bar_et": "11:06",
+      "high_of_day": 3.32,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -220,7 +220,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 15.51,
+      "gap_pct": 13.83,
       "catalyst": "Hayward Holdings, Inc."
     },
     {
@@ -232,9 +232,9 @@
       "yesterday_close": 5.35,
       "sma200": 6.5596,
       "premarket_high": 6.7,
-      "last_price": 7.225,
-      "last_bar_et": "10:36",
-      "high_of_day": 7.3299,
+      "last_price": 7.34,
+      "last_bar_et": "11:05",
+      "high_of_day": 7.44,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -242,7 +242,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 34.77,
+      "gap_pct": 37.48,
       "catalyst": "DMC Global (BOOM) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -251,29 +251,7 @@
       "signal": false,
       "reason": "Only 178 trading days of history (< 200 needed for SMA200)",
       "history_days": 178,
-      "gap_pct": 43.96,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "CLRO",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.8164,
-      "yesterday_high": 6.23,
-      "yesterday_close": 4.99,
-      "sma200": 4.6971,
-      "premarket_high": 5.2321,
-      "last_price": 5.35,
-      "last_bar_et": "10:35",
-      "high_of_day": 5.85,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 7.21,
+      "gap_pct": 42.6,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -282,7 +260,7 @@
       "signal": false,
       "reason": "Only 4 trading days of history (< 200 needed for SMA200)",
       "history_days": 4,
-      "gap_pct": 10.34,
+      "gap_pct": 9.67,
       "catalyst": "Davion Acquires WoundSkan, Spektra IP In $25Mln Humaskan Deal; Shares Tumble."
     },
     {
@@ -294,8 +272,8 @@
       "yesterday_close": 71.11,
       "sma200": 69.9597,
       "premarket_high": 78.55,
-      "last_price": 76.515,
-      "last_bar_et": "10:36",
+      "last_price": 76.855,
+      "last_bar_et": "11:05",
       "high_of_day": 77.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -304,7 +282,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 7.41,
+      "gap_pct": 7.78,
       "catalyst": "GE HealthCare Technologies Inc."
     },
     {
@@ -313,7 +291,7 @@
       "signal": false,
       "reason": "Only 63 trading days of history (< 200 needed for SMA200)",
       "history_days": 63,
-      "gap_pct": 6.25,
+      "gap_pct": 6.16,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -325,9 +303,9 @@
       "yesterday_close": 89.84,
       "sma200": 111.8732,
       "premarket_high": 98.1,
-      "last_price": 95.25,
-      "last_bar_et": "10:36",
-      "high_of_day": 95.84,
+      "last_price": 95.8,
+      "last_bar_et": "11:06",
+      "high_of_day": 96.03,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -335,8 +313,52 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.0,
+      "gap_pct": 6.63,
       "catalyst": "LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners to Acquire LCI for $101 Per Share in Cash."
+    },
+    {
+      "ticker": "MGN",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3994,
+      "yesterday_high": 3.18,
+      "yesterday_close": 3.06,
+      "sma200": 840.9042,
+      "premarket_high": 3.1,
+      "last_price": 3.375,
+      "last_bar_et": "11:05",
+      "high_of_day": 4.0,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.99,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "NAUT",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.4796,
+      "yesterday_high": 3.02,
+      "yesterday_close": 2.89,
+      "sma200": 2.1012,
+      "premarket_high": 3.0,
+      "last_price": 3.054,
+      "last_bar_et": "11:06",
+      "high_of_day": 3.205,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 5.53,
+      "catalyst": "Nautilus (NAUT) Q3 2026 Earnings Call Transcript."
     },
     {
       "ticker": "SKHY",
@@ -344,7 +366,7 @@
       "signal": false,
       "reason": "Only 77 trading days of history (< 200 needed for SMA200)",
       "history_days": 77,
-      "gap_pct": 10.48,
+      "gap_pct": 10.98,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -356,9 +378,9 @@
       "yesterday_close": 4.14,
       "sma200": 6.6526,
       "premarket_high": 4.54,
-      "last_price": 4.725,
-      "last_bar_et": "10:36",
-      "high_of_day": 4.74,
+      "last_price": 4.7163,
+      "last_bar_et": "11:06",
+      "high_of_day": 4.77,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -366,75 +388,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.37,
+      "gap_pct": 13.89,
       "catalyst": "Stellantis Q3 Loss Narrows, AOI Climbs, Despite Weak Shipments; Confirms FY26 Outlook."
-    },
-    {
-      "ticker": "TEX",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.095,
-      "yesterday_high": 52.31,
-      "yesterday_close": 49.68,
-      "sma200": 61.9372,
-      "premarket_high": 51.41,
-      "last_price": 53.23,
-      "last_bar_et": "10:36",
-      "high_of_day": 54.98,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.65,
-      "catalyst": "Terex Narrows FY26 Adj."
-    },
-    {
-      "ticker": "UCTT",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 4.4836,
-      "yesterday_high": 51.98,
-      "yesterday_close": 51.48,
-      "sma200": 74.349,
-      "premarket_high": 60.38,
-      "last_price": 56.31,
-      "last_bar_et": "10:36",
-      "high_of_day": 56.675,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.36,
-      "catalyst": "Ultra Clean Holdings (UCTT) Q3 2026 Earnings Call Transcript."
-    },
-    {
-      "ticker": "ULBI",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.2643,
-      "yesterday_high": 6.36,
-      "yesterday_close": 6.36,
-      "sma200": 6.331,
-      "premarket_high": 15.62,
-      "last_price": 15.615,
-      "last_bar_et": "10:36",
-      "high_of_day": 15.67,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 145.44,
-      "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "10:36"
+  "scan_time_et": "11:06"
 }
