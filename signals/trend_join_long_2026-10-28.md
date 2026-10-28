@@ -1,31 +1,30 @@
 **Trend-join Long — 2026-10-28**
-0 valid entries out of 25 pre-market gappers (generated 2026-10-28 09:05:43 EDT)
+0 valid entries out of 24 pre-market gappers (generated 2026-10-28 09:35:09 EDT)
 
 _No valid entries yet._
 
 Not triggered:
 - AIOK: SHORT_HISTORY — Only 13 trading days of history (< 200 needed for SMA200)
-- APH: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AXGN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BKYI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BOOM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- APH: WAITING — Before 10:00 ET signal window
+- AXGN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BKYI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BOOM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BRAI: SHORT_HISTORY — Only 178 trading days of history (< 200 needed for SMA200)
+- CLS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - DAVI: SHORT_HISTORY — Only 4 trading days of history (< 200 needed for SMA200)
-- EAT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ELPW: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ETSY: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FLEX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FPS: SHORT_HISTORY — Only 183 trading days of history (< 200 needed for SMA200)
-- GEHC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HSAI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- LCII: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NUWE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- PUMP: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- ELPW: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ETSY: WAITING — Before 10:00 ET signal window
+- GEHC: WAITING — Before 10:00 ET signal window
+- HSAI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- LCII: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NAUT: WAITING — Before 10:00 ET signal window
 - SKHY: SHORT_HISTORY — Only 77 trading days of history (< 200 needed for SMA200)
-- STLA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- SXTC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ULBI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ULCC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- VRT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- WEN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- WING: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- STLA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- SXTC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- TEX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- UCTT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ULBI: WAITING — Before 10:00 ET signal window
+- ULCC: WAITING — Before 10:00 ET signal window
+- VRT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- WEN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- WING: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
