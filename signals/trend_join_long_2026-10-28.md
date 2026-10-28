@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-10-28**
-0 valid entries out of 24 pre-market gappers (generated 2026-10-28 08:36:02 EDT)
+0 valid entries out of 25 pre-market gappers (generated 2026-10-28 09:05:43 EDT)
 
 _No valid entries yet._
 
@@ -25,6 +25,7 @@ Not triggered:
 - STLA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - SXTC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - ULBI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- ULCC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - VRT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - WEN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - WING: WAITING — Market opens 09:30 ET; signals start 10:00 ET
