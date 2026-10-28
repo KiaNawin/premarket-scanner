@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-28",
-  "generated_at_et": "2026-10-28 14:07:45 EDT",
+  "generated_at_et": "2026-10-28 14:35:02 EDT",
   "source_premarket_file": "premarket_scan_2026-10-28.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -17,7 +17,7 @@
       "ticker": "EAT",
       "signal_time_et": "2026-10-28 10:02",
       "entry_price": 215.305,
-      "last_price": 223.19,
+      "last_price": 224.2971,
       "gap_pct": 13.39,
       "yesterday_high": 198.04,
       "yesterday_close": 196.72,
@@ -50,8 +50,8 @@
       "yesterday_close": 196.72,
       "sma200": 173.6293,
       "premarket_high": 210.01,
-      "last_price": 223.19,
-      "last_bar_et": "14:07",
+      "last_price": 224.2971,
+      "last_bar_et": "14:34",
       "high_of_day": 231.74,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -75,7 +75,7 @@
       "sma200": 27.076,
       "premarket_high": 28.11,
       "last_price": 29.38,
-      "last_bar_et": "14:07",
+      "last_bar_et": "14:34",
       "high_of_day": 29.8,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -98,8 +98,8 @@
       "yesterday_close": 6.87,
       "sma200": 7.0711,
       "premarket_high": 7.2,
-      "last_price": 7.46,
-      "last_bar_et": "14:07",
+      "last_price": 7.45,
+      "last_bar_et": "14:34",
       "high_of_day": 7.6,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -129,9 +129,9 @@
       "yesterday_close": 37.46,
       "sma200": 39.2954,
       "premarket_high": 46.25,
-      "last_price": 48.275,
-      "last_bar_et": "14:07",
-      "high_of_day": 49.59,
+      "last_price": 49.62,
+      "last_bar_et": "14:34",
+      "high_of_day": 49.645,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -151,9 +151,9 @@
       "yesterday_close": 58.23,
       "sma200": 64.2902,
       "premarket_high": 60.73,
-      "last_price": 62.7,
-      "last_bar_et": "14:07",
-      "high_of_day": 63.11,
+      "last_price": 63.725,
+      "last_bar_et": "14:35",
+      "high_of_day": 63.89,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -173,8 +173,8 @@
       "yesterday_close": 2.74,
       "sma200": 4.6076,
       "premarket_high": 3.4,
-      "last_price": 3.145,
-      "last_bar_et": "14:07",
+      "last_price": 3.12,
+      "last_bar_et": "14:34",
       "high_of_day": 3.32,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -195,8 +195,8 @@
       "yesterday_close": 5.35,
       "sma200": 6.5596,
       "premarket_high": 6.7,
-      "last_price": 7.5,
-      "last_bar_et": "14:07",
+      "last_price": 7.4302,
+      "last_bar_et": "14:34",
       "high_of_day": 7.58,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -226,8 +226,8 @@
       "yesterday_close": 8.11,
       "sma200": 18.1033,
       "premarket_high": 8.45,
-      "last_price": 8.515,
-      "last_bar_et": "14:07",
+      "last_price": 8.62,
+      "last_bar_et": "14:34",
       "high_of_day": 8.72,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -248,8 +248,8 @@
       "yesterday_close": 4.99,
       "sma200": 4.6971,
       "premarket_high": 5.2321,
-      "last_price": 5.3165,
-      "last_bar_et": "14:07",
+      "last_price": 5.33,
+      "last_bar_et": "14:34",
       "high_of_day": 6.0,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -270,14 +270,14 @@
       "yesterday_close": 276.54,
       "sma200": 332.7951,
       "premarket_high": 286.93,
-      "last_price": 299.99,
-      "last_bar_et": "14:07",
-      "high_of_day": 302.47,
+      "last_price": 303.7,
+      "last_bar_et": "14:34",
+      "high_of_day": 304.4542,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": false
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
       "gap_pct": 8.85,
@@ -301,8 +301,8 @@
       "yesterday_close": 87.66,
       "sma200": 67.7952,
       "premarket_high": 96.0,
-      "last_price": 92.62,
-      "last_bar_et": "14:07",
+      "last_price": 91.75,
+      "last_bar_et": "14:34",
       "high_of_day": 94.4886,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -323,8 +323,8 @@
       "yesterday_close": 83.35,
       "sma200": 102.7092,
       "premarket_high": 94.2,
-      "last_price": 91.32,
-      "last_bar_et": "14:07",
+      "last_price": 92.355,
+      "last_bar_et": "14:34",
       "high_of_day": 92.78,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -354,8 +354,8 @@
       "yesterday_close": 71.11,
       "sma200": 69.9597,
       "premarket_high": 78.55,
-      "last_price": 76.88,
-      "last_bar_et": "14:07",
+      "last_price": 76.705,
+      "last_bar_et": "14:34",
       "high_of_day": 77.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -376,9 +376,9 @@
       "yesterday_close": 17.18,
       "sma200": 24.3636,
       "premarket_high": 17.8,
-      "last_price": 18.33,
-      "last_bar_et": "14:07",
-      "high_of_day": 18.48,
+      "last_price": 18.53,
+      "last_bar_et": "14:34",
+      "high_of_day": 18.57,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -398,8 +398,8 @@
       "yesterday_close": 44.74,
       "sma200": 61.6466,
       "premarket_high": 45.7,
-      "last_price": 47.31,
-      "last_bar_et": "14:07",
+      "last_price": 46.6078,
+      "last_bar_et": "14:34",
       "high_of_day": 49.4,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -420,13 +420,13 @@
       "yesterday_close": 89.84,
       "sma200": 111.8732,
       "premarket_high": 98.1,
-      "last_price": 97.82,
-      "last_bar_et": "14:07",
-      "high_of_day": 97.875,
+      "last_price": 98.29,
+      "last_bar_et": "14:34",
+      "high_of_day": 98.31,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
@@ -442,8 +442,8 @@
       "yesterday_close": 240.85,
       "sma200": 283.7246,
       "premarket_high": 246.26,
-      "last_price": 253.15,
-      "last_bar_et": "14:07",
+      "last_price": 254.99,
+      "last_bar_et": "14:34",
       "high_of_day": 255.4,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -456,5 +456,5 @@
       "catalyst": "Tech Sell-Off: This All-Star Artificial Intelligence Stock Is Down 50% but Up 127,300% Since Its IPO."
     }
   ],
-  "scan_time_et": "14:07"
+  "scan_time_et": "14:35"
 }
