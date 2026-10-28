@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-28",
-  "generated_at_et": "2026-10-28 13:37:10 EDT",
+  "generated_at_et": "2026-10-28 14:07:45 EDT",
   "source_premarket_file": "premarket_scan_2026-10-28.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,21 +10,34 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 22,
-  "valid_count": 1,
+  "candidates": 21,
+  "valid_count": 2,
   "valid_entries": [
     {
       "ticker": "EAT",
       "signal_time_et": "2026-10-28 10:02",
       "entry_price": 215.305,
-      "last_price": 225.54,
-      "gap_pct": 14.12,
+      "last_price": 223.19,
+      "gap_pct": 13.39,
       "yesterday_high": 198.04,
       "yesterday_close": 196.72,
       "sma200": 173.6293,
       "premarket_high": 210.01,
       "hod_before_signal": 214.59,
-      "catalyst": "Brinker International Boosts FY27 Outlook - Update."
+      "catalyst": "Brinker International Reports First Quarter Fiscal 2027 Results and Updates Fiscal 2027 Guidance."
+    },
+    {
+      "ticker": "HIMS",
+      "signal_time_et": "2026-10-28 12:06",
+      "entry_price": 28.6501,
+      "last_price": 29.38,
+      "gap_pct": 5.14,
+      "yesterday_high": 28.465,
+      "yesterday_close": 27.92,
+      "sma200": 27.076,
+      "premarket_high": 28.11,
+      "hod_before_signal": 28.55,
+      "catalyst": "Investors Heavily Search Hims & Hers Health, Inc."
     }
   ],
   "evaluated": [
@@ -37,8 +50,8 @@
       "yesterday_close": 196.72,
       "sma200": 173.6293,
       "premarket_high": 210.01,
-      "last_price": 225.54,
-      "last_bar_et": "13:36",
+      "last_price": 223.19,
+      "last_bar_et": "14:07",
       "high_of_day": 231.74,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -49,8 +62,32 @@
       "signal_time_et": "2026-10-28 10:02",
       "entry_price": 215.305,
       "hod_before_signal": 214.59,
-      "gap_pct": 14.12,
-      "catalyst": "Brinker International Boosts FY27 Outlook - Update."
+      "gap_pct": 13.39,
+      "catalyst": "Brinker International Reports First Quarter Fiscal 2027 Results and Updates Fiscal 2027 Guidance."
+    },
+    {
+      "ticker": "HIMS",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 1.8816,
+      "yesterday_high": 28.465,
+      "yesterday_close": 27.92,
+      "sma200": 27.076,
+      "premarket_high": 28.11,
+      "last_price": 29.38,
+      "last_bar_et": "14:07",
+      "high_of_day": 29.8,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-28 12:06",
+      "entry_price": 28.6501,
+      "hod_before_signal": 28.55,
+      "gap_pct": 5.14,
+      "catalyst": "Investors Heavily Search Hims & Hers Health, Inc."
     },
     {
       "ticker": "ADT",
@@ -61,8 +98,8 @@
       "yesterday_close": 6.87,
       "sma200": 7.0711,
       "premarket_high": 7.2,
-      "last_price": 7.43,
-      "last_bar_et": "13:37",
+      "last_price": 7.46,
+      "last_bar_et": "14:07",
       "high_of_day": 7.6,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -71,7 +108,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.06,
+      "gap_pct": 8.81,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -80,7 +117,7 @@
       "signal": false,
       "reason": "Only 13 trading days of history (< 200 needed for SMA200)",
       "history_days": 13,
-      "gap_pct": 23.17,
+      "gap_pct": 28.02,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -92,8 +129,8 @@
       "yesterday_close": 37.46,
       "sma200": 39.2954,
       "premarket_high": 46.25,
-      "last_price": 48.04,
-      "last_bar_et": "13:36",
+      "last_price": 48.275,
+      "last_bar_et": "14:07",
       "high_of_day": 49.59,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -102,7 +139,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 27.38,
+      "gap_pct": 28.72,
       "catalyst": "Axogen, Inc."
     },
     {
@@ -114,8 +151,8 @@
       "yesterday_close": 58.23,
       "sma200": 64.2902,
       "premarket_high": 60.73,
-      "last_price": 62.53,
-      "last_bar_et": "13:37",
+      "last_price": 62.7,
+      "last_bar_et": "14:07",
       "high_of_day": 63.11,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -124,7 +161,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.38,
+      "gap_pct": 7.33,
       "catalyst": "AXT, Inc."
     },
     {
@@ -136,8 +173,8 @@
       "yesterday_close": 2.74,
       "sma200": 4.6076,
       "premarket_high": 3.4,
-      "last_price": 3.135,
-      "last_bar_et": "13:37",
+      "last_price": 3.145,
+      "last_bar_et": "14:07",
       "high_of_day": 3.32,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -146,7 +183,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.6,
+      "gap_pct": 13.88,
       "catalyst": "Hayward Holdings, Inc."
     },
     {
@@ -158,8 +195,8 @@
       "yesterday_close": 5.35,
       "sma200": 6.5596,
       "premarket_high": 6.7,
-      "last_price": 7.5532,
-      "last_bar_et": "13:37",
+      "last_price": 7.5,
+      "last_bar_et": "14:07",
       "high_of_day": 7.58,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -168,30 +205,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 39.25,
+      "gap_pct": 39.07,
       "catalyst": "DMC Global (BOOM) Q3 2026 Earnings Call Transcript."
-    },
-    {
-      "ticker": "BORR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3189,
-      "yesterday_high": 4.1,
-      "yesterday_close": 4.09,
-      "sma200": 4.8954,
-      "premarket_high": 4.18,
-      "last_price": 4.295,
-      "last_bar_et": "13:37",
-      "high_of_day": 4.415,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.13,
-      "catalyst": "Earnings Preview: Borr Drilling (BORR) Q3 Earnings Expected to Decline."
     },
     {
       "ticker": "BRAI",
@@ -199,7 +214,7 @@
       "signal": false,
       "reason": "Only 178 trading days of history (< 200 needed for SMA200)",
       "history_days": 178,
-      "gap_pct": 9.99,
+      "gap_pct": 9.06,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -211,8 +226,8 @@
       "yesterday_close": 8.11,
       "sma200": 18.1033,
       "premarket_high": 8.45,
-      "last_price": 8.54,
-      "last_bar_et": "13:37",
+      "last_price": 8.515,
+      "last_bar_et": "14:07",
       "high_of_day": 8.72,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -221,7 +236,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.8,
+      "gap_pct": 5.36,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -233,8 +248,8 @@
       "yesterday_close": 4.99,
       "sma200": 4.6971,
       "premarket_high": 5.2321,
-      "last_price": 5.35,
-      "last_bar_et": "13:36",
+      "last_price": 5.3165,
+      "last_bar_et": "14:07",
       "high_of_day": 6.0,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -243,7 +258,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 6.41,
+      "gap_pct": 7.21,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -255,9 +270,9 @@
       "yesterday_close": 276.54,
       "sma200": 332.7951,
       "premarket_high": 286.93,
-      "last_price": 297.79,
-      "last_bar_et": "13:37",
-      "high_of_day": 298.32,
+      "last_price": 299.99,
+      "last_bar_et": "14:07",
+      "high_of_day": 302.47,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -265,8 +280,17 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.0,
+      "gap_pct": 8.85,
       "catalyst": "Why Celestica Stock Jumped Today."
+    },
+    {
+      "ticker": "DAVI",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 4 trading days of history (< 200 needed for SMA200)",
+      "history_days": 4,
+      "gap_pct": 6.65,
+      "catalyst": "Davion Acquires WoundSkan, Spektra IP In $25Mln Humaskan Deal; Shares Tumble."
     },
     {
       "ticker": "ETSY",
@@ -277,8 +301,8 @@
       "yesterday_close": 87.66,
       "sma200": 67.7952,
       "premarket_high": 96.0,
-      "last_price": 91.505,
-      "last_bar_et": "13:37",
+      "last_price": 92.62,
+      "last_bar_et": "14:07",
       "high_of_day": 94.4886,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -287,7 +311,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.11,
+      "gap_pct": 5.72,
       "catalyst": "Etsy: 3 Key Takeaways for Long-Term Investors."
     },
     {
@@ -299,8 +323,8 @@
       "yesterday_close": 83.35,
       "sma200": 102.7092,
       "premarket_high": 94.2,
-      "last_price": 91.0748,
-      "last_bar_et": "13:37",
+      "last_price": 91.32,
+      "last_bar_et": "14:07",
       "high_of_day": 92.78,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -309,7 +333,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.14,
+      "gap_pct": 9.74,
       "catalyst": "Flex Ltd."
     },
     {
@@ -318,7 +342,7 @@
       "signal": false,
       "reason": "Only 183 trading days of history (< 200 needed for SMA200)",
       "history_days": 183,
-      "gap_pct": 6.56,
+      "gap_pct": 5.76,
       "catalyst": "Why Forgent Power (FPS) Could Beat Earnings Estimates Again."
     },
     {
@@ -330,8 +354,8 @@
       "yesterday_close": 71.11,
       "sma200": 69.9597,
       "premarket_high": 78.55,
-      "last_price": 76.51,
-      "last_bar_et": "13:36",
+      "last_price": 76.88,
+      "last_bar_et": "14:07",
       "high_of_day": 77.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -340,8 +364,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 7.43,
-      "catalyst": "GE HealthCare Technologies Inc."
+      "gap_pct": 7.78,
+      "catalyst": "GE HealthCare (GEHC) Q3 2026 Earnings Call Transcript."
     },
     {
       "ticker": "GLXY",
@@ -352,9 +376,9 @@
       "yesterday_close": 17.18,
       "sma200": 24.3636,
       "premarket_high": 17.8,
-      "last_price": 18.16,
-      "last_bar_et": "13:37",
-      "high_of_day": 18.29,
+      "last_price": 18.33,
+      "last_bar_et": "14:07",
+      "high_of_day": 18.48,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -362,7 +386,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.56,
+      "gap_pct": 6.58,
       "catalyst": "Galaxy Digital (GLXY) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -374,8 +398,8 @@
       "yesterday_close": 44.74,
       "sma200": 61.6466,
       "premarket_high": 45.7,
-      "last_price": 47.965,
-      "last_bar_et": "13:36",
+      "last_price": 47.31,
+      "last_bar_et": "14:07",
       "high_of_day": 49.4,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -384,7 +408,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.58,
+      "gap_pct": 6.95,
       "catalyst": "Innodata vs."
     },
     {
@@ -396,9 +420,9 @@
       "yesterday_close": 89.84,
       "sma200": 111.8732,
       "premarket_high": 98.1,
-      "last_price": 97.07,
-      "last_bar_et": "13:37",
-      "high_of_day": 97.3675,
+      "last_price": 97.82,
+      "last_bar_et": "14:07",
+      "high_of_day": 97.875,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -406,7 +430,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.98,
+      "gap_pct": 8.69,
       "catalyst": "LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners to Acquire LCI for $101 Per Share in Cash."
     },
     {
@@ -418,8 +442,8 @@
       "yesterday_close": 240.85,
       "sma200": 283.7246,
       "premarket_high": 246.26,
-      "last_price": 253.005,
-      "last_bar_et": "13:37",
+      "last_price": 253.15,
+      "last_bar_et": "14:07",
       "high_of_day": 255.4,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -428,53 +452,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.04,
+      "gap_pct": 5.3,
       "catalyst": "Tech Sell-Off: This All-Star Artificial Intelligence Stock Is Down 50% but Up 127,300% Since Its IPO."
-    },
-    {
-      "ticker": "MGN",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3994,
-      "yesterday_high": 3.18,
-      "yesterday_close": 3.06,
-      "sma200": 840.9042,
-      "premarket_high": 3.1,
-      "last_price": 3.715,
-      "last_bar_et": "13:30",
-      "high_of_day": 4.0,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 21.41,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "NAUT",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.4796,
-      "yesterday_high": 3.02,
-      "yesterday_close": 2.89,
-      "sma200": 2.1012,
-      "premarket_high": 3.0,
-      "last_price": 3.115,
-      "last_bar_et": "13:37",
-      "high_of_day": 3.205,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 7.79,
-      "catalyst": "Nautilus (NAUT) Q3 2026 Earnings Call Transcript."
     }
   ],
-  "scan_time_et": "13:37"
+  "scan_time_et": "14:07"
 }
