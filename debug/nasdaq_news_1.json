@@ -1,69 +1,200 @@
 {
-  "ticker": "BRAI",
-  "saved_at_et": "2026-10-27T14:05:56-04:00",
+  "ticker": "NUWE",
+  "saved_at_et": "2026-10-28T08:34:04-04:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "Jul 14, 2026",
-          "created": "Jul 14, 2026",
-          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
-          "id": 27928676,
+          "title": "Nuwellis, Inc. Announces one-for-nine Reverse Stock Split Effective October 26, 2026",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
+          "created": "Oct 23, 2026",
+          "ago": "5 days ago",
+          "primarysymbol": "nuwe",
           "primarytopic": "Stocks|4301",
+          "publisher": "Fintel",
+          "related_symbols": [
+            "nuwe|stocks"
+          ],
+          "url": "/articles/nuwellis-inc-announces-one-nine-reverse-stock-split-effective-october-26-2026",
+          "id": 28617036,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Nuwellis, Inc. announced that it filed a Certificate of Amendment to its Certificate of Incorporation to effect a one-for-nine reverse stock split of its issued and outstanding shares of common stock. The reverse stock split was approved by the Board of Directors on October 13, 2",
           "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "xom|stocks",
-            "nvda|stocks",
-            "mgm|stocks",
-            "brai|stocks"
-          ],
-          "title": "Company News for July 14, 2026",
-          "url": "/articles/company-news-july-14-2026"
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
         },
         {
-          "ago": "Jun 28, 2026",
-          "created": "Jun 28, 2026",
-          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
-          "id": 27843721,
+          "title": "Nuwellis Appoints Brian Johnson As Director Of Quality And Regulatory Affairs ",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brai",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "brai|stocks"
-          ],
-          "title": "Why Braiin Stock Plummeted This Week",
-          "url": "/articles/why-braiin-stock-plummeted-week"
-        },
-        {
-          "ago": "May 26, 2026",
-          "created": "May 26, 2026",
-          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
-          "id": 27654061,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brai",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
+          "created": "Sep 17, 2026",
+          "ago": "Sep 17, 2026",
+          "primarysymbol": "nuwe",
+          "primarytopic": "Biotech|4146",
           "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "brai|stocks"
+            "nuwe|stocks"
           ],
-          "title": "Braiin Limited Stock Surges 106% Over Partnership With Switchcraft ",
-          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft"
+          "url": "/articles/nuwellis-appoints-brian-johnson-director-quality-and-regulatory-affairs",
+          "id": 28382141,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Nuwellis, Inc. (NUWE), a medical technology company, announced Brian Johnson's appointment as Director of Quality and Regulatory Affairs. In this role, Johnson will lead Nuwellis' quality management and regulatory activities, including quality systems, audits and prod",
+          "primarytopic_url": "/topic/biotech",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Top Biotech Gainers: GCTK On The Move, BHC, CORT Boost FY'26 Outlook, NEOG On Watch ",
+          "image": "",
+          "created": "Jul 30, 2026",
+          "ago": "Jul 30, 2026",
+          "primarysymbol": "bhc",
+          "primarytopic": "Biotech|4146",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "bhc|stocks",
+            "cort|stocks",
+            "gctk|stocks",
+            "nuwe|stocks"
+          ],
+          "url": "/articles/top-biotech-gainers-gctk-move-bhc-cort-boost-fy26-outlook-neog-watch",
+          "id": 28063541,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Today's top gainers included Glucotrack, whose subsidiary announced progress in the development strategy for LT-100, a novel non-narcotic therapy; Nuwellis, following expanded clinical recognition for its Aquadex therapy; Bausch Health, after reporting strong second-q",
+          "primarytopic_url": "/topic/biotech",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Nuwellis Study Acceptance Highlights Aquadex In Pediatric Care, Stock Rockets In Pre-Market ",
+          "image": "",
+          "created": "Jul 30, 2026",
+          "ago": "Jul 30, 2026",
+          "primarysymbol": "nuwe",
+          "primarytopic": "Biotech|4146",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "nuwe|stocks"
+          ],
+          "url": "/articles/nuwellis-study-acceptance-highlights-aquadex-pediatric-care-stock-rockets-pre-market",
+          "id": 28053906,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Nuwellis, Inc. (NUWE) announced that Frontiers in Pediatrics has accepted publication of a new single-center retrospective study evaluating Epoprostenol as an alternative anticoagulant for its Aquadex ultrafiltration therapy in critically ill children.",
+          "primarytopic_url": "/topic/biotech",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Top Biotech Gainers: NXTC Soars On Merger Deal, BMGL Moves Past Nasdaq Woes, OTLK Awaits FDA Verdict ",
+          "image": "",
+          "created": "Jul 14, 2026",
+          "ago": "Jul 14, 2026",
+          "primarysymbol": "",
+          "primarytopic": "Biotech|4146",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "bmgl|stocks",
+            "dyai|stocks",
+            "nuwe|stocks",
+            "nxtc|stocks",
+            "otlk|stocks",
+            "irla|stocks"
+          ],
+          "url": "/articles/top-biotech-gainers-nxtc-soars-merger-deal-bmgl-moves-past-nasdaq-woes-otlk-awaits-fda",
+          "id": 27936841,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Today's top gainers in the biotech space include NextCure, ahead of its planned merger with a private company that will create a newly branded public entity; Basel Medical, which recently regained Nasdaq compliance; and Outlook Therapeutics, which is awaiting an FDA d",
+          "primarytopic_url": "/topic/biotech",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Nuwellis (NUWE) Q1 2026 Earnings Transcript",
+          "image": "",
+          "created": "May 12, 2026",
+          "ago": "May 12, 2026",
+          "primarysymbol": "nuwe",
+          "primarytopic": "Markets|4006",
+          "publisher": "The Motley Fool",
+          "related_symbols": [
+            "nuwe|stocks"
+          ],
+          "url": "/articles/nuwellis-nuwe-q1-2026-earnings-transcript",
+          "id": 27561461,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "Nuwellis (NUWE) Q4 2025 Earnings Call Transcript",
+          "image": "",
+          "created": "Mar 10, 2026",
+          "ago": "Mar 10, 2026",
+          "primarysymbol": "nuwe",
+          "primarytopic": "Markets|4006",
+          "publisher": "The Motley Fool",
+          "related_symbols": [
+            "nuwe|stocks"
+          ],
+          "url": "/articles/nuwellis-nuwe-q4-2025-earnings-call-transcript",
+          "id": 27110741,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "Nuwellis Names Carisa Schultz CFO ",
+          "image": "",
+          "created": "Jan 30, 2026",
+          "ago": "Jan 30, 2026",
+          "primarysymbol": "nuwe",
+          "primarytopic": "Markets|4006",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "nuwe|stocks"
+          ],
+          "url": "/articles/nuwellis-names-carisa-schultz-cfo",
+          "id": 26788176,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Nuwellis, Inc. (NUWE), a medical technology company, on Friday announced the appointment of Carisa Schultz as Chief Financial Officer, effective February 2.",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Nuwellis, Inc. Profit Declines In Q3 ",
+          "image": "",
+          "created": "Nov 12, 2025",
+          "ago": "Nov 12, 2025",
+          "primarysymbol": "nuwe",
+          "primarytopic": "Markets|4006",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "nuwe|stocks"
+          ],
+          "url": "/articles/nuwellis-inc-profit-declines-q3",
+          "id": 26252271,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Nuwellis, Inc. (NUWE) announced earnings for third quarter that Dropped, from last year",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Nuwellis To Acquire Israel's Rendiatech ",
+          "image": "",
+          "created": "Aug 19, 2025",
+          "ago": "Aug 19, 2025",
+          "primarysymbol": "nuwe",
+          "primarytopic": "Markets|4006",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "nuwe|stocks"
+          ],
+          "url": "/articles/nuwellis-acquire-israels-rendiatech",
+          "id": 25572281,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - Nuwellis, Inc. (NUWE), a medical technology company, on Tuesday announced that it has signed a non-binding letter of intent to acquire Rendiatech, Ltd., an Israel-based medical device company. The transaction is expected to close in the fourth quarter of 2025.",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
         }
       ],
-      "totalrecords": 3
+      "totalrecords": 29,
+      "message": null
     },
     "message": null,
     "status": {
