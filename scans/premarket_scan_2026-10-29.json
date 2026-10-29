@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-29",
-  "generated_at_et": "2026-10-29 10:36:00 EDT",
-  "scan_time_et": "10:36",
+  "generated_at_et": "2026-10-29 11:06:03 EDT",
+  "scan_time_et": "11:06",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7102,
-    "prefilter": 341,
-    "with_data": 228,
-    "gap": 108,
-    "gap_price": 107,
-    "passed": 20,
+    "prefilter": 374,
+    "with_data": 250,
+    "gap": 124,
+    "gap_price": 122,
+    "passed": 19,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7102,
-  "count": 20,
+  "count": 19,
   "results": [
     {
       "ticker": "GKOS",
-      "price": 231.26,
-      "gap_pct": 27.47,
+      "price": 234.99,
+      "gap_pct": 29.52,
       "catalyst": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market.",
       "prev_close": 181.43,
       "premarket_volume": 81932,
@@ -33,33 +33,9 @@
       "catalyst_url": "https://www.nasdaq.com/articles/glaukos-swings-profit-q3-lifts-full-year-2026-guidance-shares-surge-pre-market"
     },
     {
-      "ticker": "MAX",
-      "price": 14.47,
-      "gap_pct": 23.46,
-      "catalyst": "MediaAlpha (MAX) Q3 2026 Earnings Call Transcript.",
-      "prev_close": 11.72,
-      "premarket_volume": 83882,
-      "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "MediaAlpha (MAX) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.nasdaq.com/articles/mediaalpha-max-q3-2026-earnings-call-transcript"
-    },
-    {
-      "ticker": "BHC",
-      "price": 8.46,
-      "gap_pct": 22.25,
-      "catalyst": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript.",
-      "prev_close": 6.92,
-      "premarket_volume": 359243,
-      "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.nasdaq.com/articles/bausch-health-bhc-q3-2026-earnings-call-transcript"
-    },
-    {
       "ticker": "CROX",
-      "price": 145.93,
-      "gap_pct": 21.92,
+      "price": 150.03,
+      "gap_pct": 25.35,
       "catalyst": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up.",
       "prev_close": 119.69,
       "premarket_volume": 245245,
@@ -69,9 +45,33 @@
       "catalyst_url": "https://www.nasdaq.com/articles/crocs-q3-profit-climbs-raises-fy26-guidance-pre-market-shares"
     },
     {
+      "ticker": "BHC",
+      "price": 8.5,
+      "gap_pct": 22.83,
+      "catalyst": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 6.92,
+      "premarket_volume": 359243,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/bausch-health-bhc-q3-2026-earnings-call-transcript"
+    },
+    {
+      "ticker": "MAX",
+      "price": 13.85,
+      "gap_pct": 18.17,
+      "catalyst": "MediaAlpha (MAX) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 11.72,
+      "premarket_volume": 83882,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "MediaAlpha (MAX) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/mediaalpha-max-q3-2026-earnings-call-transcript"
+    },
+    {
       "ticker": "INSM",
-      "price": 113.7,
-      "gap_pct": 17.24,
+      "price": 113.22,
+      "gap_pct": 16.75,
       "catalyst": "Insmed Inc Q3 Loss Narrows.",
       "prev_close": 96.98,
       "premarket_volume": 755528,
@@ -81,33 +81,9 @@
       "catalyst_url": "https://www.nasdaq.com/articles/insmed-inc-q3-loss-narrows"
     },
     {
-      "ticker": "NUWE",
-      "price": 6.61,
-      "gap_pct": 16.79,
-      "catalyst": "Nuwellis To Implement 1-for-9 Reverse Stock Split; Stock Down.",
-      "prev_close": 5.66,
-      "premarket_volume": 8982358,
-      "session": "regular",
-      "catalyst_source": "RTTNews",
-      "catalyst_headline": "Nuwellis To Implement 1-for-9 Reverse Stock Split; Stock Down ",
-      "catalyst_url": "https://www.nasdaq.com/articles/nuwellis-implement-1-9-reverse-stock-split-stock-down"
-    },
-    {
-      "ticker": "CVNA",
-      "price": 68.76,
-      "gap_pct": 16.45,
-      "catalyst": "Carvana (CVNA) Q3 2026 Earnings Call Transcript.",
-      "prev_close": 59.05,
-      "premarket_volume": 333492,
-      "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "Carvana (CVNA) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.nasdaq.com/articles/carvana-cvna-q3-2026-earnings-call-transcript"
-    },
-    {
       "ticker": "MESO",
-      "price": 15.53,
-      "gap_pct": 16.01,
+      "price": 15.52,
+      "gap_pct": 15.91,
       "catalyst": "Mesoblast Reports 44% Revenue Growth On Strong Ryoncil Sales; Stock Up.",
       "prev_close": 13.39,
       "premarket_volume": 78390,
@@ -117,9 +93,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/mesoblast-reports-44-revenue-growth-strong-ryoncil-sales-stock"
     },
     {
+      "ticker": "CVNA",
+      "price": 67.88,
+      "gap_pct": 14.95,
+      "catalyst": "Carvana (CVNA) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 59.05,
+      "premarket_volume": 333492,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Carvana (CVNA) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/carvana-cvna-q3-2026-earnings-call-transcript"
+    },
+    {
       "ticker": "FTAI",
-      "price": 190.34,
-      "gap_pct": 13.88,
+      "price": 190.53,
+      "gap_pct": 13.99,
       "catalyst": "FTAI Aviation Ltd.",
       "prev_close": 167.14,
       "premarket_volume": 68870,
@@ -129,33 +117,9 @@
       "catalyst_url": "https://www.nasdaq.com/articles/ftai-aviation-ltd-reports-strong-third-quarter-2026-performance-and-announces-5000-million"
     },
     {
-      "ticker": "NCLH",
-      "price": 17.85,
-      "gap_pct": 11.15,
-      "catalyst": "Norwegian Cruise Line Holdings Q3 26 Earnings Conference Call AT 8:30 AM ET.",
-      "prev_close": 16.06,
-      "premarket_volume": 6078042,
-      "session": "regular",
-      "catalyst_source": "RTTNews",
-      "catalyst_headline": "Norwegian Cruise Line Holdings Q3 26 Earnings Conference Call AT 8:30 AM ET ",
-      "catalyst_url": "https://www.nasdaq.com/articles/norwegian-cruise-line-holdings-q3-26-earnings-conference-call-8-30-am-et"
-    },
-    {
-      "ticker": "NEXT",
-      "price": 7.17,
-      "gap_pct": 10.17,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 6.51,
-      "premarket_volume": 58767,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "FRVO",
-      "price": 9.07,
-      "gap_pct": 8.84,
+      "price": 9.06,
+      "gap_pct": 8.76,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 8.33,
       "premarket_volume": 53986,
@@ -165,33 +129,21 @@
       "catalyst_url": null
     },
     {
-      "ticker": "KLAC",
-      "price": 170.38,
-      "gap_pct": 7.31,
-      "catalyst": "KLA (KLAC) Q1 2027 Earnings Call Transcript.",
-      "prev_close": 158.77,
-      "premarket_volume": 123400,
+      "ticker": "BAND",
+      "price": 52.36,
+      "gap_pct": 8.07,
+      "catalyst": "Bandwidth Inc.",
+      "prev_close": 48.45,
+      "premarket_volume": 104820,
       "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "KLA (KLAC) Q1 2027 Earnings Call Transcript",
-      "catalyst_url": "https://www.nasdaq.com/articles/kla-klac-q1-2027-earnings-call-transcript"
-    },
-    {
-      "ticker": "LLY",
-      "price": 1380.44,
-      "gap_pct": 7.15,
-      "catalyst": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline.",
-      "prev_close": 1288.3,
-      "premarket_volume": 202217,
-      "session": "regular",
-      "catalyst_source": "RTTNews",
-      "catalyst_headline": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline ",
-      "catalyst_url": "https://www.nasdaq.com/articles/eli-lilly-reports-39-q3-revenue-growth-raises-2026-sales-outlook-and-advances-drug"
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Bandwidth Inc. Appoints Charles R. Schroeder to Board of Directors, Expanding Board to 6 Members",
+      "catalyst_url": "https://www.nasdaq.com/articles/bandwidth-inc-appoints-charles-r-schroeder-board-directors-expanding-board-6-members"
     },
     {
       "ticker": "BOOM",
-      "price": 8.26,
-      "gap_pct": 6.91,
+      "price": 8.32,
+      "gap_pct": 7.63,
       "catalyst": "What DMC Global (BOOM) Said on Its Q3 Earnings Call.",
       "prev_close": 7.73,
       "premarket_volume": 78323,
@@ -202,8 +154,8 @@
     },
     {
       "ticker": "CMG",
-      "price": 30.62,
-      "gap_pct": 6.6,
+      "price": 30.9,
+      "gap_pct": 7.54,
       "catalyst": "Chipotle: 3 Key Takeaways for Long-Term Investors.",
       "prev_close": 28.73,
       "premarket_volume": 2252075,
@@ -213,21 +165,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/chipotle-3-key-takeaways-long-term-investors"
     },
     {
-      "ticker": "BAND",
-      "price": 51.6,
-      "gap_pct": 6.5,
-      "catalyst": "Bandwidth Inc.",
-      "prev_close": 48.45,
-      "premarket_volume": 104820,
+      "ticker": "KLAC",
+      "price": 170.22,
+      "gap_pct": 7.21,
+      "catalyst": "KLA (KLAC) Q1 2027 Earnings Call Transcript.",
+      "prev_close": 158.77,
+      "premarket_volume": 123400,
       "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "Bandwidth Inc. Appoints Charles R. Schroeder to Board of Directors, Expanding Board to 6 Members",
-      "catalyst_url": "https://www.nasdaq.com/articles/bandwidth-inc-appoints-charles-r-schroeder-board-directors-expanding-board-6-members"
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "KLA (KLAC) Q1 2027 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/kla-klac-q1-2027-earnings-call-transcript"
     },
     {
       "ticker": "DASH",
-      "price": 180.25,
-      "gap_pct": 6.35,
+      "price": 180.78,
+      "gap_pct": 6.66,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 169.49,
       "premarket_volume": 557079,
@@ -237,9 +189,33 @@
       "catalyst_url": null
     },
     {
+      "ticker": "LLY",
+      "price": 1373.08,
+      "gap_pct": 6.58,
+      "catalyst": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline.",
+      "prev_close": 1288.3,
+      "premarket_volume": 202217,
+      "session": "regular",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline ",
+      "catalyst_url": "https://www.nasdaq.com/articles/eli-lilly-reports-39-q3-revenue-growth-raises-2026-sales-outlook-and-advances-drug"
+    },
+    {
+      "ticker": "GGB",
+      "price": 4.76,
+      "gap_pct": 5.54,
+      "catalyst": "Gerdau (GGB) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 4.51,
+      "premarket_volume": 152015,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Gerdau (GGB) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/gerdau-ggb-q3-2026-earnings-call-transcript"
+    },
+    {
       "ticker": "FVRR",
-      "price": 8.59,
-      "gap_pct": 6.31,
+      "price": 8.52,
+      "gap_pct": 5.45,
       "catalyst": "Fiverr International Ltd.",
       "prev_close": 8.08,
       "premarket_volume": 99706,
@@ -249,16 +225,28 @@
       "catalyst_url": "https://www.nasdaq.com/articles/fiverr-international-ltd-reports-third-quarter-2026-revenue-909-million"
     },
     {
-      "ticker": "GGB",
-      "price": 4.74,
-      "gap_pct": 5.1,
-      "catalyst": "Gerdau (GGB) Q3 2026 Earnings Call Transcript.",
-      "prev_close": 4.51,
-      "premarket_volume": 152015,
+      "ticker": "AZUL",
+      "price": 3.97,
+      "gap_pct": 5.31,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.77,
+      "premarket_volume": 65670,
       "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "Gerdau (GGB) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.nasdaq.com/articles/gerdau-ggb-q3-2026-earnings-call-transcript"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "MRK",
+      "price": 148.24,
+      "gap_pct": 5.19,
+      "catalyst": "Merck & Co., Inc.",
+      "prev_close": 140.93,
+      "premarket_volume": 104766,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Merck & Co., Inc. Announces Third-Quarter 2026 Financial Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/merck-co-inc-announces-third-quarter-2026-financial-results"
     }
   ]
 }

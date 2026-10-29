@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-29",
-  "generated_at_et": "2026-10-29 10:36:02 EDT",
+  "generated_at_et": "2026-10-29 11:06:05 EDT",
   "source_premarket_file": "premarket_scan_2026-10-29.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,21 +10,34 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 20,
-  "valid_count": 1,
+  "candidates": 19,
+  "valid_count": 2,
   "valid_entries": [
     {
       "ticker": "GGB",
       "signal_time_et": "2026-10-29 10:00",
       "entry_price": 4.725,
-      "last_price": 4.74,
-      "gap_pct": 5.1,
+      "last_price": 4.76,
+      "gap_pct": 5.54,
       "yesterday_high": 4.6,
       "yesterday_close": 4.51,
       "sma200": 4.4614,
       "premarket_high": 4.67,
       "hod_before_signal": 4.72,
       "catalyst": "Gerdau (GGB) Q3 2026 Earnings Call Transcript."
+    },
+    {
+      "ticker": "GKOS",
+      "signal_time_et": "2026-10-29 10:41",
+      "entry_price": 233.99,
+      "last_price": 236.175,
+      "gap_pct": 29.52,
+      "yesterday_high": 187.94,
+      "yesterday_close": 181.43,
+      "sma200": 140.1251,
+      "premarket_high": 213.1,
+      "hod_before_signal": 233.65,
+      "catalyst": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market."
     }
   ],
   "evaluated": [
@@ -37,9 +50,9 @@
       "yesterday_close": 4.51,
       "sma200": 4.4614,
       "premarket_high": 4.67,
-      "last_price": 4.74,
-      "last_bar_et": "10:33",
-      "high_of_day": 4.76,
+      "last_price": 4.76,
+      "last_bar_et": "11:06",
+      "high_of_day": 4.78,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -49,8 +62,41 @@
       "signal_time_et": "2026-10-29 10:00",
       "entry_price": 4.725,
       "hod_before_signal": 4.72,
-      "gap_pct": 5.1,
+      "gap_pct": 5.54,
       "catalyst": "Gerdau (GGB) Q3 2026 Earnings Call Transcript."
+    },
+    {
+      "ticker": "GKOS",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 6.5254,
+      "yesterday_high": 187.94,
+      "yesterday_close": 181.43,
+      "sma200": 140.1251,
+      "premarket_high": 213.1,
+      "last_price": 236.175,
+      "last_bar_et": "11:05",
+      "high_of_day": 237.5675,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-10-29 10:41",
+      "entry_price": 233.99,
+      "hod_before_signal": 233.65,
+      "gap_pct": 29.52,
+      "catalyst": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market."
+    },
+    {
+      "ticker": "AZUL",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 107 trading days of history (< 200 needed for SMA200)",
+      "history_days": 107,
+      "gap_pct": 5.31,
+      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "BAND",
@@ -61,8 +107,8 @@
       "yesterday_close": 48.45,
       "sma200": 40.6949,
       "premarket_high": 48.5,
-      "last_price": 51.48,
-      "last_bar_et": "10:33",
+      "last_price": 52.35,
+      "last_bar_et": "11:05",
       "high_of_day": 54.04,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -71,7 +117,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 6.5,
+      "gap_pct": 8.07,
       "catalyst": "Bandwidth Inc."
     },
     {
@@ -83,8 +129,8 @@
       "yesterday_close": 6.92,
       "sma200": 5.689,
       "premarket_high": 7.79,
-      "last_price": 8.45,
-      "last_bar_et": "10:33",
+      "last_price": 8.455,
+      "last_bar_et": "11:06",
       "high_of_day": 8.5785,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -93,7 +139,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 22.25,
+      "gap_pct": 22.83,
       "catalyst": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -105,8 +151,8 @@
       "yesterday_close": 7.73,
       "sma200": 6.5612,
       "premarket_high": 8.1345,
-      "last_price": 8.23,
-      "last_bar_et": "10:33",
+      "last_price": 8.45,
+      "last_bar_et": "11:05",
       "high_of_day": 8.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -115,7 +161,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 6.91,
+      "gap_pct": 7.63,
       "catalyst": "What DMC Global (BOOM) Said on Its Q3 Earnings Call."
     },
     {
@@ -127,9 +173,9 @@
       "yesterday_close": 28.73,
       "sma200": 34.1406,
       "premarket_high": 31.34,
-      "last_price": 30.71,
-      "last_bar_et": "10:33",
-      "high_of_day": 31.03,
+      "last_price": 30.995,
+      "last_bar_et": "11:06",
+      "high_of_day": 31.075,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -137,7 +183,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.6,
+      "gap_pct": 7.54,
       "catalyst": "Chipotle: 3 Key Takeaways for Long-Term Investors."
     },
     {
@@ -149,8 +195,8 @@
       "yesterday_close": 119.69,
       "sma200": 109.2588,
       "premarket_high": 145.5,
-      "last_price": 146.51,
-      "last_bar_et": "10:33",
+      "last_price": 150.3201,
+      "last_bar_et": "11:06",
       "high_of_day": 150.6839,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -159,7 +205,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 21.92,
+      "gap_pct": 25.35,
       "catalyst": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up."
     },
     {
@@ -171,8 +217,8 @@
       "yesterday_close": 59.05,
       "sma200": 69.4238,
       "premarket_high": 65.1,
-      "last_price": 68.52,
-      "last_bar_et": "10:33",
+      "last_price": 67.905,
+      "last_bar_et": "11:06",
       "high_of_day": 69.23,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -181,7 +227,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.45,
+      "gap_pct": 14.95,
       "catalyst": "Carvana (CVNA) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -193,9 +239,9 @@
       "yesterday_close": 169.49,
       "sma200": 183.0621,
       "premarket_high": 188.94,
-      "last_price": 180.725,
-      "last_bar_et": "10:33",
-      "high_of_day": 181.08,
+      "last_price": 181.095,
+      "last_bar_et": "11:05",
+      "high_of_day": 181.21,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -203,7 +249,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.35,
+      "gap_pct": 6.66,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -212,7 +258,7 @@
       "signal": false,
       "reason": "Only 117 trading days of history (< 200 needed for SMA200)",
       "history_days": 117,
-      "gap_pct": 8.84,
+      "gap_pct": 8.76,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -224,8 +270,8 @@
       "yesterday_close": 167.14,
       "sma200": 232.5428,
       "premarket_high": 187.89,
-      "last_price": 190.84,
-      "last_bar_et": "10:33",
+      "last_price": 189.685,
+      "last_bar_et": "11:05",
       "high_of_day": 191.64,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -234,7 +280,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.88,
+      "gap_pct": 13.99,
       "catalyst": "FTAI Aviation Ltd."
     },
     {
@@ -246,8 +292,8 @@
       "yesterday_close": 8.08,
       "sma200": 10.7533,
       "premarket_high": 9.3,
-      "last_price": 8.57,
-      "last_bar_et": "10:33",
+      "last_price": 8.55,
+      "last_bar_et": "11:05",
       "high_of_day": 9.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -256,30 +302,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.31,
+      "gap_pct": 5.45,
       "catalyst": "Fiverr International Ltd."
-    },
-    {
-      "ticker": "GKOS",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 6.5254,
-      "yesterday_high": 187.94,
-      "yesterday_close": 181.43,
-      "sma200": 140.1251,
-      "premarket_high": 213.1,
-      "last_price": 230.86,
-      "last_bar_et": "10:33",
-      "high_of_day": 233.65,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 27.47,
-      "catalyst": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market."
     },
     {
       "ticker": "INSM",
@@ -290,8 +314,8 @@
       "yesterday_close": 96.98,
       "sma200": 125.9319,
       "premarket_high": 118.0,
-      "last_price": 113.27,
-      "last_bar_et": "10:33",
+      "last_price": 113.13,
+      "last_bar_et": "11:06",
       "high_of_day": 113.94,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -300,7 +324,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.24,
+      "gap_pct": 16.75,
       "catalyst": "Insmed Inc Q3 Loss Narrows."
     },
     {
@@ -312,9 +336,9 @@
       "yesterday_close": 158.77,
       "sma200": 181.8727,
       "premarket_high": 164.9297,
-      "last_price": 170.88,
-      "last_bar_et": "10:33",
-      "high_of_day": 171.04,
+      "last_price": 169.055,
+      "last_bar_et": "11:06",
+      "high_of_day": 171.31,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -322,7 +346,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.31,
+      "gap_pct": 7.21,
       "catalyst": "KLA (KLAC) Q1 2027 Earnings Call Transcript."
     },
     {
@@ -334,8 +358,8 @@
       "yesterday_close": 1288.3,
       "sma200": 1088.0386,
       "premarket_high": 1360.19,
-      "last_price": 1378.2875,
-      "last_bar_et": "10:33",
+      "last_price": 1369.12,
+      "last_bar_et": "11:05",
       "high_of_day": 1408.38,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -344,7 +368,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 7.15,
+      "gap_pct": 6.58,
       "catalyst": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline."
     },
     {
@@ -356,8 +380,8 @@
       "yesterday_close": 11.72,
       "sma200": 10.6031,
       "premarket_high": 14.75,
-      "last_price": 14.33,
-      "last_bar_et": "10:33",
+      "last_price": 13.97,
+      "last_bar_et": "11:05",
       "high_of_day": 14.565,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -366,7 +390,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 23.46,
+      "gap_pct": 18.17,
       "catalyst": "MediaAlpha (MAX) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -378,8 +402,8 @@
       "yesterday_close": 13.39,
       "sma200": 15.4342,
       "premarket_high": 16.279,
-      "last_price": 15.56,
-      "last_bar_et": "10:32",
+      "last_price": 15.6,
+      "last_bar_et": "11:05",
       "high_of_day": 15.81,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -388,75 +412,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.01,
+      "gap_pct": 15.91,
       "catalyst": "Mesoblast Reports 44% Revenue Growth On Strong Ryoncil Sales; Stock Up."
     },
     {
-      "ticker": "NCLH",
-      "status": "FAIL",
+      "ticker": "MRK",
+      "status": "NO_SIGNAL",
       "signal": false,
-      "atr14": 0.6343,
-      "yesterday_high": 16.15,
-      "yesterday_close": 16.06,
-      "sma200": 18.7483,
-      "premarket_high": 18.34,
-      "last_price": 17.925,
-      "last_bar_et": "10:33",
-      "high_of_day": 18.09,
+      "atr14": 4.7586,
+      "yesterday_high": 142.4,
+      "yesterday_close": 140.93,
+      "sma200": 126.3248,
+      "premarket_high": 147.05,
+      "last_price": 147.79,
+      "last_bar_et": "11:05",
+      "high_of_day": 149.26,
       "checks_now": {
         "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.15,
-      "catalyst": "Norwegian Cruise Line Holdings Q3 26 Earnings Conference Call AT 8:30 AM ET."
-    },
-    {
-      "ticker": "NEXT",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3189,
-      "yesterday_high": 6.6,
-      "yesterday_close": 6.51,
-      "sma200": 6.9436,
-      "premarket_high": 6.77,
-      "last_price": 7.175,
-      "last_bar_et": "10:33",
-      "high_of_day": 7.23,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
+        "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.17,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "NUWE",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.5521,
-      "yesterday_high": 5.7,
-      "yesterday_close": 5.66,
-      "sma200": 27.5812,
-      "premarket_high": 7.48,
-      "last_price": 6.605,
-      "last_bar_et": "10:33",
-      "high_of_day": 7.15,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.79,
-      "catalyst": "Nuwellis To Implement 1-for-9 Reverse Stock Split; Stock Down."
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 5.19,
+      "catalyst": "Merck & Co., Inc."
     }
   ],
-  "scan_time_et": "10:36"
+  "scan_time_et": "11:06"
 }
