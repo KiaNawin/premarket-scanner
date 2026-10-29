@@ -9,3 +9,6 @@ output/
 cache/
 dime_values*.csv
 holdings.csv
+/trades.csv
+# portfolio/trades.csv (the ledger) is covered by portfolio/ above.
+# history/trades.csv is the scanner's public signal journal (committed by GitHub Actions) — keep it tracked.

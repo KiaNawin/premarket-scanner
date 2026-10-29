@@ -201,6 +201,30 @@ class OutputFormat(unittest.TestCase):
         self.assertEqual(R.previous_run(root, "2026-10-03"), ("2026-10-02", {"NVDA": {"stage": 3}}))
 
 
+class LastBarComplete(unittest.TestCase):
+    def test_rule(self):
+        et = cli.ET
+        f = lambda y, mo, d, h, mi: cli.last_bar_complete(cli.dt.datetime(y, mo, d, h, mi, tzinfo=et))
+        self.assertFalse(f(2026, 10, 29, 15, 31))     # Thu, market open
+        self.assertFalse(f(2026, 10, 29, 8, 0))       # Thu, pre-market
+        self.assertTrue(f(2026, 10, 29, 16, 0))       # at the close
+        self.assertTrue(f(2026, 10, 29, 19, 0))       # after the close (07:00 Bangkok next day)
+        self.assertTrue(f(2026, 10, 31, 12, 0))       # Saturday
+        self.assertTrue(f(2026, 11, 26, 12, 0))       # Thanksgiving holiday
+
+    def test_meta_always_has_field(self):
+        t = OutputFormat("test_json_layout_and_p_matches_ohlc")
+        t.setUp()
+        try:
+            for when, want in ((cli.dt.datetime(2026, 10, 29, 15, 31, tzinfo=cli.ET), False),
+                               (cli.dt.datetime(2026, 10, 29, 19, 0, tzinfo=cli.ET), True)):
+                with mock.patch.object(cli, "_now_et", return_value=when):
+                    rc, out, doc, *_ = t._run()
+                self.assertIs(doc["meta"]["last_bar_complete"], want)
+        finally:
+            t.tearDown()
+
+
 class LevelAlerts(unittest.TestCase):
     cfg = {"levels": {"near_atr_mult": 0.5}}
 

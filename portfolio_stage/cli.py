@@ -24,6 +24,19 @@ def _now_et() -> dt.datetime:
     return dt.datetime.now(ET)
 
 
+def is_trading_day(d: dt.date) -> bool:
+    try:
+        from run_cycle import NYSE_HOLIDAYS             # same holiday list as the scanner
+    except Exception:
+        NYSE_HOLIDAYS = set()
+    return d.weekday() < 5 and d.isoformat() not in NYSE_HOLIDAYS
+
+
+def last_bar_complete(now_et: dt.datetime) -> bool:
+    """False whenever the run happens before 16:00 ET on a US trading day (that day's bar isn't final yet)."""
+    return not (is_trading_day(now_et.date()) and now_et.time() < dt.time(16, 0))
+
+
 def _last_completed_close(df, now_et: dt.datetime) -> tuple[float, dt.date]:
     """Latest *finished* daily close (ignores today's bar while the market is still open)."""
     last = df.index[-1].date()
@@ -295,9 +308,8 @@ def cmd_run(args, cfg) -> int:
                 "total_value": A.r2(total), "positions": len(rows)}
     if q_err:
         meta_out["quote_error"] = q_err
-    intraday = spy is not None and spy.index[-1].date() == now.date() and now.time() < dt.time(16, 0)
-    if intraday:
-        meta_out["last_bar_complete"] = False
+    meta_out["last_bar_complete"] = last_bar_complete(now)
+    intraday = not meta_out["last_bar_complete"]
     R.write_outputs(out_dir, meta_out, rows, alerts, cfg)
     frames = {t: prices.get(D.to_yahoo(t)) for t in held}
     frames[bench] = spy                                      # SPY always (missing -> validator fails, as it should)
@@ -305,8 +317,8 @@ def cmd_run(args, cfg) -> int:
     R.write_holdings_csv(V._abs(cfg["validator"]["holdings_csv"]), held, meta)
     print(f"✓ {len(rows)} positions · total ${total:,.0f} · {len(alerts)} alerts → {out_dir}")
     if intraday:
-        print(f"⚠️ ตลาดสหรัฐยังเปิดอยู่ ({now:%H:%M} ET) — แท่งวันที่ {now.date()} ยังไม่จบ ราคา p เป็นราคาระหว่างวัน "
-              "จะไม่ตรงกับราคาปิดใน TradingView · ควรรันใหม่หลัง 05:00 น. (เวลาไทย) ก่อนอัปโหลด")
+        print(f"⚠️ last_bar_complete: false — รันก่อน 16:00 ET ของวันทำการ ({now:%Y-%m-%d %H:%M} ET) "
+              "แท่งวันนี้ยังไม่จบ ราคาอาจเป็นราคาระหว่างวัน · ห้ามอัปโหลด ให้รันใหม่หลังตลาดปิด (หลัง 05:00 น. เวลาไทย)")
     if miss_reasons:
         print(f"⚠️ ดึงข้อมูลไม่ได้: " + "; ".join(f"{t} ({why})" for t, why in miss_reasons.items()))
 
