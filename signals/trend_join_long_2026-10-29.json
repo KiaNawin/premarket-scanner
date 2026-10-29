@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-29",
-  "generated_at_et": "2026-10-29 08:35:01 EDT",
+  "generated_at_et": "2026-10-29 09:05:02 EDT",
   "source_premarket_file": "premarket_scan_2026-10-29.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,23 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 17,
+  "candidates": 18,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "BAX",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.7643,
+      "yesterday_high": 26.03,
+      "yesterday_close": 25.46,
+      "sma200": 21.303,
+      "premarket_high": 27.0,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.38,
+      "catalyst": "Baxter Reports Profit In Q3; Raises 2026 Financial Outlook."
+    },
     {
       "ticker": "BHC",
       "status": "WAITING",
@@ -22,10 +35,23 @@
       "yesterday_high": 6.97,
       "yesterday_close": 6.92,
       "sma200": 5.689,
-      "premarket_high": 7.69,
+      "premarket_high": 7.7799,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.83,
+      "gap_pct": 10.07,
       "catalyst": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript."
+    },
+    {
+      "ticker": "BOOM",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.4107,
+      "yesterday_high": 7.74,
+      "yesterday_close": 7.73,
+      "sma200": 6.5612,
+      "premarket_high": 8.1345,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.17,
+      "catalyst": "What DMC Global (BOOM) Said on Its Q3 Earnings Call."
     },
     {
       "ticker": "CMG",
@@ -35,9 +61,9 @@
       "yesterday_high": 29.24,
       "yesterday_close": 28.73,
       "sma200": 34.1406,
-      "premarket_high": 31.2414,
+      "premarket_high": 31.34,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.37,
+      "gap_pct": 8.18,
       "catalyst": "Chipotle: 3 Key Takeaways for Long-Term Investors."
     },
     {
@@ -48,9 +74,9 @@
       "yesterday_high": 121.0,
       "yesterday_close": 119.69,
       "sma200": 109.2588,
-      "premarket_high": 143.668,
+      "premarket_high": 145.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 17.84,
+      "gap_pct": 18.59,
       "catalyst": "Crocs Inc."
     },
     {
@@ -61,9 +87,9 @@
       "yesterday_high": 60.45,
       "yesterday_close": 59.05,
       "sma200": 69.4238,
-      "premarket_high": 64.6888,
+      "premarket_high": 65.1,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.79,
+      "gap_pct": 8.86,
       "catalyst": "Carvana (CVNA) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -76,8 +102,21 @@
       "sma200": 183.0621,
       "premarket_high": 188.94,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.63,
+      "gap_pct": 7.32,
       "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "FVRR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2456,
+      "yesterday_high": 8.159,
+      "yesterday_close": 8.08,
+      "sma200": 10.7533,
+      "premarket_high": 9.3,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 10.86,
+      "catalyst": "Fiverr International Ltd."
     },
     {
       "ticker": "INSM",
@@ -89,7 +128,7 @@
       "sma200": 125.9319,
       "premarket_high": 118.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 13.84,
+      "gap_pct": 17.55,
       "catalyst": "Insmed Inc Q3 Loss Narrows."
     },
     {
@@ -100,23 +139,10 @@
       "yesterday_high": 921.0,
       "yesterday_close": 913.95,
       "sma200": 795.8372,
-      "premarket_high": 979.6,
+      "premarket_high": 984.37,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.02,
+      "gap_pct": 6.85,
       "catalyst": "Not Nvidia."
-    },
-    {
-      "ticker": "LLY",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 37.3829,
-      "yesterday_high": 1299.4301,
-      "yesterday_close": 1288.3,
-      "sma200": 1088.0386,
-      "premarket_high": 1360.19,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.1,
-      "catalyst": "Lilly Q3 Profit Rises 16%; Lifts FY26 Sales View, Trims Adjusted Earnings Outlook."
     },
     {
       "ticker": "MAX",
@@ -141,7 +167,7 @@
       "sma200": 18.7483,
       "premarket_high": 18.34,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 11.33,
+      "gap_pct": 10.85,
       "catalyst": "Norwegian Cruise Line Holdings Q3 26 Earnings Conference Call AT 8:30 AM ET."
     },
     {
@@ -152,23 +178,10 @@
       "yesterday_high": 5.7,
       "yesterday_close": 5.66,
       "sma200": 27.5812,
-      "premarket_high": 7.3162,
+      "premarket_high": 7.48,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 17.02,
+      "gap_pct": 28.09,
       "catalyst": "Nuwellis To Implement 1-for-9 Reverse Stock Split; Stock Down."
-    },
-    {
-      "ticker": "NVCR",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.6596,
-      "yesterday_high": 14.64,
-      "yesterday_close": 14.17,
-      "sma200": 14.8216,
-      "premarket_high": 16.5722,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.72,
-      "catalyst": "NovoCure Q3 Loss Decreases."
     },
     {
       "ticker": "PCLA",
@@ -180,7 +193,7 @@
       "sma200": 5.0319,
       "premarket_high": 9.4131,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 31.53,
+      "gap_pct": 30.93,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -193,21 +206,8 @@
       "sma200": 7.5768,
       "premarket_high": 11.75,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.03,
+      "gap_pct": 13.34,
       "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "PWR",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 30.0264,
-      "yesterday_high": 609.44,
-      "yesterday_close": 606.89,
-      "sma200": 624.3602,
-      "premarket_high": 644.6,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.19,
-      "catalyst": "Quanta Services Q3 26 Earnings Conference Call At 9:00 AM ET."
     },
     {
       "ticker": "REAL",
@@ -223,6 +223,19 @@
       "catalyst": "No recent news catalyst found."
     },
     {
+      "ticker": "SIMO",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 16.2079,
+      "yesterday_high": 222.29,
+      "yesterday_close": 219.61,
+      "sma200": 213.657,
+      "premarket_high": 252.0,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 11.77,
+      "catalyst": "Silicon Motion Technology Q3 26 Earnings Conference Call At 8:00 AM ET."
+    },
+    {
       "ticker": "TDOC",
       "status": "WAITING",
       "signal": false,
@@ -232,9 +245,9 @@
       "sma200": 6.4514,
       "premarket_high": 7.95,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.47,
+      "gap_pct": 13.35,
       "catalyst": "Teladoc: 3 Key Takeaways for Long-Term Investors."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
