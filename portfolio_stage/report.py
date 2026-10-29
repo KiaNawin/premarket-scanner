@@ -69,11 +69,15 @@ def stage_cell(r: dict) -> str:
     return f"S{r['stage']}{d}{' ' + r['flag'] if r.get('flag') else ''}"
 
 
-def quality_cell(q: dict | None) -> str:
+def quality_cell(q: dict | None, partial: dict | None = None) -> str:
+    q = q or partial
     if not q or all(v is None for v in q.values()):
         return "—"
     return "/".join("–" if q.get(k) is None else f"{q[k]:g}"
                     for k in ("growth", "profitability", "consistency", "balance_sheet", "valuation"))
+
+
+CLAMP_PCT = 0.5
 
 
 def ohlc_rows(df, days: int) -> list[list]:
@@ -90,8 +94,17 @@ def ohlc_rows(df, days: int) -> list[list]:
             v = 0
         c = round_px(row["Close"])
         o, h, lo = (round_px(row.get(k)) for k in ("Open", "High", "Low"))
-        out.append([idx.strftime("%Y-%m-%d"), c if o is None else o, c if h is None else h,
-                    c if lo is None else lo, c, v])
+        o = c if o is None else o
+        h = c if h is None else h
+        lo = c if lo is None else lo
+        # Yahoo sometimes has the close/open a hair outside high/low (adjustment rounding): widen the range by
+        # at most CLAMP_PCT so the bar is consistent; anything bigger is left as is for the validator to flag.
+        top, bot = max(o, c), min(o, c)
+        if h < top and (top - h) / top * 100 <= CLAMP_PCT:
+            h = top
+        if lo > bot and (lo - bot) / bot * 100 <= CLAMP_PCT:
+            lo = bot
+        out.append([idx.strftime("%Y-%m-%d"), o, h, lo, c, v])
     return out
 
 
@@ -138,7 +151,7 @@ def write_outputs(out_dir: str, meta: dict, rows: dict, alerts: list[tuple[str, 
         rs99 = "—" if r.get("rs_score") is None else str(r["rs_score"])
         L.append(f"| **{t}**{hist} | {_pct(r.get('weight_pct'))} | {stage_cell(r)} | {r.get('trend_label') or '—'} | "
                  f"{rs99} | {rs} | {_m(r.get('p'))} | {_m(r.get('support'))} / {_m(r.get('resistance'))} | "
-                 f"{_m(r.get('stop'))} | {rr} | {quality_cell(r.get('quality'))} |")
+                 f"{_m(r.get('stop'))} | {rr} | {quality_cell(r.get('quality'), r.get('quality_partial'))} |")
     L += ["", "Stage: S1 basing · S2 advancing · S3 topping · S4 declining · ✅ healthy S2 · ⚠️ S2 losing steam · "
           "`≥` = stage began before the price history starts",
           "RS 1-99 = rank among your holdings of weighted return vs SPY · Quality 0-5: growth / profitability / "

@@ -55,16 +55,26 @@ class OutputFormat(unittest.TestCase):
         with open(os.path.join(out, name), encoding="utf-8") as f:
             return json.load(f) if name.endswith(".json") else f.read()
 
-    def _run(self, script=PASS_SCRIPT, drop=()):
+    def _run(self, script=PASS_SCRIPT, drop=(), fundamentals=False):
         if script is not None:
             os.makedirs(os.path.dirname(self.script), exist_ok=True)
             with open(self.script, "w") as f:
                 f.write(script)
         prices = {k: v for k, v in self.prices.items() if k not in drop}
         missing = {k: "not found on Yahoo" for k in drop}
-        args = argparse.Namespace(refresh=False, no_fundamentals=True, telegram=False)
+        args = argparse.Namespace(refresh=False, no_fundamentals=not fundamentals, telegram=False)
+        full = {"rev_growth": 0.3, "ni": 20, "rev_ttm": 100, "ni_quarters": [1, 2, 3, 4], "total_cash": 9,
+                "total_debt": 1, "forward_pe": 40, "reasons": {}}
+        partial = {"rev_growth": 0.1, "reasons": {}}                    # Yahoo gave almost nothing
+        from portfolio_stage import events as EV
+        from portfolio_stage import fundamentals as F
         with mock.patch.object(D, "fetch_daily", return_value=(prices, missing)), \
-                mock.patch.object(D, "fetch_quotes", return_value=({}, None)):
+                mock.patch.object(D, "fetch_quotes", return_value=({}, None)), \
+                mock.patch.object(F, "earnings", return_value={"earnings_date": None, "earnings_soon": False,
+                                                               "reason": "none"}), \
+                mock.patch.object(F, "fundamentals", side_effect=lambda yt, cfg: partial if yt == "CRWD" else full), \
+                mock.patch.object(EV, "earnings_events", return_value=([], None)), \
+                mock.patch.object(EV, "big_news", return_value=([], None)):
             rc = cli.cmd_run(args, self.cfg)
         out = os.path.join(self.cfg["paths"]["output"], cli._now_et().date().isoformat())
         doc, ohlc, alerts = (self._read(out, n) for n in ("portfolio_stage.json", "ohlc.json", "alerts.md"))
@@ -83,7 +93,7 @@ class OutputFormat(unittest.TestCase):
             self.assertIsInstance(r["stage"], int)
             self.assertIn(r["stage"], (1, 2, 3, 4))
             self.assertEqual(set(r["levels"]), {"S1", "S2", "R1", "TP1"})
-            self.assertEqual(set(r["quality"]), set(Q.FIELDS))
+            self.assertIsNone(r["quality"])                                   # --no-fundamentals
             self.assertTrue(1 <= r["rs_score"] <= 99)
             last = ohlc["tickers"][t][-1]
             self.assertEqual(r["p"], last[4])                                   # p == last ohlc close
@@ -114,6 +124,50 @@ class OutputFormat(unittest.TestCase):
         self.assertEqual(len(dates), len(set(dates)))
         self.assertEqual(dates[-1], df.index[-1].strftime("%Y-%m-%d"))
         self.assertEqual(len(rows), 500)
+
+    def _real_validator(self):
+        path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tools", "validate_output.py")
+        if not os.path.exists(path):
+            self.skipTest("tools/validate_output.py not present")
+        with open(path, encoding="utf-8") as f:
+            return f.read()
+
+    def test_real_validator_passes_no_fundamentals(self):
+        rc, out, doc, ohlc, alerts = self._run(self._real_validator())
+        self.assertEqual(rc, 0, self._read(out, "validate.txt"))
+        self.assertIn("อัปโหลดได้", self._read(out, "validate.txt"))
+
+    def test_real_validator_passes_with_quality_and_etf(self):
+        with open(self.cfg["paths"]["meta"], "a", encoding="utf-8") as f:
+            f.write("SPYM,def,EC\n")                                    # an ETF holding
+        L.append_trades(self.cfg["paths"]["trades"], [{"datetime": "2026-01-02T21:31:00+07:00", "ticker": "SPYM",
+                                                        "side": "BUY", "shares": 1, "price": 10, "fee": 0}])
+        self.prices["SPYM"] = fake_prices(9, start=70)
+        rc, out, doc, ohlc, alerts = self._run(self._real_validator(), fundamentals=True)
+        self.assertEqual(rc, 0, self._read(out, "validate.txt"))
+        tk = doc["tickers"]
+        self.assertEqual(set(tk["NVDA"]["quality"]), set(Q.FIELDS))
+        self.assertTrue(all(0 <= v <= 5 for v in tk["NVDA"]["quality"].values()))
+        self.assertIsNone(tk["CRWD"]["quality"])                             # incomplete -> null, never partial nulls
+        self.assertEqual(tk["CRWD"]["quality_partial"]["growth"], 3.0)
+        self.assertIn("incomplete", tk["CRWD"]["null_reasons"]["quality"])
+        self.assertIsNone(tk["SPYM"]["quality"])                             # ETF
+
+    def test_real_validator_fails_when_ticker_missing(self):
+        rc, out, doc, ohlc, alerts = self._run(self._real_validator(), drop=("BRK-B",))
+        self.assertEqual(rc, cli.VALIDATION_FAILED)
+        first = alerts.splitlines()[0]
+        self.assertIn("ห้ามอัปโหลด", first)
+        self.assertIn("FAIL ขาด ['BRK-B']", alerts)
+
+    def test_tiny_ohlc_glitch_clamped_big_one_kept(self):
+        from portfolio_stage import report as R
+        idx = pd.to_datetime(["2026-10-27", "2026-10-28"])
+        df = pd.DataFrame({"Open": [10.0, 10.0], "High": [10.02, 10.0], "Low": [9.9, 9.0],
+                           "Close": [10.03, 12.0], "Volume": [1, 1]}, index=idx)
+        rows = R.ohlc_rows(df, 500)
+        self.assertEqual(rows[0][2], 10.03)            # high raised to the close (0.1% glitch)
+        self.assertEqual(rows[1][2], 10.0)             # 20% inconsistency left for the validator
 
     def test_validator_fail_puts_banner_first(self):
         rc, out, doc, ohlc, alerts = self._run(FAIL_SCRIPT)

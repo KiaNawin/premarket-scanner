@@ -227,12 +227,14 @@ Keyword lists: `events:` in `config.yaml`. ETFs are skipped. `--no-fundamentals`
 
 **Upload files** (same folder): `portfolio_stage.json` = `{"meta": {as_of, spy_price, missing_tickers: [...]},
 "tickers": {T: {p, value, stage (1–4), stage_days, flag, m50, m200, rsi, hi, lo, rs_score (1–99), levels {S1, S2,
-R1, TP1}, quality {growth, profitability, consistency, balance_sheet, valuation} (0–5), …}}}` and `ohlc.json` =
-`{"as_of", "tickers": {T: [[date, o, h, l, c, v], …]}}` — 500 adjusted daily bars, **SPY always included**.
+R1, TP1}, quality {growth, profitability, consistency, balance_sheet, valuation} (0–5) — all five numbers or `null`
+(ETFs / incomplete Yahoo data; partial scores go to `quality_partial`), …}}}` and `ohlc.json` =
+`{"as_of", "tickers": {T: [["YYYY-MM-DD", o, h, l, c, v], …]}}` — 500 adjusted daily bars, oldest → newest
+(last row = latest day), **SPY always included**.
 `p` is exactly the last close in `ohlc.json`; `value` = shares × p. `holdings.csv` (ticker, shares, group,
 quality letter) is rebuilt from the ledger at the repo root every run (gitignored).
 
-**Validation:** put your `validate_output.py` in `tools/` (its criteria are never changed here). Every `run`
+**Validation:** `tools/validate_output.py` (from the rebalance page; its criteria are never changed here). Every `run`
 then calls `python tools/validate_output.py output/<date> holdings.csv` automatically and saves the output
 to `output/<date>/validate.txt`. Exit code ≠ 0, or the script missing → the FAIL lines are printed in a box,
 the **first line of `alerts.md`** (and of the Telegram message) becomes `⛔ ห้ามอัปโหลด — DO NOT UPLOAD …`,

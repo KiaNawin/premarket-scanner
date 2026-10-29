@@ -161,7 +161,7 @@ def cmd_run(args, cfg) -> int:
         tier = m.get("quality") or None                    # letter A/B/C/EC/ET from meta.csv
         r = {"shares": round(p.shares, 6), "avg_cost": A.r2(p.avg_cost, 4), "group": m.get("group") or None,
              "tier": tier, "levels": {k: None for k in R.LEVEL_KEYS},
-             "quality": {k: None for k in Q.FIELDS}, "null_reasons": {}}
+             "quality": None, "null_reasons": {}}
         nr = r["null_reasons"]
         df = prices.get(yt)
         if df is None:
@@ -226,10 +226,10 @@ def cmd_run(args, cfg) -> int:
         fkeys = ("earnings_date", "mcap", "rev_growth", "ni", "fcf", "shares_chg")
         fu = None
         if args.no_fundamentals:
-            for k in fkeys + tuple(f"quality.{q}" for q in Q.FIELDS):
+            for k in fkeys + ("quality",):
                 nr[k] = "skipped (--no-fundamentals)"
         elif tier in etf_q:
-            for k in fkeys + tuple(f"quality.{q}" for q in Q.FIELDS):
+            for k in fkeys + ("quality",):
                 nr[k] = f"ETF (tier {tier}) — no company fundamentals"
         else:
             e = F.earnings(yt, cfg, as_of)
@@ -239,8 +239,13 @@ def cmd_run(args, cfg) -> int:
             fu = F.fundamentals(yt, cfg)
             r.update({k: fu.get(k) for k in ("mcap", "rev_growth", "rev_growth_q_yoy", "ni", "fcf", "shares_chg")})
             nr.update({k: v for k, v in fu.get("reasons", {}).items() if r.get(k) is None})
-            r["quality"], qwhy = Q.scores(fu, cfg)
+            qs, qwhy = Q.scores(fu, cfg)
             nr.update({f"quality.{k}": v for k, v in qwhy.items()})
+            if all(v is not None for v in qs.values()):
+                r["quality"] = qs
+            else:                 # quality is all 5 numbers or null — partial scores kept separately
+                r["quality_partial"] = qs
+                nr["quality"] = "incomplete: " + ", ".join(k for k, v in qs.items() if v is None)
         # ---- this week's earnings & big news
         r["events"] = {"earnings": [], "news": [], "move_1w": None, "errors": []}
         ev = r["events"]
