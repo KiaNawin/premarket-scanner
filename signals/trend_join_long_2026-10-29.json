@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-29",
-  "generated_at_et": "2026-10-29 11:36:28 EDT",
+  "generated_at_et": "2026-10-29 12:05:54 EDT",
   "source_premarket_file": "premarket_scan_2026-10-29.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -17,8 +17,8 @@
       "ticker": "GGB",
       "signal_time_et": "2026-10-29 10:00",
       "entry_price": 4.725,
-      "last_price": 4.78,
-      "gap_pct": 5.99,
+      "last_price": 4.79,
+      "gap_pct": 6.21,
       "yesterday_high": 4.6,
       "yesterday_close": 4.51,
       "sma200": 4.4614,
@@ -30,8 +30,8 @@
       "ticker": "CYPH",
       "signal_time_et": "2026-10-29 10:36",
       "entry_price": 3.28,
-      "last_price": 3.455,
-      "gap_pct": 5.56,
+      "last_price": 3.495,
+      "gap_pct": 7.87,
       "yesterday_high": 3.26,
       "yesterday_close": 3.24,
       "sma200": 1.2602,
@@ -43,8 +43,8 @@
       "ticker": "GKOS",
       "signal_time_et": "2026-10-29 10:41",
       "entry_price": 233.99,
-      "last_price": 239.5,
-      "gap_pct": 30.98,
+      "last_price": 240.765,
+      "gap_pct": 32.22,
       "yesterday_high": 187.94,
       "yesterday_close": 181.43,
       "sma200": 140.1251,
@@ -56,8 +56,8 @@
       "ticker": "CROX",
       "signal_time_et": "2026-10-29 11:06",
       "entry_price": 150.79,
-      "last_price": 151.345,
-      "gap_pct": 26.05,
+      "last_price": 149.82,
+      "gap_pct": 25.28,
       "yesterday_high": 121.0,
       "yesterday_close": 119.69,
       "sma200": 109.2588,
@@ -66,17 +66,17 @@
       "catalyst": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up."
     },
     {
-      "ticker": "ENTG",
-      "signal_time_et": "2026-10-29 11:27",
-      "entry_price": 168.83,
-      "last_price": 169.0206,
-      "gap_pct": 6.08,
-      "yesterday_high": 160.1,
-      "yesterday_close": 159.32,
-      "sma200": 137.6853,
-      "premarket_high": 168.44,
-      "hod_before_signal": 168.535,
-      "catalyst": "Entegris, Inc."
+      "ticker": "BHC",
+      "signal_time_et": "2026-10-29 11:50",
+      "entry_price": 8.635,
+      "last_price": 8.54,
+      "gap_pct": 25.07,
+      "yesterday_high": 6.97,
+      "yesterday_close": 6.92,
+      "sma200": 5.689,
+      "premarket_high": 7.79,
+      "hod_before_signal": 8.63,
+      "catalyst": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript."
     }
   ],
   "evaluated": [
@@ -89,9 +89,9 @@
       "yesterday_close": 4.51,
       "sma200": 4.4614,
       "premarket_high": 4.67,
-      "last_price": 4.78,
-      "last_bar_et": "11:36",
-      "high_of_day": 4.78,
+      "last_price": 4.79,
+      "last_bar_et": "12:05",
+      "high_of_day": 4.805,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -101,7 +101,7 @@
       "signal_time_et": "2026-10-29 10:00",
       "entry_price": 4.725,
       "hod_before_signal": 4.72,
-      "gap_pct": 5.99,
+      "gap_pct": 6.21,
       "catalyst": "Gerdau (GGB) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -113,9 +113,9 @@
       "yesterday_close": 3.24,
       "sma200": 1.2602,
       "premarket_high": 3.18,
-      "last_price": 3.455,
-      "last_bar_et": "11:36",
-      "high_of_day": 3.49,
+      "last_price": 3.495,
+      "last_bar_et": "12:05",
+      "high_of_day": 3.5,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -125,7 +125,7 @@
       "signal_time_et": "2026-10-29 10:36",
       "entry_price": 3.28,
       "hod_before_signal": 3.26,
-      "gap_pct": 5.56,
+      "gap_pct": 7.87,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -137,9 +137,9 @@
       "yesterday_close": 181.43,
       "sma200": 140.1251,
       "premarket_high": 213.1,
-      "last_price": 239.5,
-      "last_bar_et": "11:36",
-      "high_of_day": 239.74,
+      "last_price": 240.765,
+      "last_bar_et": "12:05",
+      "high_of_day": 241.4699,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -149,7 +149,7 @@
       "signal_time_et": "2026-10-29 10:41",
       "entry_price": 233.99,
       "hod_before_signal": 233.65,
-      "gap_pct": 30.98,
+      "gap_pct": 32.22,
       "catalyst": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market."
     },
     {
@@ -161,8 +161,8 @@
       "yesterday_close": 119.69,
       "sma200": 109.2588,
       "premarket_high": 145.5,
-      "last_price": 151.345,
-      "last_bar_et": "11:36",
+      "last_price": 149.82,
+      "last_bar_et": "12:05",
       "high_of_day": 151.82,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -173,32 +173,32 @@
       "signal_time_et": "2026-10-29 11:06",
       "entry_price": 150.79,
       "hod_before_signal": 150.6839,
-      "gap_pct": 26.05,
+      "gap_pct": 25.28,
       "catalyst": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up."
     },
     {
-      "ticker": "ENTG",
+      "ticker": "BHC",
       "status": "VALID_ENTRY",
       "signal": true,
-      "atr14": 9.6721,
-      "yesterday_high": 160.1,
-      "yesterday_close": 159.32,
-      "sma200": 137.6853,
-      "premarket_high": 168.44,
-      "last_price": 169.0206,
-      "last_bar_et": "11:36",
-      "high_of_day": 170.01,
+      "atr14": 0.2807,
+      "yesterday_high": 6.97,
+      "yesterday_close": 6.92,
+      "sma200": 5.689,
+      "premarket_high": 7.79,
+      "last_price": 8.54,
+      "last_bar_et": "12:05",
+      "high_of_day": 8.66,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "signal_time_et": "2026-10-29 11:27",
-      "entry_price": 168.83,
-      "hod_before_signal": 168.535,
-      "gap_pct": 6.08,
-      "catalyst": "Entegris, Inc."
+      "signal_time_et": "2026-10-29 11:50",
+      "entry_price": 8.635,
+      "hod_before_signal": 8.63,
+      "gap_pct": 25.07,
+      "catalyst": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript."
     },
     {
       "ticker": "ASTS",
@@ -209,9 +209,9 @@
       "yesterday_close": 42.3,
       "sma200": 78.0168,
       "premarket_high": 41.83,
-      "last_price": 44.34,
-      "last_bar_et": "11:36",
-      "high_of_day": 44.68,
+      "last_price": 44.67,
+      "last_bar_et": "12:05",
+      "high_of_day": 44.848,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -219,7 +219,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.09,
+      "gap_pct": 5.65,
       "catalyst": "AST SpaceMobile Faces Launch Risks as SpaceX Raises the Competitive Stakes."
     },
     {
@@ -228,7 +228,7 @@
       "signal": false,
       "reason": "Only 107 trading days of history (< 200 needed for SMA200)",
       "history_days": 107,
-      "gap_pct": 6.63,
+      "gap_pct": 5.44,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -240,8 +240,8 @@
       "yesterday_close": 48.45,
       "sma200": 40.6949,
       "premarket_high": 48.5,
-      "last_price": 51.97,
-      "last_bar_et": "11:35",
+      "last_price": 51.64,
+      "last_bar_et": "12:05",
       "high_of_day": 54.04,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -250,30 +250,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 7.01,
+      "gap_pct": 6.36,
       "catalyst": "Bandwidth Inc."
-    },
-    {
-      "ticker": "BHC",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.2807,
-      "yesterday_high": 6.97,
-      "yesterday_close": 6.92,
-      "sma200": 5.689,
-      "premarket_high": 7.79,
-      "last_price": 8.47,
-      "last_bar_et": "11:36",
-      "high_of_day": 8.5785,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 23.19,
-      "catalyst": "Bausch Health (BHC) Q3 2026 Earnings Call Transcript."
     },
     {
       "ticker": "BOOM",
@@ -284,8 +262,8 @@
       "yesterday_close": 7.73,
       "sma200": 6.5612,
       "premarket_high": 8.1345,
-      "last_price": 8.34,
-      "last_bar_et": "11:36",
+      "last_price": 8.5,
+      "last_bar_et": "12:05",
       "high_of_day": 8.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -294,7 +272,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 7.89,
+      "gap_pct": 9.96,
       "catalyst": "What DMC Global (BOOM) Said on Its Q3 Earnings Call."
     },
     {
@@ -303,7 +281,7 @@
       "signal": false,
       "reason": "Only 116 trading days of history (< 200 needed for SMA200)",
       "history_days": 116,
-      "gap_pct": 5.26,
+      "gap_pct": 6.26,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -315,9 +293,9 @@
       "yesterday_close": 28.73,
       "sma200": 34.1406,
       "premarket_high": 31.34,
-      "last_price": 31.02,
-      "last_bar_et": "11:36",
-      "high_of_day": 31.195,
+      "last_price": 31.1718,
+      "last_bar_et": "12:05",
+      "high_of_day": 31.22,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -325,8 +303,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.37,
+      "gap_pct": 8.34,
       "catalyst": "Chipotle: 3 Key Takeaways for Long-Term Investors."
+    },
+    {
+      "ticker": "CRH",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.0429,
+      "yesterday_high": 86.99,
+      "yesterday_close": 86.54,
+      "sma200": 104.4388,
+      "premarket_high": 87.41,
+      "last_price": 90.68,
+      "last_bar_et": "12:05",
+      "high_of_day": 91.09,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.21,
+      "catalyst": "CRH Plc Q3 26 Earnings Conference Call At 8:00 AM ET."
     },
     {
       "ticker": "CVNA",
@@ -337,8 +337,8 @@
       "yesterday_close": 59.05,
       "sma200": 69.4238,
       "premarket_high": 65.1,
-      "last_price": 67.955,
-      "last_bar_et": "11:36",
+      "last_price": 68.34,
+      "last_bar_et": "12:05",
       "high_of_day": 69.23,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -347,7 +347,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 15.48,
+      "gap_pct": 15.28,
       "catalyst": "Carvana (CVNA) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -359,8 +359,8 @@
       "yesterday_close": 169.49,
       "sma200": 183.0621,
       "premarket_high": 188.94,
-      "last_price": 180.05,
-      "last_bar_et": "11:36",
+      "last_price": 176.685,
+      "last_bar_et": "12:05",
       "high_of_day": 181.6,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -369,30 +369,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.41,
+      "gap_pct": 5.06,
       "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "EBAY",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 3.5421,
-      "yesterday_high": 119.07,
-      "yesterday_close": 118.02,
-      "sma200": 103.7107,
-      "premarket_high": 125.7813,
-      "last_price": 123.135,
-      "last_bar_et": "11:36",
-      "high_of_day": 124.49,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.21,
-      "catalyst": "eBay (EBAY) Q3 2026 Earnings Call Transcript."
     },
     {
       "ticker": "FRVO",
@@ -400,7 +378,7 @@
       "signal": false,
       "reason": "Only 117 trading days of history (< 200 needed for SMA200)",
       "history_days": 117,
-      "gap_pct": 9.72,
+      "gap_pct": 9.9,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -412,8 +390,8 @@
       "yesterday_close": 167.14,
       "sma200": 232.5428,
       "premarket_high": 187.89,
-      "last_price": 191.98,
-      "last_bar_et": "11:36",
+      "last_price": 188.385,
+      "last_bar_et": "12:05",
       "high_of_day": 193.289,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -422,7 +400,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 15.04,
+      "gap_pct": 13.21,
       "catalyst": "FTAI Aviation Ltd."
     },
     {
@@ -434,8 +412,8 @@
       "yesterday_close": 8.08,
       "sma200": 10.7533,
       "premarket_high": 9.3,
-      "last_price": 8.52,
-      "last_bar_et": "11:36",
+      "last_price": 8.64,
+      "last_bar_et": "12:05",
       "high_of_day": 9.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -444,9 +422,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.26,
+      "gap_pct": 6.56,
       "catalyst": "Fiverr International Ltd."
+    },
+    {
+      "ticker": "INSM",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.82,
+      "yesterday_high": 97.92,
+      "yesterday_close": 96.98,
+      "sma200": 125.9319,
+      "premarket_high": 118.0,
+      "last_price": 112.835,
+      "last_bar_et": "12:05",
+      "high_of_day": 114.51,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 16.48,
+      "catalyst": "Insmed Incorporated Reports Third-Quarter 2026 Revenues of $524.4 Million."
     }
   ],
-  "scan_time_et": "11:36"
+  "scan_time_et": "12:05"
 }
