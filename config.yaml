@@ -1,0 +1,154 @@
+# portfolio_stage settings — every threshold lives here.
+benchmark: SPY
+
+paths:
+  trades: portfolio/trades.csv        # append-only trade ledger (source of truth for holdings)
+  meta: portfolio/meta.csv            # ticker, group, quality (you edit this)
+  output: output                      # output/YYYY-MM-DD/
+  cache: cache
+  slips: slips
+
+groups: [semi, tech, cyber, power, space, health, fin, def]
+qualities: [A, B, C, EC, ET]          # A=profitable B=fast growth C=bet EC=core ETF ET=theme ETF
+etf_qualities: [EC, ET]               # no earnings / fundamentals for these
+
+stage:                                # Weinstein, weekly bars closing Friday
+  sma_weeks: 30
+  sma_short_weeks: 10
+  slope_lookback_weeks: 4             # slope = % change of SMA30w over 4 weeks
+  slope_t: 1.0                        # SLOPE_T in %
+  confirm_weeks: 2                    # weeks a new stage must hold before it is accepted
+  min_sma_weeks: 10                   # IPOs: SMA uses what is available once >= 10 weeks
+  warn_stage_days: 100
+  warn_slope_down_weeks: 3
+
+rs:
+  mansfield_weeks: 52
+  mansfield_min_weeks: 26
+  ret_3m_days: 63
+  ret_6m_days: 126
+
+minervini:
+  low_mult: 1.30                      # price >= 1.30 x 52w low
+  high_mult: 0.75                     # price >= 0.75 x 52w high
+  sma200_trend_days: 22               # SMA200 rising for ~1 month
+
+levels:
+  swing_lookback_days: 120
+  pivot_bars: 5
+  atr_period: 14
+  rsi_period: 14
+  stop_atr_mult: 1.0                  # stop = support - 1 x ATR14
+  new_high_target_atr_mult: 3.0       # target at a new high = price + 3 x ATR14
+  near_level_pct: 3.0
+
+alerts:
+  gap_pct: 5.0
+  max_weight_pct: 5.0
+  max_quality_c_pct: 7.0
+  earnings_days: 5
+
+data:
+  history_period: 2y
+  retries: 3
+  backoff_seconds: 2
+  fundamentals_refresh_days: 7
+  stale_days: 5                       # last bar older than this many trading days = flagged
+
+ingest:
+  model: claude-sonnet-5-5            # vision model for Dime slips (needs ANTHROPIC_API_KEY)
+  slip_timezone: Asia/Bangkok
+  amount_tolerance_pct: 1.0           # shares x price (+/- fee) must match the slip total
+  check_price_vs_day_range: true      # send to review if price is outside that day's range
+  day_range_tolerance_pct: 2.0
+
+reconcile:
+  tolerance_pct: 2.0
+
+telegram:                             # python -m portfolio_stage run --telegram
+  silent: false                       # true = no notification sound
+  send_when_no_alerts: true           # still send a short "nothing to check" message
+
+events:                               # "งบ & ข่าวใหญ่สัปดาห์นี้" in alerts.md
+  earnings_ahead_days: 7              # upcoming earnings: today .. +7 days (past ones: since Monday)
+  news_lookback_days: 7
+  max_news_per_ticker: 2
+  move_pct: 5.0                       # 1-week move flagged even without matching news
+  include_etfs: false                 # ETFs (quality EC/ET): skip earnings and news
+  big_news_keywords:                  # headline must match one (regex, case-insensitive, word start)
+    - 'earnings'
+    - 'results'
+    - 'quarter'
+    - 'guidance'
+    - 'outlook'
+    - 'forecast'
+    - 'beats?'
+    - 'miss(es|ed)?'
+    - 'revenue'
+    - 'FDA'
+    - 'approv'
+    - 'trial'
+    - 'acquir'
+    - 'acquisition'
+    - 'merger'
+    - 'buyout'
+    - 'takeover'
+    - 'deal'
+    - 'contract'
+    - 'partnership'
+    - 'agreement'
+    - 'offering'
+    - 'dilut'
+    - 'convertible'
+    - 'buyback'
+    - 'repurchase'
+    - 'dividend'
+    - 'split'
+    - 'lawsuit'
+    - 'sues?'
+    - 'sued'
+    - 'settle'
+    - 'investigat'
+    - 'probe'
+    - 'SEC'
+    - 'DOJ'
+    - 'subpoena'
+    - 'downgrad'
+    - 'upgrad'
+    - 'price target'
+    - 'rating'
+    - 'CEO'
+    - 'CFO'
+    - 'resign'
+    - 'steps down'
+    - 'appoint'
+    - 'layoffs?'
+    - 'job cuts'
+    - 'restructur'
+    - 'bankrupt'
+    - 'delist'
+    - 'recall'
+    - 'halt'
+    - 'tariff'
+    - 'ban'
+    - 'export'
+    - 'sanction'
+    - 'record'
+    - 'all-time high'
+    - 'plunges?'
+    - 'soars?'
+    - 'surges?'
+    - 'tumbles?'
+    - 'jumps?'
+  exclude_keywords:                   # ...and must not match any of these
+    - 'stocks? to (buy|watch|own)'
+    - 'should you (buy|sell)'
+    - 'is it (time|too late)'
+    - 'top \d+'
+    - 'best \w+ stocks'
+    - 'millionaire'
+    - 'could (make|turn)'
+    - 'my (favorite|top)'
+    - 'here''s why i'
+    - 'prediction:'
+    - 'forget'

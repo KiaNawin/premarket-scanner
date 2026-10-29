@@ -2,3 +2,9 @@
 __pycache__/
 .yf_cache/
 *.log
+# ---- personal portfolio data: never commit (this repo is public)
+portfolio/
+slips/
+output/
+cache/
+dime_values*.csv

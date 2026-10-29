@@ -189,3 +189,51 @@ and max drawdown. Back-test of the rules only — no slippage or commissions. No
 
 Score a past day manually: Actions → *Daily summary (EOD)* → Run workflow → date `YYYY-MM-DD`
 (only days that have alerts in `history/signals/`).
+
+---
+
+# portfolio_stage — analyse every holding
+
+Runs on **your computer** (slips and holdings stay local; `portfolio/`, `slips/`, `output/`, `cache/` and
+`dime_values*.csv` are in `.gitignore` because this repo is public). All thresholds: **`config.yaml`**.
+
+```bash
+pip install -r requirements.txt
+python -m portfolio_stage bootstrap dime_values.csv   # once: OPENING rows (shares = value ÷ last close)
+python -m portfolio_stage ingest slips/               # Dime slips -> portfolio/trades.csv (needs ANTHROPIC_API_KEY in .env)
+python -m portfolio_stage ingest slips/ --dry-run     # read + validate only
+python -m portfolio_stage reconcile dime_values.csv   # ledger vs app, >2% -> ⚠️
+python -m portfolio_stage run                         # -> output/YYYY-MM-DD/ (add --no-fundamentals for speed)
+python -m unittest discover -s tests -v               # stage-decision tests
+```
+
+**Ledger — `portfolio/trades.csv`** (append-only, never edited): `trade_id, datetime, ticker, side, shares, price, fee, source_file`
+with side `OPENING | BUY | SELL`. Holdings and average cost are recomputed from it every run.
+`portfolio/meta.csv` (`ticker, group, quality`) is the only file you edit by hand.
+
+**Ingest rules:** only Filled/สำเร็จ is recorded · unreadable or inconsistent values (amount ≠ shares×price,
+price outside that day's range, unclear digits) go to `slips/review/` with a `.reason.txt` — nothing is guessed ·
+duplicates (hash of datetime, ticker, side, shares, price) and slips dated before the OPENING snapshot go to
+`slips/skipped/` · recorded slips go to `slips/done/` · API errors leave the file in place for the next run.
+
+**Outputs:** `portfolio_stage.json` (per-ticker values + `null_reasons` for every null), `summary.md`, `alerts.md`
+(stop broken vs last run's stop, stage change vs last run, gap ≥5%, earnings within 5 trading days,
+weight >5%, quality C >7%, near support/resistance ≤3%, missing data) and **"งบ & ข่าวใหญ่สัปดาห์นี้"**:
+earnings reported since Monday (EPS vs estimate) or due within 7 days (before open / after close), and big
+news from the last 7 days — only headlines about that stock that match an important-event keyword
+(earnings, guidance, FDA, M&A, offering, lawsuit, rating change, CEO change, contract, buyback …), with
+"stocks to buy"-style articles filtered out. A stock that moved ≥5% in a week with no such news is listed too.
+Keyword lists: `events:` in `config.yaml`. ETFs are skipped. `--no-fundamentals` also skips this section.
+
+### Daily alerts to Telegram (every morning)
+`python -m portfolio_stage run --telegram` sends `alerts.md` to the scanner's Telegram bot (same `.env`):
+most important first (stop broken → stage change → gap → earnings → weights → near levels → missing data).
+If the run fails, a ❌ message is sent instead, so a broken run is never silent. Options: `telegram:` in `config.yaml`.
+
+Schedule it on your PC (portfolio data never leaves your computer):
+```powershell
+powershell -ExecutionPolicy Bypass -File .\schedule_portfolio.ps1      # Tue–Sat 07:00 Bangkok
+Start-ScheduledTask -TaskName "Portfolio Stage"                         # test now
+```
+The task runs `run_portfolio.bat` (log: `output\portfolio_run.log`), wakes the PC if needed, and runs as soon as
+possible if the PC was off at 07:00.
