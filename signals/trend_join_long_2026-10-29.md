@@ -1,24 +1,26 @@
 **Trend-join Long — 2026-10-29**
-0 valid entries out of 18 pre-market gappers (generated 2026-10-29 09:05:02 EDT)
+0 valid entries out of 20 pre-market gappers (generated 2026-10-29 09:35:01 EDT)
 
 _No valid entries yet._
 
 Not triggered:
-- BAX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BHC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BOOM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CMG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CROX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CVNA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- DASH: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FVRR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- INSM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- LITE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- MAX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NCLH: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NUWE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- PCLA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- PURR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- REAL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- SIMO: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- TDOC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- BHC: WAITING — Before 10:00 ET signal window
+- CMG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CROX: WAITING — Before 10:00 ET signal window
+- CVNA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DASH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FTAI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FTFT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FVRR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- GKOS: WAITING — Before 10:00 ET signal window
+- INSM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- MAX: WAITING — Before 10:00 ET signal window
+- MESO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NCLH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NEXT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NUWE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- PCLA: WAITING — Before 10:00 ET signal window
+- PRCH: WAITING — Before 10:00 ET signal window
+- PURR: WAITING — Before 10:00 ET signal window
+- SIMO: WAITING — Before 10:00 ET signal window
+- TDOC: WAITING — Before 10:00 ET signal window
