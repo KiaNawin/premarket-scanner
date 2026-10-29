@@ -154,7 +154,7 @@ def mansfield_rs(stock_w: pd.Series, bench_w: pd.Series, cfg: dict) -> tuple[flo
 
 def ret_vs(stock: pd.Series, bench: pd.Series, days: int) -> tuple[float | None, str | None]:
     """Return over `days` trading days minus the benchmark's, in percentage points."""
-    df = pd.concat([stock, bench], axis=1, keys=["s", "b"]).dropna()
+    df = pd.concat([stock, bench], axis=1, keys=["s", "b"], sort=True).dropna()
     if len(df) <= days:
         return None, f"only {len(df)} days (need {days + 1})"
     rs = df["s"].iloc[-1] / df["s"].iloc[-1 - days] - 1
@@ -270,7 +270,7 @@ def levels(df: pd.DataFrame, cfg: dict) -> dict:
 # ============================================================================ RS score (1-99)
 def weighted_rel_return(stock: pd.Series, bench: pd.Series, windows: list[int], weights: list[float]) -> float | None:
     """IBD-style: weighted sum of (stock - SPY) returns over consecutive quarters; uses the windows that exist."""
-    df = pd.concat([stock, bench], axis=1, keys=["s", "b"]).dropna()
+    df = pd.concat([stock, bench], axis=1, keys=["s", "b"], sort=True).dropna()
     tot = wsum = 0.0
     prev = 0
     for win, w in zip(windows, weights):

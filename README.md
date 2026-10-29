@@ -218,7 +218,7 @@ duplicates (hash of datetime, ticker, side, shares, price) and slips dated befor
 
 **Outputs:** `portfolio_stage.json` (per-ticker values + `null_reasons` for every null), `summary.md`, `alerts.md`
 (stop broken vs last run's stop, stage change vs last run, gap ≥5%, earnings within 5 trading days,
-weight >5%, quality C >7%, near support/resistance ≤3%, missing data) and **"งบ & ข่าวใหญ่สัปดาห์นี้"**:
+weight >5%, quality C >7%, support/resistance per level (broke S1, broke out over R1, reached TP1, newly within 0.5×ATR of S1/R1 — only what changed since the last run), missing data) and **"งบ & ข่าวใหญ่สัปดาห์นี้"**:
 earnings reported since Monday (EPS vs estimate) or due within 7 days (before open / after close), and big
 news from the last 7 days — only headlines about that stock that match an important-event keyword
 (earnings, guidance, FDA, M&A, offering, lawsuit, rating change, CEO change, contract, buyback …), with

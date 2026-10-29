@@ -19,7 +19,7 @@ DEFAULTS = {
     "rs": {"mansfield_weeks": 52, "mansfield_min_weeks": 26, "ret_3m_days": 63, "ret_6m_days": 126},
     "minervini": {"low_mult": 1.30, "high_mult": 0.75, "sma200_trend_days": 22},
     "levels": {"swing_lookback_days": 120, "pivot_bars": 5, "atr_period": 14, "rsi_period": 14,
-               "stop_atr_mult": 1.0, "new_high_target_atr_mult": 3.0, "near_level_pct": 3.0},
+               "stop_atr_mult": 1.0, "new_high_target_atr_mult": 3.0, "near_atr_mult": 0.5},
     "alerts": {"gap_pct": 5.0, "max_weight_pct": 5.0, "max_quality_c_pct": 7.0, "earnings_days": 5},
     "data": {"history_period": "3y", "retries": 3, "backoff_seconds": 2, "fundamentals_refresh_days": 7,
              "stale_days": 5},

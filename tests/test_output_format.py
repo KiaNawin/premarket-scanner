@@ -201,6 +201,43 @@ class OutputFormat(unittest.TestCase):
         self.assertEqual(R.previous_run(root, "2026-10-03"), ("2026-10-02", {"NVDA": {"stage": 3}}))
 
 
+class LevelAlerts(unittest.TestCase):
+    cfg = {"levels": {"near_atr_mult": 0.5}}
+
+    def ev(self, p, levels, old=None, atr=2.0):
+        return cli.level_events({"p": p, "atr": atr, "levels": levels}, old or {}, self.cfg)
+
+    def test_broke_support_names_next_level(self):
+        old = {"p": 101, "atr": 2, "levels": {"S1": 100, "S2": 95, "R1": 110, "TP1": 110}}
+        out = self.ev(98, {"S1": 95, "S2": 90, "R1": 100, "TP1": 100}, old)
+        self.assertEqual(len(out), 1)
+        self.assertIn("broke support S1 $100.00", out[0])
+        self.assertIn("next support S1 $95.00", out[0])
+
+    def test_breakout_equal_to_tp1_is_one_alert(self):
+        old = {"p": 108, "atr": 2, "levels": {"S1": 100, "S2": 95, "R1": 110, "TP1": 110}}
+        out = self.ev(112, {"S1": 110, "S2": 100, "R1": 120, "TP1": 120}, old)
+        self.assertEqual(len(out), 1)
+        self.assertIn("broke out above R1 $110.00 = TP1", out[0])
+
+    def test_tp1_above_r1(self):
+        old = {"p": 118, "atr": 2, "levels": {"S1": 110, "S2": 100, "R1": None, "TP1": 120}}
+        out = self.ev(121, {"S1": 110, "S2": 100, "R1": None, "TP1": 127}, old)
+        self.assertTrue(any("reached target TP1 $120.00" in x for x in out))
+
+    def test_approach_only_when_new(self):
+        lv = {"S1": 99.5, "S2": 95, "R1": 120, "TP1": 120}
+        self.assertTrue(any("approaching support S1" in x for x in self.ev(100, lv)))          # first run
+        old = {"p": 100.2, "atr": 2, "levels": lv}
+        self.assertEqual(self.ev(100, lv, old), [])                                            # already near
+        far = {"p": 105, "atr": 2, "levels": lv}
+        self.assertTrue(any("approaching support S1" in x for x in self.ev(100, lv, far)))     # newly near
+
+    def test_quiet_in_the_middle(self):
+        lv = {"S1": 90, "S2": 85, "R1": 110, "TP1": 110}
+        self.assertEqual(self.ev(100, lv, {"p": 101, "atr": 2, "levels": lv}), [])
+
+
 class QualityAndRS(unittest.TestCase):
     cfg = {"quality_scores": {"growth_pct": [0, 5, 10, 20, 40], "net_margin_pct": [-10, 0, 5, 15, 25],
                               "debt_to_equity": [25, 50, 100, 150, 250], "pe": [15, 20, 30, 45, 70],

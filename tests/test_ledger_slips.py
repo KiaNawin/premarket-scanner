@@ -125,11 +125,11 @@ class TelegramMessage(unittest.TestCase):
         from portfolio_stage import notify as N
         meta = {"as_of": "2026-10-29", "total_value": 12345.6, "positions": 3, "weekly_bars_through": "2026-10-23"}
         rows = {"NVDA": {"stage": 2, "flag": "✅"}, "INTC": {"stage": 4}, "AT&T": {"stage": 2, "flag": "⚠️"}}
-        alerts = [("Near support/resistance", "**NVDA** 0.5% above support $116.24"),
+        alerts = [("Support/resistance", "**NVDA** 0.5% above support $116.24"),
                   ("Stop broken", "**INTC** $30.78 < stop <b>"), ("Stage change", "**AT&T** S2 → S3")]
         msg = N.build_message(meta, alerts, rows)
         self.assertLess(msg.index("Stop broken"), msg.index("Stage change"))           # most important first
-        self.assertLess(msg.index("Stage change"), msg.index("Near support"))
+        self.assertLess(msg.index("Stage change"), msg.index("Support/resistance"))
         self.assertIn("<b>AT&amp;T</b>", msg)
         self.assertIn("&lt;b&gt;", msg)                                                 # raw text escaped
         for tag in re.findall(r"<[^>]*>", msg):

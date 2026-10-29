@@ -19,9 +19,9 @@ import os
 from .analysis import round_px
 
 ALERT_ORDER = ["Stop broken", "Stage change", "Gap", "Earnings this week", "Big news this week", "Weights",
-               "Near support/resistance", "Missing data", "Portfolio data"]
+               "Support/resistance", "Missing data", "Portfolio data"]
 ALERT_ICONS = {"Stop broken": "🔴", "Stage change": "🔄", "Gap": "⚡", "Earnings this week": "📅",
-               "Big news this week": "📰", "Weights": "⚖️", "Near support/resistance": "📍",
+               "Big news this week": "📰", "Weights": "⚖️", "Support/resistance": "📍",
                "Missing data": "❓", "Portfolio data": "📝"}
 
 

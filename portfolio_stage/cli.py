@@ -295,12 +295,18 @@ def cmd_run(args, cfg) -> int:
                 "total_value": A.r2(total), "positions": len(rows)}
     if q_err:
         meta_out["quote_error"] = q_err
+    intraday = spy is not None and spy.index[-1].date() == now.date() and now.time() < dt.time(16, 0)
+    if intraday:
+        meta_out["last_bar_complete"] = False
     R.write_outputs(out_dir, meta_out, rows, alerts, cfg)
     frames = {t: prices.get(D.to_yahoo(t)) for t in held}
     frames[bench] = spy                                      # SPY always (missing -> validator fails, as it should)
     R.write_ohlc(out_dir, as_of.isoformat(), frames, cfg["ohlc"]["days"])
     R.write_holdings_csv(V._abs(cfg["validator"]["holdings_csv"]), held, meta)
     print(f"✓ {len(rows)} positions · total ${total:,.0f} · {len(alerts)} alerts → {out_dir}")
+    if intraday:
+        print(f"⚠️ ตลาดสหรัฐยังเปิดอยู่ ({now:%H:%M} ET) — แท่งวันที่ {now.date()} ยังไม่จบ ราคา p เป็นราคาระหว่างวัน "
+              "จะไม่ตรงกับราคาปิดใน TradingView · ควรรันใหม่หลัง 05:00 น. (เวลาไทย) ก่อนอัปโหลด")
     if miss_reasons:
         print(f"⚠️ ดึงข้อมูลไม่ได้: " + "; ".join(f"{t} ({why})" for t, why in miss_reasons.items()))
 
@@ -330,8 +336,53 @@ def short_date(iso: str | None) -> str:
         return ""
 
 
+def _px(x) -> str:
+    return f"${x:,.2f}"
+
+
+def level_events(r: dict, old: dict, cfg: dict) -> list[str]:
+    """Support/resistance alerts per level, only for what changed since the previous run:
+      broke S1 (vs last run's S1)  ·  broke out over R1  ·  reached TP1
+      newly within near_atr_mult x ATR of today's S1 / R1 (wasn't near last run)."""
+    k = cfg["levels"]["near_atr_mult"]
+    p, a = r.get("p"), r.get("atr")
+    lv, olv = r.get("levels") or {}, old.get("levels") or {}
+    op, oa = old.get("p"), old.get("atr")
+    if p is None:
+        return []
+    out, crossed = [], set()
+    if op is not None:
+        s1, r1, tp = olv.get("S1"), olv.get("R1"), olv.get("TP1")
+        if s1 is not None and op >= s1 > p:
+            nxt = f" → next support S1 {_px(lv['S1'])}" if lv.get("S1") else " → no support below"
+            out.append(f"broke support S1 {_px(s1)} (now {_px(p)}){nxt}")
+            crossed.add("S1")
+        if r1 is not None and op <= r1 < p:
+            nxt = lv.get("R1") or lv.get("TP1")
+            hit_tp = tp is not None and tp == r1
+            out.append(f"broke out above R1 {_px(r1)}{' = TP1' if hit_tp else ''} (now {_px(p)})"
+                       + (f" → next {_px(nxt)}" if nxt else ""))
+            crossed.add("R1")
+            if hit_tp:
+                crossed.add("TP1")
+        if tp is not None and "TP1" not in crossed and op < tp <= p:
+            out.append(f"reached target TP1 {_px(tp)} (now {_px(p)}) — consider taking profit / raising the stop")
+            crossed.add("TP1")
+
+    def near(px, lvl, atr):
+        return None not in (px, lvl, atr) and atr > 0 and abs(px - lvl) <= k * atr
+
+    for key, word in (("S1", "support"), ("R1", "resistance")):
+        lvl = lv.get(key)
+        if key in crossed or not near(p, lvl, a) or near(op, olv.get(key), oa):
+            continue
+        out.append(f"approaching {word} {key} {_px(lvl)} — {abs(p - lvl) / p * 100:.1f}% away "
+                   f"({abs(p - lvl) / a:.1f}×ATR)")
+    return out
+
+
 def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
-    ac, near = cfg["alerts"], cfg["levels"]["near_level_pct"]
+    ac = cfg["alerts"]
     prev_date, prev_rows = prev
     out = []
     for t, why in missing.items():
@@ -352,12 +403,7 @@ def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
             out.append(("Stage change", f"**{t}** S{old['stage']} → S{r['stage']} (vs {prev_date})"))
         if p is not None and old.get("stop") is not None and p < old["stop"]:
             out.append(("Stop broken", f"**{t}** ${p:,.2f} below last stop ${old['stop']:,.2f}"))
-        if p and r.get("support") and (p - r["support"]) / p * 100 <= near:
-            out.append(("Near support/resistance",
-                        f"**{t}** {(p - r['support']) / p * 100:.1f}% above support ${r['support']:,.2f}"))
-        if p and r.get("resistance") and (r["resistance"] - p) / p * 100 <= near:
-            out.append(("Near support/resistance",
-                        f"**{t}** {(r['resistance'] - p) / p * 100:.1f}% below resistance ${r['resistance']:,.2f}"))
+        out += [("Support/resistance", f"**{t}** {x}") for x in level_events(r, old, cfg)]
         if r.get("gap_pct") is not None and abs(r["gap_pct"]) >= ac["gap_pct"]:
             out.append(("Gap", f"**{t}** {r['gap_pct']:+.1f}% vs previous close"))
         ev = r.get("events") or {}

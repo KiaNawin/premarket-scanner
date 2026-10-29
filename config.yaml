@@ -40,7 +40,8 @@ levels:
   rsi_period: 14
   stop_atr_mult: 1.0                  # stop = support - 1 x ATR14
   new_high_target_atr_mult: 3.0       # target at a new high = price + 3 x ATR14
-  near_level_pct: 3.0
+  near_atr_mult: 0.5                  # "approaching S1/R1" = within 0.5 x ATR14 of the level (scales with each
+                                      # stock's volatility); alerts fire only when something changed since last run
 
 alerts:
   gap_pct: 5.0
