@@ -14,9 +14,14 @@ def _md_to_html(text: str) -> str:
     return re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2">\1</a>', out)
 
 
-def build_message(meta: dict, alerts: list[tuple[str, str]], rows: dict) -> str:
+def build_message(meta: dict, alerts: list[tuple[str, str]], rows: dict, vres: dict | None = None) -> str:
     total = meta.get("total_value")
-    head = [f"<b>📒 Portfolio — {meta['as_of']}</b>",
+    top = []
+    if vres is not None and not vres.get("ok"):
+        from .validate import banner_line
+        top = [f"<b>{html.escape(banner_line(vres))}</b>",
+               *[f"✗ {html.escape(x)}" for x in (vres.get("fails") or [])[:15]], ""]
+    head = top + [f"<b>📒 Portfolio — {meta['as_of']}</b>",
             f"Value {'—' if total is None else f'${total:,.0f}'} · {meta.get('positions', 0)} positions · "
             f"weekly bars to {meta.get('weekly_bars_through', '—')}"]
     s2 = sum(1 for r in rows.values() if r.get("stage") == 2)
@@ -35,6 +40,8 @@ def build_message(meta: dict, alerts: list[tuple[str, str]], rows: dict) -> str:
             lines.append(f"<b>{ALERT_ICONS.get(kind, '•')} {html.escape(kind)}</b> ({len(items)})")
             lines += [f"• {_md_to_html(x)}" for x in items]
             lines.append("")
+    if vres is not None and vres.get("ok"):
+        lines.append("✅ validate_output.py passed — OK to upload")
     lines.append(f"<i>Details: output/{meta['as_of']}/summary.md</i>")
     return "\n".join(lines).strip()
 

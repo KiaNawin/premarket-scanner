@@ -49,7 +49,7 @@ alerts:
   earnings_days: 5
 
 data:
-  history_period: 2y
+  history_period: 3y      # >= 500 trading days for ohlc.json
   retries: 3
   backoff_seconds: 2
   fundamentals_refresh_days: 7
@@ -64,6 +64,24 @@ ingest:
 
 reconcile:
   tolerance_pct: 2.0
+
+quality_scores:                       # 0-5 per field (count of cut-offs passed)
+  growth_pct: [0, 5, 10, 20, 40]      # revenue growth %: >=40% -> 5
+  net_margin_pct: [-10, 0, 5, 15, 25] # profitability
+  debt_to_equity: [25, 50, 100, 150, 250]   # lower is better (Yahoo reports D/E in %)
+  pe: [15, 20, 30, 45, 70]            # lower is better (forward P/E, else trailing)
+  ev_to_sales: [2, 4, 8, 15, 30]      # lower is better (used when there is no P/E)
+
+rs_score:                             # 1-99 percentile among your holdings of IBD-style weighted
+  windows_days: [63, 126, 189, 252]   # return vs SPY: 40% last 3 months + 20% each earlier quarter
+  weights: [0.4, 0.2, 0.2, 0.2]
+
+ohlc:
+  days: 500                           # ohlc.json history (adjusted), SPY always included
+
+validator:
+  script: tools/validate_output.py    # run automatically after every `run`
+  holdings_csv: holdings.csv          # written from the ledger each run (ticker, shares, group, quality)
 
 telegram:                             # python -m portfolio_stage run --telegram
   silent: false                       # true = no notification sound

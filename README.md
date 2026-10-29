@@ -225,6 +225,19 @@ news from the last 7 days — only headlines about that stock that match an impo
 "stocks to buy"-style articles filtered out. A stock that moved ≥5% in a week with no such news is listed too.
 Keyword lists: `events:` in `config.yaml`. ETFs are skipped. `--no-fundamentals` also skips this section.
 
+**Upload files** (same folder): `portfolio_stage.json` = `{"meta": {as_of, spy_price, missing_tickers: [...]},
+"tickers": {T: {p, value, stage (1–4), stage_days, flag, m50, m200, rsi, hi, lo, rs_score (1–99), levels {S1, S2,
+R1, TP1}, quality {growth, profitability, consistency, balance_sheet, valuation} (0–5), …}}}` and `ohlc.json` =
+`{"as_of", "tickers": {T: [[date, o, h, l, c, v], …]}}` — 500 adjusted daily bars, **SPY always included**.
+`p` is exactly the last close in `ohlc.json`; `value` = shares × p. `holdings.csv` (ticker, shares, group,
+quality letter) is rebuilt from the ledger at the repo root every run (gitignored).
+
+**Validation:** put your `validate_output.py` in `tools/` (its criteria are never changed here). Every `run`
+then calls `python tools/validate_output.py output/<date> holdings.csv` automatically and saves the output
+to `output/<date>/validate.txt`. Exit code ≠ 0, or the script missing → the FAIL lines are printed in a box,
+the **first line of `alerts.md`** (and of the Telegram message) becomes `⛔ ห้ามอัปโหลด — DO NOT UPLOAD …`,
+and `run` exits with code 3. No FAIL → OK to upload.
+
 ### Daily alerts to Telegram (every morning)
 `python -m portfolio_stage run --telegram` sends `alerts.md` to the scanner's Telegram bot (same `.env`):
 most important first (stop broken → stage change → gap → earnings → weights → near levels → missing data).

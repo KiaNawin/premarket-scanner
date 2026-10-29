@@ -242,8 +242,10 @@ def levels(df: pd.DataFrame, cfg: dict) -> dict:
     cands = {x for x in sh + sl + [m50, m200, hi52, lo52] if x is not None}
     below = [x for x in cands if x < p * (1 - 1e-6)]
     above = [x for x in cands if x > p * (1 + 1e-6)]
-    support = max(below) if below else None
-    resistance = min(above) if above else None
+    supports = sorted(below, reverse=True)
+    resistances = sorted(above)
+    support = supports[0] if supports else None
+    resistance = resistances[0] if resistances else None
     reasons = {}
     stop = support - lc["stop_atr_mult"] * a if support is not None and a is not None else None
     if stop is None:
@@ -261,4 +263,43 @@ def levels(df: pd.DataFrame, cfg: dict) -> dict:
         reasons["rr"] = "price at or below stop"
     return {"p": p, "atr": a, "m50": m50, "m200": m200, "hi": hi52, "lo": lo52, "rsi": rsi(c, lc["rsi_period"]),
             "support": support, "resistance": resistance, "stop": stop, "target": target,
-            "target_basis": target_basis, "rr": _f(rr), "swing_highs": sh, "swing_lows": sl, "_reasons": reasons}
+            "target_basis": target_basis, "rr": _f(rr), "swing_highs": sh, "swing_lows": sl, "_reasons": reasons,
+            "supports": supports, "resistances": resistances}
+
+
+# ============================================================================ RS score (1-99)
+def weighted_rel_return(stock: pd.Series, bench: pd.Series, windows: list[int], weights: list[float]) -> float | None:
+    """IBD-style: weighted sum of (stock - SPY) returns over consecutive quarters; uses the windows that exist."""
+    df = pd.concat([stock, bench], axis=1, keys=["s", "b"]).dropna()
+    tot = wsum = 0.0
+    prev = 0
+    for win, w in zip(windows, weights):
+        if len(df) <= win:
+            break
+        s0, s1 = df["s"].iloc[-1 - win], df["s"].iloc[-1 - prev]
+        b0, b1 = df["b"].iloc[-1 - win], df["b"].iloc[-1 - prev]
+        tot += w * ((s1 / s0 - 1) - (b1 / b0 - 1))
+        wsum += w
+        prev = win
+    return _f(tot / wsum) if wsum else None
+
+
+def percentile_scores(values: dict[str, float | None]) -> dict[str, int | None]:
+    """Rank -> 1..99 (ties share a rank). None stays None."""
+    have = {k: v for k, v in values.items() if v is not None}
+    n = len(have)
+    out = {k: None for k in values}
+    if n == 0:
+        return out
+    for k, v in have.items():
+        below = sum(1 for x in have.values() if x < v)
+        equal = sum(1 for x in have.values() if x == v)
+        pct = (below + 0.5 * equal) / n
+        out[k] = int(min(99, max(1, round(pct * 98 + 1))))
+    return out
+
+
+def round_px(x) -> float | None:
+    """Single rounding rule shared by ohlc.json and p, so p always equals the last ohlc close."""
+    x = _f(x)
+    return None if x is None else round(x, 4)

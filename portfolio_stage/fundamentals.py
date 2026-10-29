@@ -74,10 +74,12 @@ def _row(df: pd.DataFrame | None, names: list[str]) -> pd.Series | None:
 def fundamentals(ticker: str, cfg: dict, ticker_obj=None) -> dict:
     path = os.path.join(cfg["paths"]["cache"], "fundamentals", f"{ticker}.json")
     hit = D.cache_json(path, max_age_days=cfg["data"]["fundamentals_refresh_days"])
-    if hit is not None:
+    if hit is not None and hit.get("v") == 2:
         return hit
-    out = {"fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(), "name": None, "mcap": None, "rev_growth": None,
-           "rev_growth_q_yoy": None, "ni": None, "fcf": None, "shares_chg": None, "reasons": {}}
+    out = {"v": 2, "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(), "name": None, "mcap": None,
+           "rev_growth": None, "rev_growth_q_yoy": None, "ni": None, "fcf": None, "shares_chg": None,
+           "rev_ttm": None, "ni_quarters": [], "total_cash": None, "total_debt": None, "debt_to_equity": None,
+           "current_ratio": None, "forward_pe": None, "trailing_pe": None, "ev_to_sales": None, "reasons": {}}
     R = out["reasons"]
     try:
         import yfinance as yf
@@ -103,18 +105,27 @@ def fundamentals(ticker: str, cfg: dict, ticker_obj=None) -> dict:
         R.setdefault("mcap", "market cap not provided by Yahoo")
     if info.get("revenueGrowth") is not None:
         out["rev_growth_q_yoy"] = float(info["revenueGrowth"])
+    for k, src in (("total_cash", "totalCash"), ("total_debt", "totalDebt"), ("debt_to_equity", "debtToEquity"),
+                   ("current_ratio", "currentRatio"), ("forward_pe", "forwardPE"), ("trailing_pe", "trailingPE"),
+                   ("ev_to_sales", "enterpriseToRevenue")):
+        v = info.get(src)
+        out[k] = float(v) if isinstance(v, (int, float)) and v == v else None
 
     inc = safe(lambda: t.quarterly_income_stmt, "rev_growth")
     cf = safe(lambda: t.quarterly_cashflow, "fcf")
     bs = safe(lambda: t.quarterly_balance_sheet, "shares_chg")
 
     rev = _row(inc, ["Total Revenue", "Operating Revenue"])
+    if rev is not None and len(rev) >= 4:
+        out["rev_ttm"] = float(rev.iloc[:4].sum())
     if rev is not None and len(rev) >= 8:
         out["rev_growth"] = float(rev.iloc[:4].sum() / rev.iloc[4:8].sum() - 1)
     else:
         R.setdefault("rev_growth", f"TTM growth needs 8 quarters of revenue; Yahoo has {0 if rev is None else len(rev)}"
                      + (" (see rev_growth_q_yoy for latest-quarter YoY)" if out["rev_growth_q_yoy"] is not None else ""))
     ni = _row(inc, ["Net Income", "Net Income Common Stockholders"])
+    if ni is not None:
+        out["ni_quarters"] = [float(x) for x in ni.iloc[:8]]
     if ni is not None and len(ni) >= 4:
         out["ni"] = float(ni.iloc[:4].sum())
     else:

@@ -132,7 +132,9 @@ def cmd_reconcile(args, cfg) -> int:
 # ============================================================================ run
 def cmd_run(args, cfg) -> int:
     from . import fundamentals as F
+    from . import quality as Q
     from . import report as R
+    from . import validate as V
     now = _now_et()
     as_of = now.date()
     trades = L.read_trades(cfg["paths"]["trades"])
@@ -150,13 +152,16 @@ def cmd_run(args, cfg) -> int:
     spy_w = A.weekly_closes(spy["Close"], fri) if spy is not None else None
     quotes, q_err = D.fetch_quotes(list(held))
     etf_q = set(cfg["etf_qualities"])
+    rsc = cfg["rs_score"]
 
-    rows = {}
+    rows, rel_ret = {}, {}
     for t, p in held.items():
         yt = D.to_yahoo(t)
         m = meta.get(t, {})
+        tier = m.get("quality") or None                    # letter A/B/C/EC/ET from meta.csv
         r = {"shares": round(p.shares, 6), "avg_cost": A.r2(p.avg_cost, 4), "group": m.get("group") or None,
-             "quality": m.get("quality") or None, "null_reasons": {}}
+             "tier": tier, "levels": {k: None for k in R.LEVEL_KEYS},
+             "quality": {k: None for k in Q.FIELDS}, "null_reasons": {}}
         nr = r["null_reasons"]
         df = prices.get(yt)
         if df is None:
@@ -164,7 +169,7 @@ def cmd_run(args, cfg) -> int:
             rows[t] = r
             continue
         lv = A.levels(df, cfg)
-        px = lv["p"]
+        px = A.round_px(lv["p"])                            # = last close in ohlc.json
         n = len(df)
         r["history_days"] = n
         r["history_label"] = f"history {n}d" if n < 200 else None
@@ -177,14 +182,24 @@ def cmd_run(args, cfg) -> int:
         days = A.stage_days(df.index, st["stage_start"])
         r3, r3n = A.ret_vs(df["Close"], spy["Close"], cfg["rs"]["ret_3m_days"]) if spy is not None else (None, "no SPY")
         r6, r6n = A.ret_vs(df["Close"], spy["Close"], cfg["rs"]["ret_6m_days"]) if spy is not None else (None, "no SPY")
+        rel_ret[t] = A.weighted_rel_return(df["Close"], spy["Close"], rsc["windows_days"], rsc["weights"]) \
+            if spy is not None else None
         tt = A.minervini(df, rs, cfg)
         pc = D.prev_close(df, as_of)
         live, live_err = D.latest_trade_today(quotes.get(yt), as_of) if not q_err else (None, q_err)
         gap = (live / pc - 1) * 100 if live and pc else None
+        sup, res = lv["supports"], lv["resistances"]
+        r["levels"] = {"S1": A.r2(sup[0]) if sup else None, "S2": A.r2(sup[1]) if len(sup) > 1 else None,
+                       "R1": A.r2(res[0]) if res else None, "TP1": A.r2(lv["target"])}
+        for k, why in (("S1", "no support level below price"), ("S2", "only one support level below price"),
+                       ("R1", "no resistance above price (at/near highs)"), ("TP1", lv["_reasons"].get("target"))):
+            if r["levels"][k] is None:
+                nr[f"levels.{k}"] = why or "not available"
         r.update({
-            "p": A.r2(px, 4), "value": A.r2(p.shares * px), "hi": A.r2(lv["hi"], 4), "lo": A.r2(lv["lo"], 4),
+            "p": px, "value": A.r2(p.shares * px), "hi": A.r2(lv["hi"], 4), "lo": A.r2(lv["lo"], 4),
             "m50": A.r2(lv["m50"], 4), "m200": A.r2(lv["m200"], 4), "rsi": A.r2(lv["rsi"], 1),
-            "atr": A.r2(lv["atr"], 4), "stage": st["stage"], "stage_days": days,
+            "atr": A.r2(lv["atr"], 4), "stage": None if st["stage"] is None else int(st["stage"]),
+            "stage_days": days,
             "stage_since_data_start": st.get("since_data_start"), "stage_pending": st.get("pending"),
             "slope": A.r2(st["slope"]), "sma10w": A.r2(st["sma10w"], 4), "sma30w": A.r2(st["sma30w"], 4),
             "flag": A.stage_flag(st, px, rs, days, cfg), "trend_label": A.trend_label(px, st["sma10w"], st["sma30w"]),
@@ -203,15 +218,19 @@ def cmd_run(args, cfg) -> int:
             nr["ret3m_vs_spy"] = r3n
         if r6 is None:
             nr["ret6m_vs_spy"] = r6n
+        if rel_ret[t] is None:
+            nr["rs_score"] = "no SPY data" if spy is None else f"needs > {rsc['windows_days'][0]} days of history"
         if gap is None:
             nr["gap_pct"] = live_err or "no previous close"
 
+        fkeys = ("earnings_date", "mcap", "rev_growth", "ni", "fcf", "shares_chg")
+        fu = None
         if args.no_fundamentals:
-            for k in ("earnings_date", "mcap", "rev_growth", "ni", "fcf", "shares_chg"):
+            for k in fkeys + tuple(f"quality.{q}" for q in Q.FIELDS):
                 nr[k] = "skipped (--no-fundamentals)"
-        elif r["quality"] in etf_q:
-            for k in ("earnings_date", "mcap", "rev_growth", "ni", "fcf", "shares_chg"):
-                nr[k] = f"ETF (quality {r['quality']})"
+        elif tier in etf_q:
+            for k in fkeys + tuple(f"quality.{q}" for q in Q.FIELDS):
+                nr[k] = f"ETF (tier {tier}) — no company fundamentals"
         else:
             e = F.earnings(yt, cfg, as_of)
             r.update(earnings_date=e["earnings_date"], earnings_soon=e["earnings_soon"])
@@ -220,12 +239,14 @@ def cmd_run(args, cfg) -> int:
             fu = F.fundamentals(yt, cfg)
             r.update({k: fu.get(k) for k in ("mcap", "rev_growth", "rev_growth_q_yoy", "ni", "fcf", "shares_chg")})
             nr.update({k: v for k, v in fu.get("reasons", {}).items() if r.get(k) is None})
+            r["quality"], qwhy = Q.scores(fu, cfg)
+            nr.update({f"quality.{k}": v for k, v in qwhy.items()})
         # ---- this week's earnings & big news
         r["events"] = {"earnings": [], "news": [], "move_1w": None, "errors": []}
         ev = r["events"]
         if len(df) > 5:
             ev["move_1w"] = A.r2((px / float(df["Close"].iloc[-6]) - 1) * 100)
-        skip_etf = r["quality"] in etf_q and not cfg["events"]["include_etfs"]
+        skip_etf = tier in etf_q and not cfg["events"]["include_etfs"]
         if not args.no_fundamentals and not skip_etf:
             from . import events as EV
             ev["earnings"], e_err = EV.earnings_events(yt, cfg, as_of)
@@ -235,13 +256,21 @@ def cmd_run(args, cfg) -> int:
                 if lo <= d <= hi:
                     ev["earnings"] = [{"date": r["earnings_date"], "when": "", "eps_est": None, "eps_actual": None,
                                        "surprise_pct": None, "reported": d < as_of}]
-            name = (F.fundamentals(yt, cfg) or {}).get("name") if r["quality"] not in etf_q else None
+            name = (fu or {}).get("name")
             ev["news"], n_err = EV.big_news(yt, name, cfg, as_of)
             ev["errors"] = [e for e in (e_err if not ev["earnings"] else None, n_err) if e]
-        for k in R.KEYS:                          # any remaining null gets a reason
-            if r.get(k) is None and k not in nr and k != "earnings_soon":
-                nr[k] = f"not computable with {n} days of history" if n < 252 else "not available"
         rows[t] = r
+
+    scores = A.percentile_scores(rel_ret)
+    for t, r in rows.items():
+        r["rs_score"] = scores.get(t)
+        nr = r["null_reasons"]
+        for k in R.KEYS:                          # any remaining null gets a reason
+            if k in ("levels", "quality", "earnings_soon") or "all" in nr:
+                continue
+            if r.get(k) is None and k not in nr:
+                n = r.get("history_days") or 0
+                nr[k] = f"not computable with {n} days of history" if n < 252 else "not available"
 
     total = sum(r.get("value") or 0 for r in rows.values())
     for r in rows.values():
@@ -249,26 +278,43 @@ def cmd_run(args, cfg) -> int:
 
     alerts = build_alerts(rows, held, meta, missing, cfg, R.previous_run(cfg["paths"]["output"], as_of.isoformat()))
     out_dir = os.path.join(cfg["paths"]["output"], as_of.isoformat())
-    meta_out = {"as_of": as_of.isoformat(), "generated_at_et": now.isoformat(timespec="seconds"),
-                "weekly_bars_through": fri.isoformat(), "benchmark": bench,
-                "spy_price": A.r2(spy["Close"].iloc[-1], 4) if spy is not None else None,
-                "total_value": A.r2(total), "positions": len(rows),
-                "missing_tickers": {t: missing[D.to_yahoo(t)] for t in held if D.to_yahoo(t) in missing}}
+    miss_reasons = {t: missing[D.to_yahoo(t)] for t in held if D.to_yahoo(t) in missing}
     if bench in missing:
-        meta_out["missing_tickers"][bench] = missing[bench]
+        miss_reasons[bench] = missing[bench]
+    meta_out = {"as_of": as_of.isoformat(),
+                "spy_price": A.round_px(spy["Close"].iloc[-1]) if spy is not None else None,
+                "missing_tickers": sorted(miss_reasons),
+                "missing_reasons": miss_reasons,
+                "generated_at_et": now.isoformat(timespec="seconds"),
+                "weekly_bars_through": fri.isoformat(), "benchmark": bench,
+                "total_value": A.r2(total), "positions": len(rows)}
     if q_err:
         meta_out["quote_error"] = q_err
     R.write_outputs(out_dir, meta_out, rows, alerts, cfg)
+    frames = {t: prices.get(D.to_yahoo(t)) for t in held}
+    frames[bench] = spy                                      # SPY always (missing -> validator fails, as it should)
+    R.write_ohlc(out_dir, as_of.isoformat(), frames, cfg["ohlc"]["days"])
+    R.write_holdings_csv(V._abs(cfg["validator"]["holdings_csv"]), held, meta)
     print(f"✓ {len(rows)} positions · total ${total:,.0f} · {len(alerts)} alerts → {out_dir}")
+    if miss_reasons:
+        print(f"⚠️ ดึงข้อมูลไม่ได้: " + "; ".join(f"{t} ({why})" for t, why in miss_reasons.items()))
+
+    # ---- validate (criteria live in tools/validate_output.py — not changed here)
+    vres = V.run(out_dir, cfg)
+    if not vres["ok"]:
+        V.mark_alerts(out_dir, vres)
+    V.print_result(vres)
+
     if getattr(args, "telegram", False):
         from . import notify as N
         tcfg = cfg.get("telegram", {})
-        if alerts or tcfg.get("send_when_no_alerts", True):
-            sent = N.send(N.build_message(meta_out, alerts, rows), silent=tcfg.get("silent", False))
+        if alerts or not vres["ok"] or tcfg.get("send_when_no_alerts", True):
+            sent = N.send(N.build_message(meta_out, alerts, rows, vres), silent=tcfg.get("silent", False))
             print("✓ ส่ง Telegram แล้ว" if sent else "✗ ส่ง Telegram ไม่สำเร็จ — เช็ก TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID ใน .env")
-    if meta_out["missing_tickers"]:
-        print(f"⚠️ ดึงข้อมูลไม่ได้: " + "; ".join(f"{t} ({why})" for t, why in meta_out["missing_tickers"].items()))
-    return 0
+    return 0 if vres["ok"] else VALIDATION_FAILED
+
+
+VALIDATION_FAILED = 3
 
 
 def short_date(iso: str | None) -> str:
@@ -281,7 +327,7 @@ def short_date(iso: str | None) -> str:
 
 def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
     ac, near = cfg["alerts"], cfg["levels"]["near_level_pct"]
-    prev_date, prev_doc = prev
+    prev_date, prev_rows = prev
     out = []
     for t, why in missing.items():
         out.append(("Missing data", f"**{t}** no price data — {why}"))
@@ -296,7 +342,7 @@ def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
         p = r.get("p")
         if r.get("stale"):
             out.append(("Missing data", f"**{t}** stale data: {r['stale']}"))
-        old = (prev_doc or {}).get(t) or {}
+        old = (prev_rows or {}).get(t) or {}
         if old.get("stage") is not None and r.get("stage") is not None and old["stage"] != r["stage"]:
             out.append(("Stage change", f"**{t}** S{old['stage']} → S{r['stage']} (vs {prev_date})"))
         if p is not None and old.get("stop") is not None and p < old["stop"]:
@@ -333,15 +379,20 @@ def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
             out.append(("Missing data", f"**{t}** news/earnings: {e}"))
         if r.get("weight_pct") and r["weight_pct"] > ac["max_weight_pct"]:
             out.append(("Weights", f"**{t}** {r['weight_pct']:.1f}% (over {ac['max_weight_pct']:g}%)"))
-    c_total = sum(r.get("weight_pct") or 0 for r in rows.values() if r.get("quality") == "C")
+    c_total = sum(r.get("weight_pct") or 0 for r in rows.values() if r.get("tier") == "C")
     if c_total > ac["max_quality_c_pct"]:
-        names = ", ".join(t for t, r in rows.items() if r.get("quality") == "C")
+        names = ", ".join(t for t, r in rows.items() if r.get("tier") == "C")
         out.append(("Weights", f"Quality C total {c_total:.1f}% (over {ac['max_quality_c_pct']:g}%): {names}"))
     return out
 
 
 # ============================================================================ main
 def main(argv=None) -> int:
+    for stream in (sys.stdout, sys.stderr):     # emoji/Thai safe even when Task Scheduler redirects to a log
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
     load_dotenv()
     ap = argparse.ArgumentParser(prog="python -m portfolio_stage", description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -373,7 +424,7 @@ def main(argv=None) -> int:
             from . import notify as N
             N.send_failure(err)
             return 1
-        if rc:
+        if rc and rc != VALIDATION_FAILED:          # validation failures were already sent with the ⛔ banner
             from . import notify as N
             N.send_failure(f"run exited with code {rc} (e.g. portfolio/trades.csv does not exist yet)")
         return rc
