@@ -1,0 +1,132 @@
+{
+  "scan_date": "2026-10-30",
+  "generated_at_et": "2026-10-30 08:33:23 EDT",
+  "scan_time_et": "08:33",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7093,
+    "prefilter": 281,
+    "with_data": 258,
+    "gap": 36,
+    "gap_price": 35,
+    "passed": 9,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7093,
+  "count": 9,
+  "results": [
+    {
+      "ticker": "TNMG",
+      "price": 4.37,
+      "gap_pct": 43.3,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.05,
+      "premarket_volume": 13222040,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "WKHS",
+      "price": 3.02,
+      "gap_pct": 18.43,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 2.55,
+      "premarket_volume": 1337302,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "NRXP",
+      "price": 3.04,
+      "gap_pct": 14.25,
+      "catalyst": "NRx Pharmaceuticals Secures FDA Nod For Preservative-Free Ketamine Ahead Of Target Date; Stock Up.",
+      "prev_close": 2.66,
+      "premarket_volume": 5193745,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "NRx Pharmaceuticals Secures FDA Nod For Preservative-Free Ketamine Ahead Of Target Date; Stock Up ",
+      "catalyst_url": "https://www.nasdaq.com/articles/nrx-pharmaceuticals-secures-fda-nod-preservative-free-ketamine-ahead-target-date-stock"
+    },
+    {
+      "ticker": "AIOK",
+      "price": 20.77,
+      "gap_pct": 9.95,
+      "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK.",
+      "prev_close": 18.89,
+      "premarket_volume": 697005,
+      "session": "pre-market",
+      "catalyst_source": "BNK Invest",
+      "catalyst_headline": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
+      "catalyst_url": "https://www.nasdaq.com/articles/wednesday-10-28-insider-buying-report-npb-aiok"
+    },
+    {
+      "ticker": "CPRI",
+      "price": 17.55,
+      "gap_pct": 9.28,
+      "catalyst": "Here's Why Capri Holdings (CPRI) is a Strong Momentum Stock.",
+      "prev_close": 16.06,
+      "premarket_volume": 245595,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Here's Why Capri Holdings (CPRI) is a Strong Momentum Stock",
+      "catalyst_url": "https://www.nasdaq.com/articles/heres-why-capri-holdings-cpri-strong-momentum-stock"
+    },
+    {
+      "ticker": "RIVN",
+      "price": 12.2,
+      "gap_pct": 6.53,
+      "catalyst": "Rivian Automotive, Inc.",
+      "prev_close": 11.45,
+      "premarket_volume": 1914173,
+      "session": "pre-market",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Rivian Automotive, Inc. Appoints Derek Mulvey Interim CFO and Reports Q3 2026 Financial Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/rivian-automotive-inc-appoints-derek-mulvey-interim-cfo-and-reports-q3-2026-financial"
+    },
+    {
+      "ticker": "MDLZ",
+      "price": 66.51,
+      "gap_pct": 6.36,
+      "catalyst": "Mondelez International, Inc.",
+      "prev_close": 62.53,
+      "premarket_volume": 109679,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Mondelez International, Inc. Announces Climb In Q3 Bottom Line ",
+      "catalyst_url": "https://www.nasdaq.com/articles/mondelez-international-inc-announces-climb-q3-bottom-line"
+    },
+    {
+      "ticker": "AZN",
+      "price": 185.2,
+      "gap_pct": 6.19,
+      "catalyst": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up.",
+      "prev_close": 174.4,
+      "premarket_volume": 87866,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up ",
+      "catalyst_url": "https://www.nasdaq.com/articles/astrazeneca-q3-profit-rises-pipeline-delivers-12-positive-phase-3-readouts-stock"
+    },
+    {
+      "ticker": "CL",
+      "price": 97.85,
+      "gap_pct": 5.03,
+      "catalyst": "Colgate-Palmolive Co.",
+      "prev_close": 93.16,
+      "premarket_volume": 64311,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Colgate-Palmolive Co. Reveals Advance In Q3 Income ",
+      "catalyst_url": "https://www.nasdaq.com/articles/colgate-palmolive-co-reveals-advance-q3-income"
+    }
+  ]
+}
