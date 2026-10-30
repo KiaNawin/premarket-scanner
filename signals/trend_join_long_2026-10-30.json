@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 08:35:00 EDT",
+  "generated_at_et": "2026-10-30 09:05:00 EDT",
   "source_premarket_file": "premarket_scan_2026-10-30.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 9,
+  "candidates": 6,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -20,7 +20,7 @@
       "signal": false,
       "reason": "Only 15 trading days of history (< 200 needed for SMA200)",
       "history_days": 15,
-      "gap_pct": 9.95,
+      "gap_pct": 12.76,
       "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK."
     },
     {
@@ -33,7 +33,7 @@
       "sma200": 180.1887,
       "premarket_high": 185.35,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.19,
+      "gap_pct": 5.73,
       "catalyst": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up."
     },
     {
@@ -44,10 +44,10 @@
       "yesterday_high": 93.27,
       "yesterday_close": 93.16,
       "sma200": 89.6294,
-      "premarket_high": 97.85,
+      "premarket_high": 98.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.03,
-      "catalyst": "Colgate-Palmolive Co."
+      "gap_pct": 5.2,
+      "catalyst": "Amended: Colgate-Palmolive Co."
     },
     {
       "ticker": "CPRI",
@@ -57,9 +57,9 @@
       "yesterday_high": 16.07,
       "yesterday_close": 16.06,
       "sma200": 17.8787,
-      "premarket_high": 17.86,
+      "premarket_high": 18.25,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.28,
+      "gap_pct": 11.52,
       "catalyst": "Here's Why Capri Holdings (CPRI) is a Strong Momentum Stock."
     },
     {
@@ -72,34 +72,8 @@
       "sma200": 60.3505,
       "premarket_high": 68.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.36,
+      "gap_pct": 7.15,
       "catalyst": "Mondelez International, Inc."
-    },
-    {
-      "ticker": "NRXP",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.1817,
-      "yesterday_high": 2.773,
-      "yesterday_close": 2.66,
-      "sma200": 2.9673,
-      "premarket_high": 3.69,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 14.25,
-      "catalyst": "NRx Pharmaceuticals Secures FDA Nod For Preservative-Free Ketamine Ahead Of Target Date; Stock Up."
-    },
-    {
-      "ticker": "RIVN",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.475,
-      "yesterday_high": 11.87,
-      "yesterday_close": 11.45,
-      "sma200": 15.4891,
-      "premarket_high": 12.75,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.53,
-      "catalyst": "Rivian Automotive, Inc."
     },
     {
       "ticker": "TNMG",
@@ -109,24 +83,11 @@
       "yesterday_high": 3.05,
       "yesterday_close": 3.05,
       "sma200": 9.7366,
-      "premarket_high": 4.68,
+      "premarket_high": 4.77,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 43.3,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "WKHS",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.1216,
-      "yesterday_high": 2.58,
-      "yesterday_close": 2.55,
-      "sma200": 3.2377,
-      "premarket_high": 3.22,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 18.43,
+      "gap_pct": 42.26,
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }

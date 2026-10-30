@@ -1,12 +1,12 @@
 {
   "ticker": "ACCO",
-  "saved_at_et": "2026-10-30T08:31:17-04:00",
+  "saved_at_et": "2026-10-30T09:01:23-04:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $4.36",
       "lastUpdateInfo": [
         "This page refreshes every 30 seconds.",
-        "Data last updated Oct 30, 2026 08:31 AM ET."
+        "Data last updated Oct 30, 2026 09:01 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,10 +19,10 @@
         },
         "rows": [
           {
-            "consolidated": "$4.6 +0.24 (+5.50%)",
-            "volume": "1,044",
-            "highPrice": "$4.65 (04:24:50 AM)",
-            "lowPrice": "$4.65 (04:24:50 AM)",
+            "consolidated": "$4.7 +0.34 (+7.80%)",
+            "volume": "4,818",
+            "highPrice": "$4.75 (08:58:44 AM)",
+            "lowPrice": "$4.63 (08:42:11 AM)",
             "delta": "up"
           }
         ]
@@ -35,6 +35,21 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "08:44:51",
+            "price": "$4.7",
+            "shareVolume": "20"
+          },
+          {
+            "time": "08:42:11",
+            "price": "$4.67",
+            "shareVolume": "66"
+          },
+          {
+            "time": "08:42:11",
+            "price": "$4.63",
+            "shareVolume": "500"
+          },
           {
             "time": "07:20:22",
             "price": "$4.6",
