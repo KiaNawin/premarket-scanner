@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 14:05:11 EDT",
+  "generated_at_et": "2026-10-30 14:35:01 EDT",
   "source_premarket_file": "premarket_scan_2026-10-30.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -17,7 +17,7 @@
       "ticker": "REAL",
       "signal_time_et": "2026-10-30 10:40",
       "entry_price": 12.58,
-      "last_price": 11.935,
+      "last_price": 11.93,
       "gap_pct": 5.37,
       "yesterday_high": 11.79,
       "yesterday_close": 11.35,
@@ -37,8 +37,8 @@
       "yesterday_close": 11.35,
       "sma200": 11.0283,
       "premarket_high": 11.9,
-      "last_price": 11.935,
-      "last_bar_et": "14:05",
+      "last_price": 11.93,
+      "last_bar_et": "14:31",
       "high_of_day": 12.69,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -70,8 +70,8 @@
       "yesterday_close": 174.4,
       "sma200": 180.1887,
       "premarket_high": 185.35,
-      "last_price": 187.345,
-      "last_bar_et": "14:04",
+      "last_price": 187.235,
+      "last_bar_et": "14:30",
       "high_of_day": 188.39,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -92,8 +92,8 @@
       "yesterday_close": 16.06,
       "sma200": 17.8787,
       "premarket_high": 18.25,
-      "last_price": 18.645,
-      "last_bar_et": "13:43",
+      "last_price": 18.435,
+      "last_bar_et": "14:01",
       "high_of_day": 19.1426,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -114,8 +114,8 @@
       "yesterday_close": 4.75,
       "sma200": 12.4989,
       "premarket_high": 4.75,
-      "last_price": 5.895,
-      "last_bar_et": "14:04",
+      "last_price": 5.905,
+      "last_bar_et": "14:32",
       "high_of_day": 5.95,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -136,8 +136,8 @@
       "yesterday_close": 147.29,
       "sma200": 187.1393,
       "premarket_high": 151.38,
-      "last_price": 158.23,
-      "last_bar_et": "14:03",
+      "last_price": 157.455,
+      "last_bar_et": "14:31",
       "high_of_day": 158.99,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -158,8 +158,8 @@
       "yesterday_close": 3.05,
       "sma200": 9.7366,
       "premarket_high": 4.77,
-      "last_price": 3.955,
-      "last_bar_et": "14:03",
+      "last_price": 3.715,
+      "last_bar_et": "14:31",
       "high_of_day": 5.05,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -172,5 +172,5 @@
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "14:05"
+  "scan_time_et": "14:35"
 }
