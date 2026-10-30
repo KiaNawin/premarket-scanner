@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 11:03:34 EDT",
-  "scan_time_et": "11:03",
+  "generated_at_et": "2026-10-30 11:34:22 EDT",
+  "scan_time_et": "11:34",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7095,
-    "prefilter": 284,
-    "with_data": 233,
-    "gap": 45,
-    "gap_price": 44,
+    "prefilter": 345,
+    "with_data": 295,
+    "gap": 48,
+    "gap_price": 47,
     "passed": 9,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -21,9 +21,21 @@
   "count": 9,
   "results": [
     {
+      "ticker": "AIOK",
+      "price": 23.65,
+      "gap_pct": 25.2,
+      "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK.",
+      "prev_close": 18.89,
+      "premarket_volume": 849005,
+      "session": "regular",
+      "catalyst_source": "BNK Invest",
+      "catalyst_headline": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
+      "catalyst_url": "https://www.nasdaq.com/articles/wednesday-10-28-insider-buying-report-npb-aiok"
+    },
+    {
       "ticker": "FMC",
-      "price": 5.7,
-      "gap_pct": 19.89,
+      "price": 5.78,
+      "gap_pct": 21.73,
       "catalyst": "FMC Corp.",
       "prev_close": 4.75,
       "premarket_volume": 67773,
@@ -34,8 +46,8 @@
     },
     {
       "ticker": "CPRI",
-      "price": 19.07,
-      "gap_pct": 18.74,
+      "price": 18.64,
+      "gap_pct": 16.06,
       "catalyst": "Capri Holdings (CPRI) Q2 Earnings and Revenues Top Estimates.",
       "prev_close": 16.06,
       "premarket_volume": 454093,
@@ -45,21 +57,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/capri-holdings-cpri-q2-earnings-and-revenues-top-estimates"
     },
     {
-      "ticker": "AIOK",
-      "price": 22.08,
-      "gap_pct": 16.89,
-      "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK.",
-      "prev_close": 18.89,
-      "premarket_volume": 849005,
+      "ticker": "REAL",
+      "price": 12.41,
+      "gap_pct": 9.34,
+      "catalyst": "RealReal (REAL) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 11.35,
+      "premarket_volume": 63069,
       "session": "regular",
-      "catalyst_source": "BNK Invest",
-      "catalyst_headline": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
-      "catalyst_url": "https://www.nasdaq.com/articles/wednesday-10-28-insider-buying-report-npb-aiok"
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "RealReal (REAL) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/realreal-real-q3-2026-earnings-call-transcript"
     },
     {
       "ticker": "TNMG",
-      "price": 3.35,
-      "gap_pct": 9.84,
+      "price": 3.33,
+      "gap_pct": 9.18,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 3.05,
       "premarket_volume": 21872525,
@@ -69,21 +81,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "REAL",
-      "price": 12.43,
-      "gap_pct": 9.52,
-      "catalyst": "The RealReal, Inc.",
-      "prev_close": 11.35,
-      "premarket_volume": 63069,
-      "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "The RealReal, Inc. Reports Third Quarter 2026 Revenue of $206 million and Raises Full Year Outlook",
-      "catalyst_url": "https://www.nasdaq.com/articles/realreal-inc-reports-third-quarter-2026-revenue-206-million-and-raises-full-year-outlook"
-    },
-    {
       "ticker": "AZN",
-      "price": 185.64,
-      "gap_pct": 6.45,
+      "price": 186.96,
+      "gap_pct": 7.2,
       "catalyst": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up.",
       "prev_close": 174.4,
       "premarket_volume": 140726,
@@ -94,8 +94,8 @@
     },
     {
       "ticker": "TMUS",
-      "price": 156.46,
-      "gap_pct": 6.23,
+      "price": 157.76,
+      "gap_pct": 7.11,
       "catalyst": "T-Mobile: 3 Key Takeaways for Long-Term Investors.",
       "prev_close": 147.29,
       "premarket_volume": 493539,
@@ -105,21 +105,9 @@
       "catalyst_url": "https://www.nasdaq.com/articles/t-mobile-3-key-takeaways-long-term-investors"
     },
     {
-      "ticker": "DXCM",
-      "price": 84.89,
-      "gap_pct": 6.21,
-      "catalyst": "Dexcom (DXCM) Q3 2026 Earnings Call Transcript.",
-      "prev_close": 79.93,
-      "premarket_volume": 50726,
-      "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "Dexcom (DXCM) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.nasdaq.com/articles/dexcom-dxcm-q3-2026-earnings-call-transcript"
-    },
-    {
       "ticker": "RIVN",
-      "price": 12.07,
-      "gap_pct": 5.46,
+      "price": 12.1,
+      "gap_pct": 5.65,
       "catalyst": "Rivian (RIVN) Q3 2026 Earnings Call Transcript.",
       "prev_close": 11.45,
       "premarket_volume": 2959366,
@@ -127,6 +115,18 @@
       "catalyst_source": "The Motley Fool",
       "catalyst_headline": "Rivian (RIVN) Q3 2026 Earnings Call Transcript",
       "catalyst_url": "https://www.nasdaq.com/articles/rivian-rivn-q3-2026-earnings-call-transcript"
+    },
+    {
+      "ticker": "DXCM",
+      "price": 84.42,
+      "gap_pct": 5.62,
+      "catalyst": "Dexcom (DXCM) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 79.93,
+      "premarket_volume": 50726,
+      "session": "regular",
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "Dexcom (DXCM) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/dexcom-dxcm-q3-2026-earnings-call-transcript"
     }
   ]
 }
