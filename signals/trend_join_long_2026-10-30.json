@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 10:05:01 EDT",
+  "generated_at_et": "2026-10-30 10:35:00 EDT",
   "source_premarket_file": "premarket_scan_2026-10-30.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 9,
+  "candidates": 8,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -20,7 +20,7 @@
       "signal": false,
       "reason": "Only 15 trading days of history (< 200 needed for SMA200)",
       "history_days": 15,
-      "gap_pct": 42.35,
+      "gap_pct": 39.86,
       "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK."
     },
     {
@@ -32,17 +32,17 @@
       "yesterday_close": 174.4,
       "sma200": 180.1887,
       "premarket_high": 185.35,
-      "last_price": 186.17,
-      "last_bar_et": "10:04",
+      "last_price": 184.9015,
+      "last_bar_et": "10:34",
       "high_of_day": 187.41,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.75,
+      "gap_pct": 5.95,
       "catalyst": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up."
     },
     {
@@ -54,8 +54,8 @@
       "yesterday_close": 16.06,
       "sma200": 17.8787,
       "premarket_high": 18.25,
-      "last_price": 18.5598,
-      "last_bar_et": "10:04",
+      "last_price": 18.81,
+      "last_bar_et": "10:34",
       "high_of_day": 19.1426,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -64,30 +64,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.0,
+      "gap_pct": 16.69,
       "catalyst": "Capri Holdings (CPRI) Q2 Earnings and Revenues Top Estimates."
-    },
-    {
-      "ticker": "DXCM",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 2.565,
-      "yesterday_high": 80.01,
-      "yesterday_close": 79.93,
-      "sma200": 74.4985,
-      "premarket_high": 83.0,
-      "last_price": 84.02,
-      "last_bar_et": "10:04",
-      "high_of_day": 85.245,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 5.39,
-      "catalyst": "DexCom, Inc."
     },
     {
       "ticker": "FMC",
@@ -98,9 +76,9 @@
       "yesterday_close": 4.75,
       "sma200": 12.4989,
       "premarket_high": 4.75,
-      "last_price": 5.61,
-      "last_bar_et": "10:04",
-      "high_of_day": 5.705,
+      "last_price": 5.842,
+      "last_bar_et": "10:34",
+      "high_of_day": 5.87,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -108,30 +86,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 18.32,
+      "gap_pct": 22.42,
       "catalyst": "FMC Corp."
-    },
-    {
-      "ticker": "MTZ",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 9.7036,
-      "yesterday_high": 189.83,
-      "yesterday_close": 177.82,
-      "sma200": 302.586,
-      "premarket_high": 171.0,
-      "last_price": 186.74,
-      "last_bar_et": "10:04",
-      "high_of_day": 189.0282,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.15,
-      "catalyst": "MasTec (MTZ) Beats Q3 Earnings and Revenue Estimates."
     },
     {
       "ticker": "REAL",
@@ -142,8 +98,8 @@
       "yesterday_close": 11.35,
       "sma200": 11.0283,
       "premarket_high": 11.9,
-      "last_price": 12.24,
-      "last_bar_et": "10:04",
+      "last_price": 12.37,
+      "last_bar_et": "10:34",
       "high_of_day": 12.555,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -152,7 +108,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 8.24,
+      "gap_pct": 9.07,
       "catalyst": "The RealReal, Inc."
     },
     {
@@ -164,9 +120,9 @@
       "yesterday_close": 11.45,
       "sma200": 15.4891,
       "premarket_high": 12.75,
-      "last_price": 12.15,
-      "last_bar_et": "10:04",
-      "high_of_day": 12.21,
+      "last_price": 12.0686,
+      "last_bar_et": "10:34",
+      "high_of_day": 12.27,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -174,8 +130,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.59,
+      "gap_pct": 5.15,
       "catalyst": "Rivian Automotive, Inc."
+    },
+    {
+      "ticker": "TMUS",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 5.36,
+      "yesterday_high": 152.72,
+      "yesterday_close": 147.29,
+      "sma200": 187.1393,
+      "premarket_high": 151.38,
+      "last_price": 154.74,
+      "last_bar_et": "10:34",
+      "high_of_day": 156.1,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.28,
+      "catalyst": "T-Mobile: 3 Key Takeaways for Long-Term Investors."
     },
     {
       "ticker": "TNMG",
@@ -186,8 +164,8 @@
       "yesterday_close": 3.05,
       "sma200": 9.7366,
       "premarket_high": 4.77,
-      "last_price": 4.24,
-      "last_bar_et": "10:04",
+      "last_price": 3.785,
+      "last_bar_et": "10:34",
       "high_of_day": 4.6699,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -196,9 +174,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 35.08,
+      "gap_pct": 23.93,
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }
