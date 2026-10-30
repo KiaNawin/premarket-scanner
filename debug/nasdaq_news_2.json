@@ -1,197 +1,66 @@
 {
-  "ticker": "FMC",
-  "saved_at_et": "2026-10-30T13:04:27-04:00",
+  "ticker": "TNMG",
+  "saved_at_et": "2026-10-30T13:34:36-04:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "FMC Q3 Earnings Miss on Channel Pricing Actions, Sales Beat",
+          "ago": "Sep 15, 2026",
+          "created": "Sep 15, 2026",
+          "description": "The average one-year price target for TNL Mediagene (NASDAQCM:TNMG) has been revised to $114.24 / share. This is an increase of 700.00% from the prior estimate of $14.28 dated August 25, 2026. These figures represent aggregate analyst targets compiled from multiple sources and do",
+          "id": 28370171,
           "image": "",
-          "created": "Oct 30, 2026",
-          "ago": "2 hours ago",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Zacks",
-          "related_symbols": [
-            "fmc|stocks",
-            "rs|stocks",
-            "asm|stocks",
-            "avnt|stocks"
-          ],
-          "url": "/articles/fmc-q3-earnings-miss-channel-pricing-actions-sales-beat",
-          "id": 28692721,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "FMC's Q3 loss widens as pricing actions and weak demand hit sales. Despite a revenue beat, the company lowered its 2026 outlook.",
+          "primarysymbol": "tnmg",
+          "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png"
-        },
-        {
-          "title": "FMC Corp. Q3 26 Earnings Conference Call At 9:00 AM ET ",
-          "image": "",
-          "created": "Oct 30, 2026",
-          "ago": "5 hours ago",
-          "primarysymbol": "fmc",
-          "primarytopic": "Markets|4006",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "fmc|stocks"
-          ],
-          "url": "/articles/fmc-corp-q3-26-earnings-conference-call-9-00-am-et",
-          "id": 28688841,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - FMC Corp. (FMC) will host a conference call at 9:00 AM ET on October 30, 2026, to discuss Q3 26 earnings results.",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "FMC (FMC) Reports Q3 Loss, Beats Revenue Estimates",
-          "image": "",
-          "created": "Oct 29, 2026",
-          "ago": "18 hours ago",
-          "primarysymbol": "",
-          "primarytopic": "Technology|4001",
-          "publisher": "Zacks",
-          "related_symbols": [
-            "fmc|stocks",
-            "adm|stocks"
-          ],
-          "url": "/articles/fmc-fmc-reports-q3-loss-beats-revenue-estimates",
-          "id": 28685041,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "FMC (FMC) delivered earnings and revenue surprises of -5,612.50% and +9.29%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "primarytopic_url": "/topic/technology",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png"
-        },
-        {
-          "title": "FMC Q3 Loss Widens ",
-          "image": "",
-          "created": "Oct 29, 2026",
-          "ago": "19 hours ago",
-          "primarysymbol": "fmc",
-          "primarytopic": "Markets|4006",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "fmc|stocks"
-          ],
-          "url": "/articles/fmc-q3-loss-widens",
-          "id": 28683026,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - FMC Corporation (FMC) on Thursday reported a sharply wider loss for the third quarter, hurt largely by non-cash impairment and tax-related adjustments.",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "FMC Corp. Q3 Earnings Summary ",
-          "image": "",
-          "created": "Oct 29, 2026",
-          "ago": "20 hours ago",
-          "primarysymbol": "fmc",
-          "primarytopic": "Markets|4006",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "fmc|stocks"
-          ],
-          "url": "/articles/fmc-corp-q3-earnings-summary",
-          "id": 28682771,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - Below are the earnings highlights for FMC Corp. (FMC):",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "Archer Daniels Midland (ADM) Reports Next Week: Wall Street Expects Earnings Growth",
-          "image": "",
-          "created": "Oct 27, 2026",
-          "ago": "3 days ago",
-          "primarysymbol": "",
-          "primarytopic": "Technology|4001",
-          "publisher": "Zacks",
-          "related_symbols": [
-            "adm|stocks",
-            "fmc|stocks"
-          ],
-          "url": "/articles/archer-daniels-midland-adm-reports-next-week-wall-street-expects-earnings-growth",
-          "id": 28643581,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "ADM (ADM) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
-          "primarytopic_url": "/topic/technology",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png"
-        },
-        {
-          "title": "FMC Consensus Price Target Lowered by 35.55% to $8.86",
-          "image": "",
-          "created": "Oct 23, 2026",
-          "ago": "Oct 23, 2026",
-          "primarysymbol": "fmc",
-          "primarytopic": "Stocks|4301",
           "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "fmc|stocks"
+            "tnmg|stocks"
           ],
-          "url": "/articles/fmc-consensus-price-target-lowered-3555-886",
-          "id": 28612521,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "The average one-year price target for FMC (NYSE:FMC) (BMV:FMC1) has been revised to $8.86 / share. This is a decrease of 35.55% from the prior estimate of $13.75 dated September 29, 2026. These figures represent aggregate analyst targets compiled by Fintel and do not constitute a",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+          "title": "TNL Mediagene Consensus Price Target Increased by 700% to $114.24",
+          "url": "/articles/tnl-mediagene-consensus-price-target-increased-700-11424"
         },
         {
-          "title": "Earnings Preview: FMC (FMC) Q3 Earnings Expected to Decline",
+          "ago": "Jan 14, 2026",
+          "created": "Jan 14, 2026",
+          "description": "The average one-year price target for TNL Mediagene (NasdaqCM:TNMG) has been revised to $71.40 / share. This is an increase of 1,900.00% from the prior estimate of $3.57 dated December 18, 2025.  The price target is an average of many targets provided by analys",
+          "id": 26685241,
           "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "Oct 22, 2026",
-          "primarysymbol": "",
-          "primarytopic": "Technology|4001",
-          "publisher": "Zacks",
-          "related_symbols": [
-            "fmc|stocks"
-          ],
-          "url": "/articles/earnings-preview-fmc-fmc-q3-earnings-expected-decline",
-          "id": 28603131,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "FMC (FMC) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
-          "primarytopic_url": "/topic/technology",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png"
-        },
-        {
-          "title": "FMC Corporation Appoints Luc Tack to Board of Directors Following Sale of 30,319,166 Shares",
-          "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "Oct 22, 2026",
-          "primarysymbol": "fmc",
+          "primarysymbol": "tnmg",
           "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "fmc|stocks"
-          ],
-          "url": "/articles/fmc-corporation-appoints-luc-tack-board-directors-following-sale-30319166-shares",
-          "id": 28597436,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "FMC Corporation announced that on October 21, 2026, the size of its Board of Directors was increased from 9 to 10 directors, and the Board appointed Luc Tack to serve as a director, effective as of October 21, 2026. Mr. Tack, who was also appointed to the Sustainability & Inn",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "tnmg|stocks"
+          ],
+          "title": "TNL Mediagene (TNMG) Price Target Increased by 1,900.00% to 71.40",
+          "url": "/articles/tnl-mediagene-tnmg-price-target-increased-190000-7140"
         },
         {
-          "title": "FMC Corporation Enters into Amendment No. 8 to Credit Agreement",
+          "ago": "May 20, 2025",
+          "created": "May 20, 2025",
+          "description": "Fintel reports that on May 20, 2025, Benchmark initiated coverage of TNL Mediagene (NasdaqCM:TNMG) with a Speculative Buy recommendation.",
+          "id": 24872171,
           "image": "",
-          "created": "Oct 22, 2026",
-          "ago": "Oct 22, 2026",
-          "primarysymbol": "fmc",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "fmc|stocks"
-          ],
-          "url": "/articles/fmc-corporation-enters-amendment-no-8-credit-agreement",
-          "id": 28597016,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "On October 15, 2026, FMC Corporation and certain subsidiaries of the Company entered into Amendment No. 8 to that certain Fifth Amended and Restated Credit Agreement, dated as of June 17, 2022, among the Company, certain of the Company’s subsidiaries, Citibank, N.A., as adm",
+          "primarysymbol": "tnmg",
+          "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "tnmg|stocks"
+          ],
+          "title": "Benchmark Initiates Coverage of TNL Mediagene (TNMG) with Speculative Buy Recommendation",
+          "url": "/articles/benchmark-initiates-coverage-tnl-mediagene-tnmg-speculative-buy-recommendation"
         }
       ],
-      "totalrecords": 246,
-      "message": null
+      "totalrecords": 3
     },
     "message": null,
     "status": {

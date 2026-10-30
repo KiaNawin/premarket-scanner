@@ -1,7 +1,9 @@
 **Trend-join Long — 2026-10-30**
-0 valid entries out of 6 pre-market gappers (generated 2026-10-30 13:05:00 EDT)
+1 valid entry out of 7 pre-market gappers (generated 2026-10-30 13:35:01 EDT)
 
-_No valid entries yet._
+| Ticker | Signal (ET) | Entry | Gap % | Catalyst |
+|---|---|---|---|---|
+| REAL | 10:40 | $12.58 | +5.29% | RealReal (REAL) Q3 2026 Earnings Call Transcript. |
 
 Not triggered:
 - AIOK: SHORT_HISTORY — Only 15 trading days of history (< 200 needed for SMA200)

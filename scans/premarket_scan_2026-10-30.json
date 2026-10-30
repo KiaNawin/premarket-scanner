@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 13:04:48 EDT",
-  "scan_time_et": "13:04",
+  "generated_at_et": "2026-10-30 13:35:00 EDT",
+  "scan_time_et": "13:35",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,33 +9,21 @@
   },
   "funnel": {
     "universe": 7095,
-    "prefilter": 492,
-    "with_data": 434,
-    "gap": 52,
-    "gap_price": 49,
-    "passed": 6,
+    "prefilter": 512,
+    "with_data": 450,
+    "gap": 59,
+    "gap_price": 56,
+    "passed": 7,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7095,
-  "count": 6,
+  "count": 7,
   "results": [
     {
-      "ticker": "TNMG",
-      "price": 4.44,
-      "gap_pct": 45.57,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 3.05,
-      "premarket_volume": 21872525,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "FMC",
-      "price": 5.89,
-      "gap_pct": 24.0,
+      "price": 5.86,
+      "gap_pct": 23.47,
       "catalyst": "FMC Corp.",
       "prev_close": 4.75,
       "premarket_volume": 67773,
@@ -45,9 +33,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/fmc-corp-q3-26-earnings-conference-call-9-00-am-et"
     },
     {
+      "ticker": "TNMG",
+      "price": 3.76,
+      "gap_pct": 23.11,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.05,
+      "premarket_volume": 21872525,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "AIOK",
-      "price": 22.3,
-      "gap_pct": 18.03,
+      "price": 21.92,
+      "gap_pct": 16.06,
       "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK.",
       "prev_close": 18.89,
       "premarket_volume": 849005,
@@ -59,7 +59,7 @@
     {
       "ticker": "CPRI",
       "price": 18.57,
-      "gap_pct": 15.6,
+      "gap_pct": 15.63,
       "catalyst": "Capri Holdings (CPRI) Reports Q2 Earnings: What Key Metrics Have to Say.",
       "prev_close": 16.06,
       "premarket_volume": 454093,
@@ -69,9 +69,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/capri-holdings-cpri-reports-q2-earnings-what-key-metrics-have-say"
     },
     {
+      "ticker": "AZN",
+      "price": 187.5,
+      "gap_pct": 7.51,
+      "catalyst": "Friday's ETF Movers: PPH, PSI.",
+      "prev_close": 174.4,
+      "premarket_volume": 140726,
+      "session": "regular",
+      "catalyst_source": "BNK Invest",
+      "catalyst_headline": "Friday's ETF Movers: PPH, PSI  ",
+      "catalyst_url": "https://www.nasdaq.com/articles/fridays-etf-movers-pph-psi"
+    },
+    {
       "ticker": "TMUS",
-      "price": 158.34,
-      "gap_pct": 7.5,
+      "price": 157.59,
+      "gap_pct": 6.99,
       "catalyst": "T-Mobile: 3 Key Takeaways for Long-Term Investors.",
       "prev_close": 147.29,
       "premarket_volume": 493539,
@@ -81,16 +93,16 @@
       "catalyst_url": "https://www.nasdaq.com/articles/t-mobile-3-key-takeaways-long-term-investors"
     },
     {
-      "ticker": "AZN",
-      "price": 187.35,
-      "gap_pct": 7.43,
-      "catalyst": "Friday's ETF Movers: PPH, PSI.",
-      "prev_close": 174.4,
-      "premarket_volume": 140726,
+      "ticker": "REAL",
+      "price": 11.95,
+      "gap_pct": 5.29,
+      "catalyst": "RealReal (REAL) Q3 2026 Earnings Call Transcript.",
+      "prev_close": 11.35,
+      "premarket_volume": 63069,
       "session": "regular",
-      "catalyst_source": "BNK Invest",
-      "catalyst_headline": "Friday's ETF Movers: PPH, PSI  ",
-      "catalyst_url": "https://www.nasdaq.com/articles/fridays-etf-movers-pph-psi"
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "RealReal (REAL) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.nasdaq.com/articles/realreal-real-q3-2026-earnings-call-transcript"
     }
   ]
 }
