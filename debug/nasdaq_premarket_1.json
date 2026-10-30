@@ -1,12 +1,12 @@
 {
   "ticker": "ACCO",
-  "saved_at_et": "2026-10-30T09:01:23-04:00",
+  "saved_at_et": "2026-10-30T09:31:05-04:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $4.36",
       "lastUpdateInfo": [
-        "This page refreshes every 30 seconds.",
-        "Data last updated Oct 30, 2026 09:01 AM ET."
+        "Data last updated Oct 30, 2026 09:30 AM ET.",
+        "This page will resume updating on Nov 2, 2026 04:00 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,9 +19,9 @@
         },
         "rows": [
           {
-            "consolidated": "$4.7 +0.34 (+7.80%)",
-            "volume": "4,818",
-            "highPrice": "$4.75 (08:58:44 AM)",
+            "consolidated": "$4.74 +0.38 (+8.72%)",
+            "volume": "25,075",
+            "highPrice": "$5.09 (09:30:01 AM)",
             "lowPrice": "$4.63 (08:42:11 AM)",
             "delta": "up"
           }
@@ -35,6 +35,71 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "09:13:57",
+            "price": "$4.74",
+            "shareVolume": "66"
+          },
+          {
+            "time": "09:13:57",
+            "price": "$4.7592",
+            "shareVolume": "750"
+          },
+          {
+            "time": "09:08:05",
+            "price": "$4.768",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:08:05",
+            "price": "$4.77",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:07:37",
+            "price": "$4.75",
+            "shareVolume": "30"
+          },
+          {
+            "time": "09:06:00",
+            "price": "$4.77",
+            "shareVolume": "315"
+          },
+          {
+            "time": "09:05:48",
+            "price": "$4.75",
+            "shareVolume": "1,000"
+          },
+          {
+            "time": "08:58:45",
+            "price": "$4.735",
+            "shareVolume": "66"
+          },
+          {
+            "time": "08:58:44",
+            "price": "$4.74",
+            "shareVolume": "8"
+          },
+          {
+            "time": "08:58:44",
+            "price": "$4.75",
+            "shareVolume": "2,739"
+          },
+          {
+            "time": "08:58:44",
+            "price": "$4.74",
+            "shareVolume": "358"
+          },
+          {
+            "time": "08:58:25",
+            "price": "$4.69",
+            "shareVolume": "12"
+          },
+          {
+            "time": "08:56:00",
+            "price": "$4.63",
+            "shareVolume": "5"
+          },
           {
             "time": "08:44:51",
             "price": "$4.7",

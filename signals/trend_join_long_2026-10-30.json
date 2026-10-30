@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 09:05:00 EDT",
+  "generated_at_et": "2026-10-30 09:35:00 EDT",
   "source_premarket_file": "premarket_scan_2026-10-30.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -20,74 +20,119 @@
       "signal": false,
       "reason": "Only 15 trading days of history (< 200 needed for SMA200)",
       "history_days": 15,
-      "gap_pct": 12.76,
+      "gap_pct": 15.7,
       "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK."
     },
     {
       "ticker": "AZN",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "atr14": 4.1443,
       "yesterday_high": 175.35,
       "yesterday_close": 174.4,
       "sma200": 180.1887,
       "premarket_high": 185.35,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.73,
+      "last_price": 186.43,
+      "last_bar_et": "09:34",
+      "high_of_day": 186.94,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.28,
       "catalyst": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up."
     },
     {
-      "ticker": "CL",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 2.0721,
-      "yesterday_high": 93.27,
-      "yesterday_close": 93.16,
-      "sma200": 89.6294,
-      "premarket_high": 98.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.2,
-      "catalyst": "Amended: Colgate-Palmolive Co."
-    },
-    {
       "ticker": "CPRI",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "atr14": 0.7071,
       "yesterday_high": 16.07,
       "yesterday_close": 16.06,
       "sma200": 17.8787,
       "premarket_high": 18.25,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 11.52,
-      "catalyst": "Here's Why Capri Holdings (CPRI) is a Strong Momentum Stock."
+      "last_price": 19.13,
+      "last_bar_et": "09:34",
+      "high_of_day": 19.1426,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 11.3,
+      "catalyst": "Capri Holdings (CPRI) Q2 Earnings and Revenues Top Estimates."
     },
     {
-      "ticker": "MDLZ",
-      "status": "WAITING",
+      "ticker": "FMC",
+      "status": "FAIL",
       "signal": false,
-      "atr14": 1.3414,
-      "yesterday_high": 62.66,
-      "yesterday_close": 62.53,
-      "sma200": 60.3505,
-      "premarket_high": 68.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.15,
-      "catalyst": "Mondelez International, Inc."
+      "atr14": 0.5914,
+      "yesterday_high": 4.84,
+      "yesterday_close": 4.75,
+      "sma200": 12.4989,
+      "premarket_high": 5.19,
+      "last_price": 5.3,
+      "last_bar_et": "09:34",
+      "high_of_day": 5.46,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 12.84,
+      "catalyst": "FMC Corp."
+    },
+    {
+      "ticker": "RKT",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5499,
+      "yesterday_high": 12.146,
+      "yesterday_close": 11.92,
+      "sma200": 14.7228,
+      "premarket_high": 12.72,
+      "last_price": 12.555,
+      "last_bar_et": "09:34",
+      "high_of_day": 12.68,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.2,
+      "catalyst": "Rocket Companies Q3 26 Earnings Conference Call At 4:30 PM ET."
     },
     {
       "ticker": "TNMG",
-      "status": "WAITING",
+      "status": "FAIL",
       "signal": false,
       "atr14": 0.3049,
       "yesterday_high": 3.05,
       "yesterday_close": 3.05,
       "sma200": 9.7366,
       "premarket_high": 4.77,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 42.26,
+      "last_price": 4.3901,
+      "last_bar_et": "09:34",
+      "high_of_day": 4.5,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 35.74,
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "09:05"
+  "scan_time_et": "09:35"
 }
