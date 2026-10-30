@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 09:32:49 EDT",
-  "scan_time_et": "09:32",
+  "generated_at_et": "2026-10-30 10:03:34 EDT",
+  "scan_time_et": "10:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,33 +9,21 @@
   },
   "funnel": {
     "universe": 7095,
-    "prefilter": 124,
-    "with_data": 78,
-    "gap": 28,
-    "gap_price": 27,
-    "passed": 6,
+    "prefilter": 212,
+    "with_data": 174,
+    "gap": 39,
+    "gap_price": 38,
+    "passed": 9,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7095,
-  "count": 6,
+  "count": 9,
   "results": [
     {
-      "ticker": "TNMG",
-      "price": 4.14,
-      "gap_pct": 35.74,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 3.05,
-      "premarket_volume": 21872525,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "AIOK",
-      "price": 21.85,
-      "gap_pct": 15.7,
+      "price": 26.89,
+      "gap_pct": 42.35,
       "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK.",
       "prev_close": 18.89,
       "premarket_volume": 849005,
@@ -45,9 +33,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/wednesday-10-28-insider-buying-report-npb-aiok"
     },
     {
+      "ticker": "TNMG",
+      "price": 4.12,
+      "gap_pct": 35.08,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.05,
+      "premarket_volume": 21872525,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "FMC",
-      "price": 5.36,
-      "gap_pct": 12.84,
+      "price": 5.62,
+      "gap_pct": 18.32,
       "catalyst": "FMC Corp.",
       "prev_close": 4.75,
       "premarket_volume": 67773,
@@ -58,8 +58,8 @@
     },
     {
       "ticker": "CPRI",
-      "price": 17.88,
-      "gap_pct": 11.3,
+      "price": 18.63,
+      "gap_pct": 16.0,
       "catalyst": "Capri Holdings (CPRI) Q2 Earnings and Revenues Top Estimates.",
       "prev_close": 16.06,
       "premarket_volume": 454093,
@@ -69,9 +69,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/capri-holdings-cpri-q2-earnings-and-revenues-top-estimates"
     },
     {
+      "ticker": "REAL",
+      "price": 12.29,
+      "gap_pct": 8.24,
+      "catalyst": "The RealReal, Inc.",
+      "prev_close": 11.35,
+      "premarket_volume": 63069,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "The RealReal, Inc. Reports Third Quarter 2026 Revenue of $206 million and Raises Full Year Outlook",
+      "catalyst_url": "https://www.nasdaq.com/articles/realreal-inc-reports-third-quarter-2026-revenue-206-million-and-raises-full-year-outlook"
+    },
+    {
       "ticker": "AZN",
-      "price": 185.36,
-      "gap_pct": 6.28,
+      "price": 186.18,
+      "gap_pct": 6.75,
       "catalyst": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up.",
       "prev_close": 174.4,
       "premarket_volume": 140726,
@@ -81,16 +93,40 @@
       "catalyst_url": "https://www.nasdaq.com/articles/astrazeneca-q3-profit-rises-pipeline-delivers-12-positive-phase-3-readouts-stock"
     },
     {
-      "ticker": "RKT",
-      "price": 12.54,
-      "gap_pct": 5.2,
-      "catalyst": "Rocket Companies Q3 26 Earnings Conference Call At 4:30 PM ET.",
-      "prev_close": 11.92,
-      "premarket_volume": 683661,
+      "ticker": "RIVN",
+      "price": 12.09,
+      "gap_pct": 5.59,
+      "catalyst": "Rivian Automotive, Inc.",
+      "prev_close": 11.45,
+      "premarket_volume": 2959366,
       "session": "regular",
-      "catalyst_source": "RTTNews",
-      "catalyst_headline": "Rocket Companies Q3 26 Earnings Conference Call At 4:30 PM ET ",
-      "catalyst_url": "https://www.nasdaq.com/articles/rocket-companies-q3-26-earnings-conference-call-4-30-pm-et"
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Rivian Automotive, Inc. Appoints Derek Mulvey Interim CFO and Reports Q3 2026 Financial Results",
+      "catalyst_url": "https://www.nasdaq.com/articles/rivian-automotive-inc-appoints-derek-mulvey-interim-cfo-and-reports-q3-2026-financial"
+    },
+    {
+      "ticker": "DXCM",
+      "price": 84.24,
+      "gap_pct": 5.39,
+      "catalyst": "DexCom, Inc.",
+      "prev_close": 79.93,
+      "premarket_volume": 50726,
+      "session": "regular",
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "DexCom, Inc. Reports Third Quarter 2026 Revenue of $1.344 billion and Announces $1.0 billion Share Repurchase Program",
+      "catalyst_url": "https://www.nasdaq.com/articles/dexcom-inc-reports-third-quarter-2026-revenue-1344-billion-and-announces-10-billion-share"
+    },
+    {
+      "ticker": "MTZ",
+      "price": 186.98,
+      "gap_pct": 5.15,
+      "catalyst": "MasTec (MTZ) Beats Q3 Earnings and Revenue Estimates.",
+      "prev_close": 177.82,
+      "premarket_volume": 50178,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "MasTec (MTZ) Beats Q3 Earnings and Revenue Estimates",
+      "catalyst_url": "https://www.nasdaq.com/articles/mastec-mtz-beats-q3-earnings-and-revenue-estimates"
     }
   ]
 }

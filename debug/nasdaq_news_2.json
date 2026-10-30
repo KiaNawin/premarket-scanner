@@ -1,31 +1,66 @@
 {
-  "ticker": "AIOK",
-  "saved_at_et": "2026-10-30T09:32:27-04:00",
+  "ticker": "TNMG",
+  "saved_at_et": "2026-10-30T10:03:04-04:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "1 day ago",
-          "created": "Oct 28, 2026",
-          "description": "Bargain hunters are wise to pay careful attention to insider buying, because although there are many various reasons for an insider to sell a stock, presumably the only reason they would use their hard-earned dollars to make a purchase, is that they expect to make money.  Today",
-          "id": 28660946,
+          "ago": "Sep 15, 2026",
+          "created": "Sep 15, 2026",
+          "description": "The average one-year price target for TNL Mediagene (NASDAQCM:TNMG) has been revised to $114.24 / share. This is an increase of 700.00% from the prior estimate of $14.28 dated August 25, 2026. These figures represent aggregate analyst targets compiled from multiple sources and do",
+          "id": 28370171,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "npb",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "primarysymbol": "tnmg",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "npb|stocks",
-            "aiok|stocks"
+            "tnmg|stocks"
           ],
-          "title": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
-          "url": "/articles/wednesday-10-28-insider-buying-report-npb-aiok"
+          "title": "TNL Mediagene Consensus Price Target Increased by 700% to $114.24",
+          "url": "/articles/tnl-mediagene-consensus-price-target-increased-700-11424"
+        },
+        {
+          "ago": "Jan 14, 2026",
+          "created": "Jan 14, 2026",
+          "description": "The average one-year price target for TNL Mediagene (NasdaqCM:TNMG) has been revised to $71.40 / share. This is an increase of 1,900.00% from the prior estimate of $3.57 dated December 18, 2025.  The price target is an average of many targets provided by analys",
+          "id": 26685241,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "tnmg",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "tnmg|stocks"
+          ],
+          "title": "TNL Mediagene (TNMG) Price Target Increased by 1,900.00% to 71.40",
+          "url": "/articles/tnl-mediagene-tnmg-price-target-increased-190000-7140"
+        },
+        {
+          "ago": "May 20, 2025",
+          "created": "May 20, 2025",
+          "description": "Fintel reports that on May 20, 2025, Benchmark initiated coverage of TNL Mediagene (NasdaqCM:TNMG) with a Speculative Buy recommendation.",
+          "id": 24872171,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "tnmg",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "tnmg|stocks"
+          ],
+          "title": "Benchmark Initiates Coverage of TNL Mediagene (TNMG) with Speculative Buy Recommendation",
+          "url": "/articles/benchmark-initiates-coverage-tnl-mediagene-tnmg-speculative-buy-recommendation"
         }
       ],
-      "totalrecords": 1
+      "totalrecords": 3
     },
     "message": null,
     "status": {
