@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-10-30",
-  "generated_at_et": "2026-10-30 12:05:01 EDT",
+  "generated_at_et": "2026-10-30 12:35:01 EDT",
   "source_premarket_file": "premarket_scan_2026-10-30.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 8,
+  "candidates": 9,
   "valid_count": 1,
   "valid_entries": [
     {
       "ticker": "REAL",
       "signal_time_et": "2026-10-30 10:40",
       "entry_price": 12.58,
-      "last_price": 12.245,
-      "gap_pct": 8.72,
+      "last_price": 12.15,
+      "gap_pct": 6.34,
       "yesterday_high": 11.79,
       "yesterday_close": 11.35,
       "sma200": 11.0283,
@@ -37,8 +37,8 @@
       "yesterday_close": 11.35,
       "sma200": 11.0283,
       "premarket_high": 11.9,
-      "last_price": 12.245,
-      "last_bar_et": "12:04",
+      "last_price": 12.15,
+      "last_bar_et": "12:34",
       "high_of_day": 12.69,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -49,7 +49,7 @@
       "signal_time_et": "2026-10-30 10:40",
       "entry_price": 12.58,
       "hod_before_signal": 12.555,
-      "gap_pct": 8.72,
+      "gap_pct": 6.34,
       "catalyst": "RealReal (REAL) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -58,7 +58,7 @@
       "signal": false,
       "reason": "Only 15 trading days of history (< 200 needed for SMA200)",
       "history_days": 15,
-      "gap_pct": 23.35,
+      "gap_pct": 14.08,
       "catalyst": "Wednesday 10/28 Insider Buying Report: NPB, AIOK."
     },
     {
@@ -70,9 +70,9 @@
       "yesterday_close": 174.4,
       "sma200": 180.1887,
       "premarket_high": 185.35,
-      "last_price": 186.9,
-      "last_bar_et": "12:04",
-      "high_of_day": 187.41,
+      "last_price": 187.275,
+      "last_bar_et": "12:34",
+      "high_of_day": 188.39,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -80,7 +80,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.21,
+      "gap_pct": 7.49,
       "catalyst": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up."
     },
     {
@@ -92,8 +92,8 @@
       "yesterday_close": 16.06,
       "sma200": 17.8787,
       "premarket_high": 18.25,
-      "last_price": 18.67,
-      "last_bar_et": "12:04",
+      "last_price": 18.76,
+      "last_bar_et": "12:34",
       "high_of_day": 19.1426,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -102,7 +102,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.06,
+      "gap_pct": 17.25,
       "catalyst": "Capri Holdings (CPRI) Reports Q2 Earnings: What Key Metrics Have to Say."
     },
     {
@@ -114,8 +114,8 @@
       "yesterday_close": 79.93,
       "sma200": 74.4985,
       "premarket_high": 83.0,
-      "last_price": 83.88,
-      "last_bar_et": "12:04",
+      "last_price": 84.1,
+      "last_bar_et": "12:34",
       "high_of_day": 85.245,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -124,7 +124,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 5.1,
+      "gap_pct": 5.14,
       "catalyst": "Dexcom (DXCM) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -136,9 +136,9 @@
       "yesterday_close": 4.75,
       "sma200": 12.4989,
       "premarket_high": 4.75,
-      "last_price": 5.84,
-      "last_bar_et": "12:04",
-      "high_of_day": 5.895,
+      "last_price": 5.9114,
+      "last_bar_et": "12:34",
+      "high_of_day": 5.95,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -146,8 +146,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 22.62,
+      "gap_pct": 24.11,
       "catalyst": "FMC Corp."
+    },
+    {
+      "ticker": "RKT",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5499,
+      "yesterday_high": 12.146,
+      "yesterday_close": 11.92,
+      "sma200": 14.7228,
+      "premarket_high": 12.6,
+      "last_price": 12.545,
+      "last_bar_et": "12:34",
+      "high_of_day": 12.69,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.24,
+      "catalyst": "Rocket (RKT) Q3 2026 Earnings Call Transcript."
     },
     {
       "ticker": "TMUS",
@@ -158,9 +180,9 @@
       "yesterday_close": 147.29,
       "sma200": 187.1393,
       "premarket_high": 151.38,
-      "last_price": 158.05,
-      "last_bar_et": "12:04",
-      "high_of_day": 158.18,
+      "last_price": 157.995,
+      "last_bar_et": "12:34",
+      "high_of_day": 158.28,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -168,7 +190,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.94,
+      "gap_pct": 7.41,
       "catalyst": "T-Mobile: 3 Key Takeaways for Long-Term Investors."
     },
     {
@@ -180,8 +202,8 @@
       "yesterday_close": 3.05,
       "sma200": 9.7366,
       "premarket_high": 4.77,
-      "last_price": 3.42,
-      "last_bar_et": "12:03",
+      "last_price": 3.76,
+      "last_bar_et": "12:34",
       "high_of_day": 4.6699,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -190,9 +212,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.76,
+      "gap_pct": 23.93,
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "12:05"
+  "scan_time_et": "12:35"
 }
