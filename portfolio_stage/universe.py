@@ -7,8 +7,10 @@ Whole-market momentum scan ("หุ้นโมเมนตัมแรง") —
                 >= universe.min_dollar_volume (keeps the download to liquid names)
   3. daily bars 1 year, adjusted, closed bars only -> ret_1m/3m/6m, momentum score = their average,
                 ret_rank_top_pct = rank of the score among every scanned stock (1-100, 5 = top 5%)
-  4. leaders    any of ret_1m/3m/6m >= 30% and rank <= 30, 20-day average dollar volume >= $20M,
-                price >= $5, weekly Stage 2; sorted base_tight.ok / first_retest first
+  4. strong     any of ret_1m/3m/6m >= 30% and rank <= momentum.max_rank_top_pct (10), 20-day average
+                dollar volume >= $20M, price >= $5, weekly Stage 2
+  5. leaders    strong AND a setup today (base_tight.ok or first_retest) when momentum.require_setup;
+                strong stocks without a setup are listed as a short watch list in momentum.md only
 Outputs output/<date>/momentum.json + momentum.md. Never fails the portfolio run: errors come back as a reason.
 """
 from __future__ import annotations
@@ -154,8 +156,16 @@ def scan(cfg: dict, as_of: dt.date, now_et: dt.datetime, bar_complete: bool, ref
                         "prev_high": f["prev_high"], "prev_low2": f["prev_low2"], "stop_pct": stop_pct})
     setup = lambda x: bool((x["base_tight"] or {}).get("ok")) or x["first_retest"] is not None
     leaders.sort(key=lambda x: (not setup(x), x["ret_rank_top_pct"], -(x["ret_3m"] or 0)))
+    out["funnel"]["strong"] = len(leaders)
+    if lc.get("require_setup", True):
+        out["watch"] = [x["ticker"] for x in leaders if not setup(x)]
+        leaders = [x for x in leaders if setup(x)]
     out["leaders"] = leaders
     out["funnel"]["leaders"] = len(leaders)
+    out["filter"] = (f"ret 1m/3m/6m any ≥ {lc['min_ret_pct']:g}% · rank top {lc['max_rank_top_pct']:g}% · "
+                     f"20-day avg $ volume ≥ ${lc['min_adv20_usd'] / 1e6:g}M · price ≥ ${lc['min_price']:g} · "
+                     f"weekly Stage 2" + (" · setup today (base tight or first retest)"
+                                          if lc.get("require_setup", True) else ""))
     out["seconds"] = round(time.time() - t0)
     return out
 
@@ -168,7 +178,8 @@ def _yn(x) -> str:
 def write_report(out_dir: str, as_of: str, res: dict) -> None:
     os.makedirs(out_dir, exist_ok=True)
     doc = {"as_of": as_of, "definition": res.get("definition"), "funnel": res.get("funnel"),
-           "error": res.get("error"), "leaders": res.get("leaders", [])}
+           "error": res.get("error"), "filter": res.get("filter"), "leaders": res.get("leaders", []),
+           "watch": res.get("watch", [])}
     with open(os.path.join(out_dir, "momentum.json"), "w", encoding="utf-8") as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
     L = [f"# Momentum leaders — {as_of}", ""]
@@ -176,8 +187,8 @@ def write_report(out_dir: str, as_of: str, res: dict) -> None:
         L += [f"⚠️ Scan failed: {res['error']}", ""]
     fu = res.get("funnel") or {}
     L += [f"Universe: {res.get('definition')} · scanned {fu.get('with_prices', 0)} · ranked {fu.get('ranked', 0)} "
-          f"· leaders {fu.get('leaders', 0)}", "",
-          "Filter: ret 1m/3m/6m any ≥ 30% · rank top 30% · 20-day avg $ volume ≥ $20M · price ≥ $5 · weekly Stage 2",
+          f"· strong {fu.get('strong', 0)} · with a setup {fu.get('leaders', 0)}", "",
+          f"Filter: {res.get('filter') or '—'}",
           "", "| Ticker | 1m | 3m | 6m | Rank top % | Stage | Base tight | Retest | Buy > prev high | Stop prev low2 | Stop % |",
           "|---|---:|---:|---:|---:|---|---|---|---:|---:|---:|"]
     pc = lambda x: "—" if x is None else f"{x:+.1f}%"
@@ -188,6 +199,9 @@ def write_report(out_dir: str, as_of: str, res: dict) -> None:
         L.append(f"| **{x['ticker']}** | {pc(x['ret_1m'])} | {pc(x['ret_3m'])} | {pc(x['ret_6m'])} | "
                  f"{x['ret_rank_top_pct']} | S2 | {bt_txt} | {rt} | ${x['prev_high']:,.2f} | "
                  f"${x['prev_low2']:,.2f} | {x['stop_pct'] if x['stop_pct'] is not None else '—'}% |")
+    if res.get("watch"):
+        L += ["", f"**Strong, no setup yet ({len(res['watch'])})** — wait for a tight base or a first retest:",
+              ", ".join(res["watch"])]
     L += ["", "Base tight: hl = higher lows · c = range contracting · r = above rising EMA9/21. "
           "Retest = first pullback to a level broken in the last 30 days.", ""]
     with open(os.path.join(out_dir, "momentum.md"), "w", encoding="utf-8") as f:
@@ -200,8 +214,9 @@ def telegram_text(as_of: str, res: dict, max_rows: int = 15) -> str:
         return f"<b>🚀 Momentum leaders — {as_of}</b>\n⚠️ Scan failed: {html.escape(res['error'])}"
     ls = res.get("leaders", [])
     fu = res.get("funnel") or {}
-    lines = [f"<b>🚀 Momentum leaders — {as_of}</b>",
-             f"{len(ls)} of {fu.get('ranked', 0)} liquid stocks (≥30% · top 30% · S2 · $20M/day)", ""]
+    lines = [f"<b>🚀 Momentum setups — {as_of}</b>",
+             f"{len(ls)} setups among {fu.get('strong', len(ls))} strong stocks out of {fu.get('ranked', 0)} scanned",
+             f"<i>{html.escape(res.get('filter') or '')}</i>", ""]
     for x in ls[:max_rows]:
         tag = " ✅base" if (x["base_tight"] or {}).get("ok") else ""
         tag += f" 🔁retest ${x['first_retest']['level']:,.2f}" if x["first_retest"] else ""
@@ -211,5 +226,7 @@ def telegram_text(as_of: str, res: dict, max_rows: int = 15) -> str:
     if len(ls) > max_rows:
         lines.append(f"\n… +{len(ls) - max_rows} more in output/{as_of}/momentum.md")
     if not ls:
-        lines.append("No stock passes all filters today.")
+        lines.append("No strong stock has a setup today.")
+    if res.get("watch"):
+        lines.append(f"<i>{len(res['watch'])} more strong stocks without a setup yet: momentum.md</i>")
     return "\n".join(lines)

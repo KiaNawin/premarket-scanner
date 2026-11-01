@@ -256,8 +256,9 @@ quality letter) is rebuilt from the ledger at the repo root every run (gitignore
 
 **Momentum leaders** (`output/<date>/momentum.md` + `.json`, second Telegram message): every `run` scans all
 US common stocks (Scanner A's list; Yahoo quotes pre-filter: price ≥ $3, 3-month avg $ volume ≥ $5M), ranks
-the average of ret 1m/3m/6m, then keeps: any ret ≥ 30 %, rank top 30 %, 20-day avg $ volume ≥ $20M,
-price ≥ $5, weekly Stage 2 — base-tight / first-retest setups first, with buy > `prev_high`, stop `prev_low2`.
+the average of ret 1m/3m/6m, then keeps: any ret ≥ 30 %, rank top 10 %, 20-day avg $ volume ≥ $20M,
+price ≥ $5, weekly Stage 2, and only those with a setup today (base tight or first retest) — buy > `prev_high`,
+stop `prev_low2`. Strong stocks without a setup are listed once at the end of momentum.md as a watch list.
 `python -m portfolio_stage momentum [--telegram]` runs the scan alone; `run --no-universe` skips it.
 Settings: `universe:` and `momentum:` in `config.yaml`.
 

@@ -247,7 +247,8 @@ class SwingAndMomentum(unittest.TestCase):
         self.assertIsNone(mom["error"])
         for x in mom["leaders"]:
             self.assertEqual(x["stage"], 2)
-            self.assertLessEqual(x["ret_rank_top_pct"], 30)
+            self.assertLessEqual(x["ret_rank_top_pct"], 10)
+            self.assertTrue((x["base_tight"] or {}).get("ok") or x["first_retest"])
             self.assertTrue(any(v is not None and v >= 30 for v in (x["ret_1m"], x["ret_3m"], x["ret_6m"])))
             self.assertGreaterEqual(x["adv20_musd"], 20)
         self.assertIn("# Momentum leaders", self.t._read(out, "momentum.md"))
