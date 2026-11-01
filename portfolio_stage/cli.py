@@ -1,5 +1,6 @@
 """
 python -m portfolio_stage run                         analyse every holding -> output/YYYY-MM-DD/
+python -m portfolio_stage momentum                    whole-market momentum scan only (momentum.md)
 python -m portfolio_stage bootstrap dime_values.csv   first time only: OPENING rows from Dime values
 python -m portfolio_stage ingest slips/               read Dime slips -> append to portfolio/trades.csv
 python -m portfolio_stage reconcile dime_values.csv   compare ledger value vs the Dime app (>2% -> alert)
@@ -147,6 +148,8 @@ def cmd_run(args, cfg) -> int:
     from . import fundamentals as F
     from . import quality as Q
     from . import report as R
+    from . import swing as SW
+    from . import universe as U
     from . import validate as V
     now = _now_et()
     as_of = now.date()
@@ -166,6 +169,14 @@ def cmd_run(args, cfg) -> int:
     quotes, q_err = D.fetch_quotes(list(held))
     etf_q = set(cfg["etf_qualities"])
     rsc = cfg["rs_score"]
+    bar_complete = last_bar_complete(now)
+    ures = None
+    if getattr(args, "no_universe", False) or not cfg["universe"]["enabled"]:
+        rank_why = "universe scan skipped (--no-universe)"
+    else:
+        print("สแกนหุ้นทั้งตลาดหาโมเมนตัม (ใช้เวลาสักครู่)…")
+        ures = U.scan(cfg, as_of, now, bar_complete, refresh=args.refresh)
+        rank_why = f"universe scan failed: {ures['error']}" if ures["error"] else None
 
     rows, rel_ret = {}, {}
     for t, p in held.items():
@@ -174,7 +185,7 @@ def cmd_run(args, cfg) -> int:
         tier = m.get("quality") or None                    # letter A/B/C/EC/ET from meta.csv
         r = {"shares": round(p.shares, 6), "avg_cost": A.r2(p.avg_cost, 4), "group": m.get("group") or None,
              "tier": tier, "levels": {k: None for k in R.LEVEL_KEYS},
-             "quality": None, "null_reasons": {}}
+             "quality": None, **{k: None for k in SW.FIELDS}, "ret_rank_top_pct": None, "null_reasons": {}}
         nr = r["null_reasons"]
         df = prices.get(yt)
         if df is None:
@@ -201,6 +212,16 @@ def cmd_run(args, cfg) -> int:
         pc = D.prev_close(df, as_of)
         live, live_err = D.latest_trade_today(quotes.get(yt), as_of) if not q_err else (None, q_err)
         gap = (live / pc - 1) * 100 if live and pc else None
+        sw, sw_why = SW.compute(SW.closed_bars(df, now, bar_complete))
+        r.update(sw)
+        nr.update(sw_why)
+        r["ret_rank_top_pct"] = SW.top_pct(SW.momentum_score(sw), ures["scores"]) if ures else None
+        if r["ret_rank_top_pct"] is None:
+            if not ures or ures["error"] or not ures["scores"]:
+                nr["ret_rank_top_pct"] = rank_why if not ures or ures["error"] else "universe scan returned no stocks"
+            else:
+                nr["ret_rank_top_pct"] = "needs ret_1m, ret_3m and ret_6m — " + (
+                    sw_why.get("ret_6m") or sw_why.get("ret_3m") or sw_why.get("ret_1m") or "missing")
         sup, res = lv["supports"], lv["resistances"]
         r["levels"] = {"S1": A.r2(sup[0]) if sup else None, "S2": A.r2(sup[1]) if len(sup) > 1 else None,
                        "R1": A.r2(res[0]) if res else None, "TP1": A.r2(lv["target"])}
@@ -284,7 +305,7 @@ def cmd_run(args, cfg) -> int:
         r["rs_score"] = scores.get(t)
         nr = r["null_reasons"]
         for k in R.KEYS:                          # any remaining null gets a reason
-            if k in ("levels", "quality", "earnings_soon") or "all" in nr:
+            if k in ("levels", "quality", "earnings_soon", "gaps_open", "first_retest") or "all" in nr:
                 continue
             if r.get(k) is None and k not in nr:
                 n = r.get("history_days") or 0
@@ -308,13 +329,20 @@ def cmd_run(args, cfg) -> int:
                 "total_value": A.r2(total), "positions": len(rows)}
     if q_err:
         meta_out["quote_error"] = q_err
-    meta_out["last_bar_complete"] = last_bar_complete(now)
+    meta_out["last_bar_complete"] = bar_complete
+    if ures is not None:
+        meta_out["universe"] = {"definition": ures["definition"], "funnel": ures["funnel"], "error": ures["error"],
+                                "seconds": ures.get("seconds")}
     intraday = not meta_out["last_bar_complete"]
     R.write_outputs(out_dir, meta_out, rows, alerts, cfg)
     frames = {t: prices.get(D.to_yahoo(t)) for t in held}
     frames[bench] = spy                                      # SPY always (missing -> validator fails, as it should)
     R.write_ohlc(out_dir, as_of.isoformat(), frames, cfg["ohlc"]["days"])
     R.write_holdings_csv(V._abs(cfg["validator"]["holdings_csv"]), held, meta)
+    if ures is not None:
+        U.write_report(out_dir, as_of.isoformat(), ures)
+        print(f"✓ โมเมนตัม: {len(ures['leaders'])} ตัวผ่านเกณฑ์จาก {ures['funnel'].get('ranked', 0)} หุ้น "
+              f"→ momentum.md" if not ures["error"] else f"⚠️ สแกนทั้งตลาดไม่สำเร็จ: {ures['error']}")
     print(f"✓ {len(rows)} positions · total ${total:,.0f} · {len(alerts)} alerts → {out_dir}")
     if intraday:
         print(f"⚠️ last_bar_complete: false — รันก่อน 16:00 ET ของวันทำการ ({now:%Y-%m-%d %H:%M} ET) "
@@ -334,10 +362,31 @@ def cmd_run(args, cfg) -> int:
         if alerts or not vres["ok"] or tcfg.get("send_when_no_alerts", True):
             sent = N.send(N.build_message(meta_out, alerts, rows, vres), silent=tcfg.get("silent", False))
             print("✓ ส่ง Telegram แล้ว" if sent else "✗ ส่ง Telegram ไม่สำเร็จ — เช็ก TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID ใน .env")
+            if ures is not None:
+                N.send(U.telegram_text(as_of.isoformat(), ures, cfg["momentum"]["telegram_rows"]),
+                       silent=tcfg.get("silent", False))
     return 0 if vres["ok"] else VALIDATION_FAILED
 
 
 VALIDATION_FAILED = 3
+
+
+def cmd_momentum(args, cfg) -> int:
+    """Whole-market momentum scan only -> output/<date>/momentum.md (+ Telegram with --telegram)."""
+    from . import universe as U
+    now = _now_et()
+    res = U.scan(cfg, now.date(), now, last_bar_complete(now), refresh=args.refresh)
+    out_dir = os.path.join(cfg["paths"]["output"], now.date().isoformat())
+    U.write_report(out_dir, now.date().isoformat(), res)
+    if res["error"]:
+        print(f"⚠️ สแกนไม่สำเร็จ: {res['error']}")
+    else:
+        print(f"✓ {len(res['leaders'])} ตัวผ่านเกณฑ์จาก {res['funnel'].get('ranked', 0)} หุ้น "
+              f"({res.get('seconds')} วินาที) → {os.path.join(out_dir, 'momentum.md')}")
+    if args.telegram:
+        from . import notify as N
+        N.send(U.telegram_text(now.date().isoformat(), res, cfg["momentum"]["telegram_rows"]))
+    return 1 if res["error"] else 0
 
 
 def short_date(iso: str | None) -> str:
@@ -465,6 +514,10 @@ def main(argv=None) -> int:
     p.add_argument("--refresh", action="store_true", help="ignore today's price cache")
     p.add_argument("--no-fundamentals", action="store_true", help="skip earnings/fundamentals lookups")
     p.add_argument("--telegram", action="store_true", help="also send the alerts to Telegram")
+    p.add_argument("--no-universe", action="store_true", help="skip the whole-market momentum scan")
+    p = sub.add_parser("momentum", help="whole-market momentum scan only")
+    p.add_argument("--refresh", action="store_true")
+    p.add_argument("--telegram", action="store_true")
     p = sub.add_parser("bootstrap", help="first-time OPENING rows from dime_values.csv")
     p.add_argument("values_csv")
     p.add_argument("--refresh", action="store_true")
@@ -476,7 +529,7 @@ def main(argv=None) -> int:
     p.add_argument("--refresh", action="store_true")
     args = ap.parse_args(argv)
     cfg = load_config(args.config)
-    fn = {"run": cmd_run, "bootstrap": cmd_bootstrap, "ingest": cmd_ingest, "reconcile": cmd_reconcile}[args.cmd]
+    fn = {"run": cmd_run, "momentum": cmd_momentum, "bootstrap": cmd_bootstrap, "ingest": cmd_ingest, "reconcile": cmd_reconcile}[args.cmd]
     if args.cmd == "run" and args.telegram:
         try:
             rc = fn(args, cfg)

@@ -55,20 +55,40 @@ class OutputFormat(unittest.TestCase):
         with open(os.path.join(out, name), encoding="utf-8") as f:
             return json.load(f) if name.endswith(".json") else f.read()
 
-    def _run(self, script=PASS_SCRIPT, drop=(), fundamentals=False):
+    @staticmethod
+    def fake_universe(n=40):
+        u = {}
+        for i in range(n):
+            df = fake_prices(100 + i, drift=-0.001 + i * 0.0002)
+            df["Volume"] = df["Volume"] * 20
+            u[f"U{i:02d}"] = df
+        return u
+
+    def _run(self, script=PASS_SCRIPT, drop=(), fundamentals=False, universe=True, args_extra=None):
         if script is not None:
             os.makedirs(os.path.dirname(self.script), exist_ok=True)
             with open(self.script, "w") as f:
                 f.write(script)
         prices = {k: v for k, v in self.prices.items() if k not in drop}
         missing = {k: "not found on Yahoo" for k in drop}
-        args = argparse.Namespace(refresh=False, no_fundamentals=not fundamentals, telegram=False)
+        args = argparse.Namespace(refresh=False, no_fundamentals=not fundamentals, telegram=False,
+                                  no_universe=not universe, **(args_extra or {}))
+        uni = self.fake_universe()
+        uni.update({k: v for k, v in prices.items() if k != "SPY"})
+
+        def fetch(tickers, cfg, as_of, refresh=False, downloader=None):
+            if cfg["paths"]["cache"].endswith("universe"):
+                return {t: uni[t] for t in tickers if t in uni}, {}
+            return prices, missing
+        from portfolio_stage import universe as U
         full = {"rev_growth": 0.3, "ni": 20, "rev_ttm": 100, "ni_quarters": [1, 2, 3, 4], "total_cash": 9,
                 "total_debt": 1, "forward_pe": 40, "reasons": {}}
         partial = {"rev_growth": 0.1, "reasons": {}}                    # Yahoo gave almost nothing
         from portfolio_stage import events as EV
         from portfolio_stage import fundamentals as F
-        with mock.patch.object(D, "fetch_daily", return_value=(prices, missing)), \
+        with mock.patch.object(D, "fetch_daily", side_effect=fetch), \
+                mock.patch.object(U, "load_universe", return_value=sorted(uni)), \
+                mock.patch.object(U, "quote_prefilter", side_effect=lambda syms, *a, **k: syms), \
                 mock.patch.object(D, "fetch_quotes", return_value=({}, None)), \
                 mock.patch.object(F, "earnings", return_value={"earnings_date": None, "earnings_soon": False,
                                                                "reason": "none"}), \
@@ -199,6 +219,67 @@ class OutputFormat(unittest.TestCase):
                 json.dump(doc, f)
         self.assertEqual(R.previous_run(root, "2026-10-02"), ("2026-10-01", {"NVDA": {"stage": 2}}))
         self.assertEqual(R.previous_run(root, "2026-10-03"), ("2026-10-02", {"NVDA": {"stage": 3}}))
+
+
+class SwingAndMomentum(unittest.TestCase):
+    def setUp(self):
+        self.t = OutputFormat("test_json_layout_and_p_matches_ohlc")
+        self.t.setUp()
+
+    def tearDown(self):
+        self.t.tearDown()
+
+    def test_swing_fields_types_and_real_validator(self):
+        rc, out, doc, ohlc, alerts = self.t._run(self.t._real_validator())
+        self.assertEqual(rc, 0, self.t._read(out, "validate.txt"))
+        for t, r in doc["tickers"].items():
+            for k in ("ema9", "ema21", "prev_high", "prev_low2", "ret_1m", "ret_3m", "ret_6m"):
+                self.assertIsInstance(r[k], float, (t, k))
+            self.assertTrue(1 <= r["ret_rank_top_pct"] <= 100)
+            self.assertEqual(set(r["avwap"]), {"value", "anchor_date"})
+            self.assertEqual(set(r["base_tight"]), {"hl", "contr", "reclaim", "ok"})
+            self.assertIsInstance(r["gaps_open"], list)
+            self.assertLessEqual(r["prev_low2"], r["prev_high"])
+            for g in r["gaps_open"]:
+                self.assertTrue(g["bot"] < g["top"] < r["p"])
+        self.assertIn("universe", doc["meta"])
+        mom = self.t._read(out, "momentum.json")
+        self.assertIsNone(mom["error"])
+        for x in mom["leaders"]:
+            self.assertEqual(x["stage"], 2)
+            self.assertLessEqual(x["ret_rank_top_pct"], 30)
+            self.assertTrue(any(v is not None and v >= 30 for v in (x["ret_1m"], x["ret_3m"], x["ret_6m"])))
+            self.assertGreaterEqual(x["adv20_musd"], 20)
+        self.assertIn("# Momentum leaders", self.t._read(out, "momentum.md"))
+
+    def test_no_universe_gives_reason(self):
+        rc, out, doc, *_ = self.t._run(universe=False)
+        r = doc["tickers"]["NVDA"]
+        self.assertIsNone(r["ret_rank_top_pct"])
+        self.assertIn("skipped", r["null_reasons"]["ret_rank_top_pct"])
+        self.assertIsNotNone(r["ema9"])                                   # swing fields still computed
+
+    def test_validator_rejects_bad_swing_values(self):
+        rc, out, doc, *_ = self.t._run(self.t._real_validator())
+        bad = doc["tickers"]["NVDA"]
+        bad["prev_low2"] = bad["prev_high"] + 1
+        bad["gaps_open"] = [{"bot": 1.0, "top": bad["p"] + 5, "date": "2026-10-01"}]
+        bad["ema9"] = "12.3"
+        with open(os.path.join(out, "portfolio_stage.json"), "w", encoding="utf-8") as f:
+            json.dump(doc, f)
+        import subprocess, sys
+        p = subprocess.run([sys.executable, self.t.script, out, self.t.cfg["validator"]["holdings_csv"]],
+                           capture_output=True, text=True, encoding="utf-8")
+        self.assertEqual(p.returncode, 1)
+        for frag in ("prev_low2", "gap ผิดรูป", "ema9 ต้องเป็นตัวเลข"):
+            self.assertIn(frag, p.stdout)
+
+    def test_closed_bars_drops_forming_bar(self):
+        from portfolio_stage import swing as SW
+        df = fake_prices(1, n=30)
+        now = cli.dt.datetime.combine(df.index[-1].date(), cli.dt.time(11, 0), tzinfo=cli.ET)
+        self.assertEqual(len(SW.closed_bars(df, now, bar_complete=False)), 29)
+        self.assertEqual(len(SW.closed_bars(df, now, bar_complete=True)), 30)
 
 
 class LastBarComplete(unittest.TestCase):

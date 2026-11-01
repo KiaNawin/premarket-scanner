@@ -234,6 +234,18 @@ R1, TP1}, quality {growth, profitability, consistency, balance_sheet, valuation}
 `p` is exactly the last close in `ohlc.json`; `value` = shares × p. `holdings.csv` (ticker, shares, group,
 quality letter) is rebuilt from the ledger at the repo root every run (gitignored).
 
+**Swing fields** (per ticker, closed daily bars only — spec `scanner_prompt_swing.md`): `ema9`, `ema21`,
+`avwap {value, anchor_date}` (VWAP from the lowest Low of the last 126 bars), `prev_high`, `prev_low2`,
+`gaps_open [{bot, top, date}]` (≤2 unfilled up-gaps below the price), `base_tight {hl, contr, reclaim, ok}`,
+`first_retest {level, date}`, `ret_1m/3m/6m` (%), `ret_rank_top_pct` (1–100 vs the whole-market universe).
+
+**Momentum leaders** (`output/<date>/momentum.md` + `.json`, second Telegram message): every `run` scans all
+US common stocks (Scanner A's list; Yahoo quotes pre-filter: price ≥ $3, 3-month avg $ volume ≥ $5M), ranks
+the average of ret 1m/3m/6m, then keeps: any ret ≥ 30 %, rank top 30 %, 20-day avg $ volume ≥ $20M,
+price ≥ $5, weekly Stage 2 — base-tight / first-retest setups first, with buy > `prev_high`, stop `prev_low2`.
+`python -m portfolio_stage momentum [--telegram]` runs the scan alone; `run --no-universe` skips it.
+Settings: `universe:` and `momentum:` in `config.yaml`.
+
 **Validation:** `tools/validate_output.py` (from the rebalance page; its criteria are never changed here). Every `run`
 then calls `python tools/validate_output.py output/<date> holdings.csv` automatically and saves the output
 to `output/<date>/validate.txt`. Exit code ≠ 0, or the script missing → the FAIL lines are printed in a box,

@@ -36,7 +36,9 @@ def grouped_alerts(alerts: list[tuple[str, str]]) -> list[tuple[str, list[str]]]
 SPEC_KEYS = ["p", "value", "stage", "stage_days", "flag", "m50", "m200", "rsi", "hi", "lo", "rs_score", "levels",
              "quality"]
 LEVEL_KEYS = ["S1", "S2", "R1", "TP1"]
-KEYS = SPEC_KEYS + ["atr", "slope", "trend_label", "tt_score", "rs_mansfield", "ret3m_vs_spy", "support",
+SWING_KEYS = ["ema9", "ema21", "avwap", "prev_high", "prev_low2", "gaps_open", "base_tight", "first_retest",
+              "ret_1m", "ret_3m", "ret_6m", "ret_rank_top_pct"]
+KEYS = SPEC_KEYS + SWING_KEYS + ["atr", "slope", "trend_label", "tt_score", "rs_mansfield", "ret3m_vs_spy", "support",
                     "resistance", "stop", "target", "rr", "earnings_date", "earnings_soon", "history_days", "mcap",
                     "rev_growth", "ni", "fcf", "shares_chg"]
 

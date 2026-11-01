@@ -80,6 +80,20 @@ rs_score:                             # 1-99 percentile among your holdings of I
 ohlc:
   days: 500                           # ohlc.json history (adjusted), SPY always included
 
+universe:                             # whole-market scan = ranking universe for ret_rank_top_pct
+  enabled: true                       # (python -m portfolio_stage run --no-universe skips it)
+  min_price: 3.0                      # pre-filter from Yahoo quotes: price and 3-month avg $ volume
+  min_dollar_volume: 5000000
+  history_period: 1y
+  download_batch: 250
+
+momentum:                             # "หุ้นโมเมนตัมแรง" report (output/<date>/momentum.md + Telegram)
+  min_ret_pct: 30                     # ret_1m, ret_3m or ret_6m >= 30%
+  max_rank_top_pct: 30                # and in the top 30% of the universe
+  min_adv20_usd: 20000000             # 20-day average $ volume
+  min_price: 5
+  telegram_rows: 15
+
 validator:
   script: tools/validate_output.py    # run automatically after every `run`
   holdings_csv: holdings.csv          # written from the ledger each run (ticker, shares, group, quality)

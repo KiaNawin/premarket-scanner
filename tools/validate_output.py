@@ -55,6 +55,31 @@ def main(folder, holdings=None):
             q = v.get("quality")
             if q and any(not (0 <= float(q.get(x, -1)) <= 5) for x in ("growth", "profitability", "consistency", "balance_sheet", "valuation")):
                 warn(f"{k}: quality ต้องมีครบ 5 ช่อง ค่า 0–5")
+            # ---- ฟิลด์ swing (เพิ่มตาม scanner_prompt_swing.md) ตรวจเฉพาะเมื่อมีฟิลด์นั้น
+            isnum = lambda x: isinstance(x, (int, float)) and not isinstance(x, bool)
+            for x in ("ema9", "ema21", "prev_high", "prev_low2", "ret_1m", "ret_3m", "ret_6m", "ret_rank_top_pct"):
+                if x in v and v[x] is not None and not isnum(v[x]): fail(f"{k}: {x} ต้องเป็นตัวเลขหรือ null ได้ {v[x]!r}")
+            rk = v.get("ret_rank_top_pct")
+            if isnum(rk) and not 1 <= rk <= 100: fail(f"{k}: ret_rank_top_pct ต้องอยู่ใน 1–100 ได้ {rk}")
+            av = v.get("avwap")
+            if av is not None and not (isinstance(av, dict) and (av.get("value") is None or isnum(av.get("value")))):
+                fail(f"{k}: avwap ต้องเป็น {{value, anchor_date}} หรือ null")
+            bt = v.get("base_tight")
+            if bt is not None and not (isinstance(bt, dict) and all(isinstance(bt.get(x), bool) for x in ("hl", "contr", "reclaim", "ok"))):
+                fail(f"{k}: base_tight ต้องเป็น {{hl, contr, reclaim, ok}} ค่า true/false หรือ null")
+            fr = v.get("first_retest")
+            if fr is not None and not (isinstance(fr, dict) and isnum(fr.get("level")) and isinstance(fr.get("date"), str)):
+                fail(f"{k}: first_retest ต้องเป็น {{level, date}} หรือ null")
+            if isnum(v.get("prev_low2")) and isnum(v.get("prev_high")) and v["prev_low2"] > v["prev_high"]:
+                fail(f"{k}: prev_low2 {v['prev_low2']} > prev_high {v['prev_high']}")
+            gaps = v.get("gaps_open")
+            if gaps is not None:
+                if not isinstance(gaps, list): fail(f"{k}: gaps_open ต้องเป็น list หรือ null")
+                else:
+                    for g in gaps:
+                        b, t, px = (g or {}).get("bot"), (g or {}).get("top"), v.get("p")
+                        if not (isnum(b) and isnum(t) and b < t and (not isnum(px) or t < px)):
+                            fail(f"{k}: gap ผิดรูป {g} (ต้อง bot < top < ราคา {px})"); break
     except FileNotFoundError:
         warn("ไม่มี portfolio_stage.json (หน้าคำนวณ Stage จาก ohlc.json เองได้)")
     except Exception as e:
