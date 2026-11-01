@@ -162,8 +162,12 @@ def swing_section(sw: dict | None) -> list[str]:
     """Shadow swing variants vs the intraday plan, on the same alerts."""
     if not sw:
         return []
-    out = ["", "<b>🧪 Swing test — 1/3 at 3R, 1/3 at 5R, rest until a close below EMA9</b>"]
-    news = [r for r in sw.get("new", []) if (r.get("variant") or "A") == "A"]      # one line per new alert
+    out = ["", "<b>🧪 Swing test — 1/3 at 3R, 1/3 at 5R, rest until a close below EMA9; stop to entry after 3R</b>"]
+    seen, news = set(), []
+    for r in sw.get("new", []):                                                     # one line per new alert
+        if (r["date"], r["ticker"]) not in seen:
+            seen.add((r["date"], r["ticker"]))
+            news.append(r)
     for r in news:
         if r.get("status") == "skip":
             out.append(f"   ❔ {_e(r['ticker'])} {r['date'][5:]} — {_e(r.get('note'))}")
@@ -173,7 +177,7 @@ def swing_section(sw: dict | None) -> list[str]:
         last = (str(r.get("legs") or "").split(";") or [""])[-1].split("@")[0]
         state = (f"closed {_e(r.get('exit_reason'))} → <b>{float(r['result_r']):+.2f}R</b>" if r.get("status") == "closed"
                  else f"{_e(last)} hit · open {float(r.get('open_r') or 0):+.2f}R")
-        out.append(f"   🔔 {r.get('variant') or 'A'} {_e(r['ticker'])} ({r['date'][5:]}) {state}")
+        out.append(f"   🔔 {_e(r.get('variant_name') or r.get('variant'))} {_e(r['ticker'])} ({r['date'][5:]}) {state}")
     c = sw.get("compare") or {}
     blk = lambda b: (f"{b['n']} · win {b['win']:.0%} · avg {b['avg']:+.2f}R · total <b>{b['total']:+.2f}R</b>"
                      if b.get("n") else "no trades yet")

@@ -8,9 +8,11 @@ Per alert (settings: "swing" in trade_config.json):
   sell    1/3 at 3R, 1/3 at 5R; the last 1/3 exits on the first daily close below EMA9
           (EMA9 exit applies once the 3R partial is taken; before that only the stop or the time limit)
   time    still open after max_days trading days -> exit at that day's close
-Variants (swing.variants), each alert is replayed once per variant:
-  A  as above (the stop stays where it started)
-  B  same, but once 3R is sold the stop on the rest moves up to the entry price (breakeven)
+Variants (swing.variants), each alert is replayed once per variant. Rows store the rule id, so letters can be
+reassigned in trade_config.json without touching history; ids no longer listed are kept but not compared:
+  orig     as above (the stop stays where it started)                       — retired 2026-11-02
+  be3r     once 3R is sold, the stop on the rest moves up to the entry price  (A)
+  be3r_d1  be3r + sell everything at the signal day's close unless 3R was hit that day   (B)
 Replay
   signal day      1-minute bars after the signal (stop first when stop and target touch in the same minute)
   following days  daily bars: open below the stop -> filled at the open; otherwise stop first, then targets
@@ -54,14 +56,14 @@ def read_rows(path: str = SWING_CSV) -> list[dict]:
     except OSError:
         return []
     for r in rows:
-        r["variant"] = r.get("variant") or "A"                 # rows written before variants existed
+        r["variant"] = LEGACY_IDS.get(r.get("variant") or "", r.get("variant"))   # older letter-named rows
     return rows
 
 
 def write_rows(rows: list[dict], path: str = SWING_CSV) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     rows = sorted(rows, key=lambda r: (r.get("date", ""), r.get("signal_time_et") or "", r.get("ticker", ""),
-                                       r.get("variant") or "A"))
+                                       r.get("variant") or ""))
     with open(path, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
         w.writeheader()
@@ -70,13 +72,22 @@ def write_rows(rows: list[dict], path: str = SWING_CSV) -> None:
 
 
 # ----------------------------------------------------------------------------- variants
+LEGACY_IDS = {"": "orig", "A": "orig", "B": "be3r"}       # how rows were named before rule ids (until 2026-11-02)
+
+
 def variants(cfg: dict) -> list[dict]:
-    return cfg["swing"].get("variants") or [{"name": "A", "label": "3R/5R + EMA9", "be_after": None}]
+    """[{name (display letter), id (stored in rows), label, be_after, day1_exit_unless}]"""
+    vs = cfg["swing"].get("variants") or [{"name": "A", "id": "orig", "label": "3R/5R + EMA9"}]
+    return [{**v, "id": v.get("id") or v["name"]} for v in vs]
 
 
 def _variant(r: dict, cfg: dict) -> dict:
-    name = r.get("variant") or "A"
-    return next((v for v in variants(cfg) if v["name"] == name), {"name": name, "be_after": None})
+    vid = r.get("variant") or "orig"
+    return next((v for v in variants(cfg) if v["id"] == vid), {"name": vid, "id": vid})
+
+
+def variant_name(r: dict, cfg: dict) -> str:
+    return _variant(r, cfg).get("name", r.get("variant"))
 
 
 def _stop(r: dict) -> float:
@@ -140,7 +151,7 @@ def _mark(r: dict, close: float, high: float | None = None) -> None:
 
 
 # ----------------------------------------------------------------------------- replay
-def open_trade(sig: dict, minute, cfg: dict, variant: str = "A") -> dict:
+def open_trade(sig: dict, minute, cfg: dict, variant: str = "orig") -> dict:
     """New row from a frozen alert + that day's 1-minute bars (replays the signal day)."""
     sc = cfg["swing"]
     low = _num(sig.get("low_5m"))
@@ -175,6 +186,9 @@ def open_trade(sig: dict, minute, cfg: dict, variant: str = "A") -> dict:
             if hi >= px:
                 _sell(r, frac, px, label, f"{sig['date']} {ts:%H:%M}")
                 _after_fill(r, label, cfg)
+    need = _variant(r, cfg).get("day1_exit_unless")       # e.g. B: no 3R on the signal day -> out at the close
+    if need and r["status"] == "open" and len(after) and need not in {x.split("@")[0] for x in _legs(r)}:
+        _close_out(r, float(after["Close"].iloc[-1]), f"day-1 close (no {need})", sig["date"])
     if r["status"] == "closed":
         r["exit_date"] = sig["date"]
     if len(after):
@@ -240,7 +254,7 @@ def sync(day: dt.date, fetch_minutes_for_day, fetch_daily, cfg: dict | None = No
     retry_from = (day - dt.timedelta(days=28)).isoformat()          # Yahoo keeps 1-minute bars ~30 days
     rows = [r for r in read_rows(path) if not (r.get("status") == "skip" and r.get("date", "") >= retry_from)]
     have = {(r["date"], r["ticker"], r["variant"]) for r in rows}
-    names = [v["name"] for v in variants(cfg)]
+    names = [v["id"] for v in variants(cfg)]
     new = []
     for f in sorted(glob.glob(os.path.join(signals_dir, "*.jsonl"))):
         d = os.path.basename(f)[:10]
@@ -257,13 +271,15 @@ def sync(day: dt.date, fetch_minutes_for_day, fetch_daily, cfg: dict | None = No
             new.append(r)
     key = lambda r: (r["date"], r["ticker"], r["variant"])
     before = {key(r): (r.get("status"), r.get("legs")) for r in rows}
-    open_rows = [r for r in rows if r.get("status") == "open"]
+    open_rows = [r for r in rows if r.get("status") == "open" and r["variant"] in names]   # retired ids stay frozen
     if open_rows:
         daily = fetch_daily(sorted({r["ticker"] for r in open_rows}))
         for r in open_rows:
             advance(r, daily.get(r["ticker"]), cfg, day)
     new_keys = {key(r) for r in new}
     events = [r for r in rows if key(r) not in new_keys and before[key(r)] != (r.get("status"), r.get("legs"))]
+    for r in new + events:
+        r["variant_name"] = variant_name(r, cfg)                   # display letter for the Telegram summary
     write_rows(rows, path)
     return {"new": new, "events": events, "open": sum(1 for r in rows if r.get("status") == "open")}
 
@@ -279,7 +295,7 @@ def _block(vals):
 def compare(path: str = SWING_CSV, trades_csv: str = TJ.TRADES_CSV, cfg: dict | None = None) -> dict:
     """Every variant and the intraday plan, on the same alerts (those that have a row for every variant)."""
     cfg = cfg or TP.load_config()
-    names = [v["name"] for v in variants(cfg)]
+    names = [v["id"] for v in variants(cfg)]
     rows = [r for r in read_rows(path) if r.get("status") in ("open", "closed")]
     by = {}
     for r in rows:
@@ -287,7 +303,7 @@ def compare(path: str = SWING_CSV, trades_csv: str = TJ.TRADES_CSV, cfg: dict | 
     keys = {k for k, vs in by.items() if all(n in vs for n in names)}
     out = {"variants": {}, "since": min((k[0] for k in keys), default=None), "alerts": len(keys)}
     for v in variants(cfg):
-        rs = [by[k][v["name"]] for k in keys]
+        rs = [by[k][v["id"]] for k in keys]
         closed = [r for r in rs if r["status"] == "closed"]
         opened = [r for r in rs if r["status"] == "open"]
         out["variants"][v["name"]] = {

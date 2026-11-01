@@ -89,8 +89,8 @@ class Replay(unittest.TestCase):
 
     def test_variant_b_moves_stop_to_entry_after_3r(self):
         m = minutes("2026-11-02", [("10:12", 100, 99, 100), ("11:00", 106.5, 100, 106), ("11:01", 106, 101, 102)])
-        a = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "A")
-        b = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "B")
+        a = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "orig")             # retired: stop never moves
+        b = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "be3r")
         self.assertEqual(b["active_stop"], 100.0)
         hist = [(f"2026-10-{d:02d}", 95, 96, 94, 95) for d in range(1, 31)]          # EMA9 well below price
         nxt = daily(hist + [("2026-11-02", 100, 106.5, 99, 102), ("2026-11-03", 101, 102, 99.5, 101)])
@@ -101,11 +101,16 @@ class Replay(unittest.TestCase):
 
     def test_variant_b_gap_below_entry(self):
         m = minutes("2026-11-02", [("10:12", 100, 99, 100), ("11:00", 106.5, 100, 106)])
-        b = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "B")
+        b = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "be3r")
         SJ.advance(b, daily([("2026-11-03", 99, 99.5, 97, 98)]), self.cfg, dt.date(2026, 11, 3))
         want = 0.3333 * 3 + 0.6667 * (99 - 100) / 2
         self.assertEqual(b["exit_reason"], "stop (BE, gap)")
         self.assertAlmostEqual(b["result_r"], round(want, 2), places=2)
+
+    def test_b_holds_overnight_only_after_3r(self):
+        m = minutes("2026-11-02", [("10:12", 100, 99, 100), ("11:00", 106.5, 100, 106), ("15:59", 106, 105, 105.5)])
+        b = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "be3r_d1")
+        self.assertEqual((b["status"], b["active_stop"]), ("open", 100.0))      # 3R reached -> rest held
 
     def test_time_limit(self):
         self.cfg["swing"]["max_days"] = 2
@@ -141,32 +146,36 @@ class Sync(unittest.TestCase):
     def test_backfill_advance_and_rerun(self):
         out = self.run_sync(dt.date(2026, 11, 2))
         self.assertEqual({(r["ticker"], r["variant"]): r["status"] for r in out["new"]},
-                         {("AAA", "A"): "open", ("AAA", "B"): "open", ("BBB", "A"): "skip", ("BBB", "B"): "skip"})
+                         {("AAA", "be3r"): "open", ("AAA", "be3r_d1"): "closed",       # B: no 3R on day 1 -> out
+                          ("BBB", "be3r"): "skip", ("BBB", "be3r_d1"): "skip"})
         out = self.run_sync(dt.date(2026, 11, 3))
         self.assertEqual(sorted(r["ticker"] for r in out["new"]), ["BBB", "BBB"])   # skips retried, AAA kept
-        self.assertEqual(sorted((r["ticker"], r["variant"]) for r in out["events"]), [("AAA", "A"), ("AAA", "B")])
+        self.assertEqual([(r["ticker"], r["variant_name"]) for r in out["events"]], [("AAA", "A")])
         rows = {(r["ticker"], r["variant"]): r for r in SJ.read_rows(self.csv)}
         self.assertEqual(len(rows), 4)
-        self.assertTrue(rows[("AAA", "A")]["legs"].startswith("3R@106"))
-        self.assertEqual(float(rows[("AAA", "B")]["active_stop"]), 100.0)
+        self.assertTrue(rows[("AAA", "be3r")]["legs"].startswith("3R@106"))
+        self.assertEqual(float(rows[("AAA", "be3r")]["active_stop"]), 100.0)
+        self.assertEqual(rows[("AAA", "be3r_d1")]["exit_reason"], "day-1 close (no 3R)")
+        self.assertEqual(float(rows[("AAA", "be3r_d1")]["result_r"]), 0.25)          # (100.5 - 100) / 2
         again = self.run_sync(dt.date(2026, 11, 3))
         self.assertEqual(again["events"], [])                                   # same evening twice = no change
         c = SJ.compare(self.csv, os.path.join(self.tmp, "none.csv"), self.cfg)
         self.assertEqual(c["alerts"], 1)                                        # BBB has no data -> not compared
         self.assertEqual(c["variants"]["A"]["open"]["n"], 1)
-        self.assertEqual(c["variants"]["B"]["open"]["n"], 1)
+        self.assertEqual(c["variants"]["B"]["closed"]["n"], 1)
         msg = TG.build_eod_message("2026-11-03", [], {"trades": 0}, {**out, "compare": c})
         self.assertIn("🧪 Swing test", msg)
         self.assertIn("A AAA (11-02) 3R hit", msg)
-        self.assertIn("B A + stop to entry after 3R", msg)
+        self.assertIn("B A + out at day-1 close unless 3R", msg)
 
-    def test_old_rows_without_variant_count_as_a(self):
+    def test_legacy_letters_map_to_rule_ids(self):
         with open(self.csv, "w", encoding="utf-8") as f:
-            f.write("date,ticker,status,entry,stop\n2026-11-02,AAA,closed,100,98\n")
-        self.assertEqual(SJ.read_rows(self.csv)[0]["variant"], "A")
+            f.write("date,ticker,variant,status,entry,stop\n2026-11-02,AAA,,closed,100,98\n"
+                    "2026-11-02,AAA,A,closed,100,98\n2026-11-02,AAA,B,closed,100,98\n")
+        self.assertEqual([r["variant"] for r in SJ.read_rows(self.csv)], ["orig", "orig", "be3r"])
         out = self.run_sync(dt.date(2026, 11, 2))
         self.assertEqual(sorted((r["ticker"], r["variant"]) for r in out["new"]),
-                         [("AAA", "B"), ("BBB", "A"), ("BBB", "B")])            # only B back-filled for AAA
+                         [("AAA", "be3r_d1"), ("BBB", "be3r"), ("BBB", "be3r_d1")])   # old B row is today's A
 
 
 if __name__ == "__main__":

@@ -33,8 +33,9 @@ DEFAULTS = {
     "swing": {"enabled": True, "stop_candles": 2, "candle_minutes": 5, "min_stop_pct": 0.5,
               "account_usd": None, "risk_pct": 0.5, "partials": [[3, 0.3333], [5, 0.3333]],
               "trail_ema": 9, "max_days": 20, "start_date": "2026-10-26",
-              "variants": [{"name": "A", "label": "3R/5R + EMA9", "be_after": None},
-                           {"name": "B", "label": "A + stop to entry after 3R", "be_after": "3R"}]},
+              "variants": [{"name": "A", "id": "be3r", "label": "stop to entry after 3R", "be_after": "3R"},
+                           {"name": "B", "id": "be3r_d1", "label": "A + out at day-1 close unless 3R",
+                            "be_after": "3R", "day1_exit_unless": "3R"}]},
 }
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "trade_config.json")
 

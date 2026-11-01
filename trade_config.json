@@ -11,7 +11,7 @@
   ],
   "exit_target_r": 2,
   "swing": {
-    "_help": "Shadow test only (shown as 🧪 in alerts, compared in the EOD summary). Stop = low of the last 2 five-minute candles. Sell partials at 3R and 5R, the rest on the first daily close below EMA9. account_usd + risk_pct size the trade (null = use risk_per_trade_usd). variants: each alert is tested once per variant (B moves the stop to the entry after the 3R sale).",
+    "_help": "Shadow test only (shown as 🧪 in alerts, compared in the EOD summary). Stop = low of the last 2 five-minute candles. Sell partials at 3R and 5R, the rest on the first daily close below EMA9. account_usd + risk_pct size the trade (null = use risk_per_trade_usd). variants: each alert is tested once per variant; 'id' is stored in history/swing_trades.csv, 'name' is only the letter shown (be3r = stop to entry after the 3R sale; be3r_d1 = also sell everything at the signal day's close unless 3R was reached).",
     "enabled": true,
     "stop_candles": 2,
     "candle_minutes": 5,
@@ -34,13 +34,16 @@
     "variants": [
       {
         "name": "A",
-        "label": "3R/5R + EMA9",
-        "be_after": null
+        "id": "be3r",
+        "label": "stop to entry after 3R",
+        "be_after": "3R"
       },
       {
         "name": "B",
-        "label": "A + stop to entry after 3R",
-        "be_after": "3R"
+        "id": "be3r_d1",
+        "label": "A + out at day-1 close unless 3R",
+        "be_after": "3R",
+        "day1_exit_unless": "3R"
       }
     ]
   }
