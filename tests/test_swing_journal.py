@@ -87,6 +87,26 @@ class Replay(unittest.TestCase):
                    dt.date(2026, 11, 3))
         self.assertEqual((r["exit_reason"], r["result_r"]), ("stop (gap)", -2.0))
 
+    def test_variant_b_moves_stop_to_entry_after_3r(self):
+        m = minutes("2026-11-02", [("10:12", 100, 99, 100), ("11:00", 106.5, 100, 106), ("11:01", 106, 101, 102)])
+        a = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "A")
+        b = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "B")
+        self.assertEqual(b["active_stop"], 100.0)
+        hist = [(f"2026-10-{d:02d}", 95, 96, 94, 95) for d in range(1, 31)]          # EMA9 well below price
+        nxt = daily(hist + [("2026-11-02", 100, 106.5, 99, 102), ("2026-11-03", 101, 102, 99.5, 101)])
+        SJ.advance(a, nxt, self.cfg, dt.date(2026, 11, 3))
+        SJ.advance(b, nxt, self.cfg, dt.date(2026, 11, 3))
+        self.assertEqual(a["status"], "open")                                  # A: stop still 98
+        self.assertEqual((b["exit_reason"], b["result_r"]), ("stop (BE)", 1.0))   # 1/3 x 3R, rest at entry
+
+    def test_variant_b_gap_below_entry(self):
+        m = minutes("2026-11-02", [("10:12", 100, 99, 100), ("11:00", 106.5, 100, 106)])
+        b = SJ.open_trade({**SIG, "low_5m": 98}, m, self.cfg, "B")
+        SJ.advance(b, daily([("2026-11-03", 99, 99.5, 97, 98)]), self.cfg, dt.date(2026, 11, 3))
+        want = 0.3333 * 3 + 0.6667 * (99 - 100) / 2
+        self.assertEqual(b["exit_reason"], "stop (BE, gap)")
+        self.assertAlmostEqual(b["result_r"], round(want, 2), places=2)
+
     def test_time_limit(self):
         self.cfg["swing"]["max_days"] = 2
         m = minutes("2026-11-02", [("10:12", 100, 99, 100)])
@@ -120,20 +140,33 @@ class Sync(unittest.TestCase):
 
     def test_backfill_advance_and_rerun(self):
         out = self.run_sync(dt.date(2026, 11, 2))
-        self.assertEqual({r["ticker"]: r["status"] for r in out["new"]}, {"AAA": "open", "BBB": "skip"})
+        self.assertEqual({(r["ticker"], r["variant"]): r["status"] for r in out["new"]},
+                         {("AAA", "A"): "open", ("AAA", "B"): "open", ("BBB", "A"): "skip", ("BBB", "B"): "skip"})
         out = self.run_sync(dt.date(2026, 11, 3))
-        self.assertEqual([r["ticker"] for r in out["new"]], ["BBB"])           # skip retried, AAA not duplicated
-        self.assertEqual([r["ticker"] for r in out["events"]], ["AAA"])        # 3R (106) hit on day 2
-        rows = {r["ticker"]: r for r in SJ.read_rows(self.csv)}
-        self.assertEqual(len(rows), 2)
-        self.assertTrue(rows["AAA"]["legs"].startswith("3R@106"))
+        self.assertEqual(sorted(r["ticker"] for r in out["new"]), ["BBB", "BBB"])   # skips retried, AAA kept
+        self.assertEqual(sorted((r["ticker"], r["variant"]) for r in out["events"]), [("AAA", "A"), ("AAA", "B")])
+        rows = {(r["ticker"], r["variant"]): r for r in SJ.read_rows(self.csv)}
+        self.assertEqual(len(rows), 4)
+        self.assertTrue(rows[("AAA", "A")]["legs"].startswith("3R@106"))
+        self.assertEqual(float(rows[("AAA", "B")]["active_stop"]), 100.0)
         again = self.run_sync(dt.date(2026, 11, 3))
         self.assertEqual(again["events"], [])                                   # same evening twice = no change
-        c = SJ.compare(self.csv, os.path.join(self.tmp, "none.csv"))
-        self.assertEqual(c["swing_open"]["n"], 1)
+        c = SJ.compare(self.csv, os.path.join(self.tmp, "none.csv"), self.cfg)
+        self.assertEqual(c["alerts"], 1)                                        # BBB has no data -> not compared
+        self.assertEqual(c["variants"]["A"]["open"]["n"], 1)
+        self.assertEqual(c["variants"]["B"]["open"]["n"], 1)
         msg = TG.build_eod_message("2026-11-03", [], {"trades": 0}, {**out, "compare": c})
         self.assertIn("🧪 Swing test", msg)
-        self.assertIn("AAA (11-02) 3R hit", msg)
+        self.assertIn("A AAA (11-02) 3R hit", msg)
+        self.assertIn("B A + stop to entry after 3R", msg)
+
+    def test_old_rows_without_variant_count_as_a(self):
+        with open(self.csv, "w", encoding="utf-8") as f:
+            f.write("date,ticker,status,entry,stop\n2026-11-02,AAA,closed,100,98\n")
+        self.assertEqual(SJ.read_rows(self.csv)[0]["variant"], "A")
+        out = self.run_sync(dt.date(2026, 11, 2))
+        self.assertEqual(sorted((r["ticker"], r["variant"]) for r in out["new"]),
+                         [("AAA", "B"), ("BBB", "A"), ("BBB", "B")])            # only B back-filled for AAA
 
 
 if __name__ == "__main__":

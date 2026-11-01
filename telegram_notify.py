@@ -159,33 +159,30 @@ def _signed_money(x) -> str:
 
 
 def swing_section(sw: dict | None) -> list[str]:
-    """Shadow swing plan (3R/5R + EMA9) vs the intraday plan, on the same alerts."""
+    """Shadow swing variants vs the intraday plan, on the same alerts."""
     if not sw:
         return []
     out = ["", "<b>🧪 Swing test — 1/3 at 3R, 1/3 at 5R, rest until a close below EMA9</b>"]
-    for r in sw.get("new", []):
+    news = [r for r in sw.get("new", []) if (r.get("variant") or "A") == "A"]      # one line per new alert
+    for r in news:
         if r.get("status") == "skip":
             out.append(f"   ❔ {_e(r['ticker'])} {r['date'][5:]} — {_e(r.get('note'))}")
             continue
-        state = (f"closed {_e(r.get('exit_reason'))} {float(r['result_r']):+.2f}R" if r.get("status") == "closed"
-                 else f"open {float(r.get('open_r') or 0):+.2f}R")
-        out.append(f"   ➕ {_e(r['ticker'])} {r['date'][5:]} stop {_money(_f(r['stop']))} ({_f(r['stop_pct']):.1f}%) · {state}")
+        out.append(f"   ➕ {_e(r['ticker'])} {r['date'][5:]} stop {_money(_f(r['stop']))} ({_f(r['stop_pct']):.1f}%)")
     for r in sw.get("events", []):
         last = (str(r.get("legs") or "").split(";") or [""])[-1].split("@")[0]
         state = (f"closed {_e(r.get('exit_reason'))} → <b>{float(r['result_r']):+.2f}R</b>" if r.get("status") == "closed"
                  else f"{_e(last)} hit · open {float(r.get('open_r') or 0):+.2f}R")
-        out.append(f"   🔔 {_e(r['ticker'])} ({r['date'][5:]}) {state}")
+        out.append(f"   🔔 {r.get('variant') or 'A'} {_e(r['ticker'])} ({r['date'][5:]}) {state}")
     c = sw.get("compare") or {}
-    blk = lambda b: (f"{b['n']} trades · win {b['win']:.0%} · avg {b['avg']:+.2f}R · total {b['total']:+.2f}R"
+    blk = lambda b: (f"{b['n']} · win {b['win']:.0%} · avg {b['avg']:+.2f}R · total <b>{b['total']:+.2f}R</b>"
                      if b.get("n") else "no trades yet")
-    if c:
-        so = c.get("swing_open") or {}
-        out += [f"Swing closed: {blk(c['swing_closed'])}",
-                f"Swing open: {so.get('n', 0)} (marked {so.get('open_r', 0):+.2f}R)",
-                f"Swing all (open marked to close): {blk(c['swing_all_marked'])}",
-                f"Intraday plan, same alerts: {blk(c['intraday_same'])}"]
-        if c.get("since"):
-            out.append(f"<i>Since {c['since']} · shadow test only — no change to the 🚨 plan yet.</i>")
+    if c.get("variants"):
+        out.append(f"Same {c.get('alerts', 0)} alerts since {c.get('since')} (open trades marked to the close):")
+        for name, v in c["variants"].items():
+            out.append(f"   {name} {_e(v['label'])}: {blk(v['all_marked'])} · open {v['open']['n']}")
+        out.append(f"   Intraday plan (2R / close): {blk(c['intraday_same'])}")
+        out.append("<i>Shadow test only — the 🚨 plan is unchanged.</i>")
     return out
 
 

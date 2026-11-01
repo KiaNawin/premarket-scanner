@@ -200,6 +200,8 @@ replays the signal day on 1-minute bars, then every later day on daily bars (gap
 open), keeps one row per alert in **`history/swing_trades.csv`**, and adds a "🧪 Swing test" block to the summary:
 win rate / avg R / total R of the swing plan next to the intraday plan's results on the same alerts. Alerts since
 `swing.start_date` (2026-10-26) are back-filled automatically (Yahoo keeps 1-minute bars ~30 days).
+Two variants are tested on every alert (`swing.variants`): **A** as described, and **B** = A but once 3R is sold
+the stop on the remaining shares moves up to the entry price (limits overnight-gap and give-back losses).
 Settings: `"swing"` in `trade_config.json` (`account_usd` + `risk_pct` for %-of-account sizing).
 
 # portfolio_stage — analyse every holding

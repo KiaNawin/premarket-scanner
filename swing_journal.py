@@ -8,6 +8,9 @@ Per alert (settings: "swing" in trade_config.json):
   sell    1/3 at 3R, 1/3 at 5R; the last 1/3 exits on the first daily close below EMA9
           (EMA9 exit applies once the 3R partial is taken; before that only the stop or the time limit)
   time    still open after max_days trading days -> exit at that day's close
+Variants (swing.variants), each alert is replayed once per variant:
+  A  as above (the stop stays where it started)
+  B  same, but once 3R is sold the stop on the rest moves up to the entry price (breakeven)
 Replay
   signal day      1-minute bars after the signal (stop first when stop and target touch in the same minute)
   following days  daily bars: open below the stop -> filled at the open; otherwise stop first, then targets
@@ -29,10 +32,10 @@ import trade_plan as TP
 ET = ZoneInfo("America/New_York")
 BASE = os.path.dirname(os.path.abspath(__file__))
 SWING_CSV = os.path.join(BASE, "history", "swing_trades.csv")
-COLUMNS = ["date", "ticker", "signal_time_et", "entry", "stop", "risk_per_share", "stop_pct", "low_5m",
+COLUMNS = ["date", "ticker", "variant", "signal_time_et", "entry", "stop", "risk_per_share", "stop_pct", "low_5m",
            "target_3r", "target_5r", "shares", "risk_usd", "status", "remaining", "legs", "realized_r",
            "exit_reason", "exit_date", "days_held", "last_checked", "last_close", "result_r", "pnl_usd",
-           "open_r", "mfe_r", "note"]
+           "open_r", "mfe_r", "active_stop", "note"]
 
 
 def _num(x):
@@ -47,19 +50,49 @@ def _num(x):
 def read_rows(path: str = SWING_CSV) -> list[dict]:
     try:
         with open(path, encoding="utf-8-sig", newline="") as f:
-            return list(csv.DictReader(f))
+            rows = list(csv.DictReader(f))
     except OSError:
         return []
+    for r in rows:
+        r["variant"] = r.get("variant") or "A"                 # rows written before variants existed
+    return rows
 
 
 def write_rows(rows: list[dict], path: str = SWING_CSV) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    rows = sorted(rows, key=lambda r: (r.get("date", ""), r.get("signal_time_et") or "", r.get("ticker", "")))
+    rows = sorted(rows, key=lambda r: (r.get("date", ""), r.get("signal_time_et") or "", r.get("ticker", ""),
+                                       r.get("variant") or "A"))
     with open(path, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
         w.writeheader()
         for r in rows:
             w.writerow({k: ("" if r.get(k) is None else r.get(k)) for k in COLUMNS})
+
+
+# ----------------------------------------------------------------------------- variants
+def variants(cfg: dict) -> list[dict]:
+    return cfg["swing"].get("variants") or [{"name": "A", "label": "3R/5R + EMA9", "be_after": None}]
+
+
+def _variant(r: dict, cfg: dict) -> dict:
+    name = r.get("variant") or "A"
+    return next((v for v in variants(cfg) if v["name"] == name), {"name": name, "be_after": None})
+
+
+def _stop(r: dict) -> float:
+    a = _num(r.get("active_stop"))
+    return a if a is not None else float(r["stop"])
+
+
+def _at_be(r: dict) -> bool:
+    a = _num(r.get("active_stop"))
+    return a is not None and abs(a - float(r["entry"])) < 1e-9
+
+
+def _after_fill(r: dict, label: str, cfg: dict) -> None:
+    """Variant B: once `be_after` (3R) is sold, the stop on the rest moves to the entry price."""
+    if _variant(r, cfg).get("be_after") == label:
+        r["active_stop"] = float(r["entry"])
 
 
 # ----------------------------------------------------------------------------- state helpers
@@ -107,13 +140,14 @@ def _mark(r: dict, close: float, high: float | None = None) -> None:
 
 
 # ----------------------------------------------------------------------------- replay
-def open_trade(sig: dict, minute, cfg: dict) -> dict:
+def open_trade(sig: dict, minute, cfg: dict, variant: str = "A") -> dict:
     """New row from a frozen alert + that day's 1-minute bars (replays the signal day)."""
     sc = cfg["swing"]
     low = _num(sig.get("low_5m"))
     if low is None:
         low = TP.low_before_signal(minute, sig.get("signal_time_et"), sc["stop_candles"], sc["candle_minutes"])
-    r = {"date": sig["date"], "ticker": sig["ticker"], "signal_time_et": sig.get("signal_time_et"), "status": "skip"}
+    r = {"date": sig["date"], "ticker": sig["ticker"], "variant": variant, "signal_time_et": sig.get("signal_time_et"),
+         "status": "skip"}
     plan = TP.make_swing_plan({"entry": sig.get("entry"), "low_5m": low}, cfg)
     if not plan:
         r["note"] = "no 1-minute data around the signal (stop not computable)"
@@ -131,15 +165,16 @@ def open_trade(sig: dict, minute, cfg: dict) -> dict:
     m = m[(m.index.date == day) & (m.index.time >= TJ.RTH_OPEN) & (m.index.time < TJ.RTH_CLOSE)].dropna(subset=["Close"])
     sig_t = dt.datetime.strptime(sig["signal_time_et"], "%Y-%m-%d %H:%M").replace(tzinfo=ET)
     after = m[m.index > sig_t]
-    stop = float(r["stop"])
     for ts, bar in after.iterrows():
         hi, lo = float(bar["High"]), float(bar["Low"])
+        stop = _stop(r)                                  # a breakeven move applies from the next minute on
         if lo <= stop:
-            _close_out(r, stop, "stop", f"{sig['date']} {ts:%H:%M}")
+            _close_out(r, stop, "stop (BE)" if _at_be(r) else "stop", f"{sig['date']} {ts:%H:%M}")
             break
         for label, px, frac in _partial_targets(r, cfg):
             if hi >= px:
                 _sell(r, frac, px, label, f"{sig['date']} {ts:%H:%M}")
+                _after_fill(r, label, cfg)
     if r["status"] == "closed":
         r["exit_date"] = sig["date"]
     if len(after):
@@ -151,18 +186,21 @@ def step_day(r: dict, d: str, o: float, h: float, l: float, c: float, ema: float
     """Apply one later daily bar to an open row."""
     if r["status"] != "open":
         return
-    stop = float(r["stop"])
+    stop, be = _stop(r), _at_be(r)                      # stop as it stood at the open
     r["days_held"] = int(r.get("days_held") or 0) + 1
     if o <= stop:
-        _close_out(r, o, "stop (gap)", d)
+        _close_out(r, o, "stop (BE, gap)" if be else "stop (gap)", d)
     elif l <= stop:
-        _close_out(r, stop, "stop", d)
+        _close_out(r, stop, "stop (BE)" if be else "stop", d)
     else:
         for label, px, frac in _partial_targets(r, cfg):
             if o >= px:
                 _sell(r, frac, o, label, d)
             elif h >= px:
                 _sell(r, frac, px, label, d)
+            else:
+                continue
+            _after_fill(r, label, cfg)                   # daily bars: a new breakeven stop counts from tomorrow
         if r["status"] == "open" and float(r["remaining"]) > 1e-9:
             if _partial_taken(r) and ema is not None and c < ema:
                 _close_out(r, c, f"close < EMA{cfg['swing']['trail_ema']}", d)
@@ -201,52 +239,67 @@ def sync(day: dt.date, fetch_minutes_for_day, fetch_daily, cfg: dict | None = No
     start = sc.get("start_date") or "0000"
     retry_from = (day - dt.timedelta(days=28)).isoformat()          # Yahoo keeps 1-minute bars ~30 days
     rows = [r for r in read_rows(path) if not (r.get("status") == "skip" and r.get("date", "") >= retry_from)]
-    have = {(r["date"], r["ticker"]) for r in rows}
+    have = {(r["date"], r["ticker"], r["variant"]) for r in rows}
+    names = [v["name"] for v in variants(cfg)]
     new = []
     for f in sorted(glob.glob(os.path.join(signals_dir, "*.jsonl"))):
         d = os.path.basename(f)[:10]
         if d < start or d > day.isoformat():
             continue
-        sigs = [s for s in TJ.load_signals(dt.date.fromisoformat(d), signals_dir) if (d, s["ticker"]) not in have]
-        if not sigs:
+        todo = [(s, v) for s in TJ.load_signals(dt.date.fromisoformat(d), signals_dir) for v in names
+                if (d, s["ticker"], v) not in have]
+        if not todo:
             continue
-        mins = fetch_minutes_for_day([s["ticker"] for s in sigs], dt.date.fromisoformat(d))
-        for s in sigs:
-            r = open_trade(s, mins.get(s["ticker"]), cfg)
+        mins = fetch_minutes_for_day(sorted({s["ticker"] for s, _ in todo}), dt.date.fromisoformat(d))
+        for s, v in todo:
+            r = open_trade(s, mins.get(s["ticker"]), cfg, v)
             rows.append(r)
             new.append(r)
-    before = {(r["date"], r["ticker"]): (r.get("status"), r.get("legs")) for r in rows}
+    key = lambda r: (r["date"], r["ticker"], r["variant"])
+    before = {key(r): (r.get("status"), r.get("legs")) for r in rows}
     open_rows = [r for r in rows if r.get("status") == "open"]
     if open_rows:
         daily = fetch_daily(sorted({r["ticker"] for r in open_rows}))
         for r in open_rows:
             advance(r, daily.get(r["ticker"]), cfg, day)
-    events = [r for r in rows if r not in new and before[(r["date"], r["ticker"])] != (r.get("status"), r.get("legs"))]
+    new_keys = {key(r) for r in new}
+    events = [r for r in rows if key(r) not in new_keys and before[key(r)] != (r.get("status"), r.get("legs"))]
     write_rows(rows, path)
     return {"new": new, "events": events, "open": sum(1 for r in rows if r.get("status") == "open")}
 
 
 # ----------------------------------------------------------------------------- comparison
-def compare(path: str = SWING_CSV, trades_csv: str = TJ.TRADES_CSV) -> dict:
-    """Both plans on the same alerts: closed swing trades vs the intraday plan's results for those alerts."""
+def _block(vals):
+    if not vals:
+        return {"n": 0}
+    return {"n": len(vals), "win": sum(v > 0 for v in vals) / len(vals), "avg": sum(vals) / len(vals),
+            "total": sum(vals)}
+
+
+def compare(path: str = SWING_CSV, trades_csv: str = TJ.TRADES_CSV, cfg: dict | None = None) -> dict:
+    """Every variant and the intraday plan, on the same alerts (those that have a row for every variant)."""
+    cfg = cfg or TP.load_config()
+    names = [v["name"] for v in variants(cfg)]
     rows = [r for r in read_rows(path) if r.get("status") in ("open", "closed")]
-    closed = [r for r in rows if r["status"] == "closed"]
-    opened = [r for r in rows if r["status"] == "open"]
-    keys = {(r["date"], r["ticker"]) for r in rows}
+    by = {}
+    for r in rows:
+        by.setdefault((r["date"], r["ticker"]), {})[r["variant"]] = r
+    keys = {k for k, vs in by.items() if all(n in vs for n in names)}
+    out = {"variants": {}, "since": min((k[0] for k in keys), default=None), "alerts": len(keys)}
+    for v in variants(cfg):
+        rs = [by[k][v["name"]] for k in keys]
+        closed = [r for r in rs if r["status"] == "closed"]
+        opened = [r for r in rs if r["status"] == "open"]
+        out["variants"][v["name"]] = {
+            "label": v.get("label", v["name"]),
+            "closed": _block([float(r["result_r"]) for r in closed]),
+            "open": {"n": len(opened), "open_r": sum(_num(r.get("open_r")) or 0 for r in opened)},
+            "all_marked": _block([float(r["result_r"]) if r["status"] == "closed" else (_num(r.get("open_r")) or 0)
+                                  for r in rs])}
     intra = [r for r in TJ._read_trades(trades_csv) if (r.get("date"), r.get("ticker")) in keys
              and _num(r.get("result_r")) is not None]
-
-    def block(vals):
-        if not vals:
-            return {"n": 0}
-        return {"n": len(vals), "win": sum(v > 0 for v in vals) / len(vals), "avg": sum(vals) / len(vals),
-                "total": sum(vals)}
-    return {"swing_closed": block([float(r["result_r"]) for r in closed]),
-            "swing_open": {"n": len(opened), "open_r": sum(_num(r.get("open_r")) or 0 for r in opened)},
-            "swing_all_marked": block([float(r["result_r"]) if r["status"] == "closed" else (_num(r.get("open_r")) or 0)
-                                       for r in rows]),
-            "intraday_same": block([float(r["result_r"]) for r in intra]),
-            "since": min((r["date"] for r in rows), default=None)}
+    out["intraday_same"] = _block([float(r["result_r"]) for r in intra])
+    return out
 
 
 # ----------------------------------------------------------------------------- data (Yahoo, raw prices)

@@ -11,7 +11,7 @@
   ],
   "exit_target_r": 2,
   "swing": {
-    "_help": "Shadow test only (shown as 🧪 in alerts, compared in the EOD summary). Stop = low of the last 2 five-minute candles. Sell partials at 3R and 5R, the rest on the first daily close below EMA9. account_usd + risk_pct size the trade (null = use risk_per_trade_usd).",
+    "_help": "Shadow test only (shown as 🧪 in alerts, compared in the EOD summary). Stop = low of the last 2 five-minute candles. Sell partials at 3R and 5R, the rest on the first daily close below EMA9. account_usd + risk_pct size the trade (null = use risk_per_trade_usd). variants: each alert is tested once per variant (B moves the stop to the entry after the 3R sale).",
     "enabled": true,
     "stop_candles": 2,
     "candle_minutes": 5,
@@ -30,6 +30,18 @@
     ],
     "trail_ema": 9,
     "max_days": 20,
-    "start_date": "2026-10-26"
+    "start_date": "2026-10-26",
+    "variants": [
+      {
+        "name": "A",
+        "label": "3R/5R + EMA9",
+        "be_after": null
+      },
+      {
+        "name": "B",
+        "label": "A + stop to entry after 3R",
+        "be_after": "3R"
+      }
+    ]
   }
 }
