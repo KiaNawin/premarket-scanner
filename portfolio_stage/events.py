@@ -101,6 +101,8 @@ def is_big(title: str, cfg: dict) -> tuple[bool, str | None]:
     ec = cfg["events"]
     if _rx(ec["exclude_keywords"]).search(title):
         return False, None
+    if ec.get("exclude_questions", True) and title.rstrip().endswith("?"):
+        return False, None                                # "Can It Beat…?", "Buy the Dip?" — opinion, not news
     m = _rx(ec["big_news_keywords"]).search(title)
     return (True, m.group(1).lower()) if m else (False, None)
 
@@ -168,7 +170,9 @@ def big_news(ticker: str, name: str | None, cfg: dict, as_of: dt.date) -> tuple[
             continue
         if not title or d < since or d > as_of + dt.timedelta(days=1):
             continue
-        relevant = it.get("main") if it.get("source") == "nasdaq" else about_stock(title, ticker, name)
+        # the headline itself must name the stock (Nasdaq's "primary symbol" flag alone let in other
+        # companies' earnings, e.g. an Impinj headline under AAOI)
+        relevant = about_stock(title, ticker, name)
         big, tag = is_big(title, cfg)
         key = re.sub(r"\W+", "", title.lower())[:60]
         if relevant and big and key not in seen:

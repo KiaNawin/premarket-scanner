@@ -185,3 +185,16 @@ events:                               # "งบ & ข่าวใหญ่สั
     - 'here''s why i'
     - 'prediction:'
     - 'forget'
+    - 'vs\.?'                          # "X vs. Y: which is the better buy" comparisons
+    - 'better (buy|stock)'
+    - 'compar'
+    - 'transcript'                    # earnings previews / call transcripts: the earnings section covers them
+    - 'on the horizon'
+    - 'what to (expect|watch|look)'
+    - 'ahead of (q\d|earnings|results)'
+    - 'preview'
+    - 'reports? next week'
+    - '(wall street|analysts) (expects?|see)'
+    - 'insights'
+    - 'key (metrics|performance)'
+  exclude_questions: true             # drop headlines ending in "?" (opinion pieces, not news)

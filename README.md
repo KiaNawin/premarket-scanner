@@ -217,13 +217,18 @@ duplicates (hash of datetime, ticker, side, shares, price) and slips dated befor
 `slips/skipped/` · recorded slips go to `slips/done/` · API errors leave the file in place for the next run.
 
 **Outputs:** `portfolio_stage.json` (per-ticker values + `null_reasons` for every null), `summary.md`, `alerts.md`
-(stop broken vs last run's stop, stage change vs last run, gap ≥5%, earnings within 5 trading days,
+(stop broken vs last run's stop, stage change vs last run, opening gap ≥5% beyond SPY's gap (open vs previous close; pre-market price before the open), earnings within 5 trading days,
 weight >5%, quality C >7%, support/resistance per level (broke S1, broke out over R1, reached TP1, newly within 0.5×ATR of S1/R1 — only what changed since the last run), missing data) and **"งบ & ข่าวใหญ่สัปดาห์นี้"**:
 earnings reported since Monday (EPS vs estimate) or due within 7 days (before open / after close), and big
 news from the last 7 days — only headlines about that stock that match an important-event keyword
 (earnings, guidance, FDA, M&A, offering, lawsuit, rating change, CEO change, contract, buyback …), with
 "stocks to buy"-style articles filtered out. A stock that moved ≥5% in a week with no such news is listed too.
 Keyword lists: `events:` in `config.yaml`. ETFs are skipped. `--no-fundamentals` also skips this section.
+
+**Less noise:** news, earnings and "moved ≥5% with no news" lines are sent only when new since the previous
+run (upcoming earnings again the day before the report); headlines must name the stock and skip questions,
+"X vs. Y" comparisons, previews and call transcripts (`events.exclude_keywords`); a support break is not
+repeated when the same stock's stop broke.
 
 **Upload files** (same folder): `portfolio_stage.json` = `{"meta": {as_of, spy_price, missing_tickers: [...]},
 "tickers": {T: {p, value, stage (1–4), stage_days, flag, m50, m200, rsi, hi, lo, rs_score (1–99), levels {S1, S2,

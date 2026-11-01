@@ -210,8 +210,17 @@ def cmd_run(args, cfg) -> int:
             if spy is not None else None
         tt = A.minervini(df, rs, cfg)
         pc = D.prev_close(df, as_of)
-        live, live_err = D.latest_trade_today(quotes.get(yt), as_of) if not q_err else (None, q_err)
-        gap = (live / pc - 1) * 100 if live and pc else None
+        day_chg = None
+        if df.index[-1].date() == as_of and pc:          # session started: the gap is today's open vs prior close
+            o = A._f(df["Open"].iloc[-1])
+            gap, live_err = ((o / pc - 1) * 100 if o else None), (None if o else "no open price")
+            r["gap_basis"] = "open"
+            day_chg = (float(df["Close"].iloc[-1]) / pc - 1) * 100
+        else:                                             # before the open: latest pre-market trade
+            live, live_err = D.latest_trade_today(quotes.get(yt), as_of) if not q_err else (None, q_err)
+            gap = (live / pc - 1) * 100 if live and pc else None
+            r["gap_basis"] = "pre-market"
+        r["day_change_pct"] = A.r2(day_chg)
         sw, sw_why = SW.compute(SW.closed_bars(df, now, bar_complete))
         r.update(sw)
         nr.update(sw_why)
@@ -315,7 +324,11 @@ def cmd_run(args, cfg) -> int:
     for r in rows.values():
         r["weight_pct"] = A.r2(r["value"] / total * 100) if r.get("value") and total else None
 
-    alerts = build_alerts(rows, held, meta, missing, cfg, R.previous_run(cfg["paths"]["output"], as_of.isoformat()))
+    spy_gap = None
+    if spy is not None and len(spy) > 1 and spy.index[-1].date() == as_of:
+        spy_gap = A.r2((float(spy["Open"].iloc[-1]) / float(spy["Close"].iloc[-2]) - 1) * 100)
+    alerts = build_alerts(rows, held, meta, missing, cfg, R.previous_run(cfg["paths"]["output"], as_of.isoformat()),
+                          as_of, spy_gap)
     out_dir = os.path.join(cfg["paths"]["output"], as_of.isoformat())
     miss_reasons = {t: missing[D.to_yahoo(t)] for t in held if D.to_yahoo(t) in missing}
     if bench in missing:
@@ -401,6 +414,26 @@ def _px(x) -> str:
     return f"${x:,.2f}"
 
 
+def news_key(n: dict) -> str:
+    import re
+    return n.get("url") or re.sub(r"\W+", "", (n.get("title") or "").lower())[:60]
+
+
+def new_earnings_event(e: dict, old_up: set, old_done: set, as_of: dt.date | None) -> bool:
+    """Earnings lines only when something changed: newly in the window, newly reported, or reporting next session."""
+    d = e.get("date")
+    if e.get("reported"):
+        return d not in old_done
+    if d not in old_up:
+        return True
+    if as_of and d:
+        nxt = as_of + dt.timedelta(days=1)
+        while not is_trading_day(nxt):
+            nxt += dt.timedelta(days=1)
+        return dt.date.fromisoformat(d) <= nxt              # reminder: reports in the coming session
+    return False
+
+
 def level_events(r: dict, old: dict, cfg: dict) -> list[str]:
     """Support/resistance alerts per level, only for what changed since the previous run:
       broke S1 (vs last run's S1)  ·  broke out over R1  ·  reached TP1
@@ -442,7 +475,9 @@ def level_events(r: dict, old: dict, cfg: dict) -> list[str]:
     return out
 
 
-def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
+def build_alerts(rows, held, meta, missing, cfg, prev, as_of: dt.date | None = None,
+                 spy_gap: float | None = None) -> list[tuple[str, str]]:
+    """Alerts only for what is new since the previous run (news, earnings, levels); gaps measured vs SPY's gap."""
     ac = cfg["alerts"]
     prev_date, prev_rows = prev
     out = []
@@ -462,14 +497,26 @@ def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
         old = (prev_rows or {}).get(t) or {}
         if old.get("stage") is not None and r.get("stage") is not None and old["stage"] != r["stage"]:
             out.append(("Stage change", f"**{t}** S{old['stage']} → S{r['stage']} (vs {prev_date})"))
-        if p is not None and old.get("stop") is not None and p < old["stop"]:
+        stop_hit = p is not None and old.get("stop") is not None and p < old["stop"]
+        if stop_hit:
             out.append(("Stop broken", f"**{t}** ${p:,.2f} below last stop ${old['stop']:,.2f}"))
-        out += [("Support/resistance", f"**{t}** {x}") for x in level_events(r, old, cfg)]
-        if r.get("gap_pct") is not None and abs(r["gap_pct"]) >= ac["gap_pct"]:
-            out.append(("Gap", f"**{t}** {r['gap_pct']:+.1f}% vs previous close"))
+        out += [("Support/resistance", f"**{t}** {x}") for x in level_events(r, old, cfg)
+                if not (stop_hit and x.startswith("broke support"))]          # the stop line already says it
+        mkt = spy_gap or 0.0
+        if r.get("gap_pct") is not None and abs(r["gap_pct"] - mkt) >= ac["gap_pct"]:
+            if r.get("gap_basis") == "open":
+                day = f", closed {r['day_change_pct']:+.1f}%" if r.get("day_change_pct") is not None else ""
+                out.append(("Gap", f"**{t}** gapped {r['gap_pct']:+.1f}% at the open (SPY {mkt:+.1f}%{day})"))
+            else:
+                out.append(("Gap", f"**{t}** {r['gap_pct']:+.1f}% pre-market vs previous close"))
         ev = r.get("events") or {}
+        old_ev = old.get("events") or {}
+        old_up = {e.get("date") for e in old_ev.get("earnings", []) if not e.get("reported")}
+        old_done = {e.get("date") for e in old_ev.get("earnings", []) if e.get("reported")}
         for e in ev.get("earnings", []):
             when = f" ({e['when']})" if e.get("when") else ""
+            if not new_earnings_event(e, old_up, old_done, as_of):
+                continue
             if e.get("reported"):
                 eps = ""
                 if e.get("eps_actual") is not None:
@@ -479,13 +526,18 @@ def build_alerts(rows, held, meta, missing, cfg, prev) -> list[tuple[str, str]]:
             else:
                 est = f" · est EPS {e['eps_est']:g}" if e.get("eps_est") is not None else ""
                 out.append(("Earnings this week", f"**{t}** reports {short_date(e['date'])}{when}{est}"))
+        seen = {news_key(n) for n in old_ev.get("news", [])}
         for n in ev.get("news", []):
+            if news_key(n) in seen:                       # already sent in the previous run
+                continue
             title = n["title"].replace("[", "(").replace("]", ")")
             head = f"[{title}]({n['url']})" if n.get("url") else title
             src = ", ".join(x for x in (n.get("publisher"), short_date(n.get("date"))) if x)
             out.append(("Big news this week", f"**{t}** {head}" + (f" — {src}" if src else "")))
-        mv = ev.get("move_1w")
-        if mv is not None and abs(mv) >= cfg["events"]["move_pct"] and not ev.get("news"):
+        mv, omv = ev.get("move_1w"), old_ev.get("move_1w")
+        flagged_before = omv is not None and abs(omv) >= cfg["events"]["move_pct"] and not old_ev.get("news") \
+            and (omv > 0) == ((mv or 0) > 0)
+        if mv is not None and abs(mv) >= cfg["events"]["move_pct"] and not ev.get("news") and not flagged_before:
             out.append(("Big news this week", f"**{t}** {mv:+.1f}% in 5 days — no matching news found"))
         for e in ev.get("errors", []):
             out.append(("Missing data", f"**{t}** news/earnings: {e}"))

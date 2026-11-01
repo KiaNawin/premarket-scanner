@@ -282,6 +282,77 @@ class SwingAndMomentum(unittest.TestCase):
         self.assertEqual(len(SW.closed_bars(df, now, bar_complete=True)), 30)
 
 
+class AlertNoise(unittest.TestCase):
+    """Alerts repeat only when something changed since the previous run."""
+    def setUp(self):
+        from portfolio_stage.config import load_config
+        self.cfg = load_config()
+        self.day = cli.dt.date(2026, 10, 30)            # Friday
+
+    def alerts(self, r, old=None, spy_gap=None):
+        rows = {"AAA": {"p": 100, "atr": 2, "levels": {}, **r}}
+        prev = ("2026-10-29", {"AAA": old} if old else {})
+        return cli.build_alerts(rows, {"AAA": L.Position("AAA")}, {"AAA": {"group": "tech", "quality": "A"}}, {},
+                                self.cfg, prev, self.day, spy_gap)
+
+    def kinds(self, al):
+        return [k for k, _ in al]
+
+    def test_news_only_once(self):
+        n = {"title": "AAA beats earnings", "url": "https://x/1", "publisher": "Z", "date": "2026-10-29"}
+        self.assertIn("Big news this week", self.kinds(self.alerts({"events": {"news": [n]}})))
+        old = {"events": {"news": [n]}}
+        self.assertNotIn("Big news this week", self.kinds(self.alerts({"events": {"news": [n]}}, old)))
+
+    def test_earnings_only_when_new_reported_or_next_session(self):
+        up = {"date": "2026-11-05", "when": "", "reported": False, "eps_est": None}
+        self.assertIn("Earnings this week", self.kinds(self.alerts({"events": {"earnings": [up]}})))     # new
+        old = {"events": {"earnings": [up]}}
+        self.assertNotIn("Earnings this week", self.kinds(self.alerts({"events": {"earnings": [up]}}, old)))
+        monday = dict(up, date="2026-11-02")                                                         # next session
+        self.assertIn("Earnings this week", self.kinds(self.alerts({"events": {"earnings": [monday]}},
+                                                                   {"events": {"earnings": [monday]}})))
+        done = dict(up, date="2026-10-29", reported=True, eps_actual=1.0)
+        self.assertIn("Earnings this week", self.kinds(self.alerts({"events": {"earnings": [done]}},
+                                                                   {"events": {"earnings": [dict(done, reported=False)]}})))
+        self.assertNotIn("Earnings this week", self.kinds(self.alerts({"events": {"earnings": [done]}},
+                                                                      {"events": {"earnings": [done]}})))
+
+    def test_gap_is_open_vs_close_and_relative_to_spy(self):
+        r = {"gap_pct": -6.0, "gap_basis": "open", "day_change_pct": -9.0}
+        al = self.alerts(r, spy_gap=-0.5)
+        self.assertIn("gapped -6.0% at the open (SPY -0.5%, closed -9.0%)", al[0][1])
+        self.assertEqual(self.alerts(r, spy_gap=-3.0), [])                     # market-wide gap: only 3% excess
+
+    def test_stop_broken_hides_duplicate_support_break(self):
+        old = {"p": 101, "atr": 2, "stop": 99, "levels": {"S1": 100}}
+        al = self.alerts({"p": 98, "levels": {"S1": 95}}, old)
+        self.assertEqual(self.kinds(al), ["Stop broken"])
+
+    def test_no_news_move_flagged_once(self):
+        r = {"events": {"move_1w": -12.0, "news": []}}
+        self.assertEqual(len(self.alerts(r)), 1)
+        self.assertEqual(self.alerts(r, {"events": {"move_1w": -8.0, "news": []}}), [])
+
+    def test_headline_filters(self):
+        from portfolio_stage import events as E
+        keep = ["Applied Materials Q4 earnings beat, guidance raised", "Amazon Reports Third Quarter Results"]
+        drop = ["Impinj (PI) Q3 Earnings and Revenues Beat Estimates",                  # other company
+                "AAOI's CATV Business Gains Momentum: Can It Beat LITE and COHR?",     # question
+                "Applied Materials vs. Taiwan Semiconductor: Comparing Revenue Growth",
+                "Amazon (AMZN) Q3 2026 Earnings Call Transcript",
+                "Axon Enterprise (AXON) Reports Next Week: Wall Street Expects Earnings Growth"]
+        names = {"Applied": ("AMAT", "Applied Materials, Inc."), "Amazon": ("AMZN", "Amazon.com, Inc."),
+                 "Impinj": ("AAOI", "Applied Optoelectronics, Inc."), "AAOI'": ("AAOI", "Applied Optoelectronics"),
+                 "Axon": ("AXON", "Axon Enterprise, Inc.")}
+        ok = lambda t: (lambda tk, nm: E.about_stock(t, tk, nm) and E.is_big(t, self.cfg)[0])(
+            *next(v for k, v in names.items() if t.startswith(k)))
+        for t in keep:
+            self.assertTrue(ok(t), t)
+        for t in drop:
+            self.assertFalse(ok(t), t)
+
+
 class LastBarComplete(unittest.TestCase):
     def test_rule(self):
         et = cli.ET

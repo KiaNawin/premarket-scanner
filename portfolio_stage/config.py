@@ -41,7 +41,8 @@ DEFAULTS = {
                "include_etfs": False,
                "big_news_keywords": ["earnings", "results", "guidance", "outlook", "FDA", "acquir", "merger",
                                      "offering", "lawsuit", "downgrad", "upgrad", "CEO", "contract", "buyback"],
-               "exclude_keywords": ["stocks? to (buy|watch|own)", "should you (buy|sell)"]},
+               "exclude_keywords": ["stocks? to (buy|watch|own)", "should you (buy|sell)"],
+               "exclude_questions": True},
 }
 
 
