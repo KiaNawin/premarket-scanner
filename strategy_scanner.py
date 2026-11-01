@@ -152,6 +152,11 @@ def evaluate(ticker: str, daily: pd.DataFrame | None, minute: pd.DataFrame | Non
             "entry_price": _r(first["Close"]),
             "hod_before_signal": _r(first["prior_hod"]),
         })
+        try:                                        # stop for the swing (shadow) plan: last two 5-min candle lows
+            import trade_plan
+            res["low_5m"] = _r(trade_plan.low_before_signal(rth, res["signal_time_et"]))
+        except Exception:
+            res["low_5m"] = None
     else:
         failed = [k for k, v in checks_now.items() if not v]
         if not c2:

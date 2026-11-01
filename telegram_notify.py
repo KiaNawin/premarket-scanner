@@ -144,6 +144,11 @@ def setup_lines(r: dict) -> list[str]:
             f"HOD {_money(r.get('hod_before_signal'))} · SMA200 {_money(r.get('sma200'))}",
             f"   Last {_money(r.get('last_price'))} · Gap {r.get('gap_pct') or 0:+.2f}%",
         ]
+    sp = r.get("swing_plan")
+    if sp:
+        tg = " · ".join(f"{k} {_money(v)}" for k, v in sp["targets"].items())
+        out.append(f"   🧪 Swing test: stop {_money(sp['stop'])} (5-min low, {sp['stop_pct']:.1f}%) · {tg} · "
+                   f"{sp['shares']:,} sh · then EMA9")
     if r.get("catalyst"):
         out.append(f"   📰 {_e(r['catalyst'])}")
     return out
@@ -153,7 +158,38 @@ def _signed_money(x) -> str:
     return "—" if x is None else (f"+${x:,.0f}" if x >= 0 else f"−${-x:,.0f}")
 
 
-def build_eod_message(day: str, scored: list[dict], st: dict) -> str:
+def swing_section(sw: dict | None) -> list[str]:
+    """Shadow swing plan (3R/5R + EMA9) vs the intraday plan, on the same alerts."""
+    if not sw:
+        return []
+    out = ["", "<b>🧪 Swing test — 1/3 at 3R, 1/3 at 5R, rest until a close below EMA9</b>"]
+    for r in sw.get("new", []):
+        if r.get("status") == "skip":
+            out.append(f"   ❔ {_e(r['ticker'])} {r['date'][5:]} — {_e(r.get('note'))}")
+            continue
+        state = (f"closed {_e(r.get('exit_reason'))} {float(r['result_r']):+.2f}R" if r.get("status") == "closed"
+                 else f"open {float(r.get('open_r') or 0):+.2f}R")
+        out.append(f"   ➕ {_e(r['ticker'])} {r['date'][5:]} stop {_money(_f(r['stop']))} ({_f(r['stop_pct']):.1f}%) · {state}")
+    for r in sw.get("events", []):
+        last = (str(r.get("legs") or "").split(";") or [""])[-1].split("@")[0]
+        state = (f"closed {_e(r.get('exit_reason'))} → <b>{float(r['result_r']):+.2f}R</b>" if r.get("status") == "closed"
+                 else f"{_e(last)} hit · open {float(r.get('open_r') or 0):+.2f}R")
+        out.append(f"   🔔 {_e(r['ticker'])} ({r['date'][5:]}) {state}")
+    c = sw.get("compare") or {}
+    blk = lambda b: (f"{b['n']} trades · win {b['win']:.0%} · avg {b['avg']:+.2f}R · total {b['total']:+.2f}R"
+                     if b.get("n") else "no trades yet")
+    if c:
+        so = c.get("swing_open") or {}
+        out += [f"Swing closed: {blk(c['swing_closed'])}",
+                f"Swing open: {so.get('n', 0)} (marked {so.get('open_r', 0):+.2f}R)",
+                f"Swing all (open marked to close): {blk(c['swing_all_marked'])}",
+                f"Intraday plan, same alerts: {blk(c['intraday_same'])}"]
+        if c.get("since"):
+            out.append(f"<i>Since {c['since']} · shadow test only — no change to the 🚨 plan yet.</i>")
+    return out
+
+
+def build_eod_message(day: str, scored: list[dict], st: dict, swing: dict | None = None) -> str:
     """Daily summary after the close: today's alerts replayed with the plan, plus all-time stats."""
     lines = [f"<b>📊 Trend-join Long — Daily Summary {day}</b>"]
     done = [r for r in scored if r.get("result_r") is not None]
@@ -187,6 +223,7 @@ def build_eod_message(day: str, scored: list[dict], st: dict) -> str:
         if st["trades"] < 30:
             lines.append(f"<i>Small sample ({st['trades']} trades) — judge the strategy after ~30+.</i>")
     lines.append("<i>Back-test of the alert rules: stop/target/close exits, no slippage or fees.</i>")
+    lines += swing_section(swing)
     return "\n".join(lines)
 
 

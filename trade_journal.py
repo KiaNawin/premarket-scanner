@@ -44,6 +44,7 @@ def record_alerts(day: dt.date, entries: list[dict], alerted_at: str, signals_di
                 **{k: p.get(k) for k in ("entry", "stop", "risk_per_share", "stop_pct", "exit_target_r", "shares",
                                          "position_usd", "risk_usd", "breakout_level", "breakout_name", "atr14")},
                 "target_1r": (p.get("targets") or {}).get("1R"), "target_2r": (p.get("targets") or {}).get("2R"),
+                "low_5m": r.get("low_5m"),
             }
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 

@@ -5,6 +5,31 @@
   "stop_atr_buffer": 0.25,
   "min_stop_pct": 0.5,
   "wide_stop_pct": 8.0,
-  "targets_r": [1, 2],
-  "exit_target_r": 2
+  "targets_r": [
+    1,
+    2
+  ],
+  "exit_target_r": 2,
+  "swing": {
+    "_help": "Shadow test only (shown as 🧪 in alerts, compared in the EOD summary). Stop = low of the last 2 five-minute candles. Sell partials at 3R and 5R, the rest on the first daily close below EMA9. account_usd + risk_pct size the trade (null = use risk_per_trade_usd).",
+    "enabled": true,
+    "stop_candles": 2,
+    "candle_minutes": 5,
+    "min_stop_pct": 0.5,
+    "account_usd": null,
+    "risk_pct": 0.5,
+    "partials": [
+      [
+        3,
+        0.3333
+      ],
+      [
+        5,
+        0.3333
+      ]
+    ],
+    "trail_ema": 9,
+    "max_days": 20,
+    "start_date": "2026-10-26"
+  }
 }

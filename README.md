@@ -192,6 +192,16 @@ Score a past day manually: Actions → *Daily summary (EOD)* → Run workflow �
 
 ---
 
+## 🧪 Swing test (shadow plan, `swing_journal.py`)
+Each 🚨 alert also shows a second plan, tested side by side on the same alerts before anything changes:
+stop = low of the last two 5-minute candles before the signal (at least 0.5 % below entry); sell 1/3 at 3R,
+1/3 at 5R, and hold the rest until the first daily close below EMA9 (time limit 20 trading days). The EOD job
+replays the signal day on 1-minute bars, then every later day on daily bars (gap below the stop = filled at the
+open), keeps one row per alert in **`history/swing_trades.csv`**, and adds a "🧪 Swing test" block to the summary:
+win rate / avg R / total R of the swing plan next to the intraday plan's results on the same alerts. Alerts since
+`swing.start_date` (2026-10-26) are back-filled automatically (Yahoo keeps 1-minute bars ~30 days).
+Settings: `"swing"` in `trade_config.json` (`account_usd` + `risk_pct` for %-of-account sizing).
+
 # portfolio_stage — analyse every holding
 
 Runs on **your computer** (slips and holdings stay local; `portfolio/`, `slips/`, `output/`, `cache/` and

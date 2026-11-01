@@ -122,6 +122,7 @@ def send_new_alerts(rep: dict | None, day: dt.date, args) -> list[str]:
     cfg = trade_plan.load_config()
     for r in new:
         r["plan"] = trade_plan.make_plan(r, cfg)
+        r["swing_plan"] = trade_plan.make_swing_plan(r, cfg)
     msg = tg.build_alert(new, rep.get("scan_time_et"))
     if args.dry_run:
         print("----- ALERT (sound on) -----\n" + msg)
@@ -202,7 +203,14 @@ def run_eod(day: dt.date, args) -> int:
     """After the close: replay today's alerts with their plans, update history/trades.csv, send summary."""
     scored = trade_journal.score_day(day, _fetch_minutes)
     st = trade_journal.stats()
-    msg = tg.build_eod_message(day.isoformat(), scored, st)
+    swing = None
+    try:                                           # shadow swing plan on the same alerts (multi-day)
+        import swing_journal
+        swing = swing_journal.sync(day, swing_journal.yahoo_minutes_for_day, swing_journal.yahoo_daily)
+        swing["compare"] = swing_journal.compare()
+    except Exception:
+        traceback.print_exc()
+    msg = tg.build_eod_message(day.isoformat(), scored, st, swing)
     if args.dry_run:
         print("----- EOD SUMMARY (silent) -----\n" + msg)
     else:
