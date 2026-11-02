@@ -1,12 +1,12 @@
 {
   "ticker": "AGPU",
-  "saved_at_et": "2026-11-02T08:31:01-05:00",
+  "saved_at_et": "2026-11-02T09:01:21-05:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $8.0",
       "lastUpdateInfo": [
         "This page refreshes every 30 seconds.",
-        "Data last updated Nov 2, 2026 08:31 AM ET."
+        "Data last updated Nov 2, 2026 09:01 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,9 +19,9 @@
         },
         "rows": [
           {
-            "consolidated": "$8.49 +0.49 (+6.12%)",
-            "volume": "7,885",
-            "highPrice": "$8.45 (07:43:35 AM)",
+            "consolidated": "$8.4 +0.4 (+5.00%)",
+            "volume": "8,267",
+            "highPrice": "$8.48 (08:39:20 AM)",
             "lowPrice": "$8.02 (04:06:26 AM)",
             "delta": "up"
           }
@@ -35,6 +35,31 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "08:45:24",
+            "price": "$8.4",
+            "shareVolume": "26"
+          },
+          {
+            "time": "08:43:13",
+            "price": "$8.61",
+            "shareVolume": "21"
+          },
+          {
+            "time": "08:40:44",
+            "price": "$8.57",
+            "shareVolume": "25"
+          },
+          {
+            "time": "08:40:43",
+            "price": "$8.53",
+            "shareVolume": "2"
+          },
+          {
+            "time": "08:39:20",
+            "price": "$8.48",
+            "shareVolume": "200"
+          },
           {
             "time": "08:12:07",
             "price": "$8.49",

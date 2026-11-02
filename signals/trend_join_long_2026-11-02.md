@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-11-02**
-0 valid entries out of 7 pre-market gappers (generated 2026-11-02 08:35:00 EST)
+0 valid entries out of 8 pre-market gappers (generated 2026-11-02 09:05:00 EST)
 
 _No valid entries yet._
 
@@ -11,3 +11,4 @@ Not triggered:
 - PERI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - PMN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - QURE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- TATT: WAITING — Market opens 09:30 ET; signals start 10:00 ET

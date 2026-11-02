@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-02",
-  "generated_at_et": "2026-11-02 08:35:00 EST",
+  "generated_at_et": "2026-11-02 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-02.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 7,
+  "candidates": 8,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -104,7 +104,20 @@
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
       "gap_pct": 5.72,
       "catalyst": "UniQure's Ifezuntirgene Inilparvovec BLA Gets FDA Priority Review Acceptance."
+    },
+    {
+      "ticker": "TATT",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.3886,
+      "yesterday_high": 33.3,
+      "yesterday_close": 31.8,
+      "sma200": 42.3024,
+      "premarket_high": 34.35,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.74,
+      "catalyst": "TAT Technologies Ltd."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
