@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-02",
-  "generated_at_et": "2026-11-02 13:37:13 EST",
+  "generated_at_et": "2026-11-02 14:07:12 EST",
   "source_premarket_file": "premarket_scan_2026-11-02.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -17,8 +17,8 @@
       "ticker": "ACB",
       "signal_time_et": "2026-11-02 10:33",
       "entry_price": 4.2,
-      "last_price": 4.265,
-      "gap_pct": 5.91,
+      "last_price": 4.23,
+      "gap_pct": 5.3,
       "yesterday_high": 4.09,
       "yesterday_close": 4.06,
       "sma200": 3.5412,
@@ -37,8 +37,8 @@
       "yesterday_close": 4.06,
       "sma200": 3.5412,
       "premarket_high": 4.16,
-      "last_price": 4.265,
-      "last_bar_et": "13:36",
+      "last_price": 4.23,
+      "last_bar_et": "14:06",
       "high_of_day": 4.34,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -50,29 +50,7 @@
       "entry_price": 4.2,
       "hod_before_signal": 4.19,
       "low_5m": 4.17,
-      "gap_pct": 5.91,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "BABA",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.5701,
-      "yesterday_high": 99.23,
-      "yesterday_close": 98.04,
-      "sma200": 126.2374,
-      "premarket_high": 101.9,
-      "last_price": 102.86,
-      "last_bar_et": "13:36",
-      "high_of_day": 103.88,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.05,
+      "gap_pct": 5.3,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -84,8 +62,8 @@
       "yesterday_close": 12.68,
       "sma200": 20.7256,
       "premarket_high": 13.33,
-      "last_price": 13.705,
-      "last_bar_et": "13:37",
+      "last_price": 13.635,
+      "last_bar_et": "14:06",
       "high_of_day": 13.74,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -94,7 +72,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.12,
+      "gap_pct": 7.85,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -106,17 +84,17 @@
       "yesterday_close": 6.38,
       "sma200": 20.6749,
       "premarket_high": 6.97,
-      "last_price": 7.1,
-      "last_bar_et": "13:36",
+      "last_price": 6.94,
+      "last_bar_et": "14:06",
       "high_of_day": 7.45,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.82,
+      "gap_pct": 9.25,
       "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options."
     },
     {
@@ -125,7 +103,7 @@
       "signal": false,
       "reason": "Only 184 trading days of history (< 200 needed for SMA200)",
       "history_days": 184,
-      "gap_pct": 12.27,
+      "gap_pct": 8.53,
       "catalyst": "The First U.S."
     },
     {
@@ -137,8 +115,8 @@
       "yesterday_close": 3.41,
       "sma200": 4.6702,
       "premarket_high": 6.62,
-      "last_price": 5.175,
-      "last_bar_et": "13:37",
+      "last_price": 5.409,
+      "last_bar_et": "14:07",
       "high_of_day": 7.4,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -147,7 +125,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 53.67,
+      "gap_pct": 58.06,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -159,8 +137,8 @@
       "yesterday_close": 3.47,
       "sma200": 5.6872,
       "premarket_high": 3.56,
-      "last_price": 3.83,
-      "last_bar_et": "13:37",
+      "last_price": 3.855,
+      "last_bar_et": "14:06",
       "high_of_day": 3.9,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -169,7 +147,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.37,
+      "gap_pct": 11.1,
       "catalyst": "Coursera Consensus Price Target Cut by 29.92% to $5.67."
     },
     {
@@ -181,8 +159,8 @@
       "yesterday_close": 5.59,
       "sma200": 9.3084,
       "premarket_high": 5.7,
-      "last_price": 5.95,
-      "last_bar_et": "13:37",
+      "last_price": 5.889,
+      "last_bar_et": "14:07",
       "high_of_day": 6.045,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -191,7 +169,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.17,
+      "gap_pct": 5.64,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -203,8 +181,8 @@
       "yesterday_close": 25.65,
       "sma200": 40.9289,
       "premarket_high": 26.0999,
-      "last_price": 28.0891,
-      "last_bar_et": "13:37",
+      "last_price": 27.85,
+      "last_bar_et": "14:07",
       "high_of_day": 28.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -213,9 +191,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.9,
+      "gap_pct": 8.77,
       "catalyst": "Enphase Energy, Inc."
+    },
+    {
+      "ticker": "GFI",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.3886,
+      "yesterday_high": 33.55,
+      "yesterday_close": 32.92,
+      "sma200": 42.6675,
+      "premarket_high": 34.13,
+      "last_price": 34.89,
+      "last_bar_et": "14:07",
+      "high_of_day": 35.24,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.08,
+      "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "13:37"
+  "scan_time_et": "14:07"
 }

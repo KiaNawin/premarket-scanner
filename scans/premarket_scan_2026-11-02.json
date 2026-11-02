@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-02",
-  "generated_at_et": "2026-11-02 13:37:12 EST",
-  "scan_time_et": "13:37",
+  "generated_at_et": "2026-11-02 14:07:11 EST",
+  "scan_time_et": "14:07",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7093,
-    "prefilter": 930,
-    "with_data": 661,
-    "gap": 185,
-    "gap_price": 178,
+    "prefilter": 978,
+    "with_data": 710,
+    "gap": 176,
+    "gap_price": 168,
     "passed": 9,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "CLRO",
-      "price": 5.24,
-      "gap_pct": 53.67,
+      "price": 5.39,
+      "gap_pct": 58.06,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 3.41,
       "premarket_volume": 17844457,
@@ -33,21 +33,21 @@
       "catalyst_url": null
     },
     {
-      "ticker": "CCXI",
-      "price": 9.15,
-      "gap_pct": 12.27,
-      "catalyst": "The First U.S.",
-      "prev_close": 8.15,
-      "premarket_volume": 73007,
+      "ticker": "COUR",
+      "price": 3.86,
+      "gap_pct": 11.1,
+      "catalyst": "Coursera Consensus Price Target Cut by 29.92% to $5.67.",
+      "prev_close": 3.47,
+      "premarket_volume": 100343,
       "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "The First U.S. Humanoid Robot Stock Starts Trading in November. Here's Why I'd Wait for the De-SPAC Dip.",
-      "catalyst_url": "https://www.nasdaq.com/articles/first-us-humanoid-robot-stock-starts-trading-november-heres-why-id-wait-de-spac-dip"
+      "catalyst_source": "Fintel",
+      "catalyst_headline": "Coursera Consensus Price Target Cut by 29.92% to $5.67",
+      "catalyst_url": "https://www.nasdaq.com/articles/coursera-consensus-price-target-cut-2992-567"
     },
     {
       "ticker": "CAPR",
-      "price": 7.07,
-      "gap_pct": 10.82,
+      "price": 6.97,
+      "gap_pct": 9.25,
       "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options.",
       "prev_close": 6.38,
       "premarket_volume": 142991,
@@ -58,8 +58,8 @@
     },
     {
       "ticker": "ENPH",
-      "price": 28.19,
-      "gap_pct": 9.9,
+      "price": 27.9,
+      "gap_pct": 8.77,
       "catalyst": "Enphase Energy, Inc.",
       "prev_close": 25.65,
       "premarket_volume": 64355,
@@ -69,21 +69,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/enphase-energy-inc-enters-tax-credit-transfer-agreement-sell-100000000-tax-credits"
     },
     {
-      "ticker": "COUR",
-      "price": 3.8,
-      "gap_pct": 9.37,
-      "catalyst": "Coursera Consensus Price Target Cut by 29.92% to $5.67.",
-      "prev_close": 3.47,
-      "premarket_volume": 100343,
+      "ticker": "CCXI",
+      "price": 8.85,
+      "gap_pct": 8.53,
+      "catalyst": "The First U.S.",
+      "prev_close": 8.15,
+      "premarket_volume": 73007,
       "session": "regular",
-      "catalyst_source": "Fintel",
-      "catalyst_headline": "Coursera Consensus Price Target Cut by 29.92% to $5.67",
-      "catalyst_url": "https://www.nasdaq.com/articles/coursera-consensus-price-target-cut-2992-567"
+      "catalyst_source": "The Motley Fool",
+      "catalyst_headline": "The First U.S. Humanoid Robot Stock Starts Trading in November. Here's Why I'd Wait for the De-SPAC Dip.",
+      "catalyst_url": "https://www.nasdaq.com/articles/first-us-humanoid-robot-stock-starts-trading-november-heres-why-id-wait-de-spac-dip"
     },
     {
       "ticker": "BILI",
-      "price": 13.71,
-      "gap_pct": 8.12,
+      "price": 13.68,
+      "gap_pct": 7.85,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 12.68,
       "premarket_volume": 478700,
@@ -93,9 +93,21 @@
       "catalyst_url": null
     },
     {
+      "ticker": "GFI",
+      "price": 34.92,
+      "gap_pct": 6.08,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 32.92,
+      "premarket_volume": 510319,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "DJT",
-      "price": 5.93,
-      "gap_pct": 6.17,
+      "price": 5.91,
+      "gap_pct": 5.64,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.59,
       "premarket_volume": 127308,
@@ -106,23 +118,11 @@
     },
     {
       "ticker": "ACB",
-      "price": 4.3,
-      "gap_pct": 5.91,
+      "price": 4.28,
+      "gap_pct": 5.3,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 4.06,
       "premarket_volume": 59974,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
-      "ticker": "BABA",
-      "price": 102.99,
-      "gap_pct": 5.05,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 98.04,
-      "premarket_volume": 350266,
       "session": "regular",
       "catalyst_source": null,
       "catalyst_headline": null,
