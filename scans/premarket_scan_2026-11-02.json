@@ -1,0 +1,108 @@
+{
+  "scan_date": "2026-11-02",
+  "generated_at_et": "2026-11-02 08:32:35 EST",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7092,
+    "prefilter": 164,
+    "with_data": 150,
+    "gap": 36,
+    "gap_price": 32,
+    "passed": 7,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7092,
+  "count": 7,
+  "results": [
+    {
+      "ticker": "CLRO",
+      "price": 5.91,
+      "gap_pct": 73.32,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.41,
+      "premarket_volume": 11002753,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "PERI",
+      "price": 11.39,
+      "gap_pct": 30.92,
+      "catalyst": "Affle To Acquire Perion Network In $420 Mln All-Cash Deal.",
+      "prev_close": 8.7,
+      "premarket_volume": 2189052,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Affle To Acquire Perion Network In $420 Mln All-Cash Deal ",
+      "catalyst_url": "https://www.nasdaq.com/articles/affle-acquire-perion-network-420-mln-all-cash-deal"
+    },
+    {
+      "ticker": "CAPR",
+      "price": 6.88,
+      "gap_pct": 7.84,
+      "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options.",
+      "prev_close": 6.38,
+      "premarket_volume": 76137,
+      "session": "pre-market",
+      "catalyst_source": "BNK Invest",
+      "catalyst_headline": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options",
+      "catalyst_url": "https://www.nasdaq.com/articles/commit-buy-capricor-therapeutics-3-earn-695-annualized-using-options"
+    },
+    {
+      "ticker": "IDXX",
+      "price": 593.81,
+      "gap_pct": 7.73,
+      "catalyst": "IDEXX Laboratories Q3 26 Earnings Conference Call At 8:30 AM ET.",
+      "prev_close": 551.21,
+      "premarket_volume": 90249,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "IDEXX Laboratories Q3 26 Earnings Conference Call At 8:30 AM ET ",
+      "catalyst_url": "https://www.nasdaq.com/articles/idexx-laboratories-q3-26-earnings-conference-call-8-30-am-et"
+    },
+    {
+      "ticker": "PMN",
+      "price": 3.55,
+      "gap_pct": 7.25,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.31,
+      "premarket_volume": 100542,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "QURE",
+      "price": 26.25,
+      "gap_pct": 5.72,
+      "catalyst": "UniQure's Ifezuntirgene Inilparvovec BLA Gets FDA Priority Review Acceptance.",
+      "prev_close": 24.83,
+      "premarket_volume": 512679,
+      "session": "pre-market",
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "UniQure's Ifezuntirgene Inilparvovec BLA Gets FDA Priority Review Acceptance ",
+      "catalyst_url": "https://www.nasdaq.com/articles/uniqures-ifezuntirgene-inilparvovec-bla-gets-fda-priority-review-acceptance"
+    },
+    {
+      "ticker": "BILI",
+      "price": 13.33,
+      "gap_pct": 5.13,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 12.68,
+      "premarket_volume": 85319,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    }
+  ]
+}

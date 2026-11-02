@@ -1,0 +1,110 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-11-02",
+  "generated_at_et": "2026-11-02 08:35:00 EST",
+  "source_premarket_file": "premarket_scan_2026-11-02.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 7,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "BILI",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.3824,
+      "yesterday_high": 12.92,
+      "yesterday_close": 12.68,
+      "sma200": 20.7256,
+      "premarket_high": 13.33,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.13,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CAPR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.54,
+      "yesterday_high": 6.64,
+      "yesterday_close": 6.38,
+      "sma200": 20.6749,
+      "premarket_high": 6.97,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.84,
+      "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options."
+    },
+    {
+      "ticker": "CLRO",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.0129,
+      "yesterday_high": 5.0,
+      "yesterday_close": 3.41,
+      "sma200": 4.6702,
+      "premarket_high": 6.62,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 73.32,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "IDXX",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 15.5736,
+      "yesterday_high": 586.0,
+      "yesterday_close": 551.21,
+      "sma200": 572.623,
+      "premarket_high": 594.0,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.73,
+      "catalyst": "IDEXX Laboratories Q3 26 Earnings Conference Call At 8:30 AM ET."
+    },
+    {
+      "ticker": "PERI",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2407,
+      "yesterday_high": 8.82,
+      "yesterday_close": 8.7,
+      "sma200": 9.2465,
+      "premarket_high": 11.43,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 30.92,
+      "catalyst": "Affle To Acquire Perion Network In $420 Mln All-Cash Deal."
+    },
+    {
+      "ticker": "PMN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.5529,
+      "yesterday_high": 8.53,
+      "yesterday_close": 3.31,
+      "sma200": 12.8932,
+      "premarket_high": 3.8412,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.25,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "QURE",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.3554,
+      "yesterday_high": 25.21,
+      "yesterday_close": 24.83,
+      "sma200": 29.653,
+      "premarket_high": 33.94,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.72,
+      "catalyst": "UniQure's Ifezuntirgene Inilparvovec BLA Gets FDA Priority Review Acceptance."
+    }
+  ],
+  "scan_time_et": "08:35"
+}
