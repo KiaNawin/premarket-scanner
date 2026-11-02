@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-02",
-  "generated_at_et": "2026-11-02 14:07:12 EST",
+  "generated_at_et": "2026-11-02 14:35:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-02.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -17,7 +17,7 @@
       "ticker": "ACB",
       "signal_time_et": "2026-11-02 10:33",
       "entry_price": 4.2,
-      "last_price": 4.23,
+      "last_price": 4.205,
       "gap_pct": 5.3,
       "yesterday_high": 4.09,
       "yesterday_close": 4.06,
@@ -37,8 +37,8 @@
       "yesterday_close": 4.06,
       "sma200": 3.5412,
       "premarket_high": 4.16,
-      "last_price": 4.23,
-      "last_bar_et": "14:06",
+      "last_price": 4.205,
+      "last_bar_et": "14:34",
       "high_of_day": 4.34,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -62,8 +62,8 @@
       "yesterday_close": 12.68,
       "sma200": 20.7256,
       "premarket_high": 13.33,
-      "last_price": 13.635,
-      "last_bar_et": "14:06",
+      "last_price": 13.615,
+      "last_bar_et": "14:34",
       "high_of_day": 13.74,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -84,13 +84,13 @@
       "yesterday_close": 6.38,
       "sma200": 20.6749,
       "premarket_high": 6.97,
-      "last_price": 6.94,
-      "last_bar_et": "14:06",
+      "last_price": 7.07,
+      "last_bar_et": "14:34",
       "high_of_day": 7.45,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
@@ -115,8 +115,8 @@
       "yesterday_close": 3.41,
       "sma200": 4.6702,
       "premarket_high": 6.62,
-      "last_price": 5.409,
-      "last_bar_et": "14:07",
+      "last_price": 5.33,
+      "last_bar_et": "14:34",
       "high_of_day": 7.4,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -137,8 +137,8 @@
       "yesterday_close": 3.47,
       "sma200": 5.6872,
       "premarket_high": 3.56,
-      "last_price": 3.855,
-      "last_bar_et": "14:06",
+      "last_price": 3.81,
+      "last_bar_et": "14:34",
       "high_of_day": 3.9,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -159,8 +159,8 @@
       "yesterday_close": 5.59,
       "sma200": 9.3084,
       "premarket_high": 5.7,
-      "last_price": 5.889,
-      "last_bar_et": "14:07",
+      "last_price": 5.84,
+      "last_bar_et": "14:34",
       "high_of_day": 6.045,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -181,8 +181,8 @@
       "yesterday_close": 25.65,
       "sma200": 40.9289,
       "premarket_high": 26.0999,
-      "last_price": 27.85,
-      "last_bar_et": "14:07",
+      "last_price": 27.94,
+      "last_bar_et": "14:34",
       "high_of_day": 28.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -203,8 +203,8 @@
       "yesterday_close": 32.92,
       "sma200": 42.6675,
       "premarket_high": 34.13,
-      "last_price": 34.89,
-      "last_bar_et": "14:07",
+      "last_price": 34.8,
+      "last_bar_et": "14:34",
       "high_of_day": 35.24,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -217,5 +217,5 @@
       "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "14:07"
+  "scan_time_et": "14:35"
 }
