@@ -1,9 +1,10 @@
 **Trend-join Long — 2026-11-02**
-1 valid entry out of 12 pre-market gappers (generated 2026-11-02 11:36:53 EST)
+2 valid entries out of 13 pre-market gappers (generated 2026-11-02 12:07:32 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| CCL | 10:21 | $30.20 | +5.25% | No recent news catalyst found. |
+| CCL | 10:21 | $30.20 | +5.43% | No recent news catalyst found. |
+| ACB | 10:33 | $4.20 | +5.42% | No recent news catalyst found. |
 
 Not triggered:
 - AAL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
