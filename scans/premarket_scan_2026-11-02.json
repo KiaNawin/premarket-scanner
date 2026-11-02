@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-02",
-  "generated_at_et": "2026-11-02 10:36:53 EST",
-  "scan_time_et": "10:36",
+  "generated_at_et": "2026-11-02 11:06:41 EST",
+  "scan_time_et": "11:06",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7093,
-    "prefilter": 683,
-    "with_data": 460,
-    "gap": 181,
-    "gap_price": 175,
-    "passed": 14,
+    "prefilter": 796,
+    "with_data": 540,
+    "gap": 202,
+    "gap_price": 196,
+    "passed": 12,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7093,
-  "count": 14,
+  "count": 12,
   "results": [
     {
       "ticker": "CLRO",
-      "price": 6.13,
-      "gap_pct": 79.72,
+      "price": 6.0,
+      "gap_pct": 75.95,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 3.41,
       "premarket_volume": 17844457,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "CAPR",
-      "price": 7.34,
-      "gap_pct": 14.98,
+      "price": 7.18,
+      "gap_pct": 12.54,
       "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options.",
       "prev_close": 6.38,
       "premarket_volume": 142991,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "CCXI",
-      "price": 9.24,
-      "gap_pct": 13.44,
+      "price": 9.16,
+      "gap_pct": 12.39,
       "catalyst": "The First U.S.",
       "prev_close": 8.15,
       "premarket_volume": 73007,
@@ -58,8 +58,8 @@
     },
     {
       "ticker": "ENPH",
-      "price": 28.48,
-      "gap_pct": 11.03,
+      "price": 28.64,
+      "gap_pct": 11.66,
       "catalyst": "Enphase Energy, Inc.",
       "prev_close": 25.65,
       "premarket_volume": 64355,
@@ -70,8 +70,8 @@
     },
     {
       "ticker": "BILI",
-      "price": 13.69,
-      "gap_pct": 7.93,
+      "price": 13.68,
+      "gap_pct": 7.89,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 12.68,
       "premarket_volume": 478700,
@@ -82,8 +82,8 @@
     },
     {
       "ticker": "COUR",
-      "price": 3.74,
-      "gap_pct": 7.9,
+      "price": 3.71,
+      "gap_pct": 6.92,
       "catalyst": "Coursera: 3 Key Takeaways for Long-Term Investors.",
       "prev_close": 3.47,
       "premarket_volume": 100343,
@@ -93,33 +93,9 @@
       "catalyst_url": "https://www.nasdaq.com/articles/coursera-3-key-takeaways-long-term-investors"
     },
     {
-      "ticker": "GFI",
-      "price": 34.93,
-      "gap_pct": 6.11,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 32.92,
-      "premarket_volume": 510319,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
-      "ticker": "EQX",
-      "price": 10.28,
-      "gap_pct": 5.98,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 9.7,
-      "premarket_volume": 353956,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "BLMN",
-      "price": 11.2,
-      "gap_pct": 5.96,
+      "price": 11.23,
+      "gap_pct": 6.24,
       "catalyst": "Analysts Estimate Bloomin' Brands (BLMN) to Report a Decline in Earnings: What to Look Out for.",
       "prev_close": 10.57,
       "premarket_volume": 51759,
@@ -130,8 +106,8 @@
     },
     {
       "ticker": "AAL",
-      "price": 13.34,
-      "gap_pct": 5.83,
+      "price": 13.38,
+      "gap_pct": 6.15,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 12.6,
       "premarket_volume": 845007,
@@ -141,9 +117,21 @@
       "catalyst_url": null
     },
     {
+      "ticker": "DJT",
+      "price": 5.91,
+      "gap_pct": 5.64,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.59,
+      "premarket_volume": 127308,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "BABA",
-      "price": 103.7,
-      "gap_pct": 5.77,
+      "price": 103.44,
+      "gap_pct": 5.51,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 98.04,
       "premarket_volume": 350266,
@@ -153,40 +141,28 @@
       "catalyst_url": null
     },
     {
-      "ticker": "ALM",
-      "price": 9.18,
-      "gap_pct": 5.52,
+      "ticker": "EQX",
+      "price": 10.21,
+      "gap_pct": 5.26,
       "catalyst": "No recent news catalyst found.",
-      "prev_close": 8.7,
-      "premarket_volume": 85921,
+      "prev_close": 9.7,
+      "premarket_volume": 353956,
       "session": "regular",
       "catalyst_source": null,
       "catalyst_headline": null,
       "catalyst_url": null
     },
     {
-      "ticker": "CDE",
-      "price": 13.77,
-      "gap_pct": 5.15,
-      "catalyst": "CDE Stock Crowded With Sellers.",
-      "prev_close": 13.1,
-      "premarket_volume": 226642,
-      "session": "regular",
-      "catalyst_source": "BNK Invest",
-      "catalyst_headline": "CDE Stock Crowded With Sellers",
-      "catalyst_url": "https://www.nasdaq.com/articles/cde-stock-crowded-sellers"
-    },
-    {
       "ticker": "AMZN",
-      "price": 252.61,
-      "gap_pct": 5.1,
-      "catalyst": "Warren Buffett's Successor, Greg Abel, Dumped Amazon Earlier This Year and Has Begun Piling Into a Hot Tech IPO.",
+      "price": 252.97,
+      "gap_pct": 5.25,
+      "catalyst": "Amazon Grocery Offers Complete Thanksgiving Meal For $25.",
       "prev_close": 240.35,
       "premarket_volume": 927817,
       "session": "regular",
-      "catalyst_source": "The Motley Fool",
-      "catalyst_headline": "Warren Buffett's Successor, Greg Abel, Dumped Amazon Earlier This Year and Has Begun Piling Into a Hot Tech IPO",
-      "catalyst_url": "https://www.nasdaq.com/articles/warren-buffetts-successor-greg-abel-dumped-amazon-earlier-year-and-has-begun-piling-hot"
+      "catalyst_source": "RTTNews",
+      "catalyst_headline": "Amazon Grocery Offers Complete Thanksgiving Meal For $25 ",
+      "catalyst_url": "https://www.nasdaq.com/articles/amazon-grocery-offers-complete-thanksgiving-meal-25"
     }
   ]
 }
