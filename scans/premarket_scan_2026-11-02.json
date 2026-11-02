@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-02",
-  "generated_at_et": "2026-11-02 11:06:41 EST",
-  "scan_time_et": "11:06",
+  "generated_at_et": "2026-11-02 11:36:52 EST",
+  "scan_time_et": "11:36",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7093,
-    "prefilter": 796,
-    "with_data": 540,
-    "gap": 202,
-    "gap_price": 196,
+    "prefilter": 893,
+    "with_data": 603,
+    "gap": 215,
+    "gap_price": 210,
     "passed": 12,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "CLRO",
-      "price": 6.0,
-      "gap_pct": 75.95,
+      "price": 5.93,
+      "gap_pct": 73.9,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 3.41,
       "premarket_volume": 17844457,
@@ -33,21 +33,9 @@
       "catalyst_url": null
     },
     {
-      "ticker": "CAPR",
-      "price": 7.18,
-      "gap_pct": 12.54,
-      "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options.",
-      "prev_close": 6.38,
-      "premarket_volume": 142991,
-      "session": "regular",
-      "catalyst_source": "BNK Invest",
-      "catalyst_headline": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options",
-      "catalyst_url": "https://www.nasdaq.com/articles/commit-buy-capricor-therapeutics-3-earn-695-annualized-using-options"
-    },
-    {
       "ticker": "CCXI",
-      "price": 9.16,
-      "gap_pct": 12.39,
+      "price": 9.66,
+      "gap_pct": 18.53,
       "catalyst": "The First U.S.",
       "prev_close": 8.15,
       "premarket_volume": 73007,
@@ -69,21 +57,21 @@
       "catalyst_url": "https://www.nasdaq.com/articles/enphase-energy-inc-enters-tax-credit-transfer-agreement-sell-100000000-tax-credits"
     },
     {
-      "ticker": "BILI",
-      "price": 13.68,
-      "gap_pct": 7.89,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 12.68,
-      "premarket_volume": 478700,
+      "ticker": "CAPR",
+      "price": 7.1,
+      "gap_pct": 11.29,
+      "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options.",
+      "prev_close": 6.38,
+      "premarket_volume": 142991,
       "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
+      "catalyst_source": "BNK Invest",
+      "catalyst_headline": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options",
+      "catalyst_url": "https://www.nasdaq.com/articles/commit-buy-capricor-therapeutics-3-earn-695-annualized-using-options"
     },
     {
       "ticker": "COUR",
-      "price": 3.71,
-      "gap_pct": 6.92,
+      "price": 3.77,
+      "gap_pct": 8.5,
       "catalyst": "Coursera: 3 Key Takeaways for Long-Term Investors.",
       "prev_close": 3.47,
       "premarket_volume": 100343,
@@ -93,24 +81,12 @@
       "catalyst_url": "https://www.nasdaq.com/articles/coursera-3-key-takeaways-long-term-investors"
     },
     {
-      "ticker": "BLMN",
-      "price": 11.23,
-      "gap_pct": 6.24,
-      "catalyst": "Analysts Estimate Bloomin' Brands (BLMN) to Report a Decline in Earnings: What to Look Out for.",
-      "prev_close": 10.57,
-      "premarket_volume": 51759,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Analysts Estimate Bloomin' Brands (BLMN) to Report a Decline in Earnings: What to Look Out for",
-      "catalyst_url": "https://www.nasdaq.com/articles/analysts-estimate-bloomin-brands-blmn-report-decline-earnings-what-look-out"
-    },
-    {
-      "ticker": "AAL",
-      "price": 13.38,
-      "gap_pct": 6.15,
+      "ticker": "BILI",
+      "price": 13.72,
+      "gap_pct": 8.2,
       "catalyst": "No recent news catalyst found.",
-      "prev_close": 12.6,
-      "premarket_volume": 845007,
+      "prev_close": 12.68,
+      "premarket_volume": 478700,
       "session": "regular",
       "catalyst_source": null,
       "catalyst_headline": null,
@@ -118,8 +94,8 @@
     },
     {
       "ticker": "DJT",
-      "price": 5.91,
-      "gap_pct": 5.64,
+      "price": 5.97,
+      "gap_pct": 6.76,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.59,
       "premarket_volume": 127308,
@@ -129,21 +105,21 @@
       "catalyst_url": null
     },
     {
-      "ticker": "BABA",
-      "price": 103.44,
-      "gap_pct": 5.51,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 98.04,
-      "premarket_volume": 350266,
+      "ticker": "BLMN",
+      "price": 11.18,
+      "gap_pct": 5.72,
+      "catalyst": "Analysts Estimate Bloomin' Brands (BLMN) to Report a Decline in Earnings: What to Look Out for.",
+      "prev_close": 10.57,
+      "premarket_volume": 51759,
       "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Analysts Estimate Bloomin' Brands (BLMN) to Report a Decline in Earnings: What to Look Out for",
+      "catalyst_url": "https://www.nasdaq.com/articles/analysts-estimate-bloomin-brands-blmn-report-decline-earnings-what-look-out"
     },
     {
       "ticker": "EQX",
-      "price": 10.21,
-      "gap_pct": 5.26,
+      "price": 10.26,
+      "gap_pct": 5.72,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 9.7,
       "premarket_volume": 353956,
@@ -153,16 +129,40 @@
       "catalyst_url": null
     },
     {
-      "ticker": "AMZN",
-      "price": 252.97,
-      "gap_pct": 5.25,
-      "catalyst": "Amazon Grocery Offers Complete Thanksgiving Meal For $25.",
-      "prev_close": 240.35,
-      "premarket_volume": 927817,
+      "ticker": "AAL",
+      "price": 13.31,
+      "gap_pct": 5.63,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 12.6,
+      "premarket_volume": 845007,
       "session": "regular",
-      "catalyst_source": "RTTNews",
-      "catalyst_headline": "Amazon Grocery Offers Complete Thanksgiving Meal For $25 ",
-      "catalyst_url": "https://www.nasdaq.com/articles/amazon-grocery-offers-complete-thanksgiving-meal-25"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "BABA",
+      "price": 103.33,
+      "gap_pct": 5.4,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 98.04,
+      "premarket_volume": 350266,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CCL",
+      "price": 30.34,
+      "gap_pct": 5.25,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 28.83,
+      "premarket_volume": 296683,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     }
   ]
 }
