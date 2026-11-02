@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-02",
-  "generated_at_et": "2026-11-02 09:35:01 EST",
+  "generated_at_et": "2026-11-02 10:06:46 EST",
   "source_premarket_file": "premarket_scan_2026-11-02.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,54 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 11,
+  "candidates": 21,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "ALM",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.7989,
+      "yesterday_high": 8.96,
+      "yesterday_close": 8.7,
+      "sma200": 15.828,
+      "premarket_high": 8.99,
+      "last_price": 9.225,
+      "last_bar_et": "10:06",
+      "high_of_day": 9.235,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.06,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BABA",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.5701,
+      "yesterday_high": 99.23,
+      "yesterday_close": 98.04,
+      "sma200": 126.2374,
+      "premarket_high": 101.9,
+      "last_price": 103.78,
+      "last_bar_et": "10:06",
+      "high_of_day": 103.83,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.7,
+      "catalyst": "No recent news catalyst found."
+    },
     {
       "ticker": "BILI",
       "status": "FAIL",
@@ -23,9 +67,9 @@
       "yesterday_close": 12.68,
       "sma200": 20.7256,
       "premarket_high": 13.33,
-      "last_price": 13.42,
-      "last_bar_et": "09:34",
-      "high_of_day": 13.455,
+      "last_price": 13.675,
+      "last_bar_et": "10:06",
+      "high_of_day": 13.71,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -33,8 +77,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.76,
+      "gap_pct": 7.82,
       "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "BLMN",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.6543,
+      "yesterday_high": 10.96,
+      "yesterday_close": 10.57,
+      "sma200": 7.8802,
+      "premarket_high": 10.75,
+      "last_price": 11.08,
+      "last_bar_et": "10:06",
+      "high_of_day": 11.28,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 5.58,
+      "catalyst": "Analysts Estimate Bloomin' Brands (BLMN) to Report a Decline in Earnings: What to Look Out for."
     },
     {
       "ticker": "CAPR",
@@ -45,18 +111,49 @@
       "yesterday_close": 6.38,
       "sma200": 20.6749,
       "premarket_high": 6.97,
-      "last_price": 6.75,
-      "last_bar_et": "09:34",
-      "high_of_day": 6.93,
+      "last_price": 7.03,
+      "last_bar_et": "10:06",
+      "high_of_day": 7.265,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.11,
+      "gap_pct": 12.54,
       "catalyst": "Commit To Buy Capricor Therapeutics At $3, Earn 69.5% Annualized Using Options."
+    },
+    {
+      "ticker": "CCXI",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 184 trading days of history (< 200 needed for SMA200)",
+      "history_days": 184,
+      "gap_pct": 9.08,
+      "catalyst": "The First U.S."
+    },
+    {
+      "ticker": "CDE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.8257,
+      "yesterday_high": 13.34,
+      "yesterday_close": 13.1,
+      "sma200": 18.9118,
+      "premarket_high": 13.47,
+      "last_price": 13.81,
+      "last_bar_et": "10:06",
+      "high_of_day": 13.825,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.11,
+      "catalyst": "CDE Stock Crowded With Sellers."
     },
     {
       "ticker": "CLRO",
@@ -67,9 +164,75 @@
       "yesterday_close": 3.41,
       "sma200": 4.6702,
       "premarket_high": 6.62,
-      "last_price": 7.0496,
-      "last_bar_et": "09:34",
+      "last_price": 6.13,
+      "last_bar_et": "10:06",
       "high_of_day": 7.4,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 81.52,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "COUR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2859,
+      "yesterday_high": 4.335,
+      "yesterday_close": 3.47,
+      "sma200": 5.6872,
+      "premarket_high": 3.56,
+      "last_price": 3.655,
+      "last_bar_et": "10:06",
+      "high_of_day": 3.72,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.04,
+      "catalyst": "Coursera: 3 Key Takeaways for Long-Term Investors."
+    },
+    {
+      "ticker": "ENPH",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.0279,
+      "yesterday_high": 25.69,
+      "yesterday_close": 25.65,
+      "sma200": 40.9289,
+      "premarket_high": 26.0999,
+      "last_price": 28.2033,
+      "last_bar_et": "10:06",
+      "high_of_day": 28.2033,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.01,
+      "catalyst": "Enphase Energy, Inc."
+    },
+    {
+      "ticker": "EQX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5218,
+      "yesterday_high": 9.85,
+      "yesterday_close": 9.7,
+      "sma200": 12.7645,
+      "premarket_high": 9.96,
+      "last_price": 10.31,
+      "last_bar_et": "10:06",
+      "high_of_day": 10.33,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -77,7 +240,73 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 108.21,
+      "gap_pct": 6.18,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "GFI",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.3886,
+      "yesterday_high": 33.55,
+      "yesterday_close": 32.92,
+      "sma200": 42.6675,
+      "premarket_high": 34.13,
+      "last_price": 35.15,
+      "last_bar_et": "10:06",
+      "high_of_day": 35.2151,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.49,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "HMY",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.6171,
+      "yesterday_high": 14.95,
+      "yesterday_close": 14.45,
+      "sma200": 17.8977,
+      "premarket_high": 14.99,
+      "last_price": 15.39,
+      "last_bar_et": "10:06",
+      "high_of_day": 15.405,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.16,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "HYMC",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.1731,
+      "yesterday_high": 16.71,
+      "yesterday_close": 16.42,
+      "sma200": 30.0488,
+      "premarket_high": 16.83,
+      "last_price": 17.27,
+      "last_bar_et": "10:06",
+      "high_of_day": 17.56,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.09,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -89,9 +318,9 @@
       "yesterday_close": 551.21,
       "sma200": 572.623,
       "premarket_high": 594.0,
-      "last_price": 642.95,
-      "last_bar_et": "09:34",
-      "high_of_day": 647.285,
+      "last_price": 644.26,
+      "last_bar_et": "10:06",
+      "high_of_day": 662.98,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -99,30 +328,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.53,
+      "gap_pct": 17.51,
       "catalyst": "IDEXX Laboratories Q3 26 Earnings Conference Call At 8:30 AM ET."
     },
     {
-      "ticker": "NANO",
+      "ticker": "JBLU",
       "status": "FAIL",
       "signal": false,
-      "atr14": 1.8017,
-      "yesterday_high": 4.23,
-      "yesterday_close": 4.12,
-      "sma200": 10.4564,
-      "premarket_high": 5.0985,
-      "last_price": 4.35,
-      "last_bar_et": "09:32",
-      "high_of_day": 4.35,
+      "atr14": 0.3043,
+      "yesterday_high": 3.03,
+      "yesterday_close": 2.85,
+      "sma200": 4.9202,
+      "premarket_high": 2.95,
+      "last_price": 3.195,
+      "last_bar_et": "10:06",
+      "high_of_day": 3.225,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": true
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.83,
-      "catalyst": "No recent news catalyst found."
+      "gap_pct": 9.83,
+      "catalyst": "JetBlue: 3 Key Takeaways for Long-Term Investors."
     },
     {
       "ticker": "NVA",
@@ -133,17 +362,17 @@
       "yesterday_close": 3.81,
       "sma200": 6.0015,
       "premarket_high": 4.34,
-      "last_price": 4.28,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.3,
+      "last_price": 4.5593,
+      "last_bar_et": "10:06",
+      "high_of_day": 4.5757,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.71,
+      "gap_pct": 17.32,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -155,8 +384,8 @@
       "yesterday_close": 8.7,
       "sma200": 9.2465,
       "premarket_high": 11.43,
-      "last_price": 11.38,
-      "last_bar_et": "09:34",
+      "last_price": 11.3999,
+      "last_bar_et": "10:06",
       "high_of_day": 11.42,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -165,8 +394,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 31.15,
+      "gap_pct": 31.03,
       "catalyst": "Affle To Acquire Perion Network In $420 Mln All-Cash Deal."
+    },
+    {
+      "ticker": "PLAY",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5558,
+      "yesterday_high": 8.3,
+      "yesterday_close": 7.83,
+      "sma200": 11.5781,
+      "premarket_high": 7.9,
+      "last_price": 8.445,
+      "last_bar_et": "10:06",
+      "high_of_day": 8.62,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.05,
+      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "PMN",
@@ -177,75 +428,31 @@
       "yesterday_close": 3.31,
       "sma200": 12.8932,
       "premarket_high": 3.8412,
-      "last_price": 4.15,
-      "last_bar_et": "09:31",
-      "high_of_day": 4.15,
+      "last_price": 4.0499,
+      "last_bar_et": "10:05",
+      "high_of_day": 4.5,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 25.38,
+      "gap_pct": 19.49,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "QURE",
+      "ticker": "QXO",
       "status": "FAIL",
       "signal": false,
-      "atr14": 1.3554,
-      "yesterday_high": 25.21,
-      "yesterday_close": 24.83,
-      "sma200": 29.653,
-      "premarket_high": 33.94,
-      "last_price": 24.66,
-      "last_bar_et": "09:34",
-      "high_of_day": 26.6,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.56,
-      "catalyst": "UniQure's Ifezuntirgene Inilparvovec BLA Gets FDA Priority Review Acceptance."
-    },
-    {
-      "ticker": "TATT",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.3886,
-      "yesterday_high": 33.3,
-      "yesterday_close": 31.8,
-      "sma200": 42.3024,
-      "premarket_high": 34.35,
-      "last_price": 36.97,
-      "last_bar_et": "09:34",
-      "high_of_day": 36.97,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.53,
-      "catalyst": "TAT Technologies Ltd."
-    },
-    {
-      "ticker": "XPEV",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3468,
-      "yesterday_high": 9.11,
-      "yesterday_close": 9.04,
-      "sma200": 14.4737,
-      "premarket_high": 9.54,
-      "last_price": 9.6317,
-      "last_bar_et": "09:34",
-      "high_of_day": 9.705,
+      "atr14": 0.6479,
+      "yesterday_high": 11.34,
+      "yesterday_close": 11.04,
+      "sma200": 17.2821,
+      "premarket_high": 11.29,
+      "last_price": 11.705,
+      "last_bar_et": "10:06",
+      "high_of_day": 11.84,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -253,9 +460,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.92,
-      "catalyst": "XPeng October Vehicle Deliveries Rise 20% As Overseas Sales Surge And Robotaxi Ambitions Advance."
+      "gap_pct": 6.84,
+      "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:06"
 }
