@@ -1,200 +1,69 @@
 {
-  "ticker": "AEHR",
-  "saved_at_et": "2026-11-03T11:35:16-05:00",
+  "ticker": "BRAI",
+  "saved_at_et": "2026-11-03T12:05:32-05:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "4 hours ago",
-          "created": "Nov 3, 2026",
-          "description": "Key PointsAehr Test Systems raised its fiscal 2027 revenue guidance to $150 million.",
-          "id": 28716011,
+          "ago": "Jul 14, 2026",
+          "created": "Jul 14, 2026",
+          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
+          "id": 27928676,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aehr",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "xom|stocks",
+            "nvda|stocks",
+            "mgm|stocks",
+            "brai|stocks"
+          ],
+          "title": "Company News for July 14, 2026",
+          "url": "/articles/company-news-july-14-2026"
+        },
+        {
+          "ago": "Jun 28, 2026",
+          "created": "Jun 28, 2026",
+          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
+          "id": 27843721,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "brai",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "aehr|stocks"
+            "brai|stocks"
           ],
-          "title": "Aehr Test Systems: 3 Key Takeaways for Long-Term Investors",
-          "url": "/articles/aehr-test-systems-3-key-takeaways-long-term-investors"
+          "title": "Why Braiin Stock Plummeted This Week",
+          "url": "/articles/why-braiin-stock-plummeted-week"
         },
         {
-          "ago": "6 hours ago",
-          "created": "Nov 3, 2026",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "id": 28714131,
+          "ago": "May 26, 2026",
+          "created": "May 26, 2026",
+          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
+          "id": 27654061,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aehr",
+          "primarysymbol": "brai",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "aehr|stocks"
+            "brai|stocks"
           ],
-          "title": "Aehr Test Systems (AEHR) Q1 2027 Earnings Call Transcript",
-          "url": "/articles/aehr-test-systems-aehr-q1-2027-earnings-call-transcript"
-        },
-        {
-          "ago": "18 hours ago",
-          "created": "Nov 2, 2026",
-          "description": "Key PointsFlat operating costs let a big jump in sales flow straight to profit.",
-          "id": 28710911,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aehr",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "aehr|stocks"
-          ],
-          "title": "Aehr Revenue Triples as AI Orders Pile Up: Rapid Earnings Reaction",
-          "url": "/articles/aehr-revenue-triples-ai-orders-pile-rapid-earnings-reaction"
-        },
-        {
-          "ago": "5 days ago",
-          "created": "Oct 29, 2026",
-          "description": "On October 24, 2026, the Board of Directors of Aehr Test Systems, Inc. approved an increase in the authorized number of directors from six to seven and appointed Narsing Vijayrao to serve as a member of the Board, effective October 28, 2026. Mr. Vijayrao has been appointed to ser",
-          "id": 28686046,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "aehr",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "aehr|stocks"
-          ],
-          "title": "Aehr Test Systems Appoints Narsing Vijayrao to Board Effective October 28, 2026",
-          "url": "/articles/aehr-test-systems-appoints-narsing-vijayrao-board-effective-october-28-2026"
-        },
-        {
-          "ago": "5 days ago",
-          "created": "Oct 29, 2026",
-          "description": "Aehr Test Systems heads into Q1 fiscal 2027 with a record backlog as AI processors, silicon photonics and data center demand drive testing needs.",
-          "id": 28677811,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "aehr|stocks",
-            "mchp|stocks",
-            "ame|stocks",
-            "shop|stocks"
-          ],
-          "title": "AEHR Gears Up to Report Q1 Earnings: What's in Store for the Stock?",
-          "url": "/articles/aehr-gears-report-q1-earnings-whats-store-stock"
-        },
-        {
-          "ago": "Oct 26, 2026",
-          "created": "Oct 26, 2026",
-          "description": "TRT's AI- and EV-driven testing demand, new burn-in contracts and expanded Malaysia capacity support growth, while an unfavorable revenue mix and higher costs pressure margins.",
-          "id": 28632846,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Technology|4001",
-          "primarytopic_url": "/topic/technology",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "trt|stocks",
-            "intt|stocks",
-            "aehr|stocks"
-          ],
-          "title": "Trio-Tech Plunges More Than 64% in 6 Months: How to Play the Stock?",
-          "url": "/articles/trio-tech-plunges-more-64-6-months-how-play-stock"
-        },
-        {
-          "ago": "Oct 13, 2026",
-          "created": "Oct 13, 2026",
-          "description": "Investors need to pay close attention to AEHR stock based on the movements in the options market lately.",
-          "id": 28534901,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "aehr|stocks"
-          ],
-          "title": "Implied Volatility Surging for Aehr Stock Options",
-          "url": "/articles/implied-volatility-surging-aehr-stock-options"
-        },
-        {
-          "ago": "Sep 30, 2026",
-          "created": "Sep 30, 2026",
-          "description": "Aehr's AI-driven burn-in demand, record backlog and sharp fiscal 2027 growth outlook strengthen its case over Camtek despite a richer valuation.",
-          "id": 28459711,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "camt|stocks",
-            "aehr|stocks"
-          ],
-          "title": "AEHR vs. CAMT: Which Semiconductor Equipment Stock Is the Better Bet?",
-          "url": "/articles/aehr-vs-camt-which-semiconductor-equipment-stock-better-bet"
-        },
-        {
-          "ago": "Sep 28, 2026",
-          "created": "Sep 28, 2026",
-          "description": "Aehr Test Systems (AEHR) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
-          "id": 28440822,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Technology|4001",
-          "primarytopic_url": "/topic/technology",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "aehr|stocks"
-          ],
-          "title": "Aehr Test Systems (AEHR) Earnings Expected to Grow: Should You Buy?",
-          "url": "/articles/aehr-test-systems-aehr-earnings-expected-grow-should-you-buy"
-        },
-        {
-          "ago": "Sep 21, 2026",
-          "created": "Sep 21, 2026",
-          "description": "Aehr Test Systems' 363% 2026 surge and 18.59X sales multiple reflect AI optimism, but customer concentration and execution risks leave little room for error.",
-          "id": 28402806,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "aehr|stocks",
-            "cohu|stocks",
-            "ter|stocks"
-          ],
-          "title": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
-          "url": "/articles/aehr-1859x-sales-market-loves-its-ai-story-love-blind"
+          "title": "Braiin Limited Stock Surges 106% Over Partnership With Switchcraft ",
+          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft"
         }
       ],
-      "totalrecords": 188
+      "totalrecords": 3
     },
     "message": null,
     "status": {
