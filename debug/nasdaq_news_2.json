@@ -1,69 +1,206 @@
 {
-  "ticker": "BRAI",
-  "saved_at_et": "2026-11-03T11:05:17-05:00",
+  "ticker": "DFDV",
+  "saved_at_et": "2026-11-03T11:35:19-05:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "Jul 14, 2026",
-          "created": "Jul 14, 2026",
-          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
-          "id": 27928676,
-          "image": "",
+          "title": "DeFi Development Says SOL Holdings, NAV Per Share Accelerated as CHAD Takes Center Stage",
+          "image": "/marketbeat/janover-inc-logo-1200x675.png",
+          "created": "Oct 7, 2026",
+          "ago": "Oct 7, 2026",
+          "primarysymbol": "dfdv",
+          "primarytopic": "Investor Relations|4096",
+          "publisher": "MarketBeat",
+          "related_symbols": [
+            "dfdv|stocks"
+          ],
+          "url": "/articles/defi-development-says-sol-holdings-nav-share-accelerated-chad-takes-center-stage",
+          "id": 28508821,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
+          "description": "Solana Beat BTC and ETH in Q3: These 3 Stocks Saw It ComingDeFi Development (NASDAQ:DFDV) said its core strategy remained unchanged through August and September, while rising Solana prices and increased financing activity helped accelerate growth in its SOL holdings and net asset",
+          "primarytopic_url": "/topic/investor-relations",
+          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png"
+        },
+        {
+          "title": "DeFi Development Consensus Price Target Increased 48.72% to $8.87",
+          "image": "",
+          "created": "Sep 15, 2026",
+          "ago": "Sep 15, 2026",
+          "primarysymbol": "dfdv",
           "primarytopic": "Stocks|4301",
+          "publisher": "Fintel",
+          "related_symbols": [
+            "dfdv|stocks"
+          ],
+          "url": "/articles/defi-development-consensus-price-target-increased-4872-887",
+          "id": 28370561,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "The average one-year price target for DeFi Development (NASDAQCM:DFDV) has been revised to $8.87 / share, representing an increase of 48.72% from the prior estimate of $5.97 dated August 25, 2026. These figures represent aggregate analyst targets compiled by Fintel and do not con",
           "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "xom|stocks",
-            "nvda|stocks",
-            "mgm|stocks",
-            "brai|stocks"
-          ],
-          "title": "Company News for July 14, 2026",
-          "url": "/articles/company-news-july-14-2026"
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
         },
         {
-          "ago": "Jun 28, 2026",
-          "created": "Jun 28, 2026",
-          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
-          "id": 27843721,
-          "image": "",
+          "title": "DeFi Development Q2 Earnings Call Highlights",
+          "image": "/marketbeat/janover-inc-logo-1200x675.png",
+          "created": "Aug 17, 2026",
+          "ago": "Aug 17, 2026",
+          "primarysymbol": "dfdv",
+          "primarytopic": "Stocks|4301",
+          "publisher": "MarketBeat",
+          "related_symbols": [
+            "dfdv|stocks"
+          ],
+          "url": "/articles/defi-development-q2-earnings-call-highlights",
+          "id": 28209091,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brai",
+          "description": "Solana Beat BTC and ETH in Q3: These 3 Stocks Saw It ComingDeFi Development (NASDAQ:DFDV) used its second-quarter 2026 earnings update call to emphasize its strategy of building long-term Solana per-share exposure through validator operations, on-chain deployment and leverage, wh",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png"
+        },
+        {
+          "title": "DeFi Development Doubles Down on Solana Strategy as Crypto Volatility Spurs Cost Cuts",
+          "image": "/marketbeat/janover-inc-logo-1200x675.png",
+          "created": "Jul 10, 2026",
+          "ago": "Jul 10, 2026",
+          "primarysymbol": "dfdv",
+          "primarytopic": "Bitcoin|4411",
+          "publisher": "MarketBeat",
+          "related_symbols": [
+            "dfdv|stocks"
+          ],
+          "url": "/articles/defi-development-doubles-down-solana-strategy-crypto-volatility-spurs-cost-cuts",
+          "id": 27918816,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Solana Beat BTC and ETH in Q3: These 3 Stocks Saw It ComingDeFi Development (NASDAQ:DFDV) executives said the company is prioritizing cost reductions, focusing on its core Solana treasury strategy and taking a cautious approach to new capital markets products after a volatile mon",
+          "primarytopic_url": "/topic/bitcoin",
+          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png"
+        },
+        {
+          "title": "DeFi Development Pitches ‘Speedboat’ Solana Strategy as Treasury Holdings Surge",
+          "image": "/marketbeat/janover-inc-logo-1200x675.png",
+          "created": "May 16, 2026",
+          "ago": "May 16, 2026",
+          "primarysymbol": "dfdv",
+          "primarytopic": "Bitcoin|4411",
+          "publisher": "MarketBeat",
+          "related_symbols": [
+            "dfdv|stocks"
+          ],
+          "url": "/articles/defi-development-pitches-speedboat-solana-strategy-treasury-holdings-surge",
+          "id": 27602041,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Solana Beat BTC and ETH in Q3: These 3 Stocks Saw It ComingDeFi Development (NASDAQ:DFDV) Chief Strategy Officer Dan Kang said the company is positioning itself as an amplified way for investors to gain exposure to Solana, arguing that digital asset treasury companies can outperf",
+          "primarytopic_url": "/topic/bitcoin",
+          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png"
+        },
+        {
+          "title": "DeFi Development Q1 Earnings Call Highlights",
+          "image": "/marketbeat/janover-inc-logo-1200x675.png",
+          "created": "May 14, 2026",
+          "ago": "May 14, 2026",
+          "primarysymbol": "dfdv",
+          "primarytopic": "Stocks|4301",
+          "publisher": "MarketBeat",
+          "related_symbols": [
+            "dfdv|stocks"
+          ],
+          "url": "/articles/defi-development-q1-earnings-call-highlights",
+          "id": 27596776,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Solana Beat BTC and ETH in Q3: These 3 Stocks Saw It ComingExecutives at DeFi Development (NASDAQ:DFDV) used the company’s Q1 2026 earnings call to reaffirm that its central strategy remains building leveraged exposure to Solana, while also outlining how partnerships, capital all",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png"
+        },
+        {
+          "title": "A Fresh $16 Million Bet on ImmunityBio: What Investors Should Know",
+          "image": "",
+          "created": "Nov 19, 2025",
+          "ago": "Nov 19, 2025",
+          "primarysymbol": "ibrx",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "brai|stocks"
+            "ibrx|stocks",
+            "flut|stocks",
+            "nne|stocks",
+            "dfdv|stocks"
           ],
-          "title": "Why Braiin Stock Plummeted This Week",
-          "url": "/articles/why-braiin-stock-plummeted-week"
+          "url": "/articles/fresh-16-million-bet-immunitybio-what-investors-should-know",
+          "id": 26324176,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Key PointsBought 6,565,709 shares of ImmunityBio, an increase of $16.15 million in position value",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
         },
         {
-          "ago": "May 26, 2026",
-          "created": "May 26, 2026",
-          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
-          "id": 27654061,
+          "title": "Heights Capital Walks From Archer Aviation: What It Means for Investors",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brai",
+          "created": "Nov 19, 2025",
+          "ago": "Nov 19, 2025",
+          "primarysymbol": "achr",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "publisher": "The Motley Fool",
           "related_symbols": [
-            "brai|stocks"
+            "achr|stocks",
+            "flut|stocks",
+            "ibrx|stocks",
+            "nne|stocks",
+            "dfdv|stocks"
           ],
-          "title": "Braiin Limited Stock Surges 106% Over Partnership With Switchcraft ",
-          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft"
+          "url": "/articles/heights-capital-walks-archer-aviation-what-it-means-investors",
+          "id": 26324021,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Key PointsSold 2,312,285 shares of Archer Aviation, a net change of approximately $25.09 million",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "Heights Capital Just Ditched Its $12.5 Million AMSC Stake. Here’s What That Might Mean.",
+          "image": "",
+          "created": "Nov 19, 2025",
+          "ago": "Nov 19, 2025",
+          "primarysymbol": "amsc",
+          "primarytopic": "Markets|4006",
+          "publisher": "The Motley Fool",
+          "related_symbols": [
+            "amsc|stocks",
+            "flut|stocks",
+            "ibrx|stocks",
+            "nne|stocks",
+            "dfdv|stocks"
+          ],
+          "url": "/articles/heights-capital-just-ditched-its-125-million-amsc-stake-heres-what-might-mean",
+          "id": 26324016,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Key PointsExited 340,102 shares in American Superconductor, reducing position value by $12.48 million",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+        },
+        {
+          "title": "Solana Beat BTC and ETH in Q3: These 3 Stocks Saw It Coming",
+          "image": "/marketbeat/med_20250923142318_solana-beat-btc-and-eth-in-q3-these-3-stocks-saw-i.jpg",
+          "created": "Sep 24, 2025",
+          "ago": "Sep 24, 2025",
+          "primarysymbol": "ford",
+          "primarytopic": "Markets|4006",
+          "publisher": "MarketBeat",
+          "related_symbols": [
+            "fwdi|stocks",
+            "dfdv|stocks",
+            "mstr|stocks",
+            "upxi|stocks"
+          ],
+          "url": "/articles/solana-beat-btc-and-eth-q3-these-3-stocks-saw-it-coming",
+          "id": 25808481,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "The cryptocurrency rally has taken a backseat to new all-time highs in the major U.S. market indices, but that doesn’t mean enthusiasm for digital assets has faded. In fact, Wall Street has gone beyond its embrace of Bitcoin by welcoming other tokens into the fold, like Ethereum",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2024/08/01/MarketBeat-TrueBlue-Logo.png"
         }
       ],
-      "totalrecords": 3
+      "totalrecords": 43,
+      "message": null
     },
     "message": null,
     "status": {
