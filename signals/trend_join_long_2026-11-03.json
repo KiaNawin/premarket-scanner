@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-03",
-  "generated_at_et": "2026-11-03 12:37:24 EST",
+  "generated_at_et": "2026-11-03 13:08:07 EST",
   "source_premarket_file": "premarket_scan_2026-11-03.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -23,8 +23,8 @@
       "yesterday_close": 51.47,
       "sma200": 74.5305,
       "premarket_high": 62.33,
-      "last_price": 64.12,
-      "last_bar_et": "12:37",
+      "last_price": 64.94,
+      "last_bar_et": "13:08",
       "high_of_day": 65.85,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -33,30 +33,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 25.63,
+      "gap_pct": 24.57,
       "catalyst": "Aehr Test Systems: 3 Key Takeaways for Long-Term Investors."
-    },
-    {
-      "ticker": "AMD",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 32.9907,
-      "yesterday_high": 512.82,
-      "yesterday_close": 466.84,
-      "sma200": 411.6833,
-      "premarket_high": 489.2,
-      "last_price": 490.98,
-      "last_bar_et": "12:36",
-      "high_of_day": 497.4,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 5.48,
-      "catalyst": "Advanced Micro Devices Q3 26 Earnings Conference Call At 5:00 PM ET."
     },
     {
       "ticker": "APLD",
@@ -67,9 +45,9 @@
       "yesterday_close": 16.22,
       "sma200": 31.2364,
       "premarket_high": 16.93,
-      "last_price": 17.66,
-      "last_bar_et": "12:37",
-      "high_of_day": 17.861,
+      "last_price": 17.89,
+      "last_bar_et": "13:08",
+      "high_of_day": 17.895,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -77,7 +55,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.19,
+      "gap_pct": 9.53,
       "catalyst": "Applied Digital vs."
     },
     {
@@ -89,9 +67,9 @@
       "yesterday_close": 228.85,
       "sma200": 413.9251,
       "premarket_high": 232.7985,
-      "last_price": 243.47,
-      "last_bar_et": "12:37",
-      "high_of_day": 244.23,
+      "last_price": 244.68,
+      "last_bar_et": "13:07",
+      "high_of_day": 244.89,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -99,30 +77,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.24,
+      "gap_pct": 6.86,
       "catalyst": "AppLovin Is the Worst-Performing Stock in the S&P 500 This Year."
-    },
-    {
-      "ticker": "ASTS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 3.6699,
-      "yesterday_high": 41.2,
-      "yesterday_close": 36.33,
-      "sma200": 77.1727,
-      "premarket_high": 37.6033,
-      "last_price": 38.18,
-      "last_bar_et": "12:37",
-      "high_of_day": 38.68,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.24,
-      "catalyst": "Why Shares of AST SpaceMobile Slipped 27% Last Month."
     },
     {
       "ticker": "AXTI",
@@ -133,8 +89,8 @@
       "yesterday_close": 48.2,
       "sma200": 64.975,
       "premarket_high": 50.49,
-      "last_price": 51.6,
-      "last_bar_et": "12:37",
+      "last_price": 52.335,
+      "last_bar_et": "13:08",
       "high_of_day": 54.13,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -143,7 +99,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.53,
+      "gap_pct": 7.62,
       "catalyst": "AXT Consensus Price Target Increased by 10.87% to $93.64."
     },
     {
@@ -155,8 +111,8 @@
       "yesterday_close": 196.25,
       "sma200": 221.6224,
       "premarket_high": 211.39,
-      "last_price": 214.555,
-      "last_bar_et": "12:37",
+      "last_price": 215.13,
+      "last_bar_et": "13:08",
       "high_of_day": 220.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -165,8 +121,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.72,
-      "catalyst": "If I Could Only Buy 1 AI Power Stock for the Next Decade, It Wouldn't Be Bloom Energy or GE Vernova."
+      "gap_pct": 9.28,
+      "catalyst": "Why Did Bloom Energy Stock Jump 10% Today?"
     },
     {
       "ticker": "BLZE",
@@ -177,8 +133,8 @@
       "yesterday_close": 7.4,
       "sma200": 9.2081,
       "premarket_high": 10.33,
-      "last_price": 7.99,
-      "last_bar_et": "12:37",
+      "last_price": 7.925,
+      "last_bar_et": "13:07",
       "high_of_day": 9.6731,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -187,7 +143,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.51,
+      "gap_pct": 7.5,
       "catalyst": "Backblaze (BLZE) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -199,8 +155,8 @@
       "yesterday_close": 19.54,
       "sma200": 20.8829,
       "premarket_high": 20.28,
-      "last_price": 20.51,
-      "last_bar_et": "12:37",
+      "last_price": 20.64,
+      "last_bar_et": "13:08",
       "high_of_day": 20.765,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -209,7 +165,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.09,
+      "gap_pct": 5.04,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -221,8 +177,8 @@
       "yesterday_close": 4.69,
       "sma200": 3.6309,
       "premarket_high": 4.99,
-      "last_price": 4.95,
-      "last_bar_et": "12:36",
+      "last_price": 4.965,
+      "last_bar_et": "13:07",
       "high_of_day": 5.02,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -231,7 +187,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.97,
+      "gap_pct": 5.54,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -240,7 +196,7 @@
       "signal": false,
       "reason": "Only 182 trading days of history (< 200 needed for SMA200)",
       "history_days": 182,
-      "gap_pct": 29.16,
+      "gap_pct": 29.2,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -252,17 +208,17 @@
       "yesterday_close": 6.17,
       "sma200": 11.6541,
       "premarket_high": 6.48,
-      "last_price": 6.815,
-      "last_bar_et": "12:37",
-      "high_of_day": 6.915,
+      "last_price": 6.9405,
+      "last_bar_et": "13:07",
+      "high_of_day": 6.9405,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": false
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.78,
+      "gap_pct": 11.26,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -271,7 +227,7 @@
       "signal": false,
       "reason": "Only 185 trading days of history (< 200 needed for SMA200)",
       "history_days": 185,
-      "gap_pct": 13.4,
+      "gap_pct": 12.92,
       "catalyst": "The First U.S."
     },
     {
@@ -283,9 +239,9 @@
       "yesterday_close": 6.86,
       "sma200": 17.694,
       "premarket_high": 7.35,
-      "last_price": 7.765,
-      "last_bar_et": "12:37",
-      "high_of_day": 7.79,
+      "last_price": 8.05,
+      "last_bar_et": "13:08",
+      "high_of_day": 8.06,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -293,7 +249,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.05,
+      "gap_pct": 16.18,
       "catalyst": "Cipher Digital (CIFR) Q3 2026 Earnings Call Transcript."
     },
     {
@@ -305,9 +261,9 @@
       "yesterday_close": 7.15,
       "sma200": 12.3165,
       "premarket_high": 7.4214,
-      "last_price": 7.945,
-      "last_bar_et": "12:37",
-      "high_of_day": 8.0282,
+      "last_price": 8.11,
+      "last_bar_et": "13:08",
+      "high_of_day": 8.11,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -315,7 +271,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.61,
+      "gap_pct": 12.24,
       "catalyst": "CleanSpark (CLSK) Registers a Bigger Fall Than the Market: Important Facts to Note."
     },
     {
@@ -327,8 +283,8 @@
       "yesterday_close": 8.41,
       "sma200": 10.4058,
       "premarket_high": 9.65,
-      "last_price": 8.95,
-      "last_bar_et": "12:37",
+      "last_price": 8.885,
+      "last_bar_et": "13:08",
       "high_of_day": 9.49,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -337,7 +293,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.31,
+      "gap_pct": 5.23,
       "catalyst": "1 Reason Compass Pathways Is Worth a Second Look This Month."
     },
     {
@@ -349,8 +305,8 @@
       "yesterday_close": 137.83,
       "sma200": 177.7397,
       "premarket_high": 141.12,
-      "last_price": 148.7,
-      "last_bar_et": "12:37",
+      "last_price": 147.6,
+      "last_bar_et": "13:08",
       "high_of_day": 150.51,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -359,7 +315,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.86,
+      "gap_pct": 6.78,
       "catalyst": "With Midterms Looming, the Crypto Industry Is Mobilizing to Maintain a Pro-Crypto Regulatory Environment."
     },
     {
@@ -371,17 +327,17 @@
       "yesterday_close": 12.505,
       "sma200": 19.626,
       "premarket_high": 12.9996,
-      "last_price": 13.47,
-      "last_bar_et": "12:37",
-      "high_of_day": 13.5459,
+      "last_price": 13.7848,
+      "last_bar_et": "13:08",
+      "high_of_day": 13.7848,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": false
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.96,
+      "gap_pct": 9.16,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -393,9 +349,9 @@
       "yesterday_close": 72.08,
       "sma200": 86.0404,
       "premarket_high": 73.5628,
-      "last_price": 76.22,
-      "last_bar_et": "12:37",
-      "high_of_day": 76.56,
+      "last_price": 76.59,
+      "last_bar_et": "13:08",
+      "high_of_day": 76.6,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -403,7 +359,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.01,
+      "gap_pct": 5.57,
       "catalyst": "Standard Chartered Predicts the Stablecoin Market Will Hit $2 Trillion by 2030."
     },
     {
@@ -415,8 +371,8 @@
       "yesterday_close": 140.02,
       "sma200": 181.0244,
       "premarket_high": 147.3,
-      "last_price": 149.6703,
-      "last_bar_et": "12:36",
+      "last_price": 151.035,
+      "last_bar_et": "13:08",
       "high_of_day": 151.44,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -425,8 +381,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.13,
+      "gap_pct": 7.17,
       "catalyst": "Credo vs."
+    },
+    {
+      "ticker": "CRWV",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 6.9684,
+      "yesterday_high": 55.738,
+      "yesterday_close": 50.15,
+      "sma200": 91.125,
+      "premarket_high": 52.45,
+      "last_price": 53.0678,
+      "last_bar_et": "13:08",
+      "high_of_day": 53.925,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.13,
+      "catalyst": "CoreWeave's 15% Bond Yield Is a Warning for AI Debt."
     },
     {
       "ticker": "DFDV",
@@ -437,8 +415,8 @@
       "yesterday_close": 3.02,
       "sma200": 4.0639,
       "premarket_high": 3.28,
-      "last_price": 3.3628,
-      "last_bar_et": "12:35",
+      "last_price": 3.37,
+      "last_bar_et": "13:06",
       "high_of_day": 3.43,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -447,7 +425,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.25,
+      "gap_pct": 11.26,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -459,9 +437,9 @@
       "yesterday_close": 27.93,
       "sma200": 40.8917,
       "premarket_high": 28.45,
-      "last_price": 30.37,
-      "last_bar_et": "12:37",
-      "high_of_day": 30.45,
+      "last_price": 30.74,
+      "last_bar_et": "13:08",
+      "high_of_day": 30.8,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -469,7 +447,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.92,
+      "gap_pct": 9.54,
       "catalyst": "Why Did Enphase Energy Stock Bounce Back Today?"
     },
     {
@@ -481,8 +459,8 @@
       "yesterday_close": 10.5,
       "sma200": 14.9497,
       "premarket_high": 10.99,
-      "last_price": 11.15,
-      "last_bar_et": "12:37",
+      "last_price": 11.1819,
+      "last_bar_et": "13:07",
       "high_of_day": 11.48,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -491,7 +469,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.38,
+      "gap_pct": 6.19,
       "catalyst": "FCEL's Fuel Cells Offer Reliable Power for Utilities and IPPs."
     },
     {
@@ -503,8 +481,8 @@
       "yesterday_close": 51.93,
       "sma200": 54.6346,
       "premarket_high": 57.5,
-      "last_price": 57.71,
-      "last_bar_et": "12:37",
+      "last_price": 58.18,
+      "last_bar_et": "13:08",
       "high_of_day": 58.51,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -513,9 +491,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.05,
+      "gap_pct": 11.82,
       "catalyst": "Fiserv Reportedly Eliminates 3,000 Positions Since June."
+    },
+    {
+      "ticker": "FLNC",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4639,
+      "yesterday_high": 5.99,
+      "yesterday_close": 5.21,
+      "sma200": 15.3805,
+      "premarket_high": 5.439,
+      "last_price": 5.515,
+      "last_bar_et": "13:07",
+      "high_of_day": 5.61,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.28,
+      "catalyst": "Enlight Renewable Energy Ltd."
     }
   ],
-  "scan_time_et": "12:37"
+  "scan_time_et": "13:08"
 }
