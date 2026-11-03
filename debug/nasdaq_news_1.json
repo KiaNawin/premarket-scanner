@@ -1,49 +1,197 @@
 {
-  "ticker": "RDAC",
-  "saved_at_et": "2026-11-03T09:04:24-05:00",
+  "ticker": "PARA",
+  "saved_at_et": "2026-11-03T09:32:52-05:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "Apr 30, 2026",
-          "created": "Apr 30, 2026",
-          "description": "(RTTNews) - At 8:00 a.m. ET on Thursday, premarket trading is seeing notable activity in several stocks, with early price movements signaling potential opportunities before the opening bell.\nFor active traders, premarket trading offers a head start in spotting potential breakouts",
-          "id": 27453671,
-          "image": "/rttnews_article/bullbear-02042026-m.jpg",
+          "ago": "Aug 6, 2026",
+          "created": "Aug 6, 2026",
+          "description": "Geo Group (GEO) delivered earnings and revenue surprises of +32.14% and +1.58%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "id": 28119241,
+          "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "akan",
+          "primarysymbol": "",
+          "primarytopic": "Technology|4001",
+          "primarytopic_url": "/topic/technology",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "geo|stocks",
+            "para|stocks"
+          ],
+          "title": "Geo Group (GEO) Q2 Earnings and Revenues Beat Estimates",
+          "url": "/articles/geo-group-geo-q2-earnings-and-revenues-beat-estimates"
+        },
+        {
+          "ago": "Jul 30, 2026",
+          "created": "Jul 30, 2026",
+          "description": "Stagwell (STGW) delivered earnings and revenue surprises of +47.06% and +5.10%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "id": 28054136,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "stgw|stocks",
+            "para|stocks"
+          ],
+          "title": "Stagwell (STGW) Q2 Earnings and Revenues Surpass Estimates",
+          "url": "/articles/stagwell-stgw-q2-earnings-and-revenues-surpass-estimates"
+        },
+        {
+          "ago": "May 27, 2026",
+          "created": "May 27, 2026",
+          "description": "Banzai International, Inc. (BNZI) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+          "id": 27663576,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "para|stocks"
+          ],
+          "title": "Banzai International, Inc. (BNZI) Upgraded to Buy: Here's Why",
+          "url": "/articles/banzai-international-inc-bnzi-upgraded-buy-heres-why"
+        },
+        {
+          "ago": "May 14, 2026",
+          "created": "May 14, 2026",
+          "description": "The average one-year price target for Banzai International (NasdaqCM:BNZI) has been revised to $231.20 / share. This is an increase of 1,900.00% from the prior estimate of $11.56 dated April 25, 2026.  The price target is an average of many targets provided by",
+          "id": 27590816,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "bnzi",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "para|stocks"
+          ],
+          "title": "Banzai International (BNZI) Price Target Increased by 1,900.00% to 231.20",
+          "url": "/articles/banzai-international-bnzi-price-target-increased-190000-23120"
+        },
+        {
+          "ago": "May 12, 2026",
+          "created": "May 12, 2026",
+          "description": "National CineMedia (NCMI) delivered earnings and revenue surprises of +11.54% and +2.72%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "id": 27566951,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "ncmi|stocks",
+            "para|stocks"
+          ],
+          "title": "National CineMedia (NCMI) Reports Q1 Loss, Beats Revenue Estimates",
+          "url": "/articles/national-cinemedia-ncmi-reports-q1-loss-beats-revenue-estimates"
+        },
+        {
+          "ago": "May 12, 2026",
+          "created": "May 12, 2026",
+          "description": "Legendary investor Warren Buffett advises to be fearful when others are greedy, and be greedy when others are fearful.  One way we can try to measure the level of fear in a given stock is through a technical analysis indicator called the Relative Strength Index, or RSI, which me",
+          "id": 27566201,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "bnzi",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
           "related_symbols": [
-            "akan|stocks",
-            "axil|stocks",
-            "band|stocks",
-            "bhe|stocks",
-            "biya|stocks",
-            "chkp|stocks",
-            "clmb|stocks",
-            "ctnt|stocks",
-            "envb|stocks",
-            "fatn|stocks",
-            "hcai|stocks",
-            "meta|stocks",
-            "mram|stocks",
-            "pi|stocks",
-            "rdac|stocks",
-            "sxt|stocks",
-            "ttmi|stocks",
-            "viav|stocks",
-            "w|stocks",
-            "wtw|stocks"
+            "para|stocks"
           ],
-          "title": "Morning Market Movers: HCAI, FATN, ENVB, AKAN See Big Swings ",
-          "url": "/articles/morning-market-movers-hcai-fatn-envb-akan-see-big-swings"
+          "title": "Oversold Conditions For Banzai International (BNZI)",
+          "url": "/articles/oversold-conditions-banzai-international-bnzi"
+        },
+        {
+          "ago": "May 7, 2026",
+          "created": "May 7, 2026",
+          "description": "Maximus (MMS) delivered earnings and revenue surprises of +4.55% and -1.12%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "id": 27522646,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "mms|stocks",
+            "para|stocks"
+          ],
+          "title": "Maximus (MMS) Q2 Earnings Beat Estimates",
+          "url": "/articles/maximus-mms-q2-earnings-beat-estimates"
+        },
+        {
+          "ago": "Apr 30, 2026",
+          "created": "Apr 30, 2026",
+          "description": "Iron Mountain (IRM) delivered earnings and revenue surprises of +2.88% and +4.31%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "id": 27454936,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "irm|stocks",
+            "para|stocks"
+          ],
+          "title": "Iron Mountain (IRM) Surpasses Q1 Earnings and Revenue Estimates",
+          "url": "/articles/iron-mountain-irm-surpasses-q1-earnings-and-revenue-estimates"
+        },
+        {
+          "ago": "Apr 24, 2026",
+          "created": "Apr 24, 2026",
+          "description": "After losing some value lately, a hammer chart pattern has been formed for Banzai International, Inc. (BNZI), indicating that the stock has found support. This, combined with an upward trend in earnings estimate revisions, could lead to a trend reversal for the stock in the near term.",
+          "id": 27406881,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "para|stocks"
+          ],
+          "title": "Here's Why Banzai International, Inc. (BNZI) Looks Ripe for Bottom Fishing",
+          "url": "/articles/heres-why-banzai-international-inc-bnzi-looks-ripe-bottom-fishing"
+        },
+        {
+          "ago": "Apr 20, 2026",
+          "created": "Apr 20, 2026",
+          "description": "Banzai International, Inc. (BNZI) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).",
+          "id": 27360376,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Zacks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
+          "related_symbols": [
+            "para|stocks"
+          ],
+          "title": "Banzai International, Inc. (BNZI) Upgraded to Buy: Here's What You Should Know",
+          "url": "/articles/banzai-international-inc-bnzi-upgraded-buy-heres-what-you-should-know"
         }
       ],
-      "totalrecords": 1
+      "totalrecords": 35
     },
     "message": null,
     "status": {
