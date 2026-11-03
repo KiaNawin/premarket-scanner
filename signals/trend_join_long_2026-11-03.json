@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-03",
-  "generated_at_et": "2026-11-03 08:35:05 EST",
+  "generated_at_et": "2026-11-03 09:05:27 EST",
   "source_premarket_file": "premarket_scan_2026-11-03.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 16,
+  "candidates": 15,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -24,7 +24,7 @@
       "sma200": 74.5305,
       "premarket_high": 61.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 17.54,
+      "gap_pct": 17.7,
       "catalyst": "Aehr Test Systems: 3 Key Takeaways for Long-Term Investors."
     },
     {
@@ -50,8 +50,21 @@
       "sma200": 9.2081,
       "premarket_high": 10.33,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 34.73,
+      "gap_pct": 32.97,
       "catalyst": "Backblaze (BLZE) Q3 2026 Earnings Call Transcript."
+    },
+    {
+      "ticker": "CIFR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.9622,
+      "yesterday_high": 7.39,
+      "yesterday_close": 6.86,
+      "sma200": 17.694,
+      "premarket_high": 7.35,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.51,
+      "catalyst": "Cipher Digital (CIFR) Q3 2026 Earnings Call Transcript."
     },
     {
       "ticker": "CMPS",
@@ -63,7 +76,7 @@
       "sma200": 10.4058,
       "premarket_high": 9.65,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.04,
+      "gap_pct": 10.66,
       "catalyst": "1 Reason Compass Pathways Is Worth a Second Look This Month."
     },
     {
@@ -74,9 +87,9 @@
       "yesterday_high": 52.33,
       "yesterday_close": 51.93,
       "sma200": 54.6346,
-      "premarket_high": 57.4,
+      "premarket_high": 57.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.76,
+      "gap_pct": 10.65,
       "catalyst": "Fiserv Posts Loss In Q3; Affirms 2026 Organic Revenue, Adj."
     },
     {
@@ -89,47 +102,8 @@
       "sma200": 3.6228,
       "premarket_high": 3.18,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.84,
+      "gap_pct": 10.19,
       "catalyst": "Grab Holdings Limited (GRAB) Reports Break-Even Earnings for Q3."
-    },
-    {
-      "ticker": "HLIT",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.4893,
-      "yesterday_high": 10.42,
-      "yesterday_close": 10.19,
-      "sma200": 11.5858,
-      "premarket_high": 12.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 17.66,
-      "catalyst": "Harmonic (HLIT) Q3 2026 Earnings Call Transcript."
-    },
-    {
-      "ticker": "IEP",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.2071,
-      "yesterday_high": 5.2,
-      "yesterday_close": 5.16,
-      "sma200": 7.4087,
-      "premarket_high": 5.68,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.33,
-      "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "KLAC",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 8.3786,
-      "yesterday_high": 162.13,
-      "yesterday_close": 153.11,
-      "sma200": 182.0543,
-      "premarket_high": 161.56,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.52,
-      "catalyst": "Deciphering KLA (KLAC) International Revenue Trends."
     },
     {
       "ticker": "LIFE",
@@ -137,34 +111,8 @@
       "signal": false,
       "reason": "Only 192 trading days of history (< 200 needed for SMA200)",
       "history_days": 192,
-      "gap_pct": 8.89,
+      "gap_pct": 13.58,
       "catalyst": "Ethos Technologies: 3 Key Takeaways for Long-Term Investors."
-    },
-    {
-      "ticker": "LRCX",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 15.5371,
-      "yesterday_high": 243.56,
-      "yesterday_close": 227.56,
-      "sma200": 284.2938,
-      "premarket_high": 240.1839,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.2,
-      "catalyst": "What UCTT's Q3 Beat and Strong Q4 Guidance Mean for Investors Now."
-    },
-    {
-      "ticker": "LSCC",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 6.5429,
-      "yesterday_high": 97.62,
-      "yesterday_close": 95.44,
-      "sma200": 115.7995,
-      "premarket_high": 107.77,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 11.06,
-      "catalyst": "Lattice Semiconductor: 3 Key Takeaways for Long-Term Investors."
     },
     {
       "ticker": "MXL",
@@ -176,21 +124,60 @@
       "sma200": 60.1677,
       "premarket_high": 66.02,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.65,
+      "gap_pct": 6.11,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "PENG",
+      "ticker": "OUST",
       "status": "WAITING",
       "signal": false,
-      "atr14": 5.8399,
-      "yesterday_high": 53.79,
-      "yesterday_close": 47.5,
-      "sma200": 44.1275,
-      "premarket_high": 52.59,
+      "atr14": 2.5474,
+      "yesterday_high": 30.875,
+      "yesterday_close": 28.22,
+      "sma200": 32.4244,
+      "premarket_high": 29.7,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.19,
-      "catalyst": "Not Micron."
+      "gap_pct": 5.17,
+      "catalyst": "Fabrinet (FN) Q1 Earnings and Revenues Surpass Estimates."
+    },
+    {
+      "ticker": "PMN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.6071,
+      "yesterday_high": 4.5,
+      "yesterday_close": 3.0,
+      "sma200": 12.8675,
+      "premarket_high": 3.41,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 9.33,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "POET",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.4093,
+      "yesterday_high": 5.23,
+      "yesterday_close": 4.8,
+      "sma200": 8.246,
+      "premarket_high": 5.09,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.42,
+      "catalyst": "POET Technologies Names Giovanni Pacelli CFO, Succeeding Thomas Mika."
+    },
+    {
+      "ticker": "PURR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.9718,
+      "yesterday_high": 10.975,
+      "yesterday_close": 9.71,
+      "sma200": 7.6861,
+      "premarket_high": 10.28,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.25,
+      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "RDAC",
@@ -202,22 +189,22 @@
       "sma200": 6.2162,
       "premarket_high": 13.69,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 119.09,
+      "gap_pct": 118.24,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "SNDK",
+      "ticker": "XMAX",
       "status": "WAITING",
       "signal": false,
-      "atr14": 99.062,
-      "yesterday_high": 1159.3051,
-      "yesterday_close": 1075.08,
-      "sma200": 1262.4958,
-      "premarket_high": 1139.99,
+      "atr14": 0.6564,
+      "yesterday_high": 6.53,
+      "yesterday_close": 4.01,
+      "sma200": 7.8434,
+      "premarket_high": 4.58,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.76,
-      "catalyst": "Prediction: This Will Be Sandisk’s Stock Price After 1 Year."
+      "gap_pct": 5.74,
+      "catalyst": "No recent news catalyst found."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }

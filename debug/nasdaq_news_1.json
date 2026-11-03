@@ -1,17 +1,22 @@
 {
   "ticker": "RDAC",
-  "saved_at_et": "2026-11-03T08:33:57-05:00",
+  "saved_at_et": "2026-11-03T09:04:24-05:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "Morning Market Movers: HCAI, FATN, ENVB, AKAN See Big Swings ",
-          "image": "/rttnews_article/bullbear-02042026-m.jpg",
-          "created": "Apr 30, 2026",
           "ago": "Apr 30, 2026",
+          "created": "Apr 30, 2026",
+          "description": "(RTTNews) - At 8:00 a.m. ET on Thursday, premarket trading is seeing notable activity in several stocks, with early price movements signaling potential opportunities before the opening bell.\nFor active traders, premarket trading offers a head start in spotting potential breakouts",
+          "id": 27453671,
+          "image": "/rttnews_article/bullbear-02042026-m.jpg",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "akan",
           "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
           "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
             "akan|stocks",
             "axil|stocks",
@@ -34,16 +39,11 @@
             "w|stocks",
             "wtw|stocks"
           ],
-          "url": "/articles/morning-market-movers-hcai-fatn-envb-akan-see-big-swings",
-          "id": 27453671,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - At 8:00 a.m. ET on Thursday, premarket trading is seeing notable activity in several stocks, with early price movements signaling potential opportunities before the opening bell.\nFor active traders, premarket trading offers a head start in spotting potential breakouts",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+          "title": "Morning Market Movers: HCAI, FATN, ENVB, AKAN See Big Swings ",
+          "url": "/articles/morning-market-movers-hcai-fatn-envb-akan-see-big-swings"
         }
       ],
-      "totalrecords": 1,
-      "message": null
+      "totalrecords": 1
     },
     "message": null,
     "status": {
