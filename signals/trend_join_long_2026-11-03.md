@@ -1,17 +1,15 @@
 **Trend-join Long — 2026-11-03**
-0 valid entries out of 25 pre-market gappers (generated 2026-11-03 13:38:30 EST)
+0 valid entries out of 24 pre-market gappers (generated 2026-11-03 14:07:56 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - AEHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- AMD: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_high_of_day
 - APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - APP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AXTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BLZE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- BMNR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BNC: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day
 - BRAI: SHORT_HISTORY — Only 182 trading days of history (< 200 needed for SMA200)
 - BTDR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -29,3 +27,4 @@ Not triggered:
 - FCEL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - FISV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - FLNC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FPS: SHORT_HISTORY — Only 187 trading days of history (< 200 needed for SMA200)
