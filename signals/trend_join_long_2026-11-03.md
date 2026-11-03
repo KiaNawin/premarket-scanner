@@ -1,10 +1,11 @@
 **Trend-join Long — 2026-11-03**
-0 valid entries out of 24 pre-market gappers (generated 2026-11-03 13:08:07 EST)
+0 valid entries out of 25 pre-market gappers (generated 2026-11-03 13:38:30 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - AEHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AMD: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_high_of_day
 - APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - APP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AXTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -17,13 +18,13 @@ Not triggered:
 - CCXI: SHORT_HISTORY — Only 185 trading days of history (< 200 needed for SMA200)
 - CIFR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CLSK: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- CMPS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - COIN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CORZ: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CRCL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CRDO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CRWV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - DFDV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DJT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ENPH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - FCEL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - FISV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
