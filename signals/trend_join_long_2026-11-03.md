@@ -1,20 +1,28 @@
 **Trend-join Long — 2026-11-03**
-0 valid entries out of 14 pre-market gappers (generated 2026-11-03 09:35:01 EST)
+0 valid entries out of 22 pre-market gappers (generated 2026-11-03 10:06:24 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - AEHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- AHCO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ALAB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AXTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BLZE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BNC: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day
+- BTDR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CCXI: SHORT_HISTORY — Only 185 trading days of history (< 200 needed for SMA200)
+- CIFR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CLSK: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CRDO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CRWV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DFDV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- EBS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ENPH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FCEL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - FISV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FLNC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FPS: SHORT_HISTORY — Only 187 trading days of history (< 200 needed for SMA200)
+- GLXY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - GRAB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- HLIT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- LIFE: SHORT_HISTORY — Only 192 trading days of history (< 200 needed for SMA200)
-- LSCC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- PARA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- PHG: WAITING — Before 10:00 ET signal window
-- PMN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- RDAC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- SRAD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
