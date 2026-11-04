@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-04",
-  "generated_at_et": "2026-11-04 08:35:01 EST",
+  "generated_at_et": "2026-11-04 09:05:12 EST",
   "source_premarket_file": "premarket_scan_2026-11-04.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 34,
+  "candidates": 38,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -24,8 +24,21 @@
       "sma200": 19.9454,
       "premarket_high": 15.319,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.88,
+      "gap_pct": 7.38,
       "catalyst": "AI giants are pouring an estimated $828b into data centers and chips this year, and that hardware buildout quietly leans on one workhorse metal."
+    },
+    {
+      "ticker": "AGI",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.2786,
+      "yesterday_high": 27.78,
+      "yesterday_close": 27.08,
+      "sma200": 38.0184,
+      "premarket_high": 29.21,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.39,
+      "catalyst": "Interest rates in Australia have climbed to their highest level since 2008 after the RBA moved the cash rate to 4.85%, which puts real pressure on weaker balance sheets and highly leveraged businesses."
     },
     {
       "ticker": "AIOK",
@@ -33,7 +46,7 @@
       "signal": false,
       "reason": "Only 18 trading days of history (< 200 needed for SMA200)",
       "history_days": 18,
-      "gap_pct": 24.12,
+      "gap_pct": 20.6,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -44,9 +57,9 @@
       "yesterday_high": 10.27,
       "yesterday_close": 10.12,
       "sma200": 15.8009,
-      "premarket_high": 13.25,
+      "premarket_high": 13.565,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 27.47,
+      "gap_pct": 29.25,
       "catalyst": "Alight Inc (ALIT) raised full-year guidance midpoints on disciplined execution and improved book retention, even as recurring revenue fell 6% and adjusted EBITDA margin narrowed to 17%."
     },
     {
@@ -59,21 +72,8 @@
       "sma200": 376.1182,
       "premarket_high": 493.2,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.36,
+      "gap_pct": 5.31,
       "catalyst": "Dow futures reversed higher after Democrats' big election night."
-    },
-    {
-      "ticker": "ANET",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 9.5464,
-      "yesterday_high": 171.84,
-      "yesterday_close": 169.91,
-      "sma200": 165.5367,
-      "premarket_high": 192.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.94,
-      "catalyst": "Arista Networks (ANET) shares rose early Wednesday after the networking equipment maker raised the m."
     },
     {
       "ticker": "ARRY",
@@ -85,8 +85,8 @@
       "sma200": 6.8457,
       "premarket_high": 5.3,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 13.57,
-      "catalyst": "FTC Solar (FTCI) delivered earnings and revenue surprises of -2.33% and +0.38%, respectively, for the quarter ended September 2026."
+      "gap_pct": 13.58,
+      "catalyst": "Array Technologies (ARRY) delivered earnings and revenue surprises of -40.00% and +2.49%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "ASM",
@@ -98,8 +98,8 @@
       "sma200": 6.8506,
       "premarket_high": 4.68,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.43,
-      "catalyst": "ASIX secures $47.4M in proposed USDA funding for a $98.1M ammonia expansion project to boost domestic fertilizer supply and strengthen manufacturing capacity."
+      "gap_pct": 8.67,
+      "catalyst": "Mosaic's Q3 2026 earnings miss reflects higher raw material costs and lower sales volumes, while shrinking margins and cost pressures cloud its Q4 outlook."
     },
     {
       "ticker": "B",
@@ -111,7 +111,7 @@
       "sma200": 42.0159,
       "premarket_high": 39.25,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.13,
+      "gap_pct": 5.71,
       "catalyst": "US-listed gold mining stocks advanced sharply in premarket trading on Wednesday as gold prices climbed following the Democratic Party’s victory in both chambers of Congress during the US midterm elections."
     },
     {
@@ -122,9 +122,9 @@
       "yesterday_high": 22.76,
       "yesterday_close": 22.4,
       "sma200": 24.826,
-      "premarket_high": 23.65,
+      "premarket_high": 23.7,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.4,
+      "gap_pct": 5.67,
       "catalyst": "Investing.com -- Barclays started coverage of Italian chip-testing equipment maker Technoprobe (BIT:TPRO) with an “overweight” rating and a €40 price target, citing the company’s close to 100% share of probe cards used…"
     },
     {
@@ -137,7 +137,7 @@
       "sma200": 20.5311,
       "premarket_high": 13.98,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.31,
+      "gap_pct": 5.99,
       "catalyst": "Gaiam (GAIA) delivered earnings and revenue surprises of +7.69% and +2.47%, respectively, for the quarter ended September 2026."
     },
     {
@@ -148,10 +148,10 @@
       "yesterday_high": 59.38,
       "yesterday_close": 56.5,
       "sma200": 50.2893,
-      "premarket_high": 61.99,
+      "premarket_high": 65.9,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.21,
-      "catalyst": "Scientific instrument company Bruker (NASDAQ:BRKR) reported Q3 2026 results exceeding the market’s revenue expectations, with revenue up 1.6% year on year to $874 million."
+      "gap_pct": 13.82,
+      "catalyst": "Bruker (BRKR) delivered earnings and revenue surprises of +33.33% and +0.52%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "BTG",
@@ -176,7 +176,7 @@
       "sma200": 18.8265,
       "premarket_high": 14.4886,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.79,
+      "gap_pct": 7.23,
       "catalyst": "If you backed the bullish projections on Coeur Mining, pencilling in premium metal prices and rich cash flow margins, the actual ride has been rougher than the spreadsheet."
     },
     {
@@ -189,7 +189,7 @@
       "sma200": 76.9168,
       "premarket_high": 4.26,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.59,
+      "gap_pct": 12.72,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -202,7 +202,7 @@
       "sma200": 4.7208,
       "premarket_high": 4.29,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 20.03,
+      "gap_pct": 19.2,
       "catalyst": "OSI (OSIS) delivered earnings and revenue surprises of +1.22% and +1.54%, respectively, for the quarter ended September 2026."
     },
     {
@@ -215,8 +215,8 @@
       "sma200": 15.2643,
       "premarket_high": 11.1,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.13,
-      "catalyst": "For questions about this article or underlying research, email help@trefis.com."
+      "gap_pct": 7.72,
+      "catalyst": "Array Technologies (ARRY) delivered earnings and revenue surprises of -40.00% and +2.49%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "DB",
@@ -226,9 +226,9 @@
       "yesterday_high": 34.47,
       "yesterday_close": 34.03,
       "sma200": 34.6466,
-      "premarket_high": 36.3639,
+      "premarket_high": 36.41,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.76,
+      "gap_pct": 6.99,
       "catalyst": "Investing.com -- Shares of Swiss specialty chemicals maker Clariant fell nearly 2% after Deutsche Bank cut its rating on the stock to “hold” from “buy”, saying the balance of risk and reward had become more even."
     },
     {
@@ -241,7 +241,7 @@
       "sma200": 4.0404,
       "premarket_high": 3.6,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.96,
+      "gap_pct": 7.36,
       "catalyst": "One crypto treasury company just dumped its entire coin holdings while a rival keeps stacking tokens by the millions, and both moves are sending mixed signals about which asset actually has the stronger case for…"
     },
     {
@@ -254,7 +254,7 @@
       "sma200": 123.6837,
       "premarket_high": 154.3,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 19.38,
+      "gap_pct": 19.69,
       "catalyst": "The third quarter earnings season is over halfway done, and the reports continue to pour in."
     },
     {
@@ -267,7 +267,7 @@
       "sma200": 12.7209,
       "premarket_high": 10.71,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.5,
+      "gap_pct": 6.32,
       "catalyst": "Equinox Gold has given long term holders a striking 3 year run, yet the recent pullback and shifting sector mood raise a sharper question about whether the current share price lines up with the earnings that support it."
     },
     {
@@ -280,7 +280,7 @@
       "sma200": 9.7121,
       "premarket_high": 7.63,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.68,
+      "gap_pct": 7.84,
       "catalyst": "Endeavour Silver reported that repairs to the primary ball mill trunnion at the Guanaceví mine were completed in October 2026, with processing returning to full capacity after the replacement component was installed."
     },
     {
@@ -291,9 +291,9 @@
       "yesterday_high": 5.62,
       "yesterday_close": 5.5,
       "sma200": 15.2726,
-      "premarket_high": 5.9956,
+      "premarket_high": 6.1,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.36,
+      "gap_pct": 10.8,
       "catalyst": "Investing.com -- The Democratic sweep has lifted clean energy, though the screen shows a sector that was badly beaten up first."
     },
     {
@@ -306,8 +306,8 @@
       "sma200": 215.3243,
       "premarket_high": 203.465,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.48,
-      "catalyst": "Investing.com -- The scenario has played out, so this isn’t a forecast."
+      "gap_pct": 7.92,
+      "catalyst": "The AI power supplier offers clean solution to the data center energy problem, and bypasses the grid."
     },
     {
       "ticker": "FSM",
@@ -319,7 +319,7 @@
       "sma200": 10.301,
       "premarket_high": 9.4792,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.54,
+      "gap_pct": 5.88,
       "catalyst": "Oil prices are holding above $100 per barrel as supply risks from the Middle East and tight global capacity keep energy costs elevated."
     },
     {
@@ -332,7 +332,7 @@
       "sma200": 42.5179,
       "premarket_high": 36.89,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.26,
+      "gap_pct": 5.99,
       "catalyst": "Gold Fields Limited (NYSE:GFI) has unsuccessfully bid for Australia’s Northern Star Resources Ltd (OTC:NESRF)."
     },
     {
@@ -345,7 +345,7 @@
       "sma200": 18.527,
       "premarket_high": 15.1032,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.22,
+      "gap_pct": 9.25,
       "catalyst": "COEUR D`ALENE, Idaho (AP) — COEUR D`ALENE, Idaho (AP) — Hecla Mining Co."
     },
     {
@@ -358,7 +358,7 @@
       "sma200": 19.6804,
       "premarket_high": 13.14,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.93,
+      "gap_pct": 6.38,
       "catalyst": "AI related investment has become a key pillar of US economic growth, and that same demand for computing power depends heavily on how people and cargo move."
     },
     {
@@ -371,7 +371,7 @@
       "sma200": 93.4417,
       "premarket_high": 89.06,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.28,
+      "gap_pct": 5.31,
       "catalyst": "Cost discipline and Asian wealth inflows give HSBC room to boost shareholder returns without sacrificing growth."
     },
     {
@@ -382,9 +382,9 @@
       "yesterday_high": 16.605,
       "yesterday_close": 16.09,
       "sma200": 29.8648,
-      "premarket_high": 17.569,
+      "premarket_high": 17.68,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.64,
+      "gap_pct": 8.45,
       "catalyst": "Hycroft Mining Holding (HYMC) just paired a wider quarterly loss with a reshuffle in senior leadership, a combination that puts both its recent financial performance and longer term execution plans under closer…"
     },
     {
@@ -397,7 +397,7 @@
       "sma200": 18.3341,
       "premarket_high": 16.99,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.51,
+      "gap_pct": 6.61,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -408,9 +408,9 @@
       "yesterday_high": 31.3,
       "yesterday_close": 30.9,
       "sma200": 31.2965,
-      "premarket_high": 32.73,
+      "premarket_high": 32.81,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.86,
+      "gap_pct": 6.08,
       "catalyst": "Investing.com -- Sterling traded higher on Wednesday while the euro also rose, as the dollar weakened after Democrats swept both chambers of Congress in the U.S. midterm elections."
     },
     {
@@ -421,9 +421,9 @@
       "yesterday_high": 7.795,
       "yesterday_close": 7.61,
       "sma200": 12.0,
-      "premarket_high": 8.1,
+      "premarket_high": 8.15,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.44,
+      "gap_pct": 7.1,
       "catalyst": "When a power fault at a Google Cloud data center in London can ripple through banks, delivery firms and small online shops in minutes, it turns cloud plumbing into front page risk."
     },
     {
@@ -434,10 +434,23 @@
       "yesterday_high": 13.36,
       "yesterday_close": 12.94,
       "sma200": 13.3869,
-      "premarket_high": 14.8,
+      "premarket_high": 15.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.74,
+      "gap_pct": 13.6,
       "catalyst": "IT infrastructure services provider Kyndryl (NYSE:KD) met Wall Street’s revenue expectations in calendar Q3 2026 (fiscal Q2 2027), but revenue fell by 1.9% year on year to $3.65 billion."
+    },
+    {
+      "ticker": "KEP",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.215,
+      "yesterday_high": 10.7,
+      "yesterday_close": 10.59,
+      "sma200": 14.1217,
+      "premarket_high": 11.29,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.52,
+      "catalyst": "Asian equities traded in the US as American depositary receipts were little changed Tuesday morning,."
     },
     {
       "ticker": "KGC",
@@ -449,9 +462,48 @@
       "sma200": 28.6743,
       "premarket_high": 21.28,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.27,
+      "gap_pct": 6.17,
       "catalyst": "US-listed gold mining stocks advanced sharply in premarket trading on Wednesday as gold prices climbed following the Democratic Party’s victory in both chambers of Congress during the US midterm elections."
+    },
+    {
+      "ticker": "LYG",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.1493,
+      "yesterday_high": 5.07,
+      "yesterday_close": 4.98,
+      "sma200": 5.6178,
+      "premarket_high": 5.2501,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.42,
+      "catalyst": "Nov 4 - Britain's FTSE 100 advanced on Wednesday as banks rallied ahead of an expected rate hike this week, while the weakening of the dollar following the Democrats' sweep of the US midterms lifted."
+    },
+    {
+      "ticker": "MDLN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.2142,
+      "yesterday_high": 34.26,
+      "yesterday_close": 34.09,
+      "sma200": 39.5506,
+      "premarket_high": 38.46,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.07,
+      "catalyst": "(MDLN) on Wednesday reported third-quarter earnings of $195 million.The Northfield, Illinois-based company said it had net income of 22 cents per share."
+    },
+    {
+      "ticker": "MMM",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 4.5121,
+      "yesterday_high": 178.17,
+      "yesterday_close": 177.05,
+      "sma200": 161.1624,
+      "premarket_high": 186.41,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.21,
+      "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }

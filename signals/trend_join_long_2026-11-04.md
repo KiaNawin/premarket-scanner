@@ -1,14 +1,14 @@
 **Trend-join Long — 2026-11-04**
-0 valid entries out of 34 pre-market gappers (generated 2026-11-04 08:35:01 EST)
+0 valid entries out of 38 pre-market gappers (generated 2026-11-04 09:05:12 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - AG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- AGI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - AIOK: SHORT_HISTORY — Only 18 trading days of history (< 200 needed for SMA200)
 - ALIT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - AMGN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ANET: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - ARRY: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - ASM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - B: WAITING — Market opens 09:30 ET; signals start 10:00 ET
@@ -37,4 +37,8 @@ Not triggered:
 - ING: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - KC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - KD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- KEP: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - KGC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- LYG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- MDLN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- MMM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
