@@ -1,44 +1,41 @@
 **Trend-join Long — 2026-11-04**
-0 valid entries out of 38 pre-market gappers (generated 2026-11-04 09:05:12 EST)
+0 valid entries out of 35 pre-market gappers (generated 2026-11-04 09:35:18 EST)
 
 _No valid entries yet._
 
 Not triggered:
-- AG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AGI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- AG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AGI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AIOK: SHORT_HISTORY — Only 18 trading days of history (< 200 needed for SMA200)
-- ALIT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AMGN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ARRY: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ASM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- B: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BCS: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BILI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BRKR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BTG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CDE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CHSN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CPSH: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CSIQ: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- DB: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- DFDV: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- DUOL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- EQX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- EXK: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FLNC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FSLR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FSM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- GFI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HSAI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HSBC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HYMC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- IAG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ING: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- KC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- KD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- KEP: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- KGC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- LYG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- MDLN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- MMM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- ALIT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ALOY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AMZN: WAITING — Before 10:00 ET signal window
+- ANET: WAITING — Before 10:00 ET signal window
+- ARRY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ASM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BCS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BILI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BRKR: WAITING — Before 10:00 ET signal window
+- BTG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CDE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CHSN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CPSH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CSIQ: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DFDV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DUOL: WAITING — Before 10:00 ET signal window
+- ENPH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- EQX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- EXK: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FLNC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FSLR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FSM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HELE: WAITING — Before 10:00 ET signal window
+- HL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HMY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HSAI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HYMC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- IAG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ING: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- JBLU: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- JKS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
