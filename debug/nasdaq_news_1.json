@@ -1,69 +1,31 @@
 {
-  "ticker": "BRAI",
-  "saved_at_et": "2026-11-03T14:05:50-05:00",
+  "ticker": "AIOK",
+  "saved_at_et": "2026-11-04T08:34:32-05:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "Jul 14, 2026",
-          "created": "Jul 14, 2026",
-          "description": "Companies In The News Are:XOM,NVDA,BRAI and MGM",
-          "id": 27928676,
+          "ago": "7 days ago",
+          "created": "Oct 28, 2026",
+          "description": "Bargain hunters are wise to pay careful attention to insider buying, because although there are many various reasons for an insider to sell a stock, presumably the only reason they would use their hard-earned dollars to make a purchase, is that they expect to make money.  Today",
+          "id": 28660946,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Zacks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/Zacks.png",
-          "related_symbols": [
-            "xom|stocks",
-            "nvda|stocks",
-            "mgm|stocks",
-            "brai|stocks"
-          ],
-          "title": "Company News for July 14, 2026",
-          "url": "/articles/company-news-july-14-2026"
-        },
-        {
-          "ago": "Jun 28, 2026",
-          "created": "Jun 28, 2026",
-          "description": "Key PointsBraiin stock suffered a massive valuation pullback this week despite no major news for the company.",
-          "id": 27843721,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brai",
+          "primarysymbol": "npb",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
           "related_symbols": [
-            "brai|stocks"
+            "npb|stocks",
+            "aiok|stocks"
           ],
-          "title": "Why Braiin Stock Plummeted This Week",
-          "url": "/articles/why-braiin-stock-plummeted-week"
-        },
-        {
-          "ago": "May 26, 2026",
-          "created": "May 26, 2026",
-          "description": "(RTTNews) - Stock of Braiin Limited (BRAI) is surging about 106 percent on Tuesday morning after it announced a strategic partnership with Switchcraft to integrate embedded utility and telecom switching capabilities across the company's expanding UK Living Infrastructure and Prop",
-          "id": 27654061,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "brai",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "brai|stocks"
-          ],
-          "title": "Braiin Limited Stock Surges 106% Over Partnership With Switchcraft ",
-          "url": "/articles/braiin-limited-stock-surges-106-over-partnership-switchcraft"
+          "title": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
+          "url": "/articles/wednesday-10-28-insider-buying-report-npb-aiok"
         }
       ],
-      "totalrecords": 3
+      "totalrecords": 1
     },
     "message": null,
     "status": {
