@@ -1,7 +1,60 @@
 {
   "ticker": "ALIT",
-  "saved_at_et": "2026-11-04T11:36:10-05:00",
+  "saved_at_et": "2026-11-04T12:06:14-05:00",
   "response": [
+    {
+      "id": "8305462e-d316-325c-86c0-736d482b1648",
+      "content": {
+        "id": "8305462e-d316-325c-86c0-736d482b1648",
+        "contentType": "STORY",
+        "title": "Alight (ALIT) Q3 2026 Earnings Call Transcript",
+        "description": null,
+        "summary": "Revenue fell 6.2% as past sales lags weighed on results, with 2027 expected softer.",
+        "pubDate": "2026-11-04T16:47:22Z",
+        "displayTime": "2026-11-04T16:47:22Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalWidth": 1280,
+          "originalHeight": 1366,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "width": 1280,
+              "height": 1366,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Motley Fool",
+          "url": "http://www.fool.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/alight-alit-q3-2026-earnings-call-transcript/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alight-alit-q3-2026-earnings-164722856.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ALIT"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "50a7cba9-d576-3205-8446-5d5785b9bae2",
       "content": {
@@ -77,59 +130,6 @@
         },
         "clickThroughUrl": {
           "url": "https://finance.yahoo.com/markets/stocks/articles/alight-nyse-alit-delivers-impressive-214555308.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ALIT"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "1cbb6212-a05c-362b-818b-20ad9188af8a",
-      "content": {
-        "id": "1cbb6212-a05c-362b-818b-20ad9188af8a",
-        "contentType": "STORY",
-        "title": "What to expect from Alight’s (ALIT) Q3 earnings",
-        "description": null,
-        "summary": "Human capital management provider Alight (NYSE:ALIT) will be announcing earnings results this Tuesday after market close. Here’s what investors should know.",
-        "pubDate": "2026-11-02T04:05:36Z",
-        "displayTime": "2026-11-02T04:05:36Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/stockstory_922/a785238202e4937067405491cd388ec9.jpg",
-          "originalWidth": 1400,
-          "originalHeight": 700,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/stockstory_922/a785238202e4937067405491cd388ec9.jpg",
-              "width": 1400,
-              "height": 700,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/6c6485929149d5aa3902f4eda506ea9f159f8dda5268827273e41df386039ac0/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Fa785238202e4937067405491cd388ec9.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "StockStory",
-          "url": "https://stockstory.org/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/expect-alight-alit-q3-earnings-040536042.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/expect-alight-alit-q3-earnings-040536042.html"
         },
         "finance": {
           "premiumFinance": {
