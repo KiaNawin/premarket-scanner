@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-04",
-  "generated_at_et": "2026-11-04 13:37:23 EST",
-  "scan_time_et": "13:37",
+  "generated_at_et": "2026-11-04 14:07:41 EST",
+  "scan_time_et": "14:07",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7086,
-    "prefilter": 1609,
-    "with_data": 1241,
-    "gap": 623,
-    "gap_price": 607,
-    "passed": 22,
+    "prefilter": 1635,
+    "with_data": 1272,
+    "gap": 633,
+    "gap_price": 616,
+    "passed": 20,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7086,
-  "count": 22,
+  "count": 20,
   "results": [
     {
       "ticker": "ALIT",
-      "price": 13.5,
-      "gap_pct": 33.4,
+      "price": 13.84,
+      "gap_pct": 36.76,
       "catalyst": "Revenue fell 6.2% as past sales lags weighed on results, with 2027 expected softer.",
       "prev_close": 10.12,
       "premarket_volume": 155092,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "ARRY",
-      "price": 5.34,
-      "gap_pct": 14.98,
+      "price": 5.32,
+      "gap_pct": 14.66,
       "catalyst": "SEDG returns to profitability in Q3 as gross margins expand and cash flow remains positive, but a weak Q4 outlook signals persistent demand challenges.",
       "prev_close": 4.64,
       "premarket_volume": 4661141,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "ASST",
-      "price": 23.38,
-      "gap_pct": 13.17,
+      "price": 23.11,
+      "gap_pct": 11.86,
       "catalyst": "Strive has seen its share price move sharply in recent years, and the swings leave a clear question on the table for investors who look at fundamentals.",
       "prev_close": 20.66,
       "premarket_volume": 424504,
@@ -58,20 +58,20 @@
     },
     {
       "ticker": "APP",
-      "price": 274.28,
-      "gap_pct": 11.72,
-      "catalyst": "Key TakeawaysAppLovin is down 64% from its high, making it the worst performer in the S&P 500 this year.",
+      "price": 272.37,
+      "gap_pct": 10.94,
+      "catalyst": "Revenue expectations already sit near the upper end of management's existing range.",
       "prev_close": 245.51,
       "premarket_volume": 101364,
       "session": "regular",
-      "catalyst_source": "TIKR",
-      "catalyst_headline": "AppLovin Fell 60% Even With Today’s Pop. Tomorrow We Learn if Earnings Fell With It",
-      "catalyst_url": "https://www.tikr.com/blog/applovin-fell-60-even-with-todays-pop-tomorrow-we-learn-if-earnings-fell-with-it?ref=yahoofinance&tlnk=yf-261103-7qgfm8wg"
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "AppLovin Stocks Jump 8.8% While Tonight's Earnings Face a $2.08 Billion Test",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/applovin-stocks-jump-8-8-183042983.html"
     },
     {
       "ticker": "ALOY",
-      "price": 6.74,
-      "gap_pct": 11.49,
+      "price": 6.7,
+      "gap_pct": 10.83,
       "catalyst": "The U.S.",
       "prev_close": 6.05,
       "premarket_volume": 108478,
@@ -82,8 +82,8 @@
     },
     {
       "ticker": "AGI",
-      "price": 29.65,
-      "gap_pct": 9.49,
+      "price": 29.77,
+      "gap_pct": 9.95,
       "catalyst": "Interest rates in Australia have climbed to their highest level since 2008 after the RBA moved the cash rate to 4.85%, which puts real pressure on weaker balance sheets and highly leveraged businesses.",
       "prev_close": 27.08,
       "premarket_volume": 56804,
@@ -94,8 +94,8 @@
     },
     {
       "ticker": "ASM",
-      "price": 4.67,
-      "gap_pct": 9.37,
+      "price": 4.66,
+      "gap_pct": 9.25,
       "catalyst": "L.B.",
       "prev_close": 4.27,
       "premarket_volume": 193882,
@@ -105,33 +105,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/fstr-expands-precast-concrete-business-150700359.html"
     },
     {
-      "ticker": "AIOK",
-      "price": 10.84,
-      "gap_pct": 8.51,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 9.99,
-      "premarket_volume": 3309943,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
-      "ticker": "B",
-      "price": 40.08,
-      "gap_pct": 8.16,
-      "catalyst": "US-listed gold mining stocks advanced sharply in premarket trading on Wednesday as gold prices climbed following the Democratic Party’s victory in both chambers of Congress during the US midterm elections.",
-      "prev_close": 37.05,
-      "premarket_volume": 380750,
-      "session": "regular",
-      "catalyst_source": "InvestorsHub",
-      "catalyst_headline": "Gold Mining Shares Rally as Democratic Midterm Victory Weakens US Dollar and Lifts Bullion Prices",
-      "catalyst_url": "https://investorshub.advfn.com/market-news/article/39243/gold-mining-shares-rally-as-democratic-midterm-victory-weakens-us-dollar-and-lifts-bullion-prices"
-    },
-    {
       "ticker": "ADAM",
-      "price": 6.2,
-      "gap_pct": 8.12,
+      "price": 6.22,
+      "gap_pct": 8.46,
       "catalyst": "Book value fell 19.6% amid mortgage market turmoil, but earnings covered the dividend.",
       "prev_close": 5.73,
       "premarket_volume": 52363,
@@ -141,9 +117,21 @@
       "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/02/adamas-adam-q3-2026-earnings-call-transcript/"
     },
     {
+      "ticker": "B",
+      "price": 40.06,
+      "gap_pct": 8.12,
+      "catalyst": "Find insight on gold prices, palm oil prices, copper demand and more in the latest Market Talks covering Basic Materials.",
+      "prev_close": 37.05,
+      "premarket_volume": 380750,
+      "session": "regular",
+      "catalyst_source": "The Wall Street Journal",
+      "catalyst_headline": "Basic Materials Roundup: Market Talk",
+      "catalyst_url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-4d4bfa93?siteid=yhoof2&yptr=yahoo"
+    },
+    {
       "ticker": "AG",
-      "price": 15.17,
-      "gap_pct": 7.6,
+      "price": 15.2,
+      "gap_pct": 7.77,
       "catalyst": "AI giants are pouring an estimated $828b into data centers and chips this year, and that hardware buildout quietly leans on one workhorse metal.",
       "prev_close": 14.1,
       "premarket_volume": 445913,
@@ -153,9 +141,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/commodities/articles/3-silver-stocks-market-caps-221232736.html"
     },
     {
+      "ticker": "AIOK",
+      "price": 10.7,
+      "gap_pct": 7.11,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 9.99,
+      "premarket_volume": 3309943,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "AMZN",
-      "price": 269.23,
-      "gap_pct": 7.4,
+      "price": 268.1,
+      "gap_pct": 6.94,
       "catalyst": "Yahoo Finance Executive Editor Brian Sozzi runs down three reasons why stocks are responding well to the midterm election results.",
       "prev_close": 250.69,
       "premarket_volume": 5097567,
@@ -166,8 +166,8 @@
     },
     {
       "ticker": "AAL",
-      "price": 13.76,
-      "gap_pct": 7.29,
+      "price": 13.66,
+      "gap_pct": 6.59,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 12.82,
       "premarket_volume": 1715042,
@@ -178,8 +178,8 @@
     },
     {
       "ticker": "AFRM",
-      "price": 76.88,
-      "gap_pct": 6.82,
+      "price": 76.64,
+      "gap_pct": 6.5,
       "catalyst": "BILL heads into Q1 fiscal 2027 earnings with rising AI adoption, stronger payment volumes and workforce optimization supporting growth expectations.",
       "prev_close": 71.97,
       "premarket_volume": 127306,
@@ -189,21 +189,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/whats-cards-bill-holdings-stock-152400427.html"
     },
     {
-      "ticker": "BABA",
-      "price": 107.14,
-      "gap_pct": 6.75,
-      "catalyst": "Key TakeawaysChinese AI and cloud firms, Alibaba among them, have ordered about 6 million NVIDIA RTX Pro 5500 chips worth about $70 billion, but expect to get only about 1% of them over the next four months.",
-      "prev_close": 100.36,
-      "premarket_volume": 982327,
-      "session": "regular",
-      "catalyst_source": "TIKR",
-      "catalyst_headline": "Nvidia’s Chinese Clients Will Get Just 1% of $70 Billion in RTX Chip Orders",
-      "catalyst_url": "https://www.tikr.com/blog/nvidias-chinese-clients-will-get-just-1-of-70-billion-in-rtx-chip-orders?ref=yahoofinance&tlnk=yf-261104-68jvw2gc"
-    },
-    {
       "ticker": "AAPL",
-      "price": 352.71,
-      "gap_pct": 6.27,
+      "price": 352.78,
+      "gap_pct": 6.29,
       "catalyst": "Stocks bounced on Wednesday after Democrats' sweeping mid-term elections.",
       "prev_close": 331.9,
       "premarket_volume": 2292974,
@@ -213,21 +201,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/article/apple-microsoft-hit-all-time-highs-as-nasdaq-surges-2-in-post-election-rally-alphacheck-152548814.html"
     },
     {
-      "ticker": "BEKE",
-      "price": 18.67,
-      "gap_pct": 6.05,
-      "catalyst": "China tech soars in 2025 as AI, EVs and AR lead the way.",
-      "prev_close": 17.6,
-      "premarket_volume": 130839,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Top China Tech Stocks to Add to Your Portfolio for Impressive Returns",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/top-china-tech-stocks-add-131300326.html"
-    },
-    {
       "ticker": "APTV",
-      "price": 43.78,
-      "gap_pct": 5.9,
+      "price": 43.92,
+      "gap_pct": 6.24,
       "catalyst": "Aptiv (NYSE:APTV) is back in focus after third quarter results that combined solid earnings and new business wins with a more cautious cash flow outlook and fresh warnings about 2027 risks.",
       "prev_close": 41.34,
       "premarket_volume": 167711,
@@ -237,21 +213,33 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/aptiv-aptv-faces-fair-value-101923845.html"
     },
     {
-      "ticker": "ANET",
-      "price": 179.73,
-      "gap_pct": 5.78,
-      "catalyst": "Investing.com -- Arista Networks (ANET) reported Q3 FY2026 on Nov 3, 2026, after shares had slid about 25% in three weeks.",
-      "prev_close": 169.91,
-      "premarket_volume": 970639,
+      "ticker": "BABA",
+      "price": 106.6,
+      "gap_pct": 6.21,
+      "catalyst": "Key TakeawaysChinese AI and cloud firms, Alibaba among them, have ordered about 6 million NVIDIA RTX Pro 5500 chips worth about $70 billion, but expect to get only about 1% of them over the next four months.",
+      "prev_close": 100.36,
+      "premarket_volume": 982327,
       "session": "regular",
-      "catalyst_source": "Investing.com",
-      "catalyst_headline": "Arista Networks earnings analysis: questions answered and next catalysts",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-earnings-analysis-questions-175921791.html"
+      "catalyst_source": "TIKR",
+      "catalyst_headline": "Nvidia’s Chinese Clients Will Get Just 1% of $70 Billion in RTX Chip Orders",
+      "catalyst_url": "https://www.tikr.com/blog/nvidias-chinese-clients-will-get-just-1-of-70-billion-in-rtx-chip-orders?ref=yahoofinance&tlnk=yf-261104-68jvw2gc"
+    },
+    {
+      "ticker": "BEKE",
+      "price": 18.66,
+      "gap_pct": 5.99,
+      "catalyst": "China tech soars in 2025 as AI, EVs and AR lead the way.",
+      "prev_close": 17.6,
+      "premarket_volume": 130839,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Top China Tech Stocks to Add to Your Portfolio for Impressive Returns",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/top-china-tech-stocks-add-131300326.html"
     },
     {
       "ticker": "BCS",
-      "price": 23.61,
-      "gap_pct": 5.4,
+      "price": 23.64,
+      "gap_pct": 5.51,
       "catalyst": "Investing.com -- Barclays started coverage of Italian chip-testing equipment maker Technoprobe (BIT:TPRO) with an “overweight” rating and a €40 price target, citing the company’s close to 100% share of probe cards used…",
       "prev_close": 22.4,
       "premarket_volume": 231290,
@@ -261,28 +249,16 @@
       "catalyst_url": "https://finance.yahoo.com/technology/ai/articles/barclays-backs-technoprobe-surging-demand-120739143.html"
     },
     {
-      "ticker": "BIDU",
-      "price": 81.09,
-      "gap_pct": 5.35,
-      "catalyst": "AI spending is now big enough to move interest rates.",
-      "prev_close": 76.97,
-      "premarket_volume": 197040,
+      "ticker": "ANET",
+      "price": 179.04,
+      "gap_pct": 5.37,
+      "catalyst": "Investing.com -- Arista Networks (ANET) reported Q3 FY2026 on Nov 3, 2026, after shares had slid about 25% in three weeks.",
+      "prev_close": 169.91,
+      "premarket_volume": 970639,
       "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "3 AI Stocks With Up To 47% Earnings Growth",
-      "catalyst_url": "https://finance.yahoo.com/technology/ai/articles/3-ai-stocks-47-earnings-181140792.html"
-    },
-    {
-      "ticker": "ALB",
-      "price": 94.96,
-      "gap_pct": 5.29,
-      "catalyst": "The fund sold $120.8 million more than it bought, cutting 416 positions and adding to 16.",
-      "prev_close": 90.19,
-      "premarket_volume": 69920,
-      "session": "regular",
-      "catalyst_source": "GuruFocus.com",
-      "catalyst_headline": "SPDR Portfolio S&P 500 Value ETF (SPYV) Sells Apple and Amazon on Monday",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/spdr-portfolio-p-500-value-110559578.html"
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Arista Networks earnings analysis: questions answered and next catalysts",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-earnings-analysis-questions-175921791.html"
     }
   ]
 }
