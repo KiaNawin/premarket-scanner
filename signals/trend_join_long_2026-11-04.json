@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-04",
-  "generated_at_et": "2026-11-04 11:06:01 EST",
+  "generated_at_et": "2026-11-04 11:36:17 EST",
   "source_premarket_file": "premarket_scan_2026-11-04.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 27,
+  "candidates": 25,
   "valid_count": 6,
   "valid_entries": [
     {
       "ticker": "AAPL",
       "signal_time_et": "2026-11-04 10:00",
       "entry_price": 352.3714,
-      "last_price": 352.32,
-      "gap_pct": 6.65,
+      "last_price": 352.22,
+      "gap_pct": 5.82,
       "yesterday_high": 334.5,
       "yesterday_close": 331.9,
       "sma200": 297.3385,
@@ -30,8 +30,8 @@
       "ticker": "BEKE",
       "signal_time_et": "2026-11-04 10:00",
       "entry_price": 18.44,
-      "last_price": 18.625,
-      "gap_pct": 5.88,
+      "last_price": 18.615,
+      "gap_pct": 5.54,
       "yesterday_high": 17.855,
       "yesterday_close": 17.6,
       "sma200": 16.851,
@@ -43,8 +43,8 @@
       "ticker": "AMZN",
       "signal_time_et": "2026-11-04 10:01",
       "entry_price": 271.115,
-      "last_price": 266.335,
-      "gap_pct": 6.58,
+      "last_price": 265.73,
+      "gap_pct": 5.99,
       "yesterday_high": 252.45,
       "yesterday_close": 250.69,
       "sma200": 243.4957,
@@ -56,8 +56,8 @@
       "ticker": "ASST",
       "signal_time_et": "2026-11-04 10:04",
       "entry_price": 22.96,
-      "last_price": 22.7169,
-      "gap_pct": 11.86,
+      "last_price": 23.09,
+      "gap_pct": 12.63,
       "yesterday_high": 21.6,
       "yesterday_close": 20.66,
       "sma200": 16.4527,
@@ -69,8 +69,8 @@
       "ticker": "AFRM",
       "signal_time_et": "2026-11-04 10:07",
       "entry_price": 77.44,
-      "last_price": 76.255,
-      "gap_pct": 6.42,
+      "last_price": 76.87,
+      "gap_pct": 6.81,
       "yesterday_high": 73.89,
       "yesterday_close": 71.97,
       "sma200": 66.517,
@@ -82,8 +82,8 @@
       "ticker": "AMC",
       "signal_time_et": "2026-11-04 10:32",
       "entry_price": 3.47,
-      "last_price": 3.48,
-      "gap_pct": 6.4,
+      "last_price": 3.525,
+      "gap_pct": 6.86,
       "yesterday_high": 3.36,
       "yesterday_close": 3.28,
       "sma200": 1.992,
@@ -102,8 +102,8 @@
       "yesterday_close": 331.9,
       "sma200": 297.3385,
       "premarket_high": 341.99,
-      "last_price": 352.32,
-      "last_bar_et": "11:05",
+      "last_price": 352.22,
+      "last_bar_et": "11:36",
       "high_of_day": 354.33,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -115,7 +115,7 @@
       "entry_price": 352.3714,
       "hod_before_signal": 351.74,
       "low_5m": 350.8601,
-      "gap_pct": 6.65,
+      "gap_pct": 5.82,
       "catalyst": "Stocks bounced on Wednesday after Democrats' sweeping mid-term elections."
     },
     {
@@ -127,8 +127,8 @@
       "yesterday_close": 17.6,
       "sma200": 16.851,
       "premarket_high": 18.25,
-      "last_price": 18.625,
-      "last_bar_et": "11:05",
+      "last_price": 18.615,
+      "last_bar_et": "11:36",
       "high_of_day": 18.645,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -140,7 +140,7 @@
       "entry_price": 18.44,
       "hod_before_signal": 18.415,
       "low_5m": 18.32,
-      "gap_pct": 5.88,
+      "gap_pct": 5.54,
       "catalyst": "China tech soars in 2025 as AI, EVs and AR lead the way."
     },
     {
@@ -152,8 +152,8 @@
       "yesterday_close": 250.69,
       "sma200": 243.4957,
       "premarket_high": 266.49,
-      "last_price": 266.335,
-      "last_bar_et": "11:05",
+      "last_price": 265.73,
+      "last_bar_et": "11:36",
       "high_of_day": 271.49,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -165,7 +165,7 @@
       "entry_price": 271.115,
       "hod_before_signal": 270.87,
       "low_5m": 268.91,
-      "gap_pct": 6.58,
+      "gap_pct": 5.99,
       "catalyst": "Yahoo Finance Executive Editor Brian Sozzi runs down three reasons why stocks are responding well to the midterm election results."
     },
     {
@@ -177,8 +177,8 @@
       "yesterday_close": 20.66,
       "sma200": 16.4527,
       "premarket_high": 21.79,
-      "last_price": 22.7169,
-      "last_bar_et": "11:05",
+      "last_price": 23.09,
+      "last_bar_et": "11:36",
       "high_of_day": 23.79,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -190,7 +190,7 @@
       "entry_price": 22.96,
       "hod_before_signal": 22.64,
       "low_5m": 22.14,
-      "gap_pct": 11.86,
+      "gap_pct": 12.63,
       "catalyst": "Strive has seen its share price move sharply in recent years, and the swings leave a clear question on the table for investors who look at fundamentals."
     },
     {
@@ -202,8 +202,8 @@
       "yesterday_close": 71.97,
       "sma200": 66.517,
       "premarket_high": 73.5,
-      "last_price": 76.255,
-      "last_bar_et": "11:05",
+      "last_price": 76.87,
+      "last_bar_et": "11:36",
       "high_of_day": 77.5896,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -215,7 +215,7 @@
       "entry_price": 77.44,
       "hod_before_signal": 77.05,
       "low_5m": 75.64,
-      "gap_pct": 6.42,
+      "gap_pct": 6.81,
       "catalyst": "AFRM looks poised for a fiscal Q1 earnings beat, fueled by rising GMV, growing active consumers and higher transaction volumes, despite elevated transaction costs."
     },
     {
@@ -227,9 +227,9 @@
       "yesterday_close": 3.28,
       "sma200": 1.992,
       "premarket_high": 3.32,
-      "last_price": 3.48,
-      "last_bar_et": "11:05",
-      "high_of_day": 3.52,
+      "last_price": 3.525,
+      "last_bar_et": "11:36",
+      "high_of_day": 3.53,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -240,7 +240,7 @@
       "entry_price": 3.47,
       "hod_before_signal": 3.46,
       "low_5m": 3.4148,
-      "gap_pct": 6.4,
+      "gap_pct": 6.86,
       "catalyst": "Plus, markets digest the blue tsunami."
     },
     {
@@ -252,9 +252,9 @@
       "yesterday_close": 5.73,
       "sma200": 8.5179,
       "premarket_high": 5.86,
-      "last_price": 6.065,
-      "last_bar_et": "11:05",
-      "high_of_day": 6.08,
+      "last_price": 6.08,
+      "last_bar_et": "11:35",
+      "high_of_day": 6.1,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -262,7 +262,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.85,
+      "gap_pct": 5.93,
       "catalyst": "Book value fell 19.6% amid mortgage market turmoil, but earnings covered the dividend."
     },
     {
@@ -274,8 +274,8 @@
       "yesterday_close": 14.1,
       "sma200": 19.9454,
       "premarket_high": 15.319,
-      "last_price": 14.855,
-      "last_bar_et": "11:05",
+      "last_price": 14.975,
+      "last_bar_et": "11:36",
       "high_of_day": 15.24,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -284,7 +284,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.17,
+      "gap_pct": 6.03,
       "catalyst": "AI giants are pouring an estimated $828b into data centers and chips this year, and that hardware buildout quietly leans on one workhorse metal."
     },
     {
@@ -296,8 +296,8 @@
       "yesterday_close": 27.08,
       "sma200": 38.0184,
       "premarket_high": 29.21,
-      "last_price": 28.72,
-      "last_bar_et": "11:05",
+      "last_price": 28.835,
+      "last_bar_et": "11:36",
       "high_of_day": 28.96,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -306,17 +306,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.54,
+      "gap_pct": 6.28,
       "catalyst": "Interest rates in Australia have climbed to their highest level since 2008 after the RBA moved the cash rate to 4.85%, which puts real pressure on weaker balance sheets and highly leveraged businesses."
-    },
-    {
-      "ticker": "AIOK",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 18 trading days of history (< 200 needed for SMA200)",
-      "history_days": 18,
-      "gap_pct": 5.51,
-      "catalyst": "No recent news catalyst found."
     },
     {
       "ticker": "ALIT",
@@ -327,8 +318,8 @@
       "yesterday_close": 10.12,
       "sma200": 15.8009,
       "premarket_high": 13.565,
-      "last_price": 14.9942,
-      "last_bar_et": "11:05",
+      "last_price": 14.0973,
+      "last_bar_et": "11:35",
       "high_of_day": 16.7799,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -337,7 +328,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 52.82,
+      "gap_pct": 39.92,
       "catalyst": "Alight Inc (ALIT) raised full-year guidance midpoints on disciplined execution and improved book retention, even as recurring revenue fell 6% and adjusted EBITDA margin narrowed to 17%."
     },
     {
@@ -349,8 +340,8 @@
       "yesterday_close": 6.05,
       "sma200": 11.0474,
       "premarket_high": 6.26,
-      "last_price": 6.43,
-      "last_bar_et": "11:05",
+      "last_price": 6.47,
+      "last_bar_et": "11:36",
       "high_of_day": 6.73,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -359,7 +350,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.12,
+      "gap_pct": 6.45,
       "catalyst": "The U.S."
     },
     {
@@ -371,8 +362,8 @@
       "yesterday_close": 169.91,
       "sma200": 165.5367,
       "premarket_high": 192.0,
-      "last_price": 178.285,
-      "last_bar_et": "11:05",
+      "last_price": 178.585,
+      "last_bar_et": "11:36",
       "high_of_day": 188.53,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -393,9 +384,9 @@
       "yesterday_close": 245.51,
       "sma200": 412.3089,
       "premarket_high": 251.74,
-      "last_price": 269.49,
-      "last_bar_et": "11:05",
-      "high_of_day": 271.2,
+      "last_price": 270.215,
+      "last_bar_et": "11:36",
+      "high_of_day": 271.7,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -403,7 +394,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.73,
+      "gap_pct": 10.05,
       "catalyst": "Key TakeawaysAppLovin is down 64% from its high, making it the worst performer in the S&P 500 this year."
     },
     {
@@ -415,13 +406,13 @@
       "yesterday_close": 4.64,
       "sma200": 6.8457,
       "premarket_high": 5.3,
-      "last_price": 5.245,
-      "last_bar_et": "11:05",
+      "last_price": 5.425,
+      "last_bar_et": "11:36",
       "high_of_day": 5.96,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
@@ -437,8 +428,8 @@
       "yesterday_close": 4.27,
       "sma200": 6.8506,
       "premarket_high": 4.68,
-      "last_price": 4.535,
-      "last_bar_et": "11:05",
+      "last_price": 4.555,
+      "last_bar_et": "11:36",
       "high_of_day": 4.7,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -447,8 +438,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.03,
-      "catalyst": "Mosaic's Q3 2026 earnings miss reflects higher raw material costs and lower sales volumes, while shrinking margins and cost pressures cloud its Q4 outlook."
+      "gap_pct": 6.44,
+      "catalyst": "L.B."
     },
     {
       "ticker": "B",
@@ -459,9 +450,9 @@
       "yesterday_close": 37.05,
       "sma200": 42.0159,
       "premarket_high": 39.25,
-      "last_price": 39.28,
-      "last_bar_et": "11:05",
-      "high_of_day": 39.52,
+      "last_price": 39.525,
+      "last_bar_et": "11:36",
+      "high_of_day": 39.5488,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -469,7 +460,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.5,
+      "gap_pct": 6.45,
       "catalyst": "US-listed gold mining stocks advanced sharply in premarket trading on Wednesday as gold prices climbed following the Democratic Party’s victory in both chambers of Congress during the US midterm elections."
     },
     {
@@ -481,8 +472,8 @@
       "yesterday_close": 100.36,
       "sma200": 125.565,
       "premarket_high": 105.37,
-      "last_price": 107.395,
-      "last_bar_et": "11:05",
+      "last_price": 106.405,
+      "last_bar_et": "11:36",
       "high_of_day": 107.7,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -491,52 +482,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.22,
-      "catalyst": "User choice and undisclosed commercial terms separate potential reach from earnings."
-    },
-    {
-      "ticker": "BCS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.5643,
-      "yesterday_high": 22.76,
-      "yesterday_close": 22.4,
-      "sma200": 24.826,
-      "premarket_high": 23.7,
-      "last_price": 23.5,
-      "last_bar_et": "11:05",
-      "high_of_day": 23.685,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.11,
-      "catalyst": "Investing.com -- Barclays started coverage of Italian chip-testing equipment maker Technoprobe (BIT:TPRO) with an “overweight” rating and a €40 price target, citing the company’s close to 100% share of probe cards used…"
-    },
-    {
-      "ticker": "BIDU",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.9364,
-      "yesterday_high": 77.38,
-      "yesterday_close": 76.97,
-      "sma200": 113.7282,
-      "premarket_high": 79.59,
-      "last_price": 80.7,
-      "last_bar_et": "11:05",
-      "high_of_day": 81.7,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.38,
-      "catalyst": "AI spending is now big enough to move interest rates."
+      "gap_pct": 6.14,
+      "catalyst": "Today's scheduled beta milestone precedes December's planned public release."
     },
     {
       "ticker": "BILI",
@@ -547,8 +494,8 @@
       "yesterday_close": 13.19,
       "sma200": 20.5311,
       "premarket_high": 14.0,
-      "last_price": 14.155,
-      "last_bar_et": "11:05",
+      "last_price": 14.055,
+      "last_bar_et": "11:36",
       "high_of_day": 14.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -557,8 +504,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.62,
+      "gap_pct": 6.6,
       "catalyst": "Gaiam (GAIA) delivered earnings and revenue surprises of +7.69% and +2.47%, respectively, for the quarter ended September 2026."
+    },
+    {
+      "ticker": "BKD",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3157,
+      "yesterday_high": 10.65,
+      "yesterday_close": 10.37,
+      "sma200": 13.3138,
+      "premarket_high": 11.0,
+      "last_price": 11.015,
+      "last_bar_et": "11:36",
+      "high_of_day": 11.035,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.98,
+      "catalyst": "Polen Capital Management LLC released its “Polen 5Perspectives Small Growth Strategy” Q2 2026 investor letter."
     },
     {
       "ticker": "BKNG",
@@ -569,9 +538,9 @@
       "yesterday_close": 155.67,
       "sma200": 176.3143,
       "premarket_high": 164.97,
-      "last_price": 172.37,
-      "last_bar_et": "11:05",
-      "high_of_day": 173.26,
+      "last_price": 171.395,
+      "last_bar_et": "11:36",
+      "high_of_day": 173.42,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -579,7 +548,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.26,
+      "gap_pct": 9.71,
       "catalyst": "Management flagged softer late-quarter travel demand even as flight bookings accelerated sharply."
     },
     {
@@ -591,8 +560,8 @@
       "yesterday_close": 20.53,
       "sma200": 20.8298,
       "premarket_high": 21.0,
-      "last_price": 21.76,
-      "last_bar_et": "11:05",
+      "last_price": 21.92,
+      "last_bar_et": "11:36",
       "high_of_day": 22.26,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -601,7 +570,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.36,
+      "gap_pct": 7.06,
       "catalyst": "Lee expects even AI stocks trading lower after the election to potentially reverse course by the end of the session."
     },
     {
@@ -613,8 +582,8 @@
       "yesterday_close": 56.5,
       "sma200": 50.2893,
       "premarket_high": 65.9,
-      "last_price": 59.95,
-      "last_bar_et": "11:05",
+      "last_price": 61.4475,
+      "last_bar_et": "11:36",
       "high_of_day": 68.98,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -623,7 +592,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 6.37,
+      "gap_pct": 7.57,
       "catalyst": "Although the revenue and EPS for Bruker (BRKR) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and…"
     },
     {
@@ -635,8 +604,8 @@
       "yesterday_close": 43.5,
       "sma200": 56.0656,
       "premarket_high": 45.47,
-      "last_price": 45.91,
-      "last_bar_et": "11:05",
+      "last_price": 45.93,
+      "last_bar_et": "11:36",
       "high_of_day": 46.97,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -645,7 +614,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.26,
+      "gap_pct": 5.75,
       "catalyst": "Boston Scientific's cyber disruption cuts Q3 growth and earnings, forcing lower 2026 guidance as management sees 2027 as the cycle's trough."
     },
     {
@@ -657,8 +626,8 @@
       "yesterday_close": 4.7,
       "sma200": 4.8312,
       "premarket_high": 5.03,
-      "last_price": 4.985,
-      "last_bar_et": "11:05",
+      "last_price": 5.02,
+      "last_bar_et": "11:36",
       "high_of_day": 5.04,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -667,7 +636,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.7,
+      "gap_pct": 6.38,
       "catalyst": "B2Gold has given long term holders a strong 63.1% gain over the past three years, yet that rise leaves a simple question for anyone looking at the ticker today."
     },
     {
@@ -679,8 +648,8 @@
       "yesterday_close": 3.79,
       "sma200": 5.3183,
       "premarket_high": 4.04,
-      "last_price": 4.16,
-      "last_bar_et": "11:05",
+      "last_price": 4.17,
+      "last_bar_et": "11:35",
       "high_of_day": 4.22,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -689,9 +658,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.89,
+      "gap_pct": 9.37,
       "catalyst": "StepStone Group (STEP) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report."
     }
   ],
-  "scan_time_et": "11:06"
+  "scan_time_et": "11:36"
 }
