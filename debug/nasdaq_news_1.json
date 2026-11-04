@@ -1,31 +1,31 @@
 {
   "ticker": "AIOK",
-  "saved_at_et": "2026-11-04T13:07:41-05:00",
+  "saved_at_et": "2026-11-04T13:37:20-05:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "7 days ago",
-          "created": "Oct 28, 2026",
-          "description": "Bargain hunters are wise to pay careful attention to insider buying, because although there are many various reasons for an insider to sell a stock, presumably the only reason they would use their hard-earned dollars to make a purchase, is that they expect to make money.  Today",
-          "id": 28660946,
+          "title": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "created": "Oct 28, 2026",
+          "ago": "Oct 28, 2026",
           "primarysymbol": "npb",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
           "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
           "related_symbols": [
             "npb|stocks",
             "aiok|stocks"
           ],
-          "title": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
-          "url": "/articles/wednesday-10-28-insider-buying-report-npb-aiok"
+          "url": "/articles/wednesday-10-28-insider-buying-report-npb-aiok",
+          "id": 28660946,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Bargain hunters are wise to pay careful attention to insider buying, because although there are many various reasons for an insider to sell a stock, presumably the only reason they would use their hard-earned dollars to make a purchase, is that they expect to make money.  Today",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
         }
       ],
-      "totalrecords": 1
+      "totalrecords": 1,
+      "message": null
     },
     "message": null,
     "status": {
