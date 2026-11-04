@@ -1,32 +1,32 @@
 {
-  "ticker": "DUOL",
-  "saved_at_et": "2026-11-04T09:34:58-05:00",
+  "ticker": "ARRY",
+  "saved_at_et": "2026-11-04T10:06:07-05:00",
   "response": [
     {
-      "id": "227d80e0-1413-4b14-8ee6-2ead03b16df9",
+      "id": "9b6ac460-b21d-343d-8a6d-ad9dabdb3871",
       "content": {
-        "id": "227d80e0-1413-4b14-8ee6-2ead03b16df9",
+        "id": "9b6ac460-b21d-343d-8a6d-ad9dabdb3871",
         "contentType": "STORY",
-        "title": "Earnings live updates: Duolingo stock jumps on user growth, upbeat guidance",
+        "title": "SolarEdge Technologies' Q3 Earnings Top Estimates, Revenues Fall Y/Y",
         "description": null,
-        "summary": "The third quarter earnings season is over halfway done, and the reports continue to pour in.",
-        "pubDate": "2026-11-02T21:28:56Z",
-        "displayTime": "2026-11-04T00:07:37Z",
+        "summary": "SEDG returns to profitability in Q3 as gross margins expand and cash flow remains positive, but a weak Q4 outlook signals persistent demand challenges.",
+        "pubDate": "2026-11-04T13:39:00Z",
+        "displayTime": "2026-11-04T13:39:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/8e1ab1a1-3824-4883-bee2-58af42a05d49",
-          "originalWidth": 4044,
-          "originalHeight": 2696,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/b4bedf4db9a58f51d3958fe1b2d26972.jpg",
+          "originalWidth": 635,
+          "originalHeight": 400,
           "resolutions": [
             {
-              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/8e1ab1a1-3824-4883-bee2-58af42a05d49",
-              "width": 4044,
-              "height": 2696,
+              "url": "https://media.zenfs.com/en/zacks.com/b4bedf4db9a58f51d3958fe1b2d26972.jpg",
+              "width": 635,
+              "height": 400,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/d0a8ae89496f78b074ef1c574c9ef7da4b09278cc07c34e2e4e6f50702494726/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F8e1ab1a1-3824-4883-bee2-58af42a05d49",
+              "url": "https://s.yimg.com/lo/mysterio/api/9f2c5fd9f7387fa3e1248e7e12afebb94079c2c45d43c7e351ff7096585213b7/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fb4bedf4db9a58f51d3958fe1b2d26972.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-apple-palantir-roku-and-more-212856249.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/solaredge-technologies-q3-earnings-top-133900849.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-apple-palantir-roku-and-more-212856249.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/solaredge-technologies-q3-earnings-top-133900849.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,76 +49,46 @@
           },
           "stockTickers": [
             {
-              "symbol": "DUOL"
+              "symbol": "SEDG"
             },
             {
-              "symbol": "ROKU"
+              "symbol": "FSLR"
             },
             {
-              "symbol": "^GSPC"
+              "symbol": "ENPH"
             },
             {
-              "symbol": "AAPL"
-            },
-            {
-              "symbol": "PLTR"
-            },
-            {
-              "symbol": "AMD"
-            },
-            {
-              "symbol": "ARM"
-            },
-            {
-              "symbol": "MCD"
-            },
-            {
-              "symbol": "NVO"
-            },
-            {
-              "symbol": "UBER"
-            },
-            {
-              "symbol": "TM"
-            },
-            {
-              "symbol": "COP"
-            },
-            {
-              "symbol": "MRNA"
-            },
-            {
-              "symbol": "QCOM"
+              "symbol": "ARRY"
             }
           ]
         }
       }
     },
     {
-      "id": "f48cfc3e-e887-3630-ba52-a42f6338afba",
+      "id": "3d6d2aab-c068-30cc-9577-4f5def84bfc1",
       "content": {
-        "id": "f48cfc3e-e887-3630-ba52-a42f6338afba",
+        "id": "3d6d2aab-c068-30cc-9577-4f5def84bfc1",
         "contentType": "STORY",
-        "title": "Buy, Sell, or Hold? Wednesday’s Top Upgrades and Downgrades: Adobe, Apple, Duolingo, Exxon Mobil, Fiserv, Fortinet, Gartner, Lockheed Martin, Skyworks Solutions, Visa and More",
+        "title": "Array Technologies, Inc. (ARRY) Misses Q3 Earnings Estimates",
         "description": null,
-        "summary": "Wall Street analysts shifted their stances on some of the market's most closely watched names Wednesday, with surprising cuts hitting stocks many investors still consider safe bets and fresh upgrades landing on names that have struggled all year.",
-        "pubDate": "2026-11-04T12:51:38Z",
-        "displayTime": "2026-11-04T12:51:38Z",
+        "summary": "Array Technologies (ARRY) delivered earnings and revenue surprises of -40.00% and +2.49%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+        "pubDate": "2026-11-04T12:55:02Z",
+        "displayTime": "2026-11-04T12:55:02Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/0347fce6d81fa4ee16c290ba9c9ca05b.jpg",
-          "originalWidth": 1500,
-          "originalHeight": 999,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462.jpg",
+          "originalWidth": 900,
+          "originalHeight": 600,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/24_7_wall_st__718/0347fce6d81fa4ee16c290ba9c9ca05b.jpg",
-              "width": 1500,
-              "height": 999,
+              "url": "https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462.jpg",
+              "width": 900,
+              "height": 600,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/1131e43e05006fb322a286cabc5c68cba907430ed0ca7762eb2c5911b38b317f/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F0347fce6d81fa4ee16c290ba9c9ca05b.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/8de6dfc1f91e6a070b2f9f1cec8ee9b8fdcd689422253ee7b07de4e9444d0307/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F2a50596f066181e48e4ae0ad6be00462.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -126,14 +96,14 @@
           ]
         },
         "provider": {
-          "displayName": "24/7 Wall St.",
-          "url": "https://247wallst.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://247wallst.com/investing/2026/11/04/buy-sell-or-hold-wednesdays-top-upgrades-and-downgrades-adobe-apple-duolingo-exxon-mobil-fiserv-fortinet-gartner-lockheed-martin-skyworks-solutions-visa-and-more/"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/array-technologies-inc-arry-misses-125502681.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-wednesday-top-125138202.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/array-technologies-inc-arry-misses-125502681.html"
         },
         "finance": {
           "premiumFinance": {
@@ -141,76 +111,40 @@
           },
           "stockTickers": [
             {
-              "symbol": "AAPL"
+              "symbol": "ARRY"
             },
             {
-              "symbol": "ADBE"
-            },
-            {
-              "symbol": "LMT"
-            },
-            {
-              "symbol": "SWKS"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "DUOL"
-            },
-            {
-              "symbol": "XOM"
-            },
-            {
-              "symbol": "FISV"
-            },
-            {
-              "symbol": "FTNT"
-            },
-            {
-              "symbol": "V"
-            },
-            {
-              "symbol": "EW"
-            },
-            {
-              "symbol": "INSM"
-            },
-            {
-              "symbol": "IT"
-            },
-            {
-              "symbol": "STZ"
+              "symbol": "CSIQ"
             }
           ]
         }
       }
     },
     {
-      "id": "48004128-8029-3d23-abca-1dfa996b404c",
+      "id": "b65574cf-3fe4-308e-bc8d-3f93e7fcbd67",
       "content": {
-        "id": "48004128-8029-3d23-abca-1dfa996b404c",
+        "id": "b65574cf-3fe4-308e-bc8d-3f93e7fcbd67",
         "contentType": "STORY",
-        "title": "Why Duolingo’s Earnings Miss  Isn’t Holding Back the Stock",
+        "title": "FTC Solar (FTCI) Reports Q3 Loss, Tops Revenue Estimates",
         "description": null,
-        "summary": "Shares of the language-learning platform popped in after-hours trading.",
-        "pubDate": "2026-11-04T12:08:00Z",
-        "displayTime": "2026-11-04T12:08:00Z",
-        "isHosted": false,
-        "previewUrl": "https://finance.yahoo.com/m/48004128-8029-3d23-abca-1dfa996b404c/why-duolingo-s-earnings-miss-.html",
+        "summary": "FTC Solar (FTCI) delivered earnings and revenue surprises of -2.33% and +0.38%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+        "pubDate": "2026-11-04T11:50:02Z",
+        "displayTime": "2026-11-04T11:50:02Z",
+        "isHosted": true,
+        "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/Barrons.com/93311e4200aaa583c4f39e135d0a8ab9.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 640,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee.jpg",
+          "originalWidth": 900,
+          "originalHeight": 876,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/Barrons.com/93311e4200aaa583c4f39e135d0a8ab9.jpg",
-              "width": 1280,
-              "height": 640,
+              "url": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee.jpg",
+              "width": 900,
+              "height": 876,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/6ab61e67bac3c102ad2671f59c8f9d0947dccb7f30407b8878c71e302c39910d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F93311e4200aaa583c4f39e135d0a8ab9.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/48423b108f276986ab522a0ffd83c6bfda4ef1f8c4b40e9662692c9d64446e89/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fd0d4ab152198da2f423d92da8a7d22ee.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -218,20 +152,25 @@
           ]
         },
         "provider": {
-          "displayName": "Barrons.com",
-          "url": "http://www.barrons.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.barrons.com/articles/duolingo-earnings-stock-price-5d81b64a?siteid=yhoof2&yptr=yahoo"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ftc-solar-ftci-reports-q3-115002255.html"
         },
-        "clickThroughUrl": null,
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ftc-solar-ftci-reports-q3-115002255.html"
+        },
         "finance": {
           "premiumFinance": {
             "isPremiumNews": false
           },
           "stockTickers": [
             {
-              "symbol": "DUOL"
+              "symbol": "FTCI"
+            },
+            {
+              "symbol": "ARRY"
             }
           ]
         }
