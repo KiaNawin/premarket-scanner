@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-05",
-  "generated_at_et": "2026-11-05 13:05:45 EST",
+  "generated_at_et": "2026-11-05 13:35:36 EST",
   "source_premarket_file": "premarket_scan_2026-11-05.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -11,27 +11,27 @@
     "Signal only after 10:00 AM ET"
   ],
   "candidates": 26,
-  "valid_count": 4,
+  "valid_count": 3,
   "valid_entries": [
     {
       "ticker": "DNUT",
       "signal_time_et": "2026-11-05 10:01",
       "entry_price": 4.375,
-      "last_price": 4.9,
-      "gap_pct": 38.68,
+      "last_price": 5.015,
+      "gap_pct": 40.91,
       "yesterday_high": 3.52,
       "yesterday_close": 3.52,
       "sma200": 3.3379,
       "premarket_high": 3.66,
       "hod_before_signal": 4.37,
-      "catalyst": "CEO Josh Charlesworth highlighted growth in systemwide sales, international franchise expansion, lower leverage and improved free cash flow year over year."
+      "catalyst": "Free cash flow swung sharply higher while inflation and fuel costs pressure the outlook."
     },
     {
       "ticker": "TKNO",
       "signal_time_et": "2026-11-05 10:06",
       "entry_price": 7.76,
-      "last_price": 7.865,
-      "gap_pct": 5.97,
+      "last_price": 7.95,
+      "gap_pct": 8.01,
       "yesterday_high": 7.64,
       "yesterday_close": 7.37,
       "sma200": 4.9414,
@@ -40,30 +40,17 @@
       "catalyst": "Biopharma demand lifted results and a $46 million raise bolstered the balance sheet."
     },
     {
-      "ticker": "BSY",
-      "signal_time_et": "2026-11-05 10:07",
-      "entry_price": 47.805,
-      "last_price": 45.485,
-      "gap_pct": 5.16,
-      "yesterday_high": 43.94,
-      "yesterday_close": 43.64,
-      "sma200": 34.398,
-      "premarket_high": 46.7999,
-      "hod_before_signal": 47.69,
-      "catalyst": "Bentley Systems (NASDAQ:BSY) reported accelerating annual recurring revenue growth in the third quarter of 2026 and raised its full-year growth outlook, citing demand for infrastructure software and large expansions in…"
-    },
-    {
       "ticker": "PTLO",
       "signal_time_et": "2026-11-05 10:46",
       "entry_price": 6.575,
-      "last_price": 6.365,
-      "gap_pct": 16.97,
+      "last_price": 6.555,
+      "gap_pct": 20.28,
       "yesterday_high": 5.55,
       "yesterday_close": 5.45,
       "sma200": 4.823,
       "premarket_high": 6.1999,
       "hod_before_signal": 6.535,
-      "catalyst": "By Karen Roman Portillo’s Inc."
+      "catalyst": "The move is part of a strategic plan to strengthen fundamentals, as CEO Brett Patterson resets the growth path for the fast-casual chain."
     }
   ],
   "evaluated": [
@@ -76,9 +63,9 @@
       "yesterday_close": 3.52,
       "sma200": 3.3379,
       "premarket_high": 3.66,
-      "last_price": 4.9,
-      "last_bar_et": "13:05",
-      "high_of_day": 5.02,
+      "last_price": 5.015,
+      "last_bar_et": "13:35",
+      "high_of_day": 5.03,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -89,8 +76,8 @@
       "entry_price": 4.375,
       "hod_before_signal": 4.37,
       "low_5m": 4.25,
-      "gap_pct": 38.68,
-      "catalyst": "CEO Josh Charlesworth highlighted growth in systemwide sales, international franchise expansion, lower leverage and improved free cash flow year over year."
+      "gap_pct": 40.91,
+      "catalyst": "Free cash flow swung sharply higher while inflation and fuel costs pressure the outlook."
     },
     {
       "ticker": "TKNO",
@@ -101,9 +88,9 @@
       "yesterday_close": 7.37,
       "sma200": 4.9414,
       "premarket_high": 7.37,
-      "last_price": 7.865,
-      "last_bar_et": "13:04",
-      "high_of_day": 7.99,
+      "last_price": 7.95,
+      "last_bar_et": "13:34",
+      "high_of_day": 8.015,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -114,33 +101,8 @@
       "entry_price": 7.76,
       "hod_before_signal": 7.66,
       "low_5m": 7.45,
-      "gap_pct": 5.97,
+      "gap_pct": 8.01,
       "catalyst": "Biopharma demand lifted results and a $46 million raise bolstered the balance sheet."
-    },
-    {
-      "ticker": "BSY",
-      "status": "VALID_ENTRY",
-      "signal": true,
-      "atr14": 1.4275,
-      "yesterday_high": 43.94,
-      "yesterday_close": 43.64,
-      "sma200": 34.398,
-      "premarket_high": 46.7999,
-      "last_price": 45.485,
-      "last_bar_et": "13:05",
-      "high_of_day": 48.17,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "signal_time_et": "2026-11-05 10:07",
-      "entry_price": 47.805,
-      "hod_before_signal": 47.69,
-      "low_5m": 47.06,
-      "gap_pct": 5.16,
-      "catalyst": "Bentley Systems (NASDAQ:BSY) reported accelerating annual recurring revenue growth in the third quarter of 2026 and raised its full-year growth outlook, citing demand for infrastructure software and large expansions in…"
     },
     {
       "ticker": "PTLO",
@@ -151,8 +113,8 @@
       "yesterday_close": 5.45,
       "sma200": 4.823,
       "premarket_high": 6.1999,
-      "last_price": 6.365,
-      "last_bar_et": "13:05",
+      "last_price": 6.555,
+      "last_bar_et": "13:35",
       "high_of_day": 6.765,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -164,8 +126,8 @@
       "entry_price": 6.575,
       "hod_before_signal": 6.535,
       "low_5m": 6.41,
-      "gap_pct": 16.97,
-      "catalyst": "By Karen Roman Portillo’s Inc."
+      "gap_pct": 20.28,
+      "catalyst": "The move is part of a strategic plan to strengthen fundamentals, as CEO Brett Patterson resets the growth path for the fast-casual chain."
     },
     {
       "ticker": "ADMA",
@@ -176,8 +138,8 @@
       "yesterday_close": 10.48,
       "sma200": 10.8594,
       "premarket_high": 13.86,
-      "last_price": 13.54,
-      "last_bar_et": "13:05",
+      "last_price": 13.59,
+      "last_bar_et": "13:35",
       "high_of_day": 13.77,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -186,8 +148,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 29.91,
-      "catalyst": "ADMA Biologics Inc (ADMA) posted 13% sequential revenue growth to $141.1 million with gross margin jumping to 71%, prompting an increase in full-year 2026 adjusted EBITDA and net income guidance."
+      "gap_pct": 29.96,
+      "catalyst": "ASCENIV demand surged while BIVIGAM faced pressure, and receivables lagged the target range."
     },
     {
       "ticker": "AEHL",
@@ -198,17 +160,17 @@
       "yesterday_close": 6.27,
       "sma200": 23.562,
       "premarket_high": 13.48,
-      "last_price": 17.59,
-      "last_bar_et": "13:01",
-      "high_of_day": 17.59,
+      "last_price": 17.13,
+      "last_bar_et": "13:35",
+      "high_of_day": 18.6299,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 162.73,
+      "gap_pct": 159.98,
       "catalyst": "Investing.com -- Antelope Enterprise Holdings Ltd (NASDAQ:AEHL) shares fell 5.5% in after-hours trading Thursday following the company's announcement of a $100 million at-the-market share offering program."
     },
     {
@@ -220,8 +182,8 @@
       "yesterday_close": 3.5,
       "sma200": 4.2938,
       "premarket_high": 3.84,
-      "last_price": 3.71,
-      "last_bar_et": "13:05",
+      "last_price": 3.7265,
+      "last_bar_et": "13:35",
       "high_of_day": 3.96,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -230,7 +192,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.86,
+      "gap_pct": 7.57,
       "catalyst": "Alto Ingredients Inc (ALTO) delivered positive profitability in Q3 2026, reduced debt by $26.5 million year-to-date, and expects at least $20 million in net 45Z tax credit earnings for the full year."
     },
     {
@@ -242,8 +204,8 @@
       "yesterday_close": 271.75,
       "sma200": 410.84,
       "premarket_high": 350.25,
-      "last_price": 345.255,
-      "last_bar_et": "13:05",
+      "last_price": 350.045,
+      "last_bar_et": "13:35",
       "high_of_day": 365.33,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -252,30 +214,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 27.14,
+      "gap_pct": 28.56,
       "catalyst": "AppLovin shares soared after the mobile app marketing company posted better-than-expected Q3 results."
     },
     {
-      "ticker": "BKSY",
+      "ticker": "APYX",
       "status": "FAIL",
       "signal": false,
-      "atr14": 1.2286,
-      "yesterday_high": 17.8,
-      "yesterday_close": 16.77,
-      "sma200": 27.1234,
-      "premarket_high": 21.1061,
-      "last_price": 17.42,
-      "last_bar_et": "13:05",
-      "high_of_day": 19.07,
+      "atr14": 0.15,
+      "yesterday_high": 2.67,
+      "yesterday_close": 2.59,
+      "sma200": 3.5814,
+      "premarket_high": 2.77,
+      "last_price": 3.025,
+      "last_bar_et": "13:35",
+      "high_of_day": 3.107,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.16,
-      "catalyst": "BlackSky Technology (BKSY) delivered earnings and revenue surprises of 0.00% and +8.23%, respectively, for the quarter ended September 2026."
+      "gap_pct": 16.1,
+      "catalyst": "Moby summary of Apyx Medical Corporation's Q3 2026 earnings call."
     },
     {
       "ticker": "CHSN",
@@ -286,8 +248,8 @@
       "yesterday_close": 3.36,
       "sma200": 75.8636,
       "premarket_high": 3.55,
-      "last_price": 3.67,
-      "last_bar_et": "13:05",
+      "last_price": 3.5503,
+      "last_bar_et": "13:35",
       "high_of_day": 4.0,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -296,7 +258,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.37,
+      "gap_pct": 10.12,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -308,8 +270,8 @@
       "yesterday_close": 3.51,
       "sma200": 2.8663,
       "premarket_high": 3.77,
-      "last_price": 3.725,
-      "last_bar_et": "13:03",
+      "last_price": 3.74,
+      "last_bar_et": "13:35",
       "high_of_day": 3.91,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -318,8 +280,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 6.41,
-      "catalyst": "Cronos (CRON) delivered earnings and revenue surprises of +33.33% and +33.68%, respectively, for the quarter ended September 2026."
+      "gap_pct": 6.98,
+      "catalyst": "With tech stocks under pressure after the sharp selloff in chip and AI related shares, investors are paying closer attention to areas where pricing often depends more on clinical data and long development cycles than…"
     },
     {
       "ticker": "DTIL",
@@ -330,8 +292,8 @@
       "yesterday_close": 8.12,
       "sma200": 6.5878,
       "premarket_high": 8.793,
-      "last_price": 9.85,
-      "last_bar_et": "13:05",
+      "last_price": 9.75,
+      "last_bar_et": "13:35",
       "high_of_day": 11.29,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -340,7 +302,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 20.69,
+      "gap_pct": 21.18,
       "catalyst": "(AP) — Precision BioSciences Inc."
     },
     {
@@ -352,8 +314,8 @@
       "yesterday_close": 137.36,
       "sma200": 120.8714,
       "premarket_high": 172.0,
-      "last_price": 164.02,
-      "last_bar_et": "13:05",
+      "last_price": 165.0,
+      "last_bar_et": "13:35",
       "high_of_day": 168.56,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -362,7 +324,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 19.31,
+      "gap_pct": 20.22,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -374,8 +336,8 @@
       "yesterday_close": 37.53,
       "sma200": 36.4281,
       "premarket_high": 43.55,
-      "last_price": 39.995,
-      "last_bar_et": "13:05",
+      "last_price": 40.185,
+      "last_bar_et": "13:35",
       "high_of_day": 43.25,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -384,7 +346,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 6.58,
+      "gap_pct": 8.38,
       "catalyst": "Servier said it will review all data for the drug in BMD to better characterise the findings."
     },
     {
@@ -396,8 +358,8 @@
       "yesterday_close": 7.93,
       "sma200": 16.8102,
       "premarket_high": 9.5,
-      "last_price": 8.69,
-      "last_bar_et": "13:05",
+      "last_price": 8.75,
+      "last_bar_et": "13:35",
       "high_of_day": 9.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -406,8 +368,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.82,
-      "catalyst": "While the top- and bottom-line numbers for Six Flags Entertainment Corporation (FUN) give a sense of how the business performed in the quarter ended September 2026, it could be worth looking at how some of its key…"
+      "gap_pct": 10.09,
+      "catalyst": "Six Flags’ third-quarter losses rose from the previous quarter, with the amusement park giant reporting a net loss of $366 million, about $163 million more than in Q2."
     },
     {
       "ticker": "FWONK",
@@ -418,8 +380,8 @@
       "yesterday_close": 98.93,
       "sma200": 92.0003,
       "premarket_high": 109.99,
-      "last_price": 105.615,
-      "last_bar_et": "13:05",
+      "last_price": 104.96,
+      "last_bar_et": "13:34",
       "high_of_day": 108.35,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -428,7 +390,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 6.49,
+      "gap_pct": 6.15,
       "catalyst": "Reservoir Media (RSVR) delivered earnings and revenue surprises of +75.00% and +2.47%, respectively, for the quarter ended September 2026."
     },
     {
@@ -440,9 +402,9 @@
       "yesterday_close": 2.93,
       "sma200": 1.302,
       "premarket_high": 3.5,
-      "last_price": 3.1,
-      "last_bar_et": "13:04",
-      "high_of_day": 3.375,
+      "last_price": 3.35,
+      "last_bar_et": "13:30",
+      "high_of_day": 3.55,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": true,
@@ -450,7 +412,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 7.17,
+      "gap_pct": 14.33,
       "catalyst": "The United States market has shown impressive growth, with a 1.1% increase over the last week and a substantial 27% rise over the past year, alongside expectations for earnings to grow by 17% annually in the coming…"
     },
     {
@@ -462,8 +424,8 @@
       "yesterday_close": 22.79,
       "sma200": 17.7141,
       "premarket_high": 26.0,
-      "last_price": 27.7205,
-      "last_bar_et": "13:05",
+      "last_price": 27.39,
+      "last_bar_et": "13:35",
       "high_of_day": 28.17,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -472,7 +434,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 21.9,
+      "gap_pct": 20.58,
       "catalyst": "Magnite's infrastructure overhaul cut streaming processing cost per ad request by over half, a lever that could matter most if margin gains hold."
     },
     {
@@ -484,8 +446,8 @@
       "yesterday_close": 8.79,
       "sma200": 12.2852,
       "premarket_high": 11.0868,
-      "last_price": 9.315,
-      "last_bar_et": "13:05",
+      "last_price": 9.635,
+      "last_bar_et": "13:35",
       "high_of_day": 10.63,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -494,7 +456,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.86,
+      "gap_pct": 9.81,
       "catalyst": "Direct sales returned to growth as management narrowed its full-year cash generation outlook."
     },
     {
@@ -506,8 +468,8 @@
       "yesterday_close": 136.69,
       "sma200": 109.5383,
       "premarket_high": 179.9,
-      "last_price": 156.755,
-      "last_bar_et": "13:05",
+      "last_price": 158.58,
+      "last_bar_et": "13:35",
       "high_of_day": 178.55,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -516,7 +478,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 14.86,
+      "gap_pct": 16.28,
       "catalyst": "Subscriber growth and AI productivity gains marked the quarter's standout trends."
     },
     {
@@ -528,8 +490,8 @@
       "yesterday_close": 25.95,
       "sma200": 22.3143,
       "premarket_high": 27.78,
-      "last_price": 27.49,
-      "last_bar_et": "13:05",
+      "last_price": 27.565,
+      "last_bar_et": "13:35",
       "high_of_day": 28.3016,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -538,7 +500,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.95,
+      "gap_pct": 6.36,
       "catalyst": "Operating income topped JPY 1 trillion in the first half, a first for the company."
     },
     {
@@ -550,8 +512,8 @@
       "yesterday_close": 9.84,
       "sma200": 6.8557,
       "premarket_high": 13.2774,
-      "last_price": 11.98,
-      "last_bar_et": "13:03",
+      "last_price": 11.96,
+      "last_bar_et": "13:35",
       "high_of_day": 13.59,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -560,7 +522,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 21.95,
+      "gap_pct": 21.75,
       "catalyst": "TrueBlue Inc (TBI) beat guidance on both revenue and profitability, with all three segments expanding margins and energy revenue doubling year over year."
     },
     {
@@ -572,8 +534,8 @@
       "yesterday_close": 125.31,
       "sma200": 137.0686,
       "premarket_high": 146.04,
-      "last_price": 132.36,
-      "last_bar_et": "13:05",
+      "last_price": 133.905,
+      "last_bar_et": "13:35",
       "high_of_day": 144.23,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -582,8 +544,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.55,
-      "catalyst": "ANF vs."
+      "gap_pct": 6.25,
+      "catalyst": "Coach's momentum helped Tapestry beat targets and raise its outlook."
     },
     {
       "ticker": "U",
@@ -594,9 +556,9 @@
       "yesterday_close": 42.46,
       "sma200": 31.624,
       "premarket_high": 54.35,
-      "last_price": 47.79,
-      "last_bar_et": "13:05",
-      "high_of_day": 48.565,
+      "last_price": 48.27,
+      "last_bar_et": "13:35",
+      "high_of_day": 48.9068,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -604,8 +566,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 12.11,
-      "catalyst": "[IMAGE CREDIT: max-kegfire from Getty Images via Canva] Key TakeawaysUnity shares jumped 8% after third-quarter revenue rose 32% to $622 million and the company posted its first GAAP profit since its IPO."
+      "gap_pct": 13.91,
+      "catalyst": "Moby summary of Unity Software Inc.'s Q3 2026 earnings call."
     },
     {
       "ticker": "WRBY",
@@ -616,9 +578,9 @@
       "yesterday_close": 21.29,
       "sma200": 25.0803,
       "premarket_high": 26.2,
-      "last_price": 26.87,
-      "last_bar_et": "13:05",
-      "high_of_day": 27.28,
+      "last_price": 26.86,
+      "last_bar_et": "13:35",
+      "high_of_day": 27.44,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -626,8 +588,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 26.49,
+      "gap_pct": 26.47,
       "catalyst": "Warby Parker (WRBY) delivered earnings and revenue surprises of +22.22% and +0.02%, respectively, for the quarter ended September 2026."
+    },
+    {
+      "ticker": "WU",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.1957,
+      "yesterday_high": 6.65,
+      "yesterday_close": 6.59,
+      "sma200": 8.0263,
+      "premarket_high": 6.84,
+      "last_price": 6.975,
+      "last_bar_et": "13:35",
+      "high_of_day": 7.58,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.69,
+      "catalyst": "Western Union's head of digital assets explains how the USDPT stablecoin cuts trapped capital and links crypto to cash."
     },
     {
       "ticker": "XERS",
@@ -638,8 +622,8 @@
       "yesterday_close": 10.46,
       "sma200": 7.5418,
       "premarket_high": 12.56,
-      "last_price": 13.075,
-      "last_bar_et": "13:05",
+      "last_price": 13.12,
+      "last_bar_et": "13:35",
       "high_of_day": 13.74,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -648,9 +632,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 25.48,
+      "gap_pct": 25.72,
       "catalyst": "Xeris raised its FY 2026 revenue forecast to $395 million to $405 million, from $385 million to $390 million."
     }
   ],
-  "scan_time_et": "13:05"
+  "scan_time_et": "13:35"
 }
