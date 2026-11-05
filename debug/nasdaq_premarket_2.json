@@ -1,6 +1,6 @@
 {
   "ticker": "ACNT",
-  "saved_at_et": "2026-11-05T09:32:02-05:00",
+  "saved_at_et": "2026-11-05T10:02:06-05:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $13.74",
@@ -19,7 +19,7 @@
         },
         "rows": [
           {
-            "consolidated": "$14.77 +1.03 (+7.50%)",
+            "consolidated": "$14.5 +0.76 (+5.53%)",
             "volume": "647",
             "highPrice": "$16.155 (09:03:33 AM)",
             "lowPrice": "$14.5 (09:28:00 AM)",
@@ -35,6 +35,81 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "1"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "8"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "1"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "14"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "36"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "1"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "1"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "96"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "36"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "2"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "18"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "36"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "96"
+          },
+          {
+            "time": "09:28:00",
+            "price": "$14.5",
+            "shareVolume": "100"
+          },
           {
             "time": "09:04:50",
             "price": "$14.77",
