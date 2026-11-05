@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-11-05**
-3 valid entries out of 28 pre-market gappers (generated 2026-11-05 14:05:59 EST)
+3 valid entries out of 28 pre-market gappers (generated 2026-11-05 14:35:02 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
@@ -12,9 +12,9 @@ Not triggered:
 - AEHL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALTO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - APP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- ASPN: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
+- ASPN: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day
 - BKSY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- CRON: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
+- CRON: NO_SIGNAL — Failing now: price_above_high_of_day
 - DTIL: NO_SIGNAL — Failing now: price_above_high_of_day
 - EPAM: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - EWTX: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
