@@ -239,7 +239,8 @@ def levels(df: pd.DataFrame, cfg: dict) -> dict:
     yr = df.iloc[-252:]
     hi52, lo52 = _f(yr["High"].max()), _f(yr["Low"].min())
     sh, sl = swing_levels(df, lc["swing_lookback_days"], lc["pivot_bars"])
-    cands = {x for x in sh + sl + [m50, m200, hi52, lo52] if x is not None}
+    recent_low = _f(df["Low"].iloc[-lc["recent_low_days"]:].min())      # a stock below every swing low still
+    cands = {x for x in sh + sl + [m50, m200, hi52, lo52, recent_low] if x is not None}   # has its recent low
     below = [x for x in cands if x < p * (1 - 1e-6)]
     above = [x for x in cands if x > p * (1 + 1e-6)]
     supports = sorted(below, reverse=True)
@@ -248,8 +249,12 @@ def levels(df: pd.DataFrame, cfg: dict) -> dict:
     resistance = resistances[0] if resistances else None
     reasons = {}
     stop = support - lc["stop_atr_mult"] * a if support is not None and a is not None else None
+    stop_basis = f"support - {lc['stop_atr_mult']:g}xATR" if stop is not None else None
+    cap = lc["max_stop_atr_mult"]
+    if a is not None and (stop is None or p - stop > cap * a):        # support too far away (or none):
+        stop, stop_basis = p - cap * a, f"price - {cap:g}xATR (no support within {cap:g}xATR)"   # cap the risk
     if stop is None:
-        reasons["stop"] = "no support level below price" if support is None else "ATR not available"
+        reasons["stop"] = "ATR not available"
     at_high = hi52 is not None and p >= hi52 * (1 - 1e-3)
     if (at_high or resistance is None) and a is not None:
         target = p + lc["new_high_target_atr_mult"] * a
@@ -262,7 +267,7 @@ def levels(df: pd.DataFrame, cfg: dict) -> dict:
     if rr is None and "stop" not in reasons and "target" not in reasons:
         reasons["rr"] = "price at or below stop"
     return {"p": p, "atr": a, "m50": m50, "m200": m200, "hi": hi52, "lo": lo52, "rsi": rsi(c, lc["rsi_period"]),
-            "support": support, "resistance": resistance, "stop": stop, "target": target,
+            "support": support, "resistance": resistance, "stop": stop, "stop_basis": stop_basis, "target": target,
             "target_basis": target_basis, "rr": _f(rr), "swing_highs": sh, "swing_lows": sl, "_reasons": reasons,
             "supports": supports, "resistances": resistances}
 

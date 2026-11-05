@@ -275,6 +275,9 @@ holdings at past prices — not the account's real past) and `snapshots` (one ro
 Cash comes from **`portfolio/cash.csv`** (`account, currency, amount, as_of, note`; USD or THB) — edit it when your
 balances change.
 
+**Stop:** nearest support below the price (swing lows, SMA50/200, 52-week low and the 20-day low) minus 1×ATR14,
+but never more than 3×ATR14 below the price (`levels.max_stop_atr_mult`); `stop_basis` says which rule set it.
+
 **Late Yahoo data:** after the close, `run` checks that the benchmark (SPY) has a bar for the session that just
 ended; if not it waits and re-downloads (`data.stale_retries` x `stale_wait_seconds`, 3 x 2 min). Still missing ->
 `meta.last_bar_complete: false`, `meta.stale_reason`, and a "do not upload" line in the terminal and Telegram.

@@ -283,6 +283,7 @@ def cmd_run(args, cfg) -> int:
             "tt_score": tt["tt_score"], "tt_available": tt["tt_available"], "tt_checks": tt["tt_checks"],
             "rs_mansfield": A.r2(rs, 4), "ret3m_vs_spy": A.r2(r3), "ret6m_vs_spy": A.r2(r6),
             "support": A.r2(lv["support"], 4), "resistance": A.r2(lv["resistance"], 4), "stop": A.r2(lv["stop"], 4),
+            "stop_basis": lv["stop_basis"],
             "target": A.r2(lv["target"], 4), "target_basis": lv["target_basis"], "rr": A.r2(lv["rr"]),
             "gap_pct": A.r2(gap), "unrealized_pct": A.r2((px / p.avg_cost - 1) * 100) if p.avg_cost else None,
         })

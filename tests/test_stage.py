@@ -101,3 +101,29 @@ class StageHelpers(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class StopDistance(unittest.TestCase):
+    """A stock that fell below every swing low must not get a stop at its 52-week low (AAOI, 2026-11-04)."""
+    def _df(self, closes, rng=0.02):
+        import numpy as np
+        import pandas as pd
+        c = np.asarray(closes, float)
+        idx = pd.bdate_range(end="2026-11-03", periods=len(c))
+        return pd.DataFrame({"Open": c, "High": c * (1 + rng), "Low": c * (1 - rng), "Close": c}, index=idx)
+
+    def test_recent_low_is_a_support_and_stop_is_capped(self):
+        import numpy as np
+        from portfolio_stage import analysis as A
+        from portfolio_stage.config import DEFAULTS
+        cfg = {"levels": dict(DEFAULTS["levels"])}
+        crash = list(np.linspace(20, 230, 150)) + list(np.linspace(230, 64, 102))       # 52w low ~20, now 64
+        lv = A.levels(self._df(crash), cfg)
+        p, a = lv["p"], lv["atr"]
+        self.assertGreater(lv["support"], 50)                    # recent low, not the 52-week low near 20
+        self.assertLessEqual(p - lv["stop"], 3 * a + 1e-9)
+        far = list(np.linspace(100, 200, 252))           # smooth rally, tiny ATR: nearest support is far below
+        lv2 = A.levels(self._df(far, rng=0.001), cfg)
+        self.assertGreater(lv2["p"] - lv2["support"], 3 * lv2["atr"])
+        self.assertAlmostEqual(lv2["p"] - lv2["stop"], 3 * lv2["atr"], places=6)
+        self.assertIn("3xATR", lv2["stop_basis"])
