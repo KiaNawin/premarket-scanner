@@ -66,6 +66,14 @@ class OutputFormat(unittest.TestCase):
         return u
 
     analyst = {}
+    details_by = {}
+
+    def detail(self, yt):
+        base = {"profile": {"long_name": yt + " Inc", "sector": "Technology", "industry": "Software"},
+                "margins": {"fcf_margin_pct": 20.0}, "financials": {"quarterly": {}, "annual": {}},
+                "insider": {"transactions": [], "buys_6m": 0, "sells_6m": 0, "net_shares_6m": 0, "net_value_6m": 0},
+                "errors": {}}
+        return {**base, **self.details_by.get(yt, {})}
 
     def _run(self, script=PASS_SCRIPT, drop=(), fundamentals=False, universe=True, args_extra=None):
         if script is not None:
@@ -82,6 +90,8 @@ class OutputFormat(unittest.TestCase):
         def fetch(tickers, cfg, as_of, refresh=False, downloader=None):
             if cfg["paths"]["cache"].endswith("universe"):
                 return {t: uni[t] for t in tickers if t in uni}, {}
+            if "XLK" in tickers:
+                return {t: fake_prices(200 + i, start=100, drift=0.0004 * (i - 6)) for i, t in enumerate(tickers)}, {}
             if tickers == ["THB=X"]:
                 fx = fake_prices(7, start=33.0, drift=0.0)
                 return {"THB=X": fx}, {}
@@ -101,6 +111,7 @@ class OutputFormat(unittest.TestCase):
                 mock.patch.object(F, "fundamentals", side_effect=lambda yt, cfg: partial if yt == "CRWD" else full), \
                 mock.patch.object(EV, "earnings_events", return_value=([], None)), \
                 mock.patch.object(F, "analyst", side_effect=lambda yt, cfg, d: self.analyst.get(yt, {})), \
+                mock.patch("portfolio_stage.details.details", side_effect=lambda yt, cfg, d: self.detail(yt)), \
                 mock.patch.object(EV, "big_news", return_value=([], None)):
             rc = cli.cmd_run(args, self.cfg)
         out = os.path.join(self.cfg["paths"]["output"], cli._now_et().date().isoformat())

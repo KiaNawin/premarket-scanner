@@ -211,7 +211,9 @@ def cmd_run(args, cfg) -> int:
         ures = U.scan(cfg, as_of, now, bar_complete, refresh=args.refresh)
         rank_why = f"universe scan failed: {ures['error']}" if ures["error"] else None
 
-    rows, rel_ret = {}, {}
+    rows, rel_ret, sector_by_ticker = {}, {}, {}
+    from . import details as DT
+    from . import sectors as SC
     for t, p in held.items():
         yt = D.to_yahoo(t)
         m = meta.get(t, {})
@@ -219,7 +221,9 @@ def cmd_run(args, cfg) -> int:
         r = {"shares": round(p.shares, 6), "avg_cost": A.r2(p.avg_cost, 4), "group": m.get("group") or None,
              "tier": tier, "levels": {k: None for k in R.LEVEL_KEYS},
              "quality": None, **{k: None for k in SW.FIELDS}, "ret_rank_top_pct": None,
-             "valuation": None, "pe": None, "forward_pe": None, "ps": None, "null_reasons": {}}
+             "valuation": None, "pe": None, "forward_pe": None, "ps": None,
+             "quality_pct": None, "profile": None, "margins": None, "insider": None, "financials": None,
+             "null_reasons": {}}
         nr = r["null_reasons"]
         df = prices.get(yt)
         if df is None:
@@ -303,7 +307,7 @@ def cmd_run(args, cfg) -> int:
 
         fkeys = ("earnings_date", "mcap", "rev_growth", "ni", "fcf", "shares_chg")
         fu = None
-        vkeys = ("valuation", "pe", "forward_pe", "ps")
+        vkeys = ("valuation", "pe", "forward_pe", "ps", "quality_pct", "profile", "margins", "insider", "financials")
         if args.no_fundamentals:
             for k in fkeys + ("quality",) + vkeys:
                 nr[k] = "skipped (--no-fundamentals)"
@@ -339,6 +343,15 @@ def cmd_run(args, cfg) -> int:
             else:                 # quality is all 5 numbers or null — partial scores kept separately
                 r["quality_partial"] = qs
                 nr["quality"] = "incomplete: " + ", ".join(k for k, v in qs.items() if v is None)
+            r["quality_pct"] = DT.quality_pct(r["quality"])
+            if r["quality_pct"] is None:
+                nr["quality_pct"] = "needs all four business scores"
+            det = DT.details(yt, cfg, as_of)               # detail page: profile, margins, statements, insider
+            r.update(profile=det["profile"], margins=det["margins"], financials=det["financials"],
+                     insider=det["insider"])
+            if det.get("errors"):
+                nr["details"] = "; ".join(f"{k}: {v}" for k, v in det["errors"].items())[:300]
+            sector_by_ticker[t] = SC.sector_of(det["profile"], tier, cfg)
         # ---- this week's earnings & big news
         r["events"] = {"earnings": [], "news": [], "move_1w": None, "errors": []}
         ev = r["events"]
@@ -364,7 +377,8 @@ def cmd_run(args, cfg) -> int:
         r["rs_score"] = scores.get(t)
         nr = r["null_reasons"]
         for k in R.KEYS:                          # any remaining null gets a reason
-            if k in ("levels", "quality", "earnings_soon", "gaps_open", "first_retest", "valuation") or "all" in nr:
+            if k in ("levels", "quality", "earnings_soon", "gaps_open", "first_retest", "valuation", "profile", "margins",
+                     "insider", "financials") or "all" in nr:
                 continue
             if r.get(k) is None and k not in nr:
                 n = r.get("history_days") or 0
@@ -405,6 +419,14 @@ def cmd_run(args, cfg) -> int:
         import traceback
         traceback.print_exc()
         meta_out["summary"] = {"null_reasons": {"all": f"summary failed: {type(e).__name__}: {e}"}}
+    if cfg["sectors"]["enabled"]:                         # weekly sector rotation (price-based)
+        try:
+            etf_px = D.fetch_daily(list(cfg["sectors"]["etfs"]), cfg, as_of, refresh=args.refresh)[0]
+            meta_out["sectors"] = SC.build(etf_px, spy, fri, rows, sector_by_ticker, cfg)
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            meta_out["sectors"] = {"error": f"{type(e).__name__}: {e}"}
     meta_out["last_bar_complete"] = bar_complete
     meta_out["data_through"] = _last_bar_date(spy).isoformat() if _last_bar_date(spy) else None
     if stale_reason:
@@ -447,6 +469,17 @@ def cmd_run(args, cfg) -> int:
             if ures is not None:
                 N.send(U.telegram_text(as_of.isoformat(), ures, cfg["momentum"]["telegram_rows"]),
                        silent=tcfg.get("silent", False))
+            sec = meta_out.get("sectors") or {}
+            sent_path = os.path.join(cfg["paths"]["cache"], "sectors_sent.txt")
+            last_sent = ""
+            if os.path.exists(sent_path):
+                with open(sent_path, encoding="utf-8") as f:
+                    last_sent = f.read().strip()
+            if sec.get("rows") and sec["week_ending"] != last_sent:          # once per week
+                if N.send(SC.telegram_text(sec), silent=tcfg.get("silent", False)):
+                    os.makedirs(os.path.dirname(sent_path), exist_ok=True)
+                    with open(sent_path, "w", encoding="utf-8") as f:
+                        f.write(sec["week_ending"])
     return 0 if vres["ok"] else VALIDATION_FAILED
 
 

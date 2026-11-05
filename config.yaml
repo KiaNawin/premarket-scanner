@@ -115,6 +115,13 @@ portfolio:
   fx_ticker: THB=X                    # Yahoo USD/THB (baht per dollar)
   backcast_days: 756                  # "today's holdings at past prices" series for 6M/1Y/3Y charts
 
+sectors:                              # weekly sector rotation vs SPY (meta.sectors + Telegram once a week)
+  enabled: true
+  ratio_weeks: 10                     # rs_ratio = 100 x RS / 10-week average of RS (RS = ETF / SPY)
+  momentum_weeks: 4                   # rs_momentum = 100 x rs_ratio / 4-week average of rs_ratio
+  tail_weeks: 52                      # weekly path kept for the rotation chart
+  # etfs / Yahoo sector mapping: defaults in portfolio_stage/config.py (override here if needed)
+
 validator:
   script: tools/validate_output.py    # run automatically after every `run`
   holdings_csv: holdings.csv          # written from the ledger each run (ticker, shares, group, quality)

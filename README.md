@@ -278,6 +278,17 @@ balances change.
 **Stop:** nearest support below the price (swing lows, SMA50/200, 52-week low and the 20-day low) minus 1×ATR14,
 but never more than 3×ATR14 below the price (`levels.max_stop_atr_mult`); `stop_basis` says which rule set it.
 
+**Sector rotation** (`meta.sectors`, Telegram once a week): 11 SPDR sector ETFs + SMH vs SPY on weekly closes —
+excess return over 1/4/13 weeks, `rs_ratio` / `rs_momentum` and a quadrant (Leading · Weakening · Lagging ·
+Improving, like an RRG chart), a 52-week `tail` for the chart, and your portfolio weight in each sector (holdings are
+mapped by Yahoo sector; semiconductor industries -> SMH; ETFs -> other). Settings: `sectors:` in config.yaml.
+
+**Stock detail** (per ticker, refreshed weekly): `profile {long_name, sector, industry, exchange, country, website}`,
+`margins {fcf_margin_pct, op_margin_ttm_pct, gross_margin_ttm_pct, op_margin_fy_pct, op_margin_prev_fy_pct,
+op_margin_change_pts}`, `quality_pct` (average of the four business scores, valuation excluded),
+`financials {quarterly|annual: {income|balance|cashflow: {periods, line: [...]}}}` (newest first) and
+`insider {transactions, buys_6m, sells_6m, net_shares_6m, net_value_6m}`.
+
 **Late Yahoo data:** after the close, `run` checks that the benchmark (SPY) has a bar for the session that just
 ended; if not it waits and re-downloads (`data.stale_retries` x `stale_wait_seconds`, 3 x 2 min). Still missing ->
 `meta.last_bar_complete: false`, `meta.stale_reason`, and a "do not upload" line in the terminal and Telegram.
