@@ -1,12 +1,12 @@
 **Trend-join Long — 2026-11-05**
-4 valid entries out of 28 pre-market gappers (generated 2026-11-05 12:05:23 EST)
+4 valid entries out of 25 pre-market gappers (generated 2026-11-05 12:35:28 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| DNUT | 10:01 | $4.38 | +29.40% | By Karen Roman Krispy Kreme, Inc. |
-| TKNO | 10:06 | $7.76 | +6.58% | Biopharma demand lifted results and a $46 million raise bolstered the balance sheet. |
-| BSY | 10:07 | $47.80 | +6.57% | Bentley Systems, Incorporated (NASDAQ:BSY) reported third-quarter 2026 adjusted earnings of $0. |
-| PTLO | 10:46 | $6.58 | +22.20% | By Karen Roman Portillo’s Inc. |
+| DNUT | 10:01 | $4.38 | +39.06% | CEO Josh Charlesworth highlighted growth in systemwide sales, international franchise expansion, lower leverage and improved free cash flow year over year. |
+| TKNO | 10:06 | $7.76 | +6.65% | Biopharma demand lifted results and a $46 million raise bolstered the balance sheet. |
+| BSY | 10:07 | $47.80 | +5.50% | Bentley Systems (NASDAQ:BSY) reported accelerating annual recurring revenue growth in the third quarter of 2026 and raised its full-year growth outlook, citing demand for infrastructure software and large expansions in… |
+| PTLO | 10:46 | $6.58 | +21.19% | By Karen Roman Portillo’s Inc. |
 
 Not triggered:
 - ADMA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -15,13 +15,10 @@ Not triggered:
 - BKSY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CRON: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - DTIL: NO_SIGNAL — Failing now: price_above_high_of_day
-- ELPW: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - EPAM: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - EWTX: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - FUN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - FWONK: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
-- HLP: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day
-- IRWD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - MGNI: NO_SIGNAL — Failing now: price_above_high_of_day
 - RPD: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - RUN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
