@@ -289,6 +289,16 @@ op_margin_change_pts}`, `quality_pct` (average of the four business scores, valu
 `financials {quarterly|annual: {income|balance|cashflow: {periods, line: [...]}}}` (newest first) and
 `insider {transactions, buys_6m, sells_6m, net_shares_6m, net_value_6m}`.
 
+**Real cost (`portfolio/cost_basis.csv`):** the ledger starts from a value snapshot (28 Oct), so its OPENING price is
+that day's close, not what you paid. Put your Dime average cost per share (USD) in `avg_cost`; it replaces the
+OPENING price when holdings are computed (trades.csv is never rewritten), so `avg_cost`, `unrealized_pct`, cost and
+P/L become real. Each row says `cost_source` (`dime` / `opening snapshot`); `meta.cost_basis` lists tickers still
+on the snapshot. New holdings are added to the file with a blank cost automatically.
+
+**`last_bar_complete`:** true when the latest bar belongs to a closed session — after 16:00 ET, on non-trading days,
+and on pre-market runs (no bar for today yet, so yesterday's is final). False only when the data already has a
+bar dated today while the market is open, or when Yahoo's bar for a closed session is still missing.
+
 **Late Yahoo data:** after the close, `run` checks that the benchmark (SPY) has a bar for the session that just
 ended; if not it waits and re-downloads (`data.stale_retries` x `stale_wait_seconds`, 3 x 2 min). Still missing ->
 `meta.last_bar_complete: false`, `meta.stale_reason`, and a "do not upload" line in the terminal and Telegram.

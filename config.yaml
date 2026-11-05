@@ -8,6 +8,7 @@ paths:
   cache: cache
   slips: slips
   cash: portfolio/cash.csv            # cash balances — you edit this (account, currency, amount, as_of)
+  cost_basis: portfolio/cost_basis.csv  # real average cost per share from Dime (ticker, avg_cost) — you edit this
   history: portfolio/history.csv      # one row per run: stocks, cash, total (for the value chart)
 
 groups: [semi, tech, cyber, power, space, health, fin, def]

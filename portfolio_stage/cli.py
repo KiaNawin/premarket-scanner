@@ -34,13 +34,15 @@ def is_trading_day(d: dt.date) -> bool:
 
 
 def expected_session(now_et: dt.datetime) -> dt.date | None:
-    """The latest session whose daily bar should exist: today after 16:00 ET on a trading day, else the
-    previous trading day. None while today's session is still open (handled by last_bar_complete)."""
+    """The latest closed session whose daily bar should exist: today after 16:00 ET on a trading day; the
+    previous trading day before 09:30 or on a non-trading day. None while today's session is open."""
     d = now_et.date()
     if is_trading_day(d):
-        if now_et.time() < dt.time(16, 0):
+        if now_et.time() >= dt.time(16, 0):
+            return d
+        if now_et.time() >= dt.time(9, 30):
             return None
-        return d
+    d -= dt.timedelta(days=1)
     while not is_trading_day(d):
         d -= dt.timedelta(days=1)
     return d
@@ -52,9 +54,13 @@ def _last_bar_date(df) -> dt.date | None:
     return df.dropna(subset=["Close"]).index[-1].date()
 
 
-def last_bar_complete(now_et: dt.datetime) -> bool:
-    """False whenever the run happens before 16:00 ET on a US trading day (that day's bar isn't final yet)."""
-    return not (is_trading_day(now_et.date()) and now_et.time() < dt.time(16, 0))
+def last_bar_complete(now_et: dt.datetime, data_through: dt.date | None = None) -> bool:
+    """True when the latest bar in the data belongs to a session that has closed: any time after 16:00 ET or on a
+    non-trading day, and before 16:00 on a trading day only if the data has no bar for today yet (pre-market run
+    -> yesterday's bar is final). A bar dated today before 16:00 is still forming -> False."""
+    if not is_trading_day(now_et.date()) or now_et.time() >= dt.time(16, 0):
+        return True
+    return data_through is not None and data_through < now_et.date()
 
 
 def _last_completed_close(df, now_et: dt.datetime) -> tuple[float, dt.date]:
@@ -176,9 +182,14 @@ def cmd_run(args, cfg) -> int:
     if not trades:
         print(f"ยังไม่มี {cfg['paths']['trades']} — รัน: python -m portfolio_stage bootstrap dime_values.csv")
         return 1
+    cost_basis = L.read_cost_basis(cfg["paths"]["cost_basis"])          # real Dime cost replaces the
+    trades = L.apply_cost_basis(trades, cost_basis)                       # 28 Oct snapshot price
     pos = L.holdings(trades)
     held = {t: p for t, p in pos.items() if p.shares > L.EPS}
     L.ensure_meta(cfg["paths"]["meta"], list(held))
+    if L.ensure_cost_basis(cfg["paths"]["cost_basis"], list(held)):
+        print(f"เพิ่มหุ้นใน {cfg['paths']['cost_basis']} — กรอกต้นทุนเฉลี่ยจริงต่อหุ้น (USD) จาก Dime ในคอลัมน์ avg_cost")
+    no_cost = sorted(t for t in held if t not in cost_basis)
     meta = L.read_meta(cfg["paths"]["meta"])
     bench = cfg["benchmark"]
     prices, missing = D.fetch_daily(list(held) + [bench], cfg, as_of, refresh=args.refresh)
@@ -202,7 +213,7 @@ def cmd_run(args, cfg) -> int:
     quotes, q_err = D.fetch_quotes(list(held))
     etf_q = set(cfg["etf_qualities"])
     rsc = cfg["rs_score"]
-    bar_complete = last_bar_complete(now) and stale_reason is None
+    bar_complete = last_bar_complete(now, _last_bar_date(spy)) and stale_reason is None
     ures = None
     if getattr(args, "no_universe", False) or not cfg["universe"]["enabled"]:
         rank_why = "universe scan skipped (--no-universe)"
@@ -218,7 +229,8 @@ def cmd_run(args, cfg) -> int:
         yt = D.to_yahoo(t)
         m = meta.get(t, {})
         tier = m.get("quality") or None                    # letter A/B/C/EC/ET from meta.csv
-        r = {"shares": round(p.shares, 6), "avg_cost": A.r2(p.avg_cost, 4), "group": m.get("group") or None,
+        r = {"shares": round(p.shares, 6), "avg_cost": A.r2(p.avg_cost, 4),
+             "cost_source": "dime" if t in cost_basis else "opening snapshot", "group": m.get("group") or None,
              "tier": tier, "levels": {k: None for k in R.LEVEL_KEYS},
              "quality": None, **{k: None for k in SW.FIELDS}, "ret_rank_top_pct": None,
              "valuation": None, "pe": None, "forward_pe": None, "ps": None,
@@ -406,6 +418,9 @@ def cmd_run(args, cfg) -> int:
                 "total_value": A.r2(total), "positions": len(rows)}
     if q_err:
         meta_out["quote_error"] = q_err
+    meta_out["cost_basis"] = {"from_dime": len(held) - len(no_cost), "snapshot_only": no_cost,
+                              "note": "avg_cost = real Dime cost when set in portfolio/cost_basis.csv, otherwise the "
+                                      "price on the ledger's opening date"}
     try:                                                   # header card: totals, cash, FX, value history
         from . import summary as SM
         closed = [t for t in L.holdings(trades, include_closed=True) if t not in held]
@@ -449,8 +464,8 @@ def cmd_run(args, cfg) -> int:
         print(f"⚠️ last_bar_complete: false — {stale_reason} · ห้ามอัปโหลด ให้รันใหม่ภายหลัง: "
               "python -m portfolio_stage run --refresh")
     elif intraday:
-        print(f"⚠️ last_bar_complete: false — รันก่อน 16:00 ET ของวันทำการ ({now:%Y-%m-%d %H:%M} ET) "
-              "แท่งวันนี้ยังไม่จบ ราคาอาจเป็นราคาระหว่างวัน · ห้ามอัปโหลด ให้รันใหม่หลังตลาดปิด (หลัง 05:00 น. เวลาไทย)")
+        print(f"⚠️ last_bar_complete: false — ตลาดสหรัฐยังเปิดอยู่ ({now:%Y-%m-%d %H:%M} ET) แท่งวันนี้ยังไม่จบ "
+              "ราคาเป็นราคาระหว่างวัน · ห้ามอัปโหลด ให้รันใหม่หลังตลาดปิด (หลัง 05:00 น. เวลาไทย)")
     if miss_reasons:
         print(f"⚠️ ดึงข้อมูลไม่ได้: " + "; ".join(f"{t} ({why})" for t, why in miss_reasons.items()))
 

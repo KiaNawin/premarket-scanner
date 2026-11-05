@@ -377,6 +377,7 @@ class StaleBar(unittest.TestCase):
         f = lambda *a: cli.expected_session(cli.dt.datetime(*a, tzinfo=cli.ET))
         self.assertEqual(f(2026, 11, 4, 20, 33), cli.dt.date(2026, 11, 4))   # Wed after the close
         self.assertIsNone(f(2026, 11, 4, 11, 0))                             # session still open
+        self.assertEqual(f(2026, 11, 5, 1, 18), cli.dt.date(2026, 11, 4))    # pre-market -> yesterday's bar
         self.assertEqual(f(2026, 11, 7, 12, 0), cli.dt.date(2026, 11, 6))    # Saturday -> Friday
         self.assertEqual(f(2026, 11, 26, 18, 0), cli.dt.date(2026, 11, 25))  # Thanksgiving -> Wednesday
 
@@ -407,9 +408,13 @@ class StaleBar(unittest.TestCase):
 class LastBarComplete(unittest.TestCase):
     def test_rule(self):
         et = cli.ET
-        f = lambda y, mo, d, h, mi: cli.last_bar_complete(cli.dt.datetime(y, mo, d, h, mi, tzinfo=et))
-        self.assertFalse(f(2026, 10, 29, 15, 31))     # Thu, market open
-        self.assertFalse(f(2026, 10, 29, 8, 0))       # Thu, pre-market
+        d = cli.dt.date
+        f = lambda y, mo, dd, h, mi, data=d(2026, 10, 29): cli.last_bar_complete(
+            cli.dt.datetime(y, mo, dd, h, mi, tzinfo=et), data)
+        self.assertFalse(f(2026, 10, 29, 15, 31))     # Thu, market open, Yahoo already shows today's bar
+        self.assertTrue(f(2026, 10, 29, 15, 31, d(2026, 10, 28)))   # open, but no bar for today yet -> Wed is final
+        self.assertTrue(f(2026, 11, 5, 1, 18, d(2026, 11, 4)))      # pre-market run (the 2026-11-05 case)
+        self.assertFalse(f(2026, 10, 29, 8, 0, None))                # no data at all -> not complete
         self.assertTrue(f(2026, 10, 29, 16, 0))       # at the close
         self.assertTrue(f(2026, 10, 29, 19, 0))       # after the close (07:00 Bangkok next day)
         self.assertTrue(f(2026, 10, 31, 12, 0))       # Saturday

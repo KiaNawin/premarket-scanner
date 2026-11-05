@@ -74,3 +74,41 @@ class Summary(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CostBasis(unittest.TestCase):
+    """Real Dime cost replaces the opening-snapshot price (ledger file untouched)."""
+    def setUp(self):
+        self.t = OutputFormat("test_json_layout_and_p_matches_ohlc")
+        self.t.setUp()
+
+    def tearDown(self):
+        self.t.tearDown()
+
+    def test_template_then_real_cost(self):
+        from portfolio_stage import ledger as L
+        rc, out, doc, *_ = self.t._run()                                     # first run creates the template
+        path = self.t.cfg["paths"]["cost_basis"]
+        with open(path, encoding="utf-8") as f:
+            rows = list(csv.DictReader(f))
+        self.assertEqual(sorted(r["ticker"] for r in rows), ["BRK-B", "CRWD", "NVDA"])
+        self.assertTrue(all(r["avg_cost"] == "" for r in rows))
+        self.assertEqual(doc["meta"]["cost_basis"]["from_dime"], 0)
+        # the fixture's ledger has a BUY at $10, so make one OPENING row to override
+        trades = self.t.cfg["paths"]["trades"]
+        L.append_trades(trades, [{"datetime": "2025-12-01T16:00:00-05:00", "ticker": "MSFT", "side": "OPENING",
+                                  "shares": 2, "price": 500, "fee": 0}])
+        self.t.prices["MSFT"] = __import__("tests.test_output_format", fromlist=["x"]).fake_prices(11, start=480)
+        with open(path, "a", encoding="utf-8") as f:
+            f.write("MSFT,\"$300.50\",from Dime\n")
+        with open(self.t.cfg["paths"]["meta"], "a", encoding="utf-8") as f:
+            f.write("MSFT,tech,A\n")
+        read = lambda: __import__("pathlib").Path(trades).read_text(encoding="utf-8")
+        before = read()
+        rc, out, doc, *_ = self.t._run()
+        ms = doc["tickers"]["MSFT"]
+        self.assertEqual((ms["avg_cost"], ms["cost_source"]), (300.5, "dime"))
+        self.assertEqual(doc["tickers"]["NVDA"]["cost_source"], "opening snapshot")
+        self.assertEqual(doc["meta"]["cost_basis"]["from_dime"], 1)
+        self.assertAlmostEqual(ms["unrealized_pct"], round((ms["p"] / 300.5 - 1) * 100, 2), places=1)
+        self.assertEqual(read(), before)                                      # ledger never rewritten

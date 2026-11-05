@@ -161,3 +161,52 @@ def read_values_csv(path: str) -> dict[str, float]:
                 continue
             out[normalize_ticker(t)] = float(str(v).replace("$", "").replace(",", "").strip())
     return out
+
+
+# ----------------------------------------------------------------------------- real cost basis (from Dime)
+COST_COLUMNS = ["ticker", "avg_cost", "note"]
+
+
+def read_cost_basis(path: str) -> dict[str, float]:
+    """portfolio/cost_basis.csv: your real average cost per share (USD) as shown in Dime. Blank = not set."""
+    if not os.path.exists(path):
+        return {}
+    out = {}
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        for r in csv.DictReader(f):
+            try:
+                v = float(str(r.get("avg_cost") or "").replace(",", "").replace("$", ""))
+            except ValueError:
+                continue
+            if v > 0:
+                out[normalize_ticker(r["ticker"])] = v
+    return out
+
+
+def ensure_cost_basis(path: str, tickers: list[str]) -> list[str]:
+    """Create the file (or add rows) with a blank avg_cost for every held ticker; existing values are kept."""
+    have = {}
+    if os.path.exists(path):
+        with open(path, encoding="utf-8-sig", newline="") as f:
+            have = {normalize_ticker(r["ticker"]): r for r in csv.DictReader(f) if r.get("ticker")}
+    add = [t for t in tickers if normalize_ticker(t) not in have]
+    if not add and os.path.exists(path):
+        return []
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    rows = list(have.values()) + [{"ticker": t, "avg_cost": "", "note": ""} for t in sorted(add)]
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=COST_COLUMNS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+    return add
+
+
+def apply_cost_basis(trades: list[dict], cost: dict[str, float]) -> list[dict]:
+    """OPENING rows priced at the snapshot close get the real Dime average cost instead (ledger file untouched)."""
+    out = []
+    for r in trades:
+        t = normalize_ticker(r["ticker"])
+        if r["side"].upper() == "OPENING" and t in cost:
+            r = {**r, "price": cost[t], "cost_source": "cost_basis.csv"}
+        out.append(r)
+    return out

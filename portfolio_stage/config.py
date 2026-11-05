@@ -11,6 +11,7 @@ DEFAULTS = {
     "benchmark": "SPY",
     "paths": {"trades": "portfolio/trades.csv", "meta": "portfolio/meta.csv", "output": "output",
               "cache": "cache", "slips": "slips", "cash": "portfolio/cash.csv",
+              "cost_basis": "portfolio/cost_basis.csv",
               "history": "portfolio/history.csv"},
     "groups": ["semi", "tech", "cyber", "power", "space", "health", "fin", "def"],
     "qualities": ["A", "B", "C", "EC", "ET"],

@@ -23,7 +23,7 @@ def build_message(meta: dict, alerts: list[tuple[str, str]], rows: dict, vres: d
                *[f"✗ {html.escape(x)}" for x in (vres.get("fails") or [])[:15]], ""]
     if meta.get("last_bar_complete") is False:
         why = (html.escape(meta["stale_reason"]) if meta.get("stale_reason")
-               else "run before the 16:00 ET close; prices are intraday")
+               else "run while the US market is open; today's bar is still forming")
         top += [f"<b>⚠️ last_bar_complete: false — {why}. Do not upload; re-run later with --refresh.</b>", ""]
     head = top + [f"<b>📒 Portfolio — {meta['as_of']}</b>",
             f"Value {'—' if total is None else f'${total:,.0f}'} · {meta.get('positions', 0)} positions · "
