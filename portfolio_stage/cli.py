@@ -33,6 +33,25 @@ def is_trading_day(d: dt.date) -> bool:
     return d.weekday() < 5 and d.isoformat() not in NYSE_HOLIDAYS
 
 
+def expected_session(now_et: dt.datetime) -> dt.date | None:
+    """The latest session whose daily bar should exist: today after 16:00 ET on a trading day, else the
+    previous trading day. None while today's session is still open (handled by last_bar_complete)."""
+    d = now_et.date()
+    if is_trading_day(d):
+        if now_et.time() < dt.time(16, 0):
+            return None
+        return d
+    while not is_trading_day(d):
+        d -= dt.timedelta(days=1)
+    return d
+
+
+def _last_bar_date(df) -> dt.date | None:
+    if df is None or not len(df):
+        return None
+    return df.dropna(subset=["Close"]).index[-1].date()
+
+
 def last_bar_complete(now_et: dt.datetime) -> bool:
     """False whenever the run happens before 16:00 ET on a US trading day (that day's bar isn't final yet)."""
     return not (is_trading_day(now_et.date()) and now_et.time() < dt.time(16, 0))
@@ -163,13 +182,27 @@ def cmd_run(args, cfg) -> int:
     meta = L.read_meta(cfg["paths"]["meta"])
     bench = cfg["benchmark"]
     prices, missing = D.fetch_daily(list(held) + [bench], cfg, as_of, refresh=args.refresh)
+    expected = expected_session(now)
+    stale_reason = None
+    for attempt in range(cfg["data"]["stale_retries"] + 1):         # Yahoo sometimes posts the daily bar late
+        got = _last_bar_date(prices.get(bench))
+        if got is None or expected is None or got >= expected:
+            break
+        if attempt == cfg["data"]["stale_retries"]:
+            stale_reason = (f"Yahoo has no {expected} bar yet (latest {got}) — prices are from the previous session")
+            break
+        wait = cfg["data"]["stale_wait_seconds"]
+        print(f"⏳ Yahoo ยังไม่มีแท่งวันที่ {expected} (ล่าสุด {got}) — รอ {wait} วินาทีแล้วดึงใหม่ "
+              f"({attempt + 1}/{cfg['data']['stale_retries']})")
+        __import__("time").sleep(wait)
+        prices, missing = D.fetch_daily(list(held) + [bench], cfg, as_of, refresh=True)
     spy = prices.get(bench)
     fri = A.last_complete_friday(now)
     spy_w = A.weekly_closes(spy["Close"], fri) if spy is not None else None
     quotes, q_err = D.fetch_quotes(list(held))
     etf_q = set(cfg["etf_qualities"])
     rsc = cfg["rs_score"]
-    bar_complete = last_bar_complete(now)
+    bar_complete = last_bar_complete(now) and stale_reason is None
     ures = None
     if getattr(args, "no_universe", False) or not cfg["universe"]["enabled"]:
         rank_why = "universe scan skipped (--no-universe)"
@@ -372,6 +405,9 @@ def cmd_run(args, cfg) -> int:
         traceback.print_exc()
         meta_out["summary"] = {"null_reasons": {"all": f"summary failed: {type(e).__name__}: {e}"}}
     meta_out["last_bar_complete"] = bar_complete
+    meta_out["data_through"] = _last_bar_date(spy).isoformat() if _last_bar_date(spy) else None
+    if stale_reason:
+        meta_out["stale_reason"] = stale_reason
     if ures is not None:
         meta_out["universe"] = {"definition": ures["definition"], "funnel": ures["funnel"], "error": ures["error"],
                                 "seconds": ures.get("seconds")}
@@ -386,7 +422,10 @@ def cmd_run(args, cfg) -> int:
         print(f"✓ โมเมนตัม: {len(ures['leaders'])} ตัวผ่านเกณฑ์จาก {ures['funnel'].get('ranked', 0)} หุ้น "
               f"→ momentum.md" if not ures["error"] else f"⚠️ สแกนทั้งตลาดไม่สำเร็จ: {ures['error']}")
     print(f"✓ {len(rows)} positions · total ${total:,.0f} · {len(alerts)} alerts → {out_dir}")
-    if intraday:
+    if stale_reason:
+        print(f"⚠️ last_bar_complete: false — {stale_reason} · ห้ามอัปโหลด ให้รันใหม่ภายหลัง: "
+              "python -m portfolio_stage run --refresh")
+    elif intraday:
         print(f"⚠️ last_bar_complete: false — รันก่อน 16:00 ET ของวันทำการ ({now:%Y-%m-%d %H:%M} ET) "
               "แท่งวันนี้ยังไม่จบ ราคาอาจเป็นราคาระหว่างวัน · ห้ามอัปโหลด ให้รันใหม่หลังตลาดปิด (หลัง 05:00 น. เวลาไทย)")
     if miss_reasons:

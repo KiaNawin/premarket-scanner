@@ -56,7 +56,9 @@ data:
   retries: 3
   backoff_seconds: 2
   fundamentals_refresh_days: 7
-  stale_days: 5                       # last bar older than this many trading days = flagged
+  stale_days: 5
+  stale_retries: 3                    # Yahoo's daily bar missing after the close -> wait and re-download
+  stale_wait_seconds: 120             # (3 x 2 min); still missing -> last_bar_complete: false, don't upload                       # last bar older than this many trading days = flagged
 
 ingest:
   model: claude-sonnet-5-5            # vision model for Dime slips (needs ANTHROPIC_API_KEY)

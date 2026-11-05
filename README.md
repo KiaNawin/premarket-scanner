@@ -275,6 +275,11 @@ holdings at past prices — not the account's real past) and `snapshots` (one ro
 Cash comes from **`portfolio/cash.csv`** (`account, currency, amount, as_of, note`; USD or THB) — edit it when your
 balances change.
 
+**Late Yahoo data:** after the close, `run` checks that the benchmark (SPY) has a bar for the session that just
+ended; if not it waits and re-downloads (`data.stale_retries` x `stale_wait_seconds`, 3 x 2 min). Still missing ->
+`meta.last_bar_complete: false`, `meta.stale_reason`, and a "do not upload" line in the terminal and Telegram.
+`meta.data_through` always shows the date of the latest bar.
+
 **Validation:** `tools/validate_output.py` (from the rebalance page; its criteria are never changed here). Every `run`
 then calls `python tools/validate_output.py output/<date> holdings.csv` automatically and saves the output
 to `output/<date>/validate.txt`. Exit code ≠ 0, or the script missing → the FAIL lines are printed in a box,

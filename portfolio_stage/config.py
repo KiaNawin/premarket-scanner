@@ -23,7 +23,7 @@ DEFAULTS = {
                "stop_atr_mult": 1.0, "new_high_target_atr_mult": 3.0, "near_atr_mult": 0.5},
     "alerts": {"gap_pct": 5.0, "max_weight_pct": 5.0, "max_quality_c_pct": 7.0, "earnings_days": 5},
     "data": {"history_period": "3y", "retries": 3, "backoff_seconds": 2, "fundamentals_refresh_days": 7,
-             "stale_days": 5},
+             "stale_days": 5, "stale_retries": 3, "stale_wait_seconds": 120},
     "ingest": {"model": "claude-sonnet-5-5", "slip_timezone": "Asia/Bangkok", "amount_tolerance_pct": 1.0,
                "check_price_vs_day_range": True, "day_range_tolerance_pct": 2.0},
     "reconcile": {"tolerance_pct": 2.0},

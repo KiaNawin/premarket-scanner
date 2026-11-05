@@ -34,8 +34,9 @@ class OutputFormat(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.mkdtemp()
         self.cfg = cfg_for(self.tmp)
-        for k in ("quality_scores", "rs_score", "ohlc", "validator", "telegram"):
+        for k in ("quality_scores", "rs_score", "ohlc", "validator", "telegram", "data"):
             self.cfg[k] = dict(self.cfg[k])
+        self.cfg["data"]["stale_wait_seconds"] = 0
         self.script = os.path.join(self.tmp, "tools", "validate_output.py")
         self.cfg["validator"].update(script=self.script, holdings_csv=os.path.join(self.tmp, "holdings.csv"))
         L.append_trades(self.cfg["paths"]["trades"], [
@@ -358,6 +359,38 @@ class AlertNoise(unittest.TestCase):
             self.assertTrue(ok(t), t)
         for t in drop:
             self.assertFalse(ok(t), t)
+
+
+class StaleBar(unittest.TestCase):
+    def test_expected_session(self):
+        f = lambda *a: cli.expected_session(cli.dt.datetime(*a, tzinfo=cli.ET))
+        self.assertEqual(f(2026, 11, 4, 20, 33), cli.dt.date(2026, 11, 4))   # Wed after the close
+        self.assertIsNone(f(2026, 11, 4, 11, 0))                             # session still open
+        self.assertEqual(f(2026, 11, 7, 12, 0), cli.dt.date(2026, 11, 6))    # Saturday -> Friday
+        self.assertEqual(f(2026, 11, 26, 18, 0), cli.dt.date(2026, 11, 25))  # Thanksgiving -> Wednesday
+
+    def test_missing_todays_bar_is_retried_then_blocks_upload(self):
+        t = OutputFormat("test_json_layout_and_p_matches_ohlc")
+        t.setUp()
+        try:
+            last = t.prices["SPY"].index[-1]
+            evening = cli.dt.datetime.combine(last.date() + cli.dt.timedelta(days=1), cli.dt.time(20, 30),
+                                              tzinfo=cli.ET)
+            while not cli.is_trading_day(evening.date()):
+                evening += cli.dt.timedelta(days=1)
+            import contextlib
+            import io
+            buf = io.StringIO()
+            with mock.patch.object(cli, "_now_et", return_value=evening), contextlib.redirect_stdout(buf):
+                rc, out, doc, *_ = t._run()
+            self.assertEqual(buf.getvalue().count("⏳"), t.cfg["data"]["stale_retries"])   # waited and re-downloaded
+            self.assertIn("ห้ามอัปโหลด", buf.getvalue())
+            m = doc["meta"]
+            self.assertIs(m["last_bar_complete"], False)
+            self.assertIn("no " + evening.date().isoformat() + " bar", m["stale_reason"])
+            self.assertEqual(m["data_through"], last.date().isoformat())
+        finally:
+            t.tearDown()
 
 
 class LastBarComplete(unittest.TestCase):
