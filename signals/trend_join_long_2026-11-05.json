@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-05",
-  "generated_at_et": "2026-11-05 08:36:26 EST",
+  "generated_at_et": "2026-11-05 09:06:17 EST",
   "source_premarket_file": "premarket_scan_2026-11-05.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 24,
+  "candidates": 29,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -24,7 +24,7 @@
       "sma200": 10.8594,
       "premarket_high": 13.86,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 19.27,
+      "gap_pct": 19.02,
       "catalyst": "Adma Biologics (ADMA) delivered earnings and revenue surprises of +15.79% and +0.93%, respectively, for the quarter ended September 2026."
     },
     {
@@ -37,7 +37,7 @@
       "sma200": 23.562,
       "premarket_high": 13.48,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 85.65,
+      "gap_pct": 91.4,
       "catalyst": "Investing.com -- Antelope Enterprise Holdings Ltd (NASDAQ:AEHL) shares fell 5.5% in after-hours trading Thursday following the company's announcement of a $100 million at-the-market share offering program."
     },
     {
@@ -61,9 +61,9 @@
       "yesterday_high": 275.48,
       "yesterday_close": 271.75,
       "sma200": 410.84,
-      "premarket_high": 335.0,
+      "premarket_high": 338.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 20.33,
+      "gap_pct": 23.93,
       "catalyst": "View more earnings on APP On Wednesday, AppLovin Corp."
     },
     {
@@ -76,8 +76,8 @@
       "sma200": 4.6934,
       "premarket_high": 5.9089,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 18.75,
-      "catalyst": "(ASPN) on Thursday reported a loss of $10.The Northborough, Massachusetts-based company said it had a loss of 13 cents per share."
+      "gap_pct": 15.83,
+      "catalyst": "Aspen Aerogels (ASPN) delivered earnings and revenue surprises of +222.22% and +17.85%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "BABA",
@@ -87,9 +87,9 @@
       "yesterday_high": 107.7,
       "yesterday_close": 105.29,
       "sma200": 125.2795,
-      "premarket_high": 111.41,
+      "premarket_high": 111.99,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.48,
+      "gap_pct": 5.95,
       "catalyst": "The e-commerce industry continues to witness substantial growth, as demonstrated by Shopify's latest financial results."
     },
     {
@@ -100,9 +100,9 @@
       "yesterday_high": 14.2,
       "yesterday_close": 13.88,
       "sma200": 20.4491,
-      "premarket_high": 14.65,
+      "premarket_high": 14.7,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.55,
+      "gap_pct": 5.76,
       "catalyst": "Gaiam (GAIA) delivered earnings and revenue surprises of +7.69% and +2.47%, respectively, for the quarter ended September 2026."
     },
     {
@@ -113,10 +113,23 @@
       "yesterday_high": 17.8,
       "yesterday_close": 16.77,
       "sma200": 27.1234,
-      "premarket_high": 20.25,
+      "premarket_high": 21.1061,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 18.79,
+      "gap_pct": 25.22,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "ticker": "CELH",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.1857,
+      "yesterday_high": 31.49,
+      "yesterday_close": 30.75,
+      "sma200": 34.1525,
+      "premarket_high": 34.3925,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.44,
+      "catalyst": "Investing.com -- Celsius Holdings Inc."
     },
     {
       "ticker": "CRON",
@@ -128,7 +141,7 @@
       "sma200": 2.8663,
       "premarket_high": 3.7388,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.52,
+      "gap_pct": 5.7,
       "catalyst": "STAYNER, Ontario (AP) — STAYNER, Ontario (AP) — Cronos Group Inc."
     },
     {
@@ -141,7 +154,7 @@
       "sma200": 631.1107,
       "premarket_high": 4.84,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 58.29,
+      "gap_pct": 40.65,
       "catalyst": "Elong Power Holding Limited (NASDAQ:ELPW) has announced that its subsidiary, Elong Power (Hong Kong) Holding Limited, has entered into a one-year cooperation agreement valued at $25."
     },
     {
@@ -154,7 +167,7 @@
       "sma200": 120.8714,
       "premarket_high": 172.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 11.74,
+      "gap_pct": 12.84,
       "catalyst": "Epam (EPAM) delivered earnings and revenue surprises of +2.93% and +0.56%, respectively, for the quarter ended September 2026."
     },
     {
@@ -165,10 +178,36 @@
       "yesterday_high": 7.99,
       "yesterday_close": 7.93,
       "sma200": 16.8102,
-      "premarket_high": 9.3298,
+      "premarket_high": 9.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 17.34,
+      "gap_pct": 15.9,
       "catalyst": "The theme-park operator posted a third-quarter loss of $366.1 million, or $3.59 a share, for the quarter ended Sept."
+    },
+    {
+      "ticker": "GFI",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.5079,
+      "yesterday_high": 37.06,
+      "yesterday_close": 36.75,
+      "sma200": 42.4372,
+      "premarket_high": 40.54,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.01,
+      "catalyst": "Gold Fields Limited (NYSE:GFI) has unsuccessfully bid for Australia’s Northern Star Resources Ltd (OTC:NESRF)."
+    },
+    {
+      "ticker": "GROY",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.132,
+      "yesterday_high": 2.95,
+      "yesterday_close": 2.89,
+      "sma200": 3.3747,
+      "premarket_high": 3.15,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 9.0,
+      "catalyst": "Gold has experienced an extraordinary bull run followed by a sharp correction since the beginning of 2022, more than doubling in value overall."
     },
     {
       "ticker": "HLP",
@@ -180,8 +219,21 @@
       "sma200": 1.302,
       "premarket_high": 3.4997,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 16.38,
+      "gap_pct": 11.02,
       "catalyst": "The United States market has shown impressive growth, with a 1.1% increase over the last week and a substantial 27% rise over the past year, alongside expectations for earnings to grow by 17% annually in the coming…"
+    },
+    {
+      "ticker": "HNST",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2442,
+      "yesterday_high": 4.73,
+      "yesterday_close": 4.44,
+      "sma200": 3.8053,
+      "premarket_high": 4.81,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.3,
+      "catalyst": "Advantage Solutions (ADV) delivered earnings and revenue surprises of -104.17% and -1.17%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "IRWD",
@@ -193,21 +245,8 @@
       "sma200": 3.9712,
       "premarket_high": 4.34,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 13.0,
+      "gap_pct": 12.34,
       "catalyst": "BOSTON (AP) — BOSTON (AP) — Ironwood Pharmaceuticals Inc."
-    },
-    {
-      "ticker": "JLHL",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.5497,
-      "yesterday_high": 7.47,
-      "yesterday_close": 7.1,
-      "sma200": 9.6581,
-      "premarket_high": 8.07,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.92,
-      "catalyst": "The United States market has experienced a notable rise, climbing 1.8% in the last week and up 28% over the past year, with earnings projected to grow by 17% annually."
     },
     {
       "ticker": "JOBY",
@@ -219,21 +258,21 @@
       "sma200": 8.4738,
       "premarket_high": 5.86,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 13.87,
+      "gap_pct": 13.66,
       "catalyst": "Stocks surged after a political shake-up, but Wall Street analysts were far from unanimous on Thursday."
     },
     {
-      "ticker": "PRMB",
+      "ticker": "PTLO",
       "status": "WAITING",
       "signal": false,
-      "atr14": 0.615,
-      "yesterday_high": 21.67,
-      "yesterday_close": 21.02,
-      "sma200": 21.4334,
-      "premarket_high": 22.56,
+      "atr14": 0.3043,
+      "yesterday_high": 5.55,
+      "yesterday_close": 5.45,
+      "sma200": 4.823,
+      "premarket_high": 6.1999,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.33,
-      "catalyst": "Primo Brands (PRMB) delivered earnings and revenue surprises of +2.38% and +0.50%, respectively, for the quarter ended September 2026."
+      "gap_pct": 11.93,
+      "catalyst": "Casual restaurant chain Portillo’s (NASDAQ:PTLO) met Wall Street’s revenue expectations in Q3 2026, with revenue up 7% year on year to $194.1 million."
     },
     {
       "ticker": "PTON",
@@ -245,7 +284,7 @@
       "sma200": 5.2073,
       "premarket_high": 6.06,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.71,
+      "gap_pct": 5.85,
       "catalyst": "NEW YORK (AP) — NEW YORK (AP) — Peloton Interactive Inc."
     },
     {
@@ -258,8 +297,21 @@
       "sma200": 12.2852,
       "premarket_high": 11.0868,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 22.82,
+      "gap_pct": 20.13,
       "catalyst": "The Washington consensus is that Congress will be gridlocked for the rest of Trump’s presidency."
+    },
+    {
+      "ticker": "SEZL",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 9.2534,
+      "yesterday_high": 139.74,
+      "yesterday_close": 136.69,
+      "sma200": 109.5383,
+      "premarket_high": 179.5,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 29.92,
+      "catalyst": "Sezzle has turned into one of the market’s more extreme long term stories, with the stock tracking a very large 3 year gain and fresh company updates now forcing investors to ask whether the current share price is…"
     },
     {
       "ticker": "SONY",
@@ -269,9 +321,9 @@
       "yesterday_high": 26.3,
       "yesterday_close": 25.95,
       "sma200": 22.3143,
-      "premarket_high": 27.59,
+      "premarket_high": 27.7635,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.97,
+      "gap_pct": 6.97,
       "catalyst": "The company has spent billions of dollars on acquisitions in recent years to beef up its entertainment content."
     },
     {
@@ -284,7 +336,7 @@
       "sma200": 6.8557,
       "premarket_high": 13.2774,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 28.96,
+      "gap_pct": 27.13,
       "catalyst": "TrueBlue Inc (TBI) beat guidance on both revenue and profitability, with all three segments expanding margins and energy revenue doubling year over year."
     },
     {
@@ -295,10 +347,23 @@
       "yesterday_high": 125.69,
       "yesterday_close": 125.31,
       "sma200": 137.0686,
-      "premarket_high": 145.33,
+      "premarket_high": 146.04,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 15.98,
+      "gap_pct": 15.71,
       "catalyst": "Investing.com -- Tapestry shares jumped more than 8% in premarket trading Thursday after the owner of Coach and Kate Spade beat first-quarter profit and revenue estimates and raised its full-year earnings outlook."
+    },
+    {
+      "ticker": "TS",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.7064,
+      "yesterday_high": 57.82,
+      "yesterday_close": 55.92,
+      "sma200": 56.3946,
+      "premarket_high": 60.74,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 8.17,
+      "catalyst": "Tenaris S."
     },
     {
       "ticker": "U",
@@ -310,22 +375,22 @@
       "sma200": 31.624,
       "premarket_high": 54.35,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 18.94,
-      "catalyst": "Unity Software’s PvX partnership puts user acquisition capital in focus Unity Software (U) has announced a new partnership with PvX that gives eligible growth-stage studios in its ecosystem access to non-dilutive user…"
+      "gap_pct": 17.92,
+      "catalyst": "Unity reported its first quarterly GAAP profit since its 2020 IPO, with net income reaching $122 million compared with a $127 million loss a year earlier."
     },
     {
-      "ticker": "WRBY",
+      "ticker": "ULCC",
       "status": "WAITING",
       "signal": false,
-      "atr14": 1.5318,
-      "yesterday_high": 23.9,
-      "yesterday_close": 21.29,
-      "sma200": 25.0803,
-      "premarket_high": 26.2,
+      "atr14": 0.5957,
+      "yesterday_high": 7.355,
+      "yesterday_close": 7.09,
+      "sma200": 5.448,
+      "premarket_high": 7.5505,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 20.18,
-      "catalyst": "Warby Parker (WRBY) delivered earnings and revenue surprises of +22.22% and +0.02%, respectively, for the quarter ended September 2026."
+      "gap_pct": 5.36,
+      "catalyst": "Ultra low-cost airline Frontier Group Holdings (NASDAQ:ULCC) announced better-than-expected revenue in Q3 2026, with sales up 52.9% year on year to $1.36 billion."
     }
   ],
-  "scan_time_et": "08:36"
+  "scan_time_et": "09:06"
 }
