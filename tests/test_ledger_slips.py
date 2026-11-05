@@ -15,7 +15,8 @@ def cfg_for(tmp):
     c["paths"] = {"trades": os.path.join(tmp, "portfolio", "trades.csv"),
                   "meta": os.path.join(tmp, "portfolio", "meta.csv"),
                   "output": os.path.join(tmp, "output"), "cache": os.path.join(tmp, "cache"),
-                  "slips": os.path.join(tmp, "slips")}
+                  "slips": os.path.join(tmp, "slips"), "cash": os.path.join(tmp, "portfolio", "cash.csv"),
+                  "history": os.path.join(tmp, "portfolio", "history.csv")}
     return c
 
 

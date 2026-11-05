@@ -142,3 +142,44 @@ def fundamentals(ticker: str, cfg: dict, ticker_obj=None) -> dict:
         R.setdefault("shares_chg", f"needs 5 quarterly share counts; Yahoo has {0 if sh is None else len(sh)}")
     D.save_json(path, out)
     return out
+
+
+# ---------------------------------------------------------------------------- analyst targets & multiples (daily)
+def analyst(ticker: str, cfg: dict, as_of: dt.date, ticker_obj=None) -> dict:
+    """Yahoo analyst price targets, recommendation and P/E, P/S — cached per day (targets move with news)."""
+    path = os.path.join(cfg["paths"]["cache"], "analyst", as_of.isoformat(), f"{ticker}.json")
+    hit = D.cache_json(path)
+    if hit is not None:
+        return hit
+    keys = {"target_mean": "targetMeanPrice", "target_median": "targetMedianPrice", "target_low": "targetLowPrice",
+            "target_high": "targetHighPrice", "analysts": "numberOfAnalystOpinions",
+            "recommendation": "recommendationKey", "recommendation_mean": "recommendationMean",
+            "pe": "trailingPE", "forward_pe": "forwardPE", "ps": "priceToSalesTrailing12Months"}
+    out = {k: None for k in keys}
+    out["error"] = None
+    try:
+        import yfinance as yf
+        info = (ticker_obj or yf.Ticker(ticker)).info or {}
+        for k, src in keys.items():
+            v = info.get(src)
+            if isinstance(v, str):
+                out[k] = v if v and v.lower() != "none" else None
+            elif isinstance(v, (int, float)) and v == v:
+                out[k] = float(v)
+    except Exception as e:
+        out["error"] = f"{type(e).__name__}: {e}"
+    D.save_json(path, out)
+    return out
+
+
+def value_label(upside_pct: float | None, analysts: float | None, cfg: dict) -> tuple[str | None, str | None]:
+    """Analyst-target label from config `valuation` (upside = target_mean / price - 1)."""
+    vc = cfg["valuation"]
+    if upside_pct is None:
+        return None, "no analyst price target from Yahoo"
+    if (analysts or 0) < vc["min_analysts"]:
+        return None, f"only {int(analysts or 0)} analyst(s); need {vc['min_analysts']}"
+    for name, floor in vc["labels"]:                    # ordered from most upside down
+        if floor is None or upside_pct >= floor:
+            return name, None
+    return None, "no label matched"

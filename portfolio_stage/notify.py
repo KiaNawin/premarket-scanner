@@ -27,6 +27,12 @@ def build_message(meta: dict, alerts: list[tuple[str, str]], rows: dict, vres: d
     head = top + [f"<b>📒 Portfolio — {meta['as_of']}</b>",
             f"Value {'—' if total is None else f'${total:,.0f}'} · {meta.get('positions', 0)} positions · "
             f"weekly bars to {meta.get('weekly_bars_through', '—')}"]
+    sm = meta.get("summary") or {}
+    if sm.get("total_usd") is not None:
+        thb = f" (฿{sm['total_thb']:,.0f})" if sm.get("total_thb") else ""
+        cash = f" + cash ${sm['cash_usd']:,.0f}" if sm.get("cash_usd") else ""
+        day = f" · today {sm['day_change_usd']:+,.0f} ({sm['day_change_pct']:+.2f}%)" if sm.get("day_change_pct") is not None else ""
+        head.append(f"Total ${sm['total_usd']:,.0f}{thb}{cash}{day}")
     s2 = sum(1 for r in rows.values() if r.get("stage") == 2)
     s4 = sum(1 for r in rows.values() if r.get("stage") == 4)
     ok = sum(1 for r in rows.values() if r.get("flag") == "✅")

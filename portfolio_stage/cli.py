@@ -185,7 +185,8 @@ def cmd_run(args, cfg) -> int:
         tier = m.get("quality") or None                    # letter A/B/C/EC/ET from meta.csv
         r = {"shares": round(p.shares, 6), "avg_cost": A.r2(p.avg_cost, 4), "group": m.get("group") or None,
              "tier": tier, "levels": {k: None for k in R.LEVEL_KEYS},
-             "quality": None, **{k: None for k in SW.FIELDS}, "ret_rank_top_pct": None, "null_reasons": {}}
+             "quality": None, **{k: None for k in SW.FIELDS}, "ret_rank_top_pct": None,
+             "valuation": None, "pe": None, "forward_pe": None, "ps": None, "null_reasons": {}}
         nr = r["null_reasons"]
         df = prices.get(yt)
         if df is None:
@@ -268,11 +269,12 @@ def cmd_run(args, cfg) -> int:
 
         fkeys = ("earnings_date", "mcap", "rev_growth", "ni", "fcf", "shares_chg")
         fu = None
+        vkeys = ("valuation", "pe", "forward_pe", "ps")
         if args.no_fundamentals:
-            for k in fkeys + ("quality",):
+            for k in fkeys + ("quality",) + vkeys:
                 nr[k] = "skipped (--no-fundamentals)"
         elif tier in etf_q:
-            for k in fkeys + ("quality",):
+            for k in fkeys + ("quality",) + vkeys:
                 nr[k] = f"ETF (tier {tier}) — no company fundamentals"
         else:
             e = F.earnings(yt, cfg, as_of)
@@ -282,6 +284,20 @@ def cmd_run(args, cfg) -> int:
             fu = F.fundamentals(yt, cfg)
             r.update({k: fu.get(k) for k in ("mcap", "rev_growth", "rev_growth_q_yoy", "ni", "fcf", "shares_chg")})
             nr.update({k: v for k, v in fu.get("reasons", {}).items() if r.get(k) is None})
+            an = F.analyst(yt, cfg, as_of)
+            up = A.r2((an["target_mean"] / px - 1) * 100) if an.get("target_mean") and px else None
+            label, lwhy = F.value_label(up, an.get("analysts"), cfg)
+            r["valuation"] = {"target_mean": A.r2(an.get("target_mean")), "target_low": A.r2(an.get("target_low")),
+                              "target_high": A.r2(an.get("target_high")),
+                              "analysts": int(an["analysts"]) if an.get("analysts") else None,
+                              "recommendation": an.get("recommendation"), "upside_pct": up, "label": label}
+            if lwhy:
+                nr["valuation.label"] = lwhy if not an.get("error") else f"Yahoo info failed: {an['error']}"
+            r.update(pe=A.r2(an.get("pe"), 1), forward_pe=A.r2(an.get("forward_pe"), 1), ps=A.r2(an.get("ps"), 1))
+            for k in ("pe", "forward_pe", "ps"):
+                if r[k] is None:
+                    nr[k] = {"pe": "no trailing P/E (loss-making or not provided)", "forward_pe": "no forward P/E",
+                             "ps": "no price/sales from Yahoo"}[k]
             qs, qwhy = Q.scores(fu, cfg)
             nr.update({f"quality.{k}": v for k, v in qwhy.items()})
             if all(v is not None for v in qs.values()):
@@ -314,7 +330,7 @@ def cmd_run(args, cfg) -> int:
         r["rs_score"] = scores.get(t)
         nr = r["null_reasons"]
         for k in R.KEYS:                          # any remaining null gets a reason
-            if k in ("levels", "quality", "earnings_soon", "gaps_open", "first_retest") or "all" in nr:
+            if k in ("levels", "quality", "earnings_soon", "gaps_open", "first_retest", "valuation") or "all" in nr:
                 continue
             if r.get(k) is None and k not in nr:
                 n = r.get("history_days") or 0
@@ -342,6 +358,19 @@ def cmd_run(args, cfg) -> int:
                 "total_value": A.r2(total), "positions": len(rows)}
     if q_err:
         meta_out["quote_error"] = q_err
+    try:                                                   # header card: totals, cash, FX, value history
+        from . import summary as SM
+        closed = [t for t in L.holdings(trades, include_closed=True) if t not in held]
+        hist_prices = dict(prices)
+        if closed:
+            hist_prices.update(D.fetch_daily(closed, cfg, as_of, refresh=args.refresh)[0])
+        fx_t = cfg["portfolio"]["fx_ticker"]
+        fx_df = D.fetch_daily([fx_t], cfg, as_of, refresh=args.refresh)[0].get(D.to_yahoo(fx_t))
+        meta_out["summary"], meta_out["history"] = SM.build(rows, held, trades, hist_prices, fx_df, cfg, as_of)
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        meta_out["summary"] = {"null_reasons": {"all": f"summary failed: {type(e).__name__}: {e}"}}
     meta_out["last_bar_complete"] = bar_complete
     if ures is not None:
         meta_out["universe"] = {"definition": ures["definition"], "funnel": ures["funnel"], "error": ures["error"],

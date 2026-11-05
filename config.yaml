@@ -7,6 +7,8 @@ paths:
   output: output                      # output/YYYY-MM-DD/
   cache: cache
   slips: slips
+  cash: portfolio/cash.csv            # cash balances — you edit this (account, currency, amount, as_of)
+  history: portfolio/history.csv      # one row per run: stocks, cash, total (for the value chart)
 
 groups: [semi, tech, cyber, power, space, health, fin, def]
 qualities: [A, B, C, EC, ET]          # A=profitable B=fast growth C=bet EC=core ETF ET=theme ETF
@@ -95,6 +97,19 @@ momentum:                             # "หุ้นโมเมนตัมแ
   require_setup: true                 # list only stocks with a setup today (base_tight.ok or first_retest);
                                       # strong ones without a setup -> short watch list in momentum.md
   telegram_rows: 40
+
+valuation:                            # label from the analyst mean target vs price (Yahoo), >= min_analysts
+  min_analysts: 3
+  labels:                             # [name, minimum upside %], checked top to bottom
+    - [Bargain, 30]
+    - [Undervalued, 10]
+    - [Fair, -10]
+    - [Overvalued, -25]
+    - [Premium, null]
+
+portfolio:
+  fx_ticker: THB=X                    # Yahoo USD/THB (baht per dollar)
+  backcast_days: 756                  # "today's holdings at past prices" series for 6M/1Y/3Y charts
 
 validator:
   script: tools/validate_output.py    # run automatically after every `run`

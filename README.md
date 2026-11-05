@@ -266,6 +266,15 @@ stop `prev_low2`. Strong stocks without a setup are listed once at the end of mo
 `python -m portfolio_stage momentum [--telegram]` runs the scan alone; `run --no-universe` skips it.
 Settings: `universe:` and `momentum:` in `config.yaml`.
 
+**Header card & valuation** (in `portfolio_stage.json`): per ticker `valuation {target_mean, target_low,
+target_high, analysts, recommendation, upside_pct, label}` (Yahoo analyst targets; label Bargain ≥30 % upside ·
+Undervalued ≥10 % · Fair ≥−10 % · Overvalued ≥−25 % · Premium; needs ≥3 analysts — `valuation:` in config.yaml) and
+`pe`, `forward_pe`, `ps`. `meta.summary`: stocks / cash / total in USD and THB (Yahoo THB=X), cost, unrealized and
+realized P/L, change today and over ~1 month; `meta.history`: `actual` (from the ledger), `backcast` (today's
+holdings at past prices — not the account's real past) and `snapshots` (one row per run, `portfolio/history.csv`).
+Cash comes from **`portfolio/cash.csv`** (`account, currency, amount, as_of, note`; USD or THB) — edit it when your
+balances change.
+
 **Validation:** `tools/validate_output.py` (from the rebalance page; its criteria are never changed here). Every `run`
 then calls `python tools/validate_output.py output/<date> holdings.csv` automatically and saves the output
 to `output/<date>/validate.txt`. Exit code ≠ 0, or the script missing → the FAIL lines are printed in a box,

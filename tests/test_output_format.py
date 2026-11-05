@@ -64,6 +64,8 @@ class OutputFormat(unittest.TestCase):
             u[f"U{i:02d}"] = df
         return u
 
+    analyst = {}
+
     def _run(self, script=PASS_SCRIPT, drop=(), fundamentals=False, universe=True, args_extra=None):
         if script is not None:
             os.makedirs(os.path.dirname(self.script), exist_ok=True)
@@ -79,6 +81,9 @@ class OutputFormat(unittest.TestCase):
         def fetch(tickers, cfg, as_of, refresh=False, downloader=None):
             if cfg["paths"]["cache"].endswith("universe"):
                 return {t: uni[t] for t in tickers if t in uni}, {}
+            if tickers == ["THB=X"]:
+                fx = fake_prices(7, start=33.0, drift=0.0)
+                return {"THB=X": fx}, {}
             return prices, missing
         from portfolio_stage import universe as U
         full = {"rev_growth": 0.3, "ni": 20, "rev_ttm": 100, "ni_quarters": [1, 2, 3, 4], "total_cash": 9,
@@ -94,6 +99,7 @@ class OutputFormat(unittest.TestCase):
                                                                "reason": "none"}), \
                 mock.patch.object(F, "fundamentals", side_effect=lambda yt, cfg: partial if yt == "CRWD" else full), \
                 mock.patch.object(EV, "earnings_events", return_value=([], None)), \
+                mock.patch.object(F, "analyst", side_effect=lambda yt, cfg, d: self.analyst.get(yt, {})), \
                 mock.patch.object(EV, "big_news", return_value=([], None)):
             rc = cli.cmd_run(args, self.cfg)
         out = os.path.join(self.cfg["paths"]["output"], cli._now_et().date().isoformat())
