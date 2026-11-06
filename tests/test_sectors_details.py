@@ -108,6 +108,9 @@ class Integration(unittest.TestCase):
         self.assertEqual(nv["profile"]["long_name"], "NVIDIA")
         self.assertEqual(nv["margins"]["fcf_margin_pct"], 20.0)
         self.assertEqual(nv["quality_pct"], DT.quality_pct(nv["quality"]))
+        for t, r in doc["tickers"].items():                                   # weekly gate + daily entry present
+            self.assertIn("allowed", r["add_gate"])
+            self.assertEqual(r["daily_entry"]["shown"], bool(r["daily_entry"]["signal"] and r["add_gate"]["allowed"]))
 
 
 if __name__ == "__main__":

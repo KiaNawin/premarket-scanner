@@ -39,6 +39,7 @@ DEFAULTS = {
                   "labels": [["Bargain", 30], ["Undervalued", 10], ["Fair", -10], ["Overvalued", -25],
                              ["Premium", None]]},
     "portfolio": {"fx_ticker": "THB=X", "backcast_days": 756},
+    "books": {"trade": {"trades": "portfolio/trade_book/trades.csv", "meta": "portfolio/trade_book/meta.csv"}},
     "accumulate": {"min_weeks": 60, "oversold_rsi": 30, "oversold_lookback_weeks": 26, "low_lookback_weeks": 52,
                    "min_base_weeks": 6, "max_base_width_pct": 35, "near_ema_pct": 5, "min_drawdown_pct": 25,
                    "ema_counts_as_exhausted": True, "breakout_hold_pct": 5},

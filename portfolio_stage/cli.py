@@ -243,7 +243,7 @@ def cmd_run(args, cfg) -> int:
              "quality": None, **{k: None for k in SW.FIELDS}, "ret_rank_top_pct": None,
              "valuation": None, "pe": None, "forward_pe": None, "ps": None,
              "quality_pct": None, "profile": None, "margins": None, "insider": None, "financials": None,
-             "accumulate": None,
+             "accumulate": None, "add_gate": None, "daily_entry": None,
              "null_reasons": {}}
         nr = r["null_reasons"]
         df = prices.get(yt)
@@ -286,6 +286,8 @@ def cmd_run(args, cfg) -> int:
             r["gap_basis"] = "pre-market"
         r["day_change_pct"] = A.r2(day_chg)
         sw, sw_why = SW.compute(SW.closed_bars(df, now, bar_complete))
+        if sw.get("gaps_open"):                      # intraday price may already be back inside a gap -> filling
+            sw["gaps_open"] = [g for g in sw["gaps_open"] if g["top"] < px]
         r.update(sw)
         nr.update(sw_why)
         r["ret_rank_top_pct"] = SW.top_pct(SW.momentum_score(sw), ures["scores"]) if ures else None
@@ -295,6 +297,8 @@ def cmd_run(args, cfg) -> int:
             else:
                 nr["ret_rank_top_pct"] = "needs ret_1m, ret_3m and ret_6m — " + (
                     sw_why.get("ret_6m") or sw_why.get("ret_3m") or sw_why.get("ret_1m") or "missing")
+        r["add_gate"] = AC.add_gate(None if st["stage"] is None else int(st["stage"]), r["accumulate"])
+        r["daily_entry"] = AC.daily_entry(r, r["add_gate"])
         sup, res = lv["supports"], lv["resistances"]
         r["levels"] = {"S1": A.r2(sup[0]) if sup else None, "S2": A.r2(sup[1]) if len(sup) > 1 else None,
                        "R1": A.r2(res[0]) if res else None, "TP1": A.r2(lv["target"])}
@@ -404,7 +408,7 @@ def cmd_run(args, cfg) -> int:
         nr = r["null_reasons"]
         for k in R.KEYS:                          # any remaining null gets a reason
             if k in ("levels", "quality", "earnings_soon", "gaps_open", "first_retest", "valuation", "profile", "margins",
-                     "insider", "financials", "accumulate") or "all" in nr:
+                     "insider", "financials", "accumulate", "add_gate", "daily_entry") or "all" in nr:
                 continue
             if r.get(k) is None and k not in nr:
                 n = r.get("history_days") or 0
@@ -705,17 +709,25 @@ def main(argv=None) -> int:
     p = sub.add_parser("momentum", help="whole-market momentum scan only")
     p.add_argument("--refresh", action="store_true")
     p.add_argument("--telegram", action="store_true")
+    book_help = ("which ledger: invest (default, portfolio/trades.csv) or trade (real-money swing trades, "
+                 "portfolio/trade_book/trades.csv — never mixed into the investment run)")
     p = sub.add_parser("bootstrap", help="first-time OPENING rows from dime_values.csv")
     p.add_argument("values_csv")
     p.add_argument("--refresh", action="store_true")
+    p.add_argument("--book", choices=["invest", "trade"], default="invest", help=book_help)
     p = sub.add_parser("ingest", help="read Dime slips into trades.csv")
     p.add_argument("folder")
     p.add_argument("--dry-run", action="store_true", help="read and validate only; write/move nothing")
+    p.add_argument("--book", choices=["invest", "trade"], default="invest", help=book_help)
     p = sub.add_parser("reconcile", help="compare ledger value with the Dime app")
     p.add_argument("values_csv")
     p.add_argument("--refresh", action="store_true")
+    p.add_argument("--book", choices=["invest", "trade"], default="invest", help=book_help)
     args = ap.parse_args(argv)
     cfg = load_config(args.config)
+    if getattr(args, "book", "invest") == "trade":
+        cfg["paths"].update(cfg["books"]["trade"])
+        print(f"บัญชีเทรด: {cfg['paths']['trades']}")
     fn = {"run": cmd_run, "momentum": cmd_momentum, "bootstrap": cmd_bootstrap, "ingest": cmd_ingest, "reconcile": cmd_reconcile}[args.cmd]
     if args.cmd == "run" and args.telegram:
         try:

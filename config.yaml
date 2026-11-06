@@ -123,6 +123,11 @@ sectors:                              # weekly sector rotation vs SPY (meta.sect
   tail_weeks: 52                      # weekly path kept for the rotation chart
   # etfs / Yahoo sector mapping: defaults in portfolio_stage/config.py (override here if needed)
 
+books:                                # real-money swing trades kept apart from the investment portfolio
+  trade:                              # python -m portfolio_stage ingest slips/trade --book trade
+    trades: portfolio/trade_book/trades.csv
+    meta: portfolio/trade_book/meta.csv
+
 accumulate:                           # buying a fallen stock in stages (weekly) — `accumulate` per ticker
   min_weeks: 60                       # weekly bars needed at all (EMA200w itself needs 200)
   min_drawdown_pct: 25                # it must have fallen at least this much from its 52-week high

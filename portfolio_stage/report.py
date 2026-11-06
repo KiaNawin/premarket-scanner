@@ -39,7 +39,7 @@ LEVEL_KEYS = ["S1", "S2", "R1", "TP1"]
 SWING_KEYS = ["ema9", "ema21", "avwap", "prev_high", "prev_low2", "gaps_open", "base_tight", "first_retest",
               "ret_1m", "ret_3m", "ret_6m", "ret_rank_top_pct"]
 VALUE_KEYS = ["valuation", "pe", "forward_pe", "ps"]
-DETAIL_KEYS = ["accumulate", "quality_pct", "profile", "margins", "insider", "financials"]
+DETAIL_KEYS = ["accumulate", "add_gate", "daily_entry", "quality_pct", "profile", "margins", "insider", "financials"]
 KEYS = SPEC_KEYS + SWING_KEYS + VALUE_KEYS + ["atr", "slope", "trend_label", "tt_score", "rs_mansfield", "ret3m_vs_spy", "support",
                     "resistance", "stop", "target", "rr", "earnings_date", "earnings_soon", "history_days", "mcap",
                     "rev_growth", "ni", "fcf", "shares_chg"] + DETAIL_KEYS

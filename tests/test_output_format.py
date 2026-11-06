@@ -372,6 +372,26 @@ class AlertNoise(unittest.TestCase):
             self.assertFalse(ok(t), t)
 
 
+class GapBelowPrice(unittest.TestCase):
+    def test_gap_above_intraday_price_is_dropped(self):          # WM 2026-11-06: validator FAIL
+        t = OutputFormat("test_json_layout_and_p_matches_ohlc")
+        t.setUp()
+        try:
+            df = t.prices["NVDA"]
+            i = len(df) - 2                                          # gap up on the last closed day ...
+            df.iloc[i:, df.columns.get_loc("Low")] = df["High"].iloc[i - 1] * 1.05
+            df.iloc[i:, df.columns.get_loc("Close")] = df["High"].iloc[i - 1] * 1.08
+            df.iloc[i:, df.columns.get_loc("High")] = df["High"].iloc[i - 1] * 1.10
+            df.iloc[-1, df.columns.get_loc("Close")] = df["High"].iloc[i - 1]   # ... today trades back into it
+            df.iloc[-1, df.columns.get_loc("Low")] = df["High"].iloc[i - 1] * 0.99
+            rc, out, doc, *_ = t._run(t._real_validator())
+            r = doc["tickers"]["NVDA"]
+            self.assertTrue(all(g["top"] < r["p"] for g in r["gaps_open"]))
+            self.assertNotIn("gap ผิดรูป", t._read(out, "validate.txt"))
+        finally:
+            t.tearDown()
+
+
 class StaleBar(unittest.TestCase):
     def test_expected_session(self):
         f = lambda *a: cli.expected_session(cli.dt.datetime(*a, tzinfo=cli.ET))

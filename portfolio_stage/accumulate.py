@@ -4,7 +4,8 @@ Accumulation tracker for stocks that have been falling (weekly; idea from a Thai
 base = Stage 1 -> accumulate; weekly breakout then a pullback that holds (higher low) -> add; Stage 2 -> full".
 
 Weekly OHLC through the last complete Friday. Per holding (`accumulate` in portfolio_stage.json):
-  ema200w, dist_ema200w_pct, near_ema200w      weekly EMA200 = the last support (needs 200 weeks)
+  ema200w, dist_ema200w_pct, near_ema200w      weekly EMA200 = the last support (needs 200 weeks); distance
+                                               measured from the latest daily close
   rsi_w, rsi_w_min                             weekly RSI14 now and its low over `oversold_lookback_weeks`
   peak, peak_week                              highest weekly high of the last `low_lookback_weeks` (decline start)
   low, low_week, weeks_since_low, drawdown_pct lowest weekly low since that peak
@@ -57,10 +58,11 @@ def evaluate(df: pd.DataFrame, fri: dt.date, stage: int | None, cfg: dict) -> tu
         return {"state": None}, f"needs {ac['min_weeks']} weekly bars, have {n}"
     c, h, lo = w["Close"], w["High"], w["Low"]
     out = {"weeks": n, "price_w": A.round_px(c.iloc[-1])}
+    last = float(df["Close"].dropna().iloc[-1])                         # latest price, not last Friday's close
     if n >= 200:
         ema = c.ewm(span=200, adjust=False).mean().iloc[-1]
         out["ema200w"] = A.round_px(ema)
-        out["dist_ema200w_pct"] = A.r2((c.iloc[-1] / ema - 1) * 100)
+        out["dist_ema200w_pct"] = A.r2((last / ema - 1) * 100)
         out["near_ema200w"] = abs(out["dist_ema200w_pct"]) <= ac["near_ema_pct"]
     else:
         out.update(ema200w=None, dist_ema200w_pct=None, near_ema200w=None)
@@ -143,3 +145,35 @@ def alert_text(t: str, new: dict, old: dict | None) -> str | None:
     if new.get("rsi_w") is not None:
         extra.append(f"weekly RSI {new['rsi_w']:.0f}")
     return f"**{t}** {old['state']} → **{new['state']}**: {LABELS[new['state']]}" + (f" ({', '.join(extra)})" if extra else "")
+
+
+def add_gate(stage: int | None, acc: dict | None) -> dict:
+    """Weekly view decides WHETHER adding is allowed; daily signals (first_retest / base_tight) only say WHEN."""
+    state = (acc or {}).get("state")
+    if stage == 2:
+        return {"allowed": True, "by": "weekly Stage 2", "reason": None}
+    if state == "breakout":
+        return {"allowed": True, "by": "accumulate: breakout + higher low", "reason": None}
+    if state == "base":
+        return {"allowed": True, "by": "accumulate: base (Stage 1) — small adds only", "reason": None}
+    if state == "falling":
+        reason = "weekly: still falling — " + ((acc or {}).get("why") or "wait for a base")
+    elif stage == 3:
+        reason = "weekly Stage 3 (topping) — don't add"
+    elif stage == 4:
+        reason = "weekly Stage 4 (declining) — wait for a base"
+    elif stage == 1:
+        reason = "weekly Stage 1 not confirmed as a base yet"
+    elif stage is None and state is None:
+        reason = "not enough weekly data"
+    else:
+        reason = f"weekly Stage {stage}, accumulate {state}"
+    return {"allowed": False, "by": None, "reason": reason}
+
+
+def daily_entry(r: dict, gate: dict) -> dict:
+    """The holding's daily buy-point signal, shown only when the weekly gate allows it."""
+    sig = ("first_retest" if r.get("first_retest") else
+           "base_tight" if (r.get("base_tight") or {}).get("ok") else None)
+    return {"signal": sig, "shown": bool(sig and gate["allowed"]),
+            "hidden_reason": gate["reason"] if sig and not gate["allowed"] else None}

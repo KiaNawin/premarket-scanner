@@ -311,6 +311,15 @@ for a stock that fell ≥25 % from its 52-week peak — `falling` (still making 
 daily history is now 5 years), `rsi_w`, `rsi_w_min`, peak/low/drawdown, base high/low/width, breakout week and `why`.
 Settings: `accumulate:` in config.yaml. Rules, not advice.
 
+**Weekly gate for adding** (`add_gate`, `daily_entry` per ticker): the weekly view decides *whether* adding to a
+holding is allowed (weekly Stage 2, or accumulate `base` / `breakout`); the daily buy points (`first_retest`,
+`base_tight`) only say *when*. `daily_entry = {signal, shown, hidden_reason}` — a daily signal on a stock that is
+still falling / topping is kept but marked `shown: false` with the reason.
+
+**Trading book:** real-money swing trades get their own ledger so they never mix with the investment portfolio:
+`python -m portfolio_stage ingest slips/trade --book trade` (also `bootstrap` / `reconcile --book trade`) ->
+`portfolio/trade_book/trades.csv`. `run` analyses the investment book only.
+
 **Late Yahoo data:** after the close, `run` checks that the benchmark (SPY) has a bar for the session that just
 ended; if not it waits and re-downloads (`data.stale_retries` x `stale_wait_seconds`, 3 x 2 min). Still missing ->
 `meta.last_bar_complete: false`, `meta.stale_reason`, and a "do not upload" line in the terminal and Telegram.

@@ -66,7 +66,7 @@ class States(unittest.TestCase):
         self.assertIsNone(self.run_(path((100, 100, 80), (100, 30, 20)))["ema200w"])
         a = self.run_(path((100, 100, 200), (100, 50, 20), (50, 52, 10)))
         self.assertIsNotNone(a["ema200w"])
-        self.assertAlmostEqual(a["dist_ema200w_pct"], (a["price_w"] / a["ema200w"] - 1) * 100, delta=0.01)
+        self.assertAlmostEqual(a["dist_ema200w_pct"], (a["price_w"] / a["ema200w"] - 1) * 100, delta=0.02)
 
     def test_alert_only_on_change(self):
         self.assertIsNone(AC.alert_text("X", {"state": "base"}, None))
@@ -76,3 +76,41 @@ class States(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Gate(unittest.TestCase):
+    def test_weekly_decides_whether(self):
+        self.assertTrue(AC.add_gate(2, {"state": "stage2"})["allowed"])
+        self.assertTrue(AC.add_gate(4, {"state": "breakout"})["allowed"])
+        self.assertTrue(AC.add_gate(1, {"state": "base"})["allowed"])
+        g = AC.add_gate(4, {"state": "falling", "why": "new low 1 week(s) ago"})
+        self.assertFalse(g["allowed"])
+        self.assertIn("new low", g["reason"])
+        self.assertIn("topping", AC.add_gate(3, {"state": "shallow"})["reason"])
+
+    def test_daily_says_when_only_if_allowed(self):
+        row = {"first_retest": {"level": 10, "date": "2026-10-20"}, "base_tight": {"ok": False}}
+        shown = AC.daily_entry(row, AC.add_gate(2, None))
+        self.assertEqual((shown["signal"], shown["shown"]), ("first_retest", True))
+        hidden = AC.daily_entry(row, AC.add_gate(4, {"state": "falling", "why": "x"}))
+        self.assertEqual((hidden["signal"], hidden["shown"]), ("first_retest", False))
+        self.assertIn("still falling", hidden["hidden_reason"])
+        none = AC.daily_entry({"first_retest": None, "base_tight": {"ok": False}}, AC.add_gate(2, None))
+        self.assertEqual((none["signal"], none["shown"], none["hidden_reason"]), (None, False, None))
+
+
+class TradeBook(unittest.TestCase):
+    def test_ingest_book_trade_uses_separate_ledger(self):
+        import os
+        import tempfile
+        from unittest import mock
+        from portfolio_stage import cli
+        seen = {}
+        with tempfile.TemporaryDirectory() as d, mock.patch("portfolio_stage.slips.ingest",
+                                                            side_effect=lambda f, cfg, dry_run: seen.update(
+                                                                trades=cfg["paths"]["trades"]) or {}), \
+                mock.patch("portfolio_stage.slips.print_summary"):
+            cli.main(["ingest", d, "--book", "trade"])
+            self.assertTrue(seen["trades"].endswith(os.path.join("trade_book", "trades.csv")))
+            cli.main(["ingest", d])
+            self.assertTrue(seen["trades"].endswith("portfolio/trades.csv"))
