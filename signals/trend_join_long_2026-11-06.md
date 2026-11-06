@@ -1,7 +1,9 @@
 **Trend-join Long — 2026-11-06**
-0 valid entries out of 28 pre-market gappers (generated 2026-11-06 11:35:05 EST)
+1 valid entry out of 27 pre-market gappers (generated 2026-11-06 12:06:10 EST)
 
-_No valid entries yet._
+| Ticker | Signal (ET) | Entry | Gap % | Catalyst |
+|---|---|---|---|---|
+| BB | 11:38 | $8.85 | +6.39% | BlackBerry has added David Chaikof, a long-time external legal adviser with deep M&A, governance and capital markets experience, to its Board, expanding it to nine directors, eight of whom are independent. |
 
 Not triggered:
 - AAOI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -11,7 +13,6 @@ Not triggered:
 - AEHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AEVA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AKAM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- AMAT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AMD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AMKR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AMPX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -19,16 +20,15 @@ Not triggered:
 - APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - APP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ASML: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ASTS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ASX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- BB: NO_SIGNAL — Failing now: price_above_high_of_day
 - BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BNC: NO_SIGNAL — Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day
 - BORR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BRUN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BTDR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CBRS: SHORT_HISTORY — Only 122 trading days of history (< 200 needed for SMA200)
+- CDE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CELH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CHSN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- CIEN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CIFR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- CLF: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- CMPS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
