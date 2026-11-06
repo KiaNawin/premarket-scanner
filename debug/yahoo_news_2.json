@@ -1,6 +1,6 @@
 {
   "ticker": "ABNB",
-  "saved_at_et": "2026-11-06T13:05:30-05:00",
+  "saved_at_et": "2026-11-06T13:35:55-05:00",
   "response": [
     {
       "id": "2f733e24-a896-4392-9591-b9ad7ba9fae7",
@@ -109,35 +109,78 @@
       }
     },
     {
-      "id": "43d16b11-674a-3866-ae77-45910f4d43ee",
+      "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
       "content": {
-        "id": "43d16b11-674a-3866-ae77-45910f4d43ee",
+        "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
         "contentType": "STORY",
-        "title": "Airbnb Stocks Jump 12.27% After Results Beat and $12 Billion Buyback",
+        "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market",
         "description": null,
-        "summary": "Airbnb lifted its 2026 outlook to high-teens revenue growth and added a fresh $12 billion repurchase authorization.",
-        "pubDate": "2026-11-06T17:05:25Z",
-        "displayTime": "2026-11-06T17:05:25Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
+        "summary": "Nvidia trades higher Friday after recording its second-largest one-day market cap decline on record on Thursday.",
+        "pubDate": "2026-11-06T17:28:00Z",
+        "displayTime": "2026-11-06T17:28:00Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/13933ac1-ca44-3c66-87e0-08f5c6b276e8/nvidia-intel-tesla-amd-.html",
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 640,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
+              "width": 1280,
+              "height": 640,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/b6f7f3af82ce408d6fe12ac4c1abf5a186e844fed1f22489ebc36bf137ae5a16/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "GuruFocus.com",
-          "url": "http://www.gurufocus.com/"
+          "displayName": "Barrons.com",
+          "url": "http://www.barrons.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-stocks-jump-12-27-170525974.html"
+          "url": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo"
         },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-stocks-jump-12-27-170525974.html"
-        },
+        "clickThroughUrl": null,
         "finance": {
           "premiumFinance": {
             "isPremiumNews": false
           },
           "stockTickers": [
             {
+              "symbol": "COHR"
+            },
+            {
+              "symbol": "AMD"
+            },
+            {
+              "symbol": "SNDK"
+            },
+            {
+              "symbol": "LRCX"
+            },
+            {
               "symbol": "ABNB"
+            },
+            {
+              "symbol": "MRNA"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "LITE"
             }
           ]
         }
