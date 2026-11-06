@@ -1,6 +1,6 @@
 {
   "ticker": "AADX",
-  "saved_at_et": "2026-11-06T09:31:28-05:00",
+  "saved_at_et": "2026-11-06T10:01:53-05:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $8.56",
@@ -19,7 +19,7 @@
         },
         "rows": [
           {
-            "consolidated": "$8.5819 +0.0219 (+0.26%)",
+            "consolidated": "$8.77 +0.21 (+2.45%)",
             "volume": "12,080",
             "highPrice": "$8.7497 (08:43:44 AM)",
             "lowPrice": "$8.5 (06:48:36 AM)",
@@ -35,6 +35,126 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "09:29:54",
+            "price": "$8.77",
+            "shareVolume": "77"
+          },
+          {
+            "time": "09:29:49",
+            "price": "$8.59",
+            "shareVolume": "432"
+          },
+          {
+            "time": "09:29:49",
+            "price": "$8.59",
+            "shareVolume": "1,271"
+          },
+          {
+            "time": "09:29:49",
+            "price": "$8.59",
+            "shareVolume": "400"
+          },
+          {
+            "time": "09:29:48",
+            "price": "$8.59",
+            "shareVolume": "397"
+          },
+          {
+            "time": "09:29:48",
+            "price": "$8.59",
+            "shareVolume": "3"
+          },
+          {
+            "time": "09:29:37",
+            "price": "$8.59",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:29:36",
+            "price": "$8.59",
+            "shareVolume": "400"
+          },
+          {
+            "time": "09:29:36",
+            "price": "$8.59",
+            "shareVolume": "36"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.589",
+            "shareVolume": "1,122"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.585",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.585",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.585",
+            "shareVolume": "300"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.585",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.585",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.585",
+            "shareVolume": "300"
+          },
+          {
+            "time": "09:27:44",
+            "price": "$8.585",
+            "shareVolume": "100"
+          },
+          {
+            "time": "09:26:37",
+            "price": "$8.585",
+            "shareVolume": "11"
+          },
+          {
+            "time": "09:26:37",
+            "price": "$8.59",
+            "shareVolume": "14"
+          },
+          {
+            "time": "09:26:37",
+            "price": "$8.59",
+            "shareVolume": "785"
+          },
+          {
+            "time": "09:26:37",
+            "price": "$8.585",
+            "shareVolume": "52"
+          },
+          {
+            "time": "09:26:37",
+            "price": "$8.585",
+            "shareVolume": "11"
+          },
+          {
+            "time": "09:26:37",
+            "price": "$8.585",
+            "shareVolume": "52"
+          },
+          {
+            "time": "09:24:22",
+            "price": "$8.74",
+            "shareVolume": "1,100"
+          },
           {
             "time": "09:13:23",
             "price": "$8.5819",
