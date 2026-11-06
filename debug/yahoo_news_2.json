@@ -1,6 +1,6 @@
 {
   "ticker": "ABNB",
-  "saved_at_et": "2026-11-06T12:35:05-05:00",
+  "saved_at_et": "2026-11-06T13:05:30-05:00",
   "response": [
     {
       "id": "2f733e24-a896-4392-9591-b9ad7ba9fae7",
@@ -56,6 +56,59 @@
       }
     },
     {
+      "id": "1fa83473-8c56-35eb-9055-e400b10fd8f0",
+      "content": {
+        "id": "1fa83473-8c56-35eb-9055-e400b10fd8f0",
+        "contentType": "STORY",
+        "title": "Airbnb Jumps 11% After Hours on Its Fastest Growth in More Than 3 Years",
+        "description": null,
+        "summary": "Airbnb's blowout quarter erased weeks of AI-disruption fears, yet two quirks in the numbers could be flattering the results. Before trusting the rally, find out what a payment feature and the dollar are hiding, and what would prove the bears right.",
+        "pubDate": "2026-11-06T17:57:00Z",
+        "displayTime": "2026-11-06T17:57:00Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/5cc4f9fc819dec33290b9b7ce8fc00f3.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/5cc4f9fc819dec33290b9b7ce8fc00f3.jpg",
+              "width": 1366,
+              "height": 768,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/149d7eaefa0d25d53c152eaff7c70e71e9643b8e9499bc0d28d4effb50a7d52c/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F5cc4f9fc819dec33290b9b7ce8fc00f3.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/11/06/airbnb-jumps-11-after-hours-on-its-fastest-growth-in-more-than-3-years/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-jumps-11-hours-fastest-175700360.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ABNB"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "43d16b11-674a-3866-ae77-45910f4d43ee",
       "content": {
         "id": "43d16b11-674a-3866-ae77-45910f4d43ee",
@@ -77,41 +130,6 @@
         },
         "clickThroughUrl": {
           "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-stocks-jump-12-27-170525974.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ABNB"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "43ec6703-95ea-31d2-b183-16ffc33688e1",
-      "content": {
-        "id": "43ec6703-95ea-31d2-b183-16ffc33688e1",
-        "contentType": "STORY",
-        "title": "Airbnb Stock Jumps 9% as Growth Hits a Three-Year High",
-        "description": null,
-        "summary": "North American nights grew at their fastest pace in four years",
-        "pubDate": "2026-11-06T16:38:57Z",
-        "displayTime": "2026-11-06T16:38:57Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "GuruFocus.com",
-          "url": "http://www.gurufocus.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-stock-jumps-9-growth-163857161.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-stock-jumps-9-growth-163857161.html"
         },
         "finance": {
           "premiumFinance": {
