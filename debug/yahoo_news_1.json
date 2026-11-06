@@ -1,17 +1,17 @@
 {
-  "ticker": "AEHL",
-  "saved_at_et": "2026-11-05T14:05:51-05:00",
+  "ticker": "ABNB",
+  "saved_at_et": "2026-11-06T08:34:21-05:00",
   "response": [
     {
-      "id": "a1358cf0-0c33-35ab-a934-0cfa49541be5",
+      "id": "b0c1c0b9-5d0e-3a01-8fb3-695c378d0f28",
       "content": {
-        "id": "a1358cf0-0c33-35ab-a934-0cfa49541be5",
+        "id": "b0c1c0b9-5d0e-3a01-8fb3-695c378d0f28",
         "contentType": "STORY",
-        "title": "Antelope Enterprise stock falls on $100M share offering plan",
+        "title": "Premarket movers: Airbnb, Cloudflare, IREN rally; Atlassian, Five9 tumble",
         "description": null,
-        "summary": "Investing.com -- Antelope Enterprise Holdings Ltd (NASDAQ:AEHL) shares fell 5.5% in after-hours trading Thursday following the company's announcement of a $100 million at-the-market share offering program.",
-        "pubDate": "2026-10-01T20:54:30Z",
-        "displayTime": "2026-10-01T20:54:30Z",
+        "summary": "Investing.com - U.S. stock futures pointed to a mixed open on Friday as chip stocks rebounded following a broad-based selloff in the previous session, offering some relief to investors worried about the impact of the Democratic midterm election victory on the artificial intelligence boom.",
+        "pubDate": "2026-11-06T12:27:36Z",
+        "displayTime": "2026-11-06T12:27:36Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -20,10 +20,10 @@
           "url": "https://www.investing.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/antelope-enterprise-stock-falls-100m-205430117.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-airbnb-cloudflare-iren-122736112.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/antelope-enterprise-stock-falls-100m-205430117.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-airbnb-cloudflare-iren-122736112.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,37 +31,145 @@
           },
           "stockTickers": [
             {
-              "symbol": "AEHL"
+              "symbol": "^NDX"
+            },
+            {
+              "symbol": "TEAM"
+            },
+            {
+              "symbol": "NET"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "ABNB"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "AMAT"
+            },
+            {
+              "symbol": "SOXX"
+            },
+            {
+              "symbol": "AMD"
+            },
+            {
+              "symbol": "FIVN"
+            },
+            {
+              "symbol": "LRCX"
+            },
+            {
+              "symbol": "MU"
+            },
+            {
+              "symbol": "MRVL"
             }
           ]
         }
       }
     },
     {
-      "id": "3e7b5b73-bfc4-3438-ba58-187f14e244d1",
+      "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
       "content": {
-        "id": "3e7b5b73-bfc4-3438-ba58-187f14e244d1",
+        "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
         "contentType": "STORY",
-        "title": "Bitcoin Treasury Strategy Generates $190,000 Gain as Antelope (AEHL) Authorizes Share Buyback",
+        "title": "Intel, Sandisk, AMD, Airbnb, Monster, and More Stocks That Explain Today’s Market",
         "description": null,
-        "summary": "Antelope Enterprise Holdings launched a $95,000 repurchase program after reporting realized gains from its Bitcoin-focused “Genius Plan” capital allocation strategy. Key Investor TakeawaysAntelope Enterprise Holdings Limited (NASDAQ:AEHL) reported $190,000 in realized gains tied to its “Genius Plan” Bitcoin treasury strategy.",
-        "pubDate": "2026-05-08T14:54:22Z",
-        "displayTime": "2026-05-08T14:54:22Z",
-        "isHosted": true,
-        "previewUrl": null,
+        "summary": "Beaten-down AI stocks like Intel and Marvell come roaring back, while Airbnb surges thanks to strong travel demand.",
+        "pubDate": "2026-11-06T11:25:00Z",
+        "displayTime": "2026-11-06T11:25:00Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/13933ac1-ca44-3c66-87e0-08f5c6b276e8/intel-sandisk-amd-airbnb-.html",
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/investorshub_458/04c57196db219532a6608be4b22472d8",
-          "originalWidth": 640,
-          "originalHeight": 390,
+          "originalUrl": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 640,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/investorshub_458/04c57196db219532a6608be4b22472d8",
-              "width": 640,
-              "height": 390,
+              "url": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
+              "width": 1280,
+              "height": 640,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/b99bbd05168df5b2d656d3f8c6c13feb2f7c65657e073650ec036232d559ceab/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F04c57196db219532a6608be4b22472d8",
+              "url": "https://s.yimg.com/lo/mysterio/api/b6f7f3af82ce408d6fe12ac4c1abf5a186e844fed1f22489ebc36bf137ae5a16/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Barrons.com",
+          "url": "http://www.barrons.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo"
+        },
+        "clickThroughUrl": null,
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ABNB"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "SNDK"
+            },
+            {
+              "symbol": "AMD"
+            },
+            {
+              "symbol": "NET"
+            },
+            {
+              "symbol": "MRVL"
+            },
+            {
+              "symbol": "DKNG"
+            },
+            {
+              "symbol": "WDC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "59e700d5-0f32-349d-b723-559403ba427b",
+      "content": {
+        "id": "59e700d5-0f32-349d-b723-559403ba427b",
+        "contentType": "STORY",
+        "title": "Airbnb Shares Jump Over 10% as Third-Quarter Earnings Beat Forecasts and Travel Bookings Accelerate",
+        "description": null,
+        "summary": "Airbnb (NASDAQ:ABNB) reported stronger-than-expected third-quarter financial results, supported by accelerating travel demand, higher booking volumes and improved pricing. The accommodation platform delivered its fastest revenue growth in more than three years and raised its full-year outlook, sending its shares more than 10% higher in premarket trading on Friday.",
+        "pubDate": "2026-11-06T11:03:40Z",
+        "displayTime": "2026-11-06T11:03:40Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/04c652ab012e4d4384c2007439aa8efa.png",
+          "originalWidth": 1200,
+          "originalHeight": 659,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/investorshub_458/04c652ab012e4d4384c2007439aa8efa.png",
+              "width": 1200,
+              "height": 659,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/1b6aa832ff1629b81ce5bc8a159f50d8df77a9ff28a740cdb6abdb7c29f81776/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F04c652ab012e4d4384c2007439aa8efa.png",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -73,10 +181,10 @@
           "url": "https://investorshub.advfn.com/"
         },
         "canonicalUrl": {
-          "url": "https://investorshub.advfn.com/market-news/article/28053/bitcoin-treasury-strategy-generates-190000-gain-as-antelope-aehl-authorizes-share-buyback"
+          "url": "https://investorshub.advfn.com/market-news/article/39411/airbnb-shares-jump-over-10-as-third-quarter-earnings-beat-forecasts-and-travel-bookings-accelerate"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-treasury-strategy-generates-190-145422357.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-shares-jump-over-10-110340931.html"
         },
         "finance": {
           "premiumFinance": {
@@ -84,66 +192,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "AEHL"
-            },
-            {
-              "symbol": "BTC-USD"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "8378c70a-39f6-3599-83d3-3ff2cda6edb5",
-      "content": {
-        "id": "8378c70a-39f6-3599-83d3-3ff2cda6edb5",
-        "contentType": "STORY",
-        "title": "Antelope Enterprise Holdings confirms completion of $1M bitcoin purchase",
-        "description": null,
-        "summary": "Antelope Enterprise Holdings (AEHL) confirmed that it has completed its initial $1 million Bitcoin purchase. This milestone marks the official implementation phase of the Company’s “Genius Plan.” As previously disclosed, the Genius Plan is designed to integrate structured digital asset allocation with disciplined execution mechanisms, combining volatility management, gain realization, and capital structure optimization into a sustainable capital recycling framework. The initial purchase represen",
-        "pubDate": "2026-02-28T13:56:46Z",
-        "displayTime": "2026-02-28T13:56:46Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/tipranks_452/8930dffd5678eba8c60d76d85784e312",
-          "originalWidth": 192,
-          "originalHeight": 192,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/tipranks_452/8930dffd5678eba8c60d76d85784e312",
-              "width": 192,
-              "height": 192,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/7e1aaa7cefbf17893f027df371a206f279c4a859484cacfb5ffcb3c125fd7a9a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftipranks_452%2F8930dffd5678eba8c60d76d85784e312",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "TipRanks",
-          "url": "https://www.tipranks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/news/antelope-enterprise-holdings-confirms-completion-135646952.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/news/antelope-enterprise-holdings-confirms-completion-135646952.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "AEHL"
-            },
-            {
-              "symbol": "BTC-USD"
+              "symbol": "ABNB"
             }
           ]
         }

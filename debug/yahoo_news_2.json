@@ -1,32 +1,70 @@
 {
-  "ticker": "DNUT",
-  "saved_at_et": "2026-11-05T14:05:51-05:00",
+  "ticker": "FLY",
+  "saved_at_et": "2026-11-06T08:34:21-05:00",
   "response": [
     {
-      "id": "3769c286-5724-32b2-ae53-390f57b4c8b1",
+      "id": "bea4ae91-0cfa-353e-ab53-3ace9b72f5ea",
       "content": {
-        "id": "3769c286-5724-32b2-ae53-390f57b4c8b1",
+        "id": "bea4ae91-0cfa-353e-ab53-3ace9b72f5ea",
         "contentType": "STORY",
-        "title": "Krispy Kreme (DNUT) Q3 2026 Earnings Call Transcript",
+        "title": "Firefly Aerospace stock surges 13% on $1.3 billion engine deal",
         "description": null,
-        "summary": "Free cash flow swung sharply higher while inflation and fuel costs pressure the outlook.",
-        "pubDate": "2026-11-05T18:15:27Z",
-        "displayTime": "2026-11-05T18:15:27Z",
+        "summary": "Investing.com -- Firefly Aerospace shares surged 13% Friday after the company announced a three-year rocket engine agreement worth more than $1.3 billion with AST SpaceMobile, whose shares gained 5%.",
+        "pubDate": "2026-11-06T13:10:05Z",
+        "displayTime": "2026-11-06T13:10:05Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-stock-surges-13-131005466.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-stock-surges-13-131005466.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ASTS"
+            },
+            {
+              "symbol": "FLY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "16a2656a-e84f-3f7c-b328-54ea5eea167b",
+      "content": {
+        "id": "16a2656a-e84f-3f7c-b328-54ea5eea167b",
+        "contentType": "STORY",
+        "title": "Rocket Lab Reports November 9. The Quarter Has to Show It Can Fund Growth Without More Dilution",
+        "description": null,
+        "summary": "Key TakeawaysRocket Lab reports after the close on Monday, Nov. 9, after a $110.",
+        "pubDate": "2026-11-06T12:41:53Z",
+        "displayTime": "2026-11-06T12:41:53Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/eab778cb00ac6c8191db9d33c7308f16",
           "originalWidth": 1280,
-          "originalHeight": 1366,
+          "originalHeight": 720,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://media.zenfs.com/en/tikr_258/eab778cb00ac6c8191db9d33c7308f16",
               "width": 1280,
-              "height": 1366,
+              "height": 720,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/e3be8dd5fd1d03fcd25e1c14a89eb2ee9091a9624afee7982e77021ae2612296/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Feab778cb00ac6c8191db9d33c7308f16",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +72,14 @@
           ]
         },
         "provider": {
-          "displayName": "Motley Fool",
-          "url": "http://www.fool.com/"
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/krispy-kreme-dnut-q3-2026-earnings-call-transcript/"
+          "url": "https://www.tikr.com/blog/rocket-lab-reports-november-9-the-quarter-has-to-show-it-can-fund-growth-without-more-dilution?ref=yahoofinance&tlnk=yf-261106-3pc648xr"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/krispy-kreme-dnut-q3-2026-181527177.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-reports-november-9-124153299.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,37 +87,43 @@
           },
           "stockTickers": [
             {
-              "symbol": "DNUT"
+              "symbol": "RKLB"
+            },
+            {
+              "symbol": "ASTS"
+            },
+            {
+              "symbol": "FLY"
             }
           ]
         }
       }
     },
     {
-      "id": "8c15f10c-7abf-3db3-b7bf-ac7a2760b5f7",
+      "id": "dfb6786b-1b29-3f94-a919-c1a56108912f",
       "content": {
-        "id": "8c15f10c-7abf-3db3-b7bf-ac7a2760b5f7",
+        "id": "dfb6786b-1b29-3f94-a919-c1a56108912f",
         "contentType": "STORY",
-        "title": "Krispy Kreme raises guidance as turnaround plan gains steam",
+        "title": "How Long Can Firefly Keep Burning Cash?",
         "description": null,
-        "summary": "Free cash flow improved by $82 million as the doughnut chain refranchises, cuts capital spending, and prunes underperforming delivery doors.",
-        "pubDate": "2026-11-05T17:01:38Z",
-        "displayTime": "2026-11-05T17:01:38Z",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "pubDate": "2026-11-04T13:49:40Z",
+        "displayTime": "2026-11-04T13:49:40Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/nation_s_restaurant_news_250/a95c254ff7fcf504085984d6d2ba0499.jpg",
-          "originalWidth": 800,
-          "originalHeight": 450,
+          "originalUrl": "https://media.zenfs.com/en/trefis_142/526556d66fdf5ffafb5efc1dbb4da756.jpg",
+          "originalWidth": 1920,
+          "originalHeight": 1282,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/nation_s_restaurant_news_250/a95c254ff7fcf504085984d6d2ba0499.jpg",
-              "width": 800,
-              "height": 450,
+              "url": "https://media.zenfs.com/en/trefis_142/526556d66fdf5ffafb5efc1dbb4da756.jpg",
+              "width": 1920,
+              "height": 1282,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/edec91382e855aa2ba25d85dac079fb66ea5f2ee21523bef7fbab6129cf09ab7/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnation_s_restaurant_news_250%2Fa95c254ff7fcf504085984d6d2ba0499.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/2fe8fd8f378411c9b6d7ae7d6875d6be742ea347198b9b41d2c17efe5861beb8/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F526556d66fdf5ffafb5efc1dbb4da756.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -87,14 +131,14 @@
           ]
         },
         "provider": {
-          "displayName": "Nation's Restaurant News",
-          "url": "https://www.nrn.com/"
+          "displayName": "Trefis",
+          "url": "https://www.trefis.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.nrn.com/quick-service/krispy-kreme-raises-guidance-as-turnaround-plan-gains-steam"
+          "url": "https://www.trefis.com/stock/fly/articles/622626/how-long-can-firefly-keep-burning-cash/2026-11-04"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/krispy-kreme-raises-guidance-turnaround-170138343.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/long-firefly-keep-burning-cash-134940135.html"
         },
         "finance": {
           "premiumFinance": {
@@ -102,63 +146,22 @@
           },
           "stockTickers": [
             {
-              "symbol": "DNUT"
+              "symbol": "FLY"
             },
             {
-              "symbol": "MCD"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "5ccadc3c-a5f2-39f7-a721-ffa5e4279b86",
-      "content": {
-        "id": "5ccadc3c-a5f2-39f7-a721-ffa5e4279b86",
-        "contentType": "STORY",
-        "title": "Krispy Kreme CEO Says Turnaround Progress Continues As Company Raises 2026 Revenue Outlook",
-        "description": null,
-        "summary": "CEO Josh Charlesworth highlighted growth in systemwide sales, international franchise expansion, lower leverage and improved free cash flow year over year.",
-        "pubDate": "2026-11-05T16:58:35Z",
-        "displayTime": "2026-11-05T16:58:35Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/a74fc6736fca047ecd2fe35dae8eadc0.jpg",
-          "originalWidth": 865,
-          "originalHeight": 649,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/stocktwits_383/a74fc6736fca047ecd2fe35dae8eadc0.jpg",
-              "width": 865,
-              "height": 649,
-              "tag": "original"
+              "symbol": "RKLB"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/cfac5c2148c1d6dd8fd02d4bcae4e1a68487ff03f25d83a4ab41585f41ef0b18/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fa74fc6736fca047ecd2fe35dae8eadc0.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Stocktwits",
-          "url": "https://stocktwits.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://stocktwits.com/news-articles/markets/equity/krispy-kreme-ceo-says-turnaround-progress-continues-as-company-raises-2026-revenue-outlook/cNG18fSR94g"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/krispy-kreme-ceo-says-turnaround-165835366.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
+              "symbol": "LUNR"
+            },
             {
-              "symbol": "DNUT"
+              "symbol": "LMT"
+            },
+            {
+              "symbol": "NOC"
+            },
+            {
+              "symbol": "BA"
             }
           ]
         }
