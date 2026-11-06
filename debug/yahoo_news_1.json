@@ -1,32 +1,144 @@
 {
-  "ticker": "DNA",
-  "saved_at_et": "2026-11-06T10:04:53-05:00",
+  "ticker": "FLY",
+  "saved_at_et": "2026-11-06T10:35:14-05:00",
   "response": [
     {
-      "id": "44f2f11f-a438-37c5-bd17-c957bd4c336f",
+      "id": "2dd6841f-5554-3e61-95ff-5cfa743848be",
       "content": {
-        "id": "44f2f11f-a438-37c5-bd17-c957bd4c336f",
+        "id": "2dd6841f-5554-3e61-95ff-5cfa743848be",
         "contentType": "STORY",
-        "title": "Ginkgo Bioworks (DNA) Q3 2026 Earnings Call Transcript",
+        "title": "AST SpaceMobile to Develop Blacklift Rocket Using Firefly Aerospace Engines in $1.3 Billion Agreement",
         "description": null,
-        "summary": "Ginkgo cut its quarterly loss 44% as it pivots to autonomous labs.",
-        "pubDate": "2026-11-06T07:47:22Z",
-        "displayTime": "2026-11-06T07:47:22Z",
+        "summary": "AST SpaceMobile, Inc. (NASDAQ:ASTS) has announced plans to develop its own reusable rocket, named Blacklift, to launch BlueBird communications satellites into low Earth orbit, using engines supplied by Firefly Aerospace (NASDAQ:FLY).",
+        "pubDate": "2026-11-06T15:23:40Z",
+        "displayTime": "2026-11-06T15:23:40Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/c3fcb42c61518bef7131af1836d94143.png",
+          "originalWidth": 1200,
+          "originalHeight": 659,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/investorshub_458/c3fcb42c61518bef7131af1836d94143.png",
+              "width": 1200,
+              "height": 659,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/54ef1aea3a7a4e1330f7c830fa8bb32291e0f5f94110b83bd1aa61b372e573cc/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fc3fcb42c61518bef7131af1836d94143.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://investorshub.advfn.com/market-news/article/39484/ast-spacemobile-to-develop-blacklift-rocket-using-firefly-aerospace-engines-in-1-3-billion-agreement"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/technology/articles/ast-spacemobile-develop-blacklift-rocket-152340270.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ASTS"
+            },
+            {
+              "symbol": "FLY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "0f60cca4-6486-3c86-b46a-7751f268fce4",
+      "content": {
+        "id": "0f60cca4-6486-3c86-b46a-7751f268fce4",
+        "contentType": "STORY",
+        "title": "Firefly inks $1.3 billion deal to supply engines for new AST SpaceMobile 'Blacklift' rocket",
+        "description": null,
+        "summary": "By Joey Roulette WASHINGTON, Nov 6 (Reuters) - Firefly Aerospace will supply core engines for a new rocket under development by satellite communications firm AST SpaceMobile in a $1.3 billion deal,",
+        "pubDate": "2026-11-06T15:18:10Z",
+        "displayTime": "2026-11-06T15:18:10Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/reuters.com/71493a3be528a03da4f8d120cb8921e9.jpg",
+          "originalWidth": 800,
+          "originalHeight": 533,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/reuters.com/71493a3be528a03da4f8d120cb8921e9.jpg",
+              "width": 800,
+              "height": 533,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/7f31c1a33f19fd248f5ea95bcced07e4294f55c8a1eef6f1df1a8d1f537951a9/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F71493a3be528a03da4f8d120cb8921e9.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Reuters",
+          "url": "https://www.reuters.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/technology/articles/firefly-inks-1-3-billion-151810804.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/technology/articles/firefly-inks-1-3-billion-151810804.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ASTS"
+            },
+            {
+              "symbol": "FLY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2bffda9d-f667-380c-b5e7-f41771dbe478",
+      "content": {
+        "id": "2bffda9d-f667-380c-b5e7-f41771dbe478",
+        "contentType": "STORY",
+        "title": "AST SpaceMobile Will Use Firefly in Bold Move to Build Its Starlink Competitor",
+        "description": null,
+        "summary": "Mobile communications satellite operator AST SpaceMobile drops a space-bombshell on Friday.",
+        "pubDate": "2026-11-06T13:47:00Z",
+        "displayTime": "2026-11-06T13:47:00Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/2bffda9d-f667-380c-b5e7-f41771dbe478/ast-spacemobile-will-use.html",
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/Barrons.com/2f1a9cd2dbaefbc654790c76019cc4b4.jpg",
           "originalWidth": 1280,
-          "originalHeight": 1366,
+          "originalHeight": 640,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://media.zenfs.com/en/Barrons.com/2f1a9cd2dbaefbc654790c76019cc4b4.jpg",
               "width": 1280,
-              "height": 1366,
+              "height": 640,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/981452f67b4d43cb0aab96133fd57d8597d94ab5f8ff5416cb4e74ad80d1341e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F2f1a9cd2dbaefbc654790c76019cc4b4.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,137 +146,32 @@
           ]
         },
         "provider": {
-          "displayName": "Motley Fool",
-          "url": "http://www.fool.com/"
+          "displayName": "Barrons.com",
+          "url": "http://www.barrons.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/ginkgo-bioworks-dna-q3-2026-earnings-call-transcript/"
+          "url": "https://www.barrons.com/articles/ast-spacemobile-stock-firely-aerospace-spacex-starlink-c04f3977?siteid=yhoof2&yptr=yahoo"
         },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/healthcare/articles/ginkgo-bioworks-dna-q3-2026-074722791.html"
-        },
+        "clickThroughUrl": null,
         "finance": {
           "premiumFinance": {
             "isPremiumNews": false
           },
           "stockTickers": [
             {
-              "symbol": "DNA"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "60043355-7c62-3508-adee-88ec42ee7974",
-      "content": {
-        "id": "60043355-7c62-3508-adee-88ec42ee7974",
-        "contentType": "STORY",
-        "title": "Ginkgo Bioworks Holdings, Inc. (DNA) Suffers a Larger Drop Than the General Market: Key Insights",
-        "description": null,
-        "summary": "Ginkgo Bioworks Holdings, Inc. (DNA) closed at $12.74 in the latest trading session, marking a -4.35% move from the prior day.",
-        "pubDate": "2026-10-29T21:15:03Z",
-        "displayTime": "2026-10-29T21:15:03Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4.jpg",
-          "originalWidth": 900,
-          "originalHeight": 600,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4.jpg",
-              "width": 900,
-              "height": 600,
-              "tag": "original"
+              "symbol": "ASTS"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/93b5930381af0d83953900f5dd3f7d713fd8cf8de9ef1c73ba245cb05d481f3f/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fac90b3d74679f6d01a122aa033d8a9a4.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ginkgo-bioworks-holdings-inc-dna-211503428.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ginkgo-bioworks-holdings-inc-dna-211503428.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "DNA"
+              "symbol": "FLY"
             },
             {
-              "symbol": "^GSPC"
+              "symbol": "LUNR"
             },
             {
-              "symbol": "^DJI"
+              "symbol": "RKLB"
             },
             {
-              "symbol": "^IXIC"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "996b43f6-4a9c-3886-8212-f97bc455d72f",
-      "content": {
-        "id": "996b43f6-4a9c-3886-8212-f97bc455d72f",
-        "contentType": "STORY",
-        "title": "What Ginkgo Bioworks Bears Saw Before The Fall",
-        "description": null,
-        "summary": "Ginkgo Bioworks has just agreed to open its Boston autonomous lab to National Science Foundation X-Labs teams, while also wiring Araceli’s high-speed imaging gear into its Nebula setup. For Ginkgo Bioworks shareholders, the loss over the past year was 26.4%, including dividends. If you had committed fresh capital a year ago on the bullish and bearish analyst cases published in late 2025, how do these new lab partnerships compare with a net margin that moved further into the red, and what...",
-        "pubDate": "2026-10-24T05:16:43Z",
-        "displayTime": "2026-10-24T05:16:43Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/16f9c11fba17f685f8be41fd84f12f54.jpg",
-          "originalWidth": 1600,
-          "originalHeight": 900,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/16f9c11fba17f685f8be41fd84f12f54.jpg",
-              "width": 1600,
-              "height": 900,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/f9966af085f2ddf4123305ab4963311bbbc4f9b211101884cba77dd123f4e6ed/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F16f9c11fba17f685f8be41fd84f12f54.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ginkgo-bioworks-bears-saw-fall-051643351.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ginkgo-bioworks-bears-saw-fall-051643351.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "DNA"
+              "symbol": "SPCX"
             }
           ]
         }

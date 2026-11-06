@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-06",
-  "generated_at_et": "2026-11-06 10:05:03 EST",
+  "generated_at_et": "2026-11-06 10:35:20 EST",
   "source_premarket_file": "premarket_scan_2026-11-06.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,54 +10,10 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 33,
+  "candidates": 19,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
-    {
-      "ticker": "AAOI",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 7.4556,
-      "yesterday_high": 56.89,
-      "yesterday_close": 46.89,
-      "sma200": 114.586,
-      "premarket_high": 50.49,
-      "last_price": 49.1,
-      "last_bar_et": "10:05",
-      "high_of_day": 51.895,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.82,
-      "catalyst": "Datacenter demand is lifting sales at this optical networking company, but profit is not keeping up."
-    },
-    {
-      "ticker": "ABCL",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.9674,
-      "yesterday_high": 11.88,
-      "yesterday_close": 11.13,
-      "sma200": 7.0014,
-      "premarket_high": 11.5077,
-      "last_price": 11.6842,
-      "last_bar_et": "10:04",
-      "high_of_day": 11.98,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 6.56,
-      "catalyst": "AbCellera Biologics has produced a sharp year to date gain, which naturally raises a tougher question for anyone looking at the shares today."
-    },
     {
       "ticker": "ABNB",
       "status": "NO_SIGNAL",
@@ -67,8 +23,8 @@
       "yesterday_close": 170.13,
       "sma200": 147.497,
       "premarket_high": 195.5008,
-      "last_price": 186.16,
-      "last_bar_et": "10:04",
+      "last_price": 184.2,
+      "last_bar_et": "10:35",
       "high_of_day": 192.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -77,8 +33,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 9.86,
-      "catalyst": "Growth reaccelerated as AI efficiency and new bookers lifted results."
+      "gap_pct": 8.83,
+      "catalyst": "Airbnb stock jumped 10% on Friday after the peer-to-peer home rental company touted strong growth across its business and raised its full-year outlook amid healthy global travel demand."
     },
     {
       "ticker": "ACHR",
@@ -89,9 +45,9 @@
       "yesterday_close": 3.87,
       "sma200": 5.718,
       "premarket_high": 3.97,
-      "last_price": 4.0803,
-      "last_bar_et": "10:05",
-      "high_of_day": 4.13,
+      "last_price": 4.1285,
+      "last_bar_et": "10:35",
+      "high_of_day": 4.27,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -99,30 +55,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.56,
-      "catalyst": "Could Archer turn patient investors into millionaires?"
-    },
-    {
-      "ticker": "AEHR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 7.3193,
-      "yesterday_high": 58.0,
-      "yesterday_close": 49.16,
-      "sma200": 74.9707,
-      "premarket_high": 55.5,
-      "last_price": 54.2808,
-      "last_bar_et": "10:04",
-      "high_of_day": 55.78,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.94,
-      "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable."
+      "gap_pct": 6.74,
+      "catalyst": "ACHR's Q3 earnings approach amid widening loss estimates, Midnight air taxi progress and a 56.4% stock decline, highlighting risks and growth potential."
     },
     {
       "ticker": "AEVA",
@@ -133,9 +67,9 @@
       "yesterday_close": 9.19,
       "sma200": 16.7044,
       "premarket_high": 9.7142,
-      "last_price": 10.17,
-      "last_bar_et": "10:04",
-      "high_of_day": 10.25,
+      "last_price": 10.21,
+      "last_bar_et": "10:35",
+      "high_of_day": 10.625,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -143,7 +77,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.34,
+      "gap_pct": 11.43,
       "catalyst": "Record revenue and first optical connectivity sales mark a pivotal quarter."
     },
     {
@@ -155,8 +89,8 @@
       "yesterday_close": 77.84,
       "sma200": 112.4073,
       "premarket_high": 83.98,
-      "last_price": 83.6,
-      "last_bar_et": "10:04",
+      "last_price": 83.15,
+      "last_bar_et": "10:34",
       "high_of_day": 85.1,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -165,52 +99,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.83,
+      "gap_pct": 7.26,
       "catalyst": "Key TakeawaysCloudflare shares jumped 11% after third-quarter revenue rose 39% to $782."
-    },
-    {
-      "ticker": "ALAB",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 24.6911,
-      "yesterday_high": 211.81,
-      "yesterday_close": 179.47,
-      "sma200": 255.9851,
-      "premarket_high": 199.0,
-      "last_price": 189.32,
-      "last_bar_et": "10:04",
-      "high_of_day": 195.21,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.82,
-      "catalyst": "Its forward P/E ratio of 3.72 was the lowest among 10 semiconductor-related stocks."
-    },
-    {
-      "ticker": "AMAT",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 22.3221,
-      "yesterday_high": 350.0,
-      "yesterday_close": 319.25,
-      "sma200": 445.285,
-      "premarket_high": 351.95,
-      "last_price": 341.14,
-      "last_bar_et": "10:05",
-      "high_of_day": 348.71,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.75,
-      "catalyst": "Key TakeawaysMicron shares jumped 6% after IREN’s results eased fears that AI data-center spending is slowing."
     },
     {
       "ticker": "AMD",
@@ -221,31 +111,9 @@
       "yesterday_close": 404.4,
       "sma200": 415.0009,
       "premarket_high": 447.72,
-      "last_price": 451.79,
-      "last_bar_et": "10:05",
+      "last_price": 437.47,
+      "last_bar_et": "10:35",
       "high_of_day": 459.78,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.7,
-      "catalyst": "Nvidia, AMD, Micron, and Sandisk rebounded on Friday after the chip sector suffered its worst daily drop since 2020."
-    },
-    {
-      "ticker": "AMKR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.98,
-      "yesterday_high": 34.14,
-      "yesterday_close": 30.49,
-      "sma200": 56.9779,
-      "premarket_high": 33.4,
-      "last_price": 32.305,
-      "last_bar_et": "10:04",
-      "high_of_day": 33.51,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -253,8 +121,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.89,
-      "catalyst": "AXT's 162% Q3 revenue jump and $500 million-plus backlog point to booming InP demand."
+      "gap_pct": 8.69,
+      "catalyst": "Nvidia, AMD, Micron, and Sandisk rebounded on Friday after the chip sector suffered its worst daily drop since 2020."
     },
     {
       "ticker": "AMPX",
@@ -265,9 +133,9 @@
       "yesterday_close": 7.52,
       "sma200": 13.3534,
       "premarket_high": 7.98,
-      "last_price": 8.085,
-      "last_bar_et": "10:04",
-      "high_of_day": 8.28,
+      "last_price": 8.0201,
+      "last_bar_et": "10:35",
+      "high_of_day": 8.335,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -275,7 +143,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.51,
+      "gap_pct": 7.71,
       "catalyst": "Political control in Washington just flipped, and that reshuffle of power is already reshaping expectations for clean energy, healthcare, trade and regulation more broadly."
     },
     {
@@ -287,8 +155,8 @@
       "yesterday_close": 159.16,
       "sma200": 165.9509,
       "premarket_high": 169.99,
-      "last_price": 169.72,
-      "last_bar_et": "10:05",
+      "last_price": 168.8,
+      "last_bar_et": "10:34",
       "high_of_day": 173.6,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -297,140 +165,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.97,
-      "catalyst": "Key TakeawaysArista Networks fell 11% today as an AI hardware selloff tied to Democrats’ midterm sweep hit networking stocks, and Ciena fell even harder."
+      "gap_pct": 6.7,
+      "catalyst": "IonQ's Q3 revenues surge 336% as quantum computing demand accelerates, SkyWater boosts manufacturing capabilities, and 2026 sales guidance is raised."
     },
     {
-      "ticker": "APLD",
+      "ticker": "APP",
       "status": "FAIL",
       "signal": false,
-      "atr14": 1.8988,
-      "yesterday_high": 16.03,
-      "yesterday_close": 14.17,
-      "sma200": 30.9397,
-      "premarket_high": 15.85,
-      "last_price": 15.165,
-      "last_bar_et": "10:05",
-      "high_of_day": 15.8,
+      "atr14": 18.3294,
+      "yesterday_high": 365.33,
+      "yesterday_close": 356.1,
+      "sma200": 409.9577,
+      "premarket_high": 355.55,
+      "last_price": 378.5773,
+      "last_bar_et": "10:35",
+      "high_of_day": 380.5518,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.15,
-      "catalyst": "TeraWulf beat Wall Street's estimates and landed a Google safety net for its Anthropic lease, yet it still trails its rivals in the AI hosting bounce."
-    },
-    {
-      "ticker": "ASML",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 67.6493,
-      "yesterday_high": 1443.48,
-      "yesterday_close": 1356.65,
-      "sma200": 1600.0012,
-      "premarket_high": 1460.708,
-      "last_price": 1432.73,
-      "last_bar_et": "10:05",
-      "high_of_day": 1447.45,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.1,
-      "catalyst": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below."
-    },
-    {
-      "ticker": "ASX",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.9371,
-      "yesterday_high": 34.0,
-      "yesterday_close": 29.72,
-      "sma200": 33.6802,
-      "premarket_high": 33.46,
-      "last_price": 31.77,
-      "last_bar_et": "10:05",
-      "high_of_day": 32.53,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.87,
-      "catalyst": "Here is how ASE Technology Hldg (ASX) and Advanced Micro Devices (AMD) have performed compared to their sector so far this year."
-    },
-    {
-      "ticker": "AXTI",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 7.0257,
-      "yesterday_high": 44.02,
-      "yesterday_close": 36.72,
-      "sma200": 65.3365,
-      "premarket_high": 40.98,
-      "last_price": 38.68,
-      "last_bar_et": "10:04",
-      "high_of_day": 40.5,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.66,
-      "catalyst": "The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and semiconductors."
-    },
-    {
-      "ticker": "BE",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 21.5589,
-      "yesterday_high": 188.803,
-      "yesterday_close": 167.52,
-      "sma200": 222.273,
-      "premarket_high": 188.1054,
-      "last_price": 180.05,
-      "last_bar_et": "10:05",
-      "high_of_day": 186.33,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.79,
-      "catalyst": "Bloom Energy (BE) is back in focus after a sharp pullback tied to US election results increased concern about future AI data center approvals, even as the business continues to sign large fuel cell deals."
-    },
-    {
-      "ticker": "BNC",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.4449,
-      "yesterday_high": 4.95,
-      "yesterday_close": 4.57,
-      "sma200": 3.6132,
-      "premarket_high": 4.97,
-      "last_price": 4.8,
-      "last_bar_et": "10:03",
-      "high_of_day": 4.85,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.14,
-      "catalyst": "CZ was on the Nasdaq floor Monday, and by Thursday night, he was assuring users that funds were ‘SAFU.’."
+      "gap_pct": 5.3,
+      "catalyst": "AppLovin's Q3 earnings beat and upbeat Q4 outlook sparked a sharp rally, lifting analyst optimism."
     },
     {
       "ticker": "BORR",
@@ -441,9 +199,9 @@
       "yesterday_close": 3.12,
       "sma200": 4.8744,
       "premarket_high": 3.24,
-      "last_price": 3.29,
-      "last_bar_et": "10:05",
-      "high_of_day": 3.33,
+      "last_price": 3.305,
+      "last_bar_et": "10:35",
+      "high_of_day": 3.34,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -451,7 +209,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.45,
+      "gap_pct": 6.09,
       "catalyst": "Seadrill (SDRL) delivered earnings and revenue surprises of +10.00% and +12.04%, respectively, for the quarter ended September 2026."
     },
     {
@@ -463,8 +221,8 @@
       "yesterday_close": 5.56,
       "sma200": 17.9162,
       "premarket_high": 6.52,
-      "last_price": 6.0,
-      "last_bar_et": "10:05",
+      "last_price": 5.84,
+      "last_bar_et": "10:34",
       "high_of_day": 6.22,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -473,7 +231,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.55,
+      "gap_pct": 6.29,
       "catalyst": "New analyst coverage puts Avidia Bancorp, Boost Run and Enviri in focus as improving earnings estimates and stock performance spark investor interest."
     },
     {
@@ -485,8 +243,8 @@
       "yesterday_close": 5.31,
       "sma200": 11.5249,
       "premarket_high": 5.88,
-      "last_price": 5.64,
-      "last_bar_et": "10:04",
+      "last_price": 5.56,
+      "last_bar_et": "10:35",
       "high_of_day": 5.85,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -495,61 +253,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.21,
+      "gap_pct": 5.18,
       "catalyst": "Another sector falling prey to Thursday’s market blood-letting: neoclouds."
     },
     {
-      "ticker": "CBRS",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 122 trading days of history (< 200 needed for SMA200)",
-      "history_days": 122,
-      "gap_pct": 6.68,
-      "catalyst": "Investing.com -- Thursday’s selloff hit technology stocks hard."
-    },
-    {
-      "ticker": "CIEN",
+      "ticker": "CMPS",
       "status": "FAIL",
       "signal": false,
-      "atr14": 27.1607,
-      "yesterday_high": 257.94,
-      "yesterday_close": 230.81,
-      "sma200": 405.6113,
-      "premarket_high": 253.7,
-      "last_price": 248.33,
-      "last_bar_et": "10:04",
-      "high_of_day": 256.48,
+      "atr14": 0.9406,
+      "yesterday_high": 8.61,
+      "yesterday_close": 7.81,
+      "sma200": 10.4225,
+      "premarket_high": 8.05,
+      "last_price": 8.26,
+      "last_bar_et": "10:34",
+      "high_of_day": 8.3357,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.31,
-      "catalyst": "CIEN expects at least 30% revenue growth in fiscal 2027, fueled by AI infrastructure demand, surging optical networking orders and a rapidly expanding backlog."
-    },
-    {
-      "ticker": "CIFR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.9964,
-      "yesterday_high": 6.31,
-      "yesterday_close": 5.55,
-      "sma200": 17.5226,
-      "premarket_high": 6.3695,
-      "last_price": 5.8301,
-      "last_bar_et": "10:04",
-      "high_of_day": 6.35,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.13,
-      "catalyst": "TeraWulf beat Wall Street's estimates and landed a Google safety net for its Anthropic lease, yet it still trails its rivals in the AI hosting bounce."
+      "gap_pct": 5.89,
+      "catalyst": "COMPASS Pathways has seen sharp moves in its share price over recent years, and that volatility now raises a straightforward question for investors who care about balance sheet strength."
     },
     {
       "ticker": "COHR",
@@ -560,62 +287,18 @@
       "yesterday_close": 169.76,
       "sma200": 296.4688,
       "premarket_high": 189.5,
-      "last_price": 189.405,
-      "last_bar_et": "10:04",
+      "last_price": 184.745,
+      "last_bar_et": "10:35",
       "high_of_day": 193.32,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.63,
+      "gap_pct": 9.41,
       "catalyst": "Key TakeawaysCoherent fell 13% to $170 on Thursday despite beating fiscal first-quarter estimates with $2."
-    },
-    {
-      "ticker": "CRDO",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 16.5983,
-      "yesterday_high": 130.16,
-      "yesterday_close": 112.33,
-      "sma200": 180.8064,
-      "premarket_high": 126.0,
-      "last_price": 119.5941,
-      "last_bar_et": "10:04",
-      "high_of_day": 125.8,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.29,
-      "catalyst": "Key TakeawaysCredo fell 17."
-    },
-    {
-      "ticker": "CRWV",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 5.8181,
-      "yesterday_high": 47.289,
-      "yesterday_close": 43.66,
-      "sma200": 90.4016,
-      "premarket_high": 49.14,
-      "last_price": 46.405,
-      "last_bar_et": "10:05",
-      "high_of_day": 47.7,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.79,
-      "catalyst": "Big Tech has spent years pouring record sums into artificial intelligence."
     },
     {
       "ticker": "DELL",
@@ -626,9 +309,9 @@
       "yesterday_close": 316.91,
       "sma200": 336.4024,
       "premarket_high": 346.88,
-      "last_price": 339.39,
-      "last_bar_et": "10:04",
-      "high_of_day": 350.35,
+      "last_price": 332.37,
+      "last_bar_et": "10:35",
+      "high_of_day": 350.36,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -636,8 +319,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.63,
-      "catalyst": "For questions about this article or underlying research, email help@trefis.com."
+      "gap_pct": 5.72,
+      "catalyst": "A sharp pullback has cooled valuations on three AI hardware names that just posted blowout quarters."
     },
     {
       "ticker": "DNA",
@@ -648,8 +331,8 @@
       "yesterday_close": 9.96,
       "sma200": 8.6065,
       "premarket_high": 10.3,
-      "last_price": 11.5928,
-      "last_bar_et": "10:04",
+      "last_price": 11.39,
+      "last_bar_et": "10:35",
       "high_of_day": 12.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -658,7 +341,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 20.48,
+      "gap_pct": 15.81,
       "catalyst": "Ginkgo cut its quarterly loss 44% as it pivots to autonomous labs."
     },
     {
@@ -670,17 +353,17 @@
       "yesterday_close": 23.04,
       "sma200": 31.5286,
       "premarket_high": 24.1,
-      "last_price": 25.04,
-      "last_bar_et": "10:04",
-      "high_of_day": 25.04,
+      "last_price": 24.12,
+      "last_bar_et": "10:35",
+      "high_of_day": 25.06,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.77,
+      "gap_pct": 5.12,
       "catalyst": "Some ETFs and closed-end funds have Anthropic stakes."
     },
     {
@@ -692,8 +375,8 @@
       "yesterday_close": 21.05,
       "sma200": 22.1876,
       "premarket_high": 26.72,
-      "last_price": 24.9962,
-      "last_bar_et": "10:04",
+      "last_price": 24.02,
+      "last_bar_et": "10:35",
       "high_of_day": 26.3,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -702,7 +385,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 18.65,
+      "gap_pct": 14.03,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -714,8 +397,8 @@
       "yesterday_close": 8.93,
       "sma200": 14.973,
       "premarket_high": 9.54,
-      "last_price": 9.62,
-      "last_bar_et": "10:04",
+      "last_price": 9.5472,
+      "last_bar_et": "10:35",
       "high_of_day": 9.84,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -724,9 +407,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.23,
+      "gap_pct": 7.61,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "ticker": "FLY",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.4075,
+      "yesterday_high": 16.867,
+      "yesterday_close": 15.175,
+      "sma200": 26.9141,
+      "premarket_high": 17.86,
+      "last_price": 17.93,
+      "last_bar_et": "10:35",
+      "high_of_day": 18.23,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 17.17,
+      "catalyst": "AST SpaceMobile, Inc."
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }
