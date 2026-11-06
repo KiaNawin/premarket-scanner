@@ -55,7 +55,7 @@ alerts:
   earnings_days: 5
 
 data:
-  history_period: 3y      # >= 500 trading days for ohlc.json
+  history_period: 5y      # >= 200 weeks for the weekly EMA200 (ohlc.json still keeps 500 days)
   retries: 3
   backoff_seconds: 2
   fundamentals_refresh_days: 7
@@ -122,6 +122,18 @@ sectors:                              # weekly sector rotation vs SPY (meta.sect
   momentum_weeks: 4                   # rs_momentum = 100 x rs_ratio / 4-week average of rs_ratio
   tail_weeks: 52                      # weekly path kept for the rotation chart
   # etfs / Yahoo sector mapping: defaults in portfolio_stage/config.py (override here if needed)
+
+accumulate:                           # buying a fallen stock in stages (weekly) — `accumulate` per ticker
+  min_weeks: 60                       # weekly bars needed at all (EMA200w itself needs 200)
+  min_drawdown_pct: 25                # it must have fallen at least this much from its 52-week high
+  oversold_rsi: 30                    # selling exhausted = weekly RSI below this ...
+  oversold_lookback_weeks: 26         # ... at some point in the last 26 weeks
+  ema_counts_as_exhausted: true       # ... or price within near_ema_pct of the weekly EMA200 (last support)
+  near_ema_pct: 5
+  low_lookback_weeks: 52              # the low = lowest weekly low of the last 52 weeks
+  min_base_weeks: 6                   # no new low for 6 weeks = a base can start
+  max_base_width_pct: 35              # a "dull" base: high/low of those 6 weeks within 35%
+  breakout_hold_pct: 5                # after a breakout, price must stay within 5% of the base high
 
 validator:
   script: tools/validate_output.py    # run automatically after every `run`

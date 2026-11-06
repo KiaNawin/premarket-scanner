@@ -243,6 +243,7 @@ def cmd_run(args, cfg) -> int:
              "quality": None, **{k: None for k in SW.FIELDS}, "ret_rank_top_pct": None,
              "valuation": None, "pe": None, "forward_pe": None, "ps": None,
              "quality_pct": None, "profile": None, "margins": None, "insider": None, "financials": None,
+             "accumulate": None,
              "null_reasons": {}}
         nr = r["null_reasons"]
         df = prices.get(yt)
@@ -267,6 +268,11 @@ def cmd_run(args, cfg) -> int:
         rel_ret[t] = A.weighted_rel_return(df["Close"], spy["Close"], rsc["windows_days"], rsc["weights"]) \
             if spy is not None else None
         tt = A.minervini(df, rs, cfg)
+        from . import accumulate as AC
+        acc, acc_why = AC.evaluate(df, fri, st["stage"], cfg)
+        r["accumulate"] = acc if acc.get("state") else None
+        if acc_why:
+            nr["accumulate"] = acc_why
         pc = D.prev_close(df, as_of)
         day_chg = None
         if df.index[-1].date() == as_of and pc:          # session started: the gap is today's open vs prior close
@@ -398,7 +404,7 @@ def cmd_run(args, cfg) -> int:
         nr = r["null_reasons"]
         for k in R.KEYS:                          # any remaining null gets a reason
             if k in ("levels", "quality", "earnings_soon", "gaps_open", "first_retest", "valuation", "profile", "margins",
-                     "insider", "financials") or "all" in nr:
+                     "insider", "financials", "accumulate") or "all" in nr:
                 continue
             if r.get(k) is None and k not in nr:
                 n = r.get("history_days") or 0
@@ -625,6 +631,10 @@ def build_alerts(rows, held, meta, missing, cfg, prev, as_of: dt.date | None = N
         stop_hit = p is not None and old.get("stop") is not None and p < old["stop"]
         if stop_hit:
             out.append(("Stop broken", f"**{t}** ${p:,.2f} below last stop ${old['stop']:,.2f}"))
+        from .accumulate import alert_text
+        acc_line = alert_text(t, r.get("accumulate") or {}, old.get("accumulate"))
+        if acc_line:
+            out.append(("Accumulation", acc_line))
         out += [("Support/resistance", f"**{t}** {x}") for x in level_events(r, old, cfg)
                 if not (stop_hit and x.startswith("broke support"))]          # the stop line already says it
         mkt = spy_gap or 0.0

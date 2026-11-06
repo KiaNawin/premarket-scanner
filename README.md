@@ -303,6 +303,14 @@ on the snapshot. New holdings are added to the file with a blank cost automatica
 and on pre-market runs (no bar for today yet, so yesterday's is final). False only when the data already has a
 bar dated today while the market is open, or when Yahoo's bar for a closed session is still missing.
 
+**Accumulation tracker** (`accumulate` per ticker, weekly; alert "🧺 Accumulation" only when the state changes):
+for a stock that fell ≥25 % from its 52-week peak — `falling` (still making lows, or weekly RSI hasn't been < 30 in
+26 weeks) → `base` (selling exhausted, no new low for 6 weeks, range ≤ 35 % = Stage 1: start accumulating) →
+`breakout` (weekly close above the base, retest held above the base low, price within 5 % of the base high: add) →
+`stage2` (full position). Also `ema200w` / `dist_ema200w_pct` (weekly EMA200 = last support; needs 200 weeks, so
+daily history is now 5 years), `rsi_w`, `rsi_w_min`, peak/low/drawdown, base high/low/width, breakout week and `why`.
+Settings: `accumulate:` in config.yaml. Rules, not advice.
+
 **Late Yahoo data:** after the close, `run` checks that the benchmark (SPY) has a bar for the session that just
 ended; if not it waits and re-downloads (`data.stale_retries` x `stale_wait_seconds`, 3 x 2 min). Still missing ->
 `meta.last_bar_complete: false`, `meta.stale_reason`, and a "do not upload" line in the terminal and Telegram.
