@@ -1,29 +1,47 @@
 {
-  "ticker": "ABNB",
-  "saved_at_et": "2026-11-06T08:34:21-05:00",
+  "ticker": "EXTR",
+  "saved_at_et": "2026-11-06T09:04:38-05:00",
   "response": [
     {
-      "id": "b0c1c0b9-5d0e-3a01-8fb3-695c378d0f28",
+      "id": "19a59d9c-c256-3e1c-82f6-1efe00229cbe",
       "content": {
-        "id": "b0c1c0b9-5d0e-3a01-8fb3-695c378d0f28",
+        "id": "19a59d9c-c256-3e1c-82f6-1efe00229cbe",
         "contentType": "STORY",
-        "title": "Premarket movers: Airbnb, Cloudflare, IREN rally; Atlassian, Five9 tumble",
+        "title": "What Just Happened To Lumentum Shares?",
         "description": null,
-        "summary": "Investing.com - U.S. stock futures pointed to a mixed open on Friday as chip stocks rebounded following a broad-based selloff in the previous session, offering some relief to investors worried about the impact of the Democratic midterm election victory on the artificial intelligence boom.",
-        "pubDate": "2026-11-06T12:27:36Z",
-        "displayTime": "2026-11-06T12:27:36Z",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "pubDate": "2026-11-03T22:09:50Z",
+        "displayTime": "2026-11-03T22:09:50Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/trefis_142/323601bb9b797c29c7bc7d1123cfd9e6.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/trefis_142/323601bb9b797c29c7bc7d1123cfd9e6.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/8c294770a369dbbf22e98f80791e2628b084f17ed3f57f135ccac0843c99cef2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F323601bb9b797c29c7bc7d1123cfd9e6.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Investing.com",
-          "url": "https://www.investing.com/"
+          "displayName": "Trefis",
+          "url": "https://www.trefis.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-airbnb-cloudflare-iren-122736112.html"
+          "url": "https://www.trefis.com/stock/lite/articles/622215/what-just-happened-to-lumentum-shares/2026-11-03"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-airbnb-cloudflare-iren-122736112.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-lumentum-shares-220950438.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,145 +49,61 @@
           },
           "stockTickers": [
             {
-              "symbol": "^NDX"
+              "symbol": "LITE"
             },
             {
-              "symbol": "TEAM"
-            },
-            {
-              "symbol": "NET"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "ABNB"
+              "symbol": "MRVL"
             },
             {
               "symbol": "^GSPC"
             },
             {
-              "symbol": "AMAT"
+              "symbol": "CSCO"
             },
             {
-              "symbol": "SOXX"
+              "symbol": "FFIV"
             },
             {
-              "symbol": "AMD"
+              "symbol": "VSAT"
             },
             {
-              "symbol": "FIVN"
+              "symbol": "ESE"
             },
             {
-              "symbol": "LRCX"
+              "symbol": "EXTR"
             },
             {
-              "symbol": "MU"
-            },
-            {
-              "symbol": "MRVL"
+              "symbol": "SPGI"
             }
           ]
         }
       }
     },
     {
-      "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
+      "id": "008eda43-fc29-3d39-bc2e-ebb93860470e",
       "content": {
-        "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
+        "id": "008eda43-fc29-3d39-bc2e-ebb93860470e",
         "contentType": "STORY",
-        "title": "Intel, Sandisk, AMD, Airbnb, Monster, and More Stocks That Explain Today’s Market",
+        "title": "All You Need to Know About Extreme Networks (EXTR) Rating Upgrade to Strong Buy",
         "description": null,
-        "summary": "Beaten-down AI stocks like Intel and Marvell come roaring back, while Airbnb surges thanks to strong travel demand.",
-        "pubDate": "2026-11-06T11:25:00Z",
-        "displayTime": "2026-11-06T11:25:00Z",
-        "isHosted": false,
-        "previewUrl": "https://finance.yahoo.com/m/13933ac1-ca44-3c66-87e0-08f5c6b276e8/intel-sandisk-amd-airbnb-.html",
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 640,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
-              "width": 1280,
-              "height": 640,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/b6f7f3af82ce408d6fe12ac4c1abf5a186e844fed1f22489ebc36bf137ae5a16/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Barrons.com",
-          "url": "http://www.barrons.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo"
-        },
-        "clickThroughUrl": null,
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ABNB"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "SNDK"
-            },
-            {
-              "symbol": "AMD"
-            },
-            {
-              "symbol": "NET"
-            },
-            {
-              "symbol": "MRVL"
-            },
-            {
-              "symbol": "DKNG"
-            },
-            {
-              "symbol": "WDC"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "59e700d5-0f32-349d-b723-559403ba427b",
-      "content": {
-        "id": "59e700d5-0f32-349d-b723-559403ba427b",
-        "contentType": "STORY",
-        "title": "Airbnb Shares Jump Over 10% as Third-Quarter Earnings Beat Forecasts and Travel Bookings Accelerate",
-        "description": null,
-        "summary": "Airbnb (NASDAQ:ABNB) reported stronger-than-expected third-quarter financial results, supported by accelerating travel demand, higher booking volumes and improved pricing. The accommodation platform delivered its fastest revenue growth in more than three years and raised its full-year outlook, sending its shares more than 10% higher in premarket trading on Friday.",
-        "pubDate": "2026-11-06T11:03:40Z",
-        "displayTime": "2026-11-06T11:03:40Z",
+        "summary": "Extreme Networks (EXTR) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #1 (Strong Buy).",
+        "pubDate": "2026-11-03T16:00:06Z",
+        "displayTime": "2026-11-03T16:00:06Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/investorshub_458/04c652ab012e4d4384c2007439aa8efa.png",
-          "originalWidth": 1200,
-          "originalHeight": 659,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c.jpg",
+          "originalWidth": 900,
+          "originalHeight": 602,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/investorshub_458/04c652ab012e4d4384c2007439aa8efa.png",
-              "width": 1200,
-              "height": 659,
+              "url": "https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c.jpg",
+              "width": 900,
+              "height": 602,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/1b6aa832ff1629b81ce5bc8a159f50d8df77a9ff28a740cdb6abdb7c29f81776/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F04c652ab012e4d4384c2007439aa8efa.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/5cf0fb0351c549098ce0d7b2305c30d0bae602a3ff5ba91220227650115dcbd8/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fa41b81fe729c761f3f94f42ff348f70c.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -177,14 +111,14 @@
           ]
         },
         "provider": {
-          "displayName": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://investorshub.advfn.com/market-news/article/39411/airbnb-shares-jump-over-10-as-third-quarter-earnings-beat-forecasts-and-travel-bookings-accelerate"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/know-extreme-networks-extr-rating-160006534.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-shares-jump-over-10-110340931.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/know-extreme-networks-extr-rating-160006534.html"
         },
         "finance": {
           "premiumFinance": {
@@ -192,7 +126,75 @@
           },
           "stockTickers": [
             {
-              "symbol": "ABNB"
+              "symbol": "EXTR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "35a2a24b-c8ec-3c83-8634-d6e664c52040",
+      "content": {
+        "id": "35a2a24b-c8ec-3c83-8634-d6e664c52040",
+        "contentType": "STORY",
+        "title": "Is Arista Networks Stock Really Expensive?",
+        "description": null,
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "pubDate": "2026-10-30T22:18:44Z",
+        "displayTime": "2026-10-30T22:18:44Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/trefis_142/323601bb9b797c29c7bc7d1123cfd9e6.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/trefis_142/323601bb9b797c29c7bc7d1123cfd9e6.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/8c294770a369dbbf22e98f80791e2628b084f17ed3f57f135ccac0843c99cef2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F323601bb9b797c29c7bc7d1123cfd9e6.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Trefis",
+          "url": "https://www.trefis.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.trefis.com/stock/anet/articles/621536/is-arista-networks-stock-really-expensive/2026-10-30"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ANET"
+            },
+            {
+              "symbol": "CSCO"
+            },
+            {
+              "symbol": "HPE"
+            },
+            {
+              "symbol": "DELL"
+            },
+            {
+              "symbol": "EXTR"
+            },
+            {
+              "symbol": "CIEN"
             }
           ]
         }

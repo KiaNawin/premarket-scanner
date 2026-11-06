@@ -1,17 +1,52 @@
 {
-  "ticker": "FLY",
-  "saved_at_et": "2026-11-06T08:34:21-05:00",
+  "ticker": "ABNB",
+  "saved_at_et": "2026-11-06T09:04:38-05:00",
   "response": [
     {
-      "id": "bea4ae91-0cfa-353e-ab53-3ace9b72f5ea",
+      "id": "86d298e2-b8ed-3964-aebc-a2e492cb7fa4",
       "content": {
-        "id": "bea4ae91-0cfa-353e-ab53-3ace9b72f5ea",
+        "id": "86d298e2-b8ed-3964-aebc-a2e492cb7fa4",
         "contentType": "STORY",
-        "title": "Firefly Aerospace stock surges 13% on $1.3 billion engine deal",
+        "title": "Airbnb's 19% revenue surge sends Wall Street a surprise",
         "description": null,
-        "summary": "Investing.com -- Firefly Aerospace shares surged 13% Friday after the company announced a three-year rocket engine agreement worth more than $1.3 billion with AST SpaceMobile, whose shares gained 5%.",
-        "pubDate": "2026-11-06T13:10:05Z",
-        "displayTime": "2026-11-06T13:10:05Z",
+        "summary": "Stronger bookings and international travel demand helped Airbnb lift its full-year forecast. -",
+        "pubDate": "2026-11-06T13:32:13Z",
+        "displayTime": "2026-11-06T13:32:13Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "GuruFocus.com",
+          "url": "http://www.gurufocus.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnbs-19-revenue-surge-sends-133213412.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnbs-19-revenue-surge-sends-133213412.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ABNB"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "b0c1c0b9-5d0e-3a01-8fb3-695c378d0f28",
+      "content": {
+        "id": "b0c1c0b9-5d0e-3a01-8fb3-695c378d0f28",
+        "contentType": "STORY",
+        "title": "Premarket movers: Airbnb, Cloudflare, IREN rally; Atlassian, Five9 tumble",
+        "description": null,
+        "summary": "Investing.com - U.S. stock futures pointed to a mixed open on Friday as chip stocks rebounded following a broad-based selloff in the previous session, offering some relief to investors worried about the impact of the Democratic midterm election victory on the artificial intelligence boom.",
+        "pubDate": "2026-11-06T12:27:36Z",
+        "displayTime": "2026-11-06T12:27:36Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -20,10 +55,10 @@
           "url": "https://www.investing.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-stock-surges-13-131005466.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-airbnb-cloudflare-iren-122736112.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-stock-surges-13-131005466.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-airbnb-cloudflare-iren-122736112.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,40 +66,73 @@
           },
           "stockTickers": [
             {
-              "symbol": "ASTS"
+              "symbol": "^NDX"
             },
             {
-              "symbol": "FLY"
+              "symbol": "TEAM"
+            },
+            {
+              "symbol": "NET"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "ABNB"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "AMAT"
+            },
+            {
+              "symbol": "SOXX"
+            },
+            {
+              "symbol": "AMD"
+            },
+            {
+              "symbol": "FIVN"
+            },
+            {
+              "symbol": "LRCX"
+            },
+            {
+              "symbol": "MU"
+            },
+            {
+              "symbol": "MRVL"
             }
           ]
         }
       }
     },
     {
-      "id": "16a2656a-e84f-3f7c-b328-54ea5eea167b",
+      "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
       "content": {
-        "id": "16a2656a-e84f-3f7c-b328-54ea5eea167b",
+        "id": "13933ac1-ca44-3c66-87e0-08f5c6b276e8",
         "contentType": "STORY",
-        "title": "Rocket Lab Reports November 9. The Quarter Has to Show It Can Fund Growth Without More Dilution",
+        "title": "Intel, Sandisk, AMD, Airbnb, Monster, and More Stocks That Explain Today’s Market",
         "description": null,
-        "summary": "Key TakeawaysRocket Lab reports after the close on Monday, Nov. 9, after a $110.",
-        "pubDate": "2026-11-06T12:41:53Z",
-        "displayTime": "2026-11-06T12:41:53Z",
-        "isHosted": true,
-        "previewUrl": null,
+        "summary": "Beaten-down AI stocks like Intel and Marvell come roaring back, while Airbnb surges thanks to strong travel demand.",
+        "pubDate": "2026-11-06T11:25:00Z",
+        "displayTime": "2026-11-06T11:25:00Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/13933ac1-ca44-3c66-87e0-08f5c6b276e8/intel-sandisk-amd-airbnb-.html",
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/tikr_258/eab778cb00ac6c8191db9d33c7308f16",
+          "originalUrl": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
           "originalWidth": 1280,
-          "originalHeight": 720,
+          "originalHeight": 640,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/tikr_258/eab778cb00ac6c8191db9d33c7308f16",
+              "url": "https://media.zenfs.com/en/Barrons.com/714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
               "width": 1280,
-              "height": 720,
+              "height": 640,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e3be8dd5fd1d03fcd25e1c14a89eb2ee9091a9624afee7982e77021ae2612296/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Feab778cb00ac6c8191db9d33c7308f16",
+              "url": "https://s.yimg.com/lo/mysterio/api/b6f7f3af82ce408d6fe12ac4c1abf5a186e844fed1f22489ebc36bf137ae5a16/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F714b4b7c1d714e7acb255db3a2a5b7b8.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -72,96 +140,41 @@
           ]
         },
         "provider": {
-          "displayName": "TIKR",
-          "url": "https://www.tikr.com/"
+          "displayName": "Barrons.com",
+          "url": "http://www.barrons.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.tikr.com/blog/rocket-lab-reports-november-9-the-quarter-has-to-show-it-can-fund-growth-without-more-dilution?ref=yahoofinance&tlnk=yf-261106-3pc648xr"
+          "url": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo"
         },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-reports-november-9-124153299.html"
-        },
+        "clickThroughUrl": null,
         "finance": {
           "premiumFinance": {
             "isPremiumNews": false
           },
           "stockTickers": [
             {
-              "symbol": "RKLB"
+              "symbol": "ABNB"
             },
             {
-              "symbol": "ASTS"
+              "symbol": "INTC"
             },
             {
-              "symbol": "FLY"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "dfb6786b-1b29-3f94-a919-c1a56108912f",
-      "content": {
-        "id": "dfb6786b-1b29-3f94-a919-c1a56108912f",
-        "contentType": "STORY",
-        "title": "How Long Can Firefly Keep Burning Cash?",
-        "description": null,
-        "summary": "For questions about this article or underlying research, email help@trefis.com.",
-        "pubDate": "2026-11-04T13:49:40Z",
-        "displayTime": "2026-11-04T13:49:40Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/trefis_142/526556d66fdf5ffafb5efc1dbb4da756.jpg",
-          "originalWidth": 1920,
-          "originalHeight": 1282,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/trefis_142/526556d66fdf5ffafb5efc1dbb4da756.jpg",
-              "width": 1920,
-              "height": 1282,
-              "tag": "original"
+              "symbol": "SNDK"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/2fe8fd8f378411c9b6d7ae7d6875d6be742ea347198b9b41d2c17efe5861beb8/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F526556d66fdf5ffafb5efc1dbb4da756.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Trefis",
-          "url": "https://www.trefis.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.trefis.com/stock/fly/articles/622626/how-long-can-firefly-keep-burning-cash/2026-11-04"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/long-firefly-keep-burning-cash-134940135.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "FLY"
+              "symbol": "AMD"
             },
             {
-              "symbol": "RKLB"
+              "symbol": "NET"
             },
             {
-              "symbol": "LUNR"
+              "symbol": "MRVL"
             },
             {
-              "symbol": "LMT"
+              "symbol": "DKNG"
             },
             {
-              "symbol": "NOC"
-            },
-            {
-              "symbol": "BA"
+              "symbol": "WDC"
             }
           ]
         }
