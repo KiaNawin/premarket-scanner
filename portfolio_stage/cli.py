@@ -33,12 +33,20 @@ def is_trading_day(d: dt.date) -> bool:
     return d.weekday() < 5 and d.isoformat() not in NYSE_HOLIDAYS
 
 
+def market_close(d: dt.date) -> dt.time:
+    try:
+        from run_cycle import market_close as mc                    # 13:00 on NYSE early-close days
+        return mc(d)
+    except Exception:
+        return dt.time(16, 0)
+
+
 def expected_session(now_et: dt.datetime) -> dt.date | None:
-    """The latest closed session whose daily bar should exist: today after 16:00 ET on a trading day; the
-    previous trading day before 09:30 or on a non-trading day. None while today's session is open."""
+    """The latest closed session whose daily bar should exist: today after the close (16:00 ET, 13:00 on early-close
+    days) on a trading day; the previous trading day before 09:30 or on a non-trading day. None while open."""
     d = now_et.date()
     if is_trading_day(d):
-        if now_et.time() >= dt.time(16, 0):
+        if now_et.time() >= market_close(d):
             return d
         if now_et.time() >= dt.time(9, 30):
             return None
@@ -58,7 +66,7 @@ def last_bar_complete(now_et: dt.datetime, data_through: dt.date | None = None) 
     """True when the latest bar in the data belongs to a session that has closed: any time after 16:00 ET or on a
     non-trading day, and before 16:00 on a trading day only if the data has no bar for today yet (pre-market run
     -> yesterday's bar is final). A bar dated today before 16:00 is still forming -> False."""
-    if not is_trading_day(now_et.date()) or now_et.time() >= dt.time(16, 0):
+    if not is_trading_day(now_et.date()) or now_et.time() >= market_close(now_et.date()):
         return True
     return data_through is not None and data_through < now_et.date()
 
@@ -66,7 +74,7 @@ def last_bar_complete(now_et: dt.datetime, data_through: dt.date | None = None) 
 def _last_completed_close(df, now_et: dt.datetime) -> tuple[float, dt.date]:
     """Latest *finished* daily close (ignores today's bar while the market is still open)."""
     last = df.index[-1].date()
-    if last == now_et.date() and now_et.time() < dt.time(16, 0) and len(df) > 1:
+    if last == now_et.date() and now_et.time() < market_close(last) and len(df) > 1:
         return float(df["Close"].iloc[-2]), df.index[-2].date()
     return float(df["Close"].iloc[-1]), last
 

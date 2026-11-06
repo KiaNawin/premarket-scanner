@@ -33,11 +33,16 @@ def r2(x, n=2):
 
 # ============================================================================ weekly / stage
 def last_complete_friday(now_et: dt.datetime) -> dt.date:
-    """Friday of the most recent fully closed week (Friday counts after 16:00 ET)."""
+    """Friday of the most recent fully closed week (Friday counts after its close, 16:00 or 13:00 ET)."""
     d = now_et.date()
     back = (d.weekday() - 4) % 7                       # days since Friday
     fri = d - dt.timedelta(days=back)
-    if back == 0 and now_et.time() < dt.time(16, 0):
+    try:
+        from run_cycle import market_close                      # 13:00 on early-close Fridays (day after Thanksgiving)
+        close = market_close(fri)
+    except Exception:
+        close = dt.time(16, 0)
+    if back == 0 and now_et.time() < close:
         fri -= dt.timedelta(days=7)
     return fri
 

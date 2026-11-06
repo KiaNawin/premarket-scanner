@@ -53,6 +53,10 @@ When it re-runs after the 09:30 open, **Price / Gap %** use the latest trade (vs
 
 ## Schedule (New York time, US trading days; NYSE holidays skipped)
 
+NYSE early-close days (13:00 ET — day after Thanksgiving, Christmas Eve; `NYSE_EARLY_CLOSE` in `run_cycle.py`):
+Scanner A stops at 12:00 and Scanner B at 12:35, and the EOD summary can run any time after 13:00.
+portfolio_stage uses the same calendar.
+
 | | Runs | Bangkok time (until 1 Nov) | Bangkok time (after 1 Nov) |
 |---|---|---|---|
 | Scanner A — pre-market gappers | 08:30, 09:00 … 14:00 (every 30 min, 12 runs) | 19:30 → 01:00 | 20:30 → 02:00 |

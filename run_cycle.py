@@ -43,27 +43,45 @@ B_DELAY = dt.timedelta(minutes=5)
 ALERT_START, ALERT_END = dt.time(10, 0), dt.time(11, 30)   # fast 5-min Scanner B checks (--alert)
 STEP = dt.timedelta(minutes=30)
 
-# NYSE full-day closures (update yearly: nyse.com/markets/hours-calendars)
+# NYSE calendar (NYSE Group announcement of 2025-12-23; update yearly: nyse.com/markets/hours-calendars)
 NYSE_HOLIDAYS = {
     "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25", "2026-06-19",
     "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25",
     "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31", "2027-06-18",
     "2027-07-05", "2027-09-06", "2027-11-25", "2027-12-24",
+    "2028-01-17", "2028-02-21", "2028-04-14", "2028-05-29", "2028-06-19", "2028-07-04",
+    "2028-09-04", "2028-11-23", "2028-12-25",
 }
+# 1:00 pm ET early closings
+NYSE_EARLY_CLOSE = {"2026-11-27", "2026-12-24", "2027-11-26", "2028-07-03", "2028-11-24"}
+REGULAR_CLOSE, EARLY_CLOSE = dt.time(16, 0), dt.time(13, 0)
 
 
 def is_trading_day(d: dt.date) -> bool:
     return d.weekday() < 5 and d.isoformat() not in NYSE_HOLIDAYS
 
 
+def market_close(d: dt.date) -> dt.time:
+    """16:00 ET, or 13:00 on NYSE early-close days (day after Thanksgiving, Christmas Eve, ...)."""
+    return EARLY_CLOSE if d.isoformat() in NYSE_EARLY_CLOSE else REGULAR_CLOSE
+
+
+def windows(d: dt.date) -> tuple[dt.time, dt.time]:
+    """(last Scanner A slot, Scanner B cut-off): 14:00 / 15:00 normally; on early-close days A stops an hour
+    before the close and B at the close."""
+    close = dt.datetime.combine(d, market_close(d))
+    return min(A_END, (close - dt.timedelta(hours=1)).time()), min(B_END, close.time())
+
+
 def slots_for(day: dt.date) -> list[tuple[dt.datetime, str]]:
     """[(slot_start_ET, kind)] where kind 'A+B' = run A then B 5 min later, 'B' = strategy only."""
     out = []
+    a_end, b_end = windows(day)
     t = dt.datetime.combine(day, A_START, ET)
     while True:
-        if t.time() <= A_END:
+        if t.time() <= a_end:
             out.append((t, "A+B"))
-        elif (t + B_DELAY).time() < B_END:
+        elif (t + B_DELAY).time() < b_end:
             out.append((t, "B"))
         else:
             break
@@ -366,8 +384,9 @@ def main() -> int:
             if not is_trading_day(day):
                 print(f"{day} is not a US trading day — nothing to do.")
                 return 0
-            if now.time() < dt.time(16, 0):
-                print(f"{now:%H:%M} ET — the market hasn't closed yet. Use --force to run anyway.")
+            if now.time() < market_close(day):
+                print(f"{now:%H:%M} ET — the market hasn't closed yet (closes {market_close(day):%H:%M}). "
+                      "Use --force to run anyway.")
                 return 0
         return run_eod(day, args)
 
