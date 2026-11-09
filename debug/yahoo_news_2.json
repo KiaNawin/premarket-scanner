@@ -1,97 +1,32 @@
 {
-  "ticker": "BE",
-  "saved_at_et": "2026-11-09T11:37:16-05:00",
+  "ticker": "ALAB",
+  "saved_at_et": "2026-11-09T12:07:40-05:00",
   "response": [
     {
-      "id": "6df97773-585e-3081-be6e-0d184d2a48b5",
+      "id": "e971a4c4-27b8-3a32-bb24-147c743e9ce9",
       "content": {
-        "id": "6df97773-585e-3081-be6e-0d184d2a48b5",
+        "id": "e971a4c4-27b8-3a32-bb24-147c743e9ce9",
         "contentType": "STORY",
-        "title": "GE Vernova Soars 7% as Constellation Raises Guidance, Easing Data-Center Moratorium Fears",
+        "title": "Credo Stock Has a Powerful Growth Story, but Is It Already Priced In?",
         "description": null,
-        "summary": "Key TakeawaysGE Vernova shares jumped 7% today, with Bloom Energy and Vertiv, after Constellation Energy beat estimates and raised its 2026 guidance. Constellation’s new deals show data-center buyers are still signing, so last week’s moratorium selloff looks overdone.",
-        "pubDate": "2026-11-09T15:48:18Z",
-        "displayTime": "2026-11-09T15:48:18Z",
+        "summary": "Credo just posted triple-digit revenue growth and its eighth straight earnings beat, yet the stock lost a third of its value in a month. Two big customers and one valuation gap might explain why the market and our model disagree.",
+        "pubDate": "2026-11-09T15:33:24Z",
+        "displayTime": "2026-11-09T15:33:24Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/tikr_258/7f564e1d8e75ee7e6469635663b41c90",
-          "originalWidth": 1280,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/tikr_258/7f564e1d8e75ee7e6469635663b41c90",
-              "width": 1280,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/0c540c25ce510f3d5d57e388ed169241f3cdc85b9222cfe0dbe1243f51292fc9/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F7f564e1d8e75ee7e6469635663b41c90",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "TIKR",
-          "url": "https://www.tikr.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.tikr.com/blog/ge-vernova-soars-7-as-constellation-raises-guidance-easing-data-center-moratorium-fears?ref=yahoofinance&tlnk=yf-261109-hf2229fp"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-soars-7-constellation-154818525.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "CEG"
-            },
-            {
-              "symbol": "GEV"
-            },
-            {
-              "symbol": "VRT"
-            },
-            {
-              "symbol": "BE"
-            },
-            {
-              "symbol": "CAT"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "00c33b13-464d-3d8c-a5ec-0624157138ee",
-      "content": {
-        "id": "00c33b13-464d-3d8c-a5ec-0624157138ee",
-        "contentType": "STORY",
-        "title": "Bloom Energy Jumps 8%, FuelCell Energy Rises 3% as Fuel Cell Stocks Rebound; Plug Power Holds Steady Ahead of Earnings",
-        "description": null,
-        "summary": "A 900 megawatt overseas deal has Bloom Energy pulling away from its fuel cell rivals, but Texas politics and one looming earnings report could decide whether the rebound lasts. Which names stand to lose the most if the selling returns?",
-        "pubDate": "2026-11-09T14:49:47Z",
-        "displayTime": "2026-11-09T14:49:47Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/55732f38e19f7499c7daa2f9845aa5d1.jpg",
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/e21b44e7944a134cc46199f623ae20ee.jpg",
           "originalWidth": 1366,
           "originalHeight": 767,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/24_7_wall_st__718/55732f38e19f7499c7daa2f9845aa5d1.jpg",
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/e21b44e7944a134cc46199f623ae20ee.jpg",
               "width": 1366,
               "height": 767,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/da0ef147ad572b70bda94da97e02f15e02fabce6075dc9b0b33c21229b8dd03d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F55732f38e19f7499c7daa2f9845aa5d1.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/7f01afd9eb1feba32b93ad486c4c67b5e1de5e2734c963b16bda7667c02c6a68/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fe21b44e7944a134cc46199f623ae20ee.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -103,10 +38,10 @@
           "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://247wallst.com/investing/2026/11/09/bloom-energy-jumps-8-fuelcell-energy-rises-3-as-fuel-cell-stocks-rebound-plug-power-holds-steady-ahead-of-earnings/"
+          "url": "https://247wallst.com/investing/2026/11/09/credo-stock-has-a-powerful-growth-story-but-is-it-already-priced-in/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/energy/articles/bloom-energy-jumps-8-fuelcell-144947462.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-stock-powerful-growth-story-153324601.html"
         },
         "finance": {
           "premiumFinance": {
@@ -114,52 +49,46 @@
           },
           "stockTickers": [
             {
-              "symbol": "BE"
+              "symbol": "CRDO"
             },
             {
-              "symbol": "PLUG"
+              "symbol": "MRVL"
             },
             {
-              "symbol": "FCEL"
+              "symbol": "ALAB"
             },
             {
-              "symbol": "BLDP"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "BLDP"
+              "symbol": "AVGO"
             }
           ]
         }
       }
     },
     {
-      "id": "41bba372-5a3f-3267-ae33-a6d573749399",
+      "id": "0a1907f1-a9a5-342b-b120-7f45311424e2",
       "content": {
-        "id": "41bba372-5a3f-3267-ae33-a6d573749399",
+        "id": "0a1907f1-a9a5-342b-b120-7f45311424e2",
         "contentType": "STORY",
-        "title": "Renewable Energy & Battery Stocks to Buy as Blue Wave Sweeps US Congress",
+        "title": "Astera Labs Stock Drops 26% in a Week Despite Strong Earnings. Is It a Buy Now?",
         "description": null,
-        "summary": "A Democratic takeover of Congress could boost clean energy policy support, while rising AI power demand creates opportunities for four stocks.",
-        "pubDate": "2026-11-09T12:51:00Z",
-        "displayTime": "2026-11-09T12:51:00Z",
+        "summary": "Key TakeawaysAstera Labs (ALAB) fell 26% over five trading sessions, closing at $191 on November 6 despite record third-quarter revenue and strong guidance. Marvell Technology (MRVL) announced a $115 billion acquisition agreement, while Intel (INTC) reported 78% Data Center and AI revenue growth and Advanced Micro Devices (AMD) posted 97% data center growth.",
+        "pubDate": "2026-11-08T11:24:55Z",
+        "displayTime": "2026-11-08T11:24:55Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/147f73c8f3dda1b37c6f7183f1874ec0.jpg",
-          "originalWidth": 620,
-          "originalHeight": 413,
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/2ea75356384be50ee3ec5dfbb4b11878",
+          "originalWidth": 1280,
+          "originalHeight": 720,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/147f73c8f3dda1b37c6f7183f1874ec0.jpg",
-              "width": 620,
-              "height": 413,
+              "url": "https://media.zenfs.com/en/tikr_258/2ea75356384be50ee3ec5dfbb4b11878",
+              "width": 1280,
+              "height": 720,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/82b8a8305f18351ad1f5eb8863e30dd01edc39f9da85551b6f2d56ccefed9a1e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F147f73c8f3dda1b37c6f7183f1874ec0.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/c7c6851d20b77f44861df4d2040b6248fcd467679eb16fbb5053739b03e5e227/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F2ea75356384be50ee3ec5dfbb4b11878",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -167,14 +96,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/energy/articles/renewable-energy-battery-stocks-buy-125100665.html"
+          "url": "https://www.tikr.com/blog/astera-labs-stock-drops-26-in-a-week-despite-strong-earnings-is-it-a-buy-now?ref=yahoofinance&tlnk=yf-261108-6cgjc9hg"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/energy/articles/renewable-energy-battery-stocks-buy-125100665.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-stock-drops-26-112455818.html"
         },
         "finance": {
           "premiumFinance": {
@@ -182,28 +111,75 @@
           },
           "stockTickers": [
             {
-              "symbol": "META"
+              "symbol": "ALAB"
             },
             {
-              "symbol": "PPL"
+              "symbol": "LITE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "31eaef56-6338-327f-8c33-8c951f556aea",
+      "content": {
+        "id": "31eaef56-6338-327f-8c33-8c951f556aea",
+        "contentType": "STORY",
+        "title": "Credo Just Dropped 32% in a Week. Is It Time to Sell, or Load Up?",
+        "description": null,
+        "summary": "Key TakeawaysCredo shares fell 32% in the week through Nov. 5 in an AI hardware selloff, and Astera Labs and Marvell fell even further.",
+        "pubDate": "2026-11-08T04:02:36Z",
+        "displayTime": "2026-11-08T04:02:36Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/14ee87c927160d25255b3ffef1b93541",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/tikr_258/14ee87c927160d25255b3ffef1b93541",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
             },
             {
-              "symbol": "GNRC"
+              "url": "https://s.yimg.com/lo/mysterio/api/cbbe40789241461b6a2d83c44406a2ea43557cdeb7e46a59f64edb672278f7a6/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F14ee87c927160d25255b3ffef1b93541",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.tikr.com/blog/credo-just-dropped-32-in-a-week-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261108-67q8fgqr"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-just-dropped-32-week-040236706.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "CRDO"
             },
             {
-              "symbol": "BE"
+              "symbol": "MRVL"
             },
             {
-              "symbol": "CWEN"
+              "symbol": "ALAB"
             },
             {
-              "symbol": "AMZN"
+              "symbol": "ORCL"
             },
             {
-              "symbol": "GOOG"
-            },
-            {
-              "symbol": "MSFT"
+              "symbol": "^NDX"
             }
           ]
         }
