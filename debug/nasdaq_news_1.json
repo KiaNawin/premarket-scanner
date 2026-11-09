@@ -1,198 +1,31 @@
 {
-  "ticker": "MF",
-  "saved_at_et": "2026-11-09T09:33:53-05:00",
+  "ticker": "AIOK",
+  "saved_at_et": "2026-11-09T12:35:55-05:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "10 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "(RTTNews) - Surgery Partners, Inc. (SGRY) and HealthSpan Partners have amended their merger agreement, increasing the cash consideration offered to shareholders after Surgery Partners received an unsolicited acquisition proposal from a third party.",
-          "id": 28789656,
+          "title": "Wednesday 10/28 Insider Buying Report: NPB, AIOK   ",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "sgry",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "sgry|stocks"
-          ],
-          "title": "Surgery Partners Secures Improved Merger Terms With HealthSpan Following Rival Bid; Stock Up ",
-          "url": "/articles/surgery-partners-secures-improved-merger-terms-healthspan-following-rival-bid-stock"
-        },
-        {
-          "ago": "11 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "Key PointsNew lease base minimum rent rose 17% year over year through Q3.",
-          "id": 28789581,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "spg",
+          "created": "Oct 28, 2026",
+          "ago": "Oct 28, 2026",
+          "primarysymbol": "npb",
           "primarytopic": "Markets|4006",
+          "publisher": "BNK Invest",
+          "related_symbols": [
+            "npb|stocks",
+            "aiok|stocks"
+          ],
+          "url": "/articles/wednesday-10-28-insider-buying-report-npb-aiok",
+          "id": 28660946,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Bargain hunters are wise to pay careful attention to insider buying, because although there are many various reasons for an insider to sell a stock, presumably the only reason they would use their hard-earned dollars to make a purchase, is that they expect to make money.  Today",
           "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "spg|stocks"
-          ],
-          "title": "Simon Property: 3 Key Takeaways for Long-Term Investors",
-          "url": "/articles/simon-property-3-key-takeaways-long-term-investors"
-        },
-        {
-          "ago": "11 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "Key PointsA handful of familiar telecommunication companies have loyal customer bases that pay their monthly bills like clockwork.",
-          "id": 28789576,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "t",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "t|stocks",
-            "vz|stocks",
-            "tmus|stocks",
-            "cmcsa|stocks",
-            "lumn|stocks",
-            "chtr|stocks"
-          ],
-          "title": "These 6 Telecom Stocks Collect Monthly Bills No Matter What the Market Does",
-          "url": "/articles/these-6-telecom-stocks-collect-monthly-bills-no-matter-what-market-does"
-        },
-        {
-          "ago": "15 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "Fintel reports that on November 9, 2026, Wells Fargo initiated coverage of Winnebago Industries (NYSE:WGO) (DB:WI1) with a Underweight recommendation.",
-          "id": 28789526,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "wgo",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "wgo|stocks"
-          ],
-          "title": "Wells Fargo Initiates Coverage of Winnebago Industries at Underweight",
-          "url": "/articles/wells-fargo-initiates-coverage-winnebago-industries-underweight"
-        },
-        {
-          "ago": "17 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "Key PointsColgate-Palmolive’s trailing-12-month revenue grew about 6% to $21 billion, with nearly $3.8 billion in free cash flow.",
-          "id": 28789571,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "cl",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "cl|stocks",
-            "cmg|stocks"
-          ],
-          "title": "Colgate vs. Chipotle: Which Is the Better Buy for 2027?",
-          "url": "/articles/colgate-vs-chipotle-which-better-buy-2027"
-        },
-        {
-          "ago": "17 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "In this video, I will cover why Amazon, Intel (NASDAQ:INTC), and Reddit sold off after earnings, whether the AI trade is really over, and what I'm doing with my Amazon and Reddit shares. Watch the short video to learn more, consider subscribing, and click the special offer link b",
-          "id": 28789561,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "intc",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "intc|stocks"
-          ],
-          "title": "Amazon Stock Fell After a Strong Quarter. Is AWS Growth of 39% Being Ignored?",
-          "url": "/articles/amazon-stock-fell-after-strong-quarter-aws-growth-39-being-ignored"
-        },
-        {
-          "ago": "18 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "The average one-year price target for TPG Mortgage Investment Trust, Inc. - Preferred Stock (NYSE:MITT.PRA) has been revised to $35.47 per share. This represents an increase of 24.91% from the prior estimate of $28.39 dated November 1, 2026. These figures represent aggregate anal",
-          "id": 28789421,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "mitt.pra",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "mitt.pra|stocks"
-          ],
-          "title": "TPG Mortgage Investment Trust, Inc. - Preferred Stock Price Target Increased by 24.91% to $35.47",
-          "url": "/articles/tpg-mortgage-investment-trust-inc-preferred-stock-price-target-increased-2491-3547"
-        },
-        {
-          "ago": "19 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "(RTTNews) - Packaging company Sonoco Products Co. (SON) announced the retirement of Chief Executive Officer Howard Coker on Monday and named Ernest Haynes as its next CEO, effective January 1, 2027.",
-          "id": 28789481,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "son",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "son|stocks"
-          ],
-          "title": "Sonoco CEO Howard Coker To Retire, Ernest Haynes Named Successor ",
-          "url": "/articles/sonoco-ceo-howard-coker-retire-ernest-haynes-named-successor"
-        },
-        {
-          "ago": "19 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "Vivid Seats Inc. announced on November 9, 2026, that it has reached an agreement in principle with an ad hoc group of term lenders on the material terms of a comprehensive recapitalization and deleveraging transaction. Under the terms currently contemplated, the proposed transact",
-          "id": 28789416,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "seat",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "seat|stocks"
-          ],
-          "title": "Vivid Seats Inc. Reports Third Quarter 2026 Results and Announces Recapitalization Agreement",
-          "url": "/articles/vivid-seats-inc-reports-third-quarter-2026-results-and-announces-recapitalization"
-        },
-        {
-          "ago": "19 minutes ago",
-          "created": "Nov 9, 2026",
-          "description": "Abeona Therapeutics Inc. reported its third-quarter 2026 financial results and provided an update on the commercial progress of ZEVASKYN. For the quarter ended September 30, 2026, net ZEVASKYN revenue was $13.5 million, representing an 18% increase compared with $11.4 million for",
-          "id": 28789411,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "abeo",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "abeo|stocks"
-          ],
-          "title": "Abeona Therapeutics Reports Q3 Net ZEVASKYN Revenue of $13.5 million and Acquisition of ABO-801",
-          "url": "/articles/abeona-therapeutics-reports-q3-net-zevaskyn-revenue-135-million-and-acquisition-abo-801"
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
         }
       ],
-      "totalrecords": 500
+      "totalrecords": 1,
+      "message": null
     },
     "message": null,
     "status": {

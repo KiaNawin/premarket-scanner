@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-09",
-  "generated_at_et": "2026-11-09 12:07:43 EST",
-  "scan_time_et": "12:07",
+  "generated_at_et": "2026-11-09 12:35:57 EST",
+  "scan_time_et": "12:35",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 1241,
-    "with_data": 854,
-    "gap": 583,
-    "gap_price": 565,
-    "passed": 20,
+    "prefilter": 1244,
+    "with_data": 849,
+    "gap": 595,
+    "gap_price": 574,
+    "passed": 23,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7082,
-  "count": 20,
+  "count": 23,
   "results": [
     {
       "ticker": "ASTS",
-      "price": 37.2,
-      "gap_pct": 15.06,
+      "price": 37.01,
+      "gap_pct": 14.48,
       "catalyst": "Key TakeawaysAST SpaceMobile stock jumped 16% after it and Rakuten Group formed a government-funded satellite venture in Japan.",
       "prev_close": 32.33,
       "premarket_volume": 1193075,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "ALAB",
-      "price": 217.66,
-      "gap_pct": 14.13,
+      "price": 217.54,
+      "gap_pct": 14.07,
       "catalyst": "Credo just posted triple-digit revenue growth and its eighth straight earnings beat, yet the stock lost a third of its value in a month.",
       "prev_close": 190.71,
       "premarket_volume": 222096,
@@ -45,9 +45,21 @@
       "catalyst_url": "https://247wallst.com/investing/2026/11/09/credo-stock-has-a-powerful-growth-story-but-is-it-already-priced-in/"
     },
     {
+      "ticker": "AMD",
+      "price": 502.3,
+      "gap_pct": 11.86,
+      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi looks back at his conversation with AMD (AMD) CEO Lisa Su to highlight viable alternatives for Nvidia (NVDA) investors to consider.",
+      "prev_close": 449.04,
+      "premarket_volume": 287757,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance Video",
+      "catalyst_headline": "Nvidia vs. AMD: Why Lisa Su's company is a great alternative for investors",
+      "catalyst_url": "https://finance.yahoo.com/video/nvidia-vs-amd-why-lisa-170000159.html"
+    },
+    {
       "ticker": "AMAT",
-      "price": 370.13,
-      "gap_pct": 11.24,
+      "price": 370.3,
+      "gap_pct": 11.3,
       "catalyst": "Cheaper oil is handing Wall Street a Monday bounce, but a boardroom shock at one AI giant and stalled peace talks could undo it fast.",
       "prev_close": 332.72,
       "premarket_volume": 1037029,
@@ -57,21 +69,21 @@
       "catalyst_url": "https://247wallst.com/investing/2026/11/09/stock-market-today-nvidia-pressures-indexes-to-maintain-rebound/"
     },
     {
-      "ticker": "AMD",
-      "price": 499.19,
-      "gap_pct": 11.17,
-      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi looks back at his conversation with AMD (AMD) CEO Lisa Su to highlight viable alternatives for Nvidia (NVDA) investors to consider.",
-      "prev_close": 449.04,
-      "premarket_volume": 2902849,
+      "ticker": "AIOK",
+      "price": 11.2,
+      "gap_pct": 10.89,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 10.1,
+      "premarket_volume": 3080070,
       "session": "regular",
-      "catalyst_source": "Yahoo Finance Video",
-      "catalyst_headline": "Nvidia vs. AMD: Why Lisa Su's company is a great alternative for investors",
-      "catalyst_url": "https://finance.yahoo.com/video/nvidia-vs-amd-why-lisa-170000159.html"
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
     },
     {
       "ticker": "AEHR",
-      "price": 59.5,
-      "gap_pct": 11.07,
+      "price": 59.26,
+      "gap_pct": 10.61,
       "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable.",
       "prev_close": 53.57,
       "premarket_volume": 95733,
@@ -82,8 +94,8 @@
     },
     {
       "ticker": "ALOY",
-      "price": 6.8,
-      "gap_pct": 11.02,
+      "price": 6.73,
+      "gap_pct": 9.91,
       "catalyst": "Rare earths just moved from background noise to front-page story, as Washington rolls out Project Vault, a planned US$12b stockpile of critical minerals backed by a US$10b EXIM lending pool.",
       "prev_close": 6.12,
       "premarket_volume": 80085,
@@ -93,33 +105,45 @@
       "catalyst_url": "https://finance.yahoo.com/economy/policy/articles/project-vault-puts-realloys-stock-051734400.html"
     },
     {
-      "ticker": "AESI",
-      "price": 5.91,
-      "gap_pct": 9.15,
-      "catalyst": "Atlas Energy Solutions Inc (AESI) guided Q4 adjusted EBITDA to $40-50 million on data center power momentum and logistics gains, even as Q3 results landed at the low end amid soft sand pricing.",
-      "prev_close": 5.41,
-      "premarket_volume": 277881,
-      "session": "regular",
-      "catalyst_source": "GuruFocus.com",
-      "catalyst_headline": "Atlas Energy Solutions Inc (AESI) (Q3 2026) Earnings Call Highlights: Data Center Power Push ...",
-      "catalyst_url": "https://finance.yahoo.com/energy/articles/atlas-energy-solutions-inc-aesi-230732067.html"
-    },
-    {
       "ticker": "ANET",
-      "price": 186.22,
-      "gap_pct": 9.03,
+      "price": 186.94,
+      "gap_pct": 9.45,
       "catalyst": "Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58.",
       "prev_close": 170.8,
-      "premarket_volume": 104868,
+      "premarket_volume": 76688,
       "session": "regular",
       "catalyst_source": "TIKR",
       "catalyst_headline": "Ciena’s Growth Rides on the Same Cloud Buyers as Arista. Arista Just Reported.",
       "catalyst_url": "https://www.tikr.com/blog/ciena-stock-arista-earnings-cloud-spending-outlook?ref=yahoofinance&tlnk=yf-261109-jf98x529"
     },
     {
+      "ticker": "AXTI",
+      "price": 42.55,
+      "gap_pct": 9.44,
+      "catalyst": "The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and semiconductors.",
+      "prev_close": 38.88,
+      "premarket_volume": 559320,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "4 Strong Buy AI Stocks to Consider Amid the Tech Selloff: CLS, DELL, TER & AXTI",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/4-strong-buy-ai-stocks-202000643.html"
+    },
+    {
+      "ticker": "AVGO",
+      "price": 320.96,
+      "gap_pct": 9.29,
+      "catalyst": "The Nasdaq composite led Monday morning's rally after days of bruising losses.",
+      "prev_close": 293.69,
+      "premarket_volume": 1606456,
+      "session": "regular",
+      "catalyst_source": "The Wall Street Journal",
+      "catalyst_headline": "What's Moving Markets Today?",
+      "catalyst_url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/what-s-moving-markets-today--2m2p2ySL4tYaG5nFVaxn?siteid=yhoof2&yptr=yahoo"
+    },
+    {
       "ticker": "ASX",
-      "price": 34.21,
-      "gap_pct": 8.16,
+      "price": 34.23,
+      "gap_pct": 8.22,
       "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce.",
       "prev_close": 31.63,
       "premarket_volume": 438404,
@@ -129,21 +153,9 @@
       "catalyst_url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
     },
     {
-      "ticker": "AMPX",
-      "price": 9.43,
-      "gap_pct": 8.08,
-      "catalyst": "Political control in Washington just flipped, and that reshuffle of power is already reshaping expectations for clean energy, healthcare, trade and regulation more broadly.",
-      "prev_close": 8.72,
-      "premarket_volume": 83349,
-      "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "US Clean Energy Stocks Investors Are Watching As Washington Backs Solar And Storage",
-      "catalyst_url": "https://finance.yahoo.com/energy/articles/us-clean-energy-stocks-investors-071038021.html"
-    },
-    {
       "ticker": "ARM",
-      "price": 188.21,
-      "gap_pct": 7.79,
+      "price": 187.32,
+      "gap_pct": 7.28,
       "catalyst": "Half off sounds like a deal.",
       "prev_close": 174.62,
       "premarket_volume": 147003,
@@ -153,9 +165,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/article/intel-took-25-years-to-get-back-to-its-dot-com-peak--and-lost-it-in-6-months-chart-of-the-day-144715722.html"
     },
     {
+      "ticker": "AESI",
+      "price": 5.78,
+      "gap_pct": 6.93,
+      "catalyst": "Atlas Energy Solutions Inc (AESI) guided Q4 adjusted EBITDA to $40-50 million on data center power momentum and logistics gains, even as Q3 results landed at the low end amid soft sand pricing.",
+      "prev_close": 5.41,
+      "premarket_volume": 277881,
+      "session": "regular",
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "Atlas Energy Solutions Inc (AESI) (Q3 2026) Earnings Call Highlights: Data Center Power Push ...",
+      "catalyst_url": "https://finance.yahoo.com/energy/articles/atlas-energy-solutions-inc-aesi-230732067.html"
+    },
+    {
       "ticker": "AAL",
-      "price": 14.07,
-      "gap_pct": 6.75,
+      "price": 14.05,
+      "gap_pct": 6.6,
       "catalyst": "Southwest Airlines' improving revenues, profitability and cash flow signal progress, but rising costs, fuel risks and valuation concerns warrant caution.",
       "prev_close": 13.18,
       "premarket_volume": 1128964,
@@ -166,8 +190,8 @@
     },
     {
       "ticker": "ALM",
-      "price": 8.66,
-      "gap_pct": 6.65,
+      "price": 8.65,
+      "gap_pct": 6.53,
       "catalyst": "We just published our list of the 10 Best Materials Stocks to Invest in According to Wall Street Analysts, and Almonty Industries Inc.",
       "prev_close": 8.12,
       "premarket_volume": 139837,
@@ -177,21 +201,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/almonty-industries-alm-revenue-jumps-134852250.html"
     },
     {
-      "ticker": "AMKR",
-      "price": 34.89,
-      "gap_pct": 6.3,
-      "catalyst": "For questions about this article or underlying research, email help@trefis.com.",
-      "prev_close": 32.82,
-      "premarket_volume": 61440,
-      "session": "regular",
-      "catalyst_source": "Trefis",
-      "catalyst_headline": "What Is Driving The Fall In Amkor Stock?",
-      "catalyst_url": "https://www.trefis.com/stock/amkr/articles/623627/what-is-driving-the-fall-in-amkor-stock/2026-11-07"
-    },
-    {
       "ticker": "ASML",
-      "price": 1514.05,
-      "gap_pct": 6.27,
+      "price": 1515.3,
+      "gap_pct": 6.36,
       "catalyst": "Nvidia sank on Monday, while the rest of the chip sector rallied.",
       "prev_close": 1424.75,
       "premarket_volume": 149255,
@@ -201,9 +213,33 @@
       "catalyst_url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-as-chipmaker-investigates-ceo-jensen-huangs-relationship-with-alleged-chinese-spy-130346548.html"
     },
     {
+      "ticker": "AMKR",
+      "price": 34.78,
+      "gap_pct": 5.97,
+      "catalyst": "For questions about this article or underlying research, email help@trefis.com.",
+      "prev_close": 32.82,
+      "premarket_volume": 143754,
+      "session": "regular",
+      "catalyst_source": "Trefis",
+      "catalyst_headline": "What Is Driving The Fall In Amkor Stock?",
+      "catalyst_url": "https://www.trefis.com/stock/amkr/articles/623627/what-is-driving-the-fall-in-amkor-stock/2026-11-07"
+    },
+    {
+      "ticker": "AA",
+      "price": 41.74,
+      "gap_pct": 5.56,
+      "catalyst": "The aluminum producer may not be what it once was, but there’s plenty of upside for investors.",
+      "prev_close": 39.54,
+      "premarket_volume": 98648,
+      "session": "regular",
+      "catalyst_source": "Barrons.com",
+      "catalyst_headline": "Here’s a Cheap Stock Play on the Aluminum Market",
+      "catalyst_url": "https://www.barrons.com/articles/buy-alcoa-stock-price-pick-e64e30c8?siteid=yhoof2&yptr=yahoo"
+    },
+    {
       "ticker": "ASM",
-      "price": 4.93,
-      "gap_pct": 6.02,
+      "price": 4.91,
+      "gap_pct": 5.48,
       "catalyst": "PKX Future M partners with Hyundai Motor Group to advance its Vietnam battery materials business, strengthen EV supply chains and accelerate production plans.",
       "prev_close": 4.65,
       "premarket_volume": 63345,
@@ -214,8 +250,8 @@
     },
     {
       "ticker": "APLD",
-      "price": 16.48,
-      "gap_pct": 5.98,
+      "price": 16.39,
+      "gap_pct": 5.37,
       "catalyst": "Riot Platforms (RIOT) and other powered shell providers may present a buying opportunity following r.",
       "prev_close": 15.55,
       "premarket_volume": 707981,
@@ -225,9 +261,33 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/riot-platforms-other-powered-shell-164446848.html"
     },
     {
+      "ticker": "AAOI",
+      "price": 52.8,
+      "gap_pct": 5.33,
+      "catalyst": "Optical stocks are bouncing back from last week's AI selloff, but the gains are far from equal.",
+      "prev_close": 50.13,
+      "premarket_volume": 453406,
+      "session": "regular",
+      "catalyst_source": "24/7 Wall St.",
+      "catalyst_headline": "Coherent Jumps 13% as Optical Stocks Extend AI Rebound; Lumentum Surges 11%, Applied Optoelectronics Rises 4%",
+      "catalyst_url": "https://247wallst.com/investing/2026/11/09/coherent-jumps-13-as-optical-stocks-extend-ai-rebound-lumentum-surges-11-applied-optoelectronics-rises-4/"
+    },
+    {
+      "ticker": "AU",
+      "price": 97.94,
+      "gap_pct": 5.32,
+      "catalyst": "Yahoo Finance reported that the S&P 500 fell more than 4% on Thursday, November 5, its worst day since the April 2025 tariff crash, erasing roughly $3 trillion in market value.",
+      "prev_close": 92.99,
+      "premarket_volume": 68410,
+      "session": "regular",
+      "catalyst_source": "Insider Monkey",
+      "catalyst_headline": "Forget the High-Beta Hype: 5 ‘Sleep Well at Night’ Stocks to Buy Now",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/forget-high-beta-hype-5-231024225.html"
+    },
+    {
       "ticker": "ACHR",
-      "price": 4.7,
-      "gap_pct": 5.86,
+      "price": 4.68,
+      "gap_pct": 5.29,
       "catalyst": "Joby Aviation's earnings are projected to turn positive after 2031.",
       "prev_close": 4.44,
       "premarket_volume": 527164,
@@ -235,30 +295,6 @@
       "catalyst_source": "Motley Fool",
       "catalyst_headline": "Where Will Joby Aviation Stock Be in 5 Years?",
       "catalyst_url": "https://www.fool.com/investing/2026/11/09/where-will-joby-aviation-stock-be-in-5-years/"
-    },
-    {
-      "ticker": "AAOI",
-      "price": 52.82,
-      "gap_pct": 5.37,
-      "catalyst": "Optical stocks are bouncing back from last week's AI selloff, but the gains are far from equal.",
-      "prev_close": 50.13,
-      "premarket_volume": 633337,
-      "session": "regular",
-      "catalyst_source": "24/7 Wall St.",
-      "catalyst_headline": "Coherent Jumps 13% as Optical Stocks Extend AI Rebound; Lumentum Surges 11%, Applied Optoelectronics Rises 4%",
-      "catalyst_url": "https://247wallst.com/investing/2026/11/09/coherent-jumps-13-as-optical-stocks-extend-ai-rebound-lumentum-surges-11-applied-optoelectronics-rises-4/"
-    },
-    {
-      "ticker": "ABCL",
-      "price": 12.49,
-      "gap_pct": 5.13,
-      "catalyst": "AbCellera Biologics has produced a sharp year to date gain, which naturally raises a tougher question for anyone looking at the shares today.",
-      "prev_close": 11.88,
-      "premarket_volume": 60349,
-      "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "AbCellera (ABCL) Stock May Look Fully Priced On Book Value",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/abcellera-abcl-stock-may-look-032101932.html"
     }
   ]
 }
