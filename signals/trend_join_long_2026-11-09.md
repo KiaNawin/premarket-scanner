@@ -1,17 +1,19 @@
 **Trend-join Long — 2026-11-09**
-2 valid entries out of 25 pre-market gappers (generated 2026-11-09 10:35:27 EST)
+2 valid entries out of 25 pre-market gappers (generated 2026-11-09 11:05:33 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| ANET | 10:10 | $185.32 | +9.24% | Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58. |
-| AMD | 10:14 | $489.69 | +9.50% | Tech rallied as Nvidia shares dropped on Monday. |
+| ANET | 10:10 | $185.32 | +9.65% | Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58. |
+| AMD | 10:14 | $489.69 | +11.52% | Tech rallied as Nvidia shares dropped on Monday. |
 
 Not triggered:
 - AA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AAL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AAOI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ACHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AEHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AESI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALAB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALOY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -28,5 +30,3 @@ Not triggered:
 - AVGO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AXTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- BROS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- BTDR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
