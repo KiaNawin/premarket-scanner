@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-09",
-  "generated_at_et": "2026-11-09 13:36:22 EST",
+  "generated_at_et": "2026-11-09 14:05:58 EST",
   "source_premarket_file": "premarket_scan_2026-11-09.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,28 +10,28 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 20,
+  "candidates": 22,
   "valid_count": 2,
   "valid_entries": [
     {
       "ticker": "ANET",
       "signal_time_et": "2026-11-09 10:10",
       "entry_price": 185.32,
-      "last_price": 185.61,
-      "gap_pct": 8.98,
+      "last_price": 185.54,
+      "gap_pct": 8.43,
       "yesterday_high": 173.6,
       "yesterday_close": 170.8,
       "sma200": 166.1128,
       "premarket_high": 176.33,
       "hod_before_signal": 185.3,
-      "catalyst": "Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58."
+      "catalyst": "Key TakeawaysArista Networks stock rose 7% Friday to $171, but it’s still 21% below its record after a broad AI hardware selloff."
     },
     {
       "ticker": "AMD",
       "signal_time_et": "2026-11-09 10:14",
       "entry_price": 489.695,
-      "last_price": 505.925,
-      "gap_pct": 12.51,
+      "last_price": 507.65,
+      "gap_pct": 13.01,
       "yesterday_high": 459.8,
       "yesterday_close": 449.04,
       "sma200": 415.9775,
@@ -50,8 +50,8 @@
       "yesterday_close": 170.8,
       "sma200": 166.1128,
       "premarket_high": 176.33,
-      "last_price": 185.61,
-      "last_bar_et": "13:36",
+      "last_price": 185.54,
+      "last_bar_et": "14:05",
       "high_of_day": 187.76,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -63,8 +63,8 @@
       "entry_price": 185.32,
       "hod_before_signal": 185.3,
       "low_5m": 183.0,
-      "gap_pct": 8.98,
-      "catalyst": "Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58."
+      "gap_pct": 8.43,
+      "catalyst": "Key TakeawaysArista Networks stock rose 7% Friday to $171, but it’s still 21% below its record after a broad AI hardware selloff."
     },
     {
       "ticker": "AMD",
@@ -75,9 +75,9 @@
       "yesterday_close": 449.04,
       "sma200": 415.9775,
       "premarket_high": 476.41,
-      "last_price": 505.925,
-      "last_bar_et": "13:36",
-      "high_of_day": 506.25,
+      "last_price": 507.65,
+      "last_bar_et": "14:05",
+      "high_of_day": 509.65,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -88,7 +88,7 @@
       "entry_price": 489.695,
       "hod_before_signal": 489.6536,
       "low_5m": 481.699,
-      "gap_pct": 12.51,
+      "gap_pct": 13.01,
       "catalyst": "Yahoo Finance Executive Editor Brian Sozzi looks back at his conversation with AMD (AMD) CEO Lisa Su to highlight viable alternatives for Nvidia (NVDA) investors to consider."
     },
     {
@@ -100,8 +100,8 @@
       "yesterday_close": 39.54,
       "sma200": 55.8407,
       "premarket_high": 41.01,
-      "last_price": 41.865,
-      "last_bar_et": "13:36",
+      "last_price": 41.875,
+      "last_bar_et": "14:05",
       "high_of_day": 42.0568,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -110,7 +110,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.75,
+      "gap_pct": 5.82,
       "catalyst": "The aluminum producer may not be what it once was, but there’s plenty of upside for investors."
     },
     {
@@ -123,7 +123,7 @@
       "sma200": 13.4751,
       "premarket_high": 13.9,
       "last_price": 14.065,
-      "last_bar_et": "13:36",
+      "last_bar_et": "14:05",
       "high_of_day": 14.145,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -132,8 +132,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.71,
+      "gap_pct": 6.83,
       "catalyst": "Southwest Airlines' improving revenues, profitability and cash flow signal progress, but rising costs, fuel risks and valuation concerns warrant caution."
+    },
+    {
+      "ticker": "ACHR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2918,
+      "yesterday_high": 4.45,
+      "yesterday_close": 4.44,
+      "sma200": 5.6952,
+      "premarket_high": 4.5,
+      "last_price": 4.6802,
+      "last_bar_et": "14:04",
+      "high_of_day": 4.75,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.52,
+      "catalyst": "Joby Aviation's earnings are projected to turn positive after 2031."
     },
     {
       "ticker": "AEHR",
@@ -144,8 +166,8 @@
       "yesterday_close": 53.57,
       "sma200": 75.084,
       "premarket_high": 55.2,
-      "last_price": 59.2207,
-      "last_bar_et": "13:35",
+      "last_price": 59.35,
+      "last_bar_et": "14:05",
       "high_of_day": 60.74,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -154,7 +176,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.85,
+      "gap_pct": 10.51,
       "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable."
     },
     {
@@ -163,7 +185,7 @@
       "signal": false,
       "reason": "Only 21 trading days of history (< 200 needed for SMA200)",
       "history_days": 21,
-      "gap_pct": 14.99,
+      "gap_pct": 16.26,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -175,8 +197,8 @@
       "yesterday_close": 190.71,
       "sma200": 256.0569,
       "premarket_high": 200.28,
-      "last_price": 213.99,
-      "last_bar_et": "13:36",
+      "last_price": 212.74,
+      "last_bar_et": "14:05",
       "high_of_day": 220.05,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -185,7 +207,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.9,
+      "gap_pct": 12.24,
       "catalyst": "Key TakeawaysCoherent shares jumped 18% today with no company news, as AI hardware stocks rebounded."
     },
     {
@@ -197,9 +219,9 @@
       "yesterday_close": 8.12,
       "sma200": 15.8007,
       "premarket_high": 8.48,
-      "last_price": 8.655,
-      "last_bar_et": "13:35",
-      "high_of_day": 8.8187,
+      "last_price": 8.7977,
+      "last_bar_et": "14:05",
+      "high_of_day": 8.82,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -207,7 +229,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.22,
+      "gap_pct": 7.02,
       "catalyst": "We just published our list of the 10 Best Materials Stocks to Invest in According to Wall Street Analysts, and Almonty Industries Inc."
     },
     {
@@ -219,8 +241,8 @@
       "yesterday_close": 6.125,
       "sma200": 10.9691,
       "premarket_high": 6.3,
-      "last_price": 6.67,
-      "last_bar_et": "13:35",
+      "last_price": 6.63,
+      "last_bar_et": "14:05",
       "high_of_day": 6.85,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -229,7 +251,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.57,
+      "gap_pct": 8.24,
       "catalyst": "Rare earths just moved from background noise to front-page story, as Washington rolls out Project Vault, a planned US$12b stockpile of critical minerals backed by a US$10b EXIM lending pool."
     },
     {
@@ -241,9 +263,9 @@
       "yesterday_close": 332.72,
       "sma200": 445.3546,
       "premarket_high": 345.0,
-      "last_price": 370.93,
-      "last_bar_et": "13:36",
-      "high_of_day": 371.88,
+      "last_price": 370.44,
+      "last_bar_et": "14:05",
+      "high_of_day": 371.92,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -251,8 +273,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.57,
+      "gap_pct": 11.4,
       "catalyst": "Cheaper oil is handing Wall Street a Monday bounce, but a boardroom shock at one AI giant and stalled peace talks could undo it fast."
+    },
+    {
+      "ticker": "AMC",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.1979,
+      "yesterday_high": 3.19,
+      "yesterday_close": 3.14,
+      "sma200": 2.0165,
+      "premarket_high": 3.18,
+      "last_price": 3.345,
+      "last_bar_et": "14:05",
+      "high_of_day": 3.425,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 6.53,
+      "catalyst": "AMC Entertainment (AMC) has received quite a bit of attention from Zacks.com users lately."
     },
     {
       "ticker": "AMKR",
@@ -263,8 +307,8 @@
       "yesterday_close": 32.82,
       "sma200": 56.8797,
       "premarket_high": 33.83,
-      "last_price": 34.89,
-      "last_bar_et": "13:36",
+      "last_price": 34.75,
+      "last_bar_et": "14:05",
       "high_of_day": 35.14,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -273,7 +317,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.22,
+      "gap_pct": 5.91,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -285,8 +329,8 @@
       "yesterday_close": 8.72,
       "sma200": 13.3372,
       "premarket_high": 9.0524,
-      "last_price": 9.475,
-      "last_bar_et": "13:36",
+      "last_price": 9.515,
+      "last_bar_et": "14:05",
       "high_of_day": 9.535,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -299,6 +343,28 @@
       "catalyst": "Political control in Washington just flipped, and that reshuffle of power is already reshaping expectations for clean energy, healthcare, trade and regulation more broadly."
     },
     {
+      "ticker": "APLD",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.8663,
+      "yesterday_high": 15.8,
+      "yesterday_close": 15.55,
+      "sma200": 30.8438,
+      "premarket_high": 15.75,
+      "last_price": 16.345,
+      "last_bar_et": "14:05",
+      "high_of_day": 16.71,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.11,
+      "catalyst": "Key TakeawaysSpaceX rose 5% today after Stifel argued it could buy stalled data center sites that already have power."
+    },
+    {
       "ticker": "ARM",
       "status": "FAIL",
       "signal": false,
@@ -307,8 +373,8 @@
       "yesterday_close": 174.62,
       "sma200": 230.8324,
       "premarket_high": 176.88,
-      "last_price": 186.635,
-      "last_bar_et": "13:36",
+      "last_price": 186.16,
+      "last_bar_et": "14:05",
       "high_of_day": 190.09,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -317,7 +383,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.68,
+      "gap_pct": 7.02,
       "catalyst": "Half off sounds like a deal."
     },
     {
@@ -329,8 +395,8 @@
       "yesterday_close": 4.65,
       "sma200": 6.8118,
       "premarket_high": 4.9181,
-      "last_price": 4.915,
-      "last_bar_et": "13:35",
+      "last_price": 4.8893,
+      "last_bar_et": "14:05",
       "high_of_day": 4.98,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -339,7 +405,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.81,
+      "gap_pct": 5.14,
       "catalyst": "PKX Future M partners with Hyundai Motor Group to advance its Vietnam battery materials business, strengthen EV supply chains and accelerate production plans."
     },
     {
@@ -351,8 +417,8 @@
       "yesterday_close": 1424.75,
       "sma200": 1600.1499,
       "premarket_high": 1487.53,
-      "last_price": 1510.26,
-      "last_bar_et": "13:36",
+      "last_price": 1509.5699,
+      "last_bar_et": "14:05",
       "high_of_day": 1519.49,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -361,7 +427,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.0,
+      "gap_pct": 5.98,
       "catalyst": "Nvidia sank on Monday, while the rest of the chip sector rallied."
     },
     {
@@ -373,8 +439,8 @@
       "yesterday_close": 32.33,
       "sma200": 75.6088,
       "premarket_high": 34.32,
-      "last_price": 36.71,
-      "last_bar_et": "13:36",
+      "last_price": 36.68,
+      "last_bar_et": "14:05",
       "high_of_day": 38.1999,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -383,7 +449,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.25,
+      "gap_pct": 13.64,
       "catalyst": "Rakuten AST will build a direct-to-smartphone satellite network in Japan, with about $1 billion in expected government support."
     },
     {
@@ -395,8 +461,8 @@
       "yesterday_close": 31.63,
       "sma200": 33.7431,
       "premarket_high": 33.84,
-      "last_price": 34.205,
-      "last_bar_et": "13:36",
+      "last_price": 34.15,
+      "last_bar_et": "14:05",
       "high_of_day": 34.7899,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -405,7 +471,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.92,
+      "gap_pct": 7.97,
       "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce."
     },
     {
@@ -417,9 +483,9 @@
       "yesterday_close": 92.99,
       "sma200": 96.4358,
       "premarket_high": 96.9,
-      "last_price": 99.2,
-      "last_bar_et": "13:36",
-      "high_of_day": 99.225,
+      "last_price": 99.35,
+      "last_bar_et": "14:05",
+      "high_of_day": 99.49,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -427,21 +493,21 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.58,
+      "gap_pct": 6.91,
       "catalyst": "Yahoo Finance reported that the S&P 500 fell more than 4% on Thursday, November 5, its worst day since the April 2025 tariff crash, erasing roughly $3 trillion in market value."
     },
     {
-      "ticker": "AVGO",
+      "ticker": "AUR",
       "status": "FAIL",
       "signal": false,
-      "atr14": 15.1364,
-      "yesterday_high": 311.52,
-      "yesterday_close": 293.69,
-      "sma200": 367.0917,
-      "premarket_high": 308.8,
-      "last_price": 319.36,
-      "last_bar_et": "13:36",
-      "high_of_day": 321.73,
+      "atr14": 0.3263,
+      "yesterday_high": 4.41,
+      "yesterday_close": 4.41,
+      "sma200": 5.619,
+      "premarket_high": 4.48,
+      "last_price": 4.66,
+      "last_bar_et": "14:05",
+      "high_of_day": 4.7,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -449,31 +515,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.69,
-      "catalyst": "Broadcom set December 9 for fiscal fourth-quarter results, when it must deliver AI chip revenue guided up 236% year over year."
-    },
-    {
-      "ticker": "AXTI",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 6.7271,
-      "yesterday_high": 40.5,
-      "yesterday_close": 38.88,
-      "sma200": 65.4413,
-      "premarket_high": 39.65,
-      "last_price": 42.86,
-      "last_bar_et": "13:36",
-      "high_of_day": 42.99,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.31,
-      "catalyst": "The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and semiconductors."
+      "gap_pct": 5.67,
+      "catalyst": "Asian stocks recently picked up after a rebound in US AI shares reminded investors how quickly sentiment can swing back toward growth stories."
     }
   ],
-  "scan_time_et": "13:36"
+  "scan_time_et": "14:05"
 }
