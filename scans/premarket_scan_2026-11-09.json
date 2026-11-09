@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-09",
-  "generated_at_et": "2026-11-09 13:05:37 EST",
-  "scan_time_et": "13:05",
+  "generated_at_et": "2026-11-09 13:36:20 EST",
+  "scan_time_et": "13:36",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,45 +9,21 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 1312,
-    "with_data": 890,
-    "gap": 613,
-    "gap_price": 592,
-    "passed": 22,
+    "prefilter": 1344,
+    "with_data": 916,
+    "gap": 626,
+    "gap_price": 609,
+    "passed": 20,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7082,
-  "count": 22,
+  "count": 20,
   "results": [
     {
-      "ticker": "ASTS",
-      "price": 36.82,
-      "gap_pct": 13.89,
-      "catalyst": "Wall Street expects AST SpaceMobile’s Q3 revenue to more than triple to about $46 million from $14.7 million a year earlier.",
-      "prev_close": 32.33,
-      "premarket_volume": 1193075,
-      "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "Cantor ‘Cautiously Optimistic’ Ahead Of AST SpaceMobile Q3 Earnings – Sees Growing Government Demand Despite Launch Cost Concerns",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/cantor-cautiously-optimistic-ahead-of-ast-space-mobile-q3-earnings-sees-growing-government-demand-despite-launch-cost-concerns/cNGrSNkR97I"
-    },
-    {
-      "ticker": "ALAB",
-      "price": 215.77,
-      "gap_pct": 13.14,
-      "catalyst": "Key TakeawaysCoherent shares jumped 18% today with no company news, as AI hardware stocks rebounded.",
-      "prev_close": 190.71,
-      "premarket_volume": 222096,
-      "session": "regular",
-      "catalyst_source": "TIKR",
-      "catalyst_headline": "Coherent Soars 18%, Lumentum Up 12% as AI Optics Rebound Extends Despite Nvidia Turmoil",
-      "catalyst_url": "https://www.tikr.com/blog/coherent-soars-18-lumentum-up-12-as-ai-optics-rebound-extends-despite-nvidia-turmoil?ref=yahoofinance&tlnk=yf-261109-9x65ffjm"
-    },
-    {
       "ticker": "AIOK",
-      "price": 11.38,
-      "gap_pct": 12.67,
+      "price": 11.61,
+      "gap_pct": 14.99,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 10.1,
       "premarket_volume": 54279,
@@ -57,9 +33,21 @@
       "catalyst_url": null
     },
     {
+      "ticker": "ASTS",
+      "price": 36.62,
+      "gap_pct": 13.25,
+      "catalyst": "Rakuten AST will build a direct-to-smartphone satellite network in Japan, with about $1 billion in expected government support.",
+      "prev_close": 32.33,
+      "premarket_volume": 1193075,
+      "session": "regular",
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "AST SpaceMobile Stocks Surge 17.29% on Rakuten Japan Satellite Venture",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stocks-surge-17-182758155.html"
+    },
+    {
       "ticker": "AMD",
-      "price": 503.36,
-      "gap_pct": 12.1,
+      "price": 505.23,
+      "gap_pct": 12.51,
       "catalyst": "Yahoo Finance Executive Editor Brian Sozzi looks back at his conversation with AMD (AMD) CEO Lisa Su to highlight viable alternatives for Nvidia (NVDA) investors to consider.",
       "prev_close": 449.04,
       "premarket_volume": 2902849,
@@ -69,9 +57,21 @@
       "catalyst_url": "https://finance.yahoo.com/video/nvidia-vs-amd-why-lisa-170000159.html"
     },
     {
+      "ticker": "ALAB",
+      "price": 213.41,
+      "gap_pct": 11.9,
+      "catalyst": "Key TakeawaysCoherent shares jumped 18% today with no company news, as AI hardware stocks rebounded.",
+      "prev_close": 190.71,
+      "premarket_volume": 222096,
+      "session": "regular",
+      "catalyst_source": "TIKR",
+      "catalyst_headline": "Coherent Soars 18%, Lumentum Up 12% as AI Optics Rebound Extends Despite Nvidia Turmoil",
+      "catalyst_url": "https://www.tikr.com/blog/coherent-soars-18-lumentum-up-12-as-ai-optics-rebound-extends-despite-nvidia-turmoil?ref=yahoofinance&tlnk=yf-261109-9x65ffjm"
+    },
+    {
       "ticker": "AMAT",
-      "price": 369.91,
-      "gap_pct": 11.18,
+      "price": 371.2,
+      "gap_pct": 11.57,
       "catalyst": "Cheaper oil is handing Wall Street a Monday bounce, but a boardroom shock at one AI giant and stalled peace talks could undo it fast.",
       "prev_close": 332.72,
       "premarket_volume": 1037029,
@@ -82,8 +82,8 @@
     },
     {
       "ticker": "AEHR",
-      "price": 59.07,
-      "gap_pct": 10.27,
+      "price": 59.38,
+      "gap_pct": 10.85,
       "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable.",
       "prev_close": 53.57,
       "premarket_volume": 95733,
@@ -93,21 +93,9 @@
       "catalyst_url": "https://finance.yahoo.com/technology/ai/articles/3-ai-chip-equipment-stocks-111725371.html"
     },
     {
-      "ticker": "ANET",
-      "price": 187.6,
-      "gap_pct": 9.84,
-      "catalyst": "Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58.",
-      "prev_close": 170.8,
-      "premarket_volume": 104868,
-      "session": "regular",
-      "catalyst_source": "TIKR",
-      "catalyst_headline": "Ciena’s Growth Rides on the Same Cloud Buyers as Arista. Arista Just Reported.",
-      "catalyst_url": "https://www.tikr.com/blog/ciena-stock-arista-earnings-cloud-spending-outlook?ref=yahoofinance&tlnk=yf-261109-jf98x529"
-    },
-    {
       "ticker": "AXTI",
-      "price": 42.4,
-      "gap_pct": 9.07,
+      "price": 42.89,
+      "gap_pct": 10.31,
       "catalyst": "The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and semiconductors.",
       "prev_close": 38.88,
       "premarket_volume": 559320,
@@ -117,21 +105,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/4-strong-buy-ai-stocks-202000643.html"
     },
     {
-      "ticker": "ALOY",
-      "price": 6.68,
-      "gap_pct": 9.06,
-      "catalyst": "Rare earths just moved from background noise to front-page story, as Washington rolls out Project Vault, a planned US$12b stockpile of critical minerals backed by a US$10b EXIM lending pool.",
-      "prev_close": 6.12,
-      "premarket_volume": 80085,
+      "ticker": "ANET",
+      "price": 186.15,
+      "gap_pct": 8.98,
+      "catalyst": "Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58.",
+      "prev_close": 170.8,
+      "premarket_volume": 104868,
       "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "Project Vault Puts REalloys Stock And US Rare Earths In Focus",
-      "catalyst_url": "https://finance.yahoo.com/economy/policy/articles/project-vault-puts-realloys-stock-051734400.html"
+      "catalyst_source": "TIKR",
+      "catalyst_headline": "Ciena’s Growth Rides on the Same Cloud Buyers as Arista. Arista Just Reported.",
+      "catalyst_url": "https://www.tikr.com/blog/ciena-stock-arista-earnings-cloud-spending-outlook?ref=yahoofinance&tlnk=yf-261109-jf98x529"
     },
     {
       "ticker": "AMPX",
-      "price": 9.5,
-      "gap_pct": 8.94,
+      "price": 9.48,
+      "gap_pct": 8.77,
       "catalyst": "Political control in Washington just flipped, and that reshuffle of power is already reshaping expectations for clean energy, healthcare, trade and regulation more broadly.",
       "prev_close": 8.72,
       "premarket_volume": 83349,
@@ -142,20 +130,32 @@
     },
     {
       "ticker": "AVGO",
-      "price": 319.94,
-      "gap_pct": 8.94,
-      "catalyst": "The Nasdaq composite led Monday morning's rally after days of bruising losses.",
+      "price": 319.22,
+      "gap_pct": 8.69,
+      "catalyst": "Broadcom set December 9 for fiscal fourth-quarter results, when it must deliver AI chip revenue guided up 236% year over year.",
       "prev_close": 293.69,
       "premarket_volume": 1606456,
       "session": "regular",
-      "catalyst_source": "The Wall Street Journal",
-      "catalyst_headline": "What's Moving Markets Today?",
-      "catalyst_url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/what-s-moving-markets-today--2m2p2ySL4tYaG5nFVaxn?siteid=yhoof2&yptr=yahoo"
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-jump-8-21-180538383.html"
+    },
+    {
+      "ticker": "ALOY",
+      "price": 6.65,
+      "gap_pct": 8.57,
+      "catalyst": "Rare earths just moved from background noise to front-page story, as Washington rolls out Project Vault, a planned US$12b stockpile of critical minerals backed by a US$10b EXIM lending pool.",
+      "prev_close": 6.12,
+      "premarket_volume": 80085,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Project Vault Puts REalloys Stock And US Rare Earths In Focus",
+      "catalyst_url": "https://finance.yahoo.com/economy/policy/articles/project-vault-puts-realloys-stock-051734400.html"
     },
     {
       "ticker": "ASX",
       "price": 34.13,
-      "gap_pct": 7.9,
+      "gap_pct": 7.92,
       "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce.",
       "prev_close": 31.63,
       "premarket_volume": 438404,
@@ -165,21 +165,9 @@
       "catalyst_url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
     },
     {
-      "ticker": "ARM",
-      "price": 186.82,
-      "gap_pct": 6.99,
-      "catalyst": "Half off sounds like a deal.",
-      "prev_close": 174.62,
-      "premarket_volume": 147003,
-      "session": "regular",
-      "catalyst_source": "Yahoo Finance",
-      "catalyst_headline": "Intel took 25 years to get back to its dot-com peak — and lost it in 6 months: Chart of the Day",
-      "catalyst_url": "https://finance.yahoo.com/markets/article/intel-took-25-years-to-get-back-to-its-dot-com-peak--and-lost-it-in-6-months-chart-of-the-day-144715722.html"
-    },
-    {
       "ticker": "AAL",
-      "price": 14.1,
-      "gap_pct": 6.98,
+      "price": 14.06,
+      "gap_pct": 6.71,
       "catalyst": "Southwest Airlines' improving revenues, profitability and cash flow signal progress, but rising costs, fuel risks and valuation concerns warrant caution.",
       "prev_close": 13.18,
       "premarket_volume": 1128964,
@@ -189,45 +177,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/luv-stock-worth-buying-growth-164300750.html"
     },
     {
-      "ticker": "ALM",
-      "price": 8.65,
-      "gap_pct": 6.47,
-      "catalyst": "We just published our list of the 10 Best Materials Stocks to Invest in According to Wall Street Analysts, and Almonty Industries Inc.",
-      "prev_close": 8.12,
-      "premarket_volume": 139837,
-      "session": "regular",
-      "catalyst_source": "Insider Monkey",
-      "catalyst_headline": "Almonty Industries (ALM) Revenue Jumps 498%. Can Its New Mine Keep Growth Going?",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/almonty-industries-alm-revenue-jumps-134852250.html"
-    },
-    {
-      "ticker": "ASML",
-      "price": 1510.76,
-      "gap_pct": 6.04,
-      "catalyst": "Nvidia sank on Monday, while the rest of the chip sector rallied.",
-      "prev_close": 1424.75,
-      "premarket_volume": 149255,
+      "ticker": "ARM",
+      "price": 186.29,
+      "gap_pct": 6.68,
+      "catalyst": "Half off sounds like a deal.",
+      "prev_close": 174.62,
+      "premarket_volume": 147003,
       "session": "regular",
       "catalyst_source": "Yahoo Finance",
-      "catalyst_headline": "Nvidia stock sinks 5% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-      "catalyst_url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-as-chipmaker-investigates-ceo-jensen-huangs-relationship-with-alleged-chinese-spy-130346548.html"
-    },
-    {
-      "ticker": "AESI",
-      "price": 5.74,
-      "gap_pct": 6.01,
-      "catalyst": "Atlas Energy Solutions Inc (AESI) guided Q4 adjusted EBITDA to $40-50 million on data center power momentum and logistics gains, even as Q3 results landed at the low end amid soft sand pricing.",
-      "prev_close": 5.41,
-      "premarket_volume": 277881,
-      "session": "regular",
-      "catalyst_source": "GuruFocus.com",
-      "catalyst_headline": "Atlas Energy Solutions Inc (AESI) (Q3 2026) Earnings Call Highlights: Data Center Power Push ...",
-      "catalyst_url": "https://finance.yahoo.com/energy/articles/atlas-energy-solutions-inc-aesi-230732067.html"
+      "catalyst_headline": "Intel took 25 years to get back to its dot-com peak — and lost it in 6 months: Chart of the Day",
+      "catalyst_url": "https://finance.yahoo.com/markets/article/intel-took-25-years-to-get-back-to-its-dot-com-peak--and-lost-it-in-6-months-chart-of-the-day-144715722.html"
     },
     {
       "ticker": "AU",
-      "price": 98.57,
-      "gap_pct": 6.0,
+      "price": 99.11,
+      "gap_pct": 6.58,
       "catalyst": "Yahoo Finance reported that the S&P 500 fell more than 4% on Thursday, November 5, its worst day since the April 2025 tariff crash, erasing roughly $3 trillion in market value.",
       "prev_close": 92.99,
       "premarket_volume": 68410,
@@ -237,9 +201,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/forget-high-beta-hype-5-231024225.html"
     },
     {
+      "ticker": "ALM",
+      "price": 8.62,
+      "gap_pct": 6.22,
+      "catalyst": "We just published our list of the 10 Best Materials Stocks to Invest in According to Wall Street Analysts, and Almonty Industries Inc.",
+      "prev_close": 8.12,
+      "premarket_volume": 139837,
+      "session": "regular",
+      "catalyst_source": "Insider Monkey",
+      "catalyst_headline": "Almonty Industries (ALM) Revenue Jumps 498%. Can Its New Mine Keep Growth Going?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/almonty-industries-alm-revenue-jumps-134852250.html"
+    },
+    {
       "ticker": "AMKR",
-      "price": 34.76,
-      "gap_pct": 5.93,
+      "price": 34.86,
+      "gap_pct": 6.22,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com.",
       "prev_close": 32.82,
       "premarket_volume": 61440,
@@ -249,9 +225,21 @@
       "catalyst_url": "https://www.trefis.com/stock/amkr/articles/623627/what-is-driving-the-fall-in-amkor-stock/2026-11-07"
     },
     {
+      "ticker": "ASML",
+      "price": 1510.27,
+      "gap_pct": 6.0,
+      "catalyst": "Nvidia sank on Monday, while the rest of the chip sector rallied.",
+      "prev_close": 1424.75,
+      "premarket_volume": 149255,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "Nvidia stock sinks 5% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+      "catalyst_url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-as-chipmaker-investigates-ceo-jensen-huangs-relationship-with-alleged-chinese-spy-130346548.html"
+    },
+    {
       "ticker": "ASM",
-      "price": 4.93,
-      "gap_pct": 5.91,
+      "price": 4.92,
+      "gap_pct": 5.81,
       "catalyst": "PKX Future M partners with Hyundai Motor Group to advance its Vietnam battery materials business, strengthen EV supply chains and accelerate production plans.",
       "prev_close": 4.65,
       "premarket_volume": 63345,
@@ -262,8 +250,8 @@
     },
     {
       "ticker": "AA",
-      "price": 41.78,
-      "gap_pct": 5.67,
+      "price": 41.81,
+      "gap_pct": 5.75,
       "catalyst": "The aluminum producer may not be what it once was, but there’s plenty of upside for investors.",
       "prev_close": 39.54,
       "premarket_volume": 98648,
@@ -271,18 +259,6 @@
       "catalyst_source": "Barrons.com",
       "catalyst_headline": "Here’s a Cheap Stock Play on the Aluminum Market",
       "catalyst_url": "https://www.barrons.com/articles/buy-alcoa-stock-price-pick-e64e30c8?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-      "ticker": "ACHR",
-      "price": 4.68,
-      "gap_pct": 5.52,
-      "catalyst": "Joby Aviation's earnings are projected to turn positive after 2031.",
-      "prev_close": 4.44,
-      "premarket_volume": 527164,
-      "session": "regular",
-      "catalyst_source": "Motley Fool",
-      "catalyst_headline": "Where Will Joby Aviation Stock Be in 5 Years?",
-      "catalyst_url": "https://www.fool.com/investing/2026/11/09/where-will-joby-aviation-stock-be-in-5-years/"
     }
   ]
 }
