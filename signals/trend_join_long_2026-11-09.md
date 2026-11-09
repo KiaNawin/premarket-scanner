@@ -1,26 +1,40 @@
 **Trend-join Long — 2026-11-09**
-0 valid entries out of 20 pre-market gappers (generated 2026-11-09 09:05:00 EST)
+0 valid entries out of 34 pre-market gappers (generated 2026-11-09 09:35:01 EST)
 
 _No valid entries yet._
 
 Not triggered:
-- AIOT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ASX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CKX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- DCTH: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- DDI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- EDSA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- GFR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- IMVT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NRG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NWGL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- OMH: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- QXO: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- SGRY: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- STAK: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- STLN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- TECK: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- TTD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- UMC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- VFF: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- VIR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- AAL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AEHL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AIOT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AMD: WAITING — Before 10:00 ET signal window
+- ASX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AU: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CKX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CNH: WAITING — Before 10:00 ET signal window
+- DCTH: WAITING — Before 10:00 ET signal window
+- DDI: WAITING — Before 10:00 ET signal window
+- EDSA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- GFR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- IMVT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- JBLU: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- MF: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NRG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NWGL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- OMH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- QXO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- SAN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- SERV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- SGRY: WAITING — Before 10:00 ET signal window
+- STAK: WAITING — Before 10:00 ET signal window
+- STLN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- TECK: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- TGB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- TLS: WAITING — Before 10:00 ET signal window
+- TTD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- UAL: WAITING — Before 10:00 ET signal window
+- UEC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- VFF: WAITING — Before 10:00 ET signal window
+- VIR: WAITING — Before 10:00 ET signal window
+- ZLAB: WAITING — Before 10:00 ET signal window
