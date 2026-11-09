@@ -1,0 +1,192 @@
+{
+  "scan_date": "2026-11-09",
+  "generated_at_et": "2026-11-09 08:33:28 EST",
+  "scan_time_et": "08:33",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7082,
+    "prefilter": 679,
+    "with_data": 665,
+    "gap": 51,
+    "gap_price": 46,
+    "passed": 14,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7082,
+  "count": 14,
+  "results": [
+    {
+      "ticker": "OMH",
+      "price": 19.77,
+      "gap_pct": 168.61,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
+      "prev_close": 7.36,
+      "premarket_volume": 5808014,
+      "session": "pre-market",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "BC-Most Active Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
+    },
+    {
+      "ticker": "CKX",
+      "price": 15.95,
+      "gap_pct": 53.81,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 10.37,
+      "premarket_volume": 2349043,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "NWGL",
+      "price": 3.7,
+      "gap_pct": 46.25,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 2.53,
+      "premarket_volume": 6967502,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "GFR",
+      "price": 7.76,
+      "gap_pct": 38.56,
+      "catalyst": "The transaction brings together two Canadian heavy oil and oil sands producers, with closing anticipated after shareholder meetings.",
+      "prev_close": 5.6,
+      "premarket_volume": 1565785,
+      "session": "pre-market",
+      "catalyst_source": "Offshore Technology",
+      "catalyst_headline": "Strathcona to buy Greenfire in deal worth up to $2.05bn",
+      "catalyst_url": "https://www.offshore-technology.com/news/strathcona-greenfire-deal-2-05bn/"
+    },
+    {
+      "ticker": "DCTH",
+      "price": 18.18,
+      "gap_pct": 21.77,
+      "catalyst": "Envoy Medical, Inc.",
+      "prev_close": 14.93,
+      "premarket_volume": 62361,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Envoy Medical, Inc. (COCH) Reports Q3 Loss, Tops Revenue Estimates",
+      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/envoy-medical-inc-coch-reports-133509938.html"
+    },
+    {
+      "ticker": "DDI",
+      "price": 15.85,
+      "gap_pct": 16.72,
+      "catalyst": "On August 11, DoubleDown Interactive (NASDAQ:DDI) reported second-quarter results that make the stock look almost too cheap to be true.",
+      "prev_close": 13.58,
+      "premarket_volume": 230851,
+      "session": "pre-market",
+      "catalyst_source": "Insider Monkey",
+      "catalyst_headline": "DoubleDown’s (DDI) Earnings Explode While a Takeover Offer Sits Unresolved",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/doubledown-ddi-earnings-explode-while-043404228.html"
+    },
+    {
+      "ticker": "IMVT",
+      "price": 33.85,
+      "gap_pct": 10.87,
+      "catalyst": "Immunovant has delivered a striking 5 year return, yet the recent pullback and legal questions around its governance put fresh focus on whether the current share price still lines up with what its balance sheet supports.",
+      "prev_close": 30.53,
+      "premarket_volume": 67581,
+      "session": "pre-market",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Immunovant (IMVT) Stock Looks Stretched On Book Value Alone",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/immunovant-imvt-stock-looks-stretched-141413615.html"
+    },
+    {
+      "ticker": "VIR",
+      "price": 13.51,
+      "gap_pct": 10.65,
+      "catalyst": "Investing.com -- Vir Biotechnology, Inc.",
+      "prev_close": 12.21,
+      "premarket_volume": 375951,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Vir Biotechnology stock jumps 22% after hepatitis delta Phase 3 trial success",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/vir-biotechnology-stock-jumps-22-130631799.html"
+    },
+    {
+      "ticker": "STAK",
+      "price": 3.6,
+      "gap_pct": 10.43,
+      "catalyst": "Stak Inc.",
+      "prev_close": 3.26,
+      "premarket_volume": 3103858,
+      "session": "pre-market",
+      "catalyst_source": "Benzinga",
+      "catalyst_headline": "STAK Inc (STAK) Stock Plunges Nearly 39% After Hours Despite Revenue Growth: Here's Why",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/stak-inc-stak-stock-plunges-053919035.html"
+    },
+    {
+      "ticker": "STLN",
+      "price": 3.86,
+      "gap_pct": 6.63,
+      "catalyst": "Oncology Institute (NASDAQ:STLN), referred to as Starling Oncology by executives during its earnings call, reported a second consecutive quarter of positive adjusted EBITDA as specialty pharmacy growth and stronger…",
+      "prev_close": 3.62,
+      "premarket_volume": 115842,
+      "session": "pre-market",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Oncology Institute Q3 Earnings Call Highlights",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-oncology-institute-q3-earnings-call-highlights-2026-11-06/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "TTD",
+      "price": 13.77,
+      "gap_pct": 6.5,
+      "catalyst": "One operates the ad-tech backbone for streaming; the other has built a massive online platform.",
+      "prev_close": 12.93,
+      "premarket_volume": 645163,
+      "session": "pre-market",
+      "catalyst_source": "Motley Fool",
+      "catalyst_headline": "Magnite vs. Pinterest: Which Media Stock Is a Better Buy in 2026?",
+      "catalyst_url": "https://www.fool.com/coverage/better-buy/2026/11/08/magnite-vs-pinterest-which-media-stock-is-a-better-buy-in-2026/"
+    },
+    {
+      "ticker": "ASX",
+      "price": 33.62,
+      "gap_pct": 6.3,
+      "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce.",
+      "prev_close": 31.63,
+      "premarket_volume": 415029,
+      "session": "pre-market",
+      "catalyst_source": "Benzinga Prediction Markets",
+      "catalyst_headline": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
+      "catalyst_url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
+    },
+    {
+      "ticker": "UMC",
+      "price": 14.66,
+      "gap_pct": 5.88,
+      "catalyst": "Nvidia Corp.",
+      "prev_close": 13.85,
+      "premarket_volume": 177169,
+      "session": "pre-market",
+      "catalyst_source": "Benzinga",
+      "catalyst_headline": "The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years…'",
+      "catalyst_url": "https://finance.yahoo.com/technology/ai/articles/moment-jensen-huang-realized-nvidia-221554282.html"
+    },
+    {
+      "ticker": "QXO",
+      "price": 12.21,
+      "gap_pct": 5.62,
+      "catalyst": "QXO's Q3 sales are expected to surge 77.6% on acquisition contributions and higher volumes, but elevated operating costs may pressure earnings.",
+      "prev_close": 11.56,
+      "premarket_volume": 165182,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "QXO to Report Q3 Earnings: Here's What to Know About the Stock",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/qxo-report-q3-earnings-heres-142900196.html"
+    }
+  ]
+}
