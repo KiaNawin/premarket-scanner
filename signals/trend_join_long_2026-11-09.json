@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-09",
-  "generated_at_et": "2026-11-09 08:35:00 EST",
+  "generated_at_et": "2026-11-09 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-09.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,23 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 14,
+  "candidates": 20,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "AIOT",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.1514,
+      "yesterday_high": 2.76,
+      "yesterday_close": 2.69,
+      "sma200": 3.4522,
+      "premarket_high": 3.3,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 21.16,
+      "catalyst": "(AIOT) on Monday reported a loss of $6.9 million in its fiscal second quarter."
+    },
     {
       "ticker": "ASX",
       "status": "WAITING",
@@ -24,7 +37,7 @@
       "sma200": 33.7431,
       "premarket_high": 33.84,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.3,
+      "gap_pct": 6.45,
       "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce."
     },
     {
@@ -37,8 +50,8 @@
       "sma200": 10.8032,
       "premarket_high": 17.95,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 53.81,
-      "catalyst": "No recent news catalyst found."
+      "gap_pct": 62.24,
+      "catalyst": "CKX Lands, Inc."
     },
     {
       "ticker": "DCTH",
@@ -48,9 +61,9 @@
       "yesterday_high": 15.05,
       "yesterday_close": 14.93,
       "sma200": 12.4455,
-      "premarket_high": 18.18,
+      "premarket_high": 18.4,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 21.77,
+      "gap_pct": 20.56,
       "catalyst": "Envoy Medical, Inc."
     },
     {
@@ -63,8 +76,21 @@
       "sma200": 11.1389,
       "premarket_high": 16.054,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 16.72,
+      "gap_pct": 14.51,
       "catalyst": "On August 11, DoubleDown Interactive (NASDAQ:DDI) reported second-quarter results that make the stock look almost too cheap to be true."
+    },
+    {
+      "ticker": "EDSA",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2214,
+      "yesterday_high": 2.2,
+      "yesterday_close": 2.14,
+      "sma200": 5.6772,
+      "premarket_high": 3.1,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 42.06,
+      "catalyst": "Edesa Biotech, Inc."
     },
     {
       "ticker": "GFR",
@@ -76,7 +102,7 @@
       "sma200": 6.1115,
       "premarket_high": 7.86,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 38.56,
+      "gap_pct": 38.75,
       "catalyst": "The transaction brings together two Canadian heavy oil and oil sands producers, with closing anticipated after shareholder meetings."
     },
     {
@@ -93,6 +119,19 @@
       "catalyst": "Immunovant has delivered a striking 5 year return, yet the recent pullback and legal questions around its governance put fresh focus on whether the current share price still lines up with what its balance sheet supports."
     },
     {
+      "ticker": "NRG",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 4.7214,
+      "yesterday_high": 90.04,
+      "yesterday_close": 88.29,
+      "sma200": 133.7237,
+      "premarket_high": 95.0,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.75,
+      "catalyst": "NRG Energy said it will sell $4 billion worth of power-generation assets, a move that will allow it to pay down debt and buy back more stock."
+    },
+    {
       "ticker": "NWGL",
       "status": "WAITING",
       "signal": false,
@@ -102,7 +141,7 @@
       "sma200": 63.6686,
       "premarket_high": 6.51,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 46.25,
+      "gap_pct": 40.71,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -113,9 +152,9 @@
       "yesterday_high": 11.43,
       "yesterday_close": 7.36,
       "sma200": 32.1886,
-      "premarket_high": 20.28,
+      "premarket_high": 24.4,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 168.61,
+      "gap_pct": 193.89,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -126,10 +165,23 @@
       "yesterday_high": 11.66,
       "yesterday_close": 11.56,
       "sma200": 16.9787,
-      "premarket_high": 12.339,
+      "premarket_high": 12.67,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.62,
+      "gap_pct": 9.26,
       "catalyst": "QXO's Q3 sales are expected to surge 77.6% on acquisition contributions and higher volumes, but elevated operating costs may pressure earnings."
+    },
+    {
+      "ticker": "SGRY",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.7971,
+      "yesterday_high": 23.23,
+      "yesterday_close": 23.2,
+      "sma200": 14.8121,
+      "premarket_high": 26.08,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 11.59,
+      "catalyst": "Biodesix (BDSX) delivered earnings and revenue surprises of -1.35% and -11.76%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "STAK",
@@ -141,7 +193,7 @@
       "sma200": 1.6821,
       "premarket_high": 4.04,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.43,
+      "gap_pct": 10.04,
       "catalyst": "Stak Inc."
     },
     {
@@ -154,8 +206,21 @@
       "sma200": 4.7604,
       "premarket_high": 4.1599,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.63,
+      "gap_pct": 6.91,
       "catalyst": "Oncology Institute (NASDAQ:STLN), referred to as Starling Oncology by executives during its earnings call, reported a second consecutive quarter of positive adjusted EBITDA as specialty pharmacy growth and stronger…"
+    },
+    {
+      "ticker": "TECK",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 2.5293,
+      "yesterday_high": 61.14,
+      "yesterday_close": 60.46,
+      "sma200": 60.7713,
+      "premarket_high": 63.73,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.08,
+      "catalyst": "The SoftBank-ABB deal isn’t the only major outstanding transaction that China stands in the way of."
     },
     {
       "ticker": "TTD",
@@ -165,10 +230,10 @@
       "yesterday_high": 13.05,
       "yesterday_close": 12.93,
       "sma200": 19.4988,
-      "premarket_high": 13.8,
+      "premarket_high": 14.09,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.5,
-      "catalyst": "One operates the ad-tech backbone for streaming; the other has built a massive online platform."
+      "gap_pct": 8.89,
+      "catalyst": "Management lowered the bar itself, and investors are already buying before The Trade Desk reports."
     },
     {
       "ticker": "UMC",
@@ -180,8 +245,21 @@
       "sma200": 17.1777,
       "premarket_high": 14.75,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.88,
+      "gap_pct": 5.7,
       "catalyst": "Nvidia Corp."
+    },
+    {
+      "ticker": "VFF",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.1502,
+      "yesterday_high": 2.935,
+      "yesterday_close": 2.88,
+      "sma200": 2.672,
+      "premarket_high": 3.1,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.21,
+      "catalyst": "Village Farms (VFF) delivered earnings and revenue surprises of +60.00% and +3.94%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "VIR",
@@ -193,9 +271,9 @@
       "sma200": 9.6439,
       "premarket_high": 15.28,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.65,
+      "gap_pct": 7.7,
       "catalyst": "Investing.com -- Vir Biotechnology, Inc."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
