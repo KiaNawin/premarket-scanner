@@ -1,29 +1,47 @@
 {
-  "ticker": "CKX",
-  "saved_at_et": "2026-11-09T10:06:00-05:00",
+  "ticker": "BE",
+  "saved_at_et": "2026-11-09T10:35:19-05:00",
   "response": [
     {
-      "id": "0e2db8a6-a4a0-3907-bcc7-15c95dd2f145",
+      "id": "00c33b13-464d-3d8c-a5ec-0624157138ee",
       "content": {
-        "id": "0e2db8a6-a4a0-3907-bcc7-15c95dd2f145",
+        "id": "00c33b13-464d-3d8c-a5ec-0624157138ee",
         "contentType": "STORY",
-        "title": "CKX Land stock surges as Brad Jacobs leads $1B investment in new venture",
+        "title": "Bloom Energy Jumps 8%, FuelCell Energy Rises 3% as Fuel Cell Stocks Rebound; Plug Power Holds Steady Ahead of Earnings",
         "description": null,
-        "summary": "Investing.com -- Shares of CKX Lands Inc (NYSE:CKX) are surging 53% in pre-open trading Monday after the company announced a $1 billion cash investment led by billionaire businessman Brad Jacobs.",
-        "pubDate": "2026-11-09T14:20:20Z",
-        "displayTime": "2026-11-09T14:20:20Z",
+        "summary": "A 900 megawatt overseas deal has Bloom Energy pulling away from its fuel cell rivals, but Texas politics and one looming earnings report could decide whether the rebound lasts. Which names stand to lose the most if the selling returns?",
+        "pubDate": "2026-11-09T14:49:47Z",
+        "displayTime": "2026-11-09T14:49:47Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/55732f38e19f7499c7daa2f9845aa5d1.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 767,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/55732f38e19f7499c7daa2f9845aa5d1.jpg",
+              "width": 1366,
+              "height": 767,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/da0ef147ad572b70bda94da97e02f15e02fabce6075dc9b0b33c21229b8dd03d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F55732f38e19f7499c7daa2f9845aa5d1.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Investing.com",
-          "url": "https://www.investing.com/"
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ckx-land-stock-surges-brad-142020149.html"
+          "url": "https://247wallst.com/investing/2026/11/09/bloom-energy-jumps-8-fuelcell-energy-rises-3-as-fuel-cell-stocks-rebound-plug-power-holds-steady-ahead-of-earnings/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ckx-land-stock-surges-brad-142020149.html"
+          "url": "https://finance.yahoo.com/energy/articles/bloom-energy-jumps-8-fuelcell-144947462.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,7 +49,161 @@
           },
           "stockTickers": [
             {
-              "symbol": "CKX"
+              "symbol": "BE"
+            },
+            {
+              "symbol": "PLUG"
+            },
+            {
+              "symbol": "FCEL"
+            },
+            {
+              "symbol": "BLDP"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "BLDP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "41bba372-5a3f-3267-ae33-a6d573749399",
+      "content": {
+        "id": "41bba372-5a3f-3267-ae33-a6d573749399",
+        "contentType": "STORY",
+        "title": "Renewable Energy & Battery Stocks to Buy as Blue Wave Sweeps US Congress",
+        "description": null,
+        "summary": "A Democratic takeover of Congress could boost clean energy policy support, while rising AI power demand creates opportunities for four stocks.",
+        "pubDate": "2026-11-09T12:51:00Z",
+        "displayTime": "2026-11-09T12:51:00Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/147f73c8f3dda1b37c6f7183f1874ec0.jpg",
+          "originalWidth": 620,
+          "originalHeight": 413,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/zacks.com/147f73c8f3dda1b37c6f7183f1874ec0.jpg",
+              "width": 620,
+              "height": 413,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/82b8a8305f18351ad1f5eb8863e30dd01edc39f9da85551b6f2d56ccefed9a1e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F147f73c8f3dda1b37c6f7183f1874ec0.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/energy/articles/renewable-energy-battery-stocks-buy-125100665.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/energy/articles/renewable-energy-battery-stocks-buy-125100665.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "META"
+            },
+            {
+              "symbol": "PPL"
+            },
+            {
+              "symbol": "GNRC"
+            },
+            {
+              "symbol": "BE"
+            },
+            {
+              "symbol": "CWEN"
+            },
+            {
+              "symbol": "AMZN"
+            },
+            {
+              "symbol": "GOOG"
+            },
+            {
+              "symbol": "MSFT"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6a6fa40a-5642-3771-87f3-2d17f21d2d40",
+      "content": {
+        "id": "6a6fa40a-5642-3771-87f3-2d17f21d2d40",
+        "contentType": "STORY",
+        "title": "The On-Site Power Duel: Bloom Energy vs. GE Vernova",
+        "description": null,
+        "summary": "AI builders will not wait for the grid, so one company ships fuel cells to the fence line while another books turbines years ahead. Both stocks just got hammered, and only one has the cash to ride out what comes next.",
+        "pubDate": "2026-11-09T12:15:09Z",
+        "displayTime": "2026-11-09T12:15:09Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/98a7c5c6c51e58eef1971bb2b79df1b7",
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/98a7c5c6c51e58eef1971bb2b79df1b7",
+              "width": 2560,
+              "height": 1440,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/23887f09a6be25a9650621d6fa19d9ffe578fd7a6c4a39d7123805dd8f4259ba/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F98a7c5c6c51e58eef1971bb2b79df1b7",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/11/09/the-on-site-power-duel-bloom-energy-vs-ge-vernova/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/energy/articles/power-duel-bloom-energy-vs-121509912.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "BE"
+            },
+            {
+              "symbol": "GEV"
+            },
+            {
+              "symbol": "ORCL"
+            },
+            {
+              "symbol": "AEP"
+            },
+            {
+              "symbol": "GOOG"
             }
           ]
         }
