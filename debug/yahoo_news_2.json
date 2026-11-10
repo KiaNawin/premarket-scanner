@@ -1,47 +1,29 @@
 {
-  "ticker": "SMX",
-  "saved_at_et": "2026-11-10T10:03:46-05:00",
+  "ticker": "OMH",
+  "saved_at_et": "2026-11-10T10:33:48-05:00",
   "response": [
     {
-      "id": "567982b8-b4c0-39dc-bfa1-29c251f912f2",
+      "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
       "content": {
-        "id": "567982b8-b4c0-39dc-bfa1-29c251f912f2",
+        "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
         "contentType": "STORY",
-        "title": "WCN Shares Rise 8.6% in 3 Months: Here's What You Should Know",
+        "title": "BC-Most Active Stocks",
         "description": null,
-        "summary": "Waste Connections gains 8.6% in three months as market tailwinds, acquisitions and strong cash generation support its growth momentum.",
-        "pubDate": "2026-09-02T14:45:00Z",
-        "displayTime": "2026-09-02T14:45:00Z",
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Intel Corp.",
+        "pubDate": "2026-11-04T15:30:21Z",
+        "displayTime": "2026-11-04T15:30:21Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/9c8787491917ce830049cb60abed84e5.jpg",
-          "originalWidth": 620,
-          "originalHeight": 413,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/9c8787491917ce830049cb60abed84e5.jpg",
-              "width": 620,
-              "height": 413,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/899ff134442b0a247f96e30cce02c454695be93ea17dd487f6f32855e177b689/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F9c8787491917ce830049cb60abed84e5.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
+        "thumbnail": null,
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "Associated Press",
+          "url": "https://apnews.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wcn-shares-rise-8-6-144500562.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wcn-shares-rise-8-6-144500562.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,46 +31,82 @@
           },
           "stockTickers": [
             {
-              "symbol": "WCN"
+              "symbol": "CRIS"
             },
             {
-              "symbol": "^GSPC"
+              "symbol": "INTC"
             },
             {
-              "symbol": "CBZ"
+              "symbol": "HPAI"
             },
             {
-              "symbol": "BFAM"
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "FTCI"
+            },
+            {
+              "symbol": "PLUG"
+            },
+            {
+              "symbol": "CIFR"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "OMH"
+            },
+            {
+              "symbol": "GRAB"
+            },
+            {
+              "symbol": "RIOT"
+            },
+            {
+              "symbol": "SMCI"
+            },
+            {
+              "symbol": "SHFS"
+            },
+            {
+              "symbol": "AMZN"
+            },
+            {
+              "symbol": "AAL"
+            },
+            {
+              "symbol": "WULF"
             }
           ]
         }
       }
     },
     {
-      "id": "366a6186-d71a-381e-a68d-6b8e575716c3",
+      "id": "1c54580b-08c0-3428-a843-21aea266e62f",
       "content": {
-        "id": "366a6186-d71a-381e-a68d-6b8e575716c3",
+        "id": "1c54580b-08c0-3428-a843-21aea266e62f",
         "contentType": "STORY",
-        "title": "RSG Stock Rises 10% in 3 Months: Here's What You Should Know",
+        "title": "Is Ohmyhome (NASDAQ:OMH) In A Good Position To Deliver On Growth Plans?",
         "description": null,
-        "summary": "Republic Services leans on pricing, acquisitions and AI-driven efficiency to expand margins and support long-term growth.",
-        "pubDate": "2026-09-02T14:05:00Z",
-        "displayTime": "2026-09-02T14:05:00Z",
+        "summary": "Just because a business does not make any money, does not mean that the stock will go down. For example, biotech and...",
+        "pubDate": "2026-05-06T10:54:31Z",
+        "displayTime": "2026-05-06T10:54:31Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/05a89074c4e7fd67b6fe260e5385db0b.jpg",
-          "originalWidth": 620,
-          "originalHeight": 413,
+          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
+          "originalWidth": 1194,
+          "originalHeight": 432,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/05a89074c4e7fd67b6fe260e5385db0b.jpg",
-              "width": 620,
-              "height": 413,
+              "url": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
+              "width": 1194,
+              "height": 432,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/6c959bae43951e762aedb8a2062452e42d40741fadac5d9cd0411e04498e983c/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F05a89074c4e7fd67b6fe260e5385db0b.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/8c930566db9f3b07f04c3f0b34d1a8bb55c922ed8186d4e4a7e6cf2f331cd26d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F9b27f5216f799d93084482c1da19bddd",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -96,14 +114,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "Simply Wall St.",
+          "url": "https://simplywall.st/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rsg-stock-rises-10-3-140500115.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rsg-stock-rises-10-3-140500115.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
         },
         "finance": {
           "premiumFinance": {
@@ -111,72 +129,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "^GSPC"
-            },
-            {
-              "symbol": "RSG"
-            },
-            {
-              "symbol": "BFAM"
-            },
-            {
-              "symbol": "CBZ"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "9b6abc13-bd57-38a1-b3a7-1926bf541c52",
-      "content": {
-        "id": "9b6abc13-bd57-38a1-b3a7-1926bf541c52",
-        "contentType": "STORY",
-        "title": "Are Business Services Stocks Lagging  CBIZ (CBZ) This Year?",
-        "description": null,
-        "summary": "Here is how CBIZ (CBZ) and FactSet Research (FDS) have performed compared to their sector so far this year.",
-        "pubDate": "2026-09-02T13:40:03Z",
-        "displayTime": "2026-09-02T13:40:03Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9.jpg",
-          "originalWidth": 900,
-          "originalHeight": 845,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9.jpg",
-              "width": 900,
-              "height": 845,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/181998db0ec792d43d7381e6e748a479637c8b03def41bd55513a6d5bf04d8b5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F26a86d59f0e8f1e82a35a92ae5684cd9.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/business-services-stocks-lagging-cbiz-134003170.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/business-services-stocks-lagging-cbiz-134003170.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "CBZ"
-            },
-            {
-              "symbol": "FDS"
+              "symbol": "OMH"
             }
           ]
         }

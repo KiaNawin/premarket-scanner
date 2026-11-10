@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-10",
-  "generated_at_et": "2026-11-10 10:05:01 EST",
+  "generated_at_et": "2026-11-10 10:35:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-10.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,100 +10,50 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 32,
+  "candidates": 25,
   "valid_count": 3,
   "valid_entries": [
-    {
-      "ticker": "AMD",
-      "signal_time_et": "2026-11-10 10:00",
-      "entry_price": 535.705,
-      "last_price": 536.69,
-      "gap_pct": 5.31,
-      "yesterday_high": 515.18,
-      "yesterday_close": 508.58,
-      "sma200": 417.222,
-      "premarket_high": 511.0,
-      "hod_before_signal": 535.13,
-      "catalyst": "NVIDIA (NASDAQ:NVDA) is facing a second straight day of selling as its board investigates CEO Jensen Huang."
-    },
-    {
-      "ticker": "CLF",
-      "signal_time_et": "2026-11-10 10:00",
-      "entry_price": 13.0,
-      "last_price": 12.915,
-      "gap_pct": 6.0,
-      "yesterday_high": 12.4,
-      "yesterday_close": 12.26,
-      "sma200": 11.3206,
-      "premarket_high": 12.35,
-      "hod_before_signal": 12.875,
-      "catalyst": "Cleveland-Cliffs signed new four-year labor agreements with the United Steelworkers covering about 12,000 workers across its steel and mining operations in Indiana, Ohio, Pennsylvania, Minnesota, and Michigan,…"
-    },
     {
       "ticker": "ZETA",
       "signal_time_et": "2026-11-10 10:00",
       "entry_price": 34.24,
-      "last_price": 34.15,
-      "gap_pct": 5.37,
+      "last_price": 34.745,
+      "gap_pct": 6.52,
       "yesterday_high": 32.56,
       "yesterday_close": 32.42,
       "sma200": 22.801,
       "premarket_high": 32.74,
-      "hod_before_signal": 34.16,
-      "catalyst": "Zeta Global Holdings Corp (ZETA) posts $493 million in Q3 revenue, 55% Adjusted EBITDA growth, and accelerating Athena adoption as it raises 2026 outlook to $1.855 billion."
+      "hod_before_signal": 34.18,
+      "catalyst": "Zeta Global beats Q3 earnings estimates as AI-powered Athena adoption fuels revenue growth, prompting higher 2026 guidance amid expanding enterprise opportunities."
+    },
+    {
+      "ticker": "STAK",
+      "signal_time_et": "2026-11-10 10:14",
+      "entry_price": 4.5699,
+      "last_price": 4.89,
+      "gap_pct": 11.25,
+      "yesterday_high": 4.41,
+      "yesterday_close": 4.09,
+      "sma200": 1.7007,
+      "premarket_high": 4.33,
+      "hod_before_signal": 4.55,
+      "catalyst": "Stak Inc."
+    },
+    {
+      "ticker": "TOPS",
+      "signal_time_et": "2026-11-10 10:18",
+      "entry_price": 3.51,
+      "last_price": 3.89,
+      "gap_pct": 20.79,
+      "yesterday_high": 3.15,
+      "yesterday_close": 3.15,
+      "sma200": 1.9196,
+      "premarket_high": 3.5,
+      "hod_before_signal": 3.4811,
+      "catalyst": "Intelligent Bio Solutions (INBS) reported late Wednesday an agreement with two healthcare-focused in."
     }
   ],
   "evaluated": [
-    {
-      "ticker": "AMD",
-      "status": "VALID_ENTRY",
-      "signal": true,
-      "atr14": 41.0664,
-      "yesterday_high": 515.18,
-      "yesterday_close": 508.58,
-      "sma200": 417.222,
-      "premarket_high": 511.0,
-      "last_price": 536.69,
-      "last_bar_et": "10:04",
-      "high_of_day": 538.01,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "signal_time_et": "2026-11-10 10:00",
-      "entry_price": 535.705,
-      "hod_before_signal": 535.13,
-      "low_5m": 524.1202,
-      "gap_pct": 5.31,
-      "catalyst": "NVIDIA (NASDAQ:NVDA) is facing a second straight day of selling as its board investigates CEO Jensen Huang."
-    },
-    {
-      "ticker": "CLF",
-      "status": "VALID_ENTRY",
-      "signal": true,
-      "atr14": 0.93,
-      "yesterday_high": 12.4,
-      "yesterday_close": 12.26,
-      "sma200": 11.3206,
-      "premarket_high": 12.35,
-      "last_price": 12.915,
-      "last_bar_et": "10:04",
-      "high_of_day": 13.01,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "signal_time_et": "2026-11-10 10:00",
-      "entry_price": 13.0,
-      "hod_before_signal": 12.875,
-      "low_5m": 12.6101,
-      "gap_pct": 6.0,
-      "catalyst": "Cleveland-Cliffs signed new four-year labor agreements with the United Steelworkers covering about 12,000 workers across its steel and mining operations in Indiana, Ohio, Pennsylvania, Minnesota, and Michigan,…"
-    },
     {
       "ticker": "ZETA",
       "status": "VALID_ENTRY",
@@ -113,9 +63,9 @@
       "yesterday_close": 32.42,
       "sma200": 22.801,
       "premarket_high": 32.74,
-      "last_price": 34.15,
-      "last_bar_et": "10:04",
-      "high_of_day": 34.28,
+      "last_price": 34.745,
+      "last_bar_et": "10:34",
+      "high_of_day": 34.92,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -124,10 +74,60 @@
       },
       "signal_time_et": "2026-11-10 10:00",
       "entry_price": 34.24,
-      "hod_before_signal": 34.16,
-      "low_5m": 32.72,
-      "gap_pct": 5.37,
-      "catalyst": "Zeta Global Holdings Corp (ZETA) posts $493 million in Q3 revenue, 55% Adjusted EBITDA growth, and accelerating Athena adoption as it raises 2026 outlook to $1.855 billion."
+      "hod_before_signal": 34.18,
+      "low_5m": 33.6001,
+      "gap_pct": 6.52,
+      "catalyst": "Zeta Global beats Q3 earnings estimates as AI-powered Athena adoption fuels revenue growth, prompting higher 2026 guidance amid expanding enterprise opportunities."
+    },
+    {
+      "ticker": "STAK",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.4793,
+      "yesterday_high": 4.41,
+      "yesterday_close": 4.09,
+      "sma200": 1.7007,
+      "premarket_high": 4.33,
+      "last_price": 4.89,
+      "last_bar_et": "10:34",
+      "high_of_day": 4.89,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "signal_time_et": "2026-11-10 10:14",
+      "entry_price": 4.5699,
+      "hod_before_signal": 4.55,
+      "low_5m": 4.3,
+      "gap_pct": 11.25,
+      "catalyst": "Stak Inc."
+    },
+    {
+      "ticker": "TOPS",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.2379,
+      "yesterday_high": 3.15,
+      "yesterday_close": 3.15,
+      "sma200": 1.9196,
+      "premarket_high": 3.5,
+      "last_price": 3.89,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.89,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-10 10:18",
+      "entry_price": 3.51,
+      "hod_before_signal": 3.4811,
+      "low_5m": 3.23,
+      "gap_pct": 20.79,
+      "catalyst": "Intelligent Bio Solutions (INBS) reported late Wednesday an agreement with two healthcare-focused in."
     },
     {
       "ticker": "AAON",
@@ -138,9 +138,9 @@
       "yesterday_close": 62.87,
       "sma200": 96.7881,
       "premarket_high": 76.7,
-      "last_price": 77.01,
-      "last_bar_et": "10:04",
-      "high_of_day": 78.4999,
+      "last_price": 77.8375,
+      "last_bar_et": "10:34",
+      "high_of_day": 80.1,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -148,74 +148,17 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 22.97,
+      "gap_pct": 24.11,
       "catalyst": "AAON Inc (NASDAQ:AAON) shares advanced approximately 22% in Tuesday’s premarket trading after the heating, ventilation and air conditioning (HVAC) equipment manufacturer reported third-quarter earnings and revenue…"
     },
     {
-      "ticker": "AEHR",
-      "status": "FAIL",
+      "ticker": "AGLT",
+      "status": "SHORT_HISTORY",
       "signal": false,
-      "atr14": 7.4729,
-      "yesterday_high": 60.91,
-      "yesterday_close": 59.81,
-      "sma200": 75.2429,
-      "premarket_high": 60.62,
-      "last_price": 63.47,
-      "last_bar_et": "10:04",
-      "high_of_day": 64.47,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.02,
-      "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable."
-    },
-    {
-      "ticker": "ASX",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 3.0971,
-      "yesterday_high": 34.92,
-      "yesterday_close": 34.36,
-      "sma200": 33.8179,
-      "premarket_high": 37.0,
-      "last_price": 36.6647,
-      "last_bar_et": "10:04",
-      "high_of_day": 36.96,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 7.39,
-      "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce."
-    },
-    {
-      "ticker": "AXSM",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 7.6416,
-      "yesterday_high": 134.71,
-      "yesterday_close": 133.96,
-      "sma200": 197.8801,
-      "premarket_high": 135.5,
-      "last_price": 141.46,
-      "last_bar_et": "10:04",
-      "high_of_day": 141.985,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.08,
-      "catalyst": "Axsome Therapeutics (NASDAQ:AXSM) reported $260 million in third-quarter revenue, driven by growth in its AUVELITY treatment for major depressive disorder and Alzheimer’s disease agitation, executives said at the…"
+      "reason": "Only 190 trading days of history (< 200 needed for SMA200)",
+      "history_days": 190,
+      "gap_pct": 5.13,
+      "catalyst": "Agility Robotics has just arrived on Nasdaq after its reverse merger, and the stock has already moved enough to make investors ask a simple question: Is the current price putting a fair tag on the company compared with…"
     },
     {
       "ticker": "BW",
@@ -226,31 +169,9 @@
       "yesterday_close": 3.79,
       "sma200": 11.3401,
       "premarket_high": 4.39,
-      "last_price": 4.235,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.3,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.42,
-      "catalyst": "Pipeline growth and a lighter debt load shape the story behind the quarter."
-    },
-    {
-      "ticker": "CLS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 25.1293,
-      "yesterday_high": 225.26,
-      "yesterday_close": 222.92,
-      "sma200": 329.9647,
-      "premarket_high": 225.76,
-      "last_price": 234.07,
-      "last_bar_et": "10:04",
-      "high_of_day": 235.46,
+      "last_price": 4.535,
+      "last_bar_et": "10:34",
+      "high_of_day": 4.62,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -258,8 +179,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.56,
-      "catalyst": "Celestica is strengthening its defense sector presence with advanced electronics, ruggedized computing and mission-critical solutions for aerospace and military applications."
+      "gap_pct": 20.31,
+      "catalyst": "Pipeline growth and a lighter debt load shape the story behind the quarter."
     },
     {
       "ticker": "DJT",
@@ -270,9 +191,9 @@
       "yesterday_close": 4.06,
       "sma200": 9.0248,
       "premarket_high": 4.14,
-      "last_price": 4.305,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.34,
+      "last_price": 4.585,
+      "last_bar_et": "10:34",
+      "high_of_day": 4.64,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -280,7 +201,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.3,
+      "gap_pct": 12.68,
       "catalyst": "The merger's shareholder vote on Dec."
     },
     {
@@ -292,8 +213,8 @@
       "yesterday_close": 77.07,
       "sma200": 67.6469,
       "premarket_high": 82.05,
-      "last_price": 81.61,
-      "last_bar_et": "10:04",
+      "last_price": 81.26,
+      "last_bar_et": "10:34",
       "high_of_day": 82.0,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -302,7 +223,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 6.12,
+      "gap_pct": 5.36,
       "catalyst": "The headline numbers for Embraer (EMBJ) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the…"
     },
     {
@@ -314,8 +235,8 @@
       "yesterday_close": 27.47,
       "sma200": 37.7726,
       "premarket_high": 33.68,
-      "last_price": 31.58,
-      "last_bar_et": "10:04",
+      "last_price": 32.695,
+      "last_bar_et": "10:34",
       "high_of_day": 33.6799,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -324,8 +245,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.4,
-      "catalyst": "Although the revenue and EPS for Harrow (HROW) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and…"
+      "gap_pct": 18.15,
+      "catalyst": "Harrow (NASDAQ:HROW) reported record third-quarter revenue and reaffirmed its full-year sales forecast, but sharply reduced its adjusted earnings outlook as lower-than-expected margins and accelerated spending weighed…"
     },
     {
       "ticker": "LCID",
@@ -336,9 +257,9 @@
       "yesterday_close": 3.6,
       "sma200": 6.6403,
       "premarket_high": 3.59,
-      "last_price": 4.0428,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.09,
+      "last_price": 4.13,
+      "last_bar_et": "10:34",
+      "high_of_day": 4.2,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -346,7 +267,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.94,
+      "gap_pct": 15.09,
       "catalyst": "CNH's precision technology investments, operational improvements and portfolio realignment support its outlook, but weak agricultural demand and cash flow pressures remain concerns."
     },
     {
@@ -358,9 +279,9 @@
       "yesterday_close": 4.32,
       "sma200": 7.1335,
       "premarket_high": 4.5197,
-      "last_price": 4.525,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.58,
+      "last_price": 4.635,
+      "last_bar_et": "10:34",
+      "high_of_day": 4.69,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -368,7 +289,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.32,
+      "gap_pct": 7.06,
       "catalyst": "These businesses are built to generate recurring cash flows."
     },
     {
@@ -380,9 +301,9 @@
       "yesterday_close": 6.64,
       "sma200": 10.6734,
       "premarket_high": 6.66,
-      "last_price": 7.4695,
-      "last_bar_et": "10:04",
-      "high_of_day": 7.52,
+      "last_price": 7.435,
+      "last_bar_et": "10:34",
+      "high_of_day": 7.58,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -390,8 +311,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.58,
-      "catalyst": "JPMorgan’s new price target of $28 on Riot implies a potential upside of around 59% from Monday’s close."
+      "gap_pct": 13.25,
+      "catalyst": "Key TakeawaysMARA Holdings rose 13% today on a $500 million buyback and a $750 million repayment of bitcoin-backed debt."
     },
     {
       "ticker": "OMH",
@@ -402,17 +323,17 @@
       "yesterday_close": 25.84,
       "sma200": 31.8528,
       "premarket_high": 41.4931,
-      "last_price": 33.0582,
-      "last_bar_et": "10:04",
-      "high_of_day": 33.63,
+      "last_price": 48.26,
+      "last_bar_et": "10:31",
+      "high_of_day": 48.26,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.22,
+      "gap_pct": 73.95,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -424,9 +345,9 @@
       "yesterday_close": 3.54,
       "sma200": 6.0126,
       "premarket_high": 4.38,
-      "last_price": 3.94,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.08,
+      "last_price": 4.1516,
+      "last_bar_et": "10:34",
+      "high_of_day": 4.24,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -434,7 +355,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.71,
+      "gap_pct": 18.25,
       "catalyst": "Palladyne AI Corp."
     },
     {
@@ -446,17 +367,17 @@
       "yesterday_close": 2.39,
       "sma200": 2.9432,
       "premarket_high": 5.92,
-      "last_price": 5.7999,
-      "last_bar_et": "10:04",
+      "last_price": 6.005,
+      "last_bar_et": "10:34",
       "high_of_day": 6.4899,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 143.31,
+      "gap_pct": 152.72,
       "catalyst": "Investing.com -- PepGen Ltd (NASDAQ:PEPG) shares rose over 115% in premarket trade Tuesday following the release of positive topline results from the 10 mg/kg cohort of its Phase 2 FREEDOM2-DM1 trial evaluating…"
     },
     {
@@ -468,8 +389,8 @@
       "yesterday_close": 5.22,
       "sma200": 6.1277,
       "premarket_high": 7.61,
-      "last_price": 6.39,
-      "last_bar_et": "10:04",
+      "last_price": 6.2701,
+      "last_bar_et": "10:34",
       "high_of_day": 7.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -478,74 +399,17 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 22.99,
+      "gap_pct": 21.46,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "ticker": "QMCO",
-      "status": "NO_SIGNAL",
+      "ticker": "QNT",
+      "status": "SHORT_HISTORY",
       "signal": false,
-      "atr14": 1.9579,
-      "yesterday_high": 17.28,
-      "yesterday_close": 16.99,
-      "sma200": 13.3475,
-      "premarket_high": 21.43,
-      "last_price": 18.16,
-      "last_bar_et": "10:04",
-      "high_of_day": 19.94,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 6.68,
-      "catalyst": "Quantum Corp (QMCO) beat guidance with $89.6 million in revenue, posted $11.1 million in adjusted EBITDA, and ended the quarter debt-free with a record backlog of nearly $100 million."
-    },
-    {
-      "ticker": "RPGL",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.0287,
-      "yesterday_high": 12.66,
-      "yesterday_close": 9.19,
-      "sma200": 823.9179,
-      "premarket_high": 12.98,
-      "last_price": 10.11,
-      "last_bar_et": "09:57",
-      "high_of_day": 10.7,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.01,
-      "catalyst": "Gainers Cisco Systems (NASDAQ:CSCO) stock moved upwards by 15.9% to $118.06 during Wednesday's after-market session."
-    },
-    {
-      "ticker": "RXT",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.2939,
-      "yesterday_high": 2.98,
-      "yesterday_close": 2.72,
-      "sma200": 3.2593,
-      "premarket_high": 2.95,
-      "last_price": 3.045,
-      "last_bar_et": "10:04",
-      "high_of_day": 3.16,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.79,
-      "catalyst": "SAN ANTONIO (AP) — SAN ANTONIO (AP) — Rackspace Technology, Inc."
+      "reason": "Only 110 trading days of history (< 200 needed for SMA200)",
+      "history_days": 110,
+      "gap_pct": 5.07,
+      "catalyst": "After strong quarterly results from IonQ and Quantinuum, Rigetti Computing and D-Wave Quantum are set to report earnings on Tuesday."
     },
     {
       "ticker": "SANM",
@@ -556,9 +420,9 @@
       "yesterday_close": 149.64,
       "sma200": 190.9707,
       "premarket_high": 179.5,
-      "last_price": 164.78,
-      "last_bar_et": "10:04",
-      "high_of_day": 166.0,
+      "last_price": 165.21,
+      "last_bar_et": "10:34",
+      "high_of_day": 167.965,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -566,7 +430,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.84,
+      "gap_pct": 10.63,
       "catalyst": "Sanmina (SANM) just paired a strong earnings beat with a sizable step up in guidance and a clear plan to pour capital into AI and cloud focused capacity."
     },
     {
@@ -578,9 +442,9 @@
       "yesterday_close": 77.96,
       "sma200": 97.2259,
       "premarket_high": 80.84,
-      "last_price": 83.16,
-      "last_bar_et": "10:04",
-      "high_of_day": 84.7275,
+      "last_price": 83.65,
+      "last_bar_et": "10:34",
+      "high_of_day": 85.16,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -588,7 +452,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.37,
+      "gap_pct": 7.52,
       "catalyst": "Sea (SE) reported third-quarter sales above market expectations on Tuesday, while revenue growth in."
     },
     {
@@ -597,7 +461,7 @@
       "signal": false,
       "reason": "Only 91 trading days of history (< 200 needed for SMA200)",
       "history_days": 91,
-      "gap_pct": 36.25,
+      "gap_pct": 41.18,
       "catalyst": "Revenue at the tokenization firm rose 13% to $18.6 million, its board approved a $50 million share buyback, and the company said most of the loss came from charges tied to its listing."
     },
     {
@@ -609,40 +473,18 @@
       "yesterday_close": 9.8,
       "sma200": 7.2487,
       "premarket_high": 12.41,
-      "last_price": 12.91,
-      "last_bar_et": "10:04",
+      "last_price": 12.05,
+      "last_bar_et": "10:34",
       "high_of_day": 13.978,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 30.41,
-      "catalyst": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls."
-    },
-    {
-      "ticker": "SKM",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.245,
-      "yesterday_high": 32.38,
-      "yesterday_close": 32.31,
-      "sma200": 34.1281,
-      "premarket_high": 34.58,
-      "last_price": 33.845,
-      "last_bar_et": "10:04",
-      "high_of_day": 34.05,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.08,
-      "catalyst": "SKM, EQNR, AVT, TKO and ECPG have been added to the Zacks Rank #1 (Strong Buy) List on November 9, 2026."
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 21.94,
+      "catalyst": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls."
     },
     {
       "ticker": "SMX",
@@ -653,8 +495,8 @@
       "yesterday_close": 9.35,
       "sma200": 1220.8047,
       "premarket_high": 21.6997,
-      "last_price": 17.01,
-      "last_bar_et": "10:02",
+      "last_price": 15.1,
+      "last_bar_et": "10:34",
       "high_of_day": 19.3,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -663,30 +505,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 88.34,
+      "gap_pct": 61.28,
       "catalyst": "Waste Connections gains 8.6% in three months as market tailwinds, acquisitions and strong cash generation support its growth momentum."
-    },
-    {
-      "ticker": "STAK",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.4793,
-      "yesterday_high": 4.41,
-      "yesterday_close": 4.09,
-      "sma200": 1.7007,
-      "premarket_high": 4.33,
-      "last_price": 4.4,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.55,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 7.21,
-      "catalyst": "Stak Inc."
     },
     {
       "ticker": "TANH",
@@ -697,17 +517,17 @@
       "yesterday_close": 19.34,
       "sma200": 24.2946,
       "premarket_high": 31.1635,
-      "last_price": 23.3,
-      "last_bar_et": "10:03",
-      "high_of_day": 23.51,
+      "last_price": 21.6999,
+      "last_bar_et": "10:34",
+      "high_of_day": 23.6,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.89,
+      "gap_pct": 10.86,
       "catalyst": "Tantech Holdings (NASDAQ:TANH) shares declined 3."
     },
     {
@@ -719,17 +539,17 @@
       "yesterday_close": 207.4,
       "sma200": 218.7335,
       "premarket_high": 220.99,
-      "last_price": 217.24,
-      "last_bar_et": "10:04",
+      "last_price": 224.8,
+      "last_bar_et": "10:34",
       "high_of_day": 229.4626,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.11,
+      "gap_pct": 8.2,
       "catalyst": "Take-Two (TTWO) reported second quarter earnings results that showed lower revenue, but these numbers are somewhat overshadowed by the company's strong pre-sales for its long-awaited Grand Theft Auto VI."
     },
     {
@@ -741,19 +561,19 @@
       "yesterday_close": 3.3,
       "sma200": 224.0828,
       "premarket_high": 3.89,
-      "last_price": 3.68,
-      "last_bar_et": "10:04",
+      "last_price": 3.345,
+      "last_bar_et": "10:34",
       "high_of_day": 4.13,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 20.48,
+      "gap_pct": 6.96,
       "catalyst": "Investing.com -- Insurers controlled by Los Angeles Dodgers owner Mark Walter could face mounting funding pressure as billions of dollars in short-term loans to affiliated businesses reach maturity, the Wall Street…"
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }
