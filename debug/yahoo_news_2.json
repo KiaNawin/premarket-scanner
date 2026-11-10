@@ -1,6 +1,6 @@
 {
   "ticker": "PEPG",
-  "saved_at_et": "2026-11-10T12:33:40-05:00",
+  "saved_at_et": "2026-11-10T13:03:51-05:00",
   "response": [
     {
       "id": "e668ae28-39f3-302e-afb7-68e60d30197f",
@@ -84,40 +84,43 @@
           },
           "stockTickers": [
             {
-              "symbol": "PEPG"
+              "symbol": "NVDA"
             },
             {
-              "symbol": "CODX"
+              "symbol": "PEPG"
             },
             {
               "symbol": "SHFS"
             },
             {
+              "symbol": "CODX"
+            },
+            {
               "symbol": "AMIX"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "LICN"
             },
             {
               "symbol": "INTC"
             },
             {
+              "symbol": "NNOX"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "GRAB"
+            },
+            {
               "symbol": "PLUG"
+            },
+            {
+              "symbol": "MARA"
             },
             {
               "symbol": "TTD"
             },
             {
-              "symbol": "SMCI"
+              "symbol": "LICN"
             },
             {
               "symbol": "IREN"
