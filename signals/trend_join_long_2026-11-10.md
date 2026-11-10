@@ -1,12 +1,12 @@
 **Trend-join Long — 2026-11-10**
-0 valid entries out of 11 pre-market gappers (generated 2026-11-10 08:35:05 EST)
+0 valid entries out of 11 pre-market gappers (generated 2026-11-10 09:05:01 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - AAON: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BW: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - HROW: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- OMH: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - PDYN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - PEPG: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - PXLW: WAITING — Market opens 09:30 ET; signals start 10:00 ET

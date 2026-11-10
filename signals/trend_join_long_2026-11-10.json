@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-10",
-  "generated_at_et": "2026-11-10 08:35:05 EST",
+  "generated_at_et": "2026-11-10 09:05:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-10.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -24,21 +24,8 @@
       "sma200": 96.7881,
       "premarket_high": 76.7,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 16.51,
+      "gap_pct": 14.13,
       "catalyst": "AAON Inc (NASDAQ:AAON) shares advanced approximately 22% in Tuesday’s premarket trading after the heating, ventilation and air conditioning (HVAC) equipment manufacturer reported third-quarter earnings and revenue…"
-    },
-    {
-      "ticker": "BW",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.3766,
-      "yesterday_high": 3.915,
-      "yesterday_close": 3.79,
-      "sma200": 11.3401,
-      "premarket_high": 4.39,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.18,
-      "catalyst": "Pipeline growth and a lighter debt load shape the story behind the quarter."
     },
     {
       "ticker": "HROW",
@@ -48,10 +35,23 @@
       "yesterday_high": 27.84,
       "yesterday_close": 27.47,
       "sma200": 37.7726,
-      "premarket_high": 32.458,
+      "premarket_high": 32.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 18.16,
+      "gap_pct": 16.56,
       "catalyst": "Although the revenue and EPS for Harrow (HROW) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and…"
+    },
+    {
+      "ticker": "OMH",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 8.0547,
+      "yesterday_high": 85.97,
+      "yesterday_close": 25.84,
+      "sma200": 31.8528,
+      "premarket_high": 41.4931,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.33,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
       "ticker": "PDYN",
@@ -63,7 +63,7 @@
       "sma200": 6.0126,
       "premarket_high": 4.38,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.72,
+      "gap_pct": 8.45,
       "catalyst": "Palladyne AI Corp."
     },
     {
@@ -76,7 +76,7 @@
       "sma200": 2.9432,
       "premarket_high": 5.73,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 111.3,
+      "gap_pct": 119.25,
       "catalyst": "PepGen (PEPG) is technically in oversold territory now, so the heavy selling pressure might have exhausted."
     },
     {
@@ -89,7 +89,7 @@
       "sma200": 6.1277,
       "premarket_high": 7.26,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 15.06,
+      "gap_pct": 32.57,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -102,7 +102,7 @@
       "sma200": 13.3475,
       "premarket_high": 21.43,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 14.01,
+      "gap_pct": 11.78,
       "catalyst": "Quantum Corp (QMCO) beat guidance with $89.6 million in revenue, posted $11.1 million in adjusted EBITDA, and ended the quarter debt-free with a record backlog of nearly $100 million."
     },
     {
@@ -111,7 +111,7 @@
       "signal": false,
       "reason": "Only 91 trading days of history (< 200 needed for SMA200)",
       "history_days": 91,
-      "gap_pct": 22.53,
+      "gap_pct": 26.97,
       "catalyst": "Revenue at the tokenization firm rose 13% to $18.6 million, its board approved a $50 million share buyback, and the company said most of the loss came from charges tied to its listing."
     },
     {
@@ -124,7 +124,7 @@
       "sma200": 7.2487,
       "premarket_high": 11.7432,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 16.48,
+      "gap_pct": 14.29,
       "catalyst": "Senseonics Holdings Inc (SENS) posted record Q3 2026 revenue of $19.6 million, up ~140% year-over-year, and raised full-year guidance for the third time to $68 million--$70 million."
     },
     {
@@ -135,9 +135,9 @@
       "yesterday_high": 10.8,
       "yesterday_close": 9.35,
       "sma200": 1220.8047,
-      "premarket_high": 19.43,
+      "premarket_high": 21.6997,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 91.0,
+      "gap_pct": 102.14,
       "catalyst": "Waste Connections gains 8.6% in three months as market tailwinds, acquisitions and strong cash generation support its growth momentum."
     },
     {
@@ -150,9 +150,9 @@
       "sma200": 224.0828,
       "premarket_high": 3.89,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.76,
+      "gap_pct": 13.94,
       "catalyst": "Investing.com -- Insurers controlled by Los Angeles Dodgers owner Mark Walter could face mounting funding pressure as billions of dollars in short-term loans to affiliated businesses reach maturity, the Wall Street…"
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
