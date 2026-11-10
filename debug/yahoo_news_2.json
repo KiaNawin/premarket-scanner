@@ -1,70 +1,32 @@
 {
-  "ticker": "ASTS",
-  "saved_at_et": "2026-11-09T14:05:54-05:00",
+  "ticker": "SMX",
+  "saved_at_et": "2026-11-10T08:33:11-05:00",
   "response": [
     {
-      "id": "8231d65a-df15-36c1-b211-9cd31358934b",
+      "id": "567982b8-b4c0-39dc-bfa1-29c251f912f2",
       "content": {
-        "id": "8231d65a-df15-36c1-b211-9cd31358934b",
+        "id": "567982b8-b4c0-39dc-bfa1-29c251f912f2",
         "contentType": "STORY",
-        "title": "AST SpaceMobile Stocks Surge 17.29% on Rakuten Japan Satellite Venture",
+        "title": "WCN Shares Rise 8.6% in 3 Months: Here's What You Should Know",
         "description": null,
-        "summary": "Rakuten AST will build a direct-to-smartphone satellite network in Japan, with about $1 billion in expected government support.",
-        "pubDate": "2026-11-09T18:27:58Z",
-        "displayTime": "2026-11-09T18:27:58Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "GuruFocus.com",
-          "url": "http://www.gurufocus.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stocks-surge-17-182758155.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stocks-surge-17-182758155.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ASTS"
-            },
-            {
-              "symbol": "4755.T"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "72cea723-d660-3259-81af-b1ebf01e63f7",
-      "content": {
-        "id": "72cea723-d660-3259-81af-b1ebf01e63f7",
-        "contentType": "STORY",
-        "title": "AST SpaceMobile shares jump ahead of Q3 results as dealmaking gathers pace",
-        "description": null,
-        "summary": "AST SpaceMobile Inc (NASDAQ:ASTS) shares jumped 14% on Monday as investors weighed a series of strategic developments ahead of the satellite communications company's third-quarter earnings report due after the market close. The rally follows the announcement of a joint venture with Japan's...",
-        "pubDate": "2026-11-09T18:19:00Z",
-        "displayTime": "2026-11-09T18:19:00Z",
+        "summary": "Waste Connections gains 8.6% in three months as market tailwinds, acquisitions and strong cash generation support its growth momentum.",
+        "pubDate": "2026-09-02T14:45:00Z",
+        "displayTime": "2026-09-02T14:45:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/proactive_us_504/636b4b066a7e0e3553937f348f3f2b8c.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 720,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/9c8787491917ce830049cb60abed84e5.jpg",
+          "originalWidth": 620,
+          "originalHeight": 413,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/proactive_us_504/636b4b066a7e0e3553937f348f3f2b8c.jpg",
-              "width": 1280,
-              "height": 720,
+              "url": "https://media.zenfs.com/en/zacks.com/9c8787491917ce830049cb60abed84e5.jpg",
+              "width": 620,
+              "height": 413,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/3f05d3d483605f408c1552a3cf8348940f9c2b0b94e3ea56f9d346c69f276bcb/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2F636b4b066a7e0e3553937f348f3f2b8c.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/899ff134442b0a247f96e30cce02c454695be93ea17dd487f6f32855e177b689/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F9c8787491917ce830049cb60abed84e5.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -72,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Proactive",
-          "url": "https://www.proactiveinvestors.com/us"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.proactiveinvestors.com/companies/news/1101452/ast-spacemobile-shares-jump-ahead-of-q3-results-as-dealmaking-gathers-pace-1101452.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wcn-shares-rise-8-6-144500562.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-shares-jump-ahead-181900343.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wcn-shares-rise-8-6-144500562.html"
         },
         "finance": {
           "premiumFinance": {
@@ -87,43 +49,46 @@
           },
           "stockTickers": [
             {
-              "symbol": "ASTS"
+              "symbol": "WCN"
             },
             {
-              "symbol": "FLY"
+              "symbol": "^GSPC"
             },
             {
-              "symbol": "4755.T"
+              "symbol": "CBZ"
+            },
+            {
+              "symbol": "BFAM"
             }
           ]
         }
       }
     },
     {
-      "id": "99c17d40-05e6-3d21-9ec4-792d02bf0873",
+      "id": "366a6186-d71a-381e-a68d-6b8e575716c3",
       "content": {
-        "id": "99c17d40-05e6-3d21-9ec4-792d02bf0873",
+        "id": "366a6186-d71a-381e-a68d-6b8e575716c3",
         "contentType": "STORY",
-        "title": "Cantor ‘Cautiously Optimistic’ Ahead Of AST SpaceMobile Q3 Earnings – Sees Growing Government Demand Despite Launch Cost Concerns",
+        "title": "RSG Stock Rises 10% in 3 Months: Here's What You Should Know",
         "description": null,
-        "summary": "Wall Street expects AST SpaceMobile’s Q3 revenue to more than triple to about $46 million from $14.7 million a year earlier.",
-        "pubDate": "2026-11-09T18:00:27Z",
-        "displayTime": "2026-11-09T18:00:27Z",
+        "summary": "Republic Services leans on pricing, acquisitions and AI-driven efficiency to expand margins and support long-term growth.",
+        "pubDate": "2026-09-02T14:05:00Z",
+        "displayTime": "2026-09-02T14:05:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/116704983ae52332103cc6ed48846597.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 854,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/05a89074c4e7fd67b6fe260e5385db0b.jpg",
+          "originalWidth": 620,
+          "originalHeight": 413,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/stocktwits_383/116704983ae52332103cc6ed48846597.jpg",
-              "width": 1280,
-              "height": 854,
+              "url": "https://media.zenfs.com/en/zacks.com/05a89074c4e7fd67b6fe260e5385db0b.jpg",
+              "width": 620,
+              "height": 413,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/70082fe018bebe8dfed1fb593d79926a3a157c5dc846f01c34d4a39b26cae2ac/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F116704983ae52332103cc6ed48846597.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/6c959bae43951e762aedb8a2062452e42d40741fadac5d9cd0411e04498e983c/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F05a89074c4e7fd67b6fe260e5385db0b.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -131,14 +96,14 @@
           ]
         },
         "provider": {
-          "displayName": "Stocktwits",
-          "url": "https://stocktwits.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://stocktwits.com/news-articles/markets/equity/cantor-cautiously-optimistic-ahead-of-ast-space-mobile-q3-earnings-sees-growing-government-demand-despite-launch-cost-concerns/cNGrSNkR97I"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rsg-stock-rises-10-3-140500115.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-cautiously-optimistic-ahead-ast-180027355.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rsg-stock-rises-10-3-140500115.html"
         },
         "finance": {
           "premiumFinance": {
@@ -146,7 +111,72 @@
           },
           "stockTickers": [
             {
-              "symbol": "ASTS"
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "RSG"
+            },
+            {
+              "symbol": "BFAM"
+            },
+            {
+              "symbol": "CBZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "9b6abc13-bd57-38a1-b3a7-1926bf541c52",
+      "content": {
+        "id": "9b6abc13-bd57-38a1-b3a7-1926bf541c52",
+        "contentType": "STORY",
+        "title": "Are Business Services Stocks Lagging  CBIZ (CBZ) This Year?",
+        "description": null,
+        "summary": "Here is how CBIZ (CBZ) and FactSet Research (FDS) have performed compared to their sector so far this year.",
+        "pubDate": "2026-09-02T13:40:03Z",
+        "displayTime": "2026-09-02T13:40:03Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9.jpg",
+          "originalWidth": 900,
+          "originalHeight": 845,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9.jpg",
+              "width": 900,
+              "height": 845,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/181998db0ec792d43d7381e6e748a479637c8b03def41bd55513a6d5bf04d8b5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F26a86d59f0e8f1e82a35a92ae5684cd9.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/business-services-stocks-lagging-cbiz-134003170.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/business-services-stocks-lagging-cbiz-134003170.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "CBZ"
+            },
+            {
+              "symbol": "FDS"
             }
           ]
         }
