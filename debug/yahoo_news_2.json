@@ -1,17 +1,70 @@
 {
-  "ticker": "OMH",
-  "saved_at_et": "2026-11-10T12:03:50-05:00",
+  "ticker": "PEPG",
+  "saved_at_et": "2026-11-10T12:33:40-05:00",
   "response": [
     {
-      "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
+      "id": "e668ae28-39f3-302e-afb7-68e60d30197f",
       "content": {
-        "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
+        "id": "e668ae28-39f3-302e-afb7-68e60d30197f",
+        "contentType": "STORY",
+        "title": "PepGen Reports Phase 2 Myotonic Dystrophy Trial Results and $104.8 Million Cash Position",
+        "description": null,
+        "summary": "PepGen Inc. (NASDAQ:PEPG) reported third-quarter 2026 financial results alongside new Phase 2 clinical data for PGN-EDODM1, its investigational treatment for myotonic dystrophy type 1 (DM1).",
+        "pubDate": "2026-11-10T15:56:06Z",
+        "displayTime": "2026-11-10T15:56:06Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/b5d94cfeda9241ca952d9f0d1766ade6.png",
+          "originalWidth": 1200,
+          "originalHeight": 659,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/investorshub_458/b5d94cfeda9241ca952d9f0d1766ade6.png",
+              "width": 1200,
+              "height": 659,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/f2a74da95a54a6ed12eec354bfefa0586d60e1e21d28349f09d5354429c2f229/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fb5d94cfeda9241ca952d9f0d1766ade6.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://investorshub.advfn.com/market-news/article/39721/pepgen-reports-phase-2-myotonic-dystrophy-trial-results-and-104-8-million-cash-position"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-reports-phase-2-myotonic-155606087.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "PEPG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "b48d2796-b52f-3abf-a11f-a83ba69fd106",
+      "content": {
+        "id": "b48d2796-b52f-3abf-a11f-a83ba69fd106",
         "contentType": "STORY",
         "title": "BC-Most Active Stocks",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Intel Corp.",
-        "pubDate": "2026-11-04T15:30:21Z",
-        "displayTime": "2026-11-04T15:30:21Z",
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
+        "pubDate": "2026-11-10T15:30:19Z",
+        "displayTime": "2026-11-10T15:30:19Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -20,10 +73,10 @@
           "url": "https://apnews.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019126.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019126.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,97 +84,70 @@
           },
           "stockTickers": [
             {
-              "symbol": "CRIS"
+              "symbol": "PEPG"
             },
             {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "HPAI"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "FTCI"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "CIFR"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "OMH"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "RIOT"
-            },
-            {
-              "symbol": "SMCI"
+              "symbol": "CODX"
             },
             {
               "symbol": "SHFS"
             },
             {
-              "symbol": "AMZN"
+              "symbol": "AMIX"
             },
             {
-              "symbol": "AAL"
+              "symbol": "NVDA"
             },
             {
-              "symbol": "WULF"
+              "symbol": "GRAB"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "LICN"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "PLUG"
+            },
+            {
+              "symbol": "TTD"
+            },
+            {
+              "symbol": "SMCI"
+            },
+            {
+              "symbol": "IREN"
             }
           ]
         }
       }
     },
     {
-      "id": "1c54580b-08c0-3428-a843-21aea266e62f",
+      "id": "0bea8397-78e7-3092-89ce-2ccfeecc9517",
       "content": {
-        "id": "1c54580b-08c0-3428-a843-21aea266e62f",
+        "id": "0bea8397-78e7-3092-89ce-2ccfeecc9517",
         "contentType": "STORY",
-        "title": "Is Ohmyhome (NASDAQ:OMH) In A Good Position To Deliver On Growth Plans?",
+        "title": "PepGen stock soars over 100% on positive Phase 2 trial data for DM1 drug",
         "description": null,
-        "summary": "Just because a business does not make any money, does not mean that the stock will go down. For example, biotech and...",
-        "pubDate": "2026-05-06T10:54:31Z",
-        "displayTime": "2026-05-06T10:54:31Z",
+        "summary": "Investing.com -- PepGen Ltd (NASDAQ:PEPG) shares rose over 115% in premarket trade Tuesday following the release of positive topline results from the 10 mg/kg cohort of its Phase 2 FREEDOM2-DM1 trial evaluating PGN-EDODM1 in patients with myotonic dystrophy type 1 (DM1).",
+        "pubDate": "2026-11-10T14:06:45Z",
+        "displayTime": "2026-11-10T14:06:45Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
-          "originalWidth": 1194,
-          "originalHeight": 432,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
-              "width": 1194,
-              "height": 432,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/8c930566db9f3b07f04c3f0b34d1a8bb55c922ed8186d4e4a7e6cf2f331cd26d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F9b27f5216f799d93084482c1da19bddd",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
+        "thumbnail": null,
         "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-stock-soars-over-100-140645055.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-stock-soars-over-100-140645055.html"
         },
         "finance": {
           "premiumFinance": {
@@ -129,7 +155,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "OMH"
+              "symbol": "PEPG"
             }
           ]
         }
