@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-10",
-  "generated_at_et": "2026-11-10 13:03:55 EST",
-  "scan_time_et": "13:03",
+  "generated_at_et": "2026-11-10 13:33:59 EST",
+  "scan_time_et": "13:33",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 416,
-    "with_data": 342,
-    "gap": 65,
-    "gap_price": 58,
-    "passed": 20,
+    "prefilter": 419,
+    "with_data": 337,
+    "gap": 69,
+    "gap_price": 64,
+    "passed": 23,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7082,
-  "count": 20,
+  "count": 23,
   "results": [
     {
       "ticker": "OMH",
-      "price": 86.9,
-      "gap_pct": 236.3,
+      "price": 64.17,
+      "gap_pct": 148.34,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 25.84,
       "premarket_volume": 4277460,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "PEPG",
-      "price": 5.23,
-      "gap_pct": 118.72,
+      "price": 5.03,
+      "gap_pct": 110.67,
       "catalyst": "PepGen Inc.",
       "prev_close": 2.39,
       "premarket_volume": 35883902,
@@ -45,21 +45,21 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/39721/pepgen-reports-phase-2-myotonic-dystrophy-trial-results-and-104-8-million-cash-position"
     },
     {
-      "ticker": "TANH",
-      "price": 29.98,
-      "gap_pct": 55.02,
-      "catalyst": "Tantech Holdings (NASDAQ:TANH) shares declined 3.",
-      "prev_close": 19.34,
-      "premarket_volume": 393898,
+      "ticker": "SMX",
+      "price": 17.06,
+      "gap_pct": 82.46,
+      "catalyst": "SMX (NASDAQ:SMX) announced the development of SMX Scientific Intelligence (SMX SCI), an artificial intelligence-powered platform designed to support industrial material research, chemical analysis and manufacturing…",
+      "prev_close": 9.35,
+      "premarket_volume": 14567791,
       "session": "regular",
       "catalyst_source": "InvestorsHub",
-      "catalyst_headline": "Tantech Holdings Shares Fall 3% Following September Reverse Stock Split",
-      "catalyst_url": "https://investorshub.advfn.com/market-news/article/36104/tantech-holdings-shares-fall-3-following-september-reverse-stock-split"
+      "catalyst_headline": "SMX Develops AI-Powered Scientific Intelligence Platform, Targets Commercial Launch in Q2 2027",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/39695/smx-develops-ai-powered-scientific-intelligence-platform-targets-commercial-launch-in-q2-2027"
     },
     {
       "ticker": "STAK",
-      "price": 5.96,
-      "gap_pct": 45.72,
+      "price": 6.36,
+      "gap_pct": 55.44,
       "catalyst": "Stak Inc.",
       "prev_close": 4.09,
       "premarket_volume": 235465,
@@ -69,9 +69,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/stak-inc-stak-stock-plunges-053919035.html"
     },
     {
+      "ticker": "TANH",
+      "price": 29.88,
+      "gap_pct": 54.5,
+      "catalyst": "Tantech Holdings (NASDAQ:TANH) shares declined 3.",
+      "prev_close": 19.34,
+      "premarket_volume": 393898,
+      "session": "regular",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "Tantech Holdings Shares Fall 3% Following September Reverse Stock Split",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/36104/tantech-holdings-shares-fall-3-following-september-reverse-stock-split"
+    },
+    {
       "ticker": "PXLW",
-      "price": 6.57,
-      "gap_pct": 25.86,
+      "price": 6.8,
+      "gap_pct": 30.36,
       "catalyst": "Pixelworks, Inc.",
       "prev_close": 5.22,
       "premarket_volume": 10694969,
@@ -82,8 +94,8 @@
     },
     {
       "ticker": "SECZ",
-      "price": 8.56,
-      "gap_pct": 22.81,
+      "price": 8.58,
+      "gap_pct": 23.03,
       "catalyst": "Revenue at the tokenization firm rose 13% to $18.6 million, its board approved a $50 million share buyback, and the company said most of the loss came from charges tied to its listing.",
       "prev_close": 6.97,
       "premarket_volume": 1768299,
@@ -94,8 +106,8 @@
     },
     {
       "ticker": "AAON",
-      "price": 76.5,
-      "gap_pct": 21.68,
+      "price": 76.18,
+      "gap_pct": 21.17,
       "catalyst": "A massive Aaon earnings beat and raise was highlighted by booming sales in its AI data-center segment.",
       "prev_close": 62.87,
       "premarket_volume": 75833,
@@ -106,8 +118,8 @@
     },
     {
       "ticker": "BW",
-      "price": 4.33,
-      "gap_pct": 14.25,
+      "price": 4.34,
+      "gap_pct": 14.38,
       "catalyst": "Pipeline growth and a lighter debt load shape the story behind the quarter.",
       "prev_close": 3.79,
       "premarket_volume": 857724,
@@ -117,33 +129,9 @@
       "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/babcock-wilcox-bw-q3-2026-earnings-call-transcript/"
     },
     {
-      "ticker": "CKX",
-      "price": 18.65,
-      "gap_pct": 13.72,
-      "catalyst": "Brad Jacobs built United Rentals and XPO through deals.",
-      "prev_close": 16.4,
-      "premarket_volume": 148972,
-      "session": "regular",
-      "catalyst_source": "Barrons.com",
-      "catalyst_headline": "CKX Lands Soars on Brad Jacobs Investment. His Last Big Bet Hasn’t Panned Out.",
-      "catalyst_url": "https://www.barrons.com/articles/ckx-lands-stock-brad-jacobs-united-rentals-63dc9f64?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-      "ticker": "SENS",
-      "price": 11.13,
-      "gap_pct": 13.57,
-      "catalyst": "Record patient starts lifted revenue, though expenses are running above guidance.",
-      "prev_close": 9.8,
-      "premarket_volume": 175594,
-      "session": "regular",
-      "catalyst_source": "Motley Fool",
-      "catalyst_headline": "Senseonics (SENS) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/senseonics-sens-q3-2026-earnings-call-transcript/"
-    },
-    {
       "ticker": "HROW",
-      "price": 30.99,
-      "gap_pct": 12.8,
+      "price": 30.03,
+      "gap_pct": 9.32,
       "catalyst": "Harrow (NASDAQ:HROW) reported record third-quarter revenue and reaffirmed its full-year sales forecast, but sharply reduced its adjusted earnings outlook as lower-than-expected margins and accelerated spending weighed…",
       "prev_close": 27.47,
       "premarket_volume": 126391,
@@ -154,8 +142,8 @@
     },
     {
       "ticker": "LUMN",
-      "price": 4.76,
-      "gap_pct": 10.07,
+      "price": 4.7,
+      "gap_pct": 8.91,
       "catalyst": "These businesses are built to generate recurring cash flows.",
       "prev_close": 4.32,
       "premarket_volume": 146641,
@@ -165,28 +153,76 @@
       "catalyst_url": "https://www.fool.com/investing/2026/11/09/6-telecom-stocks-collect-monthly-bills-no-matter/"
     },
     {
-      "ticker": "LCID",
-      "price": 3.95,
-      "gap_pct": 9.86,
-      "catalyst": "Lucid (LCID) is making early progress on its operational reset and has enough liquidity to fund itse.",
-      "prev_close": 3.6,
-      "premarket_volume": 361596,
-      "session": "regular",
-      "catalyst_source": "MT Newswires",
-      "catalyst_headline": "Lucid's Operational Reset Shows Early Progress While Execution Stays Key Risk, RBC Says",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/lucid-apos-operational-reset-shows-173748115.html"
-    },
-    {
       "ticker": "DJT",
       "price": 4.41,
       "gap_pct": 8.5,
-      "catalyst": "Trump Media's bottom line flipped dramatically last quarter, yet the real story hides beneath the headline number.",
+      "catalyst": "A $1 billion cash option hits Trump Media's lenders on November 30, and thousands of its Bitcoin sit locked as collateral.",
       "prev_close": 4.06,
       "premarket_volume": 295784,
       "session": "regular",
       "catalyst_source": "24/7 Wall St.",
-      "catalyst_headline": "Trump Media Jumps 9% as Crypto Gains Drive $410 Million Q3 Profit; Rumble Falls 3%, Meta Holds Steady",
-      "catalyst_url": "https://247wallst.com/investing/2026/11/10/trump-media-jumps-9-as-crypto-gains-drive-410-million-q3-profit-rumble-falls-3-meta-holds-steady/"
+      "catalyst_headline": "Trump Media Pledged 11,385 Bitcoin. Could a $1 Billion Note Demand Force It to Sell?",
+      "catalyst_url": "https://247wallst.com/investing/cryptocurrency/2026/11/10/trump-media-pledged-11385-bitcoin-could-a-1-billion-note-demand-force-it-to-sell/"
+    },
+    {
+      "ticker": "CKX",
+      "price": 17.7,
+      "gap_pct": 7.93,
+      "catalyst": "Brad Jacobs built United Rentals and XPO through deals.",
+      "prev_close": 16.4,
+      "premarket_volume": 148972,
+      "session": "regular",
+      "catalyst_source": "Barrons.com",
+      "catalyst_headline": "CKX Lands Soars on Brad Jacobs Investment. His Last Big Bet Hasn’t Panned Out.",
+      "catalyst_url": "https://www.barrons.com/articles/ckx-lands-stock-brad-jacobs-united-rentals-63dc9f64?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "LCID",
+      "price": 3.88,
+      "gap_pct": 7.92,
+      "catalyst": "Lucid Group Inc (NASDAQ:LCID), the US electric-vehicle maker, rose 10% to $3.96 on Tuesday after securing a $1.75 billion expansion of its credit line with Saudi Arabia's Public Investment Fund.",
+      "prev_close": 3.6,
+      "premarket_volume": 361596,
+      "session": "regular",
+      "catalyst_source": "Proactive",
+      "catalyst_headline": "Lucid shares rise 10% as Saudi funding boost eases cash concerns",
+      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101539/lucid-shares-rise-10-as-saudi-funding-boost-eases-cash-concerns-1101539.html"
+    },
+    {
+      "ticker": "TTWO",
+      "price": 223.35,
+      "gap_pct": 7.69,
+      "catalyst": "Live earnings coverage for the week of Nov.",
+      "prev_close": 207.4,
+      "premarket_volume": 275924,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "Earnings live updates: On Holding stock falls as direct-to-consumer business comes under pressure",
+      "catalyst_url": "https://finance.yahoo.com/markets/live/earnings-live-updates-november-9-2026-take-two-coreweave-220550675.html"
+    },
+    {
+      "ticker": "ZETA",
+      "price": 34.88,
+      "gap_pct": 7.59,
+      "catalyst": "Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours.",
+      "prev_close": 32.42,
+      "premarket_volume": 320848,
+      "session": "regular",
+      "catalyst_source": "StockStory",
+      "catalyst_headline": "Zeta Global (ZETA) Q3 earnings report preview: what to look for",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/zeta-global-zeta-q3-earnings-154936081.html"
+    },
+    {
+      "ticker": "SENS",
+      "price": 10.53,
+      "gap_pct": 7.45,
+      "catalyst": "Record patient starts lifted revenue, though expenses are running above guidance.",
+      "prev_close": 9.8,
+      "premarket_volume": 175594,
+      "session": "regular",
+      "catalyst_source": "Motley Fool",
+      "catalyst_headline": "Senseonics (SENS) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/senseonics-sens-q3-2026-earnings-call-transcript/"
     },
     {
       "ticker": "QNT",
@@ -201,21 +237,9 @@
       "catalyst_url": "https://www.barrons.com/articles/d-wave-quantum-rigetti-earnings-stock-price-47aa7234?siteid=yhoof2&yptr=yahoo"
     },
     {
-      "ticker": "ZETA",
-      "price": 34.68,
-      "gap_pct": 6.97,
-      "catalyst": "Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours.",
-      "prev_close": 32.42,
-      "premarket_volume": 320848,
-      "session": "regular",
-      "catalyst_source": "StockStory",
-      "catalyst_headline": "Zeta Global (ZETA) Q3 earnings report preview: what to look for",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/zeta-global-zeta-q3-earnings-154936081.html"
-    },
-    {
       "ticker": "EMBJ",
-      "price": 82.24,
-      "gap_pct": 6.71,
+      "price": 82.33,
+      "gap_pct": 6.82,
       "catalyst": "The headline numbers for Embraer (EMBJ) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the…",
       "prev_close": 77.07,
       "premarket_volume": 65469,
@@ -225,21 +249,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/embraer-embj-q3-earnings-taking-133001130.html"
     },
     {
-      "ticker": "PDYN",
-      "price": 3.77,
-      "gap_pct": 6.5,
-      "catalyst": "Palladyne AI Corp.",
-      "prev_close": 3.54,
-      "premarket_volume": 1911309,
+      "ticker": "MARA",
+      "price": 7.07,
+      "gap_pct": 6.48,
+      "catalyst": "Scott Melker discusses bitcoin miner MARA selling 13K+ BTC (BTC-USD) for $1.1 billion, with plans to sell more; Senator Elizabeth Warren tells Trump family crypto firms to save their receipts, and the NYSE taps…",
+      "prev_close": 6.64,
+      "premarket_volume": 825798,
       "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Palladyne AI Corp. (PDYN) Reports Q3 Loss, Tops Revenue Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/palladyne-ai-corp-pdyn-reports-121502407.html"
+      "catalyst_source": "Yahoo Finance Video",
+      "catalyst_headline": "Sen. Warren targets Trump family crypto firms, and miner MARA sold BTC for $1.1 B",
+      "catalyst_url": "https://finance.yahoo.com/video/sen-warren-targets-trump-family-170300611.html"
     },
     {
       "ticker": "AXSM",
-      "price": 141.85,
-      "gap_pct": 5.89,
+      "price": 142.63,
+      "gap_pct": 6.47,
       "catalyst": "Axsome Therapeutics (NASDAQ:AXSM) reported $260 million in third-quarter revenue, driven by growth in its AUVELITY treatment for major depressive disorder and Alzheimer’s disease agitation, executives said at the…",
       "prev_close": 133.96,
       "premarket_volume": 72344,
@@ -249,16 +273,28 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/event-axsome-therapeutics-tops-1-billion-revenue-run-rate-as-auvelity-sales-surge-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
-      "ticker": "MARA",
-      "price": 7.02,
-      "gap_pct": 5.7,
-      "catalyst": "Scott Melker discusses bitcoin miner MARA selling 13K+ BTC (BTC-USD) for $1.1 billion, with plans to sell more; Senator Elizabeth Warren tells Trump family crypto firms to save their receipts, and the NYSE taps…",
-      "prev_close": 6.64,
-      "premarket_volume": 825798,
+      "ticker": "PDYN",
+      "price": 3.76,
+      "gap_pct": 6.21,
+      "catalyst": "Palladyne AI (NASDAQ:PDYN) raised the low end of its 2026 revenue guidance after reporting record third-quarter sales, but executives cautioned that defense budget uncertainty could affect the timing of contracts and…",
+      "prev_close": 3.54,
+      "premarket_volume": 1911309,
       "session": "regular",
-      "catalyst_source": "Yahoo Finance Video",
-      "catalyst_headline": "Sen. Warren targets Trump family crypto firms, and miner MARA sold BTC for $1.1 B",
-      "catalyst_url": "https://finance.yahoo.com/video/sen-warren-targets-trump-family-170300611.html"
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Palladyne AI Q3 Earnings Call Highlights",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-palladyne-ai-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "TTD",
+      "price": 15.72,
+      "gap_pct": 5.29,
+      "catalyst": "Investing.com -- Trade Desk Inc (TTD) beat Q3 estimates, yet revenue was still flat year over year.",
+      "prev_close": 14.93,
+      "premarket_volume": 7304046,
+      "session": "regular",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Trade Desk earnings analysis: questions answered and next catalysts",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/trade-desk-earnings-analysis-questions-180413660.html"
     }
   ]
 }
