@@ -1,11 +1,11 @@
 **Trend-join Long — 2026-11-10**
-3 valid entries out of 23 pre-market gappers (generated 2026-11-10 13:35:01 EST)
+3 valid entries out of 23 pre-market gappers (generated 2026-11-10 14:05:01 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| ZETA | 10:00 | $34.24 | +7.59% | Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours. |
-| STAK | 10:14 | $4.57 | +55.44% | Stak Inc. |
-| EMBJ | 10:48 | $82.14 | +6.82% | The headline numbers for Embraer (EMBJ) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the… |
+| ZETA | 10:00 | $34.24 | +8.19% | Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours. |
+| STAK | 10:14 | $4.57 | +56.72% | Stak Inc. |
+| EMBJ | 10:48 | $82.14 | +6.96% | The Brazilian planemaker lifted its 2026 revenue and free cash flow targets after record third-quarter sales and sharply wider margins. |
 
 Not triggered:
 - AAON: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
