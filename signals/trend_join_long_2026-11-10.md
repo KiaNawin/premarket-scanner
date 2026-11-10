@@ -1,11 +1,12 @@
 **Trend-join Long — 2026-11-10**
-3 valid entries out of 20 pre-market gappers (generated 2026-11-10 11:35:01 EST)
+4 valid entries out of 21 pre-market gappers (generated 2026-11-10 12:05:01 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| ZETA | 10:00 | $34.24 | +6.48% | Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours. |
-| STAK | 10:14 | $4.57 | +31.30% | Stak Inc. |
-| EMBJ | 10:48 | $82.14 | +7.90% | The headline numbers for Embraer (EMBJ) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the… |
+| CLF | 10:00 | $13.00 | +5.06% | Cleveland-Cliffs signed new four-year labor agreements with the United Steelworkers covering about 12,000 workers across its steel and mining operations in Indiana, Ohio, Pennsylvania, Minnesota, and Michigan,… |
+| ZETA | 10:00 | $34.24 | +7.16% | Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours. |
+| STAK | 10:14 | $4.57 | +36.43% | Stak Inc. |
+| EMBJ | 10:48 | $82.14 | +7.58% | The headline numbers for Embraer (EMBJ) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the… |
 
 Not triggered:
 - AAON: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)

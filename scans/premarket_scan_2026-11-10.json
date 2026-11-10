@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-10",
-  "generated_at_et": "2026-11-10 11:33:36 EST",
-  "scan_time_et": "11:33",
+  "generated_at_et": "2026-11-10 12:03:52 EST",
+  "scan_time_et": "12:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 361,
-    "with_data": 299,
-    "gap": 58,
-    "gap_price": 54,
-    "passed": 20,
+    "prefilter": 406,
+    "with_data": 347,
+    "gap": 61,
+    "gap_price": 57,
+    "passed": 21,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7082,
-  "count": 20,
+  "count": 21,
   "results": [
     {
       "ticker": "PEPG",
-      "price": 5.61,
-      "gap_pct": 134.72,
+      "price": 5.39,
+      "gap_pct": 125.31,
       "catalyst": "PepGen Inc.",
       "prev_close": 2.39,
       "premarket_volume": 35883902,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "OMH",
-      "price": 57.1,
-      "gap_pct": 120.98,
+      "price": 52.92,
+      "gap_pct": 104.78,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 25.84,
       "premarket_volume": 4277460,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "SMX",
-      "price": 18.86,
-      "gap_pct": 101.76,
+      "price": 14.4,
+      "gap_pct": 54.01,
       "catalyst": "SMX (NASDAQ:SMX) announced the development of SMX Scientific Intelligence (SMX SCI), an artificial intelligence-powered platform designed to support industrial material research, chemical analysis and manufacturing…",
       "prev_close": 9.35,
       "premarket_volume": 14567791,
@@ -57,33 +57,9 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/39695/smx-develops-ai-powered-scientific-intelligence-platform-targets-commercial-launch-in-q2-2027"
     },
     {
-      "ticker": "SECZ",
-      "price": 9.55,
-      "gap_pct": 37.02,
-      "catalyst": "Revenue at the tokenization firm rose 13% to $18.6 million, its board approved a $50 million share buyback, and the company said most of the loss came from charges tied to its listing.",
-      "prev_close": 6.97,
-      "premarket_volume": 1768299,
-      "session": "regular",
-      "catalyst_source": "Unchained",
-      "catalyst_headline": "Securitize Grows Revenue 13% in First Public Quarter, Agrees to Buy River One",
-      "catalyst_url": "https://unchainedcrypto.com/securitize-reports-66-3-million-loss-in-first-public-quarter-agrees-to-buy-river-one/"
-    },
-    {
-      "ticker": "STAK",
-      "price": 5.37,
-      "gap_pct": 31.3,
-      "catalyst": "Stak Inc.",
-      "prev_close": 4.09,
-      "premarket_volume": 235465,
-      "session": "regular",
-      "catalyst_source": "Benzinga",
-      "catalyst_headline": "STAK Inc (STAK) Stock Plunges Nearly 39% After Hours Despite Revenue Growth: Here's Why",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/stak-inc-stak-stock-plunges-053919035.html"
-    },
-    {
       "ticker": "TANH",
-      "price": 24.56,
-      "gap_pct": 26.99,
+      "price": 26.4,
+      "gap_pct": 36.5,
       "catalyst": "Tantech Holdings (NASDAQ:TANH) shares declined 3.",
       "prev_close": 19.34,
       "premarket_volume": 393898,
@@ -93,21 +69,33 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/36104/tantech-holdings-shares-fall-3-following-september-reverse-stock-split"
     },
     {
-      "ticker": "AAON",
-      "price": 77.29,
-      "gap_pct": 22.94,
-      "catalyst": "Accounting errors understated first-half revenue, even as backlog surged.",
-      "prev_close": 62.87,
-      "premarket_volume": 75833,
+      "ticker": "STAK",
+      "price": 5.58,
+      "gap_pct": 36.43,
+      "catalyst": "Stak Inc.",
+      "prev_close": 4.09,
+      "premarket_volume": 235465,
       "session": "regular",
-      "catalyst_source": "Motley Fool",
-      "catalyst_headline": "AAON (AAON) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/aaon-aaon-q3-2026-earnings-call-transcript/"
+      "catalyst_source": "Benzinga",
+      "catalyst_headline": "STAK Inc (STAK) Stock Plunges Nearly 39% After Hours Despite Revenue Growth: Here's Why",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/stak-inc-stak-stock-plunges-053919035.html"
+    },
+    {
+      "ticker": "SECZ",
+      "price": 8.97,
+      "gap_pct": 28.62,
+      "catalyst": "Revenue at the tokenization firm rose 13% to $18.6 million, its board approved a $50 million share buyback, and the company said most of the loss came from charges tied to its listing.",
+      "prev_close": 6.97,
+      "premarket_volume": 1768299,
+      "session": "regular",
+      "catalyst_source": "Unchained",
+      "catalyst_headline": "Securitize Grows Revenue 13% in First Public Quarter, Agrees to Buy River One",
+      "catalyst_url": "https://unchainedcrypto.com/securitize-reports-66-3-million-loss-in-first-public-quarter-agrees-to-buy-river-one/"
     },
     {
       "ticker": "PXLW",
-      "price": 6.29,
-      "gap_pct": 20.5,
+      "price": 6.41,
+      "gap_pct": 22.8,
       "catalyst": "Pixelworks, Inc.",
       "prev_close": 5.22,
       "premarket_volume": 10694969,
@@ -117,21 +105,21 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/39717/pixelworks-signs-multi-year-agreement-with-meta-to-bring-truecut-motion-technology-to-vr-devices"
     },
     {
-      "ticker": "BW",
-      "price": 4.49,
-      "gap_pct": 18.46,
-      "catalyst": "Pipeline growth and a lighter debt load shape the story behind the quarter.",
-      "prev_close": 3.79,
-      "premarket_volume": 857724,
+      "ticker": "AAON",
+      "price": 77.0,
+      "gap_pct": 22.47,
+      "catalyst": "Accounting errors understated first-half revenue, even as backlog surged.",
+      "prev_close": 62.87,
+      "premarket_volume": 75833,
       "session": "regular",
       "catalyst_source": "Motley Fool",
-      "catalyst_headline": "Babcock & Wilcox (BW) Q3 2026 Earnings Call Transcript",
-      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/babcock-wilcox-bw-q3-2026-earnings-call-transcript/"
+      "catalyst_headline": "AAON (AAON) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/aaon-aaon-q3-2026-earnings-call-transcript/"
     },
     {
       "ticker": "SENS",
-      "price": 11.56,
-      "gap_pct": 18.01,
+      "price": 11.4,
+      "gap_pct": 16.33,
       "catalyst": "Record patient starts lifted revenue, though expenses are running above guidance.",
       "prev_close": 9.8,
       "premarket_volume": 175594,
@@ -141,9 +129,21 @@
       "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/senseonics-sens-q3-2026-earnings-call-transcript/"
     },
     {
+      "ticker": "BW",
+      "price": 4.35,
+      "gap_pct": 14.78,
+      "catalyst": "Pipeline growth and a lighter debt load shape the story behind the quarter.",
+      "prev_close": 3.79,
+      "premarket_volume": 857724,
+      "session": "regular",
+      "catalyst_source": "Motley Fool",
+      "catalyst_headline": "Babcock & Wilcox (BW) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/babcock-wilcox-bw-q3-2026-earnings-call-transcript/"
+    },
+    {
       "ticker": "PDYN",
-      "price": 4.09,
-      "gap_pct": 15.4,
+      "price": 3.99,
+      "gap_pct": 12.71,
       "catalyst": "Palladyne AI Corp.",
       "prev_close": 3.54,
       "premarket_volume": 1911309,
@@ -154,8 +154,8 @@
     },
     {
       "ticker": "HROW",
-      "price": 31.06,
-      "gap_pct": 13.05,
+      "price": 30.92,
+      "gap_pct": 12.56,
       "catalyst": "Harrow (NASDAQ:HROW) reported record third-quarter revenue and reaffirmed its full-year sales forecast, but sharply reduced its adjusted earnings outlook as lower-than-expected margins and accelerated spending weighed…",
       "prev_close": 27.47,
       "premarket_volume": 126391,
@@ -166,8 +166,8 @@
     },
     {
       "ticker": "LUMN",
-      "price": 4.8,
-      "gap_pct": 11.11,
+      "price": 4.78,
+      "gap_pct": 10.53,
       "catalyst": "These businesses are built to generate recurring cash flows.",
       "prev_close": 4.32,
       "premarket_volume": 146641,
@@ -177,33 +177,9 @@
       "catalyst_url": "https://www.fool.com/investing/2026/11/09/6-telecom-stocks-collect-monthly-bills-no-matter/"
     },
     {
-      "ticker": "DJT",
-      "price": 4.43,
-      "gap_pct": 9.24,
-      "catalyst": "Trump Media's earnings look spectacular, yet the media business behind them keeps bleeding cash.",
-      "prev_close": 4.06,
-      "premarket_volume": 295784,
-      "session": "regular",
-      "catalyst_source": "24/7 Wall St.",
-      "catalyst_headline": "Trump Media Made a $410 Million Profit Last Quarter on Just $3 Million of Revenue",
-      "catalyst_url": "https://247wallst.com/investing/2026/11/10/trump-media-made-a-410-million-profit-last-quarter-on-just-3-million-of-revenue/"
-    },
-    {
-      "ticker": "MARA",
-      "price": 7.22,
-      "gap_pct": 8.73,
-      "catalyst": "Bitcoin is sliding and Fed hike odds are climbing, yet three miners are rallying anyway.",
-      "prev_close": 6.64,
-      "premarket_volume": 825798,
-      "session": "regular",
-      "catalyst_source": "24/7 Wall St.",
-      "catalyst_headline": "MARA Holdings Jumps 11% on $500 Million Buyback, Riot Platforms Climbs 2% on Jefferies Upgrade Despite Bitcoin’s Drop; Core Scientific Edges Higher",
-      "catalyst_url": "https://247wallst.com/investing/2026/11/10/mara-holdings-jumps-11-on-500-million-buyback-riot-platforms-climbs-2-on-jefferies-upgrade-despite-bitcoins-drop-core-scientific-edges-higher/"
-    },
-    {
       "ticker": "LCID",
-      "price": 3.9,
-      "gap_pct": 8.39,
+      "price": 3.96,
+      "gap_pct": 10.14,
       "catalyst": "Luxury electric car manufacturer Lucid (NASDAQ:LCID) will be announcing earnings results this Monday after market hours.",
       "prev_close": 3.6,
       "premarket_volume": 361596,
@@ -213,21 +189,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/expect-lucid-lcid-q3-earnings-160536189.html"
     },
     {
-      "ticker": "EMBJ",
-      "price": 83.16,
-      "gap_pct": 7.9,
-      "catalyst": "The headline numbers for Embraer (EMBJ) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the…",
-      "prev_close": 77.07,
-      "premarket_volume": 65469,
+      "ticker": "DJT",
+      "price": 4.39,
+      "gap_pct": 8.25,
+      "catalyst": "Trump Media's earnings look spectacular, yet the media business behind them keeps bleeding cash.",
+      "prev_close": 4.06,
+      "premarket_volume": 295784,
       "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/embraer-embj-q3-earnings-taking-133001130.html"
+      "catalyst_source": "24/7 Wall St.",
+      "catalyst_headline": "Trump Media Made a $410 Million Profit Last Quarter on Just $3 Million of Revenue",
+      "catalyst_url": "https://247wallst.com/investing/2026/11/10/trump-media-made-a-410-million-profit-last-quarter-on-just-3-million-of-revenue/"
     },
     {
       "ticker": "TTWO",
-      "price": 221.93,
-      "gap_pct": 7.01,
+      "price": 223.85,
+      "gap_pct": 7.93,
       "catalyst": "Take-Two Interactive reported earnings after hours on Monday.",
       "prev_close": 207.4,
       "premarket_volume": 275924,
@@ -237,9 +213,45 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/take-two-stock-rises-on-unprecedented-preorders-for-grand-theft-auto-vi-160644526.html"
     },
     {
+      "ticker": "EMBJ",
+      "price": 82.92,
+      "gap_pct": 7.58,
+      "catalyst": "The headline numbers for Embraer (EMBJ) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the…",
+      "prev_close": 77.07,
+      "premarket_volume": 65469,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/embraer-embj-q3-earnings-taking-133001130.html"
+    },
+    {
+      "ticker": "ZETA",
+      "price": 34.74,
+      "gap_pct": 7.16,
+      "catalyst": "Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours.",
+      "prev_close": 32.42,
+      "premarket_volume": 320848,
+      "session": "regular",
+      "catalyst_source": "StockStory",
+      "catalyst_headline": "Zeta Global (ZETA) Q3 earnings report preview: what to look for",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/zeta-global-zeta-q3-earnings-154936081.html"
+    },
+    {
+      "ticker": "MARA",
+      "price": 7.11,
+      "gap_pct": 7.0,
+      "catalyst": "Bitcoin is sliding and Fed hike odds are climbing, yet three miners are rallying anyway.",
+      "prev_close": 6.64,
+      "premarket_volume": 825798,
+      "session": "regular",
+      "catalyst_source": "24/7 Wall St.",
+      "catalyst_headline": "MARA Holdings Jumps 11% on $500 Million Buyback, Riot Platforms Climbs 2% on Jefferies Upgrade Despite Bitcoin’s Drop; Core Scientific Edges Higher",
+      "catalyst_url": "https://247wallst.com/investing/2026/11/10/mara-holdings-jumps-11-on-500-million-buyback-riot-platforms-climbs-2-on-jefferies-upgrade-despite-bitcoins-drop-core-scientific-edges-higher/"
+    },
+    {
       "ticker": "QNT",
-      "price": 42.69,
-      "gap_pct": 6.62,
+      "price": 42.38,
+      "gap_pct": 5.83,
       "catalyst": "After strong quarterly results from IonQ and Quantinuum, Rigetti Computing and D-Wave Quantum are set to report earnings on Tuesday.",
       "prev_close": 40.04,
       "premarket_volume": 55853,
@@ -249,16 +261,16 @@
       "catalyst_url": "https://www.barrons.com/articles/d-wave-quantum-rigetti-earnings-stock-price-47aa7234?siteid=yhoof2&yptr=yahoo"
     },
     {
-      "ticker": "ZETA",
-      "price": 34.52,
-      "gap_pct": 6.48,
-      "catalyst": "Marketing technology company Zeta Global (NYSE:ZETA) will be reporting results this Monday after market hours.",
-      "prev_close": 32.42,
-      "premarket_volume": 320848,
+      "ticker": "CLF",
+      "price": 12.88,
+      "gap_pct": 5.06,
+      "catalyst": "Cleveland-Cliffs signed new four-year labor agreements with the United Steelworkers covering about 12,000 workers across its steel and mining operations in Indiana, Ohio, Pennsylvania, Minnesota, and Michigan,…",
+      "prev_close": 12.26,
+      "premarket_volume": 75217,
       "session": "regular",
-      "catalyst_source": "StockStory",
-      "catalyst_headline": "Zeta Global (ZETA) Q3 earnings report preview: what to look for",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/zeta-global-zeta-q3-earnings-154936081.html"
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Are New Labor Deals Altering The Investment Case For Cliffs Stock?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/labor-deals-altering-investment-case-140931918.html"
     }
   ]
 }
