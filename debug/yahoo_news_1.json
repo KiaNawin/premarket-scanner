@@ -1,7 +1,42 @@
 {
   "ticker": "PEPG",
-  "saved_at_et": "2026-11-10T09:03:24-05:00",
+  "saved_at_et": "2026-11-10T09:32:12-05:00",
   "response": [
+    {
+      "id": "0bea8397-78e7-3092-89ce-2ccfeecc9517",
+      "content": {
+        "id": "0bea8397-78e7-3092-89ce-2ccfeecc9517",
+        "contentType": "STORY",
+        "title": "PepGen stock soars over 100% on positive Phase 2 trial data for DM1 drug",
+        "description": null,
+        "summary": "Investing.com -- PepGen Ltd (NASDAQ:PEPG) shares rose over 115% in premarket trade Tuesday following the release of positive topline results from the 10 mg/kg cohort of its Phase 2 FREEDOM2-DM1 trial evaluating PGN-EDODM1 in patients with myotonic dystrophy type 1 (DM1).",
+        "pubDate": "2026-11-10T14:06:45Z",
+        "displayTime": "2026-11-10T14:06:45Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-stock-soars-over-100-140645055.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-stock-soars-over-100-140645055.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "PEPG"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "d413d120-f8c9-32f1-b2b2-7827d4fda1f0",
       "content": {
@@ -95,59 +130,6 @@
         },
         "clickThroughUrl": {
           "url": "https://finance.yahoo.com/markets/stocks/articles/pepgen-pepg-one-best-nasdaq-044940753.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "PEPG"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "62b17c0d-3c79-3b2b-823f-9fc74f321b80",
-      "content": {
-        "id": "62b17c0d-3c79-3b2b-823f-9fc74f321b80",
-        "contentType": "STORY",
-        "title": "PepGen (PEPG) Upgraded to Buy: Here's What You Should Know",
-        "description": null,
-        "summary": "PepGen (PEPG) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).",
-        "pubDate": "2026-05-13T16:00:04Z",
-        "displayTime": "2026-05-13T16:00:04Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/46ebfcbff417ac1bbde85ad33fa0d4be",
-          "originalWidth": 900,
-          "originalHeight": 594,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/46ebfcbff417ac1bbde85ad33fa0d4be",
-              "width": 900,
-              "height": 594,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/fac339d62bd2fcaf18bcb7013fd7ab24eac590d61552d665c8b3121b3be15c9e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F46ebfcbff417ac1bbde85ad33fa0d4be",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/news/pepgen-pepg-upgraded-buy-heres-160004314.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/news/pepgen-pepg-upgraded-buy-heres-160004314.html"
         },
         "finance": {
           "premiumFinance": {
