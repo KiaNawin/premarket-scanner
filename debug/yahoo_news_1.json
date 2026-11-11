@@ -1,17 +1,17 @@
 {
-  "ticker": "OMH",
-  "saved_at_et": "2026-11-10T14:04:04-05:00",
+  "ticker": "CHSN",
+  "saved_at_et": "2026-11-11T08:34:18-05:00",
   "response": [
     {
-      "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
+      "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
       "content": {
-        "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
+        "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
         "contentType": "STORY",
         "title": "BC-Most Active Stocks",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Intel Corp.",
-        "pubDate": "2026-11-04T15:30:21Z",
-        "displayTime": "2026-11-04T15:30:21Z",
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Mercer International Inc.",
+        "pubDate": "2026-11-03T15:30:18Z",
+        "displayTime": "2026-11-03T15:30:18Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -20,10 +20,10 @@
           "url": "https://apnews.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,82 +31,159 @@
           },
           "stockTickers": [
             {
-              "symbol": "CRIS"
+              "symbol": "MERC"
             },
             {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "HPAI"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "FTCI"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "CIFR"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "OMH"
+              "symbol": "HUBC"
             },
             {
               "symbol": "GRAB"
             },
             {
-              "symbol": "RIOT"
+              "symbol": "INLF"
             },
             {
-              "symbol": "SMCI"
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "RBNE"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "SGRX"
             },
             {
               "symbol": "SHFS"
             },
             {
-              "symbol": "AMZN"
+              "symbol": "CHSN"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "CIFR"
             },
             {
               "symbol": "AAL"
             },
             {
-              "symbol": "WULF"
+              "symbol": "AAPL"
+            },
+            {
+              "symbol": "PLTR"
             }
           ]
         }
       }
     },
     {
-      "id": "1c54580b-08c0-3428-a843-21aea266e62f",
+      "id": "aae3d7cd-1f4e-3ffe-a250-b7aeb3b5b1af",
       "content": {
-        "id": "1c54580b-08c0-3428-a843-21aea266e62f",
+        "id": "aae3d7cd-1f4e-3ffe-a250-b7aeb3b5b1af",
         "contentType": "STORY",
-        "title": "Is Ohmyhome (NASDAQ:OMH) In A Good Position To Deliver On Growth Plans?",
+        "title": "BC-Most Active Stocks",
         "description": null,
-        "summary": "Just because a business does not make any money, does not mean that the stock will go down. For example, biotech and...",
-        "pubDate": "2026-05-06T10:54:31Z",
-        "displayTime": "2026-05-06T10:54:31Z",
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Datavault AI Inc.",
+        "pubDate": "2026-10-28T14:30:17Z",
+        "displayTime": "2026-10-28T14:30:17Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Associated Press",
+          "url": "https://apnews.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017600.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017600.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "DVLT"
+            },
+            {
+              "symbol": "RCT"
+            },
+            {
+              "symbol": "CDT"
+            },
+            {
+              "symbol": "GERN"
+            },
+            {
+              "symbol": "CHSN"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "SOFI"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "SHFS"
+            },
+            {
+              "symbol": "BRAI"
+            },
+            {
+              "symbol": "AAL"
+            },
+            {
+              "symbol": "HODO"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "ONCO"
+            },
+            {
+              "symbol": "IREN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "afdd1a87-f1fd-341d-b32d-c5ff795fcc4c",
+      "content": {
+        "id": "afdd1a87-f1fd-341d-b32d-c5ff795fcc4c",
+        "contentType": "STORY",
+        "title": "Chanson International (CHSN) Begins Construction on AI-Driven Automated Bakery Facility in China",
+        "description": null,
+        "summary": "Chanson International Holding (NASDAQ:CHSN) is one of the worst performing NASDAQ stocks so far in 2026. On May 7, Chanson International officially commenced construction on a fully digitalized and automated bakery production base in Urumqi, China. Supported by the local government, this project focuses on AI-driven intelligent manufacturing to upgrade the company’s industrial capabilities. The […]",
+        "pubDate": "2026-05-13T17:47:57Z",
+        "displayTime": "2026-05-13T17:47:57Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
-          "originalWidth": 1194,
-          "originalHeight": 432,
+          "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/8f13b01358a9563d30a5d078592a9be4",
+          "originalWidth": 1000,
+          "originalHeight": 667,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
-              "width": 1194,
-              "height": 432,
+              "url": "https://media.zenfs.com/en/insidermonkey.com/8f13b01358a9563d30a5d078592a9be4",
+              "width": 1000,
+              "height": 667,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/8c930566db9f3b07f04c3f0b34d1a8bb55c922ed8186d4e4a7e6cf2f331cd26d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F9b27f5216f799d93084482c1da19bddd",
+              "url": "https://s.yimg.com/lo/mysterio/api/9dc16d67a66634a72ad140ccd8bbe38b4e8c2a4f52d04e14d6be4f71ea30a8d4/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F8f13b01358a9563d30a5d078592a9be4",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -114,14 +191,14 @@
           ]
         },
         "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
+          "displayName": "Insider Monkey",
+          "url": "http://www.insidermonkey.com"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
+          "url": "https://finance.yahoo.com/news/chanson-international-chsn-begins-construction-174757407.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
+          "url": "https://finance.yahoo.com/news/chanson-international-chsn-begins-construction-174757407.html"
         },
         "finance": {
           "premiumFinance": {
@@ -129,7 +206,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "OMH"
+              "symbol": "CHSN"
             }
           ]
         }

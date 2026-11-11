@@ -1,32 +1,85 @@
 {
-  "ticker": "PEPG",
-  "saved_at_et": "2026-11-10T14:04:04-05:00",
+  "ticker": "FOSL",
+  "saved_at_et": "2026-11-11T08:34:18-05:00",
   "response": [
     {
-      "id": "e668ae28-39f3-302e-afb7-68e60d30197f",
+      "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
       "content": {
-        "id": "e668ae28-39f3-302e-afb7-68e60d30197f",
+        "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
         "contentType": "STORY",
-        "title": "PepGen Reports Phase 2 Myotonic Dystrophy Trial Results and $104.8 Million Cash Position",
+        "title": "Premarket movers: CoreWeave, Nvidia rally; Fossil, Tandy Leather jump",
         "description": null,
-        "summary": "PepGen Inc. (NASDAQ:PEPG) reported third-quarter 2026 financial results alongside new Phase 2 clinical data for PGN-EDODM1, its investigational treatment for myotonic dystrophy type 1 (DM1).",
-        "pubDate": "2026-11-10T15:56:06Z",
-        "displayTime": "2026-11-10T15:56:06Z",
+        "summary": "Investing.com - U.S. stock index futures were mixed on Wednesday, with technology shares leading gains as an upbeat financial outlook from AI cloud infrastructure provider CoreWeave and strong demand for Anthropic's initial public offering helped revive optimism around artificial intelligence. The gains came as investors looked for signs that demand for AI infrastructure can continue to support the sector's rapid expansion.",
+        "pubDate": "2026-11-11T13:08:14Z",
+        "displayTime": "2026-11-11T13:08:14Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "^NDX"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "ANTH.PVT"
+            },
+            {
+              "symbol": "TLF"
+            },
+            {
+              "symbol": "FOSL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
+      "content": {
+        "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
+        "contentType": "STORY",
+        "title": "Fossil Group Shares Surge 16.9% as Third-Quarter Profit and Revenue Exceed Analyst Forecasts",
+        "description": null,
+        "summary": "Fossil Group (NASDAQ:FOSL) shares climbed 16. 9% in premarket trading on Wednesday after the watch and accessories manufacturer reported third-quarter 2026 earnings and revenue above analyst expectations, alongside improved profitability and an increase in its full-year financial guidance.",
+        "pubDate": "2026-11-11T11:40:52Z",
+        "displayTime": "2026-11-11T11:40:52Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/investorshub_458/b5d94cfeda9241ca952d9f0d1766ade6.png",
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
           "originalWidth": 1200,
           "originalHeight": 659,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/investorshub_458/b5d94cfeda9241ca952d9f0d1766ade6.png",
+              "url": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
               "width": 1200,
               "height": 659,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/f2a74da95a54a6ed12eec354bfefa0586d60e1e21d28349f09d5354429c2f229/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fb5d94cfeda9241ca952d9f0d1766ade6.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/3d11fc95be02aa2adce533806454902fb80c6bdd92814b73a82ca03f70599db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F34918ff308546e6b38d25e2b161ddd47.png",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -38,10 +91,10 @@
           "url": "https://investorshub.advfn.com/"
         },
         "canonicalUrl": {
-          "url": "https://investorshub.advfn.com/market-news/article/39721/pepgen-reports-phase-2-myotonic-dystrophy-trial-results-and-104-8-million-cash-position"
+          "url": "https://investorshub.advfn.com/market-news/article/39759/fossil-group-shares-surge-16-9-as-third-quarter-profit-and-revenue-exceed-analyst-forecasts"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-reports-phase-2-myotonic-155606087.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-shares-surge-16-114052526.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,111 +102,52 @@
           },
           "stockTickers": [
             {
-              "symbol": "PEPG"
+              "symbol": "FOSL"
             }
           ]
         }
       }
     },
     {
-      "id": "b48d2796-b52f-3abf-a11f-a83ba69fd106",
+      "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
       "content": {
-        "id": "b48d2796-b52f-3abf-a11f-a83ba69fd106",
+        "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Fossil: 3 Key Takeaways for Long-Term Investors",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
-        "pubDate": "2026-11-10T15:30:19Z",
-        "displayTime": "2026-11-10T15:30:19Z",
+        "summary": "Gross margin climbed to 59.9% as cost cuts turned modest sales gains into earnings, a shift that matters for shareholders weighing durability.",
+        "pubDate": "2026-11-11T10:59:31Z",
+        "displayTime": "2026-11-11T10:59:31Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019126.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019126.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
             {
-              "symbol": "NVDA"
+              "url": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
             },
             {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "PEPG"
-            },
-            {
-              "symbol": "AMIX"
-            },
-            {
-              "symbol": "CODX"
-            },
-            {
-              "symbol": "NNOX"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "INLF"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "MARA"
-            },
-            {
-              "symbol": "TTD"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "LICN"
+              "url": "https://s.yimg.com/lo/mysterio/api/ea0171ad4e6b6c1c3648e2df80978d46473d4fd6dab316ac93d9224031dd9db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fd508b4a8e6870947697b7de5a1cd5b85.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
             }
           ]
-        }
-      }
-    },
-    {
-      "id": "0bea8397-78e7-3092-89ce-2ccfeecc9517",
-      "content": {
-        "id": "0bea8397-78e7-3092-89ce-2ccfeecc9517",
-        "contentType": "STORY",
-        "title": "PepGen stock soars over 100% on positive Phase 2 trial data for DM1 drug",
-        "description": null,
-        "summary": "Investing.com -- PepGen Ltd (NASDAQ:PEPG) shares rose over 115% in premarket trade Tuesday following the release of positive topline results from the 10 mg/kg cohort of its Phase 2 FREEDOM2-DM1 trial evaluating PGN-EDODM1 in patients with myotonic dystrophy type 1 (DM1).",
-        "pubDate": "2026-11-10T14:06:45Z",
-        "displayTime": "2026-11-10T14:06:45Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
+        },
         "provider": {
-          "displayName": "Investing.com",
-          "url": "https://www.investing.com/"
+          "displayName": "Motley Fool",
+          "url": "http://www.fool.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-stock-soars-over-100-140645055.html"
+          "url": "https://www.fool.com/earnings/takeaways/2026/11/11/fossil-3-key-takeaways-for-long-term-investors/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-stock-soars-over-100-140645055.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-3-key-takeaways-long-105931032.html"
         },
         "finance": {
           "premiumFinance": {
@@ -161,7 +155,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "PEPG"
+              "symbol": "FOSL"
             }
           ]
         }
