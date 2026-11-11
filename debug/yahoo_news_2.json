@@ -1,29 +1,29 @@
 {
-  "ticker": "BGS",
-  "saved_at_et": "2026-11-11T09:34:33-05:00",
+  "ticker": "FOSL",
+  "saved_at_et": "2026-11-11T10:04:44-05:00",
   "response": [
     {
-      "id": "e6d8eeee-359c-3120-ba74-3bcdb9f4632b",
+      "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
       "content": {
-        "id": "e6d8eeee-359c-3120-ba74-3bcdb9f4632b",
+        "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
         "contentType": "STORY",
-        "title": "B&G Foods Inc (BGS) Q3 2026 Earnings Call Highlights: Volume-Driven Sales Growth and Raised ...",
+        "title": "Premarket movers: CoreWeave, Nvidia rally; Fossil, Tandy Leather jump",
         "description": null,
-        "summary": "B&G Foods Inc (BGS) posted 5% base business net sales growth and higher adjusted EBITDA in Q3 2026, but a $40.7 million trademark impairment widened its net loss as leverage remains above 6.4x.",
-        "pubDate": "2026-11-11T11:06:11Z",
-        "displayTime": "2026-11-11T11:06:11Z",
+        "summary": "Investing.com - U.S. stock index futures were mixed on Wednesday, with technology shares leading gains as an upbeat financial outlook from AI cloud infrastructure provider CoreWeave and strong demand for Anthropic's initial public offering helped revive optimism around artificial intelligence. The gains came as investors looked for signs that demand for AI infrastructure can continue to support the sector's rapid expansion.",
+        "pubDate": "2026-11-11T13:08:14Z",
+        "displayTime": "2026-11-11T13:08:14Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
         "provider": {
-          "displayName": "GuruFocus.com",
-          "url": "http://www.gurufocus.com/"
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-inc-bgs-110611019.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-inc-bgs-110611019.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,37 +31,55 @@
           },
           "stockTickers": [
             {
-              "symbol": "BGS"
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "^NDX"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "ANTH.PVT"
+            },
+            {
+              "symbol": "TLF"
+            },
+            {
+              "symbol": "FOSL"
             }
           ]
         }
       }
     },
     {
-      "id": "607a9707-5a7a-3332-9f67-9347f55c2d4b",
+      "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
       "content": {
-        "id": "607a9707-5a7a-3332-9f67-9347f55c2d4b",
+        "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
         "contentType": "STORY",
-        "title": "B&G Foods Q3 Earnings Call Highlights",
+        "title": "Fossil Group Shares Surge 16.9% as Third-Quarter Profit and Revenue Exceed Analyst Forecasts",
         "description": null,
-        "summary": "B&G Foods (NYSE:BGS) raised its full-year sales and adjusted EBITDA guidance after reporting third-quarter sales growth driven by higher volumes across its portfolio. The company also posted a wider net loss after recording an impairment tied to the sale of two brands. Net sales rose 4.7% to $4",
-        "pubDate": "2026-11-11T04:14:23Z",
-        "displayTime": "2026-11-11T04:14:23Z",
+        "summary": "Fossil Group (NASDAQ:FOSL) shares climbed 16. 9% in premarket trading on Wednesday after the watch and accessories manufacturer reported third-quarter 2026 earnings and revenue above analyst expectations, alongside improved profitability and an increase in its full-year financial guidance.",
+        "pubDate": "2026-11-11T11:40:52Z",
+        "displayTime": "2026-11-11T11:40:52Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/marketbeat_955/1706f4775831cd2fa38a31291508969c.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 720,
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
+          "originalWidth": 1200,
+          "originalHeight": 659,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/marketbeat_955/1706f4775831cd2fa38a31291508969c.jpg_up.jpg",
-              "width": 1280,
-              "height": 720,
+              "url": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
+              "width": 1200,
+              "height": 659,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6e9c23016bde5ed49fb4a70e84f622a7c74edfd7cb402733f4028e6056c584a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F1706f4775831cd2fa38a31291508969c.jpg_up.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/3d11fc95be02aa2adce533806454902fb80c6bdd92814b73a82ca03f70599db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F34918ff308546e6b38d25e2b161ddd47.png",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -69,14 +87,14 @@
           ]
         },
         "provider": {
-          "displayName": "MarketBeat",
-          "url": "https://www.marketbeat.com/"
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-bg-foods-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "url": "https://investorshub.advfn.com/market-news/article/39759/fossil-group-shares-surge-16-9-as-third-quarter-profit-and-revenue-exceed-analyst-forecasts"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-q3-earnings-041423891.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-shares-surge-16-114052526.html"
         },
         "finance": {
           "premiumFinance": {
@@ -84,37 +102,37 @@
           },
           "stockTickers": [
             {
-              "symbol": "BGS"
+              "symbol": "FOSL"
             }
           ]
         }
       }
     },
     {
-      "id": "17eab539-ec4a-368f-bb73-ff1d218899ec",
+      "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
       "content": {
-        "id": "17eab539-ec4a-368f-bb73-ff1d218899ec",
+        "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
         "contentType": "STORY",
-        "title": "B&G Foods (BGS) Q3 2026 Earnings Call Transcript",
+        "title": "Fossil: 3 Key Takeaways for Long-Term Investors",
         "description": null,
-        "summary": "Acquisitions and volume gains lifted sales while a divestiture weighed on one segment.",
-        "pubDate": "2026-11-11T04:00:07Z",
-        "displayTime": "2026-11-11T04:00:07Z",
+        "summary": "Gross margin climbed to 59.9% as cost cuts turned modest sales gains into earnings, a shift that matters for shareholders weighing durability.",
+        "pubDate": "2026-11-11T10:59:31Z",
+        "displayTime": "2026-11-11T10:59:31Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
           "originalWidth": 1280,
-          "originalHeight": 1366,
+          "originalHeight": 720,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
               "width": 1280,
-              "height": 1366,
+              "height": 720,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/ea0171ad4e6b6c1c3648e2df80978d46473d4fd6dab316ac93d9224031dd9db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fd508b4a8e6870947697b7de5a1cd5b85.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -126,10 +144,10 @@
           "url": "http://www.fool.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/bg-foods-bgs-q3-2026-earnings-call-transcript/"
+          "url": "https://www.fool.com/earnings/takeaways/2026/11/11/fossil-3-key-takeaways-for-long-term-investors/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-bgs-q3-040007036.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-3-key-takeaways-long-105931032.html"
         },
         "finance": {
           "premiumFinance": {
@@ -137,7 +155,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "BGS"
+              "symbol": "FOSL"
             }
           ]
         }
