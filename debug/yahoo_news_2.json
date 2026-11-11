@@ -1,6 +1,6 @@
 {
   "ticker": "CRWV",
-  "saved_at_et": "2026-11-11T11:35:56-05:00",
+  "saved_at_et": "2026-11-11T12:08:18-05:00",
   "response": [
     {
       "id": "8e421aa8-71e0-4889-af84-e9bff5b37eb0",
@@ -11,7 +11,7 @@
         "description": null,
         "summary": "CoreWeave stock jumped after the neocloud provider reported quarterly results on Tuesday.",
         "pubDate": "2026-11-10T21:15:33Z",
-        "displayTime": "2026-11-11T16:34:10Z",
+        "displayTime": "2026-11-11T16:59:11Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
@@ -42,6 +42,59 @@
         },
         "clickThroughUrl": {
           "url": "https://finance.yahoo.com/markets/stocks/article/coreweave-stock-pops-as-q3-revenue-beats-estimates-company-raises-full-year-outlook-211533280.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "CRWV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4f569fdd-e3bc-4a73-a248-ac5202d41a5a",
+      "content": {
+        "id": "4f569fdd-e3bc-4a73-a248-ac5202d41a5a",
+        "contentType": "STORY",
+        "title": "CoreWeave stock pops — but its debt problem hasn't gone anywhere",
+        "description": null,
+        "summary": "Investors may want to temper their CoreWeave enthusiasm.",
+        "pubDate": "2026-11-11T16:43:59Z",
+        "displayTime": "2026-11-11T16:43:59Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-08/97be54c0-7262-11f0-abbb-a083f92fe27c",
+          "originalWidth": 5840,
+          "originalHeight": 3894,
+          "resolutions": [
+            {
+              "url": "https://s.yimg.com/os/creatr-uploaded-images/2025-08/97be54c0-7262-11f0-abbb-a083f92fe27c",
+              "width": 5840,
+              "height": 3894,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/1e4343486d3ef5ff55cc5ca93565308b0272e75d0df7bd71a855ae5a7d042c58/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-08%2F97be54c0-7262-11f0-abbb-a083f92fe27c",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/article/coreweave-stock-pops--but-its-debt-problem-hasnt-gone-anywhere-164359122.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/article/coreweave-stock-pops--but-its-debt-problem-hasnt-gone-anywhere-164359122.html"
         },
         "finance": {
           "premiumFinance": {
@@ -118,62 +171,6 @@
             },
             {
               "symbol": "AVGO"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "bf203e69-3599-4e9c-8d07-64a253840e97",
-      "content": {
-        "id": "bf203e69-3599-4e9c-8d07-64a253840e97",
-        "contentType": "STORY",
-        "title": "Nvidia stock rebounds, chip stocks surge as CoreWeave earnings boost AI trade",
-        "description": null,
-        "summary": "Nvidia stock popped on Wednesday, snapping a two-day losing streak.",
-        "pubDate": "2026-11-11T13:54:39Z",
-        "displayTime": "2026-11-11T15:10:01Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/2f330739-7bcf-44d4-b70f-9587cd9584f9",
-          "originalWidth": 6000,
-          "originalHeight": 4000,
-          "resolutions": [
-            {
-              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/2f330739-7bcf-44d4-b70f-9587cd9584f9",
-              "width": 6000,
-              "height": 4000,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/af6b65270f9ee3202e8b4b90d9c9faa7a1b45eb95e029388b5e1cd808da10285/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F2f330739-7bcf-44d4-b70f-9587cd9584f9",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-rebounds-chip-stocks-surge-as-coreweave-earnings-boost-ai-trade-151001136.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-rebounds-chip-stocks-surge-as-coreweave-earnings-boost-ai-trade-151001136.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "CRWV"
             }
           ]
         }

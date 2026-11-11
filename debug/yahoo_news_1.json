@@ -1,67 +1,32 @@
 {
-  "ticker": "BGS",
-  "saved_at_et": "2026-11-11T11:35:56-05:00",
+  "ticker": "DJT",
+  "saved_at_et": "2026-11-11T12:08:18-05:00",
   "response": [
     {
-      "id": "e6d8eeee-359c-3120-ba74-3bcdb9f4632b",
+      "id": "0adbd567-dc2d-3efa-8b1d-e87d55e3dddf",
       "content": {
-        "id": "e6d8eeee-359c-3120-ba74-3bcdb9f4632b",
+        "id": "0adbd567-dc2d-3efa-8b1d-e87d55e3dddf",
         "contentType": "STORY",
-        "title": "B&G Foods Inc (BGS) Q3 2026 Earnings Call Highlights: Volume-Driven Sales Growth and Raised ...",
+        "title": "Rumble Rises 6% After Third-Quarter Revenue Beat; Trump Media Jumps 9%, Meta Stays Flat",
         "description": null,
-        "summary": "B&G Foods Inc (BGS) posted 5% base business net sales growth and higher adjusted EBITDA in Q3 2026, but a $40.7 million trademark impairment widened its net loss as leverage remains above 6.4x.",
-        "pubDate": "2026-11-11T11:06:11Z",
-        "displayTime": "2026-11-11T11:06:11Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "GuruFocus.com",
-          "url": "http://www.gurufocus.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-inc-bgs-110611019.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-inc-bgs-110611019.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "BGS"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "607a9707-5a7a-3332-9f67-9347f55c2d4b",
-      "content": {
-        "id": "607a9707-5a7a-3332-9f67-9347f55c2d4b",
-        "contentType": "STORY",
-        "title": "B&G Foods Q3 Earnings Call Highlights",
-        "description": null,
-        "summary": "B&G Foods (NYSE:BGS) raised its full-year sales and adjusted EBITDA guidance after reporting third-quarter sales growth driven by higher volumes across its portfolio. The company also posted a wider net loss after recording an impairment tied to the sale of two brands. Net sales rose 4.7% to $4",
-        "pubDate": "2026-11-11T04:14:23Z",
-        "displayTime": "2026-11-11T04:14:23Z",
+        "summary": "Rumble's wider loss should have spooked traders, yet shorts at record levels and a new AI cloud arm changed the mood. Find out what Quake AI, CoreWeave, and a crypto-fueled rival reveal about where the real money is moving.",
+        "pubDate": "2026-11-11T14:55:49Z",
+        "displayTime": "2026-11-11T14:55:49Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/marketbeat_955/1706f4775831cd2fa38a31291508969c.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 720,
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/a68d0813c626b75d6dde1c4a65d29b38.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/marketbeat_955/1706f4775831cd2fa38a31291508969c.jpg_up.jpg",
-              "width": 1280,
-              "height": 720,
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/a68d0813c626b75d6dde1c4a65d29b38.jpg",
+              "width": 1366,
+              "height": 768,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6e9c23016bde5ed49fb4a70e84f622a7c74edfd7cb402733f4028e6056c584a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F1706f4775831cd2fa38a31291508969c.jpg_up.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/48892f9d421d448a595d2af081765b25c2aadc5ac1dd0cfdc5e116fadbc7a20d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fa68d0813c626b75d6dde1c4a65d29b38.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -69,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "MarketBeat",
-          "url": "https://www.marketbeat.com/"
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-bg-foods-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "url": "https://247wallst.com/investing/2026/11/11/rumble-rises-6-after-third-quarter-revenue-beat-trump-media-jumps-9-meta-stays-flat/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-q3-earnings-041423891.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rumble-rises-6-third-quarter-145549183.html"
         },
         "finance": {
           "premiumFinance": {
@@ -84,37 +49,49 @@
           },
           "stockTickers": [
             {
-              "symbol": "BGS"
+              "symbol": "RUM"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "ANTH.PVT"
+            },
+            {
+              "symbol": "DJT"
+            },
+            {
+              "symbol": "META"
             }
           ]
         }
       }
     },
     {
-      "id": "17eab539-ec4a-368f-bb73-ff1d218899ec",
+      "id": "850ca27f-3298-3be3-8bc4-e6511ab3ec35",
       "content": {
-        "id": "17eab539-ec4a-368f-bb73-ff1d218899ec",
+        "id": "850ca27f-3298-3be3-8bc4-e6511ab3ec35",
         "contentType": "STORY",
-        "title": "B&G Foods (BGS) Q3 2026 Earnings Call Transcript",
+        "title": "Trump Media Pledged 11,385 Bitcoin. Could a $1 Billion Note Demand Force It to Sell?",
         "description": null,
-        "summary": "Acquisitions and volume gains lifted sales while a divestiture weighed on one segment.",
-        "pubDate": "2026-11-11T04:00:07Z",
-        "displayTime": "2026-11-11T04:00:07Z",
+        "summary": "A $1 billion cash option hits Trump Media's lenders on November 30, and thousands of its Bitcoin sit locked as collateral. The filing stays silent on how it will pay, but one clue could reveal what happens next.",
+        "pubDate": "2026-11-10T18:24:15Z",
+        "displayTime": "2026-11-10T18:24:15Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
-          "originalWidth": 1280,
-          "originalHeight": 1366,
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/080a9ddac7c3ec395a3e0810ad813c29.jpg",
+          "originalWidth": 2560,
+          "originalHeight": 1707,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
-              "width": 1280,
-              "height": 1366,
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/080a9ddac7c3ec395a3e0810ad813c29.jpg",
+              "width": 2560,
+              "height": 1707,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/9cc49c8747fc3fbdf47d80207e7c9a049a96772d47491826fab9ff539ca4dddd/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F080a9ddac7c3ec395a3e0810ad813c29.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -122,14 +99,14 @@
           ]
         },
         "provider": {
-          "displayName": "Motley Fool",
-          "url": "http://www.fool.com/"
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/bg-foods-bgs-q3-2026-earnings-call-transcript/"
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/11/10/trump-media-pledged-11385-bitcoin-could-a-1-billion-note-demand-force-it-to-sell/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-bgs-q3-040007036.html"
+          "url": "https://finance.yahoo.com/markets/crypto/articles/trump-media-pledged-11-385-182415637.html"
         },
         "finance": {
           "premiumFinance": {
@@ -137,7 +114,78 @@
           },
           "stockTickers": [
             {
-              "symbol": "BGS"
+              "symbol": "BTC-USD"
+            },
+            {
+              "symbol": "DJT"
+            },
+            {
+              "symbol": "CRO-USD"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ab60a627-68cd-3362-b72f-684c3b49015d",
+      "content": {
+        "id": "ab60a627-68cd-3362-b72f-684c3b49015d",
+        "contentType": "STORY",
+        "title": "Trump Media Jumps 9% as Crypto Gains Drive $410 Million Q3 Profit; Rumble Falls 3%, Meta Holds Steady",
+        "description": null,
+        "summary": "Trump Media's bottom line flipped dramatically last quarter, yet the real story hides beneath the headline number. While Rumble slips and Meta barely moves, one quiet product and a looming December vote may matter far more than the profit.",
+        "pubDate": "2026-11-10T16:57:37Z",
+        "displayTime": "2026-11-10T16:57:37Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/0842452cac57bc25cc3886bc48747de6.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/0842452cac57bc25cc3886bc48747de6.jpg",
+              "width": 1366,
+              "height": 768,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/59573eaf5f87a820e96a292d752ed0d8e011663fe40f18288d84cd3e1b234db9/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F0842452cac57bc25cc3886bc48747de6.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/11/10/trump-media-jumps-9-as-crypto-gains-drive-410-million-q3-profit-rumble-falls-3-meta-holds-steady/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/crypto/articles/trump-media-jumps-9-crypto-165737781.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "RUM"
+            },
+            {
+              "symbol": "META"
+            },
+            {
+              "symbol": "SOFI"
+            },
+            {
+              "symbol": "BTC-USD"
+            },
+            {
+              "symbol": "DJT"
             }
           ]
         }
