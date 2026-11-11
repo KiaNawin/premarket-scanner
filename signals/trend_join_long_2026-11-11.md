@@ -1,46 +1,45 @@
 **Trend-join Long — 2026-11-11**
-0 valid entries out of 40 pre-market gappers (generated 2026-11-11 09:05:02 EST)
+0 valid entries out of 39 pre-market gappers (generated 2026-11-11 09:35:03 EST)
 
 _No valid entries yet._
 
 Not triggered:
-- AAOI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AEHR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ALAB: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AMAT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AMD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AMKR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ANET: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- APLD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ARM: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ASX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AXTI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BKKT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BTDR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BULL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CAPR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CIEN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CIFR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CLS: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CLSK: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- COHR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CORZ: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CRDO: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CRWV: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- DELL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FCEL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FLEX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FLNC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- FOSL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- AAOI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AEHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ALAB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AMAT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AMKR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ANET: WAITING — Before 10:00 ET signal window
+- ANGX: WAITING — Before 10:00 ET signal window
+- APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ARM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ASX: WAITING — Before 10:00 ET signal window
+- AVGO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AXTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BGS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BTDR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BW: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CAPR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CBRS: SHORT_HISTORY — Only 125 trading days of history (< 200 needed for SMA200)
+- CIEN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CIFR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CLS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CLSK: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- COHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CORZ: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CRDO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CRWV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DELL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FCEL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FLEX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FOSL: WAITING — Before 10:00 ET signal window
 - FPS: SHORT_HISTORY — Only 193 trading days of history (< 200 needed for SMA200)
-- FRVO: SHORT_HISTORY — Only 126 trading days of history (< 200 needed for SMA200)
-- GEV: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- GLW: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- GLXY: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HPE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HUT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HYLN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- INTC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- IREN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- KLAC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- FSLY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- FUN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- GDS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- GLW: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- GLXY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HPE: WAITING — Before 10:00 ET signal window
+- HUT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HYLN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
