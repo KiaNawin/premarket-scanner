@@ -1,7 +1,60 @@
 {
   "ticker": "CRWV",
-  "saved_at_et": "2026-11-11T11:04:59-05:00",
+  "saved_at_et": "2026-11-11T11:35:56-05:00",
   "response": [
+    {
+      "id": "8e421aa8-71e0-4889-af84-e9bff5b37eb0",
+      "content": {
+        "id": "8e421aa8-71e0-4889-af84-e9bff5b37eb0",
+        "contentType": "STORY",
+        "title": "CoreWeave stock surges as Q3 revenue beats estimates, company raises full-year outlook",
+        "description": null,
+        "summary": "CoreWeave stock jumped after the neocloud provider reported quarterly results on Tuesday.",
+        "pubDate": "2026-11-10T21:15:33Z",
+        "displayTime": "2026-11-11T16:34:10Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-10/1d73ecd8-2195-457c-83a1-27f372b91f8a",
+          "originalWidth": 3000,
+          "originalHeight": 2000,
+          "resolutions": [
+            {
+              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/1d73ecd8-2195-457c-83a1-27f372b91f8a",
+              "width": 3000,
+              "height": 2000,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/570e95e3b4804553856f50f7b67d8ca871b5210d88ad9dfd945892b306ccd21f/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F1d73ecd8-2195-457c-83a1-27f372b91f8a",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/article/coreweave-stock-pops-as-q3-revenue-beats-estimates-company-raises-full-year-outlook-211533280.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/article/coreweave-stock-pops-as-q3-revenue-beats-estimates-company-raises-full-year-outlook-211533280.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "CRWV"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "c68be33e-5591-429a-946c-d336ae0fead4",
       "content": {
@@ -121,65 +174,6 @@
             },
             {
               "symbol": "CRWV"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "41bf61c1-a9d9-40ab-ab84-0019cbcd1416",
-      "content": {
-        "id": "41bf61c1-a9d9-40ab-ab84-0019cbcd1416",
-        "contentType": "VIDEO",
-        "title": "Wall Street is shrugging at CoreWeave's debt and OpenAI's losses",
-        "description": "<p>Yahoo Finance Executive Editor Brian Sozzi can't believe Wall Street's reaction to CoreWeave's (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/CRWV/\" data-i13n=\"cpos:1;pos:1\">CRWV</a>) stock despite quarterly losses, and that OpenAI (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/OPAI.PVT/\" data-i13n=\"cpos:2;pos:1\">OPAI.PVT</a>) and Anthropic (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/ANTH.PVT/\" data-i13n=\"cpos:3;pos:1\">ANTH.PVT</a>) are drawing huge funding and valuations despite heavy losses.</p>",
-        "summary": "Yahoo Finance Executive Editor Brian Sozzi can't believe Wall Street's reaction to CoreWeave's (CRWV) stock despite quarterly losses, and that OpenAI (OPAI.PVT) and Anthropic (ANTH.PVT) are drawing huge funding and valuations despite heavy losses.",
-        "pubDate": "2026-11-11T15:09:33Z",
-        "displayTime": "2026-11-11T15:09:33Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/video-frame-1794409731490_3553.jpg_b0fe0b7d1c9d6a903907db72f554a0126969d71f723db294bfb7135f2083d3c5.jpg",
-          "originalWidth": 1506,
-          "originalHeight": 847,
-          "resolutions": [
-            {
-              "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/video-frame-1794409731490_3553.jpg_b0fe0b7d1c9d6a903907db72f554a0126969d71f723db294bfb7135f2083d3c5.jpg",
-              "width": 1506,
-              "height": 847,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/09e71443737c6abd9dd6c2f10f19b8db2a8ef50e6016cd79d8e5c2f93683ac69/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fvideo-frame-1794409731490_3553.jpg_b0fe0b7d1c9d6a903907db72f554a0126969d71f723db294bfb7135f2083d3c5.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/video/wall-street-is-shrugging-at-coreweaves-debt-and-openais-losses-150933630.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/video/wall-street-is-shrugging-at-coreweaves-debt-and-openais-losses-150933630.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "ANTH.PVT"
-            },
-            {
-              "symbol": "OPAI.PVT"
             }
           ]
         }
