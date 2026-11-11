@@ -1,29 +1,171 @@
 {
-  "ticker": "FOSL",
-  "saved_at_et": "2026-11-11T10:04:44-05:00",
+  "ticker": "CRWV",
+  "saved_at_et": "2026-11-11T10:34:59-05:00",
   "response": [
     {
-      "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
+      "id": "c68be33e-5591-429a-946c-d336ae0fead4",
       "content": {
-        "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
+        "id": "c68be33e-5591-429a-946c-d336ae0fead4",
         "contentType": "STORY",
-        "title": "Premarket movers: CoreWeave, Nvidia rally; Fossil, Tandy Leather jump",
+        "title": "Tech rises as CoreWeave results reignite AI trade: AlphaCheck",
         "description": null,
-        "summary": "Investing.com - U.S. stock index futures were mixed on Wednesday, with technology shares leading gains as an upbeat financial outlook from AI cloud infrastructure provider CoreWeave and strong demand for Anthropic's initial public offering helped revive optimism around artificial intelligence. The gains came as investors looked for signs that demand for AI infrastructure can continue to support the sector's rapid expansion.",
-        "pubDate": "2026-11-11T13:08:14Z",
-        "displayTime": "2026-11-11T13:08:14Z",
+        "summary": "Tech stocks led the market higher on Wednesday.",
+        "pubDate": "2026-11-11T15:33:36Z",
+        "displayTime": "2026-11-11T15:33:36Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/cfd54f66-7418-4b62-a3b5-44d155370606",
+          "originalWidth": 6048,
+          "originalHeight": 4032,
+          "resolutions": [
+            {
+              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/cfd54f66-7418-4b62-a3b5-44d155370606",
+              "width": 6048,
+              "height": 4032,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/0a7a6fcc7c0367effc30eb4ad0bc383872ea50d78f27156cc986d84e093d51e7/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fcfd54f66-7418-4b62-a3b5-44d155370606",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Investing.com",
-          "url": "https://www.investing.com/"
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
+          "url": "https://finance.yahoo.com/markets/article/tech-rises-coreweave-results-reignite-ai-trade-alphacheck-153336772.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
+          "url": "https://finance.yahoo.com/markets/article/tech-rises-coreweave-results-reignite-ai-trade-alphacheck-153336772.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "CL=F"
+            },
+            {
+              "symbol": "NBIS"
+            },
+            {
+              "symbol": "^TNX"
+            },
+            {
+              "symbol": "AVGO"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bf203e69-3599-4e9c-8d07-64a253840e97",
+      "content": {
+        "id": "bf203e69-3599-4e9c-8d07-64a253840e97",
+        "contentType": "STORY",
+        "title": "Nvidia stock rebounds, chip stocks surge as CoreWeave earnings boost AI trade",
+        "description": null,
+        "summary": "Nvidia stock popped on Wednesday, snapping a two-day losing streak.",
+        "pubDate": "2026-11-11T13:54:39Z",
+        "displayTime": "2026-11-11T15:10:01Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/2f330739-7bcf-44d4-b70f-9587cd9584f9",
+          "originalWidth": 6000,
+          "originalHeight": 4000,
+          "resolutions": [
+            {
+              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/2f330739-7bcf-44d4-b70f-9587cd9584f9",
+              "width": 6000,
+              "height": 4000,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/af6b65270f9ee3202e8b4b90d9c9faa7a1b45eb95e029388b5e1cd808da10285/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F2f330739-7bcf-44d4-b70f-9587cd9584f9",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-rebounds-chip-stocks-surge-as-coreweave-earnings-boost-ai-trade-151001136.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-rebounds-chip-stocks-surge-as-coreweave-earnings-boost-ai-trade-151001136.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "CRWV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "41bf61c1-a9d9-40ab-ab84-0019cbcd1416",
+      "content": {
+        "id": "41bf61c1-a9d9-40ab-ab84-0019cbcd1416",
+        "contentType": "VIDEO",
+        "title": "Wall Street is shrugging at CoreWeave's debt and OpenAI's losses",
+        "description": "<p>Yahoo Finance Executive Editor Brian Sozzi can't believe Wall Street's reaction to CoreWeave's (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/CRWV/\" data-i13n=\"cpos:1;pos:1\">CRWV</a>) stock despite quarterly losses, and that OpenAI (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/OPAI.PVT/\" data-i13n=\"cpos:2;pos:1\">OPAI.PVT</a>) and Anthropic (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/ANTH.PVT/\" data-i13n=\"cpos:3;pos:1\">ANTH.PVT</a>) are drawing huge funding and valuations despite heavy losses.</p>",
+        "summary": "Yahoo Finance Executive Editor Brian Sozzi can't believe Wall Street's reaction to CoreWeave's (CRWV) stock despite quarterly losses, and that OpenAI (OPAI.PVT) and Anthropic (ANTH.PVT) are drawing huge funding and valuations despite heavy losses.",
+        "pubDate": "2026-11-11T15:09:33Z",
+        "displayTime": "2026-11-11T15:09:33Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/video-frame-1794409731490_3553.jpg_b0fe0b7d1c9d6a903907db72f554a0126969d71f723db294bfb7135f2083d3c5.jpg",
+          "originalWidth": 1506,
+          "originalHeight": 847,
+          "resolutions": [
+            {
+              "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/video-frame-1794409731490_3553.jpg_b0fe0b7d1c9d6a903907db72f554a0126969d71f723db294bfb7135f2083d3c5.jpg",
+              "width": 1506,
+              "height": 847,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/09e71443737c6abd9dd6c2f10f19b8db2a8ef50e6016cd79d8e5c2f93683ac69/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fvideo-frame-1794409731490_3553.jpg_b0fe0b7d1c9d6a903907db72f554a0126969d71f723db294bfb7135f2083d3c5.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/video/wall-street-is-shrugging-at-coreweaves-debt-and-openais-losses-150933630.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/video/wall-street-is-shrugging-at-coreweaves-debt-and-openais-losses-150933630.html"
         },
         "finance": {
           "premiumFinance": {
@@ -34,128 +176,10 @@
               "symbol": "CRWV"
             },
             {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "^NDX"
-            },
-            {
-              "symbol": "^GSPC"
-            },
-            {
               "symbol": "ANTH.PVT"
             },
             {
-              "symbol": "TLF"
-            },
-            {
-              "symbol": "FOSL"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
-      "content": {
-        "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
-        "contentType": "STORY",
-        "title": "Fossil Group Shares Surge 16.9% as Third-Quarter Profit and Revenue Exceed Analyst Forecasts",
-        "description": null,
-        "summary": "Fossil Group (NASDAQ:FOSL) shares climbed 16. 9% in premarket trading on Wednesday after the watch and accessories manufacturer reported third-quarter 2026 earnings and revenue above analyst expectations, alongside improved profitability and an increase in its full-year financial guidance.",
-        "pubDate": "2026-11-11T11:40:52Z",
-        "displayTime": "2026-11-11T11:40:52Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
-          "originalWidth": 1200,
-          "originalHeight": 659,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
-              "width": 1200,
-              "height": 659,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/3d11fc95be02aa2adce533806454902fb80c6bdd92814b73a82ca03f70599db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F34918ff308546e6b38d25e2b161ddd47.png",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://investorshub.advfn.com/market-news/article/39759/fossil-group-shares-surge-16-9-as-third-quarter-profit-and-revenue-exceed-analyst-forecasts"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-shares-surge-16-114052526.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "FOSL"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
-      "content": {
-        "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
-        "contentType": "STORY",
-        "title": "Fossil: 3 Key Takeaways for Long-Term Investors",
-        "description": null,
-        "summary": "Gross margin climbed to 59.9% as cost cuts turned modest sales gains into earnings, a shift that matters for shareholders weighing durability.",
-        "pubDate": "2026-11-11T10:59:31Z",
-        "displayTime": "2026-11-11T10:59:31Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
-              "width": 1280,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/ea0171ad4e6b6c1c3648e2df80978d46473d4fd6dab316ac93d9224031dd9db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fd508b4a8e6870947697b7de5a1cd5b85.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Motley Fool",
-          "url": "http://www.fool.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/takeaways/2026/11/11/fossil-3-key-takeaways-for-long-term-investors/"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-3-key-takeaways-long-105931032.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "FOSL"
+              "symbol": "OPAI.PVT"
             }
           ]
         }

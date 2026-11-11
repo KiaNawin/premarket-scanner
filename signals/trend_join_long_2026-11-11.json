@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-11",
-  "generated_at_et": "2026-11-11 10:05:02 EST",
+  "generated_at_et": "2026-11-11 10:35:06 EST",
   "source_premarket_file": "premarket_scan_2026-11-11.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -11,9 +11,48 @@
     "Signal only after 10:00 AM ET"
   ],
   "candidates": 34,
-  "valid_count": 0,
-  "valid_entries": [],
+  "valid_count": 1,
+  "valid_entries": [
+    {
+      "ticker": "CRSR",
+      "signal_time_et": "2026-11-11 10:17",
+      "entry_price": 13.21,
+      "last_price": 13.22,
+      "gap_pct": 7.66,
+      "yesterday_high": 12.4,
+      "yesterday_close": 12.27,
+      "sma200": 9.2546,
+      "premarket_high": 12.91,
+      "hod_before_signal": 13.2,
+      "catalyst": "Corsair raises its 2026 outlook after a Q3 beat, with holiday demand and delayed peripherals fueling Q4 sales even as memory margins pressure profits."
+    }
+  ],
   "evaluated": [
+    {
+      "ticker": "CRSR",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.8486,
+      "yesterday_high": 12.4,
+      "yesterday_close": 12.27,
+      "sma200": 9.2546,
+      "premarket_high": 12.91,
+      "last_price": 13.22,
+      "last_bar_et": "10:33",
+      "high_of_day": 13.37,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-11 10:17",
+      "entry_price": 13.21,
+      "hod_before_signal": 13.2,
+      "low_5m": 13.035,
+      "gap_pct": 7.66,
+      "catalyst": "Corsair raises its 2026 outlook after a Q3 beat, with holiday demand and delayed peripherals fueling Q4 sales even as memory margins pressure profits."
+    },
     {
       "ticker": "AAOI",
       "status": "FAIL",
@@ -23,9 +62,9 @@
       "yesterday_close": 48.32,
       "sma200": 114.795,
       "premarket_high": 52.2,
-      "last_price": 53.485,
-      "last_bar_et": "10:04",
-      "high_of_day": 54.1,
+      "last_price": 54.465,
+      "last_bar_et": "10:35",
+      "high_of_day": 54.85,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -33,8 +72,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.95,
-      "catalyst": "ETFs sold $72.3 million of Applied Optoelectronics on Monday, Nov."
+      "gap_pct": 12.98,
+      "catalyst": "A neocloud's earnings beat sent optical stocks soaring, but a possible Chinese transceiver ban, a delayed Texas expansion and rate fears complicate the rebound."
     },
     {
       "ticker": "AEHR",
@@ -45,9 +84,31 @@
       "yesterday_close": 59.57,
       "sma200": 75.4068,
       "premarket_high": 66.0,
-      "last_price": 65.49,
-      "last_bar_et": "10:04",
-      "high_of_day": 66.7235,
+      "last_price": 66.94,
+      "last_bar_et": "10:34",
+      "high_of_day": 67.1,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 12.37,
+      "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable."
+    },
+    {
+      "ticker": "ALAB",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 25.6019,
+      "yesterday_high": 226.52,
+      "yesterday_close": 216.18,
+      "sma200": 256.5576,
+      "premarket_high": 235.55,
+      "last_price": 228.645,
+      "last_bar_et": "10:35",
+      "high_of_day": 233.0,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -55,8 +116,52 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.98,
-      "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable."
+      "gap_pct": 5.69,
+      "catalyst": "Key TakeawaysCoherent shares rose 5% today after CoreWeave beat on revenue and raised its 2026 outlook, lifting Lumentum, Marvell, Credo and Astera Labs too."
+    },
+    {
+      "ticker": "AMAT",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 25.8107,
+      "yesterday_high": 382.27,
+      "yesterday_close": 372.53,
+      "sma200": 445.8608,
+      "premarket_high": 397.72,
+      "last_price": 393.32,
+      "last_bar_et": "10:35",
+      "high_of_day": 393.855,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.38,
+      "catalyst": "Key TakeawaysApplied Materials stock is up 59% over the past year, even after losing about half its value since its June 30 record close."
+    },
+    {
+      "ticker": "AMD",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 42.6521,
+      "yesterday_high": 539.25,
+      "yesterday_close": 515.21,
+      "sma200": 418.5415,
+      "premarket_high": 555.94,
+      "last_price": 542.755,
+      "last_bar_et": "10:35",
+      "high_of_day": 546.45,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 5.24,
+      "catalyst": "Goldman has found some stocks to buy from within the AI rubble."
     },
     {
       "ticker": "AMKR",
@@ -67,9 +172,9 @@
       "yesterday_close": 34.47,
       "sma200": 56.7266,
       "premarket_high": 36.9,
-      "last_price": 37.34,
-      "last_bar_et": "10:04",
-      "high_of_day": 37.34,
+      "last_price": 38.13,
+      "last_bar_et": "10:35",
+      "high_of_day": 38.1539,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -77,7 +182,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.37,
+      "gap_pct": 10.44,
       "catalyst": "A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-day rout in 19 months."
     },
     {
@@ -89,17 +194,17 @@
       "yesterday_close": 185.02,
       "sma200": 166.5685,
       "premarket_high": 195.7508,
-      "last_price": 195.58,
-      "last_bar_et": "10:04",
+      "last_price": 196.411,
+      "last_bar_et": "10:34",
       "high_of_day": 199.4599,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.16,
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 6.12,
       "catalyst": "ANET, FN, ADI and AMD stand out as AI stocks with strong earnings growth prospects, as market pullbacks create potential entry points."
     },
     {
@@ -111,8 +216,8 @@
       "yesterday_close": 3.74,
       "sma200": 3.6532,
       "premarket_high": 3.95,
-      "last_price": 3.99,
-      "last_bar_et": "10:04",
+      "last_price": 4.0297,
+      "last_bar_et": "10:34",
       "high_of_day": 4.33,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -121,7 +226,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 9.49,
+      "gap_pct": 6.95,
       "catalyst": "While the top- and bottom-line numbers for Angel Studios, Inc."
     },
     {
@@ -133,8 +238,8 @@
       "yesterday_close": 16.68,
       "sma200": 30.6414,
       "premarket_high": 18.6299,
-      "last_price": 17.685,
-      "last_bar_et": "10:04",
+      "last_price": 17.655,
+      "last_bar_et": "10:35",
       "high_of_day": 18.29,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -143,8 +248,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.61,
-      "catalyst": "Key TakeawaysCoreWeave stock jumped 17% after third-quarter revenue rose 168% and the company raised its 2026 guidance."
+      "gap_pct": 5.91,
+      "catalyst": "By Utkarsh Hathi and Tharuniyaa Lakshmi Nov 11 (Reuters) - The S&P 500 and the tech-heavy Nasdaq climbed on Wednesday after neocloud firm CoreWeave's strong earnings calmed investor jitters about."
     },
     {
       "ticker": "APPS",
@@ -155,8 +260,8 @@
       "yesterday_close": 7.25,
       "sma200": 7.6752,
       "premarket_high": 7.45,
-      "last_price": 7.655,
-      "last_bar_et": "10:04",
+      "last_price": 7.7,
+      "last_bar_et": "10:35",
       "high_of_day": 7.86,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -165,7 +270,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.86,
+      "gap_pct": 6.62,
       "catalyst": "Digital Turbine beats Q2 earnings and revenue estimates as AI-powered ad growth fuels momentum, prompting a higher full-year revenue outlook."
     },
     {
@@ -177,18 +282,62 @@
       "yesterday_close": 181.49,
       "sma200": 231.5173,
       "premarket_high": 194.59,
-      "last_price": 192.84,
-      "last_bar_et": "10:04",
-      "high_of_day": 192.85,
+      "last_price": 197.88,
+      "last_bar_et": "10:35",
+      "high_of_day": 198.99,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.48,
-      "catalyst": "Investing.com -- UBS told clients in a note on Wednesday that demand for server processors stayed strong in the third quarter, with chips based on Arm (NASDAQ: ARM) designs and Advanced Micro Devices (NASDAQ: AMD)…"
+      "gap_pct": 9.12,
+      "catalyst": "Key TakeawaysAMD jumped 4% after CoreWeave raised its 2026 revenue forecast."
+    },
+    {
+      "ticker": "ARRY",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4857,
+      "yesterday_high": 5.205,
+      "yesterday_close": 4.73,
+      "sma200": 6.7151,
+      "premarket_high": 4.88,
+      "last_price": 5.01,
+      "last_bar_et": "10:35",
+      "high_of_day": 5.02,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.92,
+      "catalyst": "Array Technologies (ARRY) should gain cross-selling opportunities and financial flexibility from its."
+    },
+    {
+      "ticker": "ASTS",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 4.1543,
+      "yesterday_high": 36.84,
+      "yesterday_close": 33.69,
+      "sma200": 74.8699,
+      "premarket_high": 35.3099,
+      "last_price": 35.78,
+      "last_bar_et": "10:35",
+      "high_of_day": 35.99,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.82,
+      "catalyst": "The rocket builder posts a narrower adjusted loss than expected, following a major engine deal with AST SpaceMobile."
     },
     {
       "ticker": "ASX",
@@ -199,8 +348,8 @@
       "yesterday_close": 35.48,
       "sma200": 33.8962,
       "premarket_high": 37.9812,
-      "last_price": 37.47,
-      "last_bar_et": "10:04",
+      "last_price": 37.58,
+      "last_bar_et": "10:34",
       "high_of_day": 37.87,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -209,7 +358,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.27,
+      "gap_pct": 6.0,
       "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce."
     },
     {
@@ -221,17 +370,17 @@
       "yesterday_close": 331.98,
       "sma200": 367.1245,
       "premarket_high": 351.68,
-      "last_price": 353.405,
-      "last_bar_et": "10:04",
+      "last_price": 350.12,
+      "last_bar_et": "10:35",
       "high_of_day": 354.5,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.01,
+      "gap_pct": 5.47,
       "catalyst": "Goldman has found some stocks to buy from within the AI rubble."
     },
     {
@@ -243,9 +392,9 @@
       "yesterday_close": 39.31,
       "sma200": 65.6764,
       "premarket_high": 43.35,
-      "last_price": 45.56,
-      "last_bar_et": "10:04",
-      "high_of_day": 45.77,
+      "last_price": 46.875,
+      "last_bar_et": "10:35",
+      "high_of_day": 47.37,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -253,7 +402,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.26,
+      "gap_pct": 20.25,
       "catalyst": "AXT, Inc. has been on a wild ride, with the share price swinging sharply even after a very large multi‑year gain."
     },
     {
@@ -265,17 +414,17 @@
       "yesterday_close": 185.42,
       "sma200": 222.885,
       "premarket_high": 203.49,
-      "last_price": 208.1599,
-      "last_bar_et": "10:04",
-      "high_of_day": 208.16,
+      "last_price": 213.2646,
+      "last_bar_et": "10:35",
+      "high_of_day": 214.6,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.74,
+      "gap_pct": 14.91,
       "catalyst": "The cloud computing company’s earnings have reignited AI stocks—some more than others."
     },
     {
@@ -287,8 +436,8 @@
       "yesterday_close": 2.66,
       "sma200": 4.0334,
       "premarket_high": 2.9601,
-      "last_price": 3.358,
-      "last_bar_et": "10:04",
+      "last_price": 3.3128,
+      "last_bar_et": "10:34",
       "high_of_day": 3.56,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -297,8 +446,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 27.44,
+      "gap_pct": 25.29,
       "catalyst": "B&G Foods Inc (BGS) posted 5% base business net sales growth and higher adjusted EBITDA in Q3 2026, but a $40.7 million trademark impairment widened its net loss as leverage remains above 6.4x."
+    },
+    {
+      "ticker": "BORR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2909,
+      "yesterday_high": 3.215,
+      "yesterday_close": 3.18,
+      "sma200": 4.8561,
+      "premarket_high": 3.29,
+      "last_price": 3.37,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.37,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.66,
+      "catalyst": "Kodiak Gas (KGS) delivered earnings and revenue surprises of +9.38% and +3.78%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "BTDR",
@@ -309,9 +480,9 @@
       "yesterday_close": 6.41,
       "sma200": 11.4077,
       "premarket_high": 6.89,
-      "last_price": 6.99,
-      "last_bar_et": "10:04",
-      "high_of_day": 7.0053,
+      "last_price": 6.98,
+      "last_bar_et": "10:35",
+      "high_of_day": 7.025,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -319,7 +490,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.27,
+      "gap_pct": 8.66,
       "catalyst": "Bitdeer Technologies Group (BTDR) posted record revenue and rapid AI cloud growth in Q3 2026, but a $125.5 million net loss and rising debt underscore the heavy cost of its data center buildout."
     },
     {
@@ -331,9 +502,9 @@
       "yesterday_close": 4.48,
       "sma200": 11.3121,
       "premarket_high": 4.7421,
-      "last_price": 5.085,
-      "last_bar_et": "10:04",
-      "high_of_day": 5.215,
+      "last_price": 5.1694,
+      "last_bar_et": "10:35",
+      "high_of_day": 5.29,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -341,7 +512,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.26,
+      "gap_pct": 17.3,
       "catalyst": "Moby summary of Babcock & Wilcox Enterprises, Inc.'s Q3 2026 earnings call."
     },
     {
@@ -353,18 +524,27 @@
       "yesterday_close": 8.87,
       "sma200": 20.139,
       "premarket_high": 10.04,
-      "last_price": 9.67,
-      "last_bar_et": "10:04",
-      "high_of_day": 9.87,
+      "last_price": 10.24,
+      "last_bar_et": "10:34",
+      "high_of_day": 10.44,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.2,
+      "gap_pct": 15.33,
       "catalyst": "Capricor Therapeutics Inc (CAPR) reported no Q3 2026 revenue but ended the quarter with approximately $198.5 million in cash and securities as it awaits a November 22, 2026 PDUFA date for Deramiocel."
+    },
+    {
+      "ticker": "CBRS",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 125 trading days of history (< 200 needed for SMA200)",
+      "history_days": 125,
+      "gap_pct": 8.13,
+      "catalyst": "Hotter than expected US inflation and talk of larger rate hikes have hit bonds and pushed borrowing costs higher."
     },
     {
       "ticker": "CIEN",
@@ -375,17 +555,17 @@
       "yesterday_close": 272.1,
       "sma200": 406.0784,
       "premarket_high": 294.96,
-      "last_price": 292.57,
-      "last_bar_et": "10:04",
+      "last_price": 295.105,
+      "last_bar_et": "10:35",
       "high_of_day": 300.0,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.91,
+      "gap_pct": 8.92,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -397,8 +577,8 @@
       "yesterday_close": 6.53,
       "sma200": 17.3648,
       "premarket_high": 7.3423,
-      "last_price": 7.09,
-      "last_bar_et": "10:04",
+      "last_price": 7.015,
+      "last_bar_et": "10:35",
       "high_of_day": 7.37,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -407,8 +587,52 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.89,
+      "gap_pct": 7.2,
       "catalyst": "Key TakeawaysCoreWeave stock jumped 17% after third-quarter revenue rose 168% and the company raised its 2026 guidance."
+    },
+    {
+      "ticker": "CLS",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 25.3636,
+      "yesterday_high": 236.67,
+      "yesterday_close": 223.89,
+      "sma200": 329.5429,
+      "premarket_high": 241.9,
+      "last_price": 238.83,
+      "last_bar_et": "10:35",
+      "high_of_day": 241.0,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.44,
+      "catalyst": "Custom AI chip platforms are becoming a major revenue driver for Celestica as hyperscalers shift toward proprietary processors."
+    },
+    {
+      "ticker": "CLSK",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.8006,
+      "yesterday_high": 6.95,
+      "yesterday_close": 6.57,
+      "sma200": 12.1264,
+      "premarket_high": 7.08,
+      "last_price": 6.95,
+      "last_bar_et": "10:35",
+      "high_of_day": 7.12,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.33,
+      "catalyst": "Key TakeawaysCipher Digital fell 20% in the week to Nov."
     },
     {
       "ticker": "COHR",
@@ -419,18 +643,18 @@
       "yesterday_close": 214.66,
       "sma200": 296.645,
       "premarket_high": 236.88,
-      "last_price": 232.67,
-      "last_bar_et": "10:04",
-      "high_of_day": 238.65,
+      "last_price": 237.64,
+      "last_bar_et": "10:35",
+      "high_of_day": 239.68,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.86,
-      "catalyst": "Key TakeawaysCoherent shares rose 5% today after CoreWeave beat on revenue and raised its 2026 outlook, lifting Lumentum, Marvell, Credo and Astera Labs too."
+      "gap_pct": 11.24,
+      "catalyst": "A neocloud's earnings beat sent optical stocks soaring, but a possible Chinese transceiver ban, a delayed Texas expansion and rate fears complicate the rebound."
     },
     {
       "ticker": "CORZ",
@@ -441,17 +665,17 @@
       "yesterday_close": 13.13,
       "sma200": 19.4491,
       "premarket_high": 14.25,
-      "last_price": 14.115,
-      "last_bar_et": "10:04",
-      "high_of_day": 14.3,
+      "last_price": 14.305,
+      "last_bar_et": "10:35",
+      "high_of_day": 14.3299,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.63,
+      "gap_pct": 8.76,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -463,40 +687,18 @@
       "yesterday_close": 129.8,
       "sma200": 180.741,
       "premarket_high": 142.3973,
-      "last_price": 140.395,
-      "last_bar_et": "10:04",
-      "high_of_day": 141.7,
+      "last_price": 142.4,
+      "last_bar_et": "10:34",
+      "high_of_day": 143.05,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.11,
-      "catalyst": "Key TakeawaysCoherent shares rose 5% today after CoreWeave beat on revenue and raised its 2026 outlook, lifting Lumentum, Marvell, Credo and Astera Labs too."
-    },
-    {
-      "ticker": "CRSR",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.8486,
-      "yesterday_high": 12.4,
-      "yesterday_close": 12.27,
-      "sma200": 9.2546,
-      "premarket_high": 12.91,
-      "last_price": 13.105,
-      "last_bar_et": "10:04",
-      "high_of_day": 13.2,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 6.36,
-      "catalyst": "Corsair raises its 2026 outlook after a Q3 beat, with holiday demand and delayed peripherals fueling Q4 sales even as memory margins pressure profits."
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.45,
+      "catalyst": "Key TakeawaysCoherent shares rose 5% today after CoreWeave beat on revenue and raised its 2026 outlook, lifting Lumentum, Marvell, Credo and Astera Labs too."
     },
     {
       "ticker": "CRWV",
@@ -507,18 +709,18 @@
       "yesterday_close": 48.73,
       "sma200": 89.7068,
       "premarket_high": 57.26,
-      "last_price": 58.82,
-      "last_bar_et": "10:04",
-      "high_of_day": 58.832,
+      "last_price": 59.31,
+      "last_bar_et": "10:35",
+      "high_of_day": 59.46,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 18.37,
-      "catalyst": "CoreWeave stock jumped after the neocloud provider reported quarterly results on Tuesday."
+      "gap_pct": 21.44,
+      "catalyst": "Tech stocks led the market higher on Wednesday."
     },
     {
       "ticker": "DELL",
@@ -529,9 +731,9 @@
       "yesterday_close": 334.38,
       "sma200": 339.7058,
       "premarket_high": 362.45,
-      "last_price": 367.67,
-      "last_bar_et": "10:04",
-      "high_of_day": 368.35,
+      "last_price": 371.295,
+      "last_bar_et": "10:35",
+      "high_of_day": 372.74,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -539,7 +741,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.88,
+      "gap_pct": 11.19,
       "catalyst": "How fast U.S. politics change."
     },
     {
@@ -551,9 +753,9 @@
       "yesterday_close": 4.28,
       "sma200": 8.976,
       "premarket_high": 4.486,
-      "last_price": 4.855,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.945,
+      "last_price": 5.05,
+      "last_bar_et": "10:35",
+      "high_of_day": 5.09,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -561,194 +763,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.16,
-      "catalyst": "An AI infrastructure shift is starting to show up in Rumble‘s (NASDAQ:RUM) sales line, and traders are rewarding a top-line beat over a wider loss."
-    },
-    {
-      "ticker": "FLY",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.9821,
-      "yesterday_high": 24.84,
-      "yesterday_close": 23.7,
-      "sma200": 26.8317,
-      "premarket_high": 24.73,
-      "last_price": 25.665,
-      "last_bar_et": "10:04",
-      "high_of_day": 26.39,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.68,
-      "catalyst": "Firefly Aerospace (NASDAQ:FLY) shares slipped 1% to $23.36 in pre-market trading, a modest decline despite widening adjusted losses and increased cash outflows in its third-quarter results."
-    },
-    {
-      "ticker": "FOSL",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.4536,
-      "yesterday_high": 8.15,
-      "yesterday_close": 7.87,
-      "sma200": 4.9584,
-      "premarket_high": 10.35,
-      "last_price": 9.96,
-      "last_bar_et": "10:04",
-      "high_of_day": 10.55,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 26.81,
-      "catalyst": "Investing.com - U.S. stock index futures were mixed on Wednesday, with technology shares leading gains as an upbeat financial outlook from AI cloud infrastructure provider CoreWeave and strong demand for Anthropic's…"
-    },
-    {
-      "ticker": "FPS",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 193 trading days of history (< 200 needed for SMA200)",
-      "history_days": 193,
-      "gap_pct": 8.8,
-      "catalyst": "Baron Capital, an investment management company, released its Q3 2026 investor letter for the “Baron Discovery Fund”."
-    },
-    {
-      "ticker": "FSLY",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.0969,
-      "yesterday_high": 16.33,
-      "yesterday_close": 16.24,
-      "sma200": 21.7736,
-      "premarket_high": 17.12,
-      "last_price": 17.8,
-      "last_bar_et": "10:04",
-      "high_of_day": 17.8,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.13,
-      "catalyst": "Check out the companies making headlines this week:."
-    },
-    {
-      "ticker": "FUN",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.7536,
-      "yesterday_high": 10.76,
-      "yesterday_close": 10.16,
-      "sma200": 16.6571,
-      "premarket_high": 11.11,
-      "last_price": 10.831,
-      "last_bar_et": "10:04",
-      "high_of_day": 11.18,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.69,
-      "catalyst": "Six Flags CEO John Reilly told investors \"we carry more debt than we want\" and said the company will sell more parks to bring its $5 billion of debt down."
-    },
-    {
-      "ticker": "GLW",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 8.1464,
-      "yesterday_high": 115.63,
-      "yesterday_close": 112.13,
-      "sma200": 156.4008,
-      "premarket_high": 122.0,
-      "last_price": 118.44,
-      "last_bar_et": "10:04",
-      "high_of_day": 120.0722,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.04,
-      "catalyst": "ETF trading put Corning (GLW) in focus after a net US$47.6 million of shares shifted into funds over five days, capped by strong buying from Capital Group Core Equity ETF."
-    },
-    {
-      "ticker": "GLXY",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.8373,
-      "yesterday_high": 14.64,
-      "yesterday_close": 14.11,
-      "sma200": 23.6057,
-      "premarket_high": 15.46,
-      "last_price": 15.4,
-      "last_bar_et": "10:04",
-      "high_of_day": 15.4002,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.15,
-      "catalyst": "Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell 4.36%, and the Dow shed 3.44%, as Wall Street’s post-midterm optimism…"
-    },
-    {
-      "ticker": "HPE",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 3.6989,
-      "yesterday_high": 48.38,
-      "yesterday_close": 47.93,
-      "sma200": 41.7292,
-      "premarket_high": 51.34,
-      "last_price": 50.85,
-      "last_bar_et": "10:04",
-      "high_of_day": 51.1413,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.11,
-      "catalyst": "AVT, OMCL, HPE and LCUT stand out as undervalued stocks, backed by strong earnings surprises, attractive valuations and robust projected growth."
-    },
-    {
-      "ticker": "HUT",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 7.1741,
-      "yesterday_high": 58.57,
-      "yesterday_close": 56.77,
-      "sma200": 82.3879,
-      "premarket_high": 63.0,
-      "last_price": 59.7096,
-      "last_bar_et": "10:04",
-      "high_of_day": 61.62,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.58,
-      "catalyst": "Keefe Bruyette cut RIOT stock to ‘Market Perform’ from ‘Outperform’, citing its “substantial” reliance on Anthropic and the lack of investment-grade credit support for the lease."
+      "gap_pct": 16.59,
+      "catalyst": "Rumble's wider loss should have spooked traders, yet shorts at record levels and a new AI cloud arm changed the mood."
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }
