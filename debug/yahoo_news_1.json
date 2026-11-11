@@ -1,189 +1,85 @@
 {
-  "ticker": "CHSN",
-  "saved_at_et": "2026-11-11T08:34:18-05:00",
+  "ticker": "FOSL",
+  "saved_at_et": "2026-11-11T09:04:36-05:00",
   "response": [
     {
-      "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
+      "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
       "content": {
-        "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
+        "id": "9f14000d-a5d8-36cc-8281-a1443eb87a9f",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Premarket movers: CoreWeave, Nvidia rally; Fossil, Tandy Leather jump",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Mercer International Inc.",
-        "pubDate": "2026-11-03T15:30:18Z",
-        "displayTime": "2026-11-03T15:30:18Z",
+        "summary": "Investing.com - U.S. stock index futures were mixed on Wednesday, with technology shares leading gains as an upbeat financial outlook from AI cloud infrastructure provider CoreWeave and strong demand for Anthropic's initial public offering helped revive optimism around artificial intelligence. The gains came as investors looked for signs that demand for AI infrastructure can continue to support the sector's rapid expansion.",
+        "pubDate": "2026-11-11T13:08:14Z",
+        "displayTime": "2026-11-11T13:08:14Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-coreweave-nvidia-rally-130814151.html"
         },
         "finance": {
           "premiumFinance": {
             "isPremiumNews": false
           },
           "stockTickers": [
-            {
-              "symbol": "MERC"
-            },
-            {
-              "symbol": "HUBC"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "INLF"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "RBNE"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "SGRX"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "CHSN"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "CIFR"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "AAPL"
-            },
-            {
-              "symbol": "PLTR"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "aae3d7cd-1f4e-3ffe-a250-b7aeb3b5b1af",
-      "content": {
-        "id": "aae3d7cd-1f4e-3ffe-a250-b7aeb3b5b1af",
-        "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
-        "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Datavault AI Inc.",
-        "pubDate": "2026-10-28T14:30:17Z",
-        "displayTime": "2026-10-28T14:30:17Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017600.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017600.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "DVLT"
-            },
-            {
-              "symbol": "RCT"
-            },
-            {
-              "symbol": "CDT"
-            },
-            {
-              "symbol": "GERN"
-            },
-            {
-              "symbol": "CHSN"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "SOFI"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "BRAI"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "HODO"
-            },
             {
               "symbol": "CRWV"
             },
             {
-              "symbol": "ONCO"
+              "symbol": "NVDA"
             },
             {
-              "symbol": "IREN"
+              "symbol": "^NDX"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "ANTH.PVT"
+            },
+            {
+              "symbol": "TLF"
+            },
+            {
+              "symbol": "FOSL"
             }
           ]
         }
       }
     },
     {
-      "id": "afdd1a87-f1fd-341d-b32d-c5ff795fcc4c",
+      "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
       "content": {
-        "id": "afdd1a87-f1fd-341d-b32d-c5ff795fcc4c",
+        "id": "4ee8f4d4-e887-325d-9c0e-d03e2c2e993e",
         "contentType": "STORY",
-        "title": "Chanson International (CHSN) Begins Construction on AI-Driven Automated Bakery Facility in China",
+        "title": "Fossil Group Shares Surge 16.9% as Third-Quarter Profit and Revenue Exceed Analyst Forecasts",
         "description": null,
-        "summary": "Chanson International Holding (NASDAQ:CHSN) is one of the worst performing NASDAQ stocks so far in 2026. On May 7, Chanson International officially commenced construction on a fully digitalized and automated bakery production base in Urumqi, China. Supported by the local government, this project focuses on AI-driven intelligent manufacturing to upgrade the company’s industrial capabilities. The […]",
-        "pubDate": "2026-05-13T17:47:57Z",
-        "displayTime": "2026-05-13T17:47:57Z",
+        "summary": "Fossil Group (NASDAQ:FOSL) shares climbed 16. 9% in premarket trading on Wednesday after the watch and accessories manufacturer reported third-quarter 2026 earnings and revenue above analyst expectations, alongside improved profitability and an increase in its full-year financial guidance.",
+        "pubDate": "2026-11-11T11:40:52Z",
+        "displayTime": "2026-11-11T11:40:52Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/8f13b01358a9563d30a5d078592a9be4",
-          "originalWidth": 1000,
-          "originalHeight": 667,
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
+          "originalWidth": 1200,
+          "originalHeight": 659,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/insidermonkey.com/8f13b01358a9563d30a5d078592a9be4",
-              "width": 1000,
-              "height": 667,
+              "url": "https://media.zenfs.com/en/investorshub_458/34918ff308546e6b38d25e2b161ddd47.png",
+              "width": 1200,
+              "height": 659,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/9dc16d67a66634a72ad140ccd8bbe38b4e8c2a4f52d04e14d6be4f71ea30a8d4/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F8f13b01358a9563d30a5d078592a9be4",
+              "url": "https://s.yimg.com/lo/mysterio/api/3d11fc95be02aa2adce533806454902fb80c6bdd92814b73a82ca03f70599db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F34918ff308546e6b38d25e2b161ddd47.png",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -191,14 +87,14 @@
           ]
         },
         "provider": {
-          "displayName": "Insider Monkey",
-          "url": "http://www.insidermonkey.com"
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/news/chanson-international-chsn-begins-construction-174757407.html"
+          "url": "https://investorshub.advfn.com/market-news/article/39759/fossil-group-shares-surge-16-9-as-third-quarter-profit-and-revenue-exceed-analyst-forecasts"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/news/chanson-international-chsn-begins-construction-174757407.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-shares-surge-16-114052526.html"
         },
         "finance": {
           "premiumFinance": {
@@ -206,7 +102,60 @@
           },
           "stockTickers": [
             {
-              "symbol": "CHSN"
+              "symbol": "FOSL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
+      "content": {
+        "id": "580abe15-0ed1-386e-b197-e69779a1ece8",
+        "contentType": "STORY",
+        "title": "Fossil: 3 Key Takeaways for Long-Term Investors",
+        "description": null,
+        "summary": "Gross margin climbed to 59.9% as cost cuts turned modest sales gains into earnings, a shift that matters for shareholders weighing durability.",
+        "pubDate": "2026-11-11T10:59:31Z",
+        "displayTime": "2026-11-11T10:59:31Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/motleyfool.com/d508b4a8e6870947697b7de5a1cd5b85.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/ea0171ad4e6b6c1c3648e2df80978d46473d4fd6dab316ac93d9224031dd9db3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fd508b4a8e6870947697b7de5a1cd5b85.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Motley Fool",
+          "url": "http://www.fool.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.fool.com/earnings/takeaways/2026/11/11/fossil-3-key-takeaways-for-long-term-investors/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-3-key-takeaways-long-105931032.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "FOSL"
             }
           ]
         }

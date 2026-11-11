@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-11",
-  "generated_at_et": "2026-11-11 08:35:02 EST",
+  "generated_at_et": "2026-11-11 09:05:02 EST",
   "source_premarket_file": "premarket_scan_2026-11-11.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 41,
+  "candidates": 40,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -24,7 +24,7 @@
       "sma200": 114.795,
       "premarket_high": 52.2,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.2,
+      "gap_pct": 6.73,
       "catalyst": "ETFs sold $72.3 million of Applied Optoelectronics on Monday, Nov."
     },
     {
@@ -37,7 +37,7 @@
       "sma200": 75.4068,
       "premarket_high": 66.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.8,
+      "gap_pct": 9.15,
       "catalyst": "Artificial intelligence grabs the headlines, but the quieter story sits in the factories racing to build the advanced packaging gear that makes those AI chips usable."
     },
     {
@@ -50,7 +50,7 @@
       "sma200": 256.5576,
       "premarket_high": 235.55,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.16,
+      "gap_pct": 7.32,
       "catalyst": "Here is how Allient (ALNT) and Astera Labs, Inc."
     },
     {
@@ -63,7 +63,7 @@
       "sma200": 445.8608,
       "premarket_high": 397.72,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.76,
+      "gap_pct": 5.01,
       "catalyst": "The $38.77 billion fund bought $140.4 million of Oracle and $108.0 million of Corning while selling $69.6 million of Alphabet."
     },
     {
@@ -76,7 +76,7 @@
       "sma200": 418.5415,
       "premarket_high": 555.94,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.64,
+      "gap_pct": 5.89,
       "catalyst": "Goldman has found some stocks to buy from within the AI rubble."
     },
     {
@@ -87,9 +87,9 @@
       "yesterday_high": 36.14,
       "yesterday_close": 34.47,
       "sma200": 56.7266,
-      "premarket_high": 36.88,
+      "premarket_high": 36.9,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.37,
+      "gap_pct": 6.46,
       "catalyst": "A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-day rout in 19 months."
     },
     {
@@ -102,7 +102,7 @@
       "sma200": 166.5685,
       "premarket_high": 195.7508,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.48,
+      "gap_pct": 5.33,
       "catalyst": "ANET, FN, ADI and AMD stand out as AI stocks with strong earnings growth prospects, as market pullbacks create potential entry points."
     },
     {
@@ -115,8 +115,8 @@
       "sma200": 30.6414,
       "premarket_high": 18.6299,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.07,
-      "catalyst": "US equity markets were tracking in the green in Wednesday's premarket activity as CoreWeave's (CRWV)."
+      "gap_pct": 8.87,
+      "catalyst": "By Utkarsh Hathi and Tharuniyaa Lakshmi Nov 11 (Reuters) - The main US indexes were on track to open higher on Wednesday after neocloud firm CoreWeave's strong earnings assuaged investor worries about."
     },
     {
       "ticker": "ARM",
@@ -128,7 +128,7 @@
       "sma200": 231.5173,
       "premarket_high": 194.59,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.61,
+      "gap_pct": 6.11,
       "catalyst": "Investing.com -- UBS told clients in a note on Wednesday that demand for server processors stayed strong in the third quarter, with chips based on Arm (NASDAQ: ARM) designs and Advanced Micro Devices (NASDAQ: AMD)…"
     },
     {
@@ -141,7 +141,7 @@
       "sma200": 33.8962,
       "premarket_high": 37.9812,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.46,
+      "gap_pct": 6.17,
       "catalyst": "Nvidia (NASDAQ:NVDA) is reportedly financing billions of dollars in new factories and equipment to overcome a shortage limiting how many AI chips the industry can produce."
     },
     {
@@ -154,7 +154,7 @@
       "sma200": 65.6764,
       "premarket_high": 43.35,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.02,
+      "gap_pct": 10.1,
       "catalyst": "AXT, Inc. has been on a wild ride, with the share price swinging sharply even after a very large multi‑year gain."
     },
     {
@@ -167,8 +167,21 @@
       "sma200": 222.885,
       "premarket_high": 203.49,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.65,
-      "catalyst": "How fast U.S. politics change."
+      "gap_pct": 7.51,
+      "catalyst": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "ticker": "BKKT",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.4447,
+      "yesterday_high": 4.84,
+      "yesterday_close": 4.17,
+      "sma200": 8.4235,
+      "premarket_high": 4.39,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.04,
+      "catalyst": "Institutional clients ramp up as settlement rails reach 75 countries."
     },
     {
       "ticker": "BTDR",
@@ -180,7 +193,7 @@
       "sma200": 11.4077,
       "premarket_high": 6.83,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.05,
+      "gap_pct": 6.4,
       "catalyst": "Bitdeer Technologies Group (BTDR) posted record revenue and rapid AI cloud growth in Q3 2026, but a $125.5 million net loss and rising debt underscore the heavy cost of its data center buildout."
     },
     {
@@ -193,30 +206,21 @@
       "sma200": 6.7387,
       "premarket_high": 5.3169,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.16,
+      "gap_pct": 5.13,
       "catalyst": "A hotter-than-expected CPI print has traders betting on a December Fed rate hike, and crypto-linked stocks are feeling it unevenly."
     },
     {
-      "ticker": "CBRS",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 125 trading days of history (< 200 needed for SMA200)",
-      "history_days": 125,
-      "gap_pct": 5.39,
-      "catalyst": "Hotter than expected US inflation and talk of larger rate hikes have hit bonds and pushed borrowing costs higher."
-    },
-    {
-      "ticker": "CHSN",
+      "ticker": "CAPR",
       "status": "WAITING",
       "signal": false,
-      "atr14": 0.8671,
-      "yesterday_high": 2.833,
-      "yesterday_close": 2.35,
-      "sma200": 71.7258,
-      "premarket_high": 3.8599,
+      "atr14": 0.79,
+      "yesterday_high": 10.06,
+      "yesterday_close": 8.87,
+      "sma200": 20.139,
+      "premarket_high": 9.43,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 55.08,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+      "gap_pct": 5.86,
+      "catalyst": "Capricor Therapeutics Inc (CAPR) reported no Q3 2026 revenue but ended the quarter with approximately $198.5 million in cash and securities as it awaits a November 22, 2026 PDUFA date for Deramiocel."
     },
     {
       "ticker": "CIEN",
@@ -226,9 +230,9 @@
       "yesterday_high": 282.99,
       "yesterday_close": 272.1,
       "sma200": 406.0784,
-      "premarket_high": 294.6671,
+      "premarket_high": 294.96,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.82,
+      "gap_pct": 8.16,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -241,8 +245,21 @@
       "sma200": 17.3648,
       "premarket_high": 7.3423,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 11.79,
+      "gap_pct": 9.49,
       "catalyst": "Key TakeawaysJefferies kept its Buy rating on Cipher Digital and cut its price target to $10 from $12."
+    },
+    {
+      "ticker": "CLS",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 25.3636,
+      "yesterday_high": 236.67,
+      "yesterday_close": 223.89,
+      "sma200": 329.5429,
+      "premarket_high": 241.9,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.2,
+      "catalyst": "Custom AI chip platforms are becoming a major revenue driver for Celestica as hyperscalers shift toward proprietary processors."
     },
     {
       "ticker": "CLSK",
@@ -252,9 +269,9 @@
       "yesterday_high": 6.95,
       "yesterday_close": 6.57,
       "sma200": 12.1264,
-      "premarket_high": 7.05,
+      "premarket_high": 7.08,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.85,
+      "gap_pct": 7.15,
       "catalyst": "Key TakeawaysCipher Digital fell 20% in the week to Nov."
     },
     {
@@ -267,7 +284,7 @@
       "sma200": 296.645,
       "premarket_high": 236.88,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 10.31,
+      "gap_pct": 9.66,
       "catalyst": "AMD and Coherent are the best-performing S&P 500 stocks since last Thursday’s AI trade selloff."
     },
     {
@@ -280,7 +297,7 @@
       "sma200": 19.4491,
       "premarket_high": 14.25,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.61,
+      "gap_pct": 6.63,
       "catalyst": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
@@ -293,21 +310,8 @@
       "sma200": 180.741,
       "premarket_high": 142.3973,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.7,
+      "gap_pct": 6.5,
       "catalyst": "Key TakeawaysCredo Technology stock fell 14% in the past week after Democrats’ midterm sweep hit AI data center stocks, and Lumentum and Marvell fell with it."
-    },
-    {
-      "ticker": "CRSR",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.8486,
-      "yesterday_high": 12.4,
-      "yesterday_close": 12.27,
-      "sma200": 9.2546,
-      "premarket_high": 12.91,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.22,
-      "catalyst": "Corsair raises its 2026 outlook after a Q3 beat, with holiday demand and delayed peripherals fueling Q4 sales even as memory margins pressure profits."
     },
     {
       "ticker": "CRWV",
@@ -319,8 +323,8 @@
       "sma200": 89.7068,
       "premarket_high": 57.26,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 15.74,
-      "catalyst": "CoreWeave reported quarterly results on Tuesday."
+      "gap_pct": 14.51,
+      "catalyst": "Nvidia stock popped on Wednesday, snapping a two-day losing streak."
     },
     {
       "ticker": "DELL",
@@ -332,7 +336,7 @@
       "sma200": 339.7058,
       "premarket_high": 362.45,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.22,
+      "gap_pct": 8.17,
       "catalyst": "How fast U.S. politics change."
     },
     {
@@ -343,10 +347,36 @@
       "yesterday_high": 10.75,
       "yesterday_close": 10.28,
       "sma200": 14.9826,
-      "premarket_high": 10.97,
+      "premarket_high": 10.9761,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.07,
-      "catalyst": "A 900 megawatt overseas deal has Bloom Energy pulling away from its fuel cell rivals, but Texas politics and one looming earnings report could decide whether the rebound lasts."
+      "gap_pct": 6.77,
+      "catalyst": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "ticker": "FLEX",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 7.7436,
+      "yesterday_high": 79.39,
+      "yesterday_close": 76.09,
+      "sma200": 103.549,
+      "premarket_high": 81.4,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.43,
+      "catalyst": "Anthropic’s planned ANT IPO has turned the AI story into a live stress test for everything tied to data centers, GPUs and cloud capacity."
+    },
+    {
+      "ticker": "FLNC",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.5283,
+      "yesterday_high": 5.2,
+      "yesterday_close": 4.91,
+      "sma200": 14.7404,
+      "premarket_high": 5.17,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.09,
+      "catalyst": "Gevo (GEVO) delivered earnings and revenue surprises of +125.00% and +37.33%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "FOSL",
@@ -358,7 +388,7 @@
       "sma200": 4.9584,
       "premarket_high": 10.09,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 23.63,
+      "gap_pct": 26.43,
       "catalyst": "Investing.com - U.S. stock index futures were mixed on Wednesday, with technology shares leading gains as an upbeat financial outlook from AI cloud infrastructure provider CoreWeave and strong demand for Anthropic's…"
     },
     {
@@ -367,8 +397,17 @@
       "signal": false,
       "reason": "Only 193 trading days of history (< 200 needed for SMA200)",
       "history_days": 193,
-      "gap_pct": 9.12,
+      "gap_pct": 9.17,
       "catalyst": "Baron Capital, an investment management company, released its Q3 2026 investor letter for the “Baron Discovery Fund”."
+    },
+    {
+      "ticker": "FRVO",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 126 trading days of history (< 200 needed for SMA200)",
+      "history_days": 126,
+      "gap_pct": 5.27,
+      "catalyst": "Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports."
     },
     {
       "ticker": "GEV",
@@ -393,7 +432,7 @@
       "sma200": 156.4008,
       "premarket_high": 122.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.31,
+      "gap_pct": 7.0,
       "catalyst": "A 9.5% two-day slide in Nvidia that wiped about US$430b off its market value has turned a hot AI favorite into a stress test for every large-cap chip stock tied to China."
     },
     {
@@ -406,7 +445,7 @@
       "sma200": 23.6057,
       "premarket_high": 15.46,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.34,
+      "gap_pct": 7.94,
       "catalyst": "Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell 4.36%, and the Dow shed 3.44%, as Wall Street’s post-midterm optimism…"
     },
     {
@@ -419,21 +458,8 @@
       "sma200": 41.7292,
       "premarket_high": 51.34,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.03,
+      "gap_pct": 6.41,
       "catalyst": "AVT, OMCL, HPE and LCUT stand out as undervalued stocks, backed by strong earnings surprises, attractive valuations and robust projected growth."
-    },
-    {
-      "ticker": "HSAI",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.9494,
-      "yesterday_high": 14.76,
-      "yesterday_close": 14.4,
-      "sma200": 19.3321,
-      "premarket_high": 15.46,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.21,
-      "catalyst": "Pricing in Hesai's core lidar market is settling into rational competition, a shift that matters for whether margins hold as newer businesses scale."
     },
     {
       "ticker": "HUT",
@@ -445,7 +471,7 @@
       "sma200": 82.3879,
       "premarket_high": 63.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.21,
+      "gap_pct": 9.19,
       "catalyst": "Jefferies lowered the price target on TeraWulf, Hut 8 and Cipher Digital as part of a broader re-rating of AI Data Center companies."
     },
     {
@@ -458,7 +484,7 @@
       "sma200": 3.4683,
       "premarket_high": 3.4,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.29,
+      "gap_pct": 12.71,
       "catalyst": "LCI (LCII) delivered earnings and revenue surprises of +8.87% and -0.02%, respectively, for the quarter ended September 2026."
     },
     {
@@ -471,7 +497,7 @@
       "sma200": 87.1892,
       "premarket_high": 62.55,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.23,
+      "gap_pct": 5.88,
       "catalyst": "Investing.com -- UBS told clients in a note on Wednesday that demand for server processors stayed strong in the third quarter, with chips based on Arm (NASDAQ: ARM) designs and Advanced Micro Devices (NASDAQ: AMD)…"
     },
     {
@@ -484,7 +510,7 @@
       "sma200": 43.2106,
       "premarket_high": 21.49,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.81,
+      "gap_pct": 7.7,
       "catalyst": "US equity markets were tracking in the green in Wednesday's premarket activity as CoreWeave's (CRWV)."
     },
     {
@@ -497,48 +523,9 @@
       "sma200": 181.8827,
       "premarket_high": 163.89,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.73,
+      "gap_pct": 5.47,
       "catalyst": "A 9.5% two-day slide in Nvidia that wiped about US$430b off its market value has turned a hot AI favorite into a stress test for every large-cap chip stock tied to China."
-    },
-    {
-      "ticker": "KOPN",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.3371,
-      "yesterday_high": 3.47,
-      "yesterday_close": 3.32,
-      "sma200": 3.8,
-      "premarket_high": 3.57,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.42,
-      "catalyst": "Kopin Corp (KOPN) posted $18.2 million in quarterly revenue, secured a $34 million color micro LED program, and targets GAAP profitability in Q4 2026."
-    },
-    {
-      "ticker": "LITE",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 82.1656,
-      "yesterday_high": 612.623,
-      "yesterday_close": 585.57,
-      "sma200": 810.2156,
-      "premarket_high": 645.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.94,
-      "catalyst": "How fast U.S. politics change."
-    },
-    {
-      "ticker": "LRCX",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 17.5436,
-      "yesterday_high": 228.71,
-      "yesterday_close": 222.39,
-      "sma200": 284.0249,
-      "premarket_high": 237.6,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.78,
-      "catalyst": "ETFs bought $231.4 million of Lam Research on Monday, with 45 funds buying and 23 selling."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
