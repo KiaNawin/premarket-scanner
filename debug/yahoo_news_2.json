@@ -1,32 +1,32 @@
 {
-  "ticker": "AXTI",
-  "saved_at_et": "2026-11-11T13:34:44-05:00",
+  "ticker": "CRWV",
+  "saved_at_et": "2026-11-11T14:05:28-05:00",
   "response": [
     {
-      "id": "b22110cd-696b-3cc9-b0a8-4826dcb295ed",
+      "id": "afd507c9-fec5-49dc-9873-98907c485791",
       "content": {
-        "id": "b22110cd-696b-3cc9-b0a8-4826dcb295ed",
+        "id": "afd507c9-fec5-49dc-9873-98907c485791",
         "contentType": "STORY",
-        "title": "AXT (AXTI) Stock Seems Reasonably Valued As Record Revenue Reshapes Earnings",
+        "title": "Bloom Energy stock surges as CoreWeave earnings spur rally in power stocks",
         "description": null,
-        "summary": "AXT, Inc. has been on a wild ride, with the share price swinging sharply even after a very large multi‑year gain. That puts fresh scrutiny on whether the current valuation lines up with the business’s earnings power. For anyone looking at AXT stock today, the key issue is how that rapid rise and recent pullback stack up against what the company is actually generating in profit. Over the past 3 years, AXT has delivered a gain of roughly 18x, which puts a lot of weight on the question of...",
-        "pubDate": "2026-11-11T01:12:06Z",
-        "displayTime": "2026-11-11T01:12:06Z",
+        "summary": "Bloom Energy rode the wave of positive sentiment following CoreWeave's stellar earnings report.",
+        "pubDate": "2026-11-11T18:53:58Z",
+        "displayTime": "2026-11-11T18:53:58Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/3730f7340ade4524431170038c298305.jpg",
-          "originalWidth": 1600,
-          "originalHeight": 900,
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/81775046-1f20-447d-82c5-95ca4cbc2d2b",
+          "originalWidth": 5760,
+          "originalHeight": 3840,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/3730f7340ade4524431170038c298305.jpg",
-              "width": 1600,
-              "height": 900,
+              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/81775046-1f20-447d-82c5-95ca4cbc2d2b",
+              "width": 5760,
+              "height": 3840,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e79477deccf5c47fe5b0cfb8c03f751114baea9b8edfa651ac1421b3fccfad89/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F3730f7340ade4524431170038c298305.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/add612dffe20233a10035206a0187b691c8cee084bf5e61fe2c79cba64de06e2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F81775046-1f20-447d-82c5-95ca4cbc2d2b",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/axt-axti-stock-seems-reasonably-011206493.html"
+          "url": "https://finance.yahoo.com/markets/stocks/article/bloom-energy-stock-surges-as-coreweave-earnings-spur-rally-in-power-stocks-185358201.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/axt-axti-stock-seems-reasonably-011206493.html"
+          "url": "https://finance.yahoo.com/markets/stocks/article/bloom-energy-stock-surges-as-coreweave-earnings-spur-rally-in-power-stocks-185358201.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,37 +49,43 @@
           },
           "stockTickers": [
             {
-              "symbol": "AXTI"
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "BE"
+            },
+            {
+              "symbol": "^GSPC"
             }
           ]
         }
       }
     },
     {
-      "id": "bf98c992-27e8-34e3-b24b-c0b14c6d4133",
+      "id": "9565fc20-ef76-4803-811e-059c8c370ced",
       "content": {
-        "id": "bf98c992-27e8-34e3-b24b-c0b14c6d4133",
-        "contentType": "STORY",
-        "title": "4 Strong Buy AI Stocks to Consider Amid the Tech Selloff: CLS, DELL, TER & AXTI",
-        "description": null,
-        "summary": "The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and semiconductors.",
-        "pubDate": "2026-11-05T20:20:00Z",
-        "displayTime": "2026-11-05T20:20:00Z",
+        "id": "9565fc20-ef76-4803-811e-059c8c370ced",
+        "contentType": "VIDEO",
+        "title": "CoreWeave surges, but bigger tests loom for the AI trade",
+        "description": "<p>CoreWeave (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/CRWV/\" data-i13n=\"cpos:1;pos:1\">CRWV</a>) jumped 24% in morning trading as the company <a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/markets/stocks/article/coreweave-stock-pops-as-q3-revenue-beats-estimates-company-raises-full-year-outlook-211533280.html\" data-i13n=\"cpos:2;pos:1\">beat on third quarter sales estimates</a>. The rally offers a much-needed boost to AI investors, but bigger tests lie ahead, with Nvidia  (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/NVDA/\" data-i13n=\"cpos:3;pos:1\">NVDA</a>) earnings next week and Anthropic (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/ANTH.PVT/\" data-i13n=\"cpos:4;pos:1\">ANTH.PVT</a>) preparing for a potential IPO. Host Kevin Kelly, Kelly Intelligence Founder, CEO, and CCO, and his panel of experts weigh in.<br><br>Today's panel includes EP Wealth Advisors Managing Director of Investments Adam Phillips, Zacks Investment Management Chief Market Strategist Brian Mulberry, and ProShares Global Investment Strategist Simeon Hyman.</p>",
+        "summary": "CoreWeave (CRWV) jumped 24% in morning trading as the company beat on third quarter sales estimates. The rally offers a much-needed boost to AI investors, but bigger tests lie ahead, with Nvidia  (NVDA) earnings next week and Anthropic (ANTH.PVT) preparing for a potential IPO. Host Kevin Kelly, Kelly Intelligence Founder, CEO, and CCO, and his panel of experts weigh in.Today's panel includes EP Wealth Advisors Managing Director of Investments Adam Phillips, Zacks Investment Management Chief Market Strategist Brian Mulberry, and ProShares Global Investment Strategist Simeon Hyman.",
+        "pubDate": "2026-11-11T18:14:34Z",
+        "displayTime": "2026-11-11T18:14:34Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2.jpg",
-          "originalWidth": 900,
-          "originalHeight": 625,
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/cfd54f66-7418-4b62-a3b5-44d155370606",
+          "originalWidth": 6048,
+          "originalHeight": 4032,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2.jpg",
-              "width": 900,
-              "height": 625,
+              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/cfd54f66-7418-4b62-a3b5-44d155370606",
+              "width": 6048,
+              "height": 4032,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/112b76f64a0cd8d0ffda4fa81bfed2ab565cbef31c3f2f358f22aa45e79c7368/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F7ea641b46fe75c0a913349e5e610d6a2.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/0a7a6fcc7c0367effc30eb4ad0bc383872ea50d78f27156cc986d84e093d51e7/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fcfd54f66-7418-4b62-a3b5-44d155370606",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -87,14 +93,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/4-strong-buy-ai-stocks-202000643.html"
+          "url": "https://finance.yahoo.com/video/coreweave-surges-but-bigger-tests-loom-for-the-ai-trade-181434925.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/4-strong-buy-ai-stocks-202000643.html"
+          "url": "https://finance.yahoo.com/video/coreweave-surges-but-bigger-tests-loom-for-the-ai-trade-181434925.html"
         },
         "finance": {
           "premiumFinance": {
@@ -102,49 +108,55 @@
           },
           "stockTickers": [
             {
-              "symbol": "CLS"
+              "symbol": "CRWV"
             },
             {
-              "symbol": "DELL"
+              "symbol": "NVDA"
             },
             {
-              "symbol": "TER"
+              "symbol": "ANTH.PVT"
             },
             {
-              "symbol": "CLS"
+              "symbol": "^IXIC"
             },
             {
-              "symbol": "AXTI"
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "GOOGM"
+            },
+            {
+              "symbol": "MU"
             }
           ]
         }
       }
     },
     {
-      "id": "fda9ca85-8bab-3bd6-88bf-0bdf8938a56b",
+      "id": "8e421aa8-71e0-4889-af84-e9bff5b37eb0",
       "content": {
-        "id": "fda9ca85-8bab-3bd6-88bf-0bdf8938a56b",
+        "id": "8e421aa8-71e0-4889-af84-e9bff5b37eb0",
         "contentType": "STORY",
-        "title": "Should You Buy, Sell or Hold AXTI Stock After Its Strong Q3 Results?",
+        "title": "CoreWeave stock surges as Q3 revenue beats estimates, company raises full-year outlook",
         "description": null,
-        "summary": "AXT's 162% Q3 revenue jump and $500 million-plus backlog point to booming InP demand. Yet its 191% rally and valuation premium raise the stakes for investors.",
-        "pubDate": "2026-11-05T16:50:00Z",
-        "displayTime": "2026-11-05T16:50:00Z",
+        "summary": "CoreWeave stock jumped after the neocloud provider reported quarterly results on Tuesday.",
+        "pubDate": "2026-11-10T21:15:33Z",
+        "displayTime": "2026-11-11T16:59:11Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/ad27c7d5ed45d867e5981bd6133867f4.jpg",
-          "originalWidth": 619,
-          "originalHeight": 250,
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-10/1d73ecd8-2195-457c-83a1-27f372b91f8a",
+          "originalWidth": 3000,
+          "originalHeight": 2000,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/ad27c7d5ed45d867e5981bd6133867f4.jpg",
-              "width": 619,
-              "height": 250,
+              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/1d73ecd8-2195-457c-83a1-27f372b91f8a",
+              "width": 3000,
+              "height": 2000,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/30af05b07d6ee14562ad8c8ccf21991b530a8ed603b03cd6b8bd5ae025c58139/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fad27c7d5ed45d867e5981bd6133867f4.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/570e95e3b4804553856f50f7b67d8ca871b5210d88ad9dfd945892b306ccd21f/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F1d73ecd8-2195-457c-83a1-27f372b91f8a",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -152,14 +164,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-axti-stock-165000731.html"
+          "url": "https://finance.yahoo.com/markets/stocks/article/coreweave-stock-pops-as-q3-revenue-beats-estimates-company-raises-full-year-outlook-211533280.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-axti-stock-165000731.html"
+          "url": "https://finance.yahoo.com/markets/stocks/article/coreweave-stock-pops-as-q3-revenue-beats-estimates-company-raises-full-year-outlook-211533280.html"
         },
         "finance": {
           "premiumFinance": {
@@ -167,16 +179,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "MRVL"
-            },
-            {
-              "symbol": "AXTI"
-            },
-            {
-              "symbol": "FORM"
-            },
-            {
-              "symbol": "AMKR"
+              "symbol": "CRWV"
             }
           ]
         }
