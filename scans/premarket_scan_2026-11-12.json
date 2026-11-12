@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 11:04:59 EST",
-  "scan_time_et": "11:04",
+  "generated_at_et": "2026-11-12 11:33:45 EST",
+  "scan_time_et": "11:33",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 275,
-    "with_data": 234,
-    "gap": 56,
-    "gap_price": 50,
-    "passed": 10,
+    "prefilter": 283,
+    "with_data": 239,
+    "gap": 62,
+    "gap_price": 56,
+    "passed": 12,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7077,
-  "count": 10,
+  "count": 12,
   "results": [
     {
       "ticker": "ADXN",
-      "price": 4.7,
-      "gap_pct": 62.63,
+      "price": 4.76,
+      "gap_pct": 64.53,
       "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027.",
       "prev_close": 2.89,
       "premarket_volume": 6965699,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "AVEX",
-      "price": 15.33,
-      "gap_pct": 26.38,
+      "price": 14.76,
+      "gap_pct": 21.68,
       "catalyst": "Organic growth and the recent acquisition of a new maritime business help push Aevex’s quarterly revenue well above analysts’ expectations.",
       "prev_close": 12.13,
       "premarket_volume": 267791,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "LUNR",
-      "price": 13.98,
-      "gap_pct": 14.78,
+      "price": 14.56,
+      "gap_pct": 19.54,
       "catalyst": "CEO Steve Altemus said the company remains focused on IM-3 and its first Altus-1 lunar satellite, which is on track for a planned launch in March/April 2027.",
       "prev_close": 12.18,
       "premarket_volume": 3175269,
@@ -58,8 +58,8 @@
     },
     {
       "ticker": "RETO",
-      "price": 6.79,
-      "gap_pct": 9.69,
+      "price": 7.3,
+      "gap_pct": 17.93,
       "catalyst": "The financing involves 10 million shares priced at $1.",
       "prev_close": 6.19,
       "premarket_volume": 62526,
@@ -69,21 +69,9 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/36517/reto-eco-solutions-prices-15-million-registered-direct-offering-with-warrants-and-additional-purchase-rights"
     },
     {
-      "ticker": "OPTX",
-      "price": 7.24,
-      "gap_pct": 9.64,
-      "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution.",
-      "prev_close": 6.6,
-      "premarket_volume": 61586,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "OPTX Trades at a Premium to the Industry: How to Play the Stock?",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/optx-trades-premium-industry-play-164400017.html"
-    },
-    {
       "ticker": "FIGR",
-      "price": 26.4,
-      "gap_pct": 9.14,
+      "price": 27.21,
+      "gap_pct": 12.48,
       "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026.",
       "prev_close": 24.19,
       "premarket_volume": 936026,
@@ -94,8 +82,8 @@
     },
     {
       "ticker": "CLS",
-      "price": 263.67,
-      "gap_pct": 8.54,
+      "price": 263.45,
+      "gap_pct": 8.45,
       "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang.",
       "prev_close": 242.92,
       "premarket_volume": 96430,
@@ -105,9 +93,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-subdued-amid-reports-121009808.html"
     },
     {
+      "ticker": "OPTX",
+      "price": 7.14,
+      "gap_pct": 8.11,
+      "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution.",
+      "prev_close": 6.6,
+      "premarket_volume": 61586,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "OPTX Trades at a Premium to the Industry: How to Play the Stock?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/optx-trades-premium-industry-play-164400017.html"
+    },
+    {
       "ticker": "HUBS",
-      "price": 216.7,
-      "gap_pct": 6.81,
+      "price": 218.08,
+      "gap_pct": 7.49,
       "catalyst": "Investing.com -- HubSpot Inc (NYSE:HUBS) shares rose 6.1% in premarket trading Thursday after the software provider announced a sweeping leadership overhaul, bringing back co-founder Brian Halligan as chief executive…",
       "prev_close": 202.88,
       "premarket_volume": 72333,
@@ -117,21 +117,33 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/hubspot-stock-rises-6-sweeping-145738653.html"
     },
     {
-      "ticker": "VG",
-      "price": 13.32,
-      "gap_pct": 5.25,
-      "catalyst": "Venture Global (NYSE:VG) has begun commercial operations at Phase 1 of its Plaquemines LNG project, after reaching final investment decision in record time for a project of this scale.",
-      "prev_close": 12.66,
-      "premarket_volume": 190871,
+      "ticker": "AVGO",
+      "price": 368.1,
+      "gap_pct": 6.63,
+      "catalyst": "Chip giants Broadcom and AMD rose on the back of Nvidia's recent woes.",
+      "prev_close": 345.22,
+      "premarket_volume": 1920510,
       "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "What Is Venture Global (VG) Signaling With Plaquemines LNG And AI Power Plans?",
-      "catalyst_url": "https://finance.yahoo.com/energy/articles/venture-global-vg-signaling-plaquemines-100919460.html"
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
+      "catalyst_url": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html"
+    },
+    {
+      "ticker": "AMD",
+      "price": 588.64,
+      "gap_pct": 6.46,
+      "catalyst": "AMD CEO Lisa Su says tech has to do a better job of selling the data center vision to the public.",
+      "prev_close": 552.9,
+      "premarket_volume": 5523397,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "AMD CEO Lisa Su on data center backlash: Tech has to sell the vision",
+      "catalyst_url": "https://finance.yahoo.com/technology/article/amd-ceo-lisa-su-on-data-center-backlash-tech-has-to-sell-the-vision-162604989.html"
     },
     {
       "ticker": "XE",
-      "price": 11.51,
-      "gap_pct": 5.16,
+      "price": 11.49,
+      "gap_pct": 5.03,
       "catalyst": "GE Vernova Hitachi’s small nuclear reactor in Ontario, Canada, is facing delays and cost overruns.",
       "prev_close": 10.94,
       "premarket_volume": 271125,
@@ -139,6 +151,18 @@
       "catalyst_source": "Barrons.com",
       "catalyst_headline": "Bad News for Nuclear: A Landmark Reactor Just Got Delayed",
       "catalyst_url": "https://www.barrons.com/articles/ge-vernova-hitachi-stock-nuclear-energy-51a5d81c?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "VG",
+      "price": 13.3,
+      "gap_pct": 5.02,
+      "catalyst": "Venture Global (NYSE:VG) has begun commercial operations at Phase 1 of its Plaquemines LNG project, after reaching final investment decision in record time for a project of this scale.",
+      "prev_close": 12.66,
+      "premarket_volume": 190871,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "What Is Venture Global (VG) Signaling With Plaquemines LNG And AI Power Plans?",
+      "catalyst_url": "https://finance.yahoo.com/energy/articles/venture-global-vg-signaling-plaquemines-100919460.html"
     }
   ]
 }
