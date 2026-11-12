@@ -1,12 +1,208 @@
 {
   "ticker": "POAS",
-  "saved_at_et": "2026-11-12T09:32:06-05:00",
+  "saved_at_et": "2026-11-12T10:02:34-05:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "13 minutes ago",
+          "ago": "16 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "(RTTNews) - Thursday, Can-Fite BioPharma Ltd. (CANF) announced published preclinical research demonstrating that its oral drug candidate piclidenoson corrects cellular abnormalities and reduces a kidney disease marker by 48% to 80% in models of Lowe syndrome.",
+          "id": 28826911,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "canf",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "canf|stocks"
+          ],
+          "title": "Can-Fite's Piclidenoson Cuts Kidney Disease Marker By Up To 80% In Preclinical Study ",
+          "url": "/articles/can-fites-piclidenoson-cuts-kidney-disease-marker-80-preclinical-study"
+        },
+        {
+          "ago": "21 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) closed up +1.31% on Wednesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.49%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +2.28%.  December E-mini S&P futures (ESZ26 ) rose +1.33%, and December E-mini Nasdaq futures...",
+          "id": 28820696,
+          "image": "/barchart/Fearless%2520Girl%2520looking%2520up%2520at%2520Wall%2520Street%2520at%2520Night%2520by%2520Tim%2520Pruss%2520via%2520iStock.jpg",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Barchart",
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
+          "related_symbols": [
+            "mstr|stocks",
+            "amat|stocks",
+            "anet|stocks",
+            "sndk|stocks",
+            "glxy|stocks",
+            "lite|stocks",
+            "coin|stocks",
+            "bmnr|stocks",
+            "crwv|stocks",
+            "glw|stocks",
+            "bv|stocks",
+            "stx|stocks",
+            "wdc|stocks",
+            "amd|stocks",
+            "lrcx|stocks",
+            "phr|stocks",
+            "spy|etf",
+            "dia|etf",
+            "klac|stocks",
+            "mara|stocks",
+            "hgty|stocks",
+            "mu|stocks",
+            "orcl|stocks",
+            "qqq|etf",
+            "iren|stocks",
+            "intc|stocks",
+            "apld|stocks",
+            "nbis|stocks",
+            "arm|stocks",
+            "hood|stocks",
+            "mrvl|stocks",
+            "mrcy|stocks"
+          ],
+          "title": "Stock Indexes Finish Sharply Higher on AI Demand Optimism",
+          "url": "/articles/stock-indexes-finish-sharply-higher-ai-demand-optimism"
+        },
+        {
+          "ago": "27 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28826841,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "dgii",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "dgii|stocks"
+          ],
+          "title": "Digi International (DGII) Q4 2026 Earnings Call Transcript",
+          "url": "/articles/digi-international-dgii-q4-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "32 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "(RTTNews) - Corteva, Inc. (CTVA) will host a conference call at 10:30 AM ET on November 12, 2026, to discuss Q3 26 earnings results.",
+          "id": 28826826,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "ctva",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "ctva|stocks"
+          ],
+          "title": "Corteva Q3 26 Earnings Conference Call At 10:30 AM ET ",
+          "url": "/articles/corteva-q3-26-earnings-conference-call-10-30-am-et"
+        },
+        {
+          "ago": "33 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "Key PointsShares of AMD and Nvidia have retreated significantly over the past month.",
+          "id": 28826811,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "nvda",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "nvda|stocks",
+            "amd|stocks"
+          ],
+          "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off?",
+          "url": "/articles/nvidia-vs-amd-which-better-artificial-intelligence-ai-stock-2027-after-tech-sell"
+        },
+        {
+          "ago": "33 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "(RTTNews) - DarioHealth Corp. (DRIO), an AI-powered healthcare technology company, announced third-quarter financial results for the quarter ended September 30, 2026, reflecting a narrower net loss and 6% revenue growth compared to the prior year.",
+          "id": 28826726,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "drio",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "drio|stocks"
+          ],
+          "title": "DarioHealth Corp Q3 Net Loss Narrows As Revenue Rises 6% ",
+          "url": "/articles/dariohealth-corp-q3-net-loss-narrows-revenue-rises-6"
+        },
+        {
+          "ago": "35 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "(RTTNews) - Uber Technologies, Inc. (UBER) and Tractor Supply Co. (TSCO) announced Thursday a new nationwide partnership to bring Tractor Supply's products to the Uber marketplace - Uber, Uber Eats and Postmates.",
+          "id": 28826721,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "tsco",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "tsco|stocks",
+            "uber|stocks"
+          ],
+          "title": "Uber Partners With Tractor Supply To Launch Nationwide On-Demand Delivery ",
+          "url": "/articles/uber-partners-tractor-supply-launch-nationwide-demand-delivery"
+        },
+        {
+          "ago": "37 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "Should you buy stock in Sea Limited right now?\nBefore you buy stock in Sea Limited, consider this:Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only at the",
+          "id": 28826816,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "se",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "se|stocks"
+          ],
+          "title": "Why Is Sea Limited Stock Falling, and is it a Buying Opportunity?",
+          "url": "/articles/why-sea-limited-stock-falling-and-it-buying-opportunity"
+        },
+        {
+          "ago": "38 minutes ago",
+          "created": "Nov 12, 2026",
+          "description": "(RTTNews) - Thursday, DuPont de Nemours, Inc. (DD) announced a collaboration with Microsoft Corporation (MSFT) and NobleAI to expand access to advanced AI tools and resources.",
+          "id": 28826716,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "dd",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "dd|stocks",
+            "msft|stocks"
+          ],
+          "title": "DuPont De Nemours Teams Up With Microsoft And NobleAI On AI Tools Expansion ",
+          "url": "/articles/dupont-de-nemours-teams-microsoft-and-nobleai-ai-tools-expansion"
+        },
+        {
+          "ago": "45 minutes ago",
           "created": "Nov 12, 2026",
           "description": "Key PointsRevenue grew 89% year over year to $320.7 million in the third quarter.",
           "id": 28826606,
@@ -22,170 +218,6 @@
           ],
           "title": "Bitdeer: 3 Key Takeaways for Long-Term Investors",
           "url": "/articles/bitdeer-3-key-takeaways-long-term-investors"
-        },
-        {
-          "ago": "17 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "(RTTNews) - Thursday, Klarna Group plc (KLAR) announced the appointment of Chris Koegel as Chief Financial Officer, effective 1 January 2027.",
-          "id": 28826631,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "klar",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "klar|stocks"
-          ],
-          "title": "Klarna Appoints Chris Koegel As CFO, Succeeding Niclas Neglén ",
-          "url": "/articles/klarna-appoints-chris-koegel-cfo-succeeding-niclas-neglen"
-        },
-        {
-          "ago": "17 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "Key PointsThe Nasdaq Composite bounced back impressively after last year's tariff-induced sell-off, and it can repeat that feat once again.",
-          "id": 28826551,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "stx",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "stx|stocks"
-          ],
-          "title": "History Says the Nasdaq Will Soar Once Again in 2027 After the Sell-Off. The Best Growth Stock to Buy Before That Happens",
-          "url": "/articles/history-says-nasdaq-will-soar-once-again-2027-after-sell-best-growth-stock-buy-happens"
-        },
-        {
-          "ago": "25 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "(RTTNews) - NVIDIA (NVDA) Board announced that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately. Colette Kress, current Executive Vice President and CFO, has agreed to serve as Interim CEO. The Board is initiating a",
-          "id": 28826471,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "nvda",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "nvda|stocks"
-          ],
-          "title": "NVIDIA CEO Jensen Huang Resigns; Stock Down 10% ",
-          "url": "/articles/nvidia-ceo-jensen-huang-resigns-stock-down-10"
-        },
-        {
-          "ago": "26 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "(RTTNews) - National Vision Holdings, Inc. (EYE) reported third-quarter results, reflecting a sharp increase in net income, supported by comparable store sales growth, higher-value product transactions, and lower selling, general, and administrative expenses.",
-          "id": 28826466,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "eye",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "eye|stocks"
-          ],
-          "title": "National Vision Q3 Profit Surges On Higher Sales And Margin Expansion; Updates Fiscal 2026 Outlook ",
-          "url": "/articles/national-vision-q3-profit-surges-higher-sales-and-margin-expansion-updates-fiscal-2026"
-        },
-        {
-          "ago": "27 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "Key PointsChevron's Q3 adjusted profit nearly tripled to $10.4 billion, even as production fell 2.6%.",
-          "id": 28826556,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "cvx",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "cvx|stocks"
-          ],
-          "title": "Chevron's Production Fell. Its Profit Nearly Tripled. Here's How.",
-          "url": "/articles/chevrons-production-fell-its-profit-nearly-tripled-heres-how"
-        },
-        {
-          "ago": "30 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "(RTTNews) - Brookfield Corporation (BN) will host a conference call at 10:00 AM ET on November 12, 2026, to discuss Q3 26 earnings results.",
-          "id": 28826481,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "bn",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "bn|stocks"
-          ],
-          "title": "Brookfield Corp. Q3 26 Earnings Conference Call At 10:00 AM ET ",
-          "url": "/articles/brookfield-corp-q3-26-earnings-conference-call-10-00-am-et"
-        },
-        {
-          "ago": "39 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "Key PointsASML reported record third-quarter results on Oct. 14, and management said its planned supply for 2027 and 2028 won’t fully meet customer demand.",
-          "id": 28826141,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "asml",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "asml|stocks",
-            "tsm|stocks",
-            "intc|stocks"
-          ],
-          "title": "Wall Street's Next Blockbuster Stock Split Could Come From This Chip Equipment Giant",
-          "url": "/articles/wall-streets-next-blockbuster-stock-split-could-come-chip-equipment-giant"
-        },
-        {
-          "ago": "40 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "(RTTNews) - Thursday, Eli Lilly and Co. (LLY) said China approved its once-daily orforglipron pill, which will be marketed locally as Muyoda, for adult weight management, making it the country's first approved oral GLP-1 receptor agonist for this use.",
-          "id": 28826501,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "lly",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "lly|stocks"
-          ],
-          "title": "Lilly Wins China's First Approval For Oral GLP-1 Weight-Loss Drug ",
-          "url": "/articles/lilly-wins-chinas-first-approval-oral-glp-1-weight-loss-drug"
-        },
-        {
-          "ago": "40 minutes ago",
-          "created": "Nov 12, 2026",
-          "description": "Should you buy stock in Chewy right now?\nBefore you buy stock in Chewy, consider this:Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only at the end of \"Act",
-          "id": 28826136,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "chwy",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "chwy|stocks"
-          ],
-          "title": "Is Chewy Stock a Buy Right Now in November 2026?",
-          "url": "/articles/chewy-stock-buy-right-now-november-2026"
         }
       ],
       "totalrecords": 500

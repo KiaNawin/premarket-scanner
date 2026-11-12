@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 09:32:07 EST",
-  "scan_time_et": "09:32",
+  "generated_at_et": "2026-11-12 10:02:36 EST",
+  "scan_time_et": "10:02",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 120,
-    "with_data": 79,
-    "gap": 25,
-    "gap_price": 23,
-    "passed": 8,
+    "prefilter": 236,
+    "with_data": 210,
+    "gap": 34,
+    "gap_price": 30,
+    "passed": 9,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7077,
-  "count": 8,
+  "count": 9,
   "results": [
     {
       "ticker": "POAS",
-      "price": 3.02,
-      "gap_pct": 234.63,
+      "price": 4.03,
+      "gap_pct": 347.14,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 0.9,
       "premarket_volume": 42351749,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "ADXN",
-      "price": 4.64,
-      "gap_pct": 60.55,
+      "price": 5.45,
+      "gap_pct": 88.75,
       "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027.",
       "prev_close": 2.89,
       "premarket_volume": 6965699,
@@ -45,33 +45,21 @@
       "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/09/28/addex-adxn-q2-2026-earnings-call-transcript/"
     },
     {
-      "ticker": "LUNR",
-      "price": 14.04,
-      "gap_pct": 15.31,
-      "catalyst": "Intuitive Machines Inc (NASDAQ:LUNR), the space technology and infrastructure company, rose 14% to $13.88 in pre-market trading after reporting record third-quarter revenue and a smaller-than-expected loss.",
-      "prev_close": 12.18,
-      "premarket_volume": 3175269,
+      "ticker": "RETO",
+      "price": 8.87,
+      "gap_pct": 43.3,
+      "catalyst": "The financing involves 10 million shares priced at $1.",
+      "prev_close": 6.19,
+      "premarket_volume": 62526,
       "session": "regular",
-      "catalyst_source": "Proactive",
-      "catalyst_headline": "Intuitive Machines jumps 14% as record revenue and backlog beat expectations",
-      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101680/intuitive-machines-jumps-14-as-record-revenue-and-backlog-beat-expectations-1101680.html"
-    },
-    {
-      "ticker": "TTEK",
-      "price": 41.6,
-      "gap_pct": 10.6,
-      "catalyst": "(Updates with the stock move in the headline and the first paragraph.) Tetra Tech (TTEK) shares w.",
-      "prev_close": 37.61,
-      "premarket_volume": 149615,
-      "session": "regular",
-      "catalyst_source": "MT Newswires",
-      "catalyst_headline": "Update: Tetra Tech Jump Pre-Bell as Fiscal Q4 Adjusted Earnings Beat, Net Sales in Line; Fiscal 2027 Guidance Meets Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tetra-tech-jump-pre-bell-094148077.html"
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "ReTo Eco-Solutions Prices $15 Million Registered Direct Offering With Warrants and Additional Purchase Rights",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/36517/reto-eco-solutions-prices-15-million-registered-direct-offering-with-warrants-and-additional-purchase-rights"
     },
     {
       "ticker": "AVEX",
-      "price": 13.24,
-      "gap_pct": 9.15,
+      "price": 13.88,
+      "gap_pct": 14.43,
       "catalyst": "Organic growth and the recent acquisition of a new maritime business help push Aevex’s quarterly revenue well above analysts’ expectations.",
       "prev_close": 12.13,
       "premarket_volume": 267791,
@@ -81,33 +69,21 @@
       "catalyst_url": "https://www.barrons.com/articles/aevex-earnings-stock-price-20025f46?siteid=yhoof2&yptr=yahoo"
     },
     {
-      "ticker": "HUBS",
-      "price": 217.26,
-      "gap_pct": 7.09,
-      "catalyst": "No more small boy spreadsheets, build your business on the free HubSpot CRM: https://mfmpod.link/hrdFor more quality videos subscribe here → https://tinyurl.com/46rjnckx🔔 Turn on notifications to stay updated with new…",
-      "prev_close": 202.88,
-      "premarket_volume": 72333,
-      "session": "pre-market",
-      "catalyst_source": "My First Million",
-      "catalyst_headline": "The Man Behind MrBeast Burgers",
-      "catalyst_url": "https://myfirstmillion.videonest.co/videos/1787243/the-man-behind-mrbeast-burgers-ITq-3v04e-"
-    },
-    {
-      "ticker": "CHA",
-      "price": 13.07,
-      "gap_pct": 6.0,
-      "catalyst": "KDP's planned 2027 split aims to unlock long-term value through focused growth, debt reduction and $400 million in coffee cost synergies.",
-      "prev_close": 12.33,
-      "premarket_volume": 373165,
+      "ticker": "LUNR",
+      "price": 13.89,
+      "gap_pct": 14.04,
+      "catalyst": "A record quarter is pulling Intuitive Machines (NASDAQ:LUNR) away from the rest of the space group amid a broad pullback in growth stocks.",
+      "prev_close": 12.18,
+      "premarket_volume": 3175269,
       "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Can Keurig Dr Pepper's Planned 2027 Split Drive Long-Term Value?",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-peppers-planned-2027-134700440.html"
+      "catalyst_source": "24/7 Wall St.",
+      "catalyst_headline": "Intuitive Machines Surges 16% on Record Quarter and Positive Free Cash Flow; AST SpaceMobile Falls 3%, Rocket Lab Slips 2%",
+      "catalyst_url": "https://247wallst.com/investing/2026/11/12/intuitive-machines-surges-16-on-record-quarter-and-positive-free-cash-flow-ast-spacemobile-falls-3-rocket-lab-slips-2/"
     },
     {
       "ticker": "FIGR",
-      "price": 25.62,
-      "gap_pct": 5.91,
+      "price": 25.68,
+      "gap_pct": 6.16,
       "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026.",
       "prev_close": 24.19,
       "premarket_volume": 936026,
@@ -115,6 +91,42 @@
       "catalyst_source": "Zacks",
       "catalyst_headline": "Figure Technology (FIGR) Tops Q3 Earnings and Revenue Estimates",
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/figure-technology-figr-tops-q3-115502333.html"
+    },
+    {
+      "ticker": "OPTX",
+      "price": 7.0,
+      "gap_pct": 6.11,
+      "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution.",
+      "prev_close": 6.6,
+      "premarket_volume": 61586,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "OPTX Trades at a Premium to the Industry: How to Play the Stock?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/optx-trades-premium-industry-play-164400017.html"
+    },
+    {
+      "ticker": "HUBS",
+      "price": 214.97,
+      "gap_pct": 5.96,
+      "catalyst": "Investing.com -- HubSpot Inc (NYSE:HUBS) shares rose 6.1% in premarket trading Thursday after the software provider announced a sweeping leadership overhaul, bringing back co-founder Brian Halligan as chief executive…",
+      "prev_close": 202.88,
+      "premarket_volume": 72333,
+      "session": "regular",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "HubSpot stock rises 6% on sweeping CEO and CFO leadership overhaul",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/hubspot-stock-rises-6-sweeping-145738653.html"
+    },
+    {
+      "ticker": "CLS",
+      "price": 255.73,
+      "gap_pct": 5.27,
+      "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang.",
+      "prev_close": 242.92,
+      "premarket_volume": 96430,
+      "session": "regular",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "TSX futures subdued amid reports Nvidia board preparing ouster of CEO Jensen Huang",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-subdued-amid-reports-121009808.html"
     }
   ]
 }

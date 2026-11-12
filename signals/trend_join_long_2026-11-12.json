@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 09:35:00 EST",
+  "generated_at_et": "2026-11-12 10:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-12.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 8,
+  "candidates": 9,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -23,9 +23,9 @@
       "yesterday_close": 2.89,
       "sma200": 5.5941,
       "premarket_high": 7.0483,
-      "last_price": 5.1541,
-      "last_bar_et": "09:34",
-      "high_of_day": 5.5599,
+      "last_price": 5.2699,
+      "last_bar_et": "10:04",
+      "high_of_day": 6.5,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -33,7 +33,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 60.55,
+      "gap_pct": 88.75,
       "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027."
     },
     {
@@ -42,30 +42,30 @@
       "signal": false,
       "reason": "Only 145 trading days of history (< 200 needed for SMA200)",
       "history_days": 145,
-      "gap_pct": 9.15,
+      "gap_pct": 14.43,
       "catalyst": "Organic growth and the recent acquisition of a new maritime business help push Aevex’s quarterly revenue well above analysts’ expectations."
     },
     {
-      "ticker": "CHA",
-      "status": "WAITING",
+      "ticker": "CLS",
+      "status": "FAIL",
       "signal": false,
-      "atr14": 0.4467,
-      "yesterday_high": 12.545,
-      "yesterday_close": 12.33,
-      "sma200": 11.1491,
-      "premarket_high": 13.4,
-      "last_price": 12.94,
-      "last_bar_et": "09:34",
-      "high_of_day": 13.1132,
+      "atr14": 24.3829,
+      "yesterday_high": 247.12,
+      "yesterday_close": 242.92,
+      "sma200": 329.0917,
+      "premarket_high": 240.01,
+      "last_price": 253.138,
+      "last_bar_et": "10:04",
+      "high_of_day": 258.21,
       "checks_now": {
         "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 6.0,
-      "catalyst": "KDP's planned 2027 split aims to unlock long-term value through focused growth, debt reduction and $400 million in coffee cost synergies."
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.27,
+      "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang."
     },
     {
       "ticker": "FIGR",
@@ -76,9 +76,9 @@
       "yesterday_close": 24.19,
       "sma200": 32.5468,
       "premarket_high": 27.3179,
-      "last_price": 25.11,
-      "last_bar_et": "09:34",
-      "high_of_day": 25.86,
+      "last_price": 25.61,
+      "last_bar_et": "10:04",
+      "high_of_day": 26.4,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -86,7 +86,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.91,
+      "gap_pct": 6.16,
       "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026."
     },
     {
@@ -98,9 +98,9 @@
       "yesterday_close": 202.88,
       "sma200": 227.3859,
       "premarket_high": 223.0,
-      "last_price": 208.745,
-      "last_bar_et": "09:34",
-      "high_of_day": 213.95,
+      "last_price": 217.1,
+      "last_bar_et": "10:04",
+      "high_of_day": 217.445,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -108,8 +108,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.09,
-      "catalyst": "No more small boy spreadsheets, build your business on the free HubSpot CRM: https://mfmpod.link/hrdFor more quality videos subscribe here → https://tinyurl.com/46rjnckx🔔 Turn on notifications to stay updated with new…"
+      "gap_pct": 5.96,
+      "catalyst": "Investing.com -- HubSpot Inc (NYSE:HUBS) shares rose 6.1% in premarket trading Thursday after the software provider announced a sweeping leadership overhaul, bringing back co-founder Brian Halligan as chief executive…"
     },
     {
       "ticker": "LUNR",
@@ -120,8 +120,8 @@
       "yesterday_close": 12.18,
       "sma200": 19.3883,
       "premarket_high": 14.65,
-      "last_price": 14.165,
-      "last_bar_et": "09:34",
+      "last_price": 13.66,
+      "last_bar_et": "10:04",
       "high_of_day": 14.6144,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -130,8 +130,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 15.31,
-      "catalyst": "Intuitive Machines Inc (NASDAQ:LUNR), the space technology and infrastructure company, rose 14% to $13.88 in pre-market trading after reporting record third-quarter revenue and a smaller-than-expected loss."
+      "gap_pct": 14.04,
+      "catalyst": "A record quarter is pulling Intuitive Machines (NASDAQ:LUNR) away from the rest of the space group amid a broad pullback in growth stocks."
+    },
+    {
+      "ticker": "OPTX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.8049,
+      "yesterday_high": 6.7,
+      "yesterday_close": 6.6,
+      "sma200": 8.1994,
+      "premarket_high": 6.6596,
+      "last_price": 6.935,
+      "last_bar_et": "10:04",
+      "high_of_day": 7.2299,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.11,
+      "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution."
     },
     {
       "ticker": "POAS",
@@ -142,9 +164,9 @@
       "yesterday_close": 0.901,
       "sma200": 16.7078,
       "premarket_high": 3.19,
-      "last_price": 3.37,
-      "last_bar_et": "09:30",
-      "high_of_day": 3.37,
+      "last_price": 4.43,
+      "last_bar_et": "10:01",
+      "high_of_day": 5.6,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -152,31 +174,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 234.63,
+      "gap_pct": 347.14,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "TTEK",
-      "status": "WAITING",
+      "ticker": "RETO",
+      "status": "FAIL",
       "signal": false,
-      "atr14": 1.3214,
-      "yesterday_high": 40.33,
-      "yesterday_close": 37.61,
-      "sma200": 33.1971,
-      "premarket_high": 42.19,
-      "last_price": 39.875,
-      "last_bar_et": "09:34",
-      "high_of_day": 41.75,
+      "atr14": 0.8703,
+      "yesterday_high": 6.5,
+      "yesterday_close": 6.19,
+      "sma200": 43.8404,
+      "premarket_high": 6.5768,
+      "last_price": 8.85,
+      "last_bar_et": "10:04",
+      "high_of_day": 9.85,
       "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 10.6,
-      "catalyst": "(Updates with the stock move in the headline and the first paragraph.) Tetra Tech (TTEK) shares w."
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 43.3,
+      "catalyst": "The financing involves 10 million shares priced at $1."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }

@@ -1,9 +1,9 @@
 {
-  "ticker": "AEMD",
-  "saved_at_et": "2026-11-12T09:31:10-05:00",
+  "ticker": "AGBK",
+  "saved_at_et": "2026-11-12T10:01:21-05:00",
   "response": {
     "data": {
-      "previousInfo": " Market Close: $5.53",
+      "previousInfo": " Market Close: $5.39",
       "lastUpdateInfo": [
         "Data last updated Nov 12, 2026 09:30 AM ET.",
         "This page will resume updating on Nov 13, 2026 04:00 AM ET."
@@ -19,11 +19,11 @@
         },
         "rows": [
           {
-            "consolidated": "$5.5278 -0.0022 (-0.04%)",
-            "volume": "617",
-            "highPrice": "$5.98 (04:55:29 AM)",
-            "lowPrice": "$5.98 (04:55:29 AM)",
-            "delta": "down"
+            "consolidated": "$5.4 +0.01 (+0.19%)",
+            "volume": "2,360",
+            "highPrice": "$5.6175 (08:25:30 AM)",
+            "lowPrice": "$5.1 (08:21:11 AM)",
+            "delta": "up"
           }
         ]
       },
@@ -36,104 +36,64 @@
         },
         "rows": [
           {
-            "time": "08:18:12",
-            "price": "$5.5278",
-            "shareVolume": "13"
+            "time": "08:48:34",
+            "price": "$5.4",
+            "shareVolume": "1"
           },
           {
-            "time": "07:27:53",
-            "price": "$5.5278",
-            "shareVolume": "3"
+            "time": "08:35:35",
+            "price": "$5.4",
+            "shareVolume": "9"
           },
           {
-            "time": "07:09:51",
-            "price": "$5.42",
-            "shareVolume": "10"
+            "time": "08:29:35",
+            "price": "$5.4",
+            "shareVolume": "237"
           },
           {
-            "time": "06:57:59",
-            "price": "$5.5",
-            "shareVolume": "44"
+            "time": "08:29:35",
+            "price": "$5.4",
+            "shareVolume": "263"
           },
           {
-            "time": "06:57:07",
-            "price": "$5.5",
-            "shareVolume": "6"
+            "time": "08:27:30",
+            "price": "$5.3665",
+            "shareVolume": "750"
           },
           {
-            "time": "06:55:04",
-            "price": "$5.49",
-            "shareVolume": "2"
-          },
-          {
-            "time": "06:06:59",
-            "price": "$5.55",
-            "shareVolume": "50"
-          },
-          {
-            "time": "05:01:28",
-            "price": "$5.4982",
-            "shareVolume": "7"
-          },
-          {
-            "time": "04:55:29",
-            "price": "$5.98",
-            "shareVolume": "234"
-          },
-          {
-            "time": "04:55:29",
-            "price": "$5.98",
-            "shareVolume": "16"
-          },
-          {
-            "time": "04:55:26",
-            "price": "$5.98",
+            "time": "08:25:30",
+            "price": "$5.6175",
             "shareVolume": "100"
           },
           {
-            "time": "04:55:26",
-            "price": "$5.98",
-            "shareVolume": "132"
+            "time": "08:21:11",
+            "price": "$5.1",
+            "shareVolume": "1,000"
           },
           {
-            "time": "04:55:26",
-            "price": "$5.9",
-            "shareVolume": "65"
+            "time": "08:08:39",
+            "price": "$4.7",
+            "shareVolume": "1"
           },
           {
-            "time": "04:55:26",
-            "price": "$5.53",
-            "shareVolume": "53"
-          },
-          {
-            "time": "04:39:59",
-            "price": "$5.5",
-            "shareVolume": "80"
-          },
-          {
-            "time": "04:32:13",
-            "price": "$5.36",
-            "shareVolume": "17"
-          },
-          {
-            "time": "04:32:13",
-            "price": "$5.65",
-            "shareVolume": "3"
-          },
-          {
-            "time": "04:32:13",
-            "price": "$5.3",
+            "time": "07:46:37",
+            "price": "$4.66",
             "shareVolume": "20"
           },
           {
-            "time": "04:32:13",
-            "price": "$5.31",
-            "shareVolume": "30"
+            "time": "07:18:43",
+            "price": "$5.6",
+            "shareVolume": "1"
           },
           {
-            "time": "04:15:19",
-            "price": "$5.36",
+            "time": "06:59:01",
+            "price": "$4.6387",
             "shareVolume": "1"
+          },
+          {
+            "time": "04:03:41",
+            "price": "$5.63",
+            "shareVolume": "25"
           }
         ]
       },
