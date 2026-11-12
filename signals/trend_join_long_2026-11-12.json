@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 14:05:01 EST",
+  "generated_at_et": "2026-11-12 14:35:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-12.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -17,7 +17,7 @@
       "ticker": "CHA",
       "signal_time_et": "2026-11-12 12:16",
       "entry_price": 13.4075,
-      "last_price": 13.52,
+      "last_price": 13.49,
       "gap_pct": 9.73,
       "yesterday_high": 12.545,
       "yesterday_close": 12.33,
@@ -37,8 +37,8 @@
       "yesterday_close": 12.33,
       "sma200": 11.1491,
       "premarket_high": 13.4,
-      "last_price": 13.52,
-      "last_bar_et": "14:03",
+      "last_price": 13.49,
+      "last_bar_et": "14:33",
       "high_of_day": 13.75,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -62,8 +62,8 @@
       "yesterday_close": 2.89,
       "sma200": 5.5941,
       "premarket_high": 7.0483,
-      "last_price": 4.78,
-      "last_bar_et": "14:04",
+      "last_price": 4.745,
+      "last_bar_et": "14:34",
       "high_of_day": 6.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -93,8 +93,8 @@
       "yesterday_close": 345.22,
       "sma200": 367.1867,
       "premarket_high": 359.0,
-      "last_price": 363.825,
-      "last_bar_et": "14:04",
+      "last_price": 364.29,
+      "last_bar_et": "14:34",
       "high_of_day": 369.82,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -115,8 +115,8 @@
       "yesterday_close": 24.19,
       "sma200": 32.5468,
       "premarket_high": 27.3179,
-      "last_price": 26.1,
-      "last_bar_et": "14:04",
+      "last_price": 25.98,
+      "last_bar_et": "14:34",
       "high_of_day": 27.47,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -137,8 +137,8 @@
       "yesterday_close": 202.88,
       "sma200": 227.3859,
       "premarket_high": 223.0,
-      "last_price": 217.33,
-      "last_bar_et": "14:04",
+      "last_price": 217.395,
+      "last_bar_et": "14:34",
       "high_of_day": 219.76,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -160,7 +160,7 @@
       "sma200": 19.3883,
       "premarket_high": 14.65,
       "last_price": 13.455,
-      "last_bar_et": "14:04",
+      "last_bar_et": "14:34",
       "high_of_day": 14.6144,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -181,8 +181,8 @@
       "yesterday_close": 6.6,
       "sma200": 8.1994,
       "premarket_high": 6.6596,
-      "last_price": 7.13,
-      "last_bar_et": "14:04",
+      "last_price": 7.225,
+      "last_bar_et": "14:34",
       "high_of_day": 7.41,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -203,8 +203,8 @@
       "yesterday_close": 6.19,
       "sma200": 43.8404,
       "premarket_high": 6.5768,
-      "last_price": 7.2,
-      "last_bar_et": "14:04",
+      "last_price": 7.1944,
+      "last_bar_et": "14:34",
       "high_of_day": 10.4987,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -225,8 +225,8 @@
       "yesterday_close": 12.66,
       "sma200": 12.8279,
       "premarket_high": 12.93,
-      "last_price": 13.308,
-      "last_bar_et": "14:04",
+      "last_price": 13.25,
+      "last_bar_et": "14:34",
       "high_of_day": 13.4694,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -239,5 +239,5 @@
       "catalyst": "Venture Global (NYSE:VG) has begun commercial operations at Phase 1 of its Plaquemines LNG project, after reaching final investment decision in record time for a project of this scale."
     }
   ],
-  "scan_time_et": "14:05"
+  "scan_time_et": "14:35"
 }
