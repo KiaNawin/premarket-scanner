@@ -1,7 +1,63 @@
 {
   "ticker": "LUNR",
-  "saved_at_et": "2026-11-12T08:32:25-05:00",
+  "saved_at_et": "2026-11-12T09:02:16-05:00",
   "response": [
+    {
+      "id": "4160fdf4-b03b-3b38-9e0f-9e9171a488ee",
+      "content": {
+        "id": "4160fdf4-b03b-3b38-9e0f-9e9171a488ee",
+        "contentType": "STORY",
+        "title": "Intuitive Machines, Inc. (LUNR) Reports Q3 Loss, Beats Revenue Estimates",
+        "description": null,
+        "summary": "Intuitive Machines, Inc. (LUNR) delivered earnings and revenue surprises of +16.67% and +10.70%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+        "pubDate": "2026-11-12T12:45:02Z",
+        "displayTime": "2026-11-12T12:45:02Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c.jpg",
+          "originalWidth": 900,
+          "originalHeight": 602,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c.jpg",
+              "width": 900,
+              "height": 602,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/5cf0fb0351c549098ce0d7b2305c30d0bae602a3ff5ba91220227650115dcbd8/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fa41b81fe729c761f3f94f42ff348f70c.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-inc-lunr-reports-124502110.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-inc-lunr-reports-124502110.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "LUNR"
+            },
+            {
+              "symbol": "BAER"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "6a31752f-f286-36f1-a5e3-81e22f57f461",
       "content": {
@@ -125,59 +181,6 @@
         },
         "clickThroughUrl": {
           "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-lands-nasa-021942609.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "LUNR"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "f1f3863d-7d1e-336f-8f1d-bd029cdeffe9",
-      "content": {
-        "id": "f1f3863d-7d1e-336f-8f1d-bd029cdeffe9",
-        "contentType": "STORY",
-        "title": "Dear Intuitive Machines Stock Fans, Mark Your Calendars for November 12",
-        "description": null,
-        "summary": "Intuitive Machines is set to report Q3 results on Nov. 12.",
-        "pubDate": "2026-11-10T14:00:03Z",
-        "displayTime": "2026-11-10T14:00:03Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/barchart_com_477/de3c56ef59782b3aa873c0db6aa67f6c.jpg",
-          "originalWidth": 1600,
-          "originalHeight": 944,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/barchart_com_477/de3c56ef59782b3aa873c0db6aa67f6c.jpg",
-              "width": 1600,
-              "height": 944,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/93d77e676b7228a4541aaa00b8e2617bd7feff823ca25c902e6a40eebc2a0f5d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fde3c56ef59782b3aa873c0db6aa67f6c.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Barchart",
-          "url": "https://www.barchart.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.barchart.com/story/news/8757619/dear-intuitive-machines-stock-fans-mark-your-calendars-for-november-12"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intuitive-machines-stock-fans-140003265.html"
         },
         "finance": {
           "premiumFinance": {

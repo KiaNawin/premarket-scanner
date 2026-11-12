@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-11-12**
-0 valid entries out of 6 pre-market gappers (generated 2026-11-12 08:35:00 EST)
+0 valid entries out of 9 pre-market gappers (generated 2026-11-12 09:05:00 EST)
 
 _No valid entries yet._
 
@@ -8,5 +8,8 @@ Not triggered:
 - AVEX: SHORT_HISTORY — Only 145 trading days of history (< 200 needed for SMA200)
 - CHA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - FIGR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- HUBS: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- KYTX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - LGN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
 - LUNR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- TTEK: WAITING — Market opens 09:30 ET; signals start 10:00 ET
