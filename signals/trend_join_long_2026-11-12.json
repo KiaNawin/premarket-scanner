@@ -1,0 +1,93 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-11-12",
+  "generated_at_et": "2026-11-12 08:35:00 EST",
+  "source_premarket_file": "premarket_scan_2026-11-12.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 6,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "ADXN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.1453,
+      "yesterday_high": 2.89,
+      "yesterday_close": 2.89,
+      "sma200": 5.5941,
+      "premarket_high": 7.0483,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 65.74,
+      "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027."
+    },
+    {
+      "ticker": "AVEX",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 145 trading days of history (< 200 needed for SMA200)",
+      "history_days": 145,
+      "gap_pct": 8.33,
+      "catalyst": "The Strait of Hormuz shock in 2026 has pushed energy security back into the spotlight."
+    },
+    {
+      "ticker": "CHA",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.4467,
+      "yesterday_high": 12.545,
+      "yesterday_close": 12.33,
+      "sma200": 11.1491,
+      "premarket_high": 13.28,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.3,
+      "catalyst": "KDP's planned 2027 split aims to unlock long-term value through focused growth, debt reduction and $400 million in coffee cost synergies."
+    },
+    {
+      "ticker": "FIGR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.7381,
+      "yesterday_high": 24.5,
+      "yesterday_close": 24.19,
+      "sma200": 32.5468,
+      "premarket_high": 27.3179,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.57,
+      "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026."
+    },
+    {
+      "ticker": "LGN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 3.9188,
+      "yesterday_high": 37.72,
+      "yesterday_close": 37.09,
+      "sma200": 62.7744,
+      "premarket_high": 39.9141,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.28,
+      "catalyst": "(LGN) on Thursday reported third-quarter net income of $89.On a per-share basis, the San Jose, California-based company said it had profit of $1."
+    },
+    {
+      "ticker": "LUNR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.06,
+      "yesterday_high": 12.58,
+      "yesterday_close": 12.18,
+      "sma200": 19.3883,
+      "premarket_high": 14.08,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 13.71,
+      "catalyst": "Investors are navigating a mix of corporate uncertainty and fresh earnings catalysts on Thursday, as reports about Nvidia’s leadership and personal controversies draw attention across the technology sector."
+    }
+  ],
+  "scan_time_et": "08:35"
+}

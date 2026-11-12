@@ -1,0 +1,96 @@
+{
+  "scan_date": "2026-11-12",
+  "generated_at_et": "2026-11-12 08:32:27 EST",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7077,
+    "prefilter": 279,
+    "with_data": 269,
+    "gap": 36,
+    "gap_price": 34,
+    "passed": 6,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7077,
+  "count": 6,
+  "results": [
+    {
+      "ticker": "ADXN",
+      "price": 4.79,
+      "gap_pct": 65.74,
+      "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027.",
+      "prev_close": 2.89,
+      "premarket_volume": 4170150,
+      "session": "pre-market",
+      "catalyst_source": "Motley Fool",
+      "catalyst_headline": "Addex (ADXN) Q2 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/09/28/addex-adxn-q2-2026-earnings-call-transcript/"
+    },
+    {
+      "ticker": "LUNR",
+      "price": 13.85,
+      "gap_pct": 13.71,
+      "catalyst": "Investors are navigating a mix of corporate uncertainty and fresh earnings catalysts on Thursday, as reports about Nvidia’s leadership and personal controversies draw attention across the technology sector.",
+      "prev_close": 12.18,
+      "premarket_volume": 1898660,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "NVDA Turmoil Weighs On Nasdaq Futures — INTC, BABA, NBIS, ONDS In Focus",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/nvda-turmoil-weighs-on-nasdaq-futures-intc-baba-nbis-onds-in-focus/cNGzryOR9aT"
+    },
+    {
+      "ticker": "AVEX",
+      "price": 13.14,
+      "gap_pct": 8.33,
+      "catalyst": "The Strait of Hormuz shock in 2026 has pushed energy security back into the spotlight.",
+      "prev_close": 12.13,
+      "premarket_volume": 144714,
+      "session": "pre-market",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "EnerSys And 2 Other Top Autonomous Vehicle Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/enersys-2-other-top-autonomous-130945238.html"
+    },
+    {
+      "ticker": "FIGR",
+      "price": 26.02,
+      "gap_pct": 7.57,
+      "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026.",
+      "prev_close": 24.19,
+      "premarket_volume": 625345,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Figure Technology (FIGR) Tops Q3 Earnings and Revenue Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/figure-technology-figr-tops-q3-115502333.html"
+    },
+    {
+      "ticker": "CHA",
+      "price": 13.23,
+      "gap_pct": 7.3,
+      "catalyst": "KDP's planned 2027 split aims to unlock long-term value through focused growth, debt reduction and $400 million in coffee cost synergies.",
+      "prev_close": 12.33,
+      "premarket_volume": 292967,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Can Keurig Dr Pepper's Planned 2027 Split Drive Long-Term Value?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-peppers-planned-2027-134700440.html"
+    },
+    {
+      "ticker": "LGN",
+      "price": 39.05,
+      "gap_pct": 5.28,
+      "catalyst": "(LGN) on Thursday reported third-quarter net income of $89.On a per-share basis, the San Jose, California-based company said it had profit of $1.",
+      "prev_close": 37.09,
+      "premarket_volume": 57573,
+      "session": "pre-market",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "Legence: Q3 Earnings Snapshot",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/legence-q3-earnings-snapshot-123525409.html"
+    }
+  ]
+}
