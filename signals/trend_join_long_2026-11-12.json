@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 11:35:00 EST",
+  "generated_at_et": "2026-11-12 12:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-12.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 12,
+  "candidates": 13,
   "valid_count": 1,
   "valid_entries": [
     {
       "ticker": "AMD",
       "signal_time_et": "2026-11-12 10:56",
       "entry_price": 578.85,
-      "last_price": 588.985,
-      "gap_pct": 6.46,
+      "last_price": 584.26,
+      "gap_pct": 6.02,
       "yesterday_high": 567.65,
       "yesterday_close": 552.9,
       "sma200": 420.0459,
@@ -37,8 +37,8 @@
       "yesterday_close": 552.9,
       "sma200": 420.0459,
       "premarket_high": 577.99,
-      "last_price": 588.985,
-      "last_bar_et": "11:34",
+      "last_price": 584.26,
+      "last_bar_et": "12:04",
       "high_of_day": 594.0,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -50,7 +50,7 @@
       "entry_price": 578.85,
       "hod_before_signal": 578.7799,
       "low_5m": 569.6,
-      "gap_pct": 6.46,
+      "gap_pct": 6.02,
       "catalyst": "AMD CEO Lisa Su says tech has to do a better job of selling the data center vision to the public."
     },
     {
@@ -62,8 +62,8 @@
       "yesterday_close": 2.89,
       "sma200": 5.5941,
       "premarket_high": 7.0483,
-      "last_price": 4.94,
-      "last_bar_et": "11:34",
+      "last_price": 5.01,
+      "last_bar_et": "12:04",
       "high_of_day": 6.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -72,7 +72,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 64.53,
+      "gap_pct": 71.8,
       "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027."
     },
     {
@@ -81,8 +81,8 @@
       "signal": false,
       "reason": "Only 145 trading days of history (< 200 needed for SMA200)",
       "history_days": 145,
-      "gap_pct": 21.68,
-      "catalyst": "Organic growth and the recent acquisition of a new maritime business help push Aevex’s quarterly revenue well above analysts’ expectations."
+      "gap_pct": 17.48,
+      "catalyst": "Oil supply shocks through the Strait of Hormuz have pushed electrification back into the spotlight."
     },
     {
       "ticker": "AVGO",
@@ -93,8 +93,8 @@
       "yesterday_close": 345.22,
       "sma200": 367.1867,
       "premarket_high": 359.0,
-      "last_price": 365.73,
-      "last_bar_et": "11:34",
+      "last_price": 363.92,
+      "last_bar_et": "12:04",
       "high_of_day": 369.82,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -103,8 +103,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.63,
+      "gap_pct": 5.76,
       "catalyst": "Chip giants Broadcom and AMD rose on the back of Nvidia's recent woes."
+    },
+    {
+      "ticker": "CHA",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.4467,
+      "yesterday_high": 12.545,
+      "yesterday_close": 12.33,
+      "sma200": 11.1491,
+      "premarket_high": 13.4,
+      "last_price": 13.26,
+      "last_bar_et": "12:04",
+      "high_of_day": 13.26,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": true
+      },
+      "reason": "Failing now: price_above_premarket_high",
+      "gap_pct": 5.8,
+      "catalyst": "KDP's planned 2027 split aims to unlock long-term value through focused growth, debt reduction and $400 million in coffee cost synergies."
     },
     {
       "ticker": "CLS",
@@ -115,8 +137,8 @@
       "yesterday_close": 242.92,
       "sma200": 329.0917,
       "premarket_high": 240.01,
-      "last_price": 261.08,
-      "last_bar_et": "11:34",
+      "last_price": 258.445,
+      "last_bar_et": "12:04",
       "high_of_day": 267.16,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -125,8 +147,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.45,
+      "gap_pct": 6.99,
       "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang."
+    },
+    {
+      "ticker": "CRE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.1457,
+      "yesterday_high": 2.6,
+      "yesterday_close": 2.6,
+      "sma200": 2.8227,
+      "premarket_high": 3.59,
+      "last_price": 3.01,
+      "last_bar_et": "12:03",
+      "high_of_day": 3.0796,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 17.5,
+      "catalyst": "Cre8 Enterprise reported record customer and project backlog levels for the first half of 2026, supported by increased Hong Kong capital markets activity and a sharp rise in IPO filing work."
     },
     {
       "ticker": "FIGR",
@@ -137,17 +181,17 @@
       "yesterday_close": 24.19,
       "sma200": 32.5468,
       "premarket_high": 27.3179,
-      "last_price": 27.29,
-      "last_bar_et": "11:34",
-      "high_of_day": 27.29,
+      "last_price": 26.905,
+      "last_bar_et": "12:04",
+      "high_of_day": 27.47,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.48,
+      "gap_pct": 11.99,
       "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026."
     },
     {
@@ -159,9 +203,9 @@
       "yesterday_close": 202.88,
       "sma200": 227.3859,
       "premarket_high": 223.0,
-      "last_price": 218.7,
-      "last_bar_et": "11:34",
-      "high_of_day": 218.83,
+      "last_price": 217.305,
+      "last_bar_et": "12:04",
+      "high_of_day": 219.76,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -169,7 +213,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.49,
+      "gap_pct": 6.96,
       "catalyst": "Investing.com -- HubSpot Inc (NYSE:HUBS) shares rose 6.1% in premarket trading Thursday after the software provider announced a sweeping leadership overhaul, bringing back co-founder Brian Halligan as chief executive…"
     },
     {
@@ -181,8 +225,8 @@
       "yesterday_close": 12.18,
       "sma200": 19.3883,
       "premarket_high": 14.65,
-      "last_price": 14.44,
-      "last_bar_et": "11:34",
+      "last_price": 14.1301,
+      "last_bar_et": "12:04",
       "high_of_day": 14.6144,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -191,7 +235,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 19.54,
+      "gap_pct": 16.17,
       "catalyst": "CEO Steve Altemus said the company remains focused on IM-3 and its first Altus-1 lunar satellite, which is on track for a planned launch in March/April 2027."
     },
     {
@@ -203,8 +247,8 @@
       "yesterday_close": 6.6,
       "sma200": 8.1994,
       "premarket_high": 6.6596,
-      "last_price": 7.12,
-      "last_bar_et": "11:34",
+      "last_price": 7.155,
+      "last_bar_et": "12:04",
       "high_of_day": 7.2899,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -213,7 +257,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.11,
+      "gap_pct": 8.79,
       "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution."
     },
     {
@@ -225,8 +269,8 @@
       "yesterday_close": 6.19,
       "sma200": 43.8404,
       "premarket_high": 6.5768,
-      "last_price": 7.31,
-      "last_bar_et": "11:34",
+      "last_price": 7.16,
+      "last_bar_et": "12:04",
       "high_of_day": 10.4987,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -235,30 +279,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.93,
+      "gap_pct": 14.14,
       "catalyst": "The financing involves 10 million shares priced at $1."
-    },
-    {
-      "ticker": "VG",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8129,
-      "yesterday_high": 12.87,
-      "yesterday_close": 12.66,
-      "sma200": 12.8279,
-      "premarket_high": 12.93,
-      "last_price": 13.325,
-      "last_bar_et": "11:34",
-      "high_of_day": 13.39,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.02,
-      "catalyst": "Venture Global (NYSE:VG) has begun commercial operations at Phase 1 of its Plaquemines LNG project, after reaching final investment decision in record time for a project of this scale."
     },
     {
       "ticker": "XE",
@@ -266,9 +288,9 @@
       "signal": false,
       "reason": "Only 140 trading days of history (< 200 needed for SMA200)",
       "history_days": 140,
-      "gap_pct": 5.03,
+      "gap_pct": 5.6,
       "catalyst": "GE Vernova Hitachi’s small nuclear reactor in Ontario, Canada, is facing delays and cost overruns."
     }
   ],
-  "scan_time_et": "11:35"
+  "scan_time_et": "12:05"
 }

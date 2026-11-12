@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 11:33:45 EST",
-  "scan_time_et": "11:33",
+  "generated_at_et": "2026-11-12 12:03:43 EST",
+  "scan_time_et": "12:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 283,
+    "prefilter": 286,
     "with_data": 239,
-    "gap": 62,
-    "gap_price": 56,
-    "passed": 12,
+    "gap": 60,
+    "gap_price": 55,
+    "passed": 13,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7077,
-  "count": 12,
+  "count": 13,
   "results": [
     {
       "ticker": "ADXN",
-      "price": 4.76,
-      "gap_pct": 64.53,
+      "price": 4.97,
+      "gap_pct": 71.8,
       "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027.",
       "prev_close": 2.89,
       "premarket_volume": 6965699,
@@ -33,21 +33,33 @@
       "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/09/28/addex-adxn-q2-2026-earnings-call-transcript/"
     },
     {
+      "ticker": "CRE",
+      "price": 3.06,
+      "gap_pct": 17.5,
+      "catalyst": "Cre8 Enterprise reported record customer and project backlog levels for the first half of 2026, supported by increased Hong Kong capital markets activity and a sharp rise in IPO filing work.",
+      "prev_close": 2.6,
+      "premarket_volume": 921527,
+      "session": "regular",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "Cre8 Enterprise Customer Base Hits Record 550 as Hong Kong IPO Activity Accelerates",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/35139/cre8-enterprise-customer-base-hits-record-550-as-hong-kong-ipo-activity-accelerates"
+    },
+    {
       "ticker": "AVEX",
-      "price": 14.76,
-      "gap_pct": 21.68,
-      "catalyst": "Organic growth and the recent acquisition of a new maritime business help push Aevex’s quarterly revenue well above analysts’ expectations.",
+      "price": 14.25,
+      "gap_pct": 17.48,
+      "catalyst": "Oil supply shocks through the Strait of Hormuz have pushed electrification back into the spotlight.",
       "prev_close": 12.13,
       "premarket_volume": 267791,
       "session": "regular",
-      "catalyst_source": "Barrons.com",
-      "catalyst_headline": "Aevex Stock Is About More Than Ukraine. The Drone Maker Is at the ‘Center of Modern Warfare.’",
-      "catalyst_url": "https://www.barrons.com/articles/aevex-earnings-stock-price-20025f46?siteid=yhoof2&yptr=yahoo"
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "3 Autonomous Vehicle Stocks With Earnings Growth Up To 38%",
+      "catalyst_url": "https://finance.yahoo.com/technology/ai/articles/3-autonomous-vehicle-stocks-earnings-161319808.html"
     },
     {
       "ticker": "LUNR",
-      "price": 14.56,
-      "gap_pct": 19.54,
+      "price": 14.15,
+      "gap_pct": 16.17,
       "catalyst": "CEO Steve Altemus said the company remains focused on IM-3 and its first Altus-1 lunar satellite, which is on track for a planned launch in March/April 2027.",
       "prev_close": 12.18,
       "premarket_volume": 3175269,
@@ -58,8 +70,8 @@
     },
     {
       "ticker": "RETO",
-      "price": 7.3,
-      "gap_pct": 17.93,
+      "price": 7.07,
+      "gap_pct": 14.14,
       "catalyst": "The financing involves 10 million shares priced at $1.",
       "prev_close": 6.19,
       "premarket_volume": 62526,
@@ -70,8 +82,8 @@
     },
     {
       "ticker": "FIGR",
-      "price": 27.21,
-      "gap_pct": 12.48,
+      "price": 27.09,
+      "gap_pct": 11.99,
       "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026.",
       "prev_close": 24.19,
       "premarket_volume": 936026,
@@ -81,21 +93,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/figure-technology-figr-tops-q3-115502333.html"
     },
     {
-      "ticker": "CLS",
-      "price": 263.45,
-      "gap_pct": 8.45,
-      "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang.",
-      "prev_close": 242.92,
-      "premarket_volume": 96430,
-      "session": "regular",
-      "catalyst_source": "Investing.com",
-      "catalyst_headline": "TSX futures subdued amid reports Nvidia board preparing ouster of CEO Jensen Huang",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-subdued-amid-reports-121009808.html"
-    },
-    {
       "ticker": "OPTX",
-      "price": 7.14,
-      "gap_pct": 8.11,
+      "price": 7.18,
+      "gap_pct": 8.79,
       "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution.",
       "prev_close": 6.6,
       "premarket_volume": 61586,
@@ -105,9 +105,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/optx-trades-premium-industry-play-164400017.html"
     },
     {
+      "ticker": "CLS",
+      "price": 259.9,
+      "gap_pct": 6.99,
+      "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang.",
+      "prev_close": 242.92,
+      "premarket_volume": 96430,
+      "session": "regular",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "TSX futures subdued amid reports Nvidia board preparing ouster of CEO Jensen Huang",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-subdued-amid-reports-121009808.html"
+    },
+    {
       "ticker": "HUBS",
-      "price": 218.08,
-      "gap_pct": 7.49,
+      "price": 217.01,
+      "gap_pct": 6.96,
       "catalyst": "Investing.com -- HubSpot Inc (NYSE:HUBS) shares rose 6.1% in premarket trading Thursday after the software provider announced a sweeping leadership overhaul, bringing back co-founder Brian Halligan as chief executive…",
       "prev_close": 202.88,
       "premarket_volume": 72333,
@@ -117,21 +129,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/hubspot-stock-rises-6-sweeping-145738653.html"
     },
     {
-      "ticker": "AVGO",
-      "price": 368.1,
-      "gap_pct": 6.63,
-      "catalyst": "Chip giants Broadcom and AMD rose on the back of Nvidia's recent woes.",
-      "prev_close": 345.22,
-      "premarket_volume": 1920510,
-      "session": "regular",
-      "catalyst_source": "Yahoo Finance",
-      "catalyst_headline": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-      "catalyst_url": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html"
-    },
-    {
       "ticker": "AMD",
-      "price": 588.64,
-      "gap_pct": 6.46,
+      "price": 586.21,
+      "gap_pct": 6.02,
       "catalyst": "AMD CEO Lisa Su says tech has to do a better job of selling the data center vision to the public.",
       "prev_close": 552.9,
       "premarket_volume": 5523397,
@@ -141,9 +141,33 @@
       "catalyst_url": "https://finance.yahoo.com/technology/article/amd-ceo-lisa-su-on-data-center-backlash-tech-has-to-sell-the-vision-162604989.html"
     },
     {
+      "ticker": "CHA",
+      "price": 13.05,
+      "gap_pct": 5.8,
+      "catalyst": "KDP's planned 2027 split aims to unlock long-term value through focused growth, debt reduction and $400 million in coffee cost synergies.",
+      "prev_close": 12.33,
+      "premarket_volume": 373165,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Can Keurig Dr Pepper's Planned 2027 Split Drive Long-Term Value?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-peppers-planned-2027-134700440.html"
+    },
+    {
+      "ticker": "AVGO",
+      "price": 365.1,
+      "gap_pct": 5.76,
+      "catalyst": "Chip giants Broadcom and AMD rose on the back of Nvidia's recent woes.",
+      "prev_close": 345.22,
+      "premarket_volume": 1920510,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
+      "catalyst_url": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html"
+    },
+    {
       "ticker": "XE",
-      "price": 11.49,
-      "gap_pct": 5.03,
+      "price": 11.55,
+      "gap_pct": 5.6,
       "catalyst": "GE Vernova Hitachi’s small nuclear reactor in Ontario, Canada, is facing delays and cost overruns.",
       "prev_close": 10.94,
       "premarket_volume": 271125,
@@ -151,18 +175,6 @@
       "catalyst_source": "Barrons.com",
       "catalyst_headline": "Bad News for Nuclear: A Landmark Reactor Just Got Delayed",
       "catalyst_url": "https://www.barrons.com/articles/ge-vernova-hitachi-stock-nuclear-energy-51a5d81c?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-      "ticker": "VG",
-      "price": 13.3,
-      "gap_pct": 5.02,
-      "catalyst": "Venture Global (NYSE:VG) has begun commercial operations at Phase 1 of its Plaquemines LNG project, after reaching final investment decision in record time for a project of this scale.",
-      "prev_close": 12.66,
-      "premarket_volume": 190871,
-      "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "What Is Venture Global (VG) Signaling With Plaquemines LNG And AI Power Plans?",
-      "catalyst_url": "https://finance.yahoo.com/energy/articles/venture-global-vg-signaling-plaquemines-100919460.html"
     }
   ]
 }
