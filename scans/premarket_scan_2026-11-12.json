@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 13:33:59 EST",
-  "scan_time_et": "13:33",
+  "generated_at_et": "2026-11-12 14:03:47 EST",
+  "scan_time_et": "14:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 345,
-    "with_data": 284,
-    "gap": 74,
-    "gap_price": 65,
-    "passed": 14,
+    "prefilter": 350,
+    "with_data": 295,
+    "gap": 62,
+    "gap_price": 56,
+    "passed": 10,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7077,
-  "count": 14,
+  "count": 10,
   "results": [
     {
       "ticker": "ADXN",
-      "price": 4.54,
-      "gap_pct": 57.05,
+      "price": 4.73,
+      "gap_pct": 63.67,
       "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027.",
       "prev_close": 2.89,
       "premarket_volume": 6965699,
@@ -33,21 +33,9 @@
       "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/09/28/addex-adxn-q2-2026-earnings-call-transcript/"
     },
     {
-      "ticker": "AVEX",
-      "price": 14.15,
-      "gap_pct": 16.65,
-      "catalyst": "Oil supply shocks through the Strait of Hormuz have pushed electrification back into the spotlight.",
-      "prev_close": 12.13,
-      "premarket_volume": 267791,
-      "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "3 Autonomous Vehicle Stocks With Earnings Growth Up To 38%",
-      "catalyst_url": "https://finance.yahoo.com/technology/ai/articles/3-autonomous-vehicle-stocks-earnings-161319808.html"
-    },
-    {
       "ticker": "RETO",
-      "price": 7.09,
-      "gap_pct": 14.54,
+      "price": 7.38,
+      "gap_pct": 19.14,
       "catalyst": "The financing involves 10 million shares priced at $1.",
       "prev_close": 6.19,
       "premarket_volume": 62526,
@@ -57,9 +45,21 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/36517/reto-eco-solutions-prices-15-million-registered-direct-offering-with-warrants-and-additional-purchase-rights"
     },
     {
+      "ticker": "AVEX",
+      "price": 13.96,
+      "gap_pct": 15.08,
+      "catalyst": "Oil supply shocks through the Strait of Hormuz have pushed electrification back into the spotlight.",
+      "prev_close": 12.13,
+      "premarket_volume": 267791,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "3 Autonomous Vehicle Stocks With Earnings Growth Up To 38%",
+      "catalyst_url": "https://finance.yahoo.com/technology/ai/articles/3-autonomous-vehicle-stocks-earnings-161319808.html"
+    },
+    {
       "ticker": "LUNR",
-      "price": 13.66,
-      "gap_pct": 12.15,
+      "price": 13.61,
+      "gap_pct": 11.78,
       "catalyst": "CEO Steve Altemus said the company remains focused on IM-3 and its first Altus-1 lunar satellite, which is on track for a planned launch in March/April 2027.",
       "prev_close": 12.18,
       "premarket_volume": 3175269,
@@ -69,21 +69,9 @@
       "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/lunr-ceo-highlights-record-q3-revenue-hits-269-m-backlog-reaches-1-9-b/cNGz6b2R9aA"
     },
     {
-      "ticker": "OPTX",
-      "price": 7.33,
-      "gap_pct": 11.06,
-      "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution.",
-      "prev_close": 6.6,
-      "premarket_volume": 61586,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "OPTX Trades at a Premium to the Industry: How to Play the Stock?",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/optx-trades-premium-industry-play-164400017.html"
-    },
-    {
       "ticker": "CHA",
-      "price": 13.68,
-      "gap_pct": 10.95,
+      "price": 13.53,
+      "gap_pct": 9.73,
       "catalyst": "KDP's planned 2027 split aims to unlock long-term value through focused growth, debt reduction and $400 million in coffee cost synergies.",
       "prev_close": 12.33,
       "premarket_volume": 373165,
@@ -93,9 +81,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-peppers-planned-2027-134700440.html"
     },
     {
+      "ticker": "OPTX",
+      "price": 7.17,
+      "gap_pct": 8.64,
+      "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution.",
+      "prev_close": 6.6,
+      "premarket_volume": 61586,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "OPTX Trades at a Premium to the Industry: How to Play the Stock?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/optx-trades-premium-industry-play-164400017.html"
+    },
+    {
       "ticker": "FIGR",
-      "price": 26.5,
-      "gap_pct": 9.55,
+      "price": 26.07,
+      "gap_pct": 7.75,
       "catalyst": "Figure Technology Solutions (NASDAQ:FIGR) reported a 135% increase in third-quarter loan marketplace volume and expanded its share repurchase authorization to $400 million as its acquisition of Kiavi added new lending…",
       "prev_close": 24.19,
       "premarket_volume": 936026,
@@ -106,8 +106,8 @@
     },
     {
       "ticker": "HUBS",
-      "price": 215.89,
-      "gap_pct": 6.41,
+      "price": 218.03,
+      "gap_pct": 7.47,
       "catalyst": "Investing.com -- HubSpot Inc (NYSE:HUBS) shares rose 6.1% in premarket trading Thursday after the software provider announced a sweeping leadership overhaul, bringing back co-founder Brian Halligan as chief executive…",
       "prev_close": 202.88,
       "premarket_volume": 72333,
@@ -117,21 +117,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/hubspot-stock-rises-6-sweeping-145738653.html"
     },
     {
-      "ticker": "EYE",
-      "price": 19.16,
-      "gap_pct": 5.89,
-      "catalyst": "Moby summary of National Vision Holdings, Inc.'s Q3 2026 earnings call.",
-      "prev_close": 18.09,
-      "premarket_volume": 81366,
-      "session": "regular",
-      "catalyst_source": "Moby",
-      "catalyst_headline": "National Vision Holdings, Inc. Q3 2026 Earnings Call Summary",
-      "catalyst_url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-national-vision-holdings-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
-    },
-    {
       "ticker": "AVGO",
-      "price": 364.8,
-      "gap_pct": 5.67,
+      "price": 363.88,
+      "gap_pct": 5.41,
       "catalyst": "Chip giants Broadcom and AMD rose on the back of Nvidia's recent woes.",
       "prev_close": 345.22,
       "premarket_volume": 1920510,
@@ -142,8 +130,8 @@
     },
     {
       "ticker": "VG",
-      "price": 13.37,
-      "gap_pct": 5.61,
+      "price": 13.3,
+      "gap_pct": 5.06,
       "catalyst": "Venture Global (NYSE:VG) has begun commercial operations at Phase 1 of its Plaquemines LNG project, after reaching final investment decision in record time for a project of this scale.",
       "prev_close": 12.66,
       "premarket_volume": 190871,
@@ -151,42 +139,6 @@
       "catalyst_source": "Simply Wall St.",
       "catalyst_headline": "What Is Venture Global (VG) Signaling With Plaquemines LNG And AI Power Plans?",
       "catalyst_url": "https://finance.yahoo.com/energy/articles/venture-global-vg-signaling-plaquemines-100919460.html"
-    },
-    {
-      "ticker": "AMD",
-      "price": 582.65,
-      "gap_pct": 5.38,
-      "catalyst": "Chip giants Broadcom and AMD rose on the back of Nvidia's recent woes.",
-      "prev_close": 552.9,
-      "premarket_volume": 5523397,
-      "session": "regular",
-      "catalyst_source": "Yahoo Finance",
-      "catalyst_headline": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-      "catalyst_url": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html"
-    },
-    {
-      "ticker": "CLS",
-      "price": 255.98,
-      "gap_pct": 5.38,
-      "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang.",
-      "prev_close": 242.92,
-      "premarket_volume": 96430,
-      "session": "regular",
-      "catalyst_source": "Investing.com",
-      "catalyst_headline": "TSX futures subdued amid reports Nvidia board preparing ouster of CEO Jensen Huang",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-subdued-amid-reports-121009808.html"
-    },
-    {
-      "ticker": "XE",
-      "price": 11.51,
-      "gap_pct": 5.17,
-      "catalyst": "GE Vernova Hitachi’s small nuclear reactor in Ontario, Canada, is facing delays and cost overruns.",
-      "prev_close": 10.94,
-      "premarket_volume": 271125,
-      "session": "regular",
-      "catalyst_source": "Barrons.com",
-      "catalyst_headline": "Bad News for Nuclear: A Landmark Reactor Just Got Delayed",
-      "catalyst_url": "https://www.barrons.com/articles/ge-vernova-hitachi-stock-nuclear-energy-51a5d81c?siteid=yhoof2&yptr=yahoo"
     }
   ]
 }
