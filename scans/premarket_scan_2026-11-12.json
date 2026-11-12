@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-12",
-  "generated_at_et": "2026-11-12 10:02:36 EST",
-  "scan_time_et": "10:02",
+  "generated_at_et": "2026-11-12 10:32:46 EST",
+  "scan_time_et": "10:32",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 236,
-    "with_data": 210,
-    "gap": 34,
-    "gap_price": 30,
+    "prefilter": 294,
+    "with_data": 267,
+    "gap": 39,
+    "gap_price": 35,
     "passed": 9,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "POAS",
-      "price": 4.03,
-      "gap_pct": 347.14,
+      "price": 3.09,
+      "gap_pct": 242.95,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 0.9,
       "premarket_volume": 42351749,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "ADXN",
-      "price": 5.45,
-      "gap_pct": 88.75,
+      "price": 4.93,
+      "gap_pct": 70.42,
       "catalyst": "Biotech regains GABAB rights, extends cash runway into Q4 2027.",
       "prev_close": 2.89,
       "premarket_volume": 6965699,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "RETO",
-      "price": 8.87,
-      "gap_pct": 43.3,
+      "price": 8.75,
+      "gap_pct": 41.36,
       "catalyst": "The financing involves 10 million shares priced at $1.",
       "prev_close": 6.19,
       "premarket_volume": 62526,
@@ -57,22 +57,34 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/36517/reto-eco-solutions-prices-15-million-registered-direct-offering-with-warrants-and-additional-purchase-rights"
     },
     {
+      "ticker": "CURI",
+      "price": 3.02,
+      "gap_pct": 27.22,
+      "catalyst": "Moby summary of CuriosityStream Inc.'s Q3 2026 earnings call.",
+      "prev_close": 2.37,
+      "premarket_volume": 306090,
+      "session": "regular",
+      "catalyst_source": "Moby",
+      "catalyst_headline": "CuriosityStream Inc. Q3 2026 Earnings Call Summary",
+      "catalyst_url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-curiositystream-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+    },
+    {
       "ticker": "AVEX",
-      "price": 13.88,
-      "gap_pct": 14.43,
+      "price": 14.57,
+      "gap_pct": 20.12,
       "catalyst": "Organic growth and the recent acquisition of a new maritime business help push Aevex’s quarterly revenue well above analysts’ expectations.",
       "prev_close": 12.13,
       "premarket_volume": 267791,
       "session": "regular",
       "catalyst_source": "Barrons.com",
-      "catalyst_headline": "Aevex Is More Than a Play on the War in Ukraine. The Ailing Stock Sees Better Days Ahead.",
+      "catalyst_headline": "Aevex Stock Is About More Than Ukraine. The Drone Maker Is at the ‘Center of Modern Warfare.’",
       "catalyst_url": "https://www.barrons.com/articles/aevex-earnings-stock-price-20025f46?siteid=yhoof2&yptr=yahoo"
     },
     {
       "ticker": "LUNR",
-      "price": 13.89,
-      "gap_pct": 14.04,
-      "catalyst": "A record quarter is pulling Intuitive Machines (NASDAQ:LUNR) away from the rest of the space group amid a broad pullback in growth stocks.",
+      "price": 13.68,
+      "gap_pct": 12.32,
+      "catalyst": "While its space peers sink with the rest of the growth trade, one lunar contractor posts a record quarter that bulls and skeptics read in opposite ways.",
       "prev_close": 12.18,
       "premarket_volume": 3175269,
       "session": "regular",
@@ -82,8 +94,8 @@
     },
     {
       "ticker": "FIGR",
-      "price": 25.68,
-      "gap_pct": 6.16,
+      "price": 26.37,
+      "gap_pct": 8.99,
       "catalyst": "Figure Technology (FIGR) delivered earnings and revenue surprises of +16.13% and +13.57%, respectively, for the quarter ended September 2026.",
       "prev_close": 24.19,
       "premarket_volume": 936026,
@@ -93,21 +105,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/figure-technology-figr-tops-q3-115502333.html"
     },
     {
-      "ticker": "OPTX",
-      "price": 7.0,
-      "gap_pct": 6.11,
-      "catalyst": "Syntec Optics' growing defense, space and AI orders support growth prospects, but margin pressures and profitability challenges warrant investor caution.",
-      "prev_close": 6.6,
-      "premarket_volume": 61586,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "OPTX Trades at a Premium to the Industry: How to Play the Stock?",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/optx-trades-premium-industry-play-164400017.html"
-    },
-    {
       "ticker": "HUBS",
-      "price": 214.97,
-      "gap_pct": 5.96,
+      "price": 215.4,
+      "gap_pct": 6.17,
       "catalyst": "Investing.com -- HubSpot Inc (NYSE:HUBS) shares rose 6.1% in premarket trading Thursday after the software provider announced a sweeping leadership overhaul, bringing back co-founder Brian Halligan as chief executive…",
       "prev_close": 202.88,
       "premarket_volume": 72333,
@@ -118,8 +118,8 @@
     },
     {
       "ticker": "CLS",
-      "price": 255.73,
-      "gap_pct": 5.27,
+      "price": 255.92,
+      "gap_pct": 5.35,
       "catalyst": "Investing.com - Futures linked to Canada’s main stock index were muted on Thursday, as investors assessed reports that Nvidia’s board may be preparing to oust CEO Jensen Huang.",
       "prev_close": 242.92,
       "premarket_volume": 96430,
