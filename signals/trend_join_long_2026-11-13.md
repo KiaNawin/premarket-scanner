@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-11-13**
-0 valid entries out of 15 pre-market gappers (generated 2026-11-13 10:35:00 EST)
+0 valid entries out of 15 pre-market gappers (generated 2026-11-13 11:05:01 EST)
 
 _No valid entries yet._
 
@@ -15,7 +15,7 @@ Not triggered:
 - MOD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - NMAX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - NU: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- SGML: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NUAI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - TNDM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - VTSI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - WSE: SHORT_HISTORY — Only 130 trading days of history (< 200 needed for SMA200)

@@ -1,7 +1,75 @@
 {
   "ticker": "FCUV",
-  "saved_at_et": "2026-11-13T10:33:08-05:00",
+  "saved_at_et": "2026-11-13T11:03:21-05:00",
   "response": [
+    {
+      "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+      "content": {
+        "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+        "contentType": "STORY",
+        "title": "BC-Most Active Stocks",
+        "description": null,
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  SHF Holdings Inc.",
+        "pubDate": "2026-11-13T15:30:18Z",
+        "displayTime": "2026-11-13T15:30:18Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Associated Press",
+          "url": "https://apnews.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "YFOR"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "SHFS"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "ONFO"
+            },
+            {
+              "symbol": "FCUV"
+            },
+            {
+              "symbol": "KDP"
+            },
+            {
+              "symbol": "CRMN"
+            },
+            {
+              "symbol": "LICN"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "IBIT"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "f985893f-dada-31f2-9081-15515be69185",
       "content": {

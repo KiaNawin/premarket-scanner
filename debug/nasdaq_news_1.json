@@ -1,22 +1,74 @@
 {
   "ticker": "BKHA",
-  "saved_at_et": "2026-11-13T10:33:14-05:00",
+  "saved_at_et": "2026-11-13T11:03:26-05:00",
   "response": {
     "data": {
-      "message": null,
       "rows": [
         {
-          "ago": "4 minutes ago",
+          "title": "Weekly Buzz: LLY, JNJ Win FDA Nod; SION, NNOX, Cut Jobs; PFE, ARGX Strike Deals ",
+          "image": "",
           "created": "Nov 13, 2026",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.35% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.30%.  December E-mini S&P futures (ESZ26 ) fell -0.33%, and December E-mini Nasdaq futures...",
-          "id": 28833526,
-          "image": "/barchart/NASDAQ%2520sign%2520at%2520times%2520square%2520at%2520night%2520by%2520Lucky-photographer%2520via%2520iStock.jpg",
+          "ago": "7 minutes ago",
+          "primarysymbol": "",
+          "primarytopic": "Biotech|4146",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "amgn|stocks",
+            "argx|stocks",
+            "azn|stocks",
+            "beam|stocks",
+            "chrs|stocks",
+            "crmd|stocks",
+            "gehc|stocks",
+            "halo|stocks",
+            "jnj|stocks",
+            "lly|stocks",
+            "mirm|stocks",
+            "nnox|stocks",
+            "nspr|stocks",
+            "nvcr|stocks",
+            "nvs|stocks",
+            "ocgn|stocks",
+            "pfe|stocks",
+            "sgry|stocks",
+            "sion|stocks",
+            "vani|stocks",
+            "vir|stocks",
+            "zura|stocks"
+          ],
+          "url": "/articles/weekly-buzz-lly-jnj-win-fda-nod-sion-nnox-cut-jobs-pfe-argx-strike-deals",
+          "id": 28840171,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - This week's biotech roundup features a series of regulatory approvals across obesity, stroke prevention, oncology, and medical devices, alongside workforce reductions and cost-cutting measures at several companies. Major partnerships, acquisitions and licensing agreem",
+          "primarytopic_url": "/topic/biotech",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "4DMT Advances 4D-150 Toward Key 2027 Readouts; Q3 Net Loss Widens To $78.1 Mln ",
+          "image": "",
+          "created": "Nov 13, 2026",
+          "ago": "8 minutes ago",
+          "primarysymbol": "fdmt",
+          "primarytopic": "Biotech|4146",
+          "publisher": "RTTNews",
+          "related_symbols": [
+            "fdmt|stocks"
+          ],
+          "url": "/articles/4dmt-advances-4d-150-toward-key-2027-readouts-q3-net-loss-widens-781-mln",
+          "id": 28840166,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "(RTTNews) - 4D Molecular Therapeutics, Inc. (FDMT) reported third-quarter 2026 financial results, highlighting continued investment in its Phase 3 programs for wet age-related macular degeneration (AMD) and diabetic macular edema (DME).",
+          "primarytopic_url": "/topic/biotech",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
+        },
+        {
+          "title": "Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields",
+          "image": "/barchart/NASDAQ%2520sign%2520at%2520times%2520square%2520at%2520night%2520by%2520Lucky-photographer%2520via%2520iStock.jpg",
+          "created": "Nov 13, 2026",
+          "ago": "10 minutes ago",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
           "publisher": "Barchart",
-          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
           "related_symbols": [
             "mstr|stocks",
             "alk|stocks",
@@ -63,177 +115,154 @@
             "apld|stocks",
             "nbis|stocks"
           ],
-          "title": "Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields",
-          "url": "/articles/stocks-settle-lower-nvidia-rout-and-higher-crude-and-bond-yields"
-        },
-        {
-          "ago": "8 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the Nasdaq 100 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Nasdaq 100 component thus far",
-          "id": 28839576,
-          "image": "",
+          "url": "/articles/stocks-settle-lower-nvidia-rout-and-higher-crude-and-bond-yields",
+          "id": 28833526,
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "nbis",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
-          "related_symbols": [
-            "nbis|stocks"
-          ],
-          "title": "Nasdaq 100 Movers: NBIS, HONIV  ",
-          "url": "/articles/nasdaq-100-movers-nbis-honiv-0"
-        },
-        {
-          "ago": "8 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the S&P 500 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing S&P 500 component thus fa",
-          "id": 28839571,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "sndk",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
-          "related_symbols": [
-            "sndk|stocks",
-            "amd|stocks",
-            "kdp|stocks"
-          ],
-          "title": "S&P 500 Movers: SNDK, HONIV  ",
-          "url": "/articles/sp-500-movers-sndk-honiv-1"
-        },
-        {
-          "ago": "9 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "(RTTNews) - Grace Therapeutics, Inc. (GRCE) reported Thursday a wider fiscal second-quarter loss, mainly reflecting the absence of a prior-year warrant valuation gain.",
-          "id": 28839581,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "grce",
-          "primarytopic": "Biotech|4146",
-          "primarytopic_url": "/topic/biotech",
-          "publisher": "RTTNews",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
-          "related_symbols": [
-            "grce|stocks"
-          ],
-          "title": "Grace Therapeutics Q2 Loss Widens Without Prior-Year Warrant Gain; Advances GTx-104 Plans ",
-          "url": "/articles/grace-therapeutics-q2-loss-widens-without-prior-year-warrant-gain-advances-gtx-104-plans"
-        },
-        {
-          "ago": "10 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing Dow Jones Industrial Average components, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Dow component thus far on",
-          "id": 28839541,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "csco",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
-          "related_symbols": [
-            "csco|stocks",
-            "nvda|stocks",
-            "googl|stocks"
-          ],
-          "title": "Dow Movers: CSCO, HONIV  ",
-          "url": "/articles/dow-movers-csco-honiv-0"
-        },
-        {
-          "ago": "15 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "MultiSensor AI Holdings, Inc. announced its financial results for the third quarter ended September 30, 2026. The company reported total revenue of $1.5 million, compared to $1.6 million in the third quarter of 2025. The slight decrease was driven by lower hardware revenue and th",
-          "id": 28839431,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "msai",
-          "primarytopic": "Stocks|4301",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.35% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.30%.  December E-mini S&P futures (ESZ26 ) fell -0.33%, and December E-mini Nasdaq futures...",
           "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "msai|stocks"
-          ],
-          "title": "MultiSensor AI Holdings, Inc. Reports Third Quarter 2026 Financial Results",
-          "url": "/articles/multisensor-ai-holdings-inc-reports-third-quarter-2026-financial-results"
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png"
         },
         {
-          "ago": "15 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "VICI Properties Inc. announced that its subsidiary, VICI Properties L.P., entered into a First Amendment on November 12, 2026, to its credit agreement dated February 3, 2025. The amendment provides for a new senior unsecured term loan A facility in an aggregate principal amount o",
-          "id": 28839426,
+          "title": "MISL, BA, TDG, HEI: ETF Outflow Alert",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "vici",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "vici|stocks"
-          ],
-          "title": "VICI Properties Inc. Subsidiary Enters Into Credit Agreement Amendment for $500 million Term Loan Facility",
-          "url": "/articles/vici-properties-inc-subsidiary-enters-credit-agreement-amendment-500-million-term-loan"
-        },
-        {
-          "ago": "15 minutes ago",
           "created": "Nov 13, 2026",
-          "description": "Nu Holdings Ltd. reported its Managerial Profit and Loss Reconciliation Report for the three-month period ended 09/30/2026. The company recorded managerial Net Income of 1,091.6, compared to 782.7 for the three-month period ended 09/30/2025, with figures presented in Million of U",
-          "id": 28839421,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "nu",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "nu|stocks"
-          ],
-          "title": "Nu Holdings Ltd. Reports Q3’2026 Managerial Net Income of 1,091.6 Million",
-          "url": "/articles/nu-holdings-ltd-reports-q32026-managerial-net-income-10916-million"
-        },
-        {
-          "ago": "16 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "Looking at the universe of stocks we cover at Dividend Channel, on 11/16/26, TCW Strategic Income Fund (Symbol: TSI) will trade ex-dividend, for its monthly dividend of $0.0283, payable on 11/30/26.  As a percentage of TSI's recent stock price of $4.32, this dividend works out t",
-          "id": 28839461,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "tsi",
+          "ago": "14 minutes ago",
+          "primarysymbol": "misl",
           "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
           "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
           "related_symbols": [
-            "tsi|stocks"
+            "misl|etf",
+            "ba|stocks",
+            "tdg|stocks",
+            "hei|stocks"
           ],
-          "title": "TSI Ex-Dividend Reminder - 11/16/26",
-          "url": "/articles/tsi-ex-dividend-reminder-11-16-26"
+          "url": "/articles/misl-ba-tdg-hei-etf-outflow-alert",
+          "id": 28840041,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the First Trust Indxx Aerospace & Defense ETF (Symbol: MISL) where we have detected an approximate $157.8 million dollar outflow -- that's a 23.2% d",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
         },
         {
-          "ago": "16 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "Looking at the universe of stocks we cover at Dividend Channel, on 11/16/26, MainStay DefinedTerm Municipal Opportunities Fund (Symbol: MMD) will trade ex-dividend, for its monthly dividend of $0.0675, payable on 12/1/26.  As a percentage of MMD's recent stock price of $13.88, t",
-          "id": 28839456,
+          "title": "NeoVolta Inc. Reports $2.8 million in Revenue and $7.7 million Net Loss for Quarter Ended September 30, 2026",
           "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "mmd",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "BNK Invest",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "created": "Nov 13, 2026",
+          "ago": "15 minutes ago",
+          "primarysymbol": "neov",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Fintel",
           "related_symbols": [
-            "mmd|stocks"
+            "neov|stocks"
           ],
-          "title": "Ex-Div Reminder for MainStay DefinedTerm Municipal Opportunities Fund (MMD)",
-          "url": "/articles/ex-div-reminder-mainstay-definedterm-municipal-opportunities-fund-mmd"
+          "url": "/articles/neovolta-inc-reports-28-million-revenue-and-77-million-net-loss-quarter-ended-september-30",
+          "id": 28839991,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "NeoVolta Inc. reported financial results for the quarter ended September 30, 2026, with revenue of $2.8 million, compared to approximately $13.5 thousand in the previous quarter ended June 30, 2026. The sequential recovery reflects initial sales of installed residential energy st",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+        },
+        {
+          "title": "First Advantage Corporation Announces Pricing of 15,000,000 Share Secondary Offering at $21.80 Per Share",
+          "image": "",
+          "created": "Nov 13, 2026",
+          "ago": "15 minutes ago",
+          "primarysymbol": "fa",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Fintel",
+          "related_symbols": [
+            "fa|stocks"
+          ],
+          "url": "/articles/first-advantage-corporation-announces-pricing-15000000-share-secondary-offering-2180-share",
+          "id": 28839981,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "First Advantage Corporation announced the pricing of an underwritten secondary offering of 15,000,000 shares of its common stock by certain investment funds of Silver Lake Group, L.L.C. and its affiliates, the Selling Stockholder. The offering was priced to the public at $21.80 p",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+        },
+        {
+          "title": "QXO, Inc. Reports Third Quarter 2026 Net Sales of $4.90 billion and Authorizes $500 million Share Repurchase",
+          "image": "",
+          "created": "Nov 13, 2026",
+          "ago": "15 minutes ago",
+          "primarysymbol": "qxo",
+          "primarytopic": "Stocks|4301",
+          "publisher": "Fintel",
+          "related_symbols": [
+            "qxo|stocks"
+          ],
+          "url": "/articles/qxo-inc-reports-third-quarter-2026-net-sales-490-billion-and-authorizes-500-million-share",
+          "id": 28839971,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "QXO, Inc. reported its financial results for the third quarter ended September 30, 2026, with net sales totaling $4.90 billion, including $1.64 billion from TopBuild and $589 million from Kodiak. The company reported a net loss of $123 million and basic and diluted loss per commo",
+          "primarytopic_url": "/topic/stocks",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
+        },
+        {
+          "title": "Notable ETF Inflow Detected - ITOT, AMZN, MU, AMD",
+          "image": "",
+          "created": "Nov 13, 2026",
+          "ago": "15 minutes ago",
+          "primarysymbol": "itot",
+          "primarytopic": "Markets|4006",
+          "publisher": "BNK Invest",
+          "related_symbols": [
+            "itot|etf",
+            "amzn|stocks",
+            "mu|stocks",
+            "amd|stocks"
+          ],
+          "url": "/articles/notable-etf-inflow-detected-itot-amzn-mu-amd",
+          "id": 28840036,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares Core S&P Total U.S. Stock Market ETF (Symbol: ITOT) where we have detected an approximate $346.9 million dollar inflow -- that's a 0.4% i",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
+        },
+        {
+          "title": "IYC, DIS, TJX, ABNB: Large Inflows Detected at ETF",
+          "image": "",
+          "created": "Nov 13, 2026",
+          "ago": "15 minutes ago",
+          "primarysymbol": "iyc",
+          "primarytopic": "Markets|4006",
+          "publisher": "BNK Invest",
+          "related_symbols": [
+            "iyc|etf",
+            "dis|stocks",
+            "tjx|stocks",
+            "abnb|stocks"
+          ],
+          "url": "/articles/iyc-dis-tjx-abnb-large-inflows-detected-etf",
+          "id": 28840031,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares U.S. Consumer Discretionary ETF (Symbol: IYC) where we have detected an approximate $330.5 million dollar inflow -- that's a 25.1% increase w",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
+        },
+        {
+          "title": "Noteworthy ETF Outflows: AIRR, KRMN, NXT, CHRW",
+          "image": "",
+          "created": "Nov 13, 2026",
+          "ago": "15 minutes ago",
+          "primarysymbol": "airr",
+          "primarytopic": "Markets|4006",
+          "publisher": "BNK Invest",
+          "related_symbols": [
+            "airr|etf",
+            "krmn|stocks",
+            "nxt|stocks",
+            "chrw|stocks"
+          ],
+          "url": "/articles/noteworthy-etf-outflows-airr-krmn-nxt-chrw",
+          "id": 28840011,
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the First Trust RBA American Industrial Renaissance ETF (Symbol: AIRR) where we have detected an approximate $165.4 million dollar outflow -- that's a 2",
+          "primarytopic_url": "/topic/markets",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
         }
       ],
-      "totalrecords": 500
+      "totalrecords": 500,
+      "message": null
     },
     "message": null,
     "status": {
