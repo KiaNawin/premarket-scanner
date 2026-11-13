@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 13:35:00 EST",
+  "generated_at_et": "2026-11-13 14:05:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-13.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 17,
+  "candidates": 15,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -23,8 +23,8 @@
       "yesterday_close": 7.63,
       "sma200": 15.7347,
       "premarket_high": 7.91,
-      "last_price": 8.125,
-      "last_bar_et": "13:34",
+      "last_price": 8.095,
+      "last_bar_et": "14:04",
       "high_of_day": 8.3099,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -33,7 +33,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.36,
+      "gap_pct": 5.7,
       "catalyst": "Almonty Industries Inc."
     },
     {
@@ -45,40 +45,18 @@
       "yesterday_close": 5.375,
       "sma200": 11.1096,
       "premarket_high": 8.54,
-      "last_price": 8.945,
-      "last_bar_et": "13:34",
+      "last_price": 7.825,
+      "last_bar_et": "14:04",
       "high_of_day": 9.2,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 65.58,
+      "gap_pct": 41.02,
       "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "BULL",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.2672,
-      "yesterday_high": 5.19,
-      "yesterday_close": 4.96,
-      "sma200": 6.7125,
-      "premarket_high": 5.07,
-      "last_price": 5.235,
-      "last_bar_et": "13:34",
-      "high_of_day": 5.235,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.28,
-      "catalyst": "Institutional Financial Markets (COHN) delivered earnings and revenue surprises of -76.19% and -20.49%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "CBRS",
@@ -86,7 +64,7 @@
       "signal": false,
       "reason": "Only 127 trading days of history (< 200 needed for SMA200)",
       "history_days": 127,
-      "gap_pct": 10.77,
+      "gap_pct": 10.62,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers."
     },
     {
@@ -98,8 +76,8 @@
       "yesterday_close": 5.64,
       "sma200": 43.0705,
       "premarket_high": 5.7737,
-      "last_price": 6.595,
-      "last_bar_et": "13:34",
+      "last_price": 6.455,
+      "last_bar_et": "14:04",
       "high_of_day": 7.19,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -108,7 +86,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.38,
+      "gap_pct": 14.63,
       "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately."
     },
     {
@@ -120,8 +98,8 @@
       "yesterday_close": 3.0,
       "sma200": 8.6418,
       "premarket_high": 7.0,
-      "last_price": 6.76,
-      "last_bar_et": "13:34",
+      "last_price": 5.97,
+      "last_bar_et": "14:04",
       "high_of_day": 7.91,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -130,7 +108,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 130.55,
+      "gap_pct": 101.01,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -139,8 +117,8 @@
       "signal": false,
       "reason": "Only 132 trading days of history (< 200 needed for SMA200)",
       "history_days": 132,
-      "gap_pct": 17.45,
-      "catalyst": "Soaring global contracts and cheaper next-generation satellites prompt HawkEye 360 to raise its full-year outlook."
+      "gap_pct": 19.29,
+      "catalyst": "HawkEye missed on Q3 earnings -- but delivered on free cash flow."
     },
     {
       "ticker": "LFTO",
@@ -148,7 +126,7 @@
       "signal": false,
       "reason": "Only 113 trading days of history (< 200 needed for SMA200)",
       "history_days": 113,
-      "gap_pct": 19.24,
+      "gap_pct": 20.95,
       "catalyst": "Liftoff Mobile’s artificial-intelligence improvements drive higher-than-expected profit."
     },
     {
@@ -160,8 +138,8 @@
       "yesterday_close": 106.1,
       "sma200": 214.5033,
       "premarket_high": 147.63,
-      "last_price": 139.0,
-      "last_bar_et": "13:34",
+      "last_price": 138.97,
+      "last_bar_et": "14:04",
       "high_of_day": 146.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -170,7 +148,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 31.32,
+      "gap_pct": 30.93,
       "catalyst": "CBRS extends its post-earnings rally, while MOD surges on Samsung takeover buzz."
     },
     {
@@ -182,8 +160,8 @@
       "yesterday_close": 7.29,
       "sma200": 8.0141,
       "premarket_high": 8.89,
-      "last_price": 9.225,
-      "last_bar_et": "13:34",
+      "last_price": 9.155,
+      "last_bar_et": "14:04",
       "high_of_day": 9.99,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -192,7 +170,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 26.47,
+      "gap_pct": 25.62,
       "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…"
     },
     {
@@ -204,8 +182,8 @@
       "yesterday_close": 11.83,
       "sma200": 14.2019,
       "premarket_high": 12.49,
-      "last_price": 13.07,
-      "last_bar_et": "13:34",
+      "last_price": 13.0599,
+      "last_bar_et": "14:04",
       "high_of_day": 13.25,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -214,7 +192,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.48,
+      "gap_pct": 9.85,
       "catalyst": "The Latin American digital bank lifted net income 31% and tightened its 2026 efficiency target, though delinquencies ticked higher."
     },
     {
@@ -226,8 +204,8 @@
       "yesterday_close": 2.72,
       "sma200": 4.8251,
       "premarket_high": 2.98,
-      "last_price": 3.2076,
-      "last_bar_et": "13:34",
+      "last_price": 3.155,
+      "last_bar_et": "14:04",
       "high_of_day": 3.2681,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -236,7 +214,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.83,
+      "gap_pct": 15.62,
       "catalyst": "Moby summary of New Era Energy & Digital, Inc.'s Q3 2026 earnings call."
     },
     {
@@ -248,8 +226,8 @@
       "yesterday_close": 2.34,
       "sma200": 3.7284,
       "premarket_high": 3.1487,
-      "last_price": 2.99,
-      "last_bar_et": "13:34",
+      "last_price": 3.02,
+      "last_bar_et": "14:03",
       "high_of_day": 3.1,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -258,7 +236,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 28.74,
+      "gap_pct": 29.06,
       "catalyst": "Shimmick swings to GAAP profit as legacy work winds down."
     },
     {
@@ -270,40 +248,18 @@
       "yesterday_close": 17.51,
       "sma200": 18.8373,
       "premarket_high": 20.0,
-      "last_price": 20.11,
-      "last_bar_et": "13:34",
+      "last_price": 19.97,
+      "last_bar_et": "14:04",
       "high_of_day": 20.2532,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 15.36,
+      "gap_pct": 13.93,
       "catalyst": "Investing.com -- Shares of Tandem Diabetes Care, Inc."
-    },
-    {
-      "ticker": "UAMY",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3079,
-      "yesterday_high": 3.07,
-      "yesterday_close": 2.91,
-      "sma200": 6.9476,
-      "premarket_high": 2.94,
-      "last_price": 3.085,
-      "last_bar_et": "13:34",
-      "high_of_day": 3.097,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.01,
-      "catalyst": "While small caps and materials stocks slide, rare earth names are surging, and one Greenland-focused developer has lagged the pack all year."
     },
     {
       "ticker": "VTSI",
@@ -314,9 +270,9 @@
       "yesterday_close": 2.62,
       "sma200": 3.499,
       "premarket_high": 3.76,
-      "last_price": 3.98,
-      "last_bar_et": "13:34",
-      "high_of_day": 3.99,
+      "last_price": 4.1,
+      "last_bar_et": "14:04",
+      "high_of_day": 4.25,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -324,7 +280,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 50.05,
+      "gap_pct": 58.02,
       "catalyst": "VirTra, Inc."
     },
     {
@@ -333,9 +289,9 @@
       "signal": false,
       "reason": "Only 130 trading days of history (< 200 needed for SMA200)",
       "history_days": 130,
-      "gap_pct": 6.27,
-      "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…"
+      "gap_pct": 6.04,
+      "catalyst": "The cross-border payments firm topped 16 million active customers and guided fiscal 2027 growth toward the top half of its range."
     }
   ],
-  "scan_time_et": "13:35"
+  "scan_time_et": "14:05"
 }

@@ -1,12 +1,11 @@
 **Trend-join Long — 2026-11-13**
-0 valid entries out of 17 pre-market gappers (generated 2026-11-13 13:35:00 EST)
+0 valid entries out of 15 pre-market gappers (generated 2026-11-13 14:05:01 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - ALM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BKHA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- BULL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CBRS: SHORT_HISTORY — Only 127 trading days of history (< 200 needed for SMA200)
 - CDNL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - FCUV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -18,6 +17,5 @@ Not triggered:
 - NUAI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - SHIM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - TNDM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- UAMY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - VTSI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - WSE: SHORT_HISTORY — Only 130 trading days of history (< 200 needed for SMA200)

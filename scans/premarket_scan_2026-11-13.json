@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 13:34:16 EST",
-  "scan_time_et": "13:34",
+  "generated_at_et": "2026-11-13 14:03:48 EST",
+  "scan_time_et": "14:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 503,
-    "with_data": 426,
-    "gap": 61,
-    "gap_price": 58,
-    "passed": 17,
+    "prefilter": 494,
+    "with_data": 413,
+    "gap": 57,
+    "gap_price": 53,
+    "passed": 15,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7082,
-  "count": 17,
+  "count": 15,
   "results": [
     {
       "ticker": "FCUV",
-      "price": 6.92,
-      "gap_pct": 130.55,
+      "price": 6.03,
+      "gap_pct": 101.01,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.0,
       "premarket_volume": 34901096,
@@ -33,21 +33,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
     },
     {
-      "ticker": "BKHA",
-      "price": 8.9,
-      "gap_pct": 65.58,
-      "catalyst": "No recent news catalyst found.",
-      "prev_close": 5.38,
-      "premarket_volume": 369921,
-      "session": "regular",
-      "catalyst_source": null,
-      "catalyst_headline": null,
-      "catalyst_url": null
-    },
-    {
       "ticker": "VTSI",
-      "price": 3.93,
-      "gap_pct": 50.05,
+      "price": 4.14,
+      "gap_pct": 58.02,
       "catalyst": "VirTra, Inc.",
       "prev_close": 2.62,
       "premarket_volume": 1232676,
@@ -57,9 +45,21 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/40010/virtra-reports-42-third-quarter-revenue-growth-to-7-6-million-as-bookings-reach-10-3-million"
     },
     {
+      "ticker": "BKHA",
+      "price": 7.58,
+      "gap_pct": 41.02,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.38,
+      "premarket_volume": 369921,
+      "session": "regular",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
       "ticker": "MOD",
-      "price": 139.33,
-      "gap_pct": 31.32,
+      "price": 138.92,
+      "gap_pct": 30.93,
       "catalyst": "CBRS extends its post-earnings rally, while MOD surges on Samsung takeover buzz.",
       "prev_close": 106.1,
       "premarket_volume": 644286,
@@ -70,8 +70,8 @@
     },
     {
       "ticker": "SHIM",
-      "price": 3.01,
-      "gap_pct": 28.74,
+      "price": 3.02,
+      "gap_pct": 29.06,
       "catalyst": "Shimmick swings to GAAP profit as legacy work winds down.",
       "prev_close": 2.34,
       "premarket_volume": 118805,
@@ -82,8 +82,8 @@
     },
     {
       "ticker": "NMAX",
-      "price": 9.22,
-      "gap_pct": 26.47,
+      "price": 9.16,
+      "gap_pct": 25.62,
       "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…",
       "prev_close": 7.29,
       "premarket_volume": 92830,
@@ -94,8 +94,8 @@
     },
     {
       "ticker": "LFTO",
-      "price": 22.31,
-      "gap_pct": 19.24,
+      "price": 22.63,
+      "gap_pct": 20.95,
       "catalyst": "Liftoff Mobile’s artificial-intelligence improvements drive higher-than-expected profit.",
       "prev_close": 18.71,
       "premarket_volume": 251251,
@@ -105,9 +105,21 @@
       "catalyst_url": "https://www.barrons.com/articles/liftoff-mobile-earnings-stock-price-1cbec0c9?siteid=yhoof2&yptr=yahoo"
     },
     {
+      "ticker": "HAWK",
+      "price": 17.5,
+      "gap_pct": 19.29,
+      "catalyst": "HawkEye missed on Q3 earnings -- but delivered on free cash flow.",
+      "prev_close": 14.67,
+      "premarket_volume": 62854,
+      "session": "regular",
+      "catalyst_source": "Motley Fool",
+      "catalyst_headline": "Why HawkEye 360 Stock Took Flight Friday",
+      "catalyst_url": "https://www.fool.com/investing/2026/11/13/why-hawkeye-360-stock-took-flight-friday/"
+    },
+    {
       "ticker": "NUAI",
-      "price": 3.2,
-      "gap_pct": 17.83,
+      "price": 3.14,
+      "gap_pct": 15.62,
       "catalyst": "Moby summary of New Era Energy & Digital, Inc.'s Q3 2026 earnings call.",
       "prev_close": 2.72,
       "premarket_volume": 1166228,
@@ -117,21 +129,9 @@
       "catalyst_url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-new-era-energy-digital-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
     },
     {
-      "ticker": "HAWK",
-      "price": 17.23,
-      "gap_pct": 17.45,
-      "catalyst": "Soaring global contracts and cheaper next-generation satellites prompt HawkEye 360 to raise its full-year outlook.",
-      "prev_close": 14.67,
-      "premarket_volume": 62854,
-      "session": "regular",
-      "catalyst_source": "Barrons.com",
-      "catalyst_headline": "HawkEye 360 Raises Outlook on Booming Global Deals and Cheaper Satellites.",
-      "catalyst_url": "https://www.barrons.com/articles/hawkeye-360-earnings-stock-price-6562786d?siteid=yhoof2&yptr=yahoo"
-    },
-    {
       "ticker": "CDNL",
-      "price": 6.62,
-      "gap_pct": 17.38,
+      "price": 6.47,
+      "gap_pct": 14.63,
       "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately.",
       "prev_close": 5.64,
       "premarket_volume": 207691,
@@ -142,8 +142,8 @@
     },
     {
       "ticker": "TNDM",
-      "price": 20.2,
-      "gap_pct": 15.36,
+      "price": 19.95,
+      "gap_pct": 13.93,
       "catalyst": "Investing.com -- Shares of Tandem Diabetes Care, Inc.",
       "prev_close": 17.51,
       "premarket_volume": 71181,
@@ -154,8 +154,8 @@
     },
     {
       "ticker": "CBRS",
-      "price": 108.28,
-      "gap_pct": 10.77,
+      "price": 108.13,
+      "gap_pct": 10.62,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers.",
       "prev_close": 97.75,
       "premarket_volume": 2363940,
@@ -166,8 +166,8 @@
     },
     {
       "ticker": "NU",
-      "price": 13.07,
-      "gap_pct": 10.48,
+      "price": 12.99,
+      "gap_pct": 9.85,
       "catalyst": "The Latin American digital bank lifted net income 31% and tightened its 2026 efficiency target, though delinquencies ticked higher.",
       "prev_close": 11.83,
       "premarket_volume": 1493642,
@@ -177,9 +177,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-stocks-jump-7-180150499.html"
     },
     {
+      "ticker": "WSE",
+      "price": 11.59,
+      "gap_pct": 6.04,
+      "catalyst": "The cross-border payments firm topped 16 million active customers and guided fiscal 2027 growth toward the top half of its range.",
+      "prev_close": 10.93,
+      "premarket_volume": 100175,
+      "session": "regular",
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "Wise Stocks Jump 8.33% After 23% Revenue Growth and Upper-Range Outlook",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/wise-stocks-jump-8-33-182904992.html"
+    },
+    {
       "ticker": "ALM",
-      "price": 8.11,
-      "gap_pct": 6.36,
+      "price": 8.06,
+      "gap_pct": 5.7,
       "catalyst": "Almonty Industries Inc.",
       "prev_close": 7.63,
       "premarket_volume": 99498,
@@ -187,42 +199,6 @@
       "catalyst_source": "Zacks",
       "catalyst_headline": "Almonty Industries Inc. (ALM) Misses Q3 Earnings and Revenue Estimates",
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/almonty-industries-inc-alm-misses-220502747.html"
-    },
-    {
-      "ticker": "WSE",
-      "price": 11.62,
-      "gap_pct": 6.27,
-      "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…",
-      "prev_close": 10.93,
-      "premarket_volume": 100175,
-      "session": "regular",
-      "catalyst_source": "Proactive",
-      "catalyst_headline": "Wise jumps 10% as Jefferies highlights Belgian settlement and North American bank wins",
-      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101743/wise-jumps-10-as-jefferies-highlights-belgian-settlement-and-north-american-bank-wins-1101743.html"
-    },
-    {
-      "ticker": "UAMY",
-      "price": 3.09,
-      "gap_pct": 6.01,
-      "catalyst": "While small caps and materials stocks slide, rare earth names are surging, and one Greenland-focused developer has lagged the pack all year.",
-      "prev_close": 2.91,
-      "premarket_volume": 183910,
-      "session": "regular",
-      "catalyst_source": "24/7 Wall St.",
-      "catalyst_headline": "Critical Metals Rises 3% as Rare Earth Stocks Extend Rally; USA Rare Earth Climbs 3%, MP Materials Gains 2%",
-      "catalyst_url": "https://247wallst.com/investing/2026/11/13/critical-metals-rises-3-as-rare-earth-stocks-extend-rally-usa-rare-earth-climbs-3-mp-materials-gains-2/"
-    },
-    {
-      "ticker": "BULL",
-      "price": 5.22,
-      "gap_pct": 5.28,
-      "catalyst": "Institutional Financial Markets (COHN) delivered earnings and revenue surprises of -76.19% and -20.49%, respectively, for the quarter ended September 2026.",
-      "prev_close": 4.96,
-      "premarket_volume": 247312,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Institutional Financial Markets, Inc. (COHN) Q3 Earnings and Revenues Lag Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/institutional-financial-markets-inc-cohn-131502468.html"
     }
   ]
 }
