@@ -1,189 +1,233 @@
 {
   "ticker": "POAS",
-  "saved_at_et": "2026-11-13T09:03:20-05:00",
+  "saved_at_et": "2026-11-13T09:32:14-05:00",
   "response": {
     "data": {
       "message": null,
       "rows": [
         {
-          "ago": "12 minutes ago",
+          "ago": "11 minutes ago",
           "created": "Nov 13, 2026",
-          "description": "Key PointsThird-quarter revenue grew 21% year over year to $111.1 million.",
-          "id": 28838356,
+          "description": "On November 12, 2026, Linde plc issued €650 million aggregate principal amount of 3.700% Notes due 2029, and issued €650 million aggregate principal amount of 4.000% Notes due 2033. The notes were issued pursuant to a Subscription Agreement, dated November 10, 2026, by",
+          "id": 28838671,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "flyx",
+          "primarysymbol": "lin",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "lin|stocks"
+          ],
+          "title": "Linde plc Issues €650 million of 3.700% Notes due 2029 and €650 million of 4.000% Notes due 2033",
+          "url": "/articles/linde-plc-issues-eu650-million-3700-notes-due-2029-and-eu650-million-4000-notes-due-2033"
+        },
+        {
+          "ago": "11 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "Lifeway Foods, Inc. reported record quarterly net sales of $67.8 million for the third quarter ended September 30, 2026, representing an increase of 18.6% year-over-year. This performance marks the company's 28th consecutive quarter of year-over-year net sales growth, which was p",
+          "id": 28838666,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "lway",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "lway|stocks"
+          ],
+          "title": "Lifeway Foods, Inc. Reports Record Net Sales of $67.8 million in Third Quarter 2026",
+          "url": "/articles/lifeway-foods-inc-reports-record-net-sales-678-million-third-quarter-2026"
+        },
+        {
+          "ago": "13 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "Key PointsThird-quarter revenue rose 9% year over year to $1.3 billion.",
+          "id": 28838646,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "adig",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "flyx|stocks"
+            "adig|stocks"
           ],
-          "title": "flyExclusive: 3 Key Takeaways for Long-Term Investors",
-          "url": "/articles/flyexclusive-3-key-takeaways-long-term-investors"
+          "title": "ADI Global Distribution: 3 Key Takeaways for Long-Term Investors",
+          "url": "/articles/adi-global-distribution-3-key-takeaways-long-term-investors"
         },
         {
-          "ago": "12 minutes ago",
+          "ago": "16 minutes ago",
           "created": "Nov 13, 2026",
-          "description": "Should you buy stock in The Trade Desk right now?\nBefore you buy stock in The Trade Desk, consider this:Missed Nvidia in 2009? This Rare Signal Is Flashing Again. In 2009, a \"Double Down\" signal flashed for a little-known chipmaker called Nvidia. For the first time in years, that",
-          "id": 28838351,
+          "description": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.35% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.30%.  December E-mini S&P futures (ESZ26 ) fell -0.33%, and December E-mini Nasdaq futures...",
+          "id": 28833526,
+          "image": "/barchart/NASDAQ%2520sign%2520at%2520times%2520square%2520at%2520night%2520by%2520Lucky-photographer%2520via%2520iStock.jpg",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Barchart",
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
+          "related_symbols": [
+            "mstr|stocks",
+            "alk|stocks",
+            "ttek|stocks",
+            "googl|stocks",
+            "sndk|stocks",
+            "gpn|stocks",
+            "glxy|stocks",
+            "lite|stocks",
+            "coin|stocks",
+            "crwv|stocks",
+            "glw|stocks",
+            "stx|stocks",
+            "kdp|stocks",
+            "amd|stocks",
+            "spy|etf",
+            "mu|stocks",
+            "yeti|stocks",
+            "orcl|stocks",
+            "aal|stocks",
+            "lunr|stocks",
+            "qqq|etf",
+            "iren|stocks",
+            "rcl|stocks",
+            "arm|stocks",
+            "hood|stocks",
+            "mrvl|stocks",
+            "amat|stocks",
+            "ual|stocks",
+            "ctva|stocks",
+            "avgo|stocks",
+            "asml|stocks",
+            "bmnr|stocks",
+            "nclh|stocks",
+            "dia|etf",
+            "klac|stocks",
+            "mara|stocks",
+            "smci|stocks",
+            "ingm|stocks",
+            "luv|stocks",
+            "ccl|stocks",
+            "dal|stocks",
+            "intc|stocks",
+            "apld|stocks",
+            "nbis|stocks"
+          ],
+          "title": "Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields",
+          "url": "/articles/stocks-settle-lower-nvidia-rout-and-higher-crude-and-bond-yields"
+        },
+        {
+          "ago": "17 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28838641,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "ttd",
+          "primarysymbol": "azul",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "The Motley Fool",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
           "related_symbols": [
-            "ttd|stocks"
+            "azul|stocks"
           ],
-          "title": "Finally! Great News for The Trade Desk Stock Investors",
-          "url": "/articles/finally-great-news-trade-desk-stock-investors"
+          "title": "Azul (AZUL) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/azul-azul-q3-2026-earnings-call-transcript"
         },
         {
-          "ago": "12 minutes ago",
+          "ago": "18 minutes ago",
           "created": "Nov 13, 2026",
-          "description": "(RTTNews) - EMCOR Group, Inc. (EME), a provider of mechanical and electrical construction and facilities services, said Friday that it has agreed to acquire P1 Construction, a U.S.-based mechanical and electrical contractor, in an all-cash transaction.",
-          "id": 28838336,
+          "description": "Key PointsCoinbase Global has expanded beyond trading into international derivatives and stablecoin infrastructure.",
+          "id": 28838636,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "eme",
+          "primarysymbol": "coin",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "coin|stocks",
+            "ma|stocks"
+          ],
+          "title": "Coinbase Global vs. Mastercard: Which Financial Stock Is a Better Buy for 2027?",
+          "url": "/articles/coinbase-global-vs-mastercard-which-financial-stock-better-buy-2027"
+        },
+        {
+          "ago": "18 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "(RTTNews) - Friday, Mammoth Energy Services, Inc. (TUSK) promoted Bernard Lancaster from Chief Operating Officer to President, effective November 9, 2026.",
+          "id": 28838696,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "tusk",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
           "publisher": "RTTNews",
           "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "eme|stocks"
+            "tusk|stocks"
           ],
-          "title": "EMCOR To Acquire P1 Construction ",
-          "url": "/articles/emcor-acquire-p1-construction"
+          "title": "Mammoth Energy Promotes COO Bernard Lancaster To President ",
+          "url": "/articles/mammoth-energy-promotes-coo-bernard-lancaster-president"
         },
         {
-          "ago": "13 minutes ago",
+          "ago": "19 minutes ago",
           "created": "Nov 13, 2026",
-          "description": "Stevanato Group S.p.A. reported its financial results for the third quarter of 2026, with revenue growing 8% to €326.1 million on both a reported and organic basis. This growth was driven by an 11% organic increase in the Biopharmaceutical and Diagnostic Solutions (BDS) Segm",
-          "id": 28838331,
+          "description": "(RTTNews) - Gravity Co., Ltd. (GRVY), a South Korean electronic gaming and multimedia company, on Thursday reported increase in third quarter earnings, over the last year.",
+          "id": 28838691,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "stvn",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "stvn|stocks"
-          ],
-          "title": "Stevanato Group S.p.A. Reports Third Quarter 2026 Financial Results and Outlines 2027 Outlook",
-          "url": "/articles/stevanato-group-spa-reports-third-quarter-2026-financial-results-and-outlines-2027-outlook"
-        },
-        {
-          "ago": "13 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "Retail Value Inc. announced that its Board of Directors has declared a final liquidating distribution of $0.1435 per share. The distribution is payable on December 2, 2026 to the holders of the Company’s common shares as of 5:00 p.m. Eastern Time on December 1, 2026. The Co",
-          "id": 28838326,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "rvi",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "rvi|stocks"
-          ],
-          "title": "Retail Value Inc. Declares Final Liquidating Distribution of $0.1435 Per Share",
-          "url": "/articles/retail-value-inc-declares-final-liquidating-distribution-01435-share"
-        },
-        {
-          "ago": "13 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "LifeVantage Corporation held its fiscal year 2027 annual meeting of stockholders on November 5, 2026. Of the 12,589,444 shares of the Company’s common stock outstanding as of the record date, 9,421,295 shares, or 74.83% were represented at the Annual Meeting either in perso",
-          "id": 28838321,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "lfvn",
-          "primarytopic": "Stocks|4301",
-          "primarytopic_url": "/topic/stocks",
-          "publisher": "Fintel",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
-          "related_symbols": [
-            "lfvn|stocks"
-          ],
-          "title": "LifeVantage Corporation Reports Voting Results from Fiscal Year 2027 Annual Meeting",
-          "url": "/articles/lifevantage-corporation-reports-voting-results-fiscal-year-2027-annual-meeting"
-        },
-        {
-          "ago": "14 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "Key PointsLicensing revenue grew 35% year over year to $11.7 million.",
-          "id": 28838306,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "curi",
+          "primarysymbol": "grvy",
           "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
           "related_symbols": [
-            "curi|stocks"
+            "grvy|stocks"
           ],
-          "title": "CuriosityStream: 3 Key Takeaways for Long-Term Investors",
-          "url": "/articles/curiositystream-3-key-takeaways-long-term-investors"
+          "title": "Gravity Q3 Earnings Climb 7.7% ",
+          "url": "/articles/gravity-q3-earnings-climb-77"
         },
         {
           "ago": "21 minutes ago",
           "created": "Nov 13, 2026",
-          "description": "Broadcom (NASDAQ:AVGO) has an unusual problem: surging AI demand is creating both a massive growth opportunity and a new financial exposure. With shares well below their peak and analyst targets pointing higher, the biggest question is whether its Anthropic backstop is a manageab",
-          "id": 28838316,
+          "description": "Mannatech, Incorporated reported net sales of $24.9 million for the three months ended September 30, 2026, representing a decrease of $4.3 million compared to the same period in 2025. On a Constant dollar basis, net sales decreased 14.6%. Gross profit as a percentage of net sales",
+          "id": 28838631,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "avgo",
-          "primarytopic": "Markets|4006",
-          "primarytopic_url": "/topic/markets",
-          "publisher": "The Motley Fool",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
-          "related_symbols": [
-            "avgo|stocks"
-          ],
-          "title": "Is Broadcom Stock a Buy After Its $43 Billion Anthropic Backstop?",
-          "url": "/articles/broadcom-stock-buy-after-its-43-billion-anthropic-backstop"
-        },
-        {
-          "ago": "23 minutes ago",
-          "created": "Nov 13, 2026",
-          "description": "Assembly Biosciences, Inc. reported its financial results for the third quarter ended September 30, 2026. Cash, cash equivalents and marketable securities were $314.3 million as of September 30, 2026, compared to $320.4 million as of June 30, 2026. The company’s cash positi",
-          "id": 28838276,
-          "image": "",
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "asmb",
+          "primarysymbol": "mtex",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
           "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "asmb|stocks"
+            "mtex|stocks"
           ],
-          "title": "Assembly Biosciences, Inc. Reports Third Quarter 2026 Financial Results and Recent Updates",
-          "url": "/articles/assembly-biosciences-inc-reports-third-quarter-2026-financial-results-and-recent-updates"
+          "title": "Mannatech, Incorporated Reports Net Income of $8.9 million for Third Quarter 2026",
+          "url": "/articles/mannatech-incorporated-reports-net-income-89-million-third-quarter-2026"
         },
         {
-          "ago": "23 minutes ago",
+          "ago": "21 minutes ago",
           "created": "Nov 13, 2026",
-          "description": "Manchester United plc has confirmed that Michael Carrick has departed his role as men’s first team head coach. Carrick rejoined the club in January and guided the team to a third placed Premier League finish by winning 12 out of the remaining 17 games of the 2025/26 season,",
-          "id": 28838271,
+          "description": "IZEA Worldwide, Inc. reported its financial results for the third quarter ended September 30, 2026. Revenue for the quarter was $6.2 million, representing a decrease of $1.9 million, or 23%, from the prior-year period. The decline was driven by lower revenue from other establishe",
+          "id": 28838626,
           "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "primarysymbol": "manu",
+          "primarysymbol": "izea",
           "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
           "publisher": "Fintel",
           "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
           "related_symbols": [
-            "manu|stocks"
+            "izea|stocks"
           ],
-          "title": "Manchester United plc Announces Departure of Men's First Team Head Coach Michael Carrick After Winning 12 Out of 17 Games in 2025/26",
-          "url": "/articles/manchester-united-plc-announces-departure-mens-first-team-head-coach-michael-carrick-after"
+          "title": "IZEA Worldwide, Inc. Reports Q3 2026 Revenue of $6.2 million and 94% Increase in Managed Services Bookings",
+          "url": "/articles/izea-worldwide-inc-reports-q3-2026-revenue-62-million-and-94-increase-managed-services"
         }
       ],
       "totalrecords": 500

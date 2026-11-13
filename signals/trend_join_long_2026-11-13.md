@@ -1,18 +1,19 @@
 **Trend-join Long — 2026-11-13**
-0 valid entries out of 12 pre-market gappers (generated 2026-11-13 09:05:01 EST)
+0 valid entries out of 13 pre-market gappers (generated 2026-11-13 09:35:00 EST)
 
 _No valid entries yet._
 
 Not triggered:
-- BKHA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- BKHA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CBRS: SHORT_HISTORY — Only 127 trading days of history (< 200 needed for SMA200)
-- FCUV: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- FCUV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - LFTO: SHORT_HISTORY — Only 113 trading days of history (< 200 needed for SMA200)
-- MOD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NEOV: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NMAX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- POAS: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- RZLT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- SLS: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- VISN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- VTSI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- MOD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NEOV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NMAX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- POAS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- RZLT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- SLS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- TNDM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- VTSI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- WSE: SHORT_HISTORY — Only 130 trading days of history (< 200 needed for SMA200)

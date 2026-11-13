@@ -1,12 +1,12 @@
 {
   "ticker": "ACCV",
-  "saved_at_et": "2026-11-13T09:01:11-05:00",
+  "saved_at_et": "2026-11-13T09:31:03-05:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $12.21",
       "lastUpdateInfo": [
-        "This page refreshes every 30 seconds.",
-        "Data last updated Nov 13, 2026 09:01 AM ET."
+        "Data last updated Nov 13, 2026 09:30 AM ET.",
+        "This page will resume updating on Nov 16, 2026 04:00 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,9 +19,9 @@
         },
         "rows": [
           {
-            "consolidated": "$13.1768 +0.9668 (+7.92%)",
-            "volume": "3,362",
-            "highPrice": "$13.53 (08:51:34 AM)",
+            "consolidated": "$13.8 +1.59 (+13.02%)",
+            "volume": "4,659",
+            "highPrice": "$14.07 (09:29:31 AM)",
             "lowPrice": "$12.94 (08:26:40 AM)",
             "delta": "up"
           }
@@ -35,6 +35,61 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "09:10:08",
+            "price": "$13.8",
+            "shareVolume": "2"
+          },
+          {
+            "time": "09:01:32",
+            "price": "$13.19",
+            "shareVolume": "52"
+          },
+          {
+            "time": "08:59:20",
+            "price": "$13.92",
+            "shareVolume": "60"
+          },
+          {
+            "time": "08:51:34",
+            "price": "$13.95",
+            "shareVolume": "17"
+          },
+          {
+            "time": "08:51:34",
+            "price": "$13.53",
+            "shareVolume": "200"
+          },
+          {
+            "time": "08:51:15",
+            "price": "$13.53",
+            "shareVolume": "90"
+          },
+          {
+            "time": "08:50:27",
+            "price": "$13.53",
+            "shareVolume": "3"
+          },
+          {
+            "time": "08:50:27",
+            "price": "$13.54",
+            "shareVolume": "18"
+          },
+          {
+            "time": "08:50:27",
+            "price": "$13.53",
+            "shareVolume": "7"
+          },
+          {
+            "time": "08:47:02",
+            "price": "$13.17",
+            "shareVolume": "325"
+          },
+          {
+            "time": "08:47:02",
+            "price": "$13.18",
+            "shareVolume": "10"
+          },
           {
             "time": "08:45:14",
             "price": "$13.1768",
