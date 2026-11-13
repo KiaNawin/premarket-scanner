@@ -1,143 +1,22 @@
 {
   "ticker": "BKHA",
-  "saved_at_et": "2026-11-13T10:02:49-05:00",
+  "saved_at_et": "2026-11-13T10:33:14-05:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "Why AAON Stock Surged 37.8% This Week",
-          "image": "",
+          "ago": "4 minutes ago",
           "created": "Nov 13, 2026",
-          "ago": "9 minutes ago",
-          "primarysymbol": "aaon",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "aaon|stocks"
-          ],
-          "url": "/articles/why-aaon-stock-surged-378-week",
-          "id": 28838921,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Key PointsAAON reported record third-quarter revenue of $707.4 million, driven by demand for data center cooling systems.",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Cisco: 3 Key Takeaways for Long-Term Investors",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "csco",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "csco|stocks"
-          ],
-          "url": "/articles/cisco-3-key-takeaways-long-term-investors",
-          "id": 28838916,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Key PointsCisco raised its fiscal year 2027 AI revenue target to $9 billion.",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Paysafe Limited Refinances Debt with $650,871 and €478,421 Term Loans",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "psfe",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "psfe|stocks"
-          ],
-          "url": "/articles/paysafe-limited-refinances-debt-650871-and-eu478421-term-loans",
-          "id": 28838886,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Paysafe Limited reported its financial results for the three and nine months ended September 30, 2026, which included a goodwill impairment of $144,583 in its Merchant Solutions segment and $58,740 in its Digital Wallets segment. The company conducted an interim goodwill impairme",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "Ascendis Pharma A/S Grants 28,030 Warrants to Employees",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "asnd",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "asnd|stocks"
-          ],
-          "url": "/articles/ascendis-pharma-s-grants-28030-warrants-employees",
-          "id": 28838881,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Ascendis Pharma A/S reported that on November 10, 2026, the company’s board of directors granted an aggregate of 28,030 warrants to certain employees of the company under the terms of Appendix 1a to the company’s Articles of Association. In connection with the grant o",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "Arrowhead Pharmaceuticals, Inc. Reports Fiscal 2026 Results and Announces $400 million Refinancing",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "arwr",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "arwr|stocks"
-          ],
-          "url": "/articles/arrowhead-pharmaceuticals-inc-reports-fiscal-2026-results-and-announces-400-million",
-          "id": 28838876,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Arrowhead Pharmaceuticals, Inc. reported its financial results for the fiscal year ended September 30, 2026, with revenue of $ 450,817 thousand compared to $ 829,448 thousand in the prior fiscal year. The company recorded a net loss attributable to Arrowhead Pharmaceuticals, Inc.",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "York Space (YSS) Q3 2026 Earnings Call Transcript",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "yss",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "yss|stocks"
-          ],
-          "url": "/articles/york-space-yss-q3-2026-earnings-call-transcript",
-          "id": 28838911,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Crown Crafts (CRWS) Q2 2027 Earnings Call Transcript",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "crws",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "crws|stocks"
-          ],
-          "url": "/articles/crown-crafts-crws-q2-2027-earnings-call-transcript",
-          "id": 28838906,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
-        },
-        {
-          "title": "Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.35% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.30%.  December E-mini S&P futures (ESZ26 ) fell -0.33%, and December E-mini Nasdaq futures...",
+          "id": 28833526,
           "image": "/barchart/NASDAQ%2520sign%2520at%2520times%2520square%2520at%2520night%2520by%2520Lucky-photographer%2520via%2520iStock.jpg",
-          "created": "Nov 13, 2026",
-          "ago": "15 minutes ago",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
           "publisher": "Barchart",
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
           "related_symbols": [
             "mstr|stocks",
             "alk|stocks",
@@ -184,52 +63,177 @@
             "apld|stocks",
             "nbis|stocks"
           ],
-          "url": "/articles/stocks-settle-lower-nvidia-rout-and-higher-crude-and-bond-yields",
-          "id": 28833526,
+          "title": "Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields",
+          "url": "/articles/stocks-settle-lower-nvidia-rout-and-higher-crude-and-bond-yields"
+        },
+        {
+          "ago": "8 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the Nasdaq 100 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Nasdaq 100 component thus far",
+          "id": 28839576,
+          "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.35% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.30%.  December E-mini S&P futures (ESZ26 ) fell -0.33%, and December E-mini Nasdaq futures...",
+          "primarysymbol": "nbis",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "nbis|stocks"
+          ],
+          "title": "Nasdaq 100 Movers: NBIS, HONIV  ",
+          "url": "/articles/nasdaq-100-movers-nbis-honiv-0"
+        },
+        {
+          "ago": "8 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the S&P 500 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing S&P 500 component thus fa",
+          "id": 28839571,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "sndk",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "sndk|stocks",
+            "amd|stocks",
+            "kdp|stocks"
+          ],
+          "title": "S&P 500 Movers: SNDK, HONIV  ",
+          "url": "/articles/sp-500-movers-sndk-honiv-1"
+        },
+        {
+          "ago": "9 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "(RTTNews) - Grace Therapeutics, Inc. (GRCE) reported Thursday a wider fiscal second-quarter loss, mainly reflecting the absence of a prior-year warrant valuation gain.",
+          "id": 28839581,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "grce",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "grce|stocks"
+          ],
+          "title": "Grace Therapeutics Q2 Loss Widens Without Prior-Year Warrant Gain; Advances GTx-104 Plans ",
+          "url": "/articles/grace-therapeutics-q2-loss-widens-without-prior-year-warrant-gain-advances-gtx-104-plans"
+        },
+        {
+          "ago": "10 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing Dow Jones Industrial Average components, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Dow component thus far on",
+          "id": 28839541,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "csco",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "csco|stocks",
+            "nvda|stocks",
+            "googl|stocks"
+          ],
+          "title": "Dow Movers: CSCO, HONIV  ",
+          "url": "/articles/dow-movers-csco-honiv-0"
+        },
+        {
+          "ago": "15 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "MultiSensor AI Holdings, Inc. announced its financial results for the third quarter ended September 30, 2026. The company reported total revenue of $1.5 million, compared to $1.6 million in the third quarter of 2025. The slight decrease was driven by lower hardware revenue and th",
+          "id": 28839431,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "msai",
+          "primarytopic": "Stocks|4301",
           "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png"
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "msai|stocks"
+          ],
+          "title": "MultiSensor AI Holdings, Inc. Reports Third Quarter 2026 Financial Results",
+          "url": "/articles/multisensor-ai-holdings-inc-reports-third-quarter-2026-financial-results"
         },
         {
-          "title": "UBS Thinks Rivian Stock Can Hit $17. Is It a Buy?",
-          "image": "",
+          "ago": "15 minutes ago",
           "created": "Nov 13, 2026",
-          "ago": "19 minutes ago",
-          "primarysymbol": "rivn",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "rivn|stocks"
-          ],
-          "url": "/articles/ubs-thinks-rivian-stock-can-hit-17-it-buy",
-          "id": 28838926,
+          "description": "VICI Properties Inc. announced that its subsidiary, VICI Properties L.P., entered into a First Amendment on November 12, 2026, to its credit agreement dated February 3, 2025. The amendment provides for a new senior unsecured term loan A facility in an aggregate principal amount o",
+          "id": 28839426,
+          "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Rivian (NASDAQ:RIVN) has a potential breakthrough in its R2 SUV and UBS sees upside to $17 per share as production improves, with software revenue supporting the business. But with free cash flow deeply negative, the critical question is whether stronger vehicle margins can arriv",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+          "primarysymbol": "vici",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "vici|stocks"
+          ],
+          "title": "VICI Properties Inc. Subsidiary Enters Into Credit Agreement Amendment for $500 million Term Loan Facility",
+          "url": "/articles/vici-properties-inc-subsidiary-enters-credit-agreement-amendment-500-million-term-loan"
         },
         {
-          "title": "Prediction: This Data Center Stock Will Keep Sliding in 2027",
-          "image": "",
+          "ago": "15 minutes ago",
           "created": "Nov 13, 2026",
-          "ago": "23 minutes ago",
-          "primarysymbol": "apld",
-          "primarytopic": "Markets|4006",
-          "publisher": "The Motley Fool",
-          "related_symbols": [
-            "apld|stocks"
-          ],
-          "url": "/articles/prediction-data-center-stock-will-keep-sliding-2027",
-          "id": 28838841,
+          "description": "Nu Holdings Ltd. reported its Managerial Profit and Loss Reconciliation Report for the three-month period ended 09/30/2026. The company recorded managerial Net Income of 1,091.6, compared to 782.7 for the three-month period ended 09/30/2025, with figures presented in Million of U",
+          "id": 28839421,
+          "image": "",
           "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Key PointsApplied Digital more than quadrupled its revenue to $342 million last quarter, but most of the data center capacity it has leased out is still under construction.",
+          "primarysymbol": "nu",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "nu|stocks"
+          ],
+          "title": "Nu Holdings Ltd. Reports Q3’2026 Managerial Net Income of 1,091.6 Million",
+          "url": "/articles/nu-holdings-ltd-reports-q32026-managerial-net-income-10916-million"
+        },
+        {
+          "ago": "16 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "Looking at the universe of stocks we cover at Dividend Channel, on 11/16/26, TCW Strategic Income Fund (Symbol: TSI) will trade ex-dividend, for its monthly dividend of $0.0283, payable on 11/30/26.  As a percentage of TSI's recent stock price of $4.32, this dividend works out t",
+          "id": 28839461,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "tsi",
+          "primarytopic": "Markets|4006",
           "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png"
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "tsi|stocks"
+          ],
+          "title": "TSI Ex-Dividend Reminder - 11/16/26",
+          "url": "/articles/tsi-ex-dividend-reminder-11-16-26"
+        },
+        {
+          "ago": "16 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "Looking at the universe of stocks we cover at Dividend Channel, on 11/16/26, MainStay DefinedTerm Municipal Opportunities Fund (Symbol: MMD) will trade ex-dividend, for its monthly dividend of $0.0675, payable on 12/1/26.  As a percentage of MMD's recent stock price of $13.88, t",
+          "id": 28839456,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "mmd",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "mmd|stocks"
+          ],
+          "title": "Ex-Div Reminder for MainStay DefinedTerm Municipal Opportunities Fund (MMD)",
+          "url": "/articles/ex-div-reminder-mainstay-definedterm-municipal-opportunities-fund-mmd"
         }
       ],
-      "totalrecords": 500,
-      "message": null
+      "totalrecords": 500
     },
     "message": null,
     "status": {
