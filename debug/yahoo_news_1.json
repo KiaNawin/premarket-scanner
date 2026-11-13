@@ -1,6 +1,6 @@
 {
   "ticker": "FCUV",
-  "saved_at_et": "2026-11-13T12:33:23-05:00",
+  "saved_at_et": "2026-11-13T13:03:24-05:00",
   "response": [
     {
       "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
@@ -37,7 +37,13 @@
               "symbol": "NVDA"
             },
             {
+              "symbol": "ONFO"
+            },
+            {
               "symbol": "^IXIC"
+            },
+            {
+              "symbol": "IBIT"
             },
             {
               "symbol": "SHFS"
@@ -46,25 +52,25 @@
               "symbol": "CRWV"
             },
             {
-              "symbol": "ONFO"
+              "symbol": "AKAN"
+            },
+            {
+              "symbol": "IREN"
             },
             {
               "symbol": "FCUV"
             },
             {
-              "symbol": "KDP"
-            },
-            {
-              "symbol": "CRMN"
-            },
-            {
-              "symbol": "LICN"
-            },
-            {
               "symbol": "INTC"
             },
             {
-              "symbol": "IBIT"
+              "symbol": "KDP"
+            },
+            {
+              "symbol": "MRLN"
+            },
+            {
+              "symbol": "NBIS"
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 12:33:27 EST",
-  "scan_time_et": "12:33",
+  "generated_at_et": "2026-11-13 13:03:34 EST",
+  "scan_time_et": "13:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 499,
-    "with_data": 430,
-    "gap": 51,
-    "gap_price": 46,
-    "passed": 15,
+    "prefilter": 494,
+    "with_data": 420,
+    "gap": 55,
+    "gap_price": 49,
+    "passed": 16,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7082,
-  "count": 15,
+  "count": 16,
   "results": [
     {
       "ticker": "FCUV",
-      "price": 7.0,
-      "gap_pct": 133.31,
+      "price": 6.89,
+      "gap_pct": 129.83,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.0,
       "premarket_volume": 34901096,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "VTSI",
-      "price": 3.77,
-      "gap_pct": 44.08,
+      "price": 3.88,
+      "gap_pct": 48.09,
       "catalyst": "VirTra, Inc.",
       "prev_close": 2.62,
       "premarket_volume": 1232676,
@@ -45,33 +45,9 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/40010/virtra-reports-42-third-quarter-revenue-growth-to-7-6-million-as-bookings-reach-10-3-million"
     },
     {
-      "ticker": "MOD",
-      "price": 139.1,
-      "gap_pct": 31.11,
-      "catalyst": "Samsung is exploring a deal to buy Modine Manufacturing, which makes cooling systems for AI data centers.",
-      "prev_close": 106.1,
-      "premarket_volume": 644286,
-      "session": "regular",
-      "catalyst_source": "Investor's Business Daily",
-      "catalyst_headline": "Samsung Eyeing Deal To Buy Data Center Supplier Modine; Stock Soars 35%",
-      "catalyst_url": "https://www.investors.com/news/samsung-modine-manufacturing-ai-data-center/?src=A00220&yptr=yahoo"
-    },
-    {
-      "ticker": "NMAX",
-      "price": 9.35,
-      "gap_pct": 28.26,
-      "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…",
-      "prev_close": 7.29,
-      "premarket_volume": 92830,
-      "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "Newsmax Q3 Earnings Call Highlights",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-newsmax-q3-earnings-call-highlights-2026-11-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
       "ticker": "BKHA",
-      "price": 6.83,
-      "gap_pct": 27.07,
+      "price": 7.18,
+      "gap_pct": 33.58,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.38,
       "premarket_volume": 369921,
@@ -81,33 +57,45 @@
       "catalyst_url": null
     },
     {
+      "ticker": "MOD",
+      "price": 138.92,
+      "gap_pct": 30.93,
+      "catalyst": "CBRS extends its post-earnings rally, while MOD surges on Samsung takeover buzz.",
+      "prev_close": 106.1,
+      "premarket_volume": 644286,
+      "session": "regular",
+      "catalyst_source": "Schaeffer's Investment Research",
+      "catalyst_headline": "Options Bulls Target 2 Rallying AI Infrastructure Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/options/articles/options-bulls-target-2-rallying-173434672.html"
+    },
+    {
+      "ticker": "NMAX",
+      "price": 9.28,
+      "gap_pct": 27.3,
+      "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…",
+      "prev_close": 7.29,
+      "premarket_volume": 92830,
+      "session": "regular",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Newsmax Q3 Earnings Call Highlights",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-newsmax-q3-earnings-call-highlights-2026-11-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
       "ticker": "LFTO",
-      "price": 22.48,
-      "gap_pct": 20.12,
-      "catalyst": "Liftoff Mobile (NASDAQ: LFTO) shares surged 25% to $23.33 after the mobile advertising technology company reported stronger-than-expected third-quarter results and raised its forward guidance.",
+      "price": 22.03,
+      "gap_pct": 17.74,
+      "catalyst": "Liftoff Mobile’s artificial-intelligence improvements drive higher-than-expected profit.",
       "prev_close": 18.71,
       "premarket_volume": 251251,
       "session": "regular",
-      "catalyst_source": "Proactive",
-      "catalyst_headline": "Liftoff Mobile shares surge 25% as AI advertising growth drives earnings beat",
-      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101771/liftoff-mobile-shares-surge-25-as-ai-advertising-growth-drives-earnings-beat-1101771.html"
-    },
-    {
-      "ticker": "CDNL",
-      "price": 6.64,
-      "gap_pct": 17.73,
-      "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately.",
-      "prev_close": 5.64,
-      "premarket_volume": 207691,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Implied Volatility Surging for Cardinal Infrastructure Group Stock Options",
-      "catalyst_url": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-cardinal-infrastructure-130000354.html"
+      "catalyst_source": "Barrons.com",
+      "catalyst_headline": "This AI Advertising Stock Is Having Its Best Day Ever. Analysts Say Price Could Double.",
+      "catalyst_url": "https://www.barrons.com/articles/liftoff-mobile-earnings-stock-price-1cbec0c9?siteid=yhoof2&yptr=yahoo"
     },
     {
       "ticker": "HAWK",
-      "price": 17.01,
-      "gap_pct": 15.95,
+      "price": 17.27,
+      "gap_pct": 17.72,
       "catalyst": "Soaring global contracts and cheaper next-generation satellites prompt HawkEye 360 to raise its full-year outlook.",
       "prev_close": 14.67,
       "premarket_volume": 62854,
@@ -117,9 +105,21 @@
       "catalyst_url": "https://www.barrons.com/articles/hawkeye-360-earnings-stock-price-6562786d?siteid=yhoof2&yptr=yahoo"
     },
     {
+      "ticker": "CDNL",
+      "price": 6.61,
+      "gap_pct": 17.2,
+      "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately.",
+      "prev_close": 5.64,
+      "premarket_volume": 207691,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Implied Volatility Surging for Cardinal Infrastructure Group Stock Options",
+      "catalyst_url": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-cardinal-infrastructure-130000354.html"
+    },
+    {
       "ticker": "NUAI",
-      "price": 3.13,
-      "gap_pct": 15.26,
+      "price": 3.15,
+      "gap_pct": 15.99,
       "catalyst": "Moby summary of New Era Energy & Digital, Inc.'s Q3 2026 earnings call.",
       "prev_close": 2.72,
       "premarket_volume": 1166228,
@@ -130,8 +130,8 @@
     },
     {
       "ticker": "TNDM",
-      "price": 19.6,
-      "gap_pct": 11.94,
+      "price": 19.96,
+      "gap_pct": 13.99,
       "catalyst": "Investing.com -- Shares of Tandem Diabetes Care, Inc.",
       "prev_close": 17.51,
       "premarket_volume": 71181,
@@ -141,21 +141,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tandem-diabetes-stock-jumps-8-151136631.html"
     },
     {
-      "ticker": "NU",
-      "price": 13.14,
-      "gap_pct": 11.07,
-      "catalyst": "Nu Holdings Ltd (NU) posted record gross revenue of $6.3 billion and net income of $1.1 billion in Q3 2026, while management flagged rising 90+ day delinquency and a higher 2027 tax rate.",
-      "prev_close": 11.83,
-      "premarket_volume": 1493642,
-      "session": "regular",
-      "catalyst_source": "GuruFocus.com",
-      "catalyst_headline": "Nu Holdings Ltd (NU) (Q3 2026) Earnings Call Highlights: Record $1. ...",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-ltd-nu-q3-170345465.html"
-    },
-    {
       "ticker": "CBRS",
-      "price": 106.97,
-      "gap_pct": 9.43,
+      "price": 109.5,
+      "gap_pct": 12.02,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers.",
       "prev_close": 97.75,
       "premarket_volume": 2363940,
@@ -165,21 +153,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/cerebras-stock-surges-after-ai-chipmaker-posts-q3-record-revenue-deals-with-hyperscalers-124719638.html"
     },
     {
-      "ticker": "INTR",
-      "price": 4.23,
-      "gap_pct": 6.68,
-      "catalyst": "Inter & Co.",
-      "prev_close": 3.96,
-      "premarket_volume": 183581,
+      "ticker": "NU",
+      "price": 13.12,
+      "gap_pct": 10.9,
+      "catalyst": "Key TakeawaysNu Holdings shares jumped 11% today on record third-quarter net income of $1.",
+      "prev_close": 11.83,
+      "premarket_volume": 1493642,
       "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Inter & Co. Inc. (INTR) Lags Q3 Earnings and Revenue Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/inter-co-inc-intr-lags-233501546.html"
+      "catalyst_source": "TIKR",
+      "catalyst_headline": "Nu Holdings Soars 11% on Record $1.1 Billion Profit as It Takes “First Steps Beyond Latin America”",
+      "catalyst_url": "https://www.tikr.com/blog/nu-holdings-soars-11-on-record-1-1-billion-profit-as-it-takes-first-steps-beyond-latin-america?ref=yahoofinance&tlnk=yf-261113-6mm8v6h5"
     },
     {
       "ticker": "WSE",
-      "price": 11.65,
-      "gap_pct": 6.62,
+      "price": 11.68,
+      "gap_pct": 6.82,
       "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…",
       "prev_close": 10.93,
       "premarket_volume": 100175,
@@ -189,9 +177,21 @@
       "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101743/wise-jumps-10-as-jefferies-highlights-belgian-settlement-and-north-american-bank-wins-1101743.html"
     },
     {
+      "ticker": "INTR",
+      "price": 4.22,
+      "gap_pct": 6.31,
+      "catalyst": "Inter & Co.",
+      "prev_close": 3.96,
+      "premarket_volume": 183581,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Inter & Co. Inc. (INTR) Lags Q3 Earnings and Revenue Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/inter-co-inc-intr-lags-233501546.html"
+    },
+    {
       "ticker": "ALM",
       "price": 8.06,
-      "gap_pct": 5.57,
+      "gap_pct": 5.64,
       "catalyst": "Almonty Industries Inc.",
       "prev_close": 7.63,
       "premarket_volume": 99498,
@@ -199,6 +199,18 @@
       "catalyst_source": "Zacks",
       "catalyst_headline": "Almonty Industries Inc. (ALM) Misses Q3 Earnings and Revenue Estimates",
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/almonty-industries-inc-alm-misses-220502747.html"
+    },
+    {
+      "ticker": "BZ",
+      "price": 13.15,
+      "gap_pct": 5.32,
+      "catalyst": "Kanzhun (BZ) has been under pressure after its latest quarterly update, where revenue guidance for the next period reportedly trailed market expectations and prompted a sharp reset in growth sentiment.",
+      "prev_close": 12.49,
+      "premarket_volume": 81409,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Kanzhun (BZ) Could Be 43% Undervalued Following Soft Revenue Guidance",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-bz-could-43-undervalued-021103896.html"
     }
   ]
 }
