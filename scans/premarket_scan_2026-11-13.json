@@ -1,0 +1,144 @@
+{
+  "scan_date": "2026-11-13",
+  "generated_at_et": "2026-11-13 08:32:41 EST",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7081,
+    "prefilter": 121,
+    "with_data": 117,
+    "gap": 45,
+    "gap_price": 39,
+    "passed": 10,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7081,
+  "count": 10,
+  "results": [
+    {
+      "ticker": "FCUV",
+      "price": 4.48,
+      "gap_pct": 49.32,
+      "catalyst": "Every four pre-split shares were consolidated into one new share, with trading beginning on a split-adjusted basis on Tuesday.",
+      "prev_close": 3.0,
+      "premarket_volume": 10362891,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "FCUV Stock Clocks Best Day In 1.5 Years — What’s Driving Investor Optimism?",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/fcuv-stock-clocks-best-day-in1.5-years-whats-driving-the-rally/cZKwSzmR7O5"
+    },
+    {
+      "ticker": "MOD",
+      "price": 146.68,
+      "gap_pct": 38.25,
+      "catalyst": "Samsung Eyes $5.6 Billion Deal for Data Center Cooling Firm Modine as AI Demand Surges.",
+      "prev_close": 106.1,
+      "premarket_volume": 303804,
+      "session": "pre-market",
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "Modine Stock Gets a Potential $5.6 Billion Takeover Catalyst From Samsung",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/modine-stock-gets-potential-5-114103515.html"
+    },
+    {
+      "ticker": "VTSI",
+      "price": 3.45,
+      "gap_pct": 31.68,
+      "catalyst": "Army evaluation and manufacturing capacity plans are shaping what comes next.",
+      "prev_close": 2.62,
+      "premarket_volume": 328589,
+      "session": "pre-market",
+      "catalyst_source": "Motley Fool",
+      "catalyst_headline": "VirTra (VTSI) Q3 2026 Earnings Call Transcript",
+      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/13/virtra-vtsi-q3-2026-earnings-call-transcript/"
+    },
+    {
+      "ticker": "LFTO",
+      "price": 23.0,
+      "gap_pct": 22.93,
+      "catalyst": "Liftoff Mobile (NASDAQ:LFTO) reported third-quarter revenue of $238 million, up 32% from a year earlier, as advertising demand grew across several app categories and improvements to its prediction engine helped drive…",
+      "prev_close": 18.71,
+      "premarket_volume": 101509,
+      "session": "pre-market",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Liftoff Mobile Q3 Earnings Call Highlights",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-liftoff-mobile-q3-earnings-call-highlights-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "BKHA",
+      "price": 6.48,
+      "gap_pct": 20.56,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 5.38,
+      "premarket_volume": 341640,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "CBRS",
+      "price": 108.5,
+      "gap_pct": 11.0,
+      "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers.",
+      "prev_close": 97.75,
+      "premarket_volume": 1555682,
+      "session": "pre-market",
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "Cerebras stock surges on Q3 results, outlook raise, hyperscaler deals",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/cerebras-stock-surges-after-ai-chipmaker-posts-q3-record-revenue-deals-with-hyperscalers-124719638.html"
+    },
+    {
+      "ticker": "POAS",
+      "price": 3.28,
+      "gap_pct": 8.97,
+      "catalyst": "No recent news catalyst found.",
+      "prev_close": 3.01,
+      "premarket_volume": 10190637,
+      "session": "pre-market",
+      "catalyst_source": null,
+      "catalyst_headline": null,
+      "catalyst_url": null
+    },
+    {
+      "ticker": "RZLT",
+      "price": 4.14,
+      "gap_pct": 6.87,
+      "catalyst": "The U.S.",
+      "prev_close": 3.87,
+      "premarket_volume": 411935,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "Rezolute Gets FDA Nod For Pre-BLA Meeting Despite Phase 3 Miss — Retail Expects ‘Huge Rerating’",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/rezolute-gets-fda-nod-for-pre-bla-meeting-despite-phase-3-miss-retail-expects-huge-rerating/cZDpxXRRBjG"
+    },
+    {
+      "ticker": "SLS",
+      "price": 8.46,
+      "gap_pct": 5.35,
+      "catalyst": "Investors head into Friday amid uncertainty around tech stocks, mixed earnings reactions and concerns over Middle East tensions, with October’s PPI inflation data also in focus.",
+      "prev_close": 8.03,
+      "premarket_volume": 472615,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "Futures Edge Lower As NVDA Fallout Unsettles Tech Stocks — SLS, AMAT, CSCO, CADL Stocks In Focus",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/futures-edge-lower-as-nvda-fallout-unsettles-tech-stocks-sls-amat-csco-cadl-stocks-in-focus/cNbRGG3R9fP"
+    },
+    {
+      "ticker": "VISN",
+      "price": 4.21,
+      "gap_pct": 5.21,
+      "catalyst": "Vistance Networks (VISN) is in the spotlight after CEO and President Chuck Treadway announced plans to step down in early 2027, alongside fresh earnings, buyback moves, and sizeable cash distributions.",
+      "prev_close": 4.0,
+      "premarket_volume": 63184,
+      "session": "pre-market",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Vistance Networks (VISN) Could Be 74% Undervalued After CEO Exit And Cash Return Plans",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/vistance-networks-visn-could-74-002044144.html"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-11-13",
+  "generated_at_et": "2026-11-13 08:35:00 EST",
+  "source_premarket_file": "premarket_scan_2026-11-13.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 10,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "BKHA",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.7872,
+      "yesterday_high": 5.375,
+      "yesterday_close": 5.375,
+      "sma200": 11.1096,
+      "premarket_high": 8.54,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 20.56,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "CBRS",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 127 trading days of history (< 200 needed for SMA200)",
+      "history_days": 127,
+      "gap_pct": 11.0,
+      "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers."
+    },
+    {
+      "ticker": "FCUV",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.235,
+      "yesterday_high": 3.15,
+      "yesterday_close": 3.0,
+      "sma200": 8.6418,
+      "premarket_high": 4.74,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 49.32,
+      "catalyst": "Every four pre-split shares were consolidated into one new share, with trading beginning on a split-adjusted basis on Tuesday."
+    },
+    {
+      "ticker": "LFTO",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 113 trading days of history (< 200 needed for SMA200)",
+      "history_days": 113,
+      "gap_pct": 22.93,
+      "catalyst": "Liftoff Mobile (NASDAQ:LFTO) reported third-quarter revenue of $238 million, up 32% from a year earlier, as advertising demand grew across several app categories and improvements to its prediction engine helped drive…"
+    },
+    {
+      "ticker": "MOD",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 10.3979,
+      "yesterday_high": 110.28,
+      "yesterday_close": 106.1,
+      "sma200": 214.5033,
+      "premarket_high": 147.63,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 38.25,
+      "catalyst": "Samsung Eyes $5.6 Billion Deal for Data Center Cooling Firm Modine as AI Demand Surges."
+    },
+    {
+      "ticker": "POAS",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.5758,
+      "yesterday_high": 5.6,
+      "yesterday_close": 3.01,
+      "sma200": 16.4558,
+      "premarket_high": 4.05,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 8.97,
+      "catalyst": "No recent news catalyst found."
+    },
+    {
+      "ticker": "RZLT",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2923,
+      "yesterday_high": 4.125,
+      "yesterday_close": 3.87,
+      "sma200": 3.9218,
+      "premarket_high": 4.5,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.87,
+      "catalyst": "The U.S."
+    },
+    {
+      "ticker": "SLS",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.0079,
+      "yesterday_high": 8.41,
+      "yesterday_close": 8.03,
+      "sma200": 8.763,
+      "premarket_high": 9.78,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.35,
+      "catalyst": "Investors head into Friday amid uncertainty around tech stocks, mixed earnings reactions and concerns over Middle East tensions, with October’s PPI inflation data also in focus."
+    },
+    {
+      "ticker": "VISN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.3748,
+      "yesterday_high": 4.04,
+      "yesterday_close": 4.0,
+      "sma200": 12.3358,
+      "premarket_high": 4.22,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.21,
+      "catalyst": "Vistance Networks (VISN) is in the spotlight after CEO and President Chuck Treadway announced plans to step down in early 2027, alongside fresh earnings, buyback moves, and sizeable cash distributions."
+    },
+    {
+      "ticker": "VTSI",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.1277,
+      "yesterday_high": 2.625,
+      "yesterday_close": 2.62,
+      "sma200": 3.499,
+      "premarket_high": 3.55,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 31.68,
+      "catalyst": "Army evaluation and manufacturing capacity plans are shaping what comes next."
+    }
+  ],
+  "scan_time_et": "08:35"
+}

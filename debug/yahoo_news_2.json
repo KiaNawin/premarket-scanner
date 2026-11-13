@@ -1,47 +1,29 @@
 {
-  "ticker": "RETO",
-  "saved_at_et": "2026-11-12T14:03:45-05:00",
+  "ticker": "MOD",
+  "saved_at_et": "2026-11-13T08:32:31-05:00",
   "response": [
     {
-      "id": "a5cca9f9-2859-3d83-a62a-ed62531cabe7",
+      "id": "9c976e06-06dd-3ddd-8b9b-eb2ec26d2503",
       "content": {
-        "id": "a5cca9f9-2859-3d83-a62a-ed62531cabe7",
+        "id": "9c976e06-06dd-3ddd-8b9b-eb2ec26d2503",
         "contentType": "STORY",
-        "title": "ReTo Eco-Solutions Prices $15 Million Registered Direct Offering With Warrants and Additional Purchase Rights",
+        "title": "Modine Stock Gets a Potential $5.6 Billion Takeover Catalyst From Samsung",
         "description": null,
-        "summary": "The financing involves 10 million shares priced at $1. 50 each, alongside warrants and an option for investors to purchase up to $15 million in additional securities.",
-        "pubDate": "2026-09-17T14:24:53Z",
-        "displayTime": "2026-09-17T14:24:53Z",
+        "summary": "Samsung Eyes $5.6 Billion Deal for Data Center Cooling Firm Modine as AI Demand Surges",
+        "pubDate": "2026-11-13T11:41:03Z",
+        "displayTime": "2026-11-13T11:41:03Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/investorshub_458/82d7b63516681f122637fe4a364d2543.png",
-          "originalWidth": 1200,
-          "originalHeight": 659,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/investorshub_458/82d7b63516681f122637fe4a364d2543.png",
-              "width": 1200,
-              "height": 659,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/9453faf2bb1f896479f8de04fa75ba4b84fafee09d309948cf71e1c5796ece1e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F82d7b63516681f122637fe4a364d2543.png",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
+        "thumbnail": null,
         "provider": {
-          "displayName": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/"
+          "displayName": "GuruFocus.com",
+          "url": "http://www.gurufocus.com/"
         },
         "canonicalUrl": {
-          "url": "https://investorshub.advfn.com/market-news/article/36517/reto-eco-solutions-prices-15-million-registered-direct-offering-with-warrants-and-additional-purchase-rights"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/modine-stock-gets-potential-5-114103515.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/reto-eco-solutions-prices-15-142453839.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/modine-stock-gets-potential-5-114103515.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,7 +31,107 @@
           },
           "stockTickers": [
             {
-              "symbol": "RETO"
+              "symbol": "MOD"
+            },
+            {
+              "symbol": "005930.KS"
+            },
+            {
+              "symbol": "SSNLF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "64dc71e2-f652-39e5-9e7d-b73148365f43",
+      "content": {
+        "id": "64dc71e2-f652-39e5-9e7d-b73148365f43",
+        "contentType": "STORY",
+        "title": "Why Is MOD Stock Soaring 28% Overnight Today?",
+        "description": null,
+        "summary": "Samsung is reportedly in talks to acquire Modine as interest in AI cooling grows.",
+        "pubDate": "2026-11-13T01:23:40Z",
+        "displayTime": "2026-11-13T01:23:40Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/989376ab67d6fa0b8144c8e7b57a2e63",
+          "originalWidth": 1280,
+          "originalHeight": 853,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/stocktwits_383/989376ab67d6fa0b8144c8e7b57a2e63",
+              "width": 1280,
+              "height": 853,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/3ea06f6a769f749968963de03dd9968f004160cff4bbb7ae4d3834a7d2637ad1/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F989376ab67d6fa0b8144c8e7b57a2e63",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://stocktwits.com/news-articles/markets/equity/why-is-mod-stock-soaring-28-overnight-today/cNbbZmRR9OB"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-mod-stock-soaring-28-012340691.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "MOD"
+            },
+            {
+              "symbol": "005930.KS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "004f4af9-904c-33ba-81b7-57b61fe6415e",
+      "content": {
+        "id": "004f4af9-904c-33ba-81b7-57b61fe6415e",
+        "contentType": "STORY",
+        "title": "Samsung in talks to buy data center cooling firm Modine, Bloomberg reports",
+        "description": null,
+        "summary": "Investing.com-- Samsung Electronics (KS:005930) is in talks to buy Modine Manufacturing (NYSE:MOD), a company that develops cooling systems for data centers, Bloomberg reported on Thursday.",
+        "pubDate": "2026-11-13T00:58:09Z",
+        "displayTime": "2026-11-13T00:58:09Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-talks-buy-data-center-005809830.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-talks-buy-data-center-005809830.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "005930.KS"
+            },
+            {
+              "symbol": "MOD"
             }
           ]
         }
