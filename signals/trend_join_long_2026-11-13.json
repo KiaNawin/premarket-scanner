@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 08:35:00 EST",
+  "generated_at_et": "2026-11-13 09:05:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-13.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 10,
+  "candidates": 12,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -24,7 +24,7 @@
       "sma200": 11.1096,
       "premarket_high": 8.54,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 20.56,
+      "gap_pct": 21.86,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -33,7 +33,7 @@
       "signal": false,
       "reason": "Only 127 trading days of history (< 200 needed for SMA200)",
       "history_days": 127,
-      "gap_pct": 11.0,
+      "gap_pct": 10.98,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers."
     },
     {
@@ -44,9 +44,9 @@
       "yesterday_high": 3.15,
       "yesterday_close": 3.0,
       "sma200": 8.6418,
-      "premarket_high": 4.74,
+      "premarket_high": 7.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 49.32,
+      "gap_pct": 83.34,
       "catalyst": "Every four pre-split shares were consolidated into one new share, with trading beginning on a split-adjusted basis on Tuesday."
     },
     {
@@ -55,7 +55,7 @@
       "signal": false,
       "reason": "Only 113 trading days of history (< 200 needed for SMA200)",
       "history_days": 113,
-      "gap_pct": 22.93,
+      "gap_pct": 24.21,
       "catalyst": "Liftoff Mobile (NASDAQ:LFTO) reported third-quarter revenue of $238 million, up 32% from a year earlier, as advertising demand grew across several app categories and improvements to its prediction engine helped drive…"
     },
     {
@@ -68,8 +68,34 @@
       "sma200": 214.5033,
       "premarket_high": 147.63,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 38.25,
-      "catalyst": "Samsung Eyes $5.6 Billion Deal for Data Center Cooling Firm Modine as AI Demand Surges."
+      "gap_pct": 33.3,
+      "catalyst": "Samsung is exploring a deal to buy Modine Manufacturing, which makes cooling systems for AI data centers."
+    },
+    {
+      "ticker": "NEOV",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2758,
+      "yesterday_high": 3.0,
+      "yesterday_close": 2.85,
+      "sma200": 2.9075,
+      "premarket_high": 3.25,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 14.04,
+      "catalyst": "NeoVolta (NASDAQ:NEOV) reported a rebound in fiscal first-quarter revenue as it began recognizing sales from its residential third-party ownership financing platform, while executives said the company’s Georgia…"
+    },
+    {
+      "ticker": "NMAX",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.3994,
+      "yesterday_high": 7.74,
+      "yesterday_close": 7.29,
+      "sma200": 8.0141,
+      "premarket_high": 8.83,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 21.12,
+      "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…"
     },
     {
       "ticker": "POAS",
@@ -81,7 +107,7 @@
       "sma200": 16.4558,
       "premarket_high": 4.05,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.97,
+      "gap_pct": 14.65,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -94,7 +120,7 @@
       "sma200": 3.9218,
       "premarket_high": 4.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.87,
+      "gap_pct": 8.79,
       "catalyst": "The U.S."
     },
     {
@@ -107,7 +133,7 @@
       "sma200": 8.763,
       "premarket_high": 9.78,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.35,
+      "gap_pct": 7.33,
       "catalyst": "Investors head into Friday amid uncertainty around tech stocks, mixed earnings reactions and concerns over Middle East tensions, with October’s PPI inflation data also in focus."
     },
     {
@@ -118,9 +144,9 @@
       "yesterday_high": 4.04,
       "yesterday_close": 4.0,
       "sma200": 12.3358,
-      "premarket_high": 4.22,
+      "premarket_high": 4.23,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.21,
+      "gap_pct": 5.75,
       "catalyst": "Vistance Networks (VISN) is in the spotlight after CEO and President Chuck Treadway announced plans to step down in early 2027, alongside fresh earnings, buyback moves, and sizeable cash distributions."
     },
     {
@@ -131,11 +157,11 @@
       "yesterday_high": 2.625,
       "yesterday_close": 2.62,
       "sma200": 3.499,
-      "premarket_high": 3.55,
+      "premarket_high": 3.76,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 31.68,
+      "gap_pct": 39.34,
       "catalyst": "Army evaluation and manufacturing capacity plans are shaping what comes next."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
