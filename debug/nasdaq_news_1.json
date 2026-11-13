@@ -1,74 +1,184 @@
 {
   "ticker": "BKHA",
-  "saved_at_et": "2026-11-13T11:03:26-05:00",
+  "saved_at_et": "2026-11-13T11:33:51-05:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "Weekly Buzz: LLY, JNJ Win FDA Nod; SION, NNOX, Cut Jobs; PFE, ARGX Strike Deals ",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "7 minutes ago",
-          "primarysymbol": "",
-          "primarytopic": "Biotech|4146",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "amgn|stocks",
-            "argx|stocks",
-            "azn|stocks",
-            "beam|stocks",
-            "chrs|stocks",
-            "crmd|stocks",
-            "gehc|stocks",
-            "halo|stocks",
-            "jnj|stocks",
-            "lly|stocks",
-            "mirm|stocks",
-            "nnox|stocks",
-            "nspr|stocks",
-            "nvcr|stocks",
-            "nvs|stocks",
-            "ocgn|stocks",
-            "pfe|stocks",
-            "sgry|stocks",
-            "sion|stocks",
-            "vani|stocks",
-            "vir|stocks",
-            "zura|stocks"
-          ],
-          "url": "/articles/weekly-buzz-lly-jnj-win-fda-nod-sion-nnox-cut-jobs-pfe-argx-strike-deals",
-          "id": 28840171,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - This week's biotech roundup features a series of regulatory approvals across obesity, stroke prevention, oncology, and medical devices, alongside workforce reductions and cost-cutting measures at several companies. Major partnerships, acquisitions and licensing agreem",
-          "primarytopic_url": "/topic/biotech",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "4DMT Advances 4D-150 Toward Key 2027 Readouts; Q3 Net Loss Widens To $78.1 Mln ",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "8 minutes ago",
-          "primarysymbol": "fdmt",
-          "primarytopic": "Biotech|4146",
-          "publisher": "RTTNews",
-          "related_symbols": [
-            "fdmt|stocks"
-          ],
-          "url": "/articles/4dmt-advances-4d-150-toward-key-2027-readouts-q3-net-loss-widens-781-mln",
-          "id": 28840166,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "(RTTNews) - 4D Molecular Therapeutics, Inc. (FDMT) reported third-quarter 2026 financial results, highlighting continued investment in its Phase 3 programs for wet age-related macular degeneration (AMD) and diabetic macular edema (DME).",
-          "primarytopic_url": "/topic/biotech",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png"
-        },
-        {
-          "title": "Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields",
-          "image": "/barchart/NASDAQ%2520sign%2520at%2520times%2520square%2520at%2520night%2520by%2520Lucky-photographer%2520via%2520iStock.jpg",
-          "created": "Nov 13, 2026",
           "ago": "10 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28840746,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "cohn",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "cohn|stocks"
+          ],
+          "title": "Cohen & Co. (COHN) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/cohen-co-cohn-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "12 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28840741,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "ugp",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "ugp|stocks"
+          ],
+          "title": "Ultrapar (UGP) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/ultrapar-ugp-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "14 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "Key PointsWith Walmart, waiting for a better price might be the best move.",
+          "id": 28840736,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "wmt",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "wmt|stocks"
+          ],
+          "title": "Is Walmart (WMT) Stock Too Expensive to Buy Now?",
+          "url": "/articles/walmart-wmt-stock-too-expensive-buy-now"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28840676,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "lctx",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "lctx|stocks"
+          ],
+          "title": "Lineage (LCTX) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/lineage-lctx-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28840671,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "hit",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "hit|stocks"
+          ],
+          "title": "Health In Tech (HIT) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/health-tech-hit-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "20 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+          "id": 28840666,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "dyai",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "The Motley Fool",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/28/Motley%20Fool.png",
+          "related_symbols": [
+            "dyai|stocks"
+          ],
+          "title": "Dyadic (DYAI) Q3 2026 Earnings Call Transcript",
+          "url": "/articles/dyadic-dyai-q3-2026-earnings-call-transcript"
+        },
+        {
+          "ago": "25 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "(RTTNews) - Tvardi Therapeutics, Inc. (TVRD) reported Friday a wider third-quarter loss as higher clinical spending weighed on results. The company expects liver cancer trial data early in the first quarter of 2027.",
+          "id": 28840456,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "tvrd",
+          "primarytopic": "Biotech|4146",
+          "primarytopic_url": "/topic/biotech",
+          "publisher": "RTTNews",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/RTT%20News.png",
+          "related_symbols": [
+            "tvrd|stocks"
+          ],
+          "title": "Tvardi Q3 Loss Widens On Higher Clinical Costs; Liver Cancer Data Due Early Q1 2027 ",
+          "url": "/articles/tvardi-q3-loss-widens-higher-clinical-costs-liver-cancer-data-due-early-q1-2027"
+        },
+        {
+          "ago": "26 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "Investors in Burlington Stores Inc (Symbol: BURL) saw new options begin trading today, for the February 2027 expiration.  One of the key data points that goes into the price an option buyer is willing to pay, is the time value, so with 98 days until expiration the newly trading",
+          "id": 28840446,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "burl",
+          "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
+          "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
+          "related_symbols": [
+            "burl|stocks"
+          ],
+          "title": "February 2027 Options Now Available For Burlington Stores (BURL)",
+          "url": "/articles/february-2027-options-now-available-burlington-stores-burl"
+        },
+        {
+          "ago": "28 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "Fintel reports that on November 13, 2026, Leerink Partners upgraded their outlook for enGene Therapeutics (NASDAQCM:ENGN) (DB:S0N0) from Market Perform to Outperform.",
+          "id": 28840436,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
+          "primarysymbol": "engn",
+          "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
+          "publisher": "Fintel",
+          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg",
+          "related_symbols": [
+            "engn|stocks"
+          ],
+          "title": "Leerink Partners Upgrades enGene Therapeutics to Outperform from Market Perform",
+          "url": "/articles/leerink-partners-upgrades-engene-therapeutics-outperform-market-perform"
+        },
+        {
+          "ago": "28 minutes ago",
+          "created": "Nov 13, 2026",
+          "description": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.35% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.30%.  December E-mini S&P futures (ESZ26 ) fell -0.33%, and December E-mini Nasdaq futures...",
+          "id": 28833526,
+          "image": "/barchart/NASDAQ%2520sign%2520at%2520times%2520square%2520at%2520night%2520by%2520Lucky-photographer%2520via%2520iStock.jpg",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "",
           "primarytopic": "Stocks|4301",
+          "primarytopic_url": "/topic/stocks",
           "publisher": "Barchart",
+          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png",
           "related_symbols": [
             "mstr|stocks",
             "alk|stocks",
@@ -115,154 +225,11 @@
             "apld|stocks",
             "nbis|stocks"
           ],
-          "url": "/articles/stocks-settle-lower-nvidia-rout-and-higher-crude-and-bond-yields",
-          "id": 28833526,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.35% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.30%.  December E-mini S&P futures (ESZ26 ) fell -0.33%, and December E-mini Nasdaq futures...",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2023/04/28/barchart-horizontal.png"
-        },
-        {
-          "title": "MISL, BA, TDG, HEI: ETF Outflow Alert",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "14 minutes ago",
-          "primarysymbol": "misl",
-          "primarytopic": "Markets|4006",
-          "publisher": "BNK Invest",
-          "related_symbols": [
-            "misl|etf",
-            "ba|stocks",
-            "tdg|stocks",
-            "hei|stocks"
-          ],
-          "url": "/articles/misl-ba-tdg-hei-etf-outflow-alert",
-          "id": 28840041,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the First Trust Indxx Aerospace & Defense ETF (Symbol: MISL) where we have detected an approximate $157.8 million dollar outflow -- that's a 23.2% d",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
-        },
-        {
-          "title": "NeoVolta Inc. Reports $2.8 million in Revenue and $7.7 million Net Loss for Quarter Ended September 30, 2026",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "15 minutes ago",
-          "primarysymbol": "neov",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "neov|stocks"
-          ],
-          "url": "/articles/neovolta-inc-reports-28-million-revenue-and-77-million-net-loss-quarter-ended-september-30",
-          "id": 28839991,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "NeoVolta Inc. reported financial results for the quarter ended September 30, 2026, with revenue of $2.8 million, compared to approximately $13.5 thousand in the previous quarter ended June 30, 2026. The sequential recovery reflects initial sales of installed residential energy st",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "First Advantage Corporation Announces Pricing of 15,000,000 Share Secondary Offering at $21.80 Per Share",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "15 minutes ago",
-          "primarysymbol": "fa",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "fa|stocks"
-          ],
-          "url": "/articles/first-advantage-corporation-announces-pricing-15000000-share-secondary-offering-2180-share",
-          "id": 28839981,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "First Advantage Corporation announced the pricing of an underwritten secondary offering of 15,000,000 shares of its common stock by certain investment funds of Silver Lake Group, L.L.C. and its affiliates, the Selling Stockholder. The offering was priced to the public at $21.80 p",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "QXO, Inc. Reports Third Quarter 2026 Net Sales of $4.90 billion and Authorizes $500 million Share Repurchase",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "15 minutes ago",
-          "primarysymbol": "qxo",
-          "primarytopic": "Stocks|4301",
-          "publisher": "Fintel",
-          "related_symbols": [
-            "qxo|stocks"
-          ],
-          "url": "/articles/qxo-inc-reports-third-quarter-2026-net-sales-490-billion-and-authorizes-500-million-share",
-          "id": 28839971,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "QXO, Inc. reported its financial results for the third quarter ended September 30, 2026, with net sales totaling $4.90 billion, including $1.64 billion from TopBuild and $589 million from Kodiak. The company reported a net loss of $123 million and basic and diluted loss per commo",
-          "primarytopic_url": "/topic/stocks",
-          "publisher_logo": "/sites/acquia.prod/files/2022/05/24/fintel-f-logo.jpg"
-        },
-        {
-          "title": "Notable ETF Inflow Detected - ITOT, AMZN, MU, AMD",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "15 minutes ago",
-          "primarysymbol": "itot",
-          "primarytopic": "Markets|4006",
-          "publisher": "BNK Invest",
-          "related_symbols": [
-            "itot|etf",
-            "amzn|stocks",
-            "mu|stocks",
-            "amd|stocks"
-          ],
-          "url": "/articles/notable-etf-inflow-detected-itot-amzn-mu-amd",
-          "id": 28840036,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares Core S&P Total U.S. Stock Market ETF (Symbol: ITOT) where we have detected an approximate $346.9 million dollar inflow -- that's a 0.4% i",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
-        },
-        {
-          "title": "IYC, DIS, TJX, ABNB: Large Inflows Detected at ETF",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "15 minutes ago",
-          "primarysymbol": "iyc",
-          "primarytopic": "Markets|4006",
-          "publisher": "BNK Invest",
-          "related_symbols": [
-            "iyc|etf",
-            "dis|stocks",
-            "tjx|stocks",
-            "abnb|stocks"
-          ],
-          "url": "/articles/iyc-dis-tjx-abnb-large-inflows-detected-etf",
-          "id": 28840031,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares U.S. Consumer Discretionary ETF (Symbol: IYC) where we have detected an approximate $330.5 million dollar inflow -- that's a 25.1% increase w",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
-        },
-        {
-          "title": "Noteworthy ETF Outflows: AIRR, KRMN, NXT, CHRW",
-          "image": "",
-          "created": "Nov 13, 2026",
-          "ago": "15 minutes ago",
-          "primarysymbol": "airr",
-          "primarytopic": "Markets|4006",
-          "publisher": "BNK Invest",
-          "related_symbols": [
-            "airr|etf",
-            "krmn|stocks",
-            "nxt|stocks",
-            "chrw|stocks"
-          ],
-          "url": "/articles/noteworthy-etf-outflows-airr-krmn-nxt-chrw",
-          "id": 28840011,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the First Trust RBA American Industrial Renaissance ETF (Symbol: AIRR) where we have detected an approximate $165.4 million dollar outflow -- that's a 2",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
+          "title": "Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields",
+          "url": "/articles/stocks-settle-lower-nvidia-rout-and-higher-crude-and-bond-yields"
         }
       ],
-      "totalrecords": 500,
-      "message": null
+      "totalrecords": 500
     },
     "message": null,
     "status": {
