@@ -41,6 +41,7 @@ A_START, A_END = dt.time(8, 30), dt.time(14, 0)   # Scanner A window
 B_END = dt.time(15, 0)                              # Scanner B runs until 15:00
 B_DELAY = dt.timedelta(minutes=5)
 ALERT_START, ALERT_END = dt.time(10, 0), dt.time(11, 30)   # fast 5-min Scanner B checks (--alert)
+PB_START = dt.time(9, 50)                                   # ข้อ A pullback checks start (first signal bar ends 09:45)
 STEP = dt.timedelta(minutes=30)
 
 # NYSE calendar (NYSE Group announcement of 2025-12-23; update yearly: nyse.com/markets/hours-calendars)
@@ -129,30 +130,93 @@ def add_alerted(state_dir: str, day: dt.date, tickers: list[str]) -> None:
             f.write(t + "\n")
 
 
-def send_new_alerts(rep: dict | None, day: dt.date, args) -> list[str]:
-    """Send one loud Telegram alert for valid entries not alerted before today. Returns tickers alerted."""
-    if not rep:
-        return []
-    done = read_alerted(args.state_dir, day)
-    new = [r for r in rep.get("evaluated", []) if r.get("signal") and r["ticker"] not in done]
-    if not new:
-        return []
-    cfg = trade_plan.load_config()
-    for r in new:
-        r["plan"] = trade_plan.make_plan(r, cfg)
-        r["swing_plan"] = trade_plan.make_swing_plan(r, cfg)
-    msg = tg.build_alert(new, rep.get("scan_time_et"))
-    if args.dry_run:
-        print("----- ALERT (sound on) -----\n" + msg)
-    elif not tg.send_telegram(msg, silent=False):
-        return []                                  # not delivered → try again next run
-    tickers = [r["ticker"] for r in new]
-    add_alerted(args.state_dir, day, tickers)
-    try:                                           # freeze the plan for the end-of-day scorecard
-        trade_journal.record_alerts(day, new, dt.datetime.now(ET).strftime("%H:%M"))
+def _pb_path(state_dir: str, day: dt.date) -> str:
+    return os.path.join(state_dir, f"pullback_{day.isoformat()}.txt")
+
+
+def read_pb_alerted(state_dir: str, day: dt.date) -> set[str]:
+    try:
+        with open(_pb_path(state_dir, day), encoding="utf-8") as f:
+            return {ln.strip() for ln in f if ln.strip()}
+    except OSError:
+        return set()
+
+
+def add_pb_alerted(state_dir: str, day: dt.date, tickers: list[str]) -> None:
+    os.makedirs(state_dir, exist_ok=True)
+    with open(_pb_path(state_dir, day), "a", encoding="utf-8") as f:
+        for t in tickers:
+            f.write(t + "\n")
+
+
+def check_pullbacks(day: dt.date, now: dt.datetime) -> dict | None:
+    """ข้อ A: pullback-to-support check on the momentum list. None before 09:50 ET or on error."""
+    if now.time() < PB_START:
+        return None
+    try:
+        import pullback_scanner
+        res = pullback_scanner.run(day, now)
+        print(f"Pullback check: {res['watch']} watched, "
+              f"{sum(1 for r in res['evaluated'] if r['signal'])} signals"
+              + (f" ({res['error']})" if res.get("error") else ""), file=sys.stderr)
+        return res
     except Exception:
         traceback.print_exc()
-    print(f"Alerted new entries: {', '.join(tickers)}", file=sys.stderr)
+        return None
+
+
+def send_new_alerts(rep: dict | None, day: dt.date, args, pb: dict | None = None) -> list[str]:
+    """One loud Telegram alert for entries not alerted before today — Scanner B (🚨) and ข้อ A (🎯).
+
+    One message per stock per day: if a stock fires both signals in the same run they share one block;
+    if it already alerted earlier today on the other signal, the new one is only recorded (no message).
+    Returns the tickers alerted or recorded."""
+    done_b = read_alerted(args.state_dir, day)
+    done_a = read_pb_alerted(args.state_dir, day)
+    new_b = [r for r in (rep or {}).get("evaluated", []) if r.get("signal") and r["ticker"] not in done_b]
+    new_a = [r for r in (pb or {}).get("evaluated", []) if r.get("signal") and r["ticker"] not in done_a]
+    if not new_b and not new_a:
+        return []
+    cfg = trade_plan.load_config()
+    for r in new_b:
+        r["plan"] = trade_plan.make_plan(r, cfg)
+        r["swing_plan"] = trade_plan.make_swing_plan(r, cfg)
+    b_tickers = {r["ticker"] for r in new_b}
+    a_by = {r["ticker"]: r for r in new_a}
+    send_b = [r for r in new_b if r["ticker"] not in done_a]
+    send_a = [r for r in new_a if r["ticker"] not in done_b and r["ticker"] not in b_tickers]
+    paired = {r["ticker"]: a_by[r["ticker"]] for r in send_b if r["ticker"] in a_by}
+    quiet = [r["ticker"] for r in new_b if r["ticker"] in done_a] + \
+            [r["ticker"] for r in new_a if r["ticker"] in done_b]
+    delivered = True
+    if send_b or send_a:
+        msg = tg.build_alert(send_b, rep.get("scan_time_et") if rep else (pb or {}).get("check_time_et"),
+                             pullbacks=send_a, paired=paired)
+        if args.dry_run:
+            print("----- ALERT (sound on) -----\n" + msg)
+        else:
+            delivered = tg.send_telegram(msg, silent=False)
+    if not delivered:                              # not delivered → try again next run (record only the quiet ones)
+        new_b = [r for r in new_b if r["ticker"] in done_a]
+        new_a = [r for r in new_a if r["ticker"] in done_b]
+    at = dt.datetime.now(ET).strftime("%H:%M")
+    if new_b:
+        add_alerted(args.state_dir, day, [r["ticker"] for r in new_b])
+        try:                                       # freeze the plan for the end-of-day scorecard
+            trade_journal.record_alerts(day, new_b, at)
+        except Exception:
+            traceback.print_exc()
+    if new_a:
+        add_pb_alerted(args.state_dir, day, [r["ticker"] for r in new_a])
+        try:
+            import pullback_scanner
+            trade_journal.record_alerts(day, new_a, at, signals_dir=pullback_scanner.SIGNALS_DIR)
+        except Exception:
+            traceback.print_exc()
+    tickers = [r["ticker"] for r in new_b] + [r["ticker"] for r in new_a]
+    if quiet:
+        print(f"Already alerted today on the other signal (recorded, no message): {', '.join(quiet)}", file=sys.stderr)
+    print(f"Alerted/recorded new entries: {', '.join(tickers)}", file=sys.stderr)
     return tickers
 
 
@@ -187,7 +251,8 @@ def run_alert(now: dt.datetime, args) -> int:
     if not a_path:
         a_path = official
     if not a_path:
-        print("No Scanner A results yet today — nothing to check.")
+        print("No Scanner A results yet today — checking pullbacks only.")
+        send_new_alerts(None, day, args, check_pullbacks(day, now))
         return 0
 
     rep, _ = B.run_strategy(a_path, outdir=args.signal_dir)
@@ -207,7 +272,8 @@ def run_alert(now: dt.datetime, args) -> int:
                 cat = None
         r["catalyst"] = cat
 
-    sent = send_new_alerts(rep, day, args)
+    pb = check_pullbacks(day, now)
+    sent = send_new_alerts(rep, day, args, pb)
     print(f"Alert check {now:%H:%M} ET: {rep.get('valid_count', 0)} valid, {len(sent)} new.")
     return 0
 
@@ -228,7 +294,15 @@ def run_eod(day: dt.date, args) -> int:
         swing["compare"] = swing_journal.compare()
     except Exception:
         traceback.print_exc()
-    msg = tg.build_eod_message(day.isoformat(), scored, st, swing)
+    pbres = None
+    try:                                           # ข้อ A pullback alerts, scored the same way, separate history
+        import pullback_scanner as PBS
+        pb_scored = trade_journal.score_day(day, _fetch_minutes, signals_dir=PBS.SIGNALS_DIR,
+                                            trades_csv=PBS.TRADES_CSV)
+        pbres = {"scored": pb_scored, "stats": trade_journal.stats(PBS.TRADES_CSV)}
+    except Exception:
+        traceback.print_exc()
+    msg = tg.build_eod_message(day.isoformat(), scored, st, swing, pullback=pbres)
     if args.dry_run:
         print("----- EOD SUMMARY (silent) -----\n" + msg)
     else:
@@ -273,11 +347,12 @@ def run_cycle(start: dt.datetime, kind: str, args) -> str:
     else:
         b_note = "No Scanner A results today, nothing to check."
 
+    pb = check_pullbacks(day, dt.datetime.now(ET))
     try:
-        send_new_alerts(b_report, day, args)
+        send_new_alerts(b_report, day, args, pb)
     except Exception:
         traceback.print_exc()
-    msg = tg.build_message(a_payload, b_report, a_note, b_note)
+    msg = tg.build_message(a_payload, b_report, a_note, b_note, pb=pb)
     if args.dry_run:
         print("----- REPORT (silent) -----\n" + msg)
     else:

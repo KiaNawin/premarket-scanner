@@ -157,6 +157,7 @@ def scan(cfg: dict, as_of: dt.date, now_et: dt.datetime, bar_complete: bool, ref
     setup = lambda x: bool((x["base_tight"] or {}).get("ok")) or x["first_retest"] is not None
     leaders.sort(key=lambda x: (not setup(x), x["ret_rank_top_pct"], -(x["ret_3m"] or 0)))
     out["funnel"]["strong"] = len(leaders)
+    out["strong"] = list(leaders)                      # every strong stock (with or without a setup): ข้อ A watch list
     if lc.get("require_setup", True):
         out["watch"] = [x["ticker"] for x in leaders if not setup(x)]
         leaders = [x for x in leaders if setup(x)]
@@ -179,7 +180,7 @@ def write_report(out_dir: str, as_of: str, res: dict) -> None:
     os.makedirs(out_dir, exist_ok=True)
     doc = {"as_of": as_of, "definition": res.get("definition"), "funnel": res.get("funnel"),
            "error": res.get("error"), "filter": res.get("filter"), "leaders": res.get("leaders", []),
-           "watch": res.get("watch", [])}
+           "watch": res.get("watch", []), "strong": res.get("strong", [])}
     with open(os.path.join(out_dir, "momentum.json"), "w", encoding="utf-8") as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
     L = [f"# Momentum leaders — {as_of}", ""]
@@ -211,22 +212,22 @@ def write_report(out_dir: str, as_of: str, res: dict) -> None:
 def telegram_text(as_of: str, res: dict, max_rows: int = 15) -> str:
     import html
     if res.get("error"):
-        return f"<b>🚀 Momentum leaders — {as_of}</b>\n⚠️ Scan failed: {html.escape(res['error'])}"
+        return f"<b>🚀 หุ้นโมเมนตัม — {as_of}</b>\n⚠️ สแกนไม่สำเร็จ: {html.escape(res['error'])}"
     ls = res.get("leaders", [])
     fu = res.get("funnel") or {}
-    lines = [f"<b>🚀 Momentum setups — {as_of}</b>",
-             f"{len(ls)} setups among {fu.get('strong', len(ls))} strong stocks out of {fu.get('ranked', 0)} scanned",
+    lines = [f"<b>🚀 หุ้นโมเมนตัมที่มี setup — {as_of}</b>",
+             f"มี setup {len(ls)} ตัว จากหุ้นแรง {fu.get('strong', len(ls))} ตัว (สแกน {fu.get('ranked', 0)} ตัว)",
              f"<i>{html.escape(res.get('filter') or '')}</i>", ""]
     for x in ls[:max_rows]:
-        tag = " ✅base" if (x["base_tight"] or {}).get("ok") else ""
+        tag = " ✅ฐานแน่น" if (x["base_tight"] or {}).get("ok") else ""
         tag += f" 🔁retest ${x['first_retest']['level']:,.2f}" if x["first_retest"] else ""
         r3 = "—" if x["ret_3m"] is None else f"{x['ret_3m']:+.0f}%"
         lines.append(f"<b>{html.escape(x['ticker'])}</b> 3m {r3} · top {x['ret_rank_top_pct']}%{tag}\n"
-                     f"   buy &gt; ${x['prev_high']:,.2f} · stop ${x['prev_low2']:,.2f} ({x['stop_pct']}%)")
+                     f"   ซื้อเมื่อ &gt; ${x['prev_high']:,.2f} · stop ${x['prev_low2']:,.2f} ({x['stop_pct']}%)")
     if len(ls) > max_rows:
-        lines.append(f"\n… +{len(ls) - max_rows} more in output/{as_of}/momentum.md")
+        lines.append(f"\n… อีก {len(ls) - max_rows} ตัวใน output/{as_of}/momentum.md")
     if not ls:
-        lines.append("No strong stock has a setup today.")
+        lines.append("วันนี้ยังไม่มีหุ้นแรงตัวไหนมี setup")
     if res.get("watch"):
-        lines.append(f"<i>{len(res['watch'])} more strong stocks without a setup yet: momentum.md</i>")
+        lines.append(f"<i>หุ้นแรงที่ยังไม่มี setup อีก {len(res['watch'])} ตัว (ข้อ A เฝ้าอยู่): momentum.md</i>")
     return "\n".join(lines)

@@ -210,6 +210,28 @@ close (only trades already at 3R are held overnight). Rows store a rule id (`be3
 be reassigned without touching history; the first test (`orig`, stop never moves) was retired on 2026-11-02.
 Settings: `"swing"` in `trade_config.json` (`account_usd` + `risk_pct` for %-of-account sizing).
 
+## 🎯 ข้อ A — Pullback to support (`pullback_scanner.py`)
+Second intraday entry, on the **momentum list** instead of the gappers. Before the open,
+`.github/workflows/momentum.yml` runs the whole-market momentum scan (same rules as the PC's
+`portfolio_stage momentum`) and saves every *strong* stock (with or without a daily setup) to
+`watchlists/momentum_YYYY-MM-DD.json` (market data only). Every Scanner B run (5-min alert checks
+10:00–11:30 ET and the 30-min cycles until 14:35) also checks these stocks:
+
+1. support = daily EMA9, EMA21 and the first-retest level, each only if yesterday closed above it
+2. a 5-minute bar's low comes within 0.3×ATR14 of the level (may dip 0.5×ATR under it)
+3. no 5-minute close more than 0.5×ATR under the level (= broken support)
+4. within 6 bars of the touch, a 5-minute bar **closes above the previous bar's high** and above the level
+   (bar ending 09:45–15:30 ET, entry no more than 1×ATR above the level)
+
+Entry = that close · stop = lowest low since the touch (≥0.5 % room) · targets 1R/2R/3R · size from
+`risk_per_trade_usd`. Settings: `"pullback"` in `trade_config.json`.
+**One message per stock per day:** if a stock fires 🚨 and 🎯 in the same check they share one block; if it already
+alerted on the other signal earlier, the new one is recorded but not sent (`state/pullback_<date>.txt`).
+Alerts are frozen in `history/pullback_signals/` and scored at the EOD run like 🚨 (stop / 2R / close) into
+`history/pullback_trades.csv`, with a "🎯 ข้อ A" block in the daily summary.
+
+All Telegram messages from the scanners are in Thai.
+
 # portfolio_stage — analyse every holding
 
 Runs on **your computer** (slips and holdings stay local; `portfolio/`, `slips/`, `output/`, `cache/` and

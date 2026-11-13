@@ -35,16 +35,36 @@
       {
         "name": "A",
         "id": "be3r",
-        "label": "stop to entry after 3R",
+        "label": "ถึง 3R แล้วเลื่อน stop ไปทุน",
         "be_after": "3R"
       },
       {
         "name": "B",
         "id": "be3r_d1",
-        "label": "A + out at day-1 close unless 3R",
+        "label": "A + ขายหมดตอนปิดวันแรกถ้าไม่ถึง 3R",
         "be_after": "3R",
         "day1_exit_unless": "3R"
       }
     ]
+  },
+  "pullback": {
+    "_help": "ข้อ A — ย่อลงแนวรับ (หุ้นจากสแกนโมเมนตัม). near_atr/below_atr = แตะแนวรับได้ใกล้แค่ไหน (×ATR14 รายวัน) · max_bars_after_touch = ต้องมีแท่ง 5 นาทีปิดเหนือ high แท่งก่อนภายในกี่แท่งหลังแตะ · max_entry_atr = ไม่ไล่ราคาเกินแนวรับ + n×ATR · stop = low ต่ำสุดตั้งแต่แตะ · include_no_setup = เฝ้าหุ้นแรงที่ยังไม่มี setup รายวันด้วย",
+    "enabled": true,
+    "near_atr": 0.3,
+    "below_atr": 0.5,
+    "max_bars_after_touch": 6,
+    "max_entry_atr": 1.0,
+    "start_et": "09:45",
+    "end_et": "15:30",
+    "min_stop_pct": 0.5,
+    "wide_stop_pct": 6.0,
+    "targets_r": [
+      1,
+      2,
+      3
+    ],
+    "exit_target_r": 2,
+    "max_list_age_days": 4,
+    "include_no_setup": true
   }
 }

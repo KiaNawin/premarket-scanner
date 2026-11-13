@@ -50,7 +50,7 @@ class Plan(unittest.TestCase):
     def test_alert_shows_test_line(self):
         r = {"ticker": "AAA", "entry_price": 100, "signal_time_et": "2026-11-02 10:12",
              "swing_plan": TP.make_swing_plan({"entry_price": 100, "low_5m": 98}, self.cfg)}
-        self.assertIn("🧪 Swing test: stop $98.00", "\n".join(TG.setup_lines(r)))
+        self.assertIn("🧪 ทดสอบเงา: stop $98.00", "\n".join(TG.setup_lines(r)))
 
 
 class Replay(unittest.TestCase):
@@ -164,9 +164,9 @@ class Sync(unittest.TestCase):
         self.assertEqual(c["variants"]["A"]["open"]["n"], 1)
         self.assertEqual(c["variants"]["B"]["closed"]["n"], 1)
         msg = TG.build_eod_message("2026-11-03", [], {"trades": 0}, {**out, "compare": c})
-        self.assertIn("🧪 Swing test", msg)
-        self.assertIn("A AAA (11-02) 3R hit", msg)
-        self.assertIn("B A + out at day-1 close unless 3R", msg)
+        self.assertIn("🧪 ทดสอบเงา", msg)
+        self.assertIn("A AAA (11-02) ถึง 3R", msg)
+        self.assertIn("B A + ขายหมดตอนปิดวันแรกถ้าไม่ถึง 3R", msg)
 
     def test_legacy_letters_map_to_rule_ids(self):
         with open(self.csv, "w", encoding="utf-8") as f:

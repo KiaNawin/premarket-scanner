@@ -1,0 +1,59 @@
+name: Momentum list (ข้อ A watch list)
+
+# Before the open on US trading days: whole-market momentum scan (same rules as check #6 on the PC)
+# -> watchlists/momentum_YYYY-MM-DD.json. The scanner runs (30-min cycles and the 5-min alert
+# checks) read it to look for pullback-to-support entries (ข้อ A, pullback_scanner.py).
+# Market data only (no portfolio files). No Telegram here: the PC already sends the momentum report.
+# Two triggers; the second is a safety net and exits if today's list already exists.
+
+on:
+  schedule:
+    - cron: "17 12 * * 1-5"     # 07:17 ET in winter / 08:17 ET in summer
+    - cron: "47 12 * * 1-5"
+  workflow_dispatch:
+
+concurrency:
+  group: momentum
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  momentum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scan and export the watch list
+        run: |
+          D=$(TZ=America/New_York date +%F)
+          if [ -f "watchlists/momentum_$D.json" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "watch list for $D already exists"; exit 0
+          fi
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python -c "import datetime as d, run_cycle as r; import sys; sys.exit(0 if r.is_trading_day(d.date.fromisoformat('$D')) else 1)" \
+              || { echo "$D is not a US trading day"; exit 0; }
+          fi
+          python -m portfolio_stage momentum || true
+          if [ -f "output/$D/momentum.json" ]; then
+            python pullback_scanner.py --export "output/$D/momentum.json" --date "$D"
+          else
+            echo "momentum scan produced no file"; exit 1
+          fi
+      - name: Save the watch list
+        if: always()
+        run: |
+          [ -d watchlists ] || exit 0
+          git config user.name "scanner-bot"
+          git config user.email "scanner-bot@users.noreply.github.com"
+          git add watchlists
+          git diff --cached --quiet && exit 0
+          git commit -m "Momentum list $(TZ=America/New_York date '+%F')"
+          git pull --rebase --autostash
+          git push
