@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 09:32:14 EST",
-  "scan_time_et": "09:32",
+  "generated_at_et": "2026-11-13 10:02:56 EST",
+  "scan_time_et": "10:02",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 131,
-    "with_data": 88,
-    "gap": 37,
-    "gap_price": 30,
-    "passed": 13,
+    "prefilter": 407,
+    "with_data": 356,
+    "gap": 41,
+    "gap_price": 35,
+    "passed": 18,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7082,
-  "count": 13,
+  "count": 18,
   "results": [
     {
       "ticker": "FCUV",
-      "price": 6.19,
-      "gap_pct": 106.33,
+      "price": 6.3,
+      "gap_pct": 110.0,
       "catalyst": "Every four pre-split shares were consolidated into one new share, with trading beginning on a split-adjusted basis on Tuesday.",
       "prev_close": 3.0,
       "premarket_volume": 34901096,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "VTSI",
-      "price": 3.49,
-      "gap_pct": 33.21,
+      "price": 3.56,
+      "gap_pct": 35.79,
       "catalyst": "Army evaluation and manufacturing capacity plans are shaping what comes next.",
       "prev_close": 2.62,
       "premarket_volume": 1232676,
@@ -45,21 +45,9 @@
       "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/13/virtra-vtsi-q3-2026-earnings-call-transcript/"
     },
     {
-      "ticker": "MOD",
-      "price": 139.62,
-      "gap_pct": 31.6,
-      "catalyst": "Samsung is exploring a deal to buy Modine Manufacturing, which makes cooling systems for AI data centers.",
-      "prev_close": 106.1,
-      "premarket_volume": 644286,
-      "session": "regular",
-      "catalyst_source": "Investor's Business Daily",
-      "catalyst_headline": "Samsung Eyeing Deal To Buy Data Center Supplier Modine; Stock Soars 35%",
-      "catalyst_url": "https://www.investors.com/news/samsung-modine-manufacturing-ai-data-center/?src=A00220&yptr=yahoo"
-    },
-    {
       "ticker": "NMAX",
-      "price": 9.33,
-      "gap_pct": 27.98,
+      "price": 9.65,
+      "gap_pct": 32.37,
       "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…",
       "prev_close": 7.29,
       "premarket_volume": 92830,
@@ -69,9 +57,21 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-newsmax-q3-earnings-call-highlights-2026-11-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
+      "ticker": "MOD",
+      "price": 136.43,
+      "gap_pct": 28.59,
+      "catalyst": "Samsung is exploring a deal to buy Modine Manufacturing, which makes cooling systems for AI data centers.",
+      "prev_close": 106.1,
+      "premarket_volume": 644286,
+      "session": "regular",
+      "catalyst_source": "Investor's Business Daily",
+      "catalyst_headline": "Samsung Eyeing Deal To Buy Data Center Supplier Modine; Stock Soars 35%",
+      "catalyst_url": "https://www.investors.com/news/samsung-modine-manufacturing-ai-data-center/?src=A00220&yptr=yahoo"
+    },
+    {
       "ticker": "LFTO",
-      "price": 22.81,
-      "gap_pct": 21.91,
+      "price": 24.05,
+      "gap_pct": 28.51,
       "catalyst": "Liftoff Mobile’s artificial-intelligence improvements drive higher-than-expected profit.",
       "prev_close": 18.71,
       "premarket_volume": 251251,
@@ -81,21 +81,9 @@
       "catalyst_url": "https://www.barrons.com/articles/liftoff-mobile-earnings-stock-price-1cbec0c9?siteid=yhoof2&yptr=yahoo"
     },
     {
-      "ticker": "NEOV",
-      "price": 3.31,
-      "gap_pct": 15.96,
-      "catalyst": "NeoVolta (NASDAQ:NEOV) reported a rebound in fiscal first-quarter revenue as it began recognizing sales from its residential third-party ownership financing platform, while executives said the company’s Georgia…",
-      "prev_close": 2.85,
-      "premarket_volume": 129708,
-      "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "NeoVolta Q1 Earnings Call Highlights",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-neovolta-q1-earnings-call-highlights-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
       "ticker": "BKHA",
-      "price": 6.15,
-      "gap_pct": 14.42,
+      "price": 6.69,
+      "gap_pct": 24.47,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.38,
       "premarket_volume": 369921,
@@ -105,21 +93,57 @@
       "catalyst_url": null
     },
     {
-      "ticker": "RZLT",
-      "price": 4.4,
-      "gap_pct": 13.7,
-      "catalyst": "The U.S.",
-      "prev_close": 3.87,
-      "premarket_volume": 614924,
+      "ticker": "CDNL",
+      "price": 6.74,
+      "gap_pct": 19.41,
+      "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately.",
+      "prev_close": 5.64,
+      "premarket_volume": 207691,
       "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "Rezolute Gets FDA Nod For Pre-BLA Meeting Despite Phase 3 Miss — Retail Expects ‘Huge Rerating’",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/rezolute-gets-fda-nod-for-pre-bla-meeting-despite-phase-3-miss-retail-expects-huge-rerating/cZDpxXRRBjG"
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Implied Volatility Surging for Cardinal Infrastructure Group Stock Options",
+      "catalyst_url": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-cardinal-infrastructure-130000354.html"
+    },
+    {
+      "ticker": "HAWK",
+      "price": 16.93,
+      "gap_pct": 15.44,
+      "catalyst": "Soaring global contracts and cheaper next-generation satellites prompt HawkEye 360 to raise its full-year outlook.",
+      "prev_close": 14.67,
+      "premarket_volume": 62854,
+      "session": "regular",
+      "catalyst_source": "Barrons.com",
+      "catalyst_headline": "HawkEye 360 Raises Outlook on Booming Global Deals and Cheaper Satellites",
+      "catalyst_url": "https://www.barrons.com/articles/hawkeye-360-earnings-stock-price-6562786d?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "TNDM",
+      "price": 19.6,
+      "gap_pct": 11.94,
+      "catalyst": "Tandem Diabetes Care has been through a bruising stretch, with the share price down about 87.2% over the past five years, and yet the business still commands meaningful attention in insulin pump therapy.",
+      "prev_close": 17.51,
+      "premarket_volume": 71181,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Can Tandem Diabetes Care (TNDM) Stay Cheap After Its Recall?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tandem-diabetes-care-tndm-stay-091008899.html"
+    },
+    {
+      "ticker": "NUAI",
+      "price": 3.04,
+      "gap_pct": 11.58,
+      "catalyst": "Moby summary of New Era Energy & Digital, Inc.'s Q3 2026 earnings call.",
+      "prev_close": 2.72,
+      "premarket_volume": 1166228,
+      "session": "regular",
+      "catalyst_source": "Moby",
+      "catalyst_headline": "New Era Energy & Digital, Inc. Q3 2026 Earnings Call Summary",
+      "catalyst_url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-new-era-energy-digital-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
     },
     {
       "ticker": "CBRS",
-      "price": 109.34,
-      "gap_pct": 11.86,
+      "price": 108.25,
+      "gap_pct": 10.74,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers.",
       "prev_close": 97.75,
       "premarket_volume": 2363940,
@@ -130,8 +154,8 @@
     },
     {
       "ticker": "POAS",
-      "price": 3.34,
-      "gap_pct": 10.96,
+      "price": 3.26,
+      "gap_pct": 8.31,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 3.01,
       "premarket_volume": 11815958,
@@ -141,21 +165,21 @@
       "catalyst_url": null
     },
     {
-      "ticker": "TNDM",
-      "price": 18.9,
-      "gap_pct": 7.94,
-      "catalyst": "Tandem Diabetes Care has been through a bruising stretch, with the share price down about 87.2% over the past five years, and yet the business still commands meaningful attention in insulin pump therapy.",
-      "prev_close": 17.51,
-      "premarket_volume": 71181,
+      "ticker": "SGML",
+      "price": 5.4,
+      "gap_pct": 7.78,
+      "catalyst": "Sigma Lithium (NASDAQ:SGML) said it produced 7,293 tons of lithium concentrate in the third quarter of 2026 after operations were stopped for about 65% of the period, but maintained a 32% net revenue margin and…",
+      "prev_close": 5.01,
+      "premarket_volume": 50739,
       "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "Can Tandem Diabetes Care (TNDM) Stay Cheap After Its Recall?",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tandem-diabetes-care-tndm-stay-091008899.html"
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "What Sigma Lithium (SGML) Said on Its Q3 Earnings Call",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-sigma-lithium-sgml-said-on-its-q3-earnings-call-2026-11-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
       "ticker": "WSE",
-      "price": 11.71,
-      "gap_pct": 7.14,
+      "price": 11.72,
+      "gap_pct": 7.23,
       "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…",
       "prev_close": 10.93,
       "premarket_volume": 100175,
@@ -165,9 +189,33 @@
       "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101743/wise-jumps-10-as-jefferies-highlights-belgian-settlement-and-north-american-bank-wins-1101743.html"
     },
     {
+      "ticker": "ALM",
+      "price": 8.17,
+      "gap_pct": 7.08,
+      "catalyst": "Almonty Industries Inc.",
+      "prev_close": 7.63,
+      "premarket_volume": 99498,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Almonty Industries Inc. (ALM) Misses Q3 Earnings and Revenue Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/almonty-industries-inc-alm-misses-220502747.html"
+    },
+    {
+      "ticker": "NU",
+      "price": 12.66,
+      "gap_pct": 7.06,
+      "catalyst": "Nu Holdings reported third quarter 2026 net income of US$1.09b, with basic EPS from continuing operations of US$0.2256, and nine month net income of US$3.02b.",
+      "prev_close": 11.83,
+      "premarket_volume": 1493642,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Learn Why The Bull Case For Nubank Stock Could Change Following Earnings Beat",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-nubank-131134418.html"
+    },
+    {
       "ticker": "SLS",
-      "price": 8.48,
-      "gap_pct": 5.54,
+      "price": 8.59,
+      "gap_pct": 6.97,
       "catalyst": "Investors head into Friday amid uncertainty around tech stocks, mixed earnings reactions and concerns over Middle East tensions, with October’s PPI inflation data also in focus.",
       "prev_close": 8.03,
       "premarket_volume": 626775,
@@ -175,6 +223,18 @@
       "catalyst_source": "Stocktwits",
       "catalyst_headline": "Futures Edge Lower As NVDA Fallout Unsettles Tech Stocks — SLS, AMAT, CSCO, CADL Stocks In Focus",
       "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/futures-edge-lower-as-nvda-fallout-unsettles-tech-stocks-sls-amat-csco-cadl-stocks-in-focus/cNbRGG3R9fP"
+    },
+    {
+      "ticker": "INTR",
+      "price": 4.16,
+      "gap_pct": 5.04,
+      "catalyst": "Inter & Co.",
+      "prev_close": 3.96,
+      "premarket_volume": 183581,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Inter & Co. Inc. (INTR) Lags Q3 Earnings and Revenue Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/inter-co-inc-intr-lags-233501546.html"
     }
   ]
 }

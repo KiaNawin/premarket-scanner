@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 09:35:00 EST",
+  "generated_at_et": "2026-11-13 10:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-13.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,32 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 13,
+  "candidates": 18,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "ALM",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.6746,
+      "yesterday_high": 8.02,
+      "yesterday_close": 7.63,
+      "sma200": 15.7347,
+      "premarket_high": 7.91,
+      "last_price": 8.1534,
+      "last_bar_et": "10:04",
+      "high_of_day": 8.2996,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.08,
+      "catalyst": "Almonty Industries Inc."
+    },
     {
       "ticker": "BKHA",
       "status": "FAIL",
@@ -23,9 +45,9 @@
       "yesterday_close": 5.375,
       "sma200": 11.1096,
       "premarket_high": 8.54,
-      "last_price": 6.105,
-      "last_bar_et": "09:34",
-      "high_of_day": 6.18,
+      "last_price": 6.21,
+      "last_bar_et": "10:04",
+      "high_of_day": 7.9,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -33,7 +55,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.42,
+      "gap_pct": 24.47,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -42,8 +64,30 @@
       "signal": false,
       "reason": "Only 127 trading days of history (< 200 needed for SMA200)",
       "history_days": 127,
-      "gap_pct": 11.86,
+      "gap_pct": 10.74,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers."
+    },
+    {
+      "ticker": "CDNL",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.9359,
+      "yesterday_high": 8.1,
+      "yesterday_close": 5.64,
+      "sma200": 43.0705,
+      "premarket_high": 5.7737,
+      "last_price": 6.95,
+      "last_bar_et": "10:04",
+      "high_of_day": 6.95,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 19.41,
+      "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately."
     },
     {
       "ticker": "FCUV",
@@ -54,9 +98,9 @@
       "yesterday_close": 3.0,
       "sma200": 8.6418,
       "premarket_high": 7.0,
-      "last_price": 5.5629,
-      "last_bar_et": "09:34",
-      "high_of_day": 6.58,
+      "last_price": 6.05,
+      "last_bar_et": "10:04",
+      "high_of_day": 7.91,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -64,8 +108,39 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 106.33,
+      "gap_pct": 110.0,
       "catalyst": "Every four pre-split shares were consolidated into one new share, with trading beginning on a split-adjusted basis on Tuesday."
+    },
+    {
+      "ticker": "HAWK",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 132 trading days of history (< 200 needed for SMA200)",
+      "history_days": 132,
+      "gap_pct": 15.44,
+      "catalyst": "Soaring global contracts and cheaper next-generation satellites prompt HawkEye 360 to raise its full-year outlook."
+    },
+    {
+      "ticker": "INTR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4375,
+      "yesterday_high": 4.09,
+      "yesterday_close": 3.965,
+      "sma200": 6.5569,
+      "premarket_high": 4.05,
+      "last_price": 4.155,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.245,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.04,
+      "catalyst": "Inter & Co."
     },
     {
       "ticker": "LFTO",
@@ -73,7 +148,7 @@
       "signal": false,
       "reason": "Only 113 trading days of history (< 200 needed for SMA200)",
       "history_days": 113,
-      "gap_pct": 21.91,
+      "gap_pct": 28.51,
       "catalyst": "Liftoff Mobile’s artificial-intelligence improvements drive higher-than-expected profit."
     },
     {
@@ -85,8 +160,8 @@
       "yesterday_close": 106.1,
       "sma200": 214.5033,
       "premarket_high": 147.63,
-      "last_price": 145.55,
-      "last_bar_et": "09:34",
+      "last_price": 138.475,
+      "last_bar_et": "10:04",
       "high_of_day": 146.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -95,30 +170,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 31.6,
+      "gap_pct": 28.59,
       "catalyst": "Samsung is exploring a deal to buy Modine Manufacturing, which makes cooling systems for AI data centers."
-    },
-    {
-      "ticker": "NEOV",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.2758,
-      "yesterday_high": 3.0,
-      "yesterday_close": 2.85,
-      "sma200": 2.9075,
-      "premarket_high": 3.3,
-      "last_price": 3.16,
-      "last_bar_et": "09:34",
-      "high_of_day": 3.3256,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 15.96,
-      "catalyst": "NeoVolta (NASDAQ:NEOV) reported a rebound in fiscal first-quarter revenue as it began recognizing sales from its residential third-party ownership financing platform, while executives said the company’s Georgia…"
     },
     {
       "ticker": "NMAX",
@@ -128,10 +181,54 @@
       "yesterday_high": 7.74,
       "yesterday_close": 7.29,
       "sma200": 8.0141,
-      "premarket_high": 9.2407,
-      "last_price": 8.89,
-      "last_bar_et": "09:34",
+      "premarket_high": 8.89,
+      "last_price": 9.625,
+      "last_bar_et": "10:04",
       "high_of_day": 9.92,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 32.37,
+      "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…"
+    },
+    {
+      "ticker": "NU",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.7021,
+      "yesterday_high": 12.27,
+      "yesterday_close": 11.83,
+      "sma200": 14.2019,
+      "premarket_high": 12.49,
+      "last_price": 12.675,
+      "last_bar_et": "10:04",
+      "high_of_day": 12.74,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.06,
+      "catalyst": "Nu Holdings reported third quarter 2026 net income of US$1.09b, with basic EPS from continuing operations of US$0.2256, and nine month net income of US$3.02b."
+    },
+    {
+      "ticker": "NUAI",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4414,
+      "yesterday_high": 2.79,
+      "yesterday_close": 2.72,
+      "sma200": 4.8251,
+      "premarket_high": 2.98,
+      "last_price": 2.92,
+      "last_bar_et": "10:04",
+      "high_of_day": 3.155,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -139,8 +236,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 27.98,
-      "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…"
+      "gap_pct": 11.58,
+      "catalyst": "Moby summary of New Era Energy & Digital, Inc.'s Q3 2026 earnings call."
     },
     {
       "ticker": "POAS",
@@ -151,9 +248,9 @@
       "yesterday_close": 3.01,
       "sma200": 16.4558,
       "premarket_high": 4.05,
-      "last_price": 3.7,
-      "last_bar_et": "09:34",
-      "high_of_day": 3.8,
+      "last_price": 3.26,
+      "last_bar_et": "10:00",
+      "high_of_day": 3.85,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -161,30 +258,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.96,
+      "gap_pct": 8.31,
       "catalyst": "No recent news catalyst found."
     },
     {
-      "ticker": "RZLT",
+      "ticker": "SGML",
       "status": "FAIL",
       "signal": false,
-      "atr14": 0.2923,
-      "yesterday_high": 4.125,
-      "yesterday_close": 3.87,
-      "sma200": 3.9218,
-      "premarket_high": 4.62,
-      "last_price": 4.57,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.61,
+      "atr14": 0.6693,
+      "yesterday_high": 5.12,
+      "yesterday_close": 5.01,
+      "sma200": 12.5108,
+      "premarket_high": 5.14,
+      "last_price": 5.275,
+      "last_bar_et": "10:04",
+      "high_of_day": 5.59,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.7,
-      "catalyst": "The U.S."
+      "gap_pct": 7.78,
+      "catalyst": "Sigma Lithium (NASDAQ:SGML) said it produced 7,293 tons of lithium concentrate in the third quarter of 2026 after operations were stopped for about 65% of the period, but maintained a 32% net revenue margin and…"
     },
     {
       "ticker": "SLS",
@@ -195,8 +292,8 @@
       "yesterday_close": 8.03,
       "sma200": 8.763,
       "premarket_high": 9.78,
-      "last_price": 8.69,
-      "last_bar_et": "09:34",
+      "last_price": 8.545,
+      "last_bar_et": "10:04",
       "high_of_day": 9.0,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -205,7 +302,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.54,
+      "gap_pct": 6.97,
       "catalyst": "Investors head into Friday amid uncertainty around tech stocks, mixed earnings reactions and concerns over Middle East tensions, with October’s PPI inflation data also in focus."
     },
     {
@@ -217,9 +314,9 @@
       "yesterday_close": 17.51,
       "sma200": 18.8373,
       "premarket_high": 20.0,
-      "last_price": 18.88,
-      "last_bar_et": "09:34",
-      "high_of_day": 19.25,
+      "last_price": 19.1701,
+      "last_bar_et": "10:04",
+      "high_of_day": 20.05,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -227,7 +324,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.94,
+      "gap_pct": 11.94,
       "catalyst": "Tandem Diabetes Care has been through a bruising stretch, with the share price down about 87.2% over the past five years, and yet the business still commands meaningful attention in insulin pump therapy."
     },
     {
@@ -239,17 +336,17 @@
       "yesterday_close": 2.62,
       "sma200": 3.499,
       "premarket_high": 3.76,
-      "last_price": 3.62,
-      "last_bar_et": "09:34",
-      "high_of_day": 3.62,
+      "last_price": 3.5751,
+      "last_bar_et": "10:04",
+      "high_of_day": 3.75,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 33.21,
+      "gap_pct": 35.79,
       "catalyst": "Army evaluation and manufacturing capacity plans are shaping what comes next."
     },
     {
@@ -258,9 +355,9 @@
       "signal": false,
       "reason": "Only 130 trading days of history (< 200 needed for SMA200)",
       "history_days": 130,
-      "gap_pct": 7.14,
+      "gap_pct": 7.23,
       "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…"
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }
