@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 11:35:01 EST",
+  "generated_at_et": "2026-11-13 12:05:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-13.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -23,8 +23,8 @@
       "yesterday_close": 7.63,
       "sma200": 15.7347,
       "premarket_high": 7.91,
-      "last_price": 8.16,
-      "last_bar_et": "11:34",
+      "last_price": 8.05,
+      "last_bar_et": "12:04",
       "high_of_day": 8.3099,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -33,7 +33,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.95,
+      "gap_pct": 5.83,
       "catalyst": "Almonty Industries Inc."
     },
     {
@@ -45,8 +45,8 @@
       "yesterday_close": 5.375,
       "sma200": 11.1096,
       "premarket_high": 8.54,
-      "last_price": 6.75,
-      "last_bar_et": "11:30",
+      "last_price": 6.6999,
+      "last_bar_et": "12:01",
       "high_of_day": 7.9,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -55,7 +55,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 25.58,
+      "gap_pct": 26.33,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -64,7 +64,7 @@
       "signal": false,
       "reason": "Only 127 trading days of history (< 200 needed for SMA200)",
       "history_days": 127,
-      "gap_pct": 7.37,
+      "gap_pct": 8.1,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers."
     },
     {
@@ -76,8 +76,8 @@
       "yesterday_close": 5.64,
       "sma200": 43.0705,
       "premarket_high": 5.7737,
-      "last_price": 6.477,
-      "last_bar_et": "11:34",
+      "last_price": 6.485,
+      "last_bar_et": "12:04",
       "high_of_day": 7.19,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -86,7 +86,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.74,
+      "gap_pct": 15.43,
       "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately."
     },
     {
@@ -98,8 +98,8 @@
       "yesterday_close": 3.0,
       "sma200": 8.6418,
       "premarket_high": 7.0,
-      "last_price": 6.1401,
-      "last_bar_et": "11:34",
+      "last_price": 6.3187,
+      "last_bar_et": "12:04",
       "high_of_day": 7.91,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -108,7 +108,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 94.8,
+      "gap_pct": 111.56,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -117,7 +117,7 @@
       "signal": false,
       "reason": "Only 132 trading days of history (< 200 needed for SMA200)",
       "history_days": 132,
-      "gap_pct": 20.25,
+      "gap_pct": 18.71,
       "catalyst": "Soaring global contracts and cheaper next-generation satellites prompt HawkEye 360 to raise its full-year outlook."
     },
     {
@@ -129,8 +129,8 @@
       "yesterday_close": 3.965,
       "sma200": 6.5569,
       "premarket_high": 4.05,
-      "last_price": 4.255,
-      "last_bar_et": "11:34",
+      "last_price": 4.235,
+      "last_bar_et": "12:04",
       "high_of_day": 4.345,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -139,7 +139,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.82,
+      "gap_pct": 6.94,
       "catalyst": "Inter & Co."
     },
     {
@@ -148,8 +148,8 @@
       "signal": false,
       "reason": "Only 113 trading days of history (< 200 needed for SMA200)",
       "history_days": 113,
-      "gap_pct": 27.37,
-      "catalyst": "Liftoff Mobile’s updated valuation work now points to a fair value of US$27.38, down from US$29.75, reflecting refreshed assumptions in the latest analyst model."
+      "gap_pct": 25.12,
+      "catalyst": "Liftoff Mobile (NASDAQ: LFTO) shares surged 25% to $23.33 after the mobile advertising technology company reported stronger-than-expected third-quarter results and raised its forward guidance."
     },
     {
       "ticker": "MOD",
@@ -160,8 +160,8 @@
       "yesterday_close": 106.1,
       "sma200": 214.5033,
       "premarket_high": 147.63,
-      "last_price": 136.435,
-      "last_bar_et": "11:34",
+      "last_price": 136.98,
+      "last_bar_et": "12:04",
       "high_of_day": 146.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -170,7 +170,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 28.39,
+      "gap_pct": 29.15,
       "catalyst": "Samsung is exploring a deal to buy Modine Manufacturing, which makes cooling systems for AI data centers."
     },
     {
@@ -182,8 +182,8 @@
       "yesterday_close": 7.29,
       "sma200": 8.0141,
       "premarket_high": 8.89,
-      "last_price": 9.365,
-      "last_bar_et": "11:34",
+      "last_price": 9.3,
+      "last_bar_et": "12:04",
       "high_of_day": 9.99,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -192,7 +192,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 28.67,
+      "gap_pct": 26.36,
       "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…"
     },
     {
@@ -204,9 +204,9 @@
       "yesterday_close": 11.83,
       "sma200": 14.2019,
       "premarket_high": 12.49,
-      "last_price": 13.135,
-      "last_bar_et": "11:34",
-      "high_of_day": 13.18,
+      "last_price": 13.195,
+      "last_bar_et": "12:04",
+      "high_of_day": 13.24,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -214,7 +214,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.24,
+      "gap_pct": 11.5,
       "catalyst": "AI linked goods have powered most recent global trade growth in 2025 and early 2026, even as tariffs climbed and old trade rules strained."
     },
     {
@@ -226,8 +226,8 @@
       "yesterday_close": 2.72,
       "sma200": 4.8251,
       "premarket_high": 2.98,
-      "last_price": 3.035,
-      "last_bar_et": "11:34",
+      "last_price": 3.065,
+      "last_bar_et": "12:04",
       "high_of_day": 3.155,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -236,7 +236,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.11,
+      "gap_pct": 13.05,
       "catalyst": "Moby summary of New Era Energy & Digital, Inc.'s Q3 2026 earnings call."
     },
     {
@@ -248,9 +248,9 @@
       "yesterday_close": 17.51,
       "sma200": 18.8373,
       "premarket_high": 20.0,
-      "last_price": 19.89,
-      "last_bar_et": "11:34",
-      "high_of_day": 20.05,
+      "last_price": 19.9,
+      "last_bar_et": "12:04",
+      "high_of_day": 20.12,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -258,7 +258,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.59,
+      "gap_pct": 13.99,
       "catalyst": "Investing.com -- Shares of Tandem Diabetes Care, Inc."
     },
     {
@@ -271,7 +271,7 @@
       "sma200": 3.499,
       "premarket_high": 3.76,
       "last_price": 3.69,
-      "last_bar_et": "11:34",
+      "last_bar_et": "12:04",
       "high_of_day": 3.95,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -280,7 +280,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 41.79,
+      "gap_pct": 39.31,
       "catalyst": "VirTra, Inc."
     },
     {
@@ -289,9 +289,9 @@
       "signal": false,
       "reason": "Only 130 trading days of history (< 200 needed for SMA200)",
       "history_days": 130,
-      "gap_pct": 8.83,
+      "gap_pct": 6.4,
       "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…"
     }
   ],
-  "scan_time_et": "11:35"
+  "scan_time_et": "12:05"
 }

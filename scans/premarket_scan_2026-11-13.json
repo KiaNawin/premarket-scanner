@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-13",
-  "generated_at_et": "2026-11-13 11:33:53 EST",
-  "scan_time_et": "11:33",
+  "generated_at_et": "2026-11-13 12:03:35 EST",
+  "scan_time_et": "12:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7082,
-    "prefilter": 542,
-    "with_data": 474,
-    "gap": 49,
-    "gap_price": 45,
+    "prefilter": 536,
+    "with_data": 465,
+    "gap": 50,
+    "gap_price": 46,
     "passed": 15,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "FCUV",
-      "price": 5.84,
-      "gap_pct": 94.8,
+      "price": 6.35,
+      "gap_pct": 111.56,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.0,
       "premarket_volume": 34901096,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "VTSI",
-      "price": 3.71,
-      "gap_pct": 41.79,
+      "price": 3.65,
+      "gap_pct": 39.31,
       "catalyst": "VirTra, Inc.",
       "prev_close": 2.62,
       "premarket_volume": 1232676,
@@ -45,21 +45,9 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/40010/virtra-reports-42-third-quarter-revenue-growth-to-7-6-million-as-bookings-reach-10-3-million"
     },
     {
-      "ticker": "NMAX",
-      "price": 9.38,
-      "gap_pct": 28.67,
-      "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…",
-      "prev_close": 7.29,
-      "premarket_volume": 92830,
-      "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "Newsmax Q3 Earnings Call Highlights",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-newsmax-q3-earnings-call-highlights-2026-11-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
       "ticker": "MOD",
-      "price": 136.23,
-      "gap_pct": 28.39,
+      "price": 137.03,
+      "gap_pct": 29.15,
       "catalyst": "Samsung is exploring a deal to buy Modine Manufacturing, which makes cooling systems for AI data centers.",
       "prev_close": 106.1,
       "premarket_volume": 644286,
@@ -69,21 +57,21 @@
       "catalyst_url": "https://www.investors.com/news/samsung-modine-manufacturing-ai-data-center/?src=A00220&yptr=yahoo"
     },
     {
-      "ticker": "LFTO",
-      "price": 23.83,
-      "gap_pct": 27.37,
-      "catalyst": "Liftoff Mobile’s updated valuation work now points to a fair value of US$27.38, down from US$29.75, reflecting refreshed assumptions in the latest analyst model.",
-      "prev_close": 18.71,
-      "premarket_volume": 251251,
+      "ticker": "NMAX",
+      "price": 9.21,
+      "gap_pct": 26.36,
+      "catalyst": "Newsmax (NYSE:NMAX) reported third-quarter revenue of $69 million, boosted by a $14 million one-time payment, as higher affiliate fees and licensing revenue helped the company post its second consecutive quarter of…",
+      "prev_close": 7.29,
+      "premarket_volume": 92830,
       "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "Liftoff Mobile (LFTO) Stock Sees Modest Fair Value Cut As Analysts Trim Targets",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/liftoff-mobile-lfto-stock-sees-150824567.html"
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Newsmax Q3 Earnings Call Highlights",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-newsmax-q3-earnings-call-highlights-2026-11-13/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
       "ticker": "BKHA",
-      "price": 6.75,
-      "gap_pct": 25.58,
+      "price": 6.79,
+      "gap_pct": 26.33,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 5.38,
       "premarket_volume": 369921,
@@ -93,9 +81,21 @@
       "catalyst_url": null
     },
     {
+      "ticker": "LFTO",
+      "price": 23.41,
+      "gap_pct": 25.12,
+      "catalyst": "Liftoff Mobile (NASDAQ: LFTO) shares surged 25% to $23.33 after the mobile advertising technology company reported stronger-than-expected third-quarter results and raised its forward guidance.",
+      "prev_close": 18.71,
+      "premarket_volume": 251251,
+      "session": "regular",
+      "catalyst_source": "Proactive",
+      "catalyst_headline": "Liftoff Mobile shares surge 25% as AI advertising growth drives earnings beat",
+      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101771/liftoff-mobile-shares-surge-25-as-ai-advertising-growth-drives-earnings-beat-1101771.html"
+    },
+    {
       "ticker": "HAWK",
-      "price": 17.64,
-      "gap_pct": 20.25,
+      "price": 17.42,
+      "gap_pct": 18.71,
       "catalyst": "Soaring global contracts and cheaper next-generation satellites prompt HawkEye 360 to raise its full-year outlook.",
       "prev_close": 14.67,
       "premarket_volume": 62854,
@@ -106,8 +106,8 @@
     },
     {
       "ticker": "CDNL",
-      "price": 6.41,
-      "gap_pct": 13.74,
+      "price": 6.51,
+      "gap_pct": 15.43,
       "catalyst": "Investors need to pay close attention to CDNL stock based on the movements in the options market lately.",
       "prev_close": 5.64,
       "premarket_volume": 207691,
@@ -118,8 +118,8 @@
     },
     {
       "ticker": "TNDM",
-      "price": 19.89,
-      "gap_pct": 13.59,
+      "price": 19.96,
+      "gap_pct": 13.99,
       "catalyst": "Investing.com -- Shares of Tandem Diabetes Care, Inc.",
       "prev_close": 17.51,
       "premarket_volume": 71181,
@@ -130,8 +130,8 @@
     },
     {
       "ticker": "NUAI",
-      "price": 3.05,
-      "gap_pct": 12.11,
+      "price": 3.08,
+      "gap_pct": 13.05,
       "catalyst": "Moby summary of New Era Energy & Digital, Inc.'s Q3 2026 earnings call.",
       "prev_close": 2.72,
       "premarket_volume": 1166228,
@@ -142,8 +142,8 @@
     },
     {
       "ticker": "NU",
-      "price": 13.16,
-      "gap_pct": 11.24,
+      "price": 13.19,
+      "gap_pct": 11.5,
       "catalyst": "AI linked goods have powered most recent global trade growth in 2025 and early 2026, even as tariffs climbed and old trade rules strained.",
       "prev_close": 11.83,
       "premarket_volume": 1493642,
@@ -153,33 +153,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/3-great-growth-stocks-own-161013817.html"
     },
     {
-      "ticker": "WSE",
-      "price": 11.9,
-      "gap_pct": 8.83,
-      "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…",
-      "prev_close": 10.93,
-      "premarket_volume": 100175,
-      "session": "regular",
-      "catalyst_source": "Proactive",
-      "catalyst_headline": "Wise jumps 10% as Jefferies highlights Belgian settlement and North American bank wins",
-      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101743/wise-jumps-10-as-jefferies-highlights-belgian-settlement-and-north-american-bank-wins-1101743.html"
-    },
-    {
-      "ticker": "INTR",
-      "price": 4.28,
-      "gap_pct": 7.82,
-      "catalyst": "Inter & Co.",
-      "prev_close": 3.96,
-      "premarket_volume": 183581,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Inter & Co. Inc. (INTR) Lags Q3 Earnings and Revenue Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/inter-co-inc-intr-lags-233501546.html"
-    },
-    {
       "ticker": "CBRS",
-      "price": 104.95,
-      "gap_pct": 7.37,
+      "price": 105.67,
+      "gap_pct": 8.1,
       "catalyst": "Cerebras stock jumped on Friday after the AI chip maker posted record revenue, raised its guidance, and signed new deals with hyperscalers.",
       "prev_close": 97.75,
       "premarket_volume": 2363940,
@@ -189,9 +165,33 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/cerebras-stock-surges-after-ai-chipmaker-posts-q3-record-revenue-deals-with-hyperscalers-124719638.html"
     },
     {
+      "ticker": "INTR",
+      "price": 4.24,
+      "gap_pct": 6.94,
+      "catalyst": "Inter & Co.",
+      "prev_close": 3.96,
+      "premarket_volume": 183581,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Inter & Co. Inc. (INTR) Lags Q3 Earnings and Revenue Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/inter-co-inc-intr-lags-233501546.html"
+    },
+    {
+      "ticker": "WSE",
+      "price": 11.63,
+      "gap_pct": 6.4,
+      "catalyst": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, jumped as much as 10% to an intraday high of 912p on Friday after Jefferies highlighted the settlement of a Belgian investigation and two major…",
+      "prev_close": 10.93,
+      "premarket_volume": 100175,
+      "session": "regular",
+      "catalyst_source": "Proactive",
+      "catalyst_headline": "Wise jumps 10% as Jefferies highlights Belgian settlement and North American bank wins",
+      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101743/wise-jumps-10-as-jefferies-highlights-belgian-settlement-and-north-american-bank-wins-1101743.html"
+    },
+    {
       "ticker": "ALM",
-      "price": 8.16,
-      "gap_pct": 6.95,
+      "price": 8.07,
+      "gap_pct": 5.83,
       "catalyst": "Almonty Industries Inc.",
       "prev_close": 7.63,
       "premarket_volume": 99498,
