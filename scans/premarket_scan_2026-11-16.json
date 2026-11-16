@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 13:03:28 EST",
-  "scan_time_et": "13:03",
+  "generated_at_et": "2026-11-16 13:33:52 EST",
+  "scan_time_et": "13:33",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7078,
-    "prefilter": 387,
-    "with_data": 338,
-    "gap": 60,
-    "gap_price": 53,
-    "passed": 9,
+    "prefilter": 466,
+    "with_data": 416,
+    "gap": 59,
+    "gap_price": 50,
+    "passed": 8,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7078,
-  "count": 9,
+  "count": 8,
   "results": [
     {
       "ticker": "PSNYW",
-      "price": 4.44,
-      "gap_pct": 62.6,
+      "price": 3.85,
+      "gap_pct": 41.03,
       "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
       "prev_close": 2.73,
       "premarket_volume": 2334997,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "CLRO",
-      "price": 4.79,
-      "gap_pct": 42.28,
+      "price": 4.57,
+      "gap_pct": 35.46,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
       "prev_close": 3.37,
       "premarket_volume": 11429626,
@@ -46,32 +46,20 @@
     },
     {
       "ticker": "CGON",
-      "price": 86.99,
-      "gap_pct": 16.92,
-      "catalyst": "CG’s therapy cretostimogene cut the risk of recurrence by 68% when administered after surgery, far surpassing Wall Street’s expectations and lifting company shares.",
+      "price": 85.01,
+      "gap_pct": 14.26,
+      "catalyst": "Options traders are targeting SMMT and CGON after their respective news.",
       "prev_close": 74.4,
       "premarket_volume": 564577,
       "session": "regular",
-      "catalyst_source": "BioPharma Dive",
-      "catalyst_headline": "CG Oncology drug delivers ‘exceptional’ results in key bladder cancer trial",
-      "catalyst_url": "https://www.biopharmadive.com/news/cg-oncology-cretostimogene-adjuvant-bladder-cancer-results-pivot/874740/"
-    },
-    {
-      "ticker": "LXEO",
-      "price": 3.18,
-      "gap_pct": 10.98,
-      "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) reported interim data from a small, early-stage trial of its gene therapy LX2020, saying patients who received the higher dose showed reductions in abnormal heart rhythms and…",
-      "prev_close": 2.87,
-      "premarket_volume": 10029788,
-      "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "Lexeo Therapeutics Q3 Earnings Call Highlights",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-lexeo-therapeutics-q3-earnings-call-highlights-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      "catalyst_source": "Schaeffer's Investment Research",
+      "catalyst_headline": "2 Cancer-Drug Developers Seeing Unusual Options Volume",
+      "catalyst_url": "https://finance.yahoo.com/markets/options/articles/2-cancer-drug-developers-seeing-180119084.html"
     },
     {
       "ticker": "TU",
-      "price": 9.27,
-      "gap_pct": 8.73,
+      "price": 9.19,
+      "gap_pct": 7.68,
       "catalyst": "The telecom company was set to co-develop the facilities with real estate developer Westbank and the federal government.",
       "prev_close": 8.53,
       "premarket_volume": 3775911,
@@ -82,8 +70,8 @@
     },
     {
       "ticker": "TSN",
-      "price": 63.22,
-      "gap_pct": 7.47,
+      "price": 63.17,
+      "gap_pct": 7.4,
       "catalyst": "Al Root, Barron's Associate Editor, joins the 8:30 hosts, Julie Hyman and Pras Subramanian, to discuss Tyson Foods (TSN) issuing new guidance that its beef business could return to profitability in fiscal 2027, after…",
       "prev_close": 58.82,
       "premarket_volume": 85637,
@@ -93,9 +81,21 @@
       "catalyst_url": "https://finance.yahoo.com/video/tyson-q4-earnings-beef-business-151500623.html"
     },
     {
+      "ticker": "LXEO",
+      "price": 3.07,
+      "gap_pct": 6.97,
+      "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) reported interim data from a small, early-stage trial of its gene therapy LX2020, saying patients who received the higher dose showed reductions in abnormal heart rhythms and…",
+      "prev_close": 2.87,
+      "premarket_volume": 10029788,
+      "session": "regular",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Lexeo Therapeutics Q3 Earnings Call Highlights",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-lexeo-therapeutics-q3-earnings-call-highlights-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
       "ticker": "BEKE",
-      "price": 19.02,
-      "gap_pct": 6.52,
+      "price": 18.95,
+      "gap_pct": 6.1,
       "catalyst": "KE (NYSE:BEKE) reported higher third-quarter 2026 transaction value and operating profit despite a decline in revenue, as cost reductions and improved margins across its businesses helped offset weaker reported revenue…",
       "prev_close": 17.86,
       "premarket_volume": 54143,
@@ -105,28 +105,16 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-ke-beke-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
-      "ticker": "XPEV",
-      "price": 9.89,
-      "gap_pct": 5.5,
-      "catalyst": "XPENG (NYSE:XPEV) reported higher third-quarter revenue and a narrower sequential loss as vehicle deliveries and average selling prices rose, while management projected record deliveries and revenue for the final…",
-      "prev_close": 9.37,
-      "premarket_volume": 906655,
+      "ticker": "CRMD",
+      "price": 4.89,
+      "gap_pct": 5.04,
+      "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t.",
+      "prev_close": 4.66,
+      "premarket_volume": 71711,
       "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "What XPENG (XPEV) Said on Its Q3 Earnings Call",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-xpeng-xpev-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
-      "ticker": "BXDC",
-      "price": 17.59,
-      "gap_pct": 5.39,
-      "catalyst": "Blackstone's new data center REIT will own 13 powered shells with Amazon Web Services in a roughly $5 billion deal, its first acquisition.",
-      "prev_close": 16.69,
-      "premarket_volume": 71444,
-      "session": "regular",
-      "catalyst_source": "CRE Daily",
-      "catalyst_headline": "Blackstone’s BXDC Buys 75% of Amazon Data Centers",
-      "catalyst_url": "https://www.credaily.com/briefs/blackstones-bxdc-buys-75-of-amazon-data-centers/"
+      "catalyst_source": "MT Newswires",
+      "catalyst_headline": "CorMedix's DefenCath, Rezzayo to Drive 2027 Growth, Oppenheimer Says",
+      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cormedix-apos-defencath-rezzayo-drive-170726235.html"
     }
   ]
 }
