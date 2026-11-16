@@ -1,0 +1,119 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-11-16",
+  "generated_at_et": "2026-11-16 08:35:00 EST",
+  "source_premarket_file": "premarket_scan_2026-11-16.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 8,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "BXDC",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 128 trading days of history (< 200 needed for SMA200)",
+      "history_days": 128,
+      "gap_pct": 7.49,
+      "catalyst": "Blackstone Inc.’s newly listed data center acquisition vehicle has acquired a majority interest in two joint ventures with Amazon Web Services in a transaction valued at roughly $5 billion."
+    },
+    {
+      "ticker": "CGON",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 5.0056,
+      "yesterday_high": 76.06,
+      "yesterday_close": 74.4,
+      "sma200": 66.675,
+      "premarket_high": 107.5838,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 27.69,
+      "catalyst": "CG Oncology reported third quarter 2026 results, with revenue of US$1.6 million and a net loss of US$56.89 million, and basic loss per share of US$0.64."
+    },
+    {
+      "ticker": "CLRO",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.0364,
+      "yesterday_high": 3.43,
+      "yesterday_close": 3.37,
+      "sma200": 4.5539,
+      "premarket_high": 5.89,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 44.51,
+      "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
+    },
+    {
+      "ticker": "DRTS",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.7,
+      "yesterday_high": 13.49,
+      "yesterday_close": 13.38,
+      "sma200": 10.9204,
+      "premarket_high": 16.0,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 12.56,
+      "catalyst": "October consumer prices rose 0.4%, the third straight monthly gain of at least 0.4%, according to data reported by Reuters."
+    },
+    {
+      "ticker": "HELP",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.8355,
+      "yesterday_high": 9.06,
+      "yesterday_close": 8.87,
+      "sma200": 7.789,
+      "premarket_high": 11.22,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 21.76,
+      "catalyst": "Investing.com -- Helus Pharma Inc."
+    },
+    {
+      "ticker": "LXEO",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.3124,
+      "yesterday_high": 2.945,
+      "yesterday_close": 2.87,
+      "sma200": 4.9893,
+      "premarket_high": 4.3,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 23.0,
+      "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) outlined upcoming clinical and regulatory milestones for its gene therapy programs in Friedreich’s ataxia cardiomyopathy and PKP2-associated arrhythmogenic cardiomyopathy during the…"
+    },
+    {
+      "ticker": "PSNYW",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.205,
+      "yesterday_high": 3.0,
+      "yesterday_close": 2.73,
+      "sma200": 3.4166,
+      "premarket_high": 6.74,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 73.63,
+      "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects."
+    },
+    {
+      "ticker": "TU",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2329,
+      "yesterday_high": 8.64,
+      "yesterday_close": 8.53,
+      "sma200": 11.0936,
+      "premarket_high": 11.98,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 21.45,
+      "catalyst": "Find insight on Meta Platforms, Nvidia, Anthropic, Constellation Software and more in the latest Market Talks covering Technology, Media and Telecom."
+    }
+  ],
+  "scan_time_et": "08:35"
+}

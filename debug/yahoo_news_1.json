@@ -1,103 +1,32 @@
 {
-  "ticker": "FCUV",
-  "saved_at_et": "2026-11-13T14:03:42-05:00",
+  "ticker": "PSNYW",
+  "saved_at_et": "2026-11-16T08:32:25-05:00",
   "response": [
     {
-      "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+      "id": "c10a1cb9-4415-351c-aaa1-42b9e6c366f2",
       "content": {
-        "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+        "id": "c10a1cb9-4415-351c-aaa1-42b9e6c366f2",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Zacks Industry Outlook Highlights Toyota Motor, Honda Motor and Polestar Automotive",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  SHF Holdings Inc.",
-        "pubDate": "2026-11-13T15:30:18Z",
-        "displayTime": "2026-11-13T15:30:18Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "IBIT"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "ONFO"
-            },
-            {
-              "symbol": "FCUV"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "KDP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "f985893f-dada-31f2-9081-15515be69185",
-      "content": {
-        "id": "f985893f-dada-31f2-9081-15515be69185",
-        "contentType": "STORY",
-        "title": "FCUV Stock Clocks Best Day In 1.5 Years — What’s Driving Investor Optimism?",
-        "description": null,
-        "summary": "Every four pre-split shares were consolidated into one new share, with trading beginning on a split-adjusted basis on Tuesday.",
-        "pubDate": "2026-06-23T23:06:01Z",
-        "displayTime": "2026-06-23T23:06:01Z",
+        "summary": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
+        "pubDate": "2026-10-27T12:38:00Z",
+        "displayTime": "2026-10-27T12:38:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/921424ba6d9d421338a9851bf85e9536",
-          "originalWidth": 1000,
-          "originalHeight": 750,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/49d99af140c116ba99c496e1d63a0d38.jpg",
+          "originalWidth": 635,
+          "originalHeight": 400,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/stocktwits_383/921424ba6d9d421338a9851bf85e9536",
-              "width": 1000,
-              "height": 750,
+              "url": "https://media.zenfs.com/en/zacks.com/49d99af140c116ba99c496e1d63a0d38.jpg",
+              "width": 635,
+              "height": 400,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/29f223e33f590bbfd58ed4a612bd16319c18db4b0963da27f9904fbd5cca6d05/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F921424ba6d9d421338a9851bf85e9536",
+              "url": "https://s.yimg.com/lo/mysterio/api/74afc4e7000d800804b369a8c6390affb4090c49a8a2bb56129b92ff9e422144/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F49d99af140c116ba99c496e1d63a0d38.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -105,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Stocktwits",
-          "url": "https://stocktwits.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://stocktwits.com/news-articles/markets/equity/fcuv-stock-clocks-best-day-in1.5-years-whats-driving-the-rally/cZKwSzmR7O5"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-toyota-123800642.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fcuv-stock-clocks-best-day-230601173.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-toyota-123800642.html"
         },
         "finance": {
           "premiumFinance": {
@@ -120,37 +49,49 @@
           },
           "stockTickers": [
             {
-              "symbol": "FCUV"
+              "symbol": "TM"
+            },
+            {
+              "symbol": "HMC"
+            },
+            {
+              "symbol": "TM"
+            },
+            {
+              "symbol": "HMC"
+            },
+            {
+              "symbol": "PSNY"
             }
           ]
         }
       }
     },
     {
-      "id": "f233d6df-7d8f-3c35-b5cd-5db2168c528d",
+      "id": "a229b011-7300-3a80-a37d-f428718d665a",
       "content": {
-        "id": "f233d6df-7d8f-3c35-b5cd-5db2168c528d",
+        "id": "a229b011-7300-3a80-a37d-f428718d665a",
         "contentType": "STORY",
-        "title": "Focus Universal (FCUV) Expands Its Float As Investors Weigh The Long-Term Tradeoff",
+        "title": "3 Foreign Auto Stocks to Buy as Hybrids and EVs Gain Momentum",
         "description": null,
-        "summary": "With a short percentage of outstanding shares of 1.38%, Focus Universal Inc. (NASDAQ:FCUV) is among the 7 Best Machine Learning Stocks to Buy According to Short Sellers. Focus Universal Inc. (NASDAQ:FCUV) disclosed on April 24 that it had filed to sell approximately 3.35 million shares of common stock on behalf of existing holders. The filing is expected […]",
-        "pubDate": "2026-05-12T21:00:45Z",
-        "displayTime": "2026-05-12T21:00:45Z",
+        "summary": "As the foreign auto industry faces uneven demand, Toyota, Honda and Polestar stand out for their hybrid and EV strengths.",
+        "pubDate": "2026-10-26T12:22:00Z",
+        "displayTime": "2026-10-26T12:22:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/1881ecb550192dcd6f854a6a3b1e40f8",
-          "originalWidth": 1456,
-          "originalHeight": 816,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/cbb8d8633afa6c2ccd4d034828cb4789.jpg",
+          "originalWidth": 635,
+          "originalHeight": 400,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/insidermonkey.com/1881ecb550192dcd6f854a6a3b1e40f8",
-              "width": 1456,
-              "height": 816,
+              "url": "https://media.zenfs.com/en/zacks.com/cbb8d8633afa6c2ccd4d034828cb4789.jpg",
+              "width": 635,
+              "height": 400,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/8a30b627adf10e55e77264fe8037dd69b5273a03b897354046bdb4c323057ca0/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F1881ecb550192dcd6f854a6a3b1e40f8",
+              "url": "https://s.yimg.com/lo/mysterio/api/c6af707c88634d5d050a478b04872a60eb23e0cfa457d4b8da0c677e882f835b/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fcbb8d8633afa6c2ccd4d034828cb4789.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -158,14 +99,14 @@
           ]
         },
         "provider": {
-          "displayName": "Insider Monkey",
-          "url": "http://www.insidermonkey.com"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/news/focus-universal-fcuv-expands-float-210045133.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-foreign-auto-stocks-buy-122200370.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/news/focus-universal-fcuv-expands-float-210045133.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-foreign-auto-stocks-buy-122200370.html"
         },
         "finance": {
           "premiumFinance": {
@@ -173,7 +114,75 @@
           },
           "stockTickers": [
             {
-              "symbol": "FCUV"
+              "symbol": "TM"
+            },
+            {
+              "symbol": "HMC"
+            },
+            {
+              "symbol": "PSNY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "d7132fe8-f650-368b-9790-d6a50ebfb74c",
+      "content": {
+        "id": "d7132fe8-f650-368b-9790-d6a50ebfb74c",
+        "contentType": "STORY",
+        "title": "Google Puts Gemini in Geely’s Overseas Cars: Why the Export Numbers Matter",
+        "description": null,
+        "summary": "Alphabet (GOOGL:NASDAQ) just landed a new way to put Gemini in front of people without a phone or a browser. On October 16, Geely Holding Group, the parent of Geely Automobile (GELHY), announced a global partnership with Google to build Gemini, Google Maps and Google Play into eligible overseas models from Geely, Lynk & Co, Proton, Riddara and smart.",
+        "pubDate": "2026-10-17T08:28:47Z",
+        "displayTime": "2026-10-17T08:28:47Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/285531d638fab06f5b979f2e66f21aa3.png",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/tikr_258/285531d638fab06f5b979f2e66f21aa3.png",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/4dcee528dfebb4dfb45e7bd596fceaff8bacb47e6260adfc428d0e0790ea0868/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F285531d638fab06f5b979f2e66f21aa3.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.tikr.com/blog/google-puts-gemini-in-geelys-overseas-cars-why-the-export-numbers-matter?ref=yahoofinance"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/technology/articles/google-puts-gemini-geely-overseas-082847460.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "0175.HK"
+            },
+            {
+              "symbol": "GOOG"
+            },
+            {
+              "symbol": "VOLV-B.ST"
+            },
+            {
+              "symbol": "PSNY"
             }
           ]
         }

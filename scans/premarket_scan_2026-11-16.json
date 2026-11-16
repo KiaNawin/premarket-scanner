@@ -1,0 +1,120 @@
+{
+  "scan_date": "2026-11-16",
+  "generated_at_et": "2026-11-16 08:32:26 EST",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7076,
+    "prefilter": 144,
+    "with_data": 141,
+    "gap": 37,
+    "gap_price": 33,
+    "passed": 8,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7076,
+  "count": 8,
+  "results": [
+    {
+      "ticker": "PSNYW",
+      "price": 4.74,
+      "gap_pct": 73.63,
+      "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
+      "prev_close": 2.73,
+      "premarket_volume": 2103456,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Zacks Industry Outlook Highlights Toyota Motor, Honda Motor and Polestar Automotive",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-toyota-123800642.html"
+    },
+    {
+      "ticker": "CLRO",
+      "price": 4.87,
+      "gap_pct": 44.51,
+      "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
+      "prev_close": 3.37,
+      "premarket_volume": 10440067,
+      "session": "pre-market",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "ClearOne: Q3 Earnings Snapshot",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/clearone-q3-earnings-snapshot-234826536.html"
+    },
+    {
+      "ticker": "CGON",
+      "price": 95.0,
+      "gap_pct": 27.69,
+      "catalyst": "CG Oncology reported third quarter 2026 results, with revenue of US$1.6 million and a net loss of US$56.89 million, and basic loss per share of US$0.64.",
+      "prev_close": 74.4,
+      "premarket_volume": 236902,
+      "session": "pre-market",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "What CG Oncology (CGON)'s Third Quarter Earnings Means For Shareholders",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/cg-oncology-cgon-third-quarter-130913745.html"
+    },
+    {
+      "ticker": "LXEO",
+      "price": 3.53,
+      "gap_pct": 23.0,
+      "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) outlined upcoming clinical and regulatory milestones for its gene therapy programs in Friedreich’s ataxia cardiomyopathy and PKP2-associated arrhythmogenic cardiomyopathy during the…",
+      "prev_close": 2.87,
+      "premarket_volume": 8347998,
+      "session": "pre-market",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Lexeo Therapeutics Maps Gene Therapy Milestones, Eyes Key 2027 Readout",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/event-lexeo-therapeutics-maps-gene-therapy-milestones-eyes-key-2027-readout-2026-10-25/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "HELP",
+      "price": 10.8,
+      "gap_pct": 21.76,
+      "catalyst": "Investing.com -- Helus Pharma Inc.",
+      "prev_close": 8.87,
+      "premarket_volume": 4883015,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Helus Pharma stock tumbles 21% despite positive trial results",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/helus-pharma-stock-tumbles-21-130754465.html"
+    },
+    {
+      "ticker": "TU",
+      "price": 10.36,
+      "gap_pct": 21.45,
+      "catalyst": "Find insight on Meta Platforms, Nvidia, Anthropic, Constellation Software and more in the latest Market Talks covering Technology, Media and Telecom.",
+      "prev_close": 8.53,
+      "premarket_volume": 2369609,
+      "session": "pre-market",
+      "catalyst_source": "The Wall Street Journal",
+      "catalyst_headline": "Tech, Media & Telecom Roundup: Market Talk",
+      "catalyst_url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-a6a9d766?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "DRTS",
+      "price": 15.06,
+      "gap_pct": 12.56,
+      "catalyst": "October consumer prices rose 0.4%, the third straight monthly gain of at least 0.4%, according to data reported by Reuters.",
+      "prev_close": 13.38,
+      "premarket_volume": 197012,
+      "session": "pre-market",
+      "catalyst_source": "Insider Monkey",
+      "catalyst_headline": "Buy Alert: 5 Stocks Analysts Upgraded on Wednesday",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/buy-alert-5-stocks-analysts-211224816.html"
+    },
+    {
+      "ticker": "BXDC",
+      "price": 17.94,
+      "gap_pct": 7.49,
+      "catalyst": "Blackstone Inc.’s newly listed data center acquisition vehicle has acquired a majority interest in two joint ventures with Amazon Web Services in a transaction valued at roughly $5 billion.",
+      "prev_close": 16.69,
+      "premarket_volume": 59566,
+      "session": "pre-market",
+      "catalyst_source": "Bloomberg",
+      "catalyst_headline": "Blackstone REIT to Buy Amazon Data Centers in $5 Billion Deal",
+      "catalyst_url": "https://finance.yahoo.com/real-estate/articles/blackstone-reit-buy-amazon-data-115357460.html"
+    }
+  ]
+}
