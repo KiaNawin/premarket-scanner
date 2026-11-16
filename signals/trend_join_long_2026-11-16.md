@@ -1,9 +1,9 @@
 **Trend-join Long — 2026-11-16**
-1 valid entry out of 12 pre-market gappers (generated 2026-11-16 11:05:01 EST)
+1 valid entry out of 12 pre-market gappers (generated 2026-11-16 11:35:01 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
-| VTSI | 10:23 | $4.75 | +8.37% | VirTra, Inc. |
+| VTSI | 10:23 | $4.75 | +5.16% | VirTra, Inc. |
 
 Not triggered:
 - ARCT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
