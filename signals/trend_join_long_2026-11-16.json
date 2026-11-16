@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 08:35:00 EST",
+  "generated_at_et": "2026-11-16 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-16.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 8,
+  "candidates": 9,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -21,7 +21,7 @@
       "reason": "Only 128 trading days of history (< 200 needed for SMA200)",
       "history_days": 128,
       "gap_pct": 7.49,
-      "catalyst": "Blackstone Inc.’s newly listed data center acquisition vehicle has acquired a majority interest in two joint ventures with Amazon Web Services in a transaction valued at roughly $5 billion."
+      "catalyst": "Blackstone Digital Infrastructure Trust agreed to acquire a majority stake in a data center portfolio from Amazon.com in a deal valued at about $5 billion."
     },
     {
       "ticker": "CGON",
@@ -33,7 +33,7 @@
       "sma200": 66.675,
       "premarket_high": 107.5838,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 27.69,
+      "gap_pct": 31.72,
       "catalyst": "CG Oncology reported third quarter 2026 results, with revenue of US$1.6 million and a net loss of US$56.89 million, and basic loss per share of US$0.64."
     },
     {
@@ -46,8 +46,21 @@
       "sma200": 4.5539,
       "premarket_high": 5.89,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 44.51,
+      "gap_pct": 40.72,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
+    },
+    {
+      "ticker": "CRMD",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.5257,
+      "yesterday_high": 5.06,
+      "yesterday_close": 4.66,
+      "sma200": 7.5666,
+      "premarket_high": 5.09,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 9.23,
+      "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t."
     },
     {
       "ticker": "DRTS",
@@ -59,21 +72,21 @@
       "sma200": 10.9204,
       "premarket_high": 16.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 12.56,
+      "gap_pct": 8.45,
       "catalyst": "October consumer prices rose 0.4%, the third straight monthly gain of at least 0.4%, according to data reported by Reuters."
     },
     {
-      "ticker": "HELP",
+      "ticker": "GMM",
       "status": "WAITING",
       "signal": false,
-      "atr14": 0.8355,
-      "yesterday_high": 9.06,
-      "yesterday_close": 8.87,
-      "sma200": 7.789,
-      "premarket_high": 11.22,
+      "atr14": 0.177,
+      "yesterday_high": 1.05,
+      "yesterday_close": 1.02,
+      "sma200": 26.6233,
+      "premarket_high": 6.11,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 21.76,
-      "catalyst": "Investing.com -- Helus Pharma Inc."
+      "gap_pct": 351.81,
+      "catalyst": "Strong top-line growth was driven by virtual technology services and a new AI digital asset sales business, although higher investment and asset impairment resulted in a GAAP net loss."
     },
     {
       "ticker": "LXEO",
@@ -85,7 +98,7 @@
       "sma200": 4.9893,
       "premarket_high": 4.3,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 23.0,
+      "gap_pct": 19.51,
       "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) outlined upcoming clinical and regulatory milestones for its gene therapy programs in Friedreich’s ataxia cardiomyopathy and PKP2-associated arrhythmogenic cardiomyopathy during the…"
     },
     {
@@ -98,7 +111,7 @@
       "sma200": 3.4166,
       "premarket_high": 6.74,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 73.63,
+      "gap_pct": 50.92,
       "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects."
     },
     {
@@ -111,9 +124,9 @@
       "sma200": 11.0936,
       "premarket_high": 11.98,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 21.45,
-      "catalyst": "Find insight on Meta Platforms, Nvidia, Anthropic, Constellation Software and more in the latest Market Talks covering Technology, Media and Telecom."
+      "gap_pct": 22.27,
+      "catalyst": "Investing.com -- TELUS Corporation (TSX: T) (NYSE: TU) shares surged 29% on Monday after the company confirmed its board has received an unsolicited, non-binding and conditional proposal from Québecor to acquire TELUS,…"
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }

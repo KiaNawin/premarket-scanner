@@ -1,12 +1,12 @@
 {
   "ticker": "AERT",
-  "saved_at_et": "2026-11-16T08:31:07-05:00",
+  "saved_at_et": "2026-11-16T09:01:07-05:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $4.5",
       "lastUpdateInfo": [
         "This page refreshes every 30 seconds.",
-        "Data last updated Nov 16, 2026 08:30 AM ET."
+        "Data last updated Nov 16, 2026 09:00 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -20,7 +20,7 @@
         "rows": [
           {
             "consolidated": "$4.82 +0.32 (+7.11%)",
-            "volume": "139",
+            "volume": "203",
             "highPrice": "$4.99 (06:54:18 AM)",
             "lowPrice": "$4.99 (06:54:18 AM)",
             "delta": "up"
