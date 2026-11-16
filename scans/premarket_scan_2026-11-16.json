@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 13:33:52 EST",
-  "scan_time_et": "13:33",
+  "generated_at_et": "2026-11-16 14:03:35 EST",
+  "scan_time_et": "14:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7078,
-    "prefilter": 466,
-    "with_data": 416,
-    "gap": 59,
-    "gap_price": 50,
+    "prefilter": 458,
+    "with_data": 406,
+    "gap": 57,
+    "gap_price": 51,
     "passed": 8,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -21,21 +21,9 @@
   "count": 8,
   "results": [
     {
-      "ticker": "PSNYW",
-      "price": 3.85,
-      "gap_pct": 41.03,
-      "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
-      "prev_close": 2.73,
-      "premarket_volume": 2334997,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Zacks Industry Outlook Highlights Toyota Motor, Honda Motor and Polestar Automotive",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-toyota-123800642.html"
-    },
-    {
       "ticker": "CLRO",
-      "price": 4.57,
-      "gap_pct": 35.46,
+      "price": 4.52,
+      "gap_pct": 34.12,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
       "prev_close": 3.37,
       "premarket_volume": 11429626,
@@ -45,9 +33,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/clearone-q3-earnings-snapshot-234826536.html"
     },
     {
+      "ticker": "PSNYW",
+      "price": 3.37,
+      "gap_pct": 23.26,
+      "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
+      "prev_close": 2.73,
+      "premarket_volume": 2334997,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Zacks Industry Outlook Highlights Toyota Motor, Honda Motor and Polestar Automotive",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-toyota-123800642.html"
+    },
+    {
       "ticker": "CGON",
-      "price": 85.01,
-      "gap_pct": 14.26,
+      "price": 84.09,
+      "gap_pct": 13.02,
       "catalyst": "Options traders are targeting SMMT and CGON after their respective news.",
       "prev_close": 74.4,
       "premarket_volume": 564577,
@@ -58,32 +58,20 @@
     },
     {
       "ticker": "TU",
-      "price": 9.19,
-      "gap_pct": 7.68,
-      "catalyst": "The telecom company was set to co-develop the facilities with real estate developer Westbank and the federal government.",
+      "price": 9.4,
+      "gap_pct": 10.26,
+      "catalyst": "Consumer stocks were mixed Monday afternoon, with the State Street Consumer Staples Select Sector SP.",
       "prev_close": 8.53,
       "premarket_volume": 3775911,
       "session": "regular",
-      "catalyst_source": "Financial Post",
-      "catalyst_headline": "Telus drops its involvement in two planned AI data centres in Vancouver",
-      "catalyst_url": "https://financialpost.com/technology/telus-drops-its-involvement-in-two-planned-ai-data-centres-in-vancouver/"
-    },
-    {
-      "ticker": "TSN",
-      "price": 63.17,
-      "gap_pct": 7.4,
-      "catalyst": "Al Root, Barron's Associate Editor, joins the 8:30 hosts, Julie Hyman and Pras Subramanian, to discuss Tyson Foods (TSN) issuing new guidance that its beef business could return to profitability in fiscal 2027, after…",
-      "prev_close": 58.82,
-      "premarket_volume": 85637,
-      "session": "regular",
-      "catalyst_source": "Yahoo Finance Video",
-      "catalyst_headline": "Tyson Q4 earnings: Beef business could return to profit in 2027",
-      "catalyst_url": "https://finance.yahoo.com/video/tyson-q4-earnings-beef-business-151500623.html"
+      "catalyst_source": "MT Newswires",
+      "catalyst_headline": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-183618178.html"
     },
     {
       "ticker": "LXEO",
-      "price": 3.07,
-      "gap_pct": 6.97,
+      "price": 3.15,
+      "gap_pct": 9.93,
       "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) reported interim data from a small, early-stage trial of its gene therapy LX2020, saying patients who received the higher dose showed reductions in abnormal heart rhythms and…",
       "prev_close": 2.87,
       "premarket_volume": 10029788,
@@ -93,9 +81,33 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-lexeo-therapeutics-q3-earnings-call-highlights-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
+      "ticker": "TSN",
+      "price": 62.63,
+      "gap_pct": 6.49,
+      "catalyst": "Al Root, Barron's Associate Editor, joins the 8:30 hosts, Julie Hyman and Pras Subramanian, to discuss Tyson Foods (TSN) issuing new guidance that its beef business could return to profitability in fiscal 2027, after…",
+      "prev_close": 58.82,
+      "premarket_volume": 85637,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance Video",
+      "catalyst_headline": "Tyson Q4 earnings: Beef business could return to profit in 2027",
+      "catalyst_url": "https://finance.yahoo.com/video/tyson-q4-earnings-beef-business-151500623.html"
+    },
+    {
+      "ticker": "BXDC",
+      "price": 17.65,
+      "gap_pct": 5.72,
+      "catalyst": "Blackstone's new data center REIT will own 13 powered shells with Amazon Web Services in a roughly $5 billion deal, its first acquisition.",
+      "prev_close": 16.69,
+      "premarket_volume": 71444,
+      "session": "regular",
+      "catalyst_source": "CRE Daily",
+      "catalyst_headline": "Blackstone’s BXDC Buys 75% of Amazon Data Centers",
+      "catalyst_url": "https://www.credaily.com/briefs/blackstones-bxdc-buys-75-of-amazon-data-centers/"
+    },
+    {
       "ticker": "BEKE",
-      "price": 18.95,
-      "gap_pct": 6.1,
+      "price": 18.78,
+      "gap_pct": 5.18,
       "catalyst": "KE (NYSE:BEKE) reported higher third-quarter 2026 transaction value and operating profit despite a decline in revenue, as cost reductions and improved margins across its businesses helped offset weaker reported revenue…",
       "prev_close": 17.86,
       "premarket_volume": 54143,
@@ -103,18 +115,6 @@
       "catalyst_source": "MarketBeat",
       "catalyst_headline": "What KE (BEKE) Said on Its Q3 Earnings Call",
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-ke-beke-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
-      "ticker": "CRMD",
-      "price": 4.89,
-      "gap_pct": 5.04,
-      "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t.",
-      "prev_close": 4.66,
-      "premarket_volume": 71711,
-      "session": "regular",
-      "catalyst_source": "MT Newswires",
-      "catalyst_headline": "CorMedix's DefenCath, Rezzayo to Drive 2027 Growth, Oppenheimer Says",
-      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cormedix-apos-defencath-rezzayo-drive-170726235.html"
     }
   ]
 }
