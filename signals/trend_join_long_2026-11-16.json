@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 09:35:00 EST",
+  "generated_at_et": "2026-11-16 10:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-16.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 13,
+  "candidates": 12,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -23,8 +23,8 @@
       "yesterday_close": 8.36,
       "sma200": 9.1034,
       "premarket_high": 9.66,
-      "last_price": 9.2347,
-      "last_bar_et": "09:34",
+      "last_price": 8.855,
+      "last_bar_et": "10:03",
       "high_of_day": 9.78,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -33,8 +33,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.88,
+      "gap_pct": 5.68,
       "catalyst": "Arcturus Therapeutics (NASDAQ:ARCT) expects to complete enrollment in a mid-stage cystic fibrosis study by the end of 2026 and begin dosing a next-generation treatment for a rare liver disorder in the first quarter of…"
+    },
+    {
+      "ticker": "BEKE",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.4857,
+      "yesterday_high": 17.905,
+      "yesterday_close": 17.86,
+      "sma200": 16.8502,
+      "premarket_high": 18.6,
+      "last_price": 18.975,
+      "last_bar_et": "10:04",
+      "high_of_day": 19.05,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 5.52,
+      "catalyst": "KE Hodlings (BEKE) was a big mover last session on higher-than-average trading volume."
     },
     {
       "ticker": "BXDC",
@@ -42,20 +64,20 @@
       "signal": false,
       "reason": "Only 128 trading days of history (< 200 needed for SMA200)",
       "history_days": 128,
-      "gap_pct": 6.65,
+      "gap_pct": 6.35,
       "catalyst": "The deal marks BXDC’s first investment and aligns with its strategy of acquiring high-quality, stabilized data centers leased to major cloud providers under long-term contracts."
     },
     {
       "ticker": "CGON",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 5.0056,
       "yesterday_high": 76.06,
       "yesterday_close": 74.4,
       "sma200": 66.675,
       "premarket_high": 107.5838,
-      "last_price": 89.3,
-      "last_bar_et": "09:34",
+      "last_price": 82.475,
+      "last_bar_et": "10:04",
       "high_of_day": 93.4,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -63,8 +85,8 @@
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 20.99,
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 11.01,
       "catalyst": "CG Oncology reported third quarter 2026 results, with revenue of US$1.6 million and a net loss of US$56.89 million, and basic loss per share of US$0.64."
     },
     {
@@ -76,9 +98,9 @@
       "yesterday_close": 3.37,
       "sma200": 4.5539,
       "premarket_high": 5.89,
-      "last_price": 4.8499,
-      "last_bar_et": "09:34",
-      "high_of_day": 5.0,
+      "last_price": 4.45,
+      "last_bar_et": "10:04",
+      "high_of_day": 5.2,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -86,7 +108,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 39.76,
+      "gap_pct": 33.74,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
     },
     {
@@ -98,8 +120,8 @@
       "yesterday_close": 4.66,
       "sma200": 7.5666,
       "premarket_high": 5.09,
-      "last_price": 5.1001,
-      "last_bar_et": "09:34",
+      "last_price": 5.14,
+      "last_bar_et": "10:04",
       "high_of_day": 5.2331,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -108,52 +130,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.52,
+      "gap_pct": 10.09,
       "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t."
-    },
-    {
-      "ticker": "DRTS",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.7,
-      "yesterday_high": 13.49,
-      "yesterday_close": 13.38,
-      "sma200": 10.9204,
-      "premarket_high": 16.0,
-      "last_price": 13.74,
-      "last_bar_et": "09:34",
-      "high_of_day": 14.4,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 5.76,
-      "catalyst": "October consumer prices rose 0.4%, the third straight monthly gain of at least 0.4%, according to data reported by Reuters."
-    },
-    {
-      "ticker": "GMM",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.177,
-      "yesterday_high": 1.05,
-      "yesterday_close": 1.02,
-      "sma200": 26.6233,
-      "premarket_high": 6.11,
-      "last_price": 3.41,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.81,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 317.65,
-      "catalyst": "Strong top-line growth was driven by virtual technology services and a new AI digital asset sales business, although higher investment and asset impairment resulted in a GAAP net loss."
     },
     {
       "ticker": "LXEO",
@@ -164,49 +142,18 @@
       "yesterday_close": 2.87,
       "sma200": 4.9893,
       "premarket_high": 4.3,
-      "last_price": 3.9299,
-      "last_bar_et": "09:34",
-      "high_of_day": 3.99,
+      "last_price": 3.6402,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.3,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 20.56,
+      "gap_pct": 29.79,
       "catalyst": "Investing.com -- Lexeo Therapeutics (NASDAQ: LXEO) shares surged 25% on Monday after interim clinical trial results showed substantial reductions in abnormal heart rhythms among patients receiving its experimental gene…"
-    },
-    {
-      "ticker": "MMED",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 176 trading days of history (< 200 needed for SMA200)",
-      "history_days": 176,
-      "gap_pct": 5.06,
-      "catalyst": "Why William Blair just picked EQT, Matador and MiniMed for its elite six-month list."
-    },
-    {
-      "ticker": "NTLA",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.965,
-      "yesterday_high": 10.505,
-      "yesterday_close": 9.7,
-      "sma200": 12.9551,
-      "premarket_high": 10.1813,
-      "last_price": 10.385,
-      "last_bar_et": "09:34",
-      "high_of_day": 10.4,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.15,
-      "catalyst": "Intellia Therapeutics (NASDAQ:NTLA) presented additional clinical data and outlined launch plans for lonvo-z, its investigational one-time gene-editing treatment for hereditary angioedema, as the company awaits a U.S.…"
     },
     {
       "ticker": "PSNYW",
@@ -217,9 +164,9 @@
       "yesterday_close": 2.73,
       "sma200": 3.4166,
       "premarket_high": 6.74,
-      "last_price": 4.4594,
-      "last_bar_et": "09:33",
-      "high_of_day": 4.7,
+      "last_price": 4.05,
+      "last_bar_et": "10:04",
+      "high_of_day": 5.1,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -227,8 +174,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 65.52,
+      "gap_pct": 49.82,
       "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects."
+    },
+    {
+      "ticker": "TSN",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.585,
+      "yesterday_high": 60.64,
+      "yesterday_close": 58.82,
+      "sma200": 59.479,
+      "premarket_high": 60.9837,
+      "last_price": 64.525,
+      "last_bar_et": "10:04",
+      "high_of_day": 65.34,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.87,
+      "catalyst": "Tyson Foods Inc (NYSE:TSN) forecast a sharper-than-expected revenue decline in fiscal 2027, as tight US cattle supplies and restructuring-related reductions in beef volumes weigh on the meatpacker’s business."
     },
     {
       "ticker": "TU",
@@ -239,8 +208,8 @@
       "yesterday_close": 8.53,
       "sma200": 11.0936,
       "premarket_high": 11.98,
-      "last_price": 9.2495,
-      "last_bar_et": "09:34",
+      "last_price": 9.5795,
+      "last_bar_et": "10:04",
       "high_of_day": 9.73,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -249,8 +218,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.6,
+      "gap_pct": 11.87,
       "catalyst": "TELUS Corporation (NYSE:TU) shares climbed 29% on Monday after the Canadian telecommunications company confirmed that its board is reviewing an unsolicited takeover proposal from Québecor and assessing potential…"
+    },
+    {
+      "ticker": "VTSI",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.2402,
+      "yesterday_high": 4.25,
+      "yesterday_close": 4.24,
+      "sma200": 3.4965,
+      "premarket_high": 4.58,
+      "last_price": 4.65,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.69,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 9.55,
+      "catalyst": "VirTra, Inc."
     },
     {
       "ticker": "XPEV",
@@ -261,9 +252,9 @@
       "yesterday_close": 9.37,
       "sma200": 13.9851,
       "premarket_high": 10.01,
-      "last_price": 9.845,
-      "last_bar_et": "09:34",
-      "high_of_day": 10.05,
+      "last_price": 9.945,
+      "last_bar_et": "10:04",
+      "high_of_day": 10.08,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -271,9 +262,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.98,
-      "catalyst": "XPeng Inc."
+      "gap_pct": 5.44,
+      "catalyst": "Xpeng Inc (NYSE:XPEV) reported a 19.1% increase in third-quarter revenue and forecast a sharp rise in deliveries for the final three months of 2026, as the Chinese electric-vehicle maker seeks to expand its business."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }

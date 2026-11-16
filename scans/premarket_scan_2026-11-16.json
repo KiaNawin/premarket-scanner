@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 09:32:11 EST",
-  "scan_time_et": "09:32",
+  "generated_at_et": "2026-11-16 10:02:59 EST",
+  "scan_time_et": "10:02",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,33 +9,21 @@
   },
   "funnel": {
     "universe": 7078,
-    "prefilter": 110,
-    "with_data": 83,
-    "gap": 29,
-    "gap_price": 28,
-    "passed": 13,
+    "prefilter": 254,
+    "with_data": 220,
+    "gap": 49,
+    "gap_price": 44,
+    "passed": 12,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7078,
-  "count": 13,
+  "count": 12,
   "results": [
     {
-      "ticker": "GMM",
-      "price": 4.26,
-      "gap_pct": 317.65,
-      "catalyst": "Strong top-line growth was driven by virtual technology services and a new AI digital asset sales business, although higher investment and asset impairment resulted in a GAAP net loss.",
-      "prev_close": 1.02,
-      "premarket_volume": 48062788,
-      "session": "regular",
-      "catalyst_source": "InvestorsHub",
-      "catalyst_headline": "Global Mofy Reports 49.4% Revenue Growth as AI Digital Asset Business Expands",
-      "catalyst_url": "https://investorshub.advfn.com/market-news/article/32991/global-mofy-reports-49-4-revenue-growth-as-ai-digital-asset-business-expands"
-    },
-    {
       "ticker": "PSNYW",
-      "price": 4.52,
-      "gap_pct": 65.52,
+      "price": 4.09,
+      "gap_pct": 49.82,
       "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
       "prev_close": 2.73,
       "premarket_volume": 2334997,
@@ -46,8 +34,8 @@
     },
     {
       "ticker": "CLRO",
-      "price": 4.71,
-      "gap_pct": 39.76,
+      "price": 4.51,
+      "gap_pct": 33.74,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
       "prev_close": 3.37,
       "premarket_volume": 11429626,
@@ -57,21 +45,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/clearone-q3-earnings-snapshot-234826536.html"
     },
     {
-      "ticker": "CGON",
-      "price": 90.02,
-      "gap_pct": 20.99,
-      "catalyst": "CG Oncology reported third quarter 2026 results, with revenue of US$1.6 million and a net loss of US$56.89 million, and basic loss per share of US$0.64.",
-      "prev_close": 74.4,
-      "premarket_volume": 564577,
-      "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "What CG Oncology (CGON)'s Third Quarter Earnings Means For Shareholders",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/cg-oncology-cgon-third-quarter-130913745.html"
-    },
-    {
       "ticker": "LXEO",
-      "price": 3.46,
-      "gap_pct": 20.56,
+      "price": 3.72,
+      "gap_pct": 29.79,
       "catalyst": "Investing.com -- Lexeo Therapeutics (NASDAQ: LXEO) shares surged 25% on Monday after interim clinical trial results showed substantial reductions in abnormal heart rhythms among patients receiving its experimental gene…",
       "prev_close": 2.87,
       "premarket_volume": 10029788,
@@ -81,21 +57,9 @@
       "catalyst_url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-shares-surge-25-140105213.html"
     },
     {
-      "ticker": "ARCT",
-      "price": 9.52,
-      "gap_pct": 13.88,
-      "catalyst": "Arcturus Therapeutics (NASDAQ:ARCT) expects to complete enrollment in a mid-stage cystic fibrosis study by the end of 2026 and begin dosing a next-generation treatment for a rare liver disorder in the first quarter of…",
-      "prev_close": 8.36,
-      "premarket_volume": 75871,
-      "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "What Arcturus Therapeutics (ARCT) Said on Its Q3 Earnings Call",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-arcturus-therapeutics-arct-said-on-its-q3-earnings-call-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
       "ticker": "TU",
-      "price": 9.69,
-      "gap_pct": 13.6,
+      "price": 9.54,
+      "gap_pct": 11.87,
       "catalyst": "TELUS Corporation (NYSE:TU) shares climbed 29% on Monday after the Canadian telecommunications company confirmed that its board is reviewing an unsolicited takeover proposal from Québecor and assessing potential…",
       "prev_close": 8.53,
       "premarket_volume": 3775911,
@@ -105,9 +69,21 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/40097/telus-shares-rise-29-as-board-reviews-quebecor-takeover-proposal-and-regulatory-risks"
     },
     {
+      "ticker": "CGON",
+      "price": 82.6,
+      "gap_pct": 11.01,
+      "catalyst": "CG Oncology reported third quarter 2026 results, with revenue of US$1.6 million and a net loss of US$56.89 million, and basic loss per share of US$0.64.",
+      "prev_close": 74.4,
+      "premarket_volume": 564577,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "What CG Oncology (CGON)'s Third Quarter Earnings Means For Shareholders",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/cg-oncology-cgon-third-quarter-130913745.html"
+    },
+    {
       "ticker": "CRMD",
-      "price": 5.15,
-      "gap_pct": 10.52,
+      "price": 5.13,
+      "gap_pct": 10.09,
       "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t.",
       "prev_close": 4.66,
       "premarket_volume": 71711,
@@ -117,9 +93,33 @@
       "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cormedix-apos-defencath-rezzayo-drive-170726235.html"
     },
     {
+      "ticker": "TSN",
+      "price": 64.62,
+      "gap_pct": 9.87,
+      "catalyst": "Tyson Foods Inc (NYSE:TSN) forecast a sharper-than-expected revenue decline in fiscal 2027, as tight US cattle supplies and restructuring-related reductions in beef volumes weigh on the meatpacker’s business.",
+      "prev_close": 58.82,
+      "premarket_volume": 85637,
+      "session": "regular",
+      "catalyst_source": "Proactive",
+      "catalyst_headline": "Tyson Foods warns of steeper sales decline as cattle shortages hit outlook",
+      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101841/tyson-foods-warns-of-steeper-sales-decline-as-cattle-shortages-hit-outlook-1101841.html"
+    },
+    {
+      "ticker": "VTSI",
+      "price": 4.64,
+      "gap_pct": 9.55,
+      "catalyst": "VirTra, Inc.",
+      "prev_close": 4.24,
+      "premarket_volume": 151332,
+      "session": "regular",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "VirTra Reports 42% Third-Quarter Revenue Growth to $7.6 Million as Bookings Reach $10.3 Million",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40010/virtra-reports-42-third-quarter-revenue-growth-to-7-6-million-as-bookings-reach-10-3-million"
+    },
+    {
       "ticker": "BXDC",
-      "price": 17.8,
-      "gap_pct": 6.65,
+      "price": 17.75,
+      "gap_pct": 6.35,
       "catalyst": "The deal marks BXDC’s first investment and aligns with its strategy of acquiring high-quality, stabilized data centers leased to major cloud providers under long-term contracts.",
       "prev_close": 16.69,
       "premarket_volume": 71444,
@@ -129,52 +129,40 @@
       "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/amazon-s-aws-strikes-5-b-data-center-deal-with-blackstone-digital-a-look-at-some-key-highlights/cNb7pf4R9gb"
     },
     {
+      "ticker": "ARCT",
+      "price": 8.84,
+      "gap_pct": 5.68,
+      "catalyst": "Arcturus Therapeutics (NASDAQ:ARCT) expects to complete enrollment in a mid-stage cystic fibrosis study by the end of 2026 and begin dosing a next-generation treatment for a rare liver disorder in the first quarter of…",
+      "prev_close": 8.36,
+      "premarket_volume": 75871,
+      "session": "regular",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "What Arcturus Therapeutics (ARCT) Said on Its Q3 Earnings Call",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-arcturus-therapeutics-arct-said-on-its-q3-earnings-call-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "BEKE",
+      "price": 18.84,
+      "gap_pct": 5.52,
+      "catalyst": "KE Hodlings (BEKE) was a big mover last session on higher-than-average trading volume.",
+      "prev_close": 17.86,
+      "premarket_volume": 54143,
+      "session": "regular",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "KE Hodlings (BEKE) Surges 5.5%: Is This an Indication of Further Gains?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/ke-hodlings-beke-surges-5-164800670.html"
+    },
+    {
       "ticker": "XPEV",
-      "price": 9.93,
-      "gap_pct": 5.98,
-      "catalyst": "XPeng Inc.",
+      "price": 9.88,
+      "gap_pct": 5.44,
+      "catalyst": "Xpeng Inc (NYSE:XPEV) reported a 19.1% increase in third-quarter revenue and forecast a sharp rise in deliveries for the final three months of 2026, as the Chinese electric-vehicle maker seeks to expand its business.",
       "prev_close": 9.37,
       "premarket_volume": 906655,
       "session": "regular",
-      "catalyst_source": "InvestorsHub",
-      "catalyst_headline": "XPeng Shares Gain Over 3% as Third-Quarter Revenue Beats Forecasts and Q4 Delivery Outlook Exceeds Expectations",
-      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40105/xpeng-shares-gain-over-3-as-third-quarter-revenue-beats-forecasts-and-q4-delivery-outlook-exceeds-expectations"
-    },
-    {
-      "ticker": "DRTS",
-      "price": 14.15,
-      "gap_pct": 5.76,
-      "catalyst": "October consumer prices rose 0.4%, the third straight monthly gain of at least 0.4%, according to data reported by Reuters.",
-      "prev_close": 13.38,
-      "premarket_volume": 232065,
-      "session": "regular",
-      "catalyst_source": "Insider Monkey",
-      "catalyst_headline": "Buy Alert: 5 Stocks Analysts Upgraded on Wednesday",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/buy-alert-5-stocks-analysts-211224816.html"
-    },
-    {
-      "ticker": "NTLA",
-      "price": 10.2,
-      "gap_pct": 5.15,
-      "catalyst": "Intellia Therapeutics (NASDAQ:NTLA) presented additional clinical data and outlined launch plans for lonvo-z, its investigational one-time gene-editing treatment for hereditary angioedema, as the company awaits a U.S.…",
-      "prev_close": 9.7,
-      "premarket_volume": 128054,
-      "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "Intellia Therapeutics' One-Time HAE Therapy Cuts Attacks 87% in Trial as FDA Decision Nears",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/event-intellia-therapeutics-one-time-hae-therapy-cuts-attacks-87-in-trial-as-fda-decision-nears-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance"
-    },
-    {
-      "ticker": "MMED",
-      "price": 18.9,
-      "gap_pct": 5.06,
-      "catalyst": "Why William Blair just picked EQT, Matador and MiniMed for its elite six-month list.",
-      "prev_close": 17.99,
-      "premarket_volume": 185686,
-      "session": "regular",
-      "catalyst_source": "GuruFocus.com",
-      "catalyst_headline": "William Blair shakes up its top stock picks",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/william-blair-shakes-top-stock-162539821.html"
+      "catalyst_source": "Proactive",
+      "catalyst_headline": "XPeng revenue rises 19% as company forecasts stronger fourth-quarter growth",
+      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101843/xpeng-revenue-rises-19-as-company-forecasts-stronger-fourth-quarter-growth-1101843.html"
     }
   ]
 }
