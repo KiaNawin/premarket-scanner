@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 12:35:00 EST",
+  "generated_at_et": "2026-11-16 13:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-16.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 10,
+  "candidates": 9,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -23,9 +23,9 @@
       "yesterday_close": 17.86,
       "sma200": 16.8502,
       "premarket_high": 18.6,
-      "last_price": 18.965,
-      "last_bar_et": "12:34",
-      "high_of_day": 19.05,
+      "last_price": 19.055,
+      "last_bar_et": "13:04",
+      "high_of_day": 19.06,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -33,7 +33,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 6.02,
+      "gap_pct": 6.52,
       "catalyst": "KE (NYSE:BEKE) reported higher third-quarter 2026 transaction value and operating profit despite a decline in revenue, as cost reductions and improved margins across its businesses helped offset weaker reported revenue…"
     },
     {
@@ -42,8 +42,8 @@
       "signal": false,
       "reason": "Only 128 trading days of history (< 200 needed for SMA200)",
       "history_days": 128,
-      "gap_pct": 6.26,
-      "catalyst": "On this episode of Stock Movers: - Bitcoin's slide is bringing down crypto stocks including Strategy (MSTR), Coinbase (COIN) and Circle (CRCL) with investors increasingly turning away from the asset class. - Aramark…"
+      "gap_pct": 5.39,
+      "catalyst": "Blackstone's new data center REIT will own 13 powered shells with Amazon Web Services in a roughly $5 billion deal, its first acquisition."
     },
     {
       "ticker": "CGON",
@@ -54,8 +54,8 @@
       "yesterday_close": 74.4,
       "sma200": 66.675,
       "premarket_high": 107.5838,
-      "last_price": 86.3,
-      "last_bar_et": "12:34",
+      "last_price": 86.64,
+      "last_bar_et": "13:04",
       "high_of_day": 93.4,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -64,8 +64,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 12.92,
-      "catalyst": "CG Oncology said Monday its experimental bladder cancer treatment cut the risk of recurrence by 68%."
+      "gap_pct": 16.92,
+      "catalyst": "CG’s therapy cretostimogene cut the risk of recurrence by 68% when administered after surgery, far surpassing Wall Street’s expectations and lifting company shares."
     },
     {
       "ticker": "CLRO",
@@ -76,8 +76,8 @@
       "yesterday_close": 3.37,
       "sma200": 4.5539,
       "premarket_high": 5.89,
-      "last_price": 4.59,
-      "last_bar_et": "12:34",
+      "last_price": 4.79,
+      "last_bar_et": "13:04",
       "high_of_day": 5.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -86,30 +86,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 36.65,
+      "gap_pct": 42.28,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
-    },
-    {
-      "ticker": "CRMD",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.5257,
-      "yesterday_high": 5.06,
-      "yesterday_close": 4.66,
-      "sma200": 7.5666,
-      "premarket_high": 5.09,
-      "last_price": 4.9,
-      "last_bar_et": "12:34",
-      "high_of_day": 5.2331,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.15,
-      "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t."
     },
     {
       "ticker": "LXEO",
@@ -120,8 +98,8 @@
       "yesterday_close": 2.87,
       "sma200": 4.9893,
       "premarket_high": 4.3,
-      "last_price": 3.235,
-      "last_bar_et": "12:34",
+      "last_price": 3.195,
+      "last_bar_et": "13:04",
       "high_of_day": 4.3,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -130,7 +108,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.72,
+      "gap_pct": 10.98,
       "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) reported interim data from a small, early-stage trial of its gene therapy LX2020, saying patients who received the higher dose showed reductions in abnormal heart rhythms and…"
     },
     {
@@ -142,8 +120,8 @@
       "yesterday_close": 2.73,
       "sma200": 3.4166,
       "premarket_high": 6.74,
-      "last_price": 4.24,
-      "last_bar_et": "12:34",
+      "last_price": 4.4391,
+      "last_bar_et": "12:59",
       "high_of_day": 5.1,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -152,7 +130,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 61.17,
+      "gap_pct": 62.6,
       "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects."
     },
     {
@@ -164,8 +142,8 @@
       "yesterday_close": 58.82,
       "sma200": 59.479,
       "premarket_high": 60.9837,
-      "last_price": 63.07,
-      "last_bar_et": "12:34",
+      "last_price": 63.14,
+      "last_bar_et": "13:04",
       "high_of_day": 65.34,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -174,7 +152,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.34,
+      "gap_pct": 7.47,
       "catalyst": "Al Root, Barron's Associate Editor, joins the 8:30 hosts, Julie Hyman and Pras Subramanian, to discuss Tyson Foods (TSN) issuing new guidance that its beef business could return to profitability in fiscal 2027, after…"
     },
     {
@@ -186,8 +164,8 @@
       "yesterday_close": 8.53,
       "sma200": 11.0936,
       "premarket_high": 11.98,
-      "last_price": 9.345,
-      "last_bar_et": "12:34",
+      "last_price": 9.275,
+      "last_bar_et": "13:04",
       "high_of_day": 9.73,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -196,8 +174,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.44,
-      "catalyst": "Shares in Telus Corp (NYSE: TU) were up over 11% at US$9.475 in New York by noon on Monday, gaining US$0.945, after Quebecor (TSX:QBR.B) proposed a cash-and-stock takeover of the Canadian telecommunications group…"
+      "gap_pct": 8.73,
+      "catalyst": "The telecom company was set to co-develop the facilities with real estate developer Westbank and the federal government."
     },
     {
       "ticker": "XPEV",
@@ -208,8 +186,8 @@
       "yesterday_close": 9.37,
       "sma200": 13.9851,
       "premarket_high": 10.01,
-      "last_price": 9.87,
-      "last_bar_et": "12:34",
+      "last_price": 9.8705,
+      "last_bar_et": "13:04",
       "high_of_day": 10.08,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -218,9 +196,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.55,
+      "gap_pct": 5.5,
       "catalyst": "XPENG (NYSE:XPEV) reported higher third-quarter revenue and a narrower sequential loss as vehicle deliveries and average selling prices rose, while management projected record deliveries and revenue for the final…"
     }
   ],
-  "scan_time_et": "12:35"
+  "scan_time_et": "13:05"
 }

@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 12:33:47 EST",
-  "scan_time_et": "12:33",
+  "generated_at_et": "2026-11-16 13:03:28 EST",
+  "scan_time_et": "13:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7078,
-    "prefilter": 367,
-    "with_data": 318,
-    "gap": 65,
-    "gap_price": 58,
-    "passed": 10,
+    "prefilter": 387,
+    "with_data": 338,
+    "gap": 60,
+    "gap_price": 53,
+    "passed": 9,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7078,
-  "count": 10,
+  "count": 9,
   "results": [
     {
       "ticker": "PSNYW",
-      "price": 4.4,
-      "gap_pct": 61.17,
+      "price": 4.44,
+      "gap_pct": 62.6,
       "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
       "prev_close": 2.73,
       "premarket_volume": 2334997,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "CLRO",
-      "price": 4.61,
-      "gap_pct": 36.65,
+      "price": 4.79,
+      "gap_pct": 42.28,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
       "prev_close": 3.37,
       "premarket_volume": 11429626,
@@ -46,20 +46,20 @@
     },
     {
       "ticker": "CGON",
-      "price": 84.01,
-      "gap_pct": 12.92,
-      "catalyst": "CG Oncology said Monday its experimental bladder cancer treatment cut the risk of recurrence by 68%.",
+      "price": 86.99,
+      "gap_pct": 16.92,
+      "catalyst": "CG’s therapy cretostimogene cut the risk of recurrence by 68% when administered after surgery, far surpassing Wall Street’s expectations and lifting company shares.",
       "prev_close": 74.4,
       "premarket_volume": 564577,
       "session": "regular",
-      "catalyst_source": "Investor's Business Daily",
-      "catalyst_headline": "CG Oncology Exceeds Even The 'Most Bullish Conversations;' Shares Break Out",
-      "catalyst_url": "https://www.investors.com/news/technology/cg-oncology-stock-bladder-cancer-treatment/?src=A00220&yptr=yahoo"
+      "catalyst_source": "BioPharma Dive",
+      "catalyst_headline": "CG Oncology drug delivers ‘exceptional’ results in key bladder cancer trial",
+      "catalyst_url": "https://www.biopharmadive.com/news/cg-oncology-cretostimogene-adjuvant-bladder-cancer-results-pivot/874740/"
     },
     {
       "ticker": "LXEO",
-      "price": 3.23,
-      "gap_pct": 12.72,
+      "price": 3.18,
+      "gap_pct": 10.98,
       "catalyst": "Lexeo Therapeutics (NASDAQ:LXEO) reported interim data from a small, early-stage trial of its gene therapy LX2020, saying patients who received the higher dose showed reductions in abnormal heart rhythms and…",
       "prev_close": 2.87,
       "premarket_volume": 10029788,
@@ -70,20 +70,20 @@
     },
     {
       "ticker": "TU",
-      "price": 9.34,
-      "gap_pct": 9.44,
-      "catalyst": "Shares in Telus Corp (NYSE: TU) were up over 11% at US$9.475 in New York by noon on Monday, gaining US$0.945, after Quebecor (TSX:QBR.B) proposed a cash-and-stock takeover of the Canadian telecommunications group…",
+      "price": 9.27,
+      "gap_pct": 8.73,
+      "catalyst": "The telecom company was set to co-develop the facilities with real estate developer Westbank and the federal government.",
       "prev_close": 8.53,
       "premarket_volume": 3775911,
       "session": "regular",
-      "catalyst_source": "Proactive",
-      "catalyst_headline": "Telus shares surge as Quebecor makes US$21.7 billion takeover proposal",
-      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101857/telus-shares-surge-as-quebecor-makes-us-21-7-billion-takeover-proposal-1101857.html"
+      "catalyst_source": "Financial Post",
+      "catalyst_headline": "Telus drops its involvement in two planned AI data centres in Vancouver",
+      "catalyst_url": "https://financialpost.com/technology/telus-drops-its-involvement-in-two-planned-ai-data-centres-in-vancouver/"
     },
     {
       "ticker": "TSN",
-      "price": 63.14,
-      "gap_pct": 7.34,
+      "price": 63.22,
+      "gap_pct": 7.47,
       "catalyst": "Al Root, Barron's Associate Editor, joins the 8:30 hosts, Julie Hyman and Pras Subramanian, to discuss Tyson Foods (TSN) issuing new guidance that its beef business could return to profitability in fiscal 2027, after…",
       "prev_close": 58.82,
       "premarket_volume": 85637,
@@ -93,21 +93,9 @@
       "catalyst_url": "https://finance.yahoo.com/video/tyson-q4-earnings-beef-business-151500623.html"
     },
     {
-      "ticker": "BXDC",
-      "price": 17.74,
-      "gap_pct": 6.26,
-      "catalyst": "On this episode of Stock Movers: - Bitcoin's slide is bringing down crypto stocks including Strategy (MSTR), Coinbase (COIN) and Circle (CRCL) with investors increasingly turning away from the asset class. - Aramark…",
-      "prev_close": 16.69,
-      "premarket_volume": 71444,
-      "session": "regular",
-      "catalyst_source": "Bloomberg",
-      "catalyst_headline": "Crypto Stocks Sink on Bitcoin's Slide; Aramark Falls on Earnings | Stock Movers",
-      "catalyst_url": "https://finance.yahoo.com/video/crypto-stocks-sink-bitcoins-slide-163116959.html"
-    },
-    {
       "ticker": "BEKE",
-      "price": 18.93,
-      "gap_pct": 6.02,
+      "price": 19.02,
+      "gap_pct": 6.52,
       "catalyst": "KE (NYSE:BEKE) reported higher third-quarter 2026 transaction value and operating profit despite a decline in revenue, as cost reductions and improved margins across its businesses helped offset weaker reported revenue…",
       "prev_close": 17.86,
       "premarket_volume": 54143,
@@ -119,7 +107,7 @@
     {
       "ticker": "XPEV",
       "price": 9.89,
-      "gap_pct": 5.55,
+      "gap_pct": 5.5,
       "catalyst": "XPENG (NYSE:XPEV) reported higher third-quarter revenue and a narrower sequential loss as vehicle deliveries and average selling prices rose, while management projected record deliveries and revenue for the final…",
       "prev_close": 9.37,
       "premarket_volume": 906655,
@@ -129,16 +117,16 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-xpeng-xpev-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
-      "ticker": "CRMD",
-      "price": 4.9,
-      "gap_pct": 5.15,
-      "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t.",
-      "prev_close": 4.66,
-      "premarket_volume": 71711,
+      "ticker": "BXDC",
+      "price": 17.59,
+      "gap_pct": 5.39,
+      "catalyst": "Blackstone's new data center REIT will own 13 powered shells with Amazon Web Services in a roughly $5 billion deal, its first acquisition.",
+      "prev_close": 16.69,
+      "premarket_volume": 71444,
       "session": "regular",
-      "catalyst_source": "MT Newswires",
-      "catalyst_headline": "CorMedix's DefenCath, Rezzayo to Drive 2027 Growth, Oppenheimer Says",
-      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cormedix-apos-defencath-rezzayo-drive-170726235.html"
+      "catalyst_source": "CRE Daily",
+      "catalyst_headline": "Blackstone’s BXDC Buys 75% of Amazon Data Centers",
+      "catalyst_url": "https://www.credaily.com/briefs/blackstones-bxdc-buys-75-of-amazon-data-centers/"
     }
   ]
 }
