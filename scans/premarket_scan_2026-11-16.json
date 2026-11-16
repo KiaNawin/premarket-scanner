@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-16",
-  "generated_at_et": "2026-11-16 10:02:59 EST",
-  "scan_time_et": "10:02",
+  "generated_at_et": "2026-11-16 10:32:59 EST",
+  "scan_time_et": "10:32",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7078,
-    "prefilter": 254,
-    "with_data": 220,
-    "gap": 49,
-    "gap_price": 44,
+    "prefilter": 321,
+    "with_data": 289,
+    "gap": 48,
+    "gap_price": 45,
     "passed": 12,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "PSNYW",
-      "price": 4.09,
-      "gap_pct": 49.82,
+      "price": 3.88,
+      "gap_pct": 42.13,
       "catalyst": "Toyota, Honda and Polestar are positioned to benefit from growing demand for hybrids and EVs, with expansion plans and improving earnings prospects.",
       "prev_close": 2.73,
       "premarket_volume": 2334997,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "CLRO",
-      "price": 4.51,
-      "gap_pct": 33.74,
+      "price": 4.53,
+      "gap_pct": 34.27,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
       "prev_close": 3.37,
       "premarket_volume": 11429626,
@@ -45,9 +45,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/clearone-q3-earnings-snapshot-234826536.html"
     },
     {
+      "ticker": "VTSI",
+      "price": 4.85,
+      "gap_pct": 14.39,
+      "catalyst": "VirTra, Inc.",
+      "prev_close": 4.24,
+      "premarket_volume": 151332,
+      "session": "regular",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "VirTra Reports 42% Third-Quarter Revenue Growth to $7.6 Million as Bookings Reach $10.3 Million",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40010/virtra-reports-42-third-quarter-revenue-growth-to-7-6-million-as-bookings-reach-10-3-million"
+    },
+    {
       "ticker": "LXEO",
-      "price": 3.72,
-      "gap_pct": 29.79,
+      "price": 3.27,
+      "gap_pct": 13.76,
       "catalyst": "Investing.com -- Lexeo Therapeutics (NASDAQ: LXEO) shares surged 25% on Monday after interim clinical trial results showed substantial reductions in abnormal heart rhythms among patients receiving its experimental gene…",
       "prev_close": 2.87,
       "premarket_volume": 10029788,
@@ -58,20 +70,32 @@
     },
     {
       "ticker": "TU",
-      "price": 9.54,
-      "gap_pct": 11.87,
-      "catalyst": "TELUS Corporation (NYSE:TU) shares climbed 29% on Monday after the Canadian telecommunications company confirmed that its board is reviewing an unsolicited takeover proposal from Québecor and assessing potential…",
+      "price": 9.61,
+      "gap_pct": 12.63,
+      "catalyst": "Quebecor has proposed a combination with Telus worth about $21.91 billion, potentially tying up two of the biggest Canadian telecommunications companies.",
       "prev_close": 8.53,
       "premarket_volume": 3775911,
       "session": "regular",
-      "catalyst_source": "InvestorsHub",
-      "catalyst_headline": "TELUS Shares Rise 29% as Board Reviews Québecor Takeover Proposal and Regulatory Risks",
-      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40097/telus-shares-rise-29-as-board-reviews-quebecor-takeover-proposal-and-regulatory-risks"
+      "catalyst_source": "The Wall Street Journal",
+      "catalyst_headline": "Quebecor Makes Bid for Telus in Canadian Telecom Deal",
+      "catalyst_url": "https://www.wsj.com/business/deals/quebecor-proposes-combination-with-telus-a6b8a209?siteid=yhoof2&yptr=yahoo"
+    },
+    {
+      "ticker": "TSN",
+      "price": 63.74,
+      "gap_pct": 8.37,
+      "catalyst": "Al Root, Barron's Associate Editor, joins the 8:30 hosts, Julie Hyman and Pras Subramanian, to discuss Tyson Foods (TSN) issuing new guidance that its beef business could return to profitability in fiscal 2027, after…",
+      "prev_close": 58.82,
+      "premarket_volume": 85637,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance Video",
+      "catalyst_headline": "Tyson Q4 earnings: Beef business could return to profit in 2027",
+      "catalyst_url": "https://finance.yahoo.com/video/tyson-q4-earnings-beef-business-151500623.html"
     },
     {
       "ticker": "CGON",
-      "price": 82.6,
-      "gap_pct": 11.01,
+      "price": 79.87,
+      "gap_pct": 7.35,
       "catalyst": "CG Oncology reported third quarter 2026 results, with revenue of US$1.6 million and a net loss of US$56.89 million, and basic loss per share of US$0.64.",
       "prev_close": 74.4,
       "premarket_volume": 564577,
@@ -82,8 +106,8 @@
     },
     {
       "ticker": "CRMD",
-      "price": 5.13,
-      "gap_pct": 10.09,
+      "price": 4.95,
+      "gap_pct": 6.22,
       "catalyst": "CorMedix's (CRMD) DefenCath and Rezzayo medications are expected to drive 2027 growth, in addition t.",
       "prev_close": 4.66,
       "premarket_volume": 71711,
@@ -93,57 +117,21 @@
       "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cormedix-apos-defencath-rezzayo-drive-170726235.html"
     },
     {
-      "ticker": "TSN",
-      "price": 64.62,
-      "gap_pct": 9.87,
-      "catalyst": "Tyson Foods Inc (NYSE:TSN) forecast a sharper-than-expected revenue decline in fiscal 2027, as tight US cattle supplies and restructuring-related reductions in beef volumes weigh on the meatpacker’s business.",
-      "prev_close": 58.82,
-      "premarket_volume": 85637,
-      "session": "regular",
-      "catalyst_source": "Proactive",
-      "catalyst_headline": "Tyson Foods warns of steeper sales decline as cattle shortages hit outlook",
-      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101841/tyson-foods-warns-of-steeper-sales-decline-as-cattle-shortages-hit-outlook-1101841.html"
-    },
-    {
-      "ticker": "VTSI",
-      "price": 4.64,
-      "gap_pct": 9.55,
-      "catalyst": "VirTra, Inc.",
-      "prev_close": 4.24,
-      "premarket_volume": 151332,
-      "session": "regular",
-      "catalyst_source": "InvestorsHub",
-      "catalyst_headline": "VirTra Reports 42% Third-Quarter Revenue Growth to $7.6 Million as Bookings Reach $10.3 Million",
-      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40010/virtra-reports-42-third-quarter-revenue-growth-to-7-6-million-as-bookings-reach-10-3-million"
-    },
-    {
       "ticker": "BXDC",
-      "price": 17.75,
-      "gap_pct": 6.35,
-      "catalyst": "The deal marks BXDC’s first investment and aligns with its strategy of acquiring high-quality, stabilized data centers leased to major cloud providers under long-term contracts.",
+      "price": 17.72,
+      "gap_pct": 6.17,
+      "catalyst": "Blackstone Digital Infrastructure Trust (NYSE: BXDC) has agreed to acquire a 75% controlling interest in two joint ventures with Amazon Web Services (AWS), in a transaction valuing the data center portfolio at…",
       "prev_close": 16.69,
       "premarket_volume": 71444,
       "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "Amazon's AWS Strikes $5B Data Center Deal With Blackstone Digital — A Look At Some Key Highlights",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/amazon-s-aws-strikes-5-b-data-center-deal-with-blackstone-digital-a-look-at-some-key-highlights/cNb7pf4R9gb"
-    },
-    {
-      "ticker": "ARCT",
-      "price": 8.84,
-      "gap_pct": 5.68,
-      "catalyst": "Arcturus Therapeutics (NASDAQ:ARCT) expects to complete enrollment in a mid-stage cystic fibrosis study by the end of 2026 and begin dosing a next-generation treatment for a rare liver disorder in the first quarter of…",
-      "prev_close": 8.36,
-      "premarket_volume": 75871,
-      "session": "regular",
-      "catalyst_source": "MarketBeat",
-      "catalyst_headline": "What Arcturus Therapeutics (ARCT) Said on Its Q3 Earnings Call",
-      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-arcturus-therapeutics-arct-said-on-its-q3-earnings-call-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      "catalyst_source": "Proactive",
+      "catalyst_headline": "Blackstone Digital Infrastructure Trust to acquire $5 billion data center portfolio from AWS",
+      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101850/blackstone-digital-infrastructure-trust-to-acquire-5-billion-data-center-portfolio-from-aws-1101850.html"
     },
     {
       "ticker": "BEKE",
-      "price": 18.84,
-      "gap_pct": 5.52,
+      "price": 18.92,
+      "gap_pct": 5.91,
       "catalyst": "KE Hodlings (BEKE) was a big mover last session on higher-than-average trading volume.",
       "prev_close": 17.86,
       "premarket_volume": 54143,
@@ -153,9 +141,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/ke-hodlings-beke-surges-5-164800670.html"
     },
     {
+      "ticker": "FUN",
+      "price": 12.16,
+      "gap_pct": 5.28,
+      "catalyst": "The average fair value estimate for Six Flags Entertainment has moved from about US$17.00 to roughly US$14.23 per share, a reduction of around 16%, which reflects a reset in price targets across recent research.",
+      "prev_close": 11.55,
+      "premarket_volume": 56000,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Six Flags Entertainment (FUN) Stock Fair Value Moves Lower After Fresh Analyst Target Cuts",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/six-flags-entertainment-fun-stock-091051852.html"
+    },
+    {
       "ticker": "XPEV",
-      "price": 9.88,
-      "gap_pct": 5.44,
+      "price": 9.85,
+      "gap_pct": 5.07,
       "catalyst": "Xpeng Inc (NYSE:XPEV) reported a 19.1% increase in third-quarter revenue and forecast a sharp rise in deliveries for the final three months of 2026, as the Chinese electric-vehicle maker seeks to expand its business.",
       "prev_close": 9.37,
       "premarket_volume": 906655,
