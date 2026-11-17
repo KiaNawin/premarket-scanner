@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-17",
-  "generated_at_et": "2026-11-17 10:33:16 EST",
-  "scan_time_et": "10:33",
+  "generated_at_et": "2026-11-17 11:03:07 EST",
+  "scan_time_et": "11:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 347,
-    "with_data": 307,
-    "gap": 52,
-    "gap_price": 51,
-    "passed": 12,
+    "prefilter": 399,
+    "with_data": 363,
+    "gap": 47,
+    "gap_price": 45,
+    "passed": 9,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7077,
-  "count": 12,
+  "count": 9,
   "results": [
     {
       "ticker": "SLS",
-      "price": 19.27,
-      "gap_pct": 157.92,
+      "price": 20.28,
+      "gap_pct": 171.5,
       "catalyst": "Sellas Life Sciences catapulted early Tuesday after its experimental cancer vaccine cut the risk of death for leukemia patients.",
       "prev_close": 7.47,
       "premarket_volume": 25713494,
@@ -33,33 +33,9 @@
       "catalyst_url": "https://www.investors.com/news/technology/sellas-life-sciences-stock-cancer-vaccine-aml/?src=A00220&yptr=yahoo"
     },
     {
-      "ticker": "OMH",
-      "price": 5.41,
-      "gap_pct": 35.93,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
-      "prev_close": 3.98,
-      "premarket_volume": 513437,
-      "session": "regular",
-      "catalyst_source": "Associated Press",
-      "catalyst_headline": "BC-Most Active Stocks",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
-    },
-    {
-      "ticker": "SPAI",
-      "price": 3.04,
-      "gap_pct": 22.87,
-      "catalyst": "Safe Pro Group Inc.",
-      "prev_close": 2.47,
-      "premarket_volume": 5851136,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Safe Pro Group Inc. (SPAI) Reports Q3 Loss, Beats Revenue Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/safe-pro-group-inc-spai-212502232.html"
-    },
-    {
       "ticker": "LUCK",
-      "price": 4.06,
-      "gap_pct": 22.29,
+      "price": 4.13,
+      "gap_pct": 24.4,
       "catalyst": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back.",
       "prev_close": 3.32,
       "premarket_volume": 780878,
@@ -69,21 +45,9 @@
       "catalyst_url": "https://247wallst.com/investing/2026/11/12/lucky-strike-stock-has-crashed-59-now-its-dividend-is-gone/"
     },
     {
-      "ticker": "USDE",
-      "price": 4.68,
-      "gap_pct": 16.13,
-      "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n...",
-      "prev_close": 4.03,
-      "premarket_volume": 188598,
-      "session": "regular",
-      "catalyst_source": "CryptoProwl",
-      "catalyst_headline": "StablecoinX Shares Slide 15% as $100.2M Loss Overshadows Revenue Surge",
-      "catalyst_url": "https://www.cryptoprowl.com/releases/stablecoinx-shares-slide-15-as-1002m-loss-overshadows-revenue-surge-7933"
-    },
-    {
       "ticker": "CING",
-      "price": 4.35,
-      "gap_pct": 16.0,
+      "price": 4.61,
+      "gap_pct": 22.88,
       "catalyst": "Cingulate Inc.",
       "prev_close": 3.75,
       "premarket_volume": 363769,
@@ -93,9 +57,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/why-cingulate-cing-one-best-190318706.html"
     },
     {
+      "ticker": "USDE",
+      "price": 4.74,
+      "gap_pct": 17.55,
+      "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n...",
+      "prev_close": 4.03,
+      "premarket_volume": 188598,
+      "session": "regular",
+      "catalyst_source": "CryptoProwl",
+      "catalyst_headline": "StablecoinX Shares Slide 15% as $100.2M Loss Overshadows Revenue Surge",
+      "catalyst_url": "https://www.cryptoprowl.com/releases/stablecoinx-shares-slide-15-as-1002m-loss-overshadows-revenue-surge-7933"
+    },
+    {
       "ticker": "FUBO",
-      "price": 8.19,
-      "gap_pct": 10.83,
+      "price": 8.13,
+      "gap_pct": 10.04,
       "catalyst": "FuboTV Inc.",
       "prev_close": 7.39,
       "premarket_volume": 61644,
@@ -105,45 +81,9 @@
       "catalyst_url": "https://investorshub.advfn.com/market-news/article/40234/fubotv-reports-1-50-billion-in-quarterly-revenue-as-adjusted-loss-exceeds-estimates"
     },
     {
-      "ticker": "AS",
-      "price": 31.58,
-      "gap_pct": 8.51,
-      "catalyst": "Amer Sports Inc (NYSE:AS), the owner of Arc'teryx, Salomon and Wilson, raised its full-year 2026 guidance after third-quarter revenue increased 24% and adjusted earnings exceeded its previous expectations.",
-      "prev_close": 29.1,
-      "premarket_volume": 1001509,
-      "session": "regular",
-      "catalyst_source": "Proactive",
-      "catalyst_headline": "Amer Sports raises 2026 guidance after third-quarter revenue and earnings beat",
-      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101936/amer-sports-raises-2026-guidance-after-third-quarter-revenue-and-earnings-beat-1101936.html"
-    },
-    {
-      "ticker": "MNSO",
-      "price": 12.05,
-      "gap_pct": 7.16,
-      "catalyst": "MINISO Group Holding Limited (NYSE:MNSO) reported third-quarter 2026 revenue of RMB6.",
-      "prev_close": 11.24,
-      "premarket_volume": 58177,
-      "session": "regular",
-      "catalyst_source": "InvestorsHub",
-      "catalyst_headline": "MINISO Reports 14.3% Third-Quarter Revenue Growth to RMB6.63 Billion, Beating Analyst Estimates",
-      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40230/miniso-reports-14-3-third-quarter-revenue-growth-to-rmb6-63-billion-beating-analyst-estimates"
-    },
-    {
-      "ticker": "SNAP",
-      "price": 5.44,
-      "gap_pct": 6.88,
-      "catalyst": "Today's big story: Could Nvidia Stock Fall 50%?",
-      "prev_close": 5.09,
-      "premarket_volume": 231903,
-      "session": "regular",
-      "catalyst_source": "Trefis",
-      "catalyst_headline": "Roblox Stock Fell Nearly 8%. What Happened?",
-      "catalyst_url": "https://www.trefis.com/stock/rblx/articles/625794/why-did-roblox-stock-fall-nearly-8/2026-11-17"
-    },
-    {
       "ticker": "SHAZ",
-      "price": 21.27,
-      "gap_pct": 5.66,
+      "price": 21.6,
+      "gap_pct": 7.3,
       "catalyst": "SharonAI (NASDAQ:SHAZ) expects its annualized revenue run rate to rise to $400 million to $450 million in January 2027, up from approximately $50 million in September, as it brings artificial intelligence computing…",
       "prev_close": 20.13,
       "premarket_volume": 86864,
@@ -153,9 +93,21 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-sharonai-shaz-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
+      "ticker": "AS",
+      "price": 31.11,
+      "gap_pct": 6.92,
+      "catalyst": "Amer Sports (AS) just packed several updates into a single day, pairing its third quarter 2026 earnings release with higher full year guidance and a fresh US$1b share repurchase program.",
+      "prev_close": 29.1,
+      "premarket_volume": 1001509,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Amer Sports (AS) Raised Guidance And Launched A $1b Buyback, Is It Fully Priced?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-raised-guidance-launched-151442448.html"
+    },
+    {
       "ticker": "TME",
-      "price": 9.37,
-      "gap_pct": 5.52,
+      "price": 9.38,
+      "gap_pct": 5.57,
       "catalyst": "Tencent Music Entertainment Group (NYSE:TME) reported a 6% increase in third-quarter revenue as its newly consolidated Ximalaya audio business, merchandise sales and live performances helped offset pressure on its…",
       "prev_close": 8.88,
       "premarket_volume": 313298,
@@ -163,6 +115,18 @@
       "catalyst_source": "MarketBeat",
       "catalyst_headline": "Tencent Music Entertainment Group Q3 Earnings Call Highlights",
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-tencent-music-entertainment-group-q3-earnings-call-highlights-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "MNSO",
+      "price": 11.83,
+      "gap_pct": 5.25,
+      "catalyst": "MINISO Group Holding Limited (NYSE:MNSO) reported third-quarter 2026 revenue of RMB6.",
+      "prev_close": 11.24,
+      "premarket_volume": 58177,
+      "session": "regular",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "MINISO Reports 14.3% Third-Quarter Revenue Growth to RMB6.63 Billion, Beating Analyst Estimates",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40230/miniso-reports-14-3-third-quarter-revenue-growth-to-rmb6-63-billion-beating-analyst-estimates"
     }
   ]
 }

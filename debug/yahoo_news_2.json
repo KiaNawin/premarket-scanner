@@ -1,112 +1,32 @@
 {
-  "ticker": "OMH",
-  "saved_at_et": "2026-11-17T10:33:15-05:00",
+  "ticker": "LUCK",
+  "saved_at_et": "2026-11-17T11:03:06-05:00",
   "response": [
     {
-      "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
+      "id": "aaa66184-024c-3edf-84e5-abed0baa334a",
       "content": {
-        "id": "fe9c9c89-4a95-3495-9ac4-4f77cf69a715",
+        "id": "aaa66184-024c-3edf-84e5-abed0baa334a",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Lucky Strike Stock Has Crashed 59%. Now Its Dividend Is Gone",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Intel Corp.",
-        "pubDate": "2026-11-04T15:30:21Z",
-        "displayTime": "2026-11-04T15:30:21Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "CRIS"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "HPAI"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "FTCI"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "CIFR"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "OMH"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "RIOT"
-            },
-            {
-              "symbol": "SMCI"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "AMZN"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "WULF"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "1c54580b-08c0-3428-a843-21aea266e62f",
-      "content": {
-        "id": "1c54580b-08c0-3428-a843-21aea266e62f",
-        "contentType": "STORY",
-        "title": "Is Ohmyhome (NASDAQ:OMH) In A Good Position To Deliver On Growth Plans?",
-        "description": null,
-        "summary": "Just because a business does not make any money, does not mean that the stock will go down. For example, biotech and...",
-        "pubDate": "2026-05-06T10:54:31Z",
-        "displayTime": "2026-05-06T10:54:31Z",
+        "summary": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back. Income investors now face a turnaround with a few encouraging signs and one unresolved problem.",
+        "pubDate": "2026-11-12T13:17:52Z",
+        "displayTime": "2026-11-12T13:17:52Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
-          "originalWidth": 1194,
-          "originalHeight": 432,
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/fd74575dc2686f4901f638a030c5b032.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/9b27f5216f799d93084482c1da19bddd",
-              "width": 1194,
-              "height": 432,
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/fd74575dc2686f4901f638a030c5b032.jpg",
+              "width": 1366,
+              "height": 768,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/8c930566db9f3b07f04c3f0b34d1a8bb55c922ed8186d4e4a7e6cf2f331cd26d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F9b27f5216f799d93084482c1da19bddd",
+              "url": "https://s.yimg.com/lo/mysterio/api/8e3af8f178bfec9c5e460038657a422dff737c35607a9de0be209cbe40f56956/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ffd74575dc2686f4901f638a030c5b032.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -114,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
+          "url": "https://247wallst.com/investing/2026/11/12/lucky-strike-stock-has-crashed-59-now-its-dividend-is-gone/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ohmyhome-nasdaq-omh-good-position-105431927.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-stock-crashed-59-131752018.html"
         },
         "finance": {
           "premiumFinance": {
@@ -129,7 +49,122 @@
           },
           "stockTickers": [
             {
-              "symbol": "OMH"
+              "symbol": "LUCK"
+            },
+            {
+              "symbol": "PLAY"
+            },
+            {
+              "symbol": "FUN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "851d958e-d150-3f8c-b309-8bcb1f2cd6cd",
+      "content": {
+        "id": "851d958e-d150-3f8c-b309-8bcb1f2cd6cd",
+        "contentType": "STORY",
+        "title": "Lucky Strike (LUCK) Q1 2027 Earnings Call Transcript",
+        "description": null,
+        "summary": "Retail softness lingered, but management is pressing ahead with a deleveraging plan.",
+        "pubDate": "2026-11-06T15:58:16Z",
+        "displayTime": "2026-11-06T15:58:16Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalWidth": 1280,
+          "originalHeight": 1366,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "width": 1280,
+              "height": 1366,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Motley Fool",
+          "url": "http://www.fool.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/lucky-strike-luck-q1-2027-earnings-call-transcript/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-luck-q1-2027-155816029.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "LUCK"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "80ae8a2c-c51f-3062-9056-fff6fa86da01",
+      "content": {
+        "id": "80ae8a2c-c51f-3062-9056-fff6fa86da01",
+        "contentType": "STORY",
+        "title": "Lucky Strike Entertainment Corporation Q1 2027 Earnings Call Summary",
+        "description": null,
+        "summary": "Moby summary of Lucky Strike Entertainment Corporation's Q1 2027 earnings call",
+        "pubDate": "2026-11-06T13:30:00Z",
+        "displayTime": "2026-11-06T13:30:00Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/moby_896/4fdffaa52605dbc29343e35b87037d6e.png",
+          "originalWidth": 1200,
+          "originalHeight": 675,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/moby_896/4fdffaa52605dbc29343e35b87037d6e.png",
+              "width": 1200,
+              "height": 675,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/9a0248add23753f267aa293213d4ff7e2d4dd5ee4ea861ac1bdf016dece97240/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoby_896%2F4fdffaa52605dbc29343e35b87037d6e.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Moby",
+          "url": "https://moby.co/"
+        },
+        "canonicalUrl": {
+          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-lucky-strike-entertainment-corporation-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-entertainment-corporation-q1-133000217.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "LUCK"
             }
           ]
         }
