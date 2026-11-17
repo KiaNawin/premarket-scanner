@@ -1,0 +1,144 @@
+{
+  "scan_date": "2026-11-17",
+  "generated_at_et": "2026-11-17 08:32:21 EST",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7077,
+    "prefilter": 117,
+    "with_data": 116,
+    "gap": 46,
+    "gap_price": 39,
+    "passed": 10,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7077,
+  "count": 10,
+  "results": [
+    {
+      "ticker": "LUCK",
+      "price": 3.78,
+      "gap_pct": 13.88,
+      "catalyst": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back.",
+      "prev_close": 3.32,
+      "premarket_volume": 543813,
+      "session": "pre-market",
+      "catalyst_source": "24/7 Wall St.",
+      "catalyst_headline": "Lucky Strike Stock Has Crashed 59%. Now Its Dividend Is Gone",
+      "catalyst_url": "https://247wallst.com/investing/2026/11/12/lucky-strike-stock-has-crashed-59-now-its-dividend-is-gone/"
+    },
+    {
+      "ticker": "USDE",
+      "price": 4.46,
+      "gap_pct": 10.67,
+      "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n...",
+      "prev_close": 4.03,
+      "premarket_volume": 128358,
+      "session": "pre-market",
+      "catalyst_source": "CryptoProwl",
+      "catalyst_headline": "StablecoinX Shares Slide 15% as $100.2M Loss Overshadows Revenue Surge",
+      "catalyst_url": "https://www.cryptoprowl.com/releases/stablecoinx-shares-slide-15-as-1002m-loss-overshadows-revenue-surge-7933"
+    },
+    {
+      "ticker": "CING",
+      "price": 4.1,
+      "gap_pct": 9.33,
+      "catalyst": "Cingulate Inc.",
+      "prev_close": 3.75,
+      "premarket_volume": 117825,
+      "session": "pre-market",
+      "catalyst_source": "Insider Monkey",
+      "catalyst_headline": "Here is Why Cingulate (CING) is One of the Best NASDAQ Growth Stocks to Buy and Hold Forever",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/why-cingulate-cing-one-best-190318706.html"
+    },
+    {
+      "ticker": "COHR",
+      "price": 221.99,
+      "gap_pct": 9.12,
+      "catalyst": "Investing.com -- Shares of US optical technology companies rallied on Tuesday after Reuters reported that the Trump administration plans to move forward with efforts to restrict imports of Chinese data center equipment…",
+      "prev_close": 203.43,
+      "premarket_volume": 608156,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Coherent, Lumentum jump as US presses ahead with China equipment curbs",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/coherent-lumentum-jump-us-presses-130132183.html"
+    },
+    {
+      "ticker": "AAOI",
+      "price": 48.71,
+      "gap_pct": 7.86,
+      "catalyst": "Investing.com -- Shares of US optical technology companies rallied on Tuesday after Reuters reported that the Trump administration plans to move forward with efforts to restrict imports of Chinese data center equipment…",
+      "prev_close": 45.16,
+      "premarket_volume": 1263899,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Coherent, Lumentum jump as US presses ahead with China equipment curbs",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/coherent-lumentum-jump-us-presses-130132183.html"
+    },
+    {
+      "ticker": "SLS",
+      "price": 8.0,
+      "gap_pct": 7.1,
+      "catalyst": "The trial also showed a median overall survival of 24 months compared with 14.7 months for patients receiving the best available treatment.",
+      "prev_close": 7.47,
+      "premarket_volume": 3498590,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "Sellas’ GPS Cuts Death Risk By 41% In Pivotal AML Trial – Firm Eyes FDA Filing In First Half Of 2027",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/sellas-gps-cuts-death-risk-by-41-in-pivotal-aml-trial-fda-filing-in-first-half-2027/cNbaHYbR9WZ"
+    },
+    {
+      "ticker": "FWDI",
+      "price": 4.54,
+      "gap_pct": 6.29,
+      "catalyst": "Solana treasury company Forward Industries (NASDAQ: $FWDI) said Thursday it plans to invest up to $30 million in Gr...",
+      "prev_close": 4.27,
+      "premarket_volume": 112735,
+      "session": "pre-market",
+      "catalyst_source": "CryptoProwl",
+      "catalyst_headline": "Forward Industries to Take Up to $30M Stake in GromaCoin Ahead of Solana Launch",
+      "catalyst_url": "https://www.cryptoprowl.com/releases/forward-industries-to-take-up-to-30m-stake-in-gromacoin-ahead-of-solana-launch-7887"
+    },
+    {
+      "ticker": "TEM",
+      "price": 68.37,
+      "gap_pct": 5.57,
+      "catalyst": "Ark Invest increased its exposure to AI infrastructure and aerospace stocks while reducing holdings in Palantir, Tempus AI and other technology companies.",
+      "prev_close": 64.76,
+      "premarket_volume": 151895,
+      "session": "pre-market",
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "Cathie Wood Adds Nvidia Stock Before Earnings While Selling Palantir",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-adds-nvidia-stock-174317884.html"
+    },
+    {
+      "ticker": "LITE",
+      "price": 574.55,
+      "gap_pct": 5.23,
+      "catalyst": "Investing.com -- Shares of US optical technology companies rallied on Tuesday after Reuters reported that the Trump administration plans to move forward with efforts to restrict imports of Chinese data center equipment…",
+      "prev_close": 546.0,
+      "premarket_volume": 264181,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Coherent, Lumentum jump as US presses ahead with China equipment curbs",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/coherent-lumentum-jump-us-presses-130132183.html"
+    },
+    {
+      "ticker": "AS",
+      "price": 30.6,
+      "gap_pct": 5.15,
+      "catalyst": "Amer Sports, Inc.",
+      "prev_close": 29.1,
+      "premarket_volume": 635807,
+      "session": "pre-market",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "Amer Sports Reports 24% Third-Quarter Revenue Growth and Raises 2026 Earnings Guidance",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40196/amer-sports-reports-24-third-quarter-revenue-growth-and-raises-2026-earnings-guidance"
+    }
+  ]
+}

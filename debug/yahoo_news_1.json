@@ -1,29 +1,47 @@
 {
-  "ticker": "CLRO",
-  "saved_at_et": "2026-11-16T14:03:35-05:00",
+  "ticker": "LUCK",
+  "saved_at_et": "2026-11-17T08:32:20-05:00",
   "response": [
     {
-      "id": "6d0a88c6-8fee-3a7a-a07b-660ae68ec878",
+      "id": "aaa66184-024c-3edf-84e5-abed0baa334a",
       "content": {
-        "id": "6d0a88c6-8fee-3a7a-a07b-660ae68ec878",
+        "id": "aaa66184-024c-3edf-84e5-abed0baa334a",
         "contentType": "STORY",
-        "title": "ClearOne: Q3 Earnings Snapshot",
+        "title": "Lucky Strike Stock Has Crashed 59%. Now Its Dividend Is Gone",
         "description": null,
-        "summary": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc. (CLRO) on Tuesday reported a loss of $709,000 in its third quarter.",
-        "pubDate": "2026-11-10T23:48:26Z",
-        "displayTime": "2026-11-10T23:48:26Z",
+        "summary": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back. Income investors now face a turnaround with a few encouraging signs and one unresolved problem.",
+        "pubDate": "2026-11-12T13:17:52Z",
+        "displayTime": "2026-11-12T13:17:52Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/fd74575dc2686f4901f638a030c5b032.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/fd74575dc2686f4901f638a030c5b032.jpg",
+              "width": 1366,
+              "height": 768,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/8e3af8f178bfec9c5e460038657a422dff737c35607a9de0be209cbe40f56956/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ffd74575dc2686f4901f638a030c5b032.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/clearone-q3-earnings-snapshot-234826536.html"
+          "url": "https://247wallst.com/investing/2026/11/12/lucky-strike-stock-has-crashed-59-now-its-dividend-is-gone/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/clearone-q3-earnings-snapshot-234826536.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-stock-crashed-59-131752018.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,34 +49,58 @@
           },
           "stockTickers": [
             {
-              "symbol": "CLRO"
+              "symbol": "LUCK"
+            },
+            {
+              "symbol": "PLAY"
+            },
+            {
+              "symbol": "FUN"
             }
           ]
         }
       }
     },
     {
-      "id": "21f5ce58-f7e1-3dd2-b61a-35eac888450a",
+      "id": "851d958e-d150-3f8c-b309-8bcb1f2cd6cd",
       "content": {
-        "id": "21f5ce58-f7e1-3dd2-b61a-35eac888450a",
+        "id": "851d958e-d150-3f8c-b309-8bcb1f2cd6cd",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Lucky Strike (LUCK) Q1 2027 Earnings Call Transcript",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Solowin Holdings 314,526,127 0.",
-        "pubDate": "2026-10-27T14:30:16Z",
-        "displayTime": "2026-10-27T14:30:16Z",
+        "summary": "Retail softness lingered, but management is pressing ahead with a deleveraging plan.",
+        "pubDate": "2026-11-06T15:58:16Z",
+        "displayTime": "2026-11-06T15:58:16Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalWidth": 1280,
+          "originalHeight": 1366,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "width": 1280,
+              "height": 1366,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "Motley Fool",
+          "url": "http://www.fool.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143016210.html"
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/lucky-strike-luck-q1-2027-earnings-call-transcript/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143016210.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-luck-q1-2027-155816029.html"
         },
         "finance": {
           "premiumFinance": {
@@ -66,76 +108,52 @@
           },
           "stockTickers": [
             {
-              "symbol": "AXG"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "DVLT"
-            },
-            {
-              "symbol": "NEXR"
-            },
-            {
-              "symbol": "SOFI"
-            },
-            {
-              "symbol": "XXII"
-            },
-            {
-              "symbol": "WFF"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "JBLU"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "SNTI"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "RCT"
+              "symbol": "LUCK"
             }
           ]
         }
       }
     },
     {
-      "id": "5b64c5f6-3fe4-33c2-bea5-115fa9b2438c",
+      "id": "80ae8a2c-c51f-3062-9056-fff6fa86da01",
       "content": {
-        "id": "5b64c5f6-3fe4-33c2-bea5-115fa9b2438c",
+        "id": "80ae8a2c-c51f-3062-9056-fff6fa86da01",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Lucky Strike Entertainment Corporation Q1 2027 Earnings Call Summary",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Redcloud Holdings PLC 483,262,077 0.",
-        "pubDate": "2026-10-26T14:30:17Z",
-        "displayTime": "2026-10-26T14:30:17Z",
+        "summary": "Moby summary of Lucky Strike Entertainment Corporation's Q1 2027 earnings call",
+        "pubDate": "2026-11-06T13:30:00Z",
+        "displayTime": "2026-11-06T13:30:00Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/moby_896/4fdffaa52605dbc29343e35b87037d6e.png",
+          "originalWidth": 1200,
+          "originalHeight": 675,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/moby_896/4fdffaa52605dbc29343e35b87037d6e.png",
+              "width": 1200,
+              "height": 675,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/9a0248add23753f267aa293213d4ff7e2d4dd5ee4ea861ac1bdf016dece97240/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoby_896%2F4fdffaa52605dbc29343e35b87037d6e.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "Moby",
+          "url": "https://moby.co/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017076.html"
+          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-lucky-strike-entertainment-corporation-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017076.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-entertainment-corporation-q1-133000217.html"
         },
         "finance": {
           "premiumFinance": {
@@ -146,43 +164,7 @@
               "symbol": "NVDA"
             },
             {
-              "symbol": "TGL"
-            },
-            {
-              "symbol": "WFF"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "CLRO"
-            },
-            {
-              "symbol": "RCT"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "SGRY"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "INTR"
-            },
-            {
-              "symbol": "JBLU"
+              "symbol": "LUCK"
             }
           ]
         }

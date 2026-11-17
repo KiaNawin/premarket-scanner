@@ -1,12 +1,12 @@
 {
-  "ticker": "AVEX",
-  "saved_at_et": "2026-11-16T14:01:27-05:00",
+  "ticker": "ACM",
+  "saved_at_et": "2026-11-17T08:30:54-05:00",
   "response": {
     "data": {
-      "previousInfo": " Market Close: $12.51",
+      "previousInfo": " Market Close: $72.5",
       "lastUpdateInfo": [
-        "Data last updated Nov 16, 2026 09:30 AM ET.",
-        "This page will resume updating on Nov 17, 2026 04:00 AM ET."
+        "This page refreshes every 30 seconds.",
+        "Data last updated Nov 17, 2026 08:30 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,11 +19,11 @@
         },
         "rows": [
           {
-            "consolidated": "$12.26 -0.25 (-2.00%)",
-            "volume": "5,693",
-            "highPrice": "$12.5 (07:46:14 AM)",
-            "lowPrice": "$12.12 (07:25:05 AM)",
-            "delta": "down"
+            "consolidated": "$77.805 +5.305 (+7.32%)",
+            "volume": "8,534",
+            "highPrice": "$78.85 (07:33:07 AM)",
+            "lowPrice": "$76.95 (05:57:05 AM)",
+            "delta": "up"
           }
         ]
       },
@@ -36,489 +36,504 @@
         },
         "rows": [
           {
-            "time": "09:29:58",
-            "price": "$12.26",
-            "shareVolume": "24"
+            "time": "08:12:51",
+            "price": "$77.805",
+            "shareVolume": "20"
           },
           {
-            "time": "09:29:37",
-            "price": "$12.3",
-            "shareVolume": "7"
+            "time": "08:11:38",
+            "price": "$77.11",
+            "shareVolume": "118"
           },
           {
-            "time": "09:22:20",
-            "price": "$12.26",
-            "shareVolume": "4"
-          },
-          {
-            "time": "09:18:39",
-            "price": "$12.16",
-            "shareVolume": "65"
-          },
-          {
-            "time": "09:10:10",
-            "price": "$12.3",
+            "time": "08:11:30",
+            "price": "$77.805",
             "shareVolume": "1"
           },
           {
-            "time": "09:05:06",
-            "price": "$12.1598",
-            "shareVolume": "250"
-          },
-          {
-            "time": "09:01:25",
-            "price": "$12.4119",
-            "shareVolume": "192"
-          },
-          {
-            "time": "09:01:25",
-            "price": "$12.33",
-            "shareVolume": "10"
-          },
-          {
-            "time": "09:01:25",
-            "price": "$12.33",
-            "shareVolume": "29"
-          },
-          {
-            "time": "09:01:25",
-            "price": "$12.31",
-            "shareVolume": "200"
-          },
-          {
-            "time": "09:01:25",
-            "price": "$12.26",
-            "shareVolume": "1"
-          },
-          {
-            "time": "09:00:16",
-            "price": "$12.22",
-            "shareVolume": "350"
-          },
-          {
-            "time": "09:00:16",
-            "price": "$12.21",
-            "shareVolume": "100"
-          },
-          {
-            "time": "09:00:16",
-            "price": "$12.2",
-            "shareVolume": "8"
-          },
-          {
-            "time": "09:00:16",
-            "price": "$12.2",
-            "shareVolume": "10"
-          },
-          {
-            "time": "08:50:17",
-            "price": "$12.15",
-            "shareVolume": "17"
-          },
-          {
-            "time": "08:45:19",
-            "price": "$12.15",
+            "time": "08:11:03",
+            "price": "$77.11",
             "shareVolume": "9"
           },
           {
-            "time": "08:44:15",
-            "price": "$12.15",
-            "shareVolume": "10"
-          },
-          {
-            "time": "08:41:12",
-            "price": "$12.14",
-            "shareVolume": "3"
-          },
-          {
-            "time": "08:27:06",
-            "price": "$12.2",
-            "shareVolume": "1"
-          },
-          {
-            "time": "08:22:41",
-            "price": "$12.2045",
-            "shareVolume": "75"
-          },
-          {
-            "time": "08:22:10",
-            "price": "$12.22",
-            "shareVolume": "3"
-          },
-          {
-            "time": "08:21:01",
-            "price": "$12.1342",
+            "time": "08:10:23",
+            "price": "$78.5",
             "shareVolume": "50"
           },
           {
-            "time": "08:12:53",
-            "price": "$12.4",
-            "shareVolume": "6"
+            "time": "08:07:55",
+            "price": "$78.49",
+            "shareVolume": "290"
           },
           {
-            "time": "08:05:45",
-            "price": "$12.15",
-            "shareVolume": "8"
+            "time": "08:06:01",
+            "price": "$78",
+            "shareVolume": "5"
           },
           {
-            "time": "08:00:28",
-            "price": "$12.34",
+            "time": "08:05:40",
+            "price": "$78.2533",
             "shareVolume": "3"
           },
           {
-            "time": "08:00:01",
-            "price": "$12.45",
-            "shareVolume": "131"
-          },
-          {
-            "time": "07:50:59",
-            "price": "$12.4685",
-            "shareVolume": "100"
-          },
-          {
-            "time": "07:47:53",
-            "price": "$12.5",
-            "shareVolume": "20"
-          },
-          {
-            "time": "07:46:14",
-            "price": "$12.5",
-            "shareVolume": "250"
-          },
-          {
-            "time": "07:44:28",
-            "price": "$12.36",
-            "shareVolume": "255"
-          },
-          {
-            "time": "07:44:28",
-            "price": "$12.36",
-            "shareVolume": "4"
-          },
-          {
-            "time": "07:44:28",
-            "price": "$12.36",
-            "shareVolume": "200"
-          },
-          {
-            "time": "07:42:23",
-            "price": "$12.3817",
-            "shareVolume": "500"
-          },
-          {
-            "time": "07:40:29",
-            "price": "$12.34",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:40:29",
-            "price": "$12.32",
-            "shareVolume": "24"
-          },
-          {
-            "time": "07:40:29",
-            "price": "$12.3",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:40:29",
-            "price": "$12.3",
-            "shareVolume": "15"
-          },
-          {
-            "time": "07:38:49",
-            "price": "$12.4411",
-            "shareVolume": "4"
-          },
-          {
-            "time": "07:38:42",
-            "price": "$12.16",
-            "shareVolume": "50"
-          },
-          {
-            "time": "07:35:14",
-            "price": "$12.12",
-            "shareVolume": "3"
-          },
-          {
-            "time": "07:33:24",
-            "price": "$12.27",
-            "shareVolume": "8"
-          },
-          {
-            "time": "07:25:51",
-            "price": "$12.27",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:25:05",
-            "price": "$12.12",
-            "shareVolume": "162"
-          },
-          {
-            "time": "07:23:31",
-            "price": "$12.27",
-            "shareVolume": "24"
-          },
-          {
-            "time": "07:22:36",
-            "price": "$12.26",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:18:51",
-            "price": "$12.26",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:13:00",
-            "price": "$12.275",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:11:23",
-            "price": "$12.26",
-            "shareVolume": "2"
-          },
-          {
-            "time": "07:00:39",
-            "price": "$12.01",
+            "time": "08:05:35",
+            "price": "$78.49",
             "shareVolume": "25"
           },
           {
-            "time": "07:00:13",
-            "price": "$12.28",
-            "shareVolume": "10"
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "2"
           },
           {
-            "time": "07:00:07",
-            "price": "$12.28",
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "2"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "2"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "2"
+          },
+          {
+            "time": "08:04:27",
+            "price": "$77.99",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:02:41",
+            "price": "$77.88",
+            "shareVolume": "20"
+          },
+          {
+            "time": "08:00:06",
+            "price": "$77.95",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:00:00",
+            "price": "$77.9466",
+            "shareVolume": "7"
+          },
+          {
+            "time": "07:59:33",
+            "price": "$78",
+            "shareVolume": "19"
+          },
+          {
+            "time": "07:59:33",
+            "price": "$78",
+            "shareVolume": "8"
+          },
+          {
+            "time": "07:59:33",
+            "price": "$78",
             "shareVolume": "24"
           },
           {
-            "time": "07:00:07",
-            "price": "$12.3",
-            "shareVolume": "10"
+            "time": "07:59:33",
+            "price": "$78",
+            "shareVolume": "24"
           },
           {
-            "time": "07:00:07",
-            "price": "$12.31",
+            "time": "07:59:33",
+            "price": "$78",
+            "shareVolume": "5"
+          },
+          {
+            "time": "07:59:33",
+            "price": "$78.06",
+            "shareVolume": "19"
+          },
+          {
+            "time": "07:59:33",
+            "price": "$78.06",
+            "shareVolume": "80"
+          },
+          {
+            "time": "07:59:33",
+            "price": "$78.06",
             "shareVolume": "1"
           },
           {
-            "time": "07:00:00",
-            "price": "$12.39",
-            "shareVolume": "28"
+            "time": "07:59:33",
+            "price": "$77.71",
+            "shareVolume": "11"
           },
           {
-            "time": "07:00:00",
-            "price": "$12.32",
-            "shareVolume": "50"
-          },
-          {
-            "time": "07:00:00",
-            "price": "$12.32",
-            "shareVolume": "1"
-          },
-          {
-            "time": "07:00:00",
-            "price": "$12.4",
-            "shareVolume": "12"
-          },
-          {
-            "time": "07:00:00",
-            "price": "$12.4",
-            "shareVolume": "10"
-          },
-          {
-            "time": "06:54:01",
-            "price": "$12.15",
+            "time": "07:59:33",
+            "price": "$77.71",
             "shareVolume": "4"
           },
           {
-            "time": "06:53:25",
-            "price": "$12.21",
-            "shareVolume": "2"
-          },
-          {
-            "time": "06:43:33",
-            "price": "$12.16",
-            "shareVolume": "78"
-          },
-          {
-            "time": "06:19:40",
-            "price": "$12.2",
-            "shareVolume": "3"
-          },
-          {
-            "time": "06:13:15",
-            "price": "$12.2",
+            "time": "07:59:33",
+            "price": "$77.71",
             "shareVolume": "1"
           },
           {
-            "time": "06:13:15",
-            "price": "$12.2",
-            "shareVolume": "670"
-          },
-          {
-            "time": "06:13:15",
-            "price": "$12.2",
+            "time": "07:59:33",
+            "price": "$77.71",
             "shareVolume": "1"
           },
           {
-            "time": "06:13:15",
-            "price": "$12.2",
-            "shareVolume": "62"
-          },
-          {
-            "time": "05:57:34",
-            "price": "$11.91",
-            "shareVolume": "6"
-          },
-          {
-            "time": "05:56:10",
-            "price": "$12.04",
-            "shareVolume": "2"
-          },
-          {
-            "time": "05:55:01",
-            "price": "$12.15",
-            "shareVolume": "1"
-          },
-          {
-            "time": "05:40:18",
-            "price": "$12.1523",
-            "shareVolume": "20"
-          },
-          {
-            "time": "05:34:57",
-            "price": "$12.04",
-            "shareVolume": "27"
-          },
-          {
-            "time": "05:32:51",
-            "price": "$12.2",
-            "shareVolume": "21"
-          },
-          {
-            "time": "05:20:49",
-            "price": "$12.3",
-            "shareVolume": "5"
-          },
-          {
-            "time": "05:20:49",
-            "price": "$12.16",
-            "shareVolume": "200"
-          },
-          {
-            "time": "05:15:58",
-            "price": "$12.2",
-            "shareVolume": "483"
-          },
-          {
-            "time": "05:13:42",
-            "price": "$12.32",
-            "shareVolume": "107"
-          },
-          {
-            "time": "05:13:42",
-            "price": "$12.35",
-            "shareVolume": "27"
-          },
-          {
-            "time": "05:13:20",
-            "price": "$12.37",
-            "shareVolume": "73"
-          },
-          {
-            "time": "05:13:20",
-            "price": "$12.37",
-            "shareVolume": "100"
-          },
-          {
-            "time": "05:13:20",
-            "price": "$12.25",
-            "shareVolume": "220"
-          },
-          {
-            "time": "04:41:43",
-            "price": "$12.3",
-            "shareVolume": "1"
-          },
-          {
-            "time": "04:28:26",
-            "price": "$12.25",
-            "shareVolume": "2"
-          },
-          {
-            "time": "04:28:21",
-            "price": "$12.3597",
-            "shareVolume": "1"
-          },
-          {
-            "time": "04:28:21",
-            "price": "$12.31",
-            "shareVolume": "1"
-          },
-          {
-            "time": "04:07:59",
-            "price": "$12.29",
-            "shareVolume": "73"
-          },
-          {
-            "time": "04:07:59",
-            "price": "$12.32",
-            "shareVolume": "20"
-          },
-          {
-            "time": "04:05:07",
-            "price": "$12.32",
-            "shareVolume": "5"
-          },
-          {
-            "time": "04:02:53",
-            "price": "$12.38",
-            "shareVolume": "10"
-          },
-          {
-            "time": "04:02:37",
-            "price": "$12.44",
-            "shareVolume": "1"
-          },
-          {
-            "time": "04:02:25",
-            "price": "$12.45",
-            "shareVolume": "1"
-          },
-          {
-            "time": "04:01:19",
-            "price": "$12.45",
-            "shareVolume": "100"
-          },
-          {
-            "time": "04:01:17",
-            "price": "$12.45",
-            "shareVolume": "48"
-          },
-          {
-            "time": "04:00:26",
-            "price": "$12.3903",
-            "shareVolume": "10"
-          },
-          {
-            "time": "04:00:11",
-            "price": "$12.3373",
+            "time": "07:59:33",
+            "price": "$77.8",
             "shareVolume": "30"
           },
           {
-            "time": "04:00:11",
-            "price": "$12.38",
+            "time": "07:58:25",
+            "price": "$78.396",
+            "shareVolume": "300"
+          },
+          {
+            "time": "07:56:07",
+            "price": "$78.33",
             "shareVolume": "1"
           },
           {
-            "time": "04:00:00",
-            "price": "$12.34",
-            "shareVolume": "20"
+            "time": "07:54:00",
+            "price": "$78.2846",
+            "shareVolume": "1"
+          },
+          {
+            "time": "07:53:10",
+            "price": "$78.5",
+            "shareVolume": "3"
+          },
+          {
+            "time": "07:50:34",
+            "price": "$78.06",
+            "shareVolume": "120"
           }
         ]
       },
