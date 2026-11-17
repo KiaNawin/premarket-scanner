@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-17",
-  "generated_at_et": "2026-11-17 11:33:16 EST",
-  "scan_time_et": "11:33",
+  "generated_at_et": "2026-11-17 12:03:26 EST",
+  "scan_time_et": "12:03",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,33 +9,33 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 447,
-    "with_data": 406,
-    "gap": 43,
-    "gap_price": 42,
-    "passed": 8,
+    "prefilter": 426,
+    "with_data": 386,
+    "gap": 49,
+    "gap_price": 47,
+    "passed": 10,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7077,
-  "count": 8,
+  "count": 10,
   "results": [
     {
       "ticker": "SLS",
-      "price": 20.19,
-      "gap_pct": 170.35,
+      "price": 19.48,
+      "gap_pct": 160.71,
       "catalyst": "Sellas Life Sciences catapulted early Tuesday after its experimental cancer vaccine cut the risk of death for leukemia patients.",
       "prev_close": 7.47,
       "premarket_volume": 25713494,
       "session": "regular",
       "catalyst_source": "Investor's Business Daily",
-      "catalyst_headline": "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 220%",
+      "catalyst_headline": "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 170%",
       "catalyst_url": "https://www.investors.com/news/technology/sellas-life-sciences-stock-cancer-vaccine-aml/?src=A00220&yptr=yahoo"
     },
     {
       "ticker": "CING",
-      "price": 4.61,
-      "gap_pct": 22.8,
+      "price": 4.85,
+      "gap_pct": 29.39,
       "catalyst": "Cingulate Inc.",
       "prev_close": 3.75,
       "premarket_volume": 363769,
@@ -45,21 +45,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/why-cingulate-cing-one-best-190318706.html"
     },
     {
-      "ticker": "SPAI",
-      "price": 3.03,
-      "gap_pct": 22.47,
-      "catalyst": "Safe Pro Group Inc.",
-      "prev_close": 2.47,
-      "premarket_volume": 5851136,
+      "ticker": "OMH",
+      "price": 5.07,
+      "gap_pct": 27.39,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
+      "prev_close": 3.98,
+      "premarket_volume": 513437,
       "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "Safe Pro Group Inc. (SPAI) Reports Q3 Loss, Beats Revenue Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/safe-pro-group-inc-spai-212502232.html"
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "BC-Most Active Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
     },
     {
       "ticker": "LUCK",
-      "price": 4.05,
-      "gap_pct": 21.99,
+      "price": 3.97,
+      "gap_pct": 19.56,
       "catalyst": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back.",
       "prev_close": 3.32,
       "premarket_volume": 780878,
@@ -69,21 +69,9 @@
       "catalyst_url": "https://247wallst.com/investing/2026/11/12/lucky-strike-stock-has-crashed-59-now-its-dividend-is-gone/"
     },
     {
-      "ticker": "USDE",
-      "price": 4.63,
-      "gap_pct": 14.89,
-      "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n...",
-      "prev_close": 4.03,
-      "premarket_volume": 188598,
-      "session": "regular",
-      "catalyst_source": "CryptoProwl",
-      "catalyst_headline": "StablecoinX Shares Slide 15% as $100.2M Loss Overshadows Revenue Surge",
-      "catalyst_url": "https://www.cryptoprowl.com/releases/stablecoinx-shares-slide-15-as-1002m-loss-overshadows-revenue-surge-7933"
-    },
-    {
       "ticker": "SHAZ",
-      "price": 22.46,
-      "gap_pct": 11.57,
+      "price": 22.84,
+      "gap_pct": 13.46,
       "catalyst": "SharonAI (NASDAQ:SHAZ) expects its annualized revenue run rate to rise to $400 million to $450 million in January 2027, up from approximately $50 million in September, as it brings artificial intelligence computing…",
       "prev_close": 20.13,
       "premarket_volume": 86864,
@@ -93,9 +81,33 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-sharonai-shaz-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
+      "ticker": "USDE",
+      "price": 4.55,
+      "gap_pct": 12.78,
+      "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n...",
+      "prev_close": 4.03,
+      "premarket_volume": 188598,
+      "session": "regular",
+      "catalyst_source": "CryptoProwl",
+      "catalyst_headline": "StablecoinX Shares Slide 15% as $100.2M Loss Overshadows Revenue Surge",
+      "catalyst_url": "https://www.cryptoprowl.com/releases/stablecoinx-shares-slide-15-as-1002m-loss-overshadows-revenue-surge-7933"
+    },
+    {
+      "ticker": "FUBO",
+      "price": 8.03,
+      "gap_pct": 8.66,
+      "catalyst": "FuboTV Inc.",
+      "prev_close": 7.39,
+      "premarket_volume": 61644,
+      "session": "regular",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "FuboTV Reports $1.50 Billion in Quarterly Revenue as Adjusted Loss Exceeds Estimates",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40234/fubotv-reports-1-50-billion-in-quarterly-revenue-as-adjusted-loss-exceeds-estimates"
+    },
+    {
       "ticker": "AS",
-      "price": 31.34,
-      "gap_pct": 7.7,
+      "price": 30.97,
+      "gap_pct": 6.41,
       "catalyst": "Amer Sports (NYSE:AS) raised its full-year revenue and earnings guidance after reporting 24% sales growth in the third quarter of 2026, driven by demand for Arc'teryx apparel, Salomon footwear and Wilson tennis products.",
       "prev_close": 29.1,
       "premarket_volume": 1001509,
@@ -103,6 +115,18 @@
       "catalyst_source": "MarketBeat",
       "catalyst_headline": "What Amer Sports (AS) Said on Its Q3 Earnings Call",
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-amer-sports-as-said-on-its-q3-earnings-call-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "SNAP",
+      "price": 5.39,
+      "gap_pct": 5.99,
+      "catalyst": "Today's big story: Could Nvidia Stock Fall 50%?",
+      "prev_close": 5.09,
+      "premarket_volume": 231903,
+      "session": "regular",
+      "catalyst_source": "Trefis",
+      "catalyst_headline": "Roblox Stock Fell Nearly 8%. What Happened?",
+      "catalyst_url": "https://www.trefis.com/stock/rblx/articles/625794/why-did-roblox-stock-fall-nearly-8/2026-11-17"
     },
     {
       "ticker": "MNSO",
