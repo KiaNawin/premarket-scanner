@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-17",
-  "generated_at_et": "2026-11-17 10:05:00 EST",
+  "generated_at_et": "2026-11-17 10:35:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-17.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -23,8 +23,8 @@
       "yesterday_close": 29.1,
       "sma200": 33.3627,
       "premarket_high": 31.11,
-      "last_price": 31.82,
-      "last_bar_et": "10:04",
+      "last_price": 31.535,
+      "last_bar_et": "10:34",
       "high_of_day": 31.97,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -33,7 +33,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.66,
+      "gap_pct": 8.51,
       "catalyst": "Amer Sports Inc (NYSE:AS), the owner of Arc'teryx, Salomon and Wilson, raised its full-year 2026 guidance after third-quarter revenue increased 24% and adjusted earnings exceeded its previous expectations."
     },
     {
@@ -45,27 +45,18 @@
       "yesterday_close": 3.75,
       "sma200": 5.3807,
       "premarket_high": 4.4535,
-      "last_price": 4.1984,
-      "last_bar_et": "10:04",
+      "last_price": 4.41,
+      "last_bar_et": "10:33",
       "high_of_day": 4.8127,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.6,
+      "gap_pct": 16.0,
       "catalyst": "Cingulate Inc."
-    },
-    {
-      "ticker": "FPS",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 197 trading days of history (< 200 needed for SMA200)",
-      "history_days": 197,
-      "gap_pct": 6.83,
-      "catalyst": "These fast-growing businesses have been beaten down, but their businesses are doing fine."
     },
     {
       "ticker": "FUBO",
@@ -76,9 +67,9 @@
       "yesterday_close": 7.39,
       "sma200": 10.8783,
       "premarket_high": 7.77,
-      "last_price": 8.4,
-      "last_bar_et": "10:04",
-      "high_of_day": 8.405,
+      "last_price": 8.2535,
+      "last_bar_et": "10:34",
+      "high_of_day": 8.495,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -86,52 +77,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.64,
-      "catalyst": "FuboTV plans to explore new mobile experiences and revenue models while targeting at least $300 million in adjusted EBITDA by FY28."
-    },
-    {
-      "ticker": "KLAR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.6711,
-      "yesterday_high": 14.045,
-      "yesterday_close": 13.63,
-      "sma200": 15.6209,
-      "premarket_high": 14.3,
-      "last_price": 14.455,
-      "last_bar_et": "10:04",
-      "high_of_day": 14.75,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.09,
-      "catalyst": "Strong customer and merchant growth isn’t enough to offset a wider-than-expected third-quarter loss."
-    },
-    {
-      "ticker": "KURA",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8136,
-      "yesterday_high": 7.74,
-      "yesterday_close": 7.09,
-      "sma200": 9.7695,
-      "premarket_high": 7.69,
-      "last_price": 7.55,
-      "last_bar_et": "10:04",
-      "high_of_day": 7.75,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.19,
-      "catalyst": "Moby summary of Kura Oncology, Inc.'s Q3 2026 earnings call."
+      "gap_pct": 10.83,
+      "catalyst": "FuboTV Inc."
     },
     {
       "ticker": "LUCK",
@@ -142,8 +89,8 @@
       "yesterday_close": 3.32,
       "sma200": 6.9813,
       "premarket_high": 4.05,
-      "last_price": 4.0599,
-      "last_bar_et": "10:04",
+      "last_price": 4.07,
+      "last_bar_et": "10:33",
       "high_of_day": 4.48,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -152,8 +99,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 21.69,
+      "gap_pct": 22.29,
       "catalyst": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back."
+    },
+    {
+      "ticker": "MNSO",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3325,
+      "yesterday_high": 11.46,
+      "yesterday_close": 11.24,
+      "sma200": 13.1878,
+      "premarket_high": 12.1842,
+      "last_price": 11.985,
+      "last_bar_et": "10:34",
+      "high_of_day": 12.08,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.16,
+      "catalyst": "MINISO Group Holding Limited (NYSE:MNSO) reported third-quarter 2026 revenue of RMB6."
     },
     {
       "ticker": "OMH",
@@ -164,18 +133,27 @@
       "yesterday_close": 3.98,
       "sma200": 30.2311,
       "premarket_high": 3.97,
-      "last_price": 4.27,
-      "last_bar_et": "09:58",
-      "high_of_day": 4.27,
+      "last_price": 6.0001,
+      "last_bar_et": "10:34",
+      "high_of_day": 6.43,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.29,
+      "gap_pct": 35.93,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
+      "ticker": "SHAZ",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 189 trading days of history (< 200 needed for SMA200)",
+      "history_days": 189,
+      "gap_pct": 5.66,
+      "catalyst": "SharonAI (NASDAQ:SHAZ) expects its annualized revenue run rate to rise to $400 million to $450 million in January 2027, up from approximately $50 million in September, as it brings artificial intelligence computing…"
     },
     {
       "ticker": "SLS",
@@ -186,8 +164,8 @@
       "yesterday_close": 7.47,
       "sma200": 8.8013,
       "premarket_high": 34.0,
-      "last_price": 19.73,
-      "last_bar_et": "10:04",
+      "last_price": 19.695,
+      "last_bar_et": "10:34",
       "high_of_day": 24.89,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -196,7 +174,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 142.57,
+      "gap_pct": 157.92,
       "catalyst": "Sellas Life Sciences catapulted early Tuesday after its experimental cancer vaccine cut the risk of death for leukemia patients."
     },
     {
@@ -208,9 +186,9 @@
       "yesterday_close": 5.09,
       "sma200": 5.3188,
       "premarket_high": 5.1239,
-      "last_price": 5.3734,
-      "last_bar_et": "10:04",
-      "high_of_day": 5.43,
+      "last_price": 5.435,
+      "last_bar_et": "10:34",
+      "high_of_day": 5.51,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -218,7 +196,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.26,
+      "gap_pct": 6.88,
       "catalyst": "Today's big story: Could Nvidia Stock Fall 50%?"
     },
     {
@@ -230,8 +208,8 @@
       "yesterday_close": 2.47,
       "sma200": 4.3226,
       "premarket_high": 3.5893,
-      "last_price": 3.0901,
-      "last_bar_et": "10:04",
+      "last_price": 3.0199,
+      "last_bar_et": "10:34",
       "high_of_day": 3.37,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -240,8 +218,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 26.65,
+      "gap_pct": 22.87,
       "catalyst": "Safe Pro Group Inc."
+    },
+    {
+      "ticker": "TME",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3071,
+      "yesterday_high": 9.21,
+      "yesterday_close": 8.88,
+      "sma200": 9.8355,
+      "premarket_high": 9.35,
+      "last_price": 9.393,
+      "last_bar_et": "10:34",
+      "high_of_day": 9.62,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.52,
+      "catalyst": "Tencent Music Entertainment Group (NYSE:TME) reported a 6% increase in third-quarter revenue as its newly consolidated Ximalaya audio business, merchandise sales and live performances helped offset pressure on its…"
     },
     {
       "ticker": "USDE",
@@ -249,9 +249,9 @@
       "signal": false,
       "reason": "Only 100 trading days of history (< 200 needed for SMA200)",
       "history_days": 100,
-      "gap_pct": 16.87,
+      "gap_pct": 16.13,
       "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n..."
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }

@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-17",
-  "generated_at_et": "2026-11-17 10:03:05 EST",
-  "scan_time_et": "10:03",
+  "generated_at_et": "2026-11-17 10:33:16 EST",
+  "scan_time_et": "10:33",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7077,
-    "prefilter": 250,
-    "with_data": 209,
-    "gap": 54,
-    "gap_price": 49,
+    "prefilter": 347,
+    "with_data": 307,
+    "gap": 52,
+    "gap_price": 51,
     "passed": 12,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "SLS",
-      "price": 18.12,
-      "gap_pct": 142.57,
+      "price": 19.27,
+      "gap_pct": 157.92,
       "catalyst": "Sellas Life Sciences catapulted early Tuesday after its experimental cancer vaccine cut the risk of death for leukemia patients.",
       "prev_close": 7.47,
       "premarket_volume": 25713494,
@@ -33,9 +33,21 @@
       "catalyst_url": "https://www.investors.com/news/technology/sellas-life-sciences-stock-cancer-vaccine-aml/?src=A00220&yptr=yahoo"
     },
     {
+      "ticker": "OMH",
+      "price": 5.41,
+      "gap_pct": 35.93,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
+      "prev_close": 3.98,
+      "premarket_volume": 513437,
+      "session": "regular",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "BC-Most Active Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
+    },
+    {
       "ticker": "SPAI",
-      "price": 3.13,
-      "gap_pct": 26.65,
+      "price": 3.04,
+      "gap_pct": 22.87,
       "catalyst": "Safe Pro Group Inc.",
       "prev_close": 2.47,
       "premarket_volume": 5851136,
@@ -46,8 +58,8 @@
     },
     {
       "ticker": "LUCK",
-      "price": 4.04,
-      "gap_pct": 21.69,
+      "price": 4.06,
+      "gap_pct": 22.29,
       "catalyst": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back.",
       "prev_close": 3.32,
       "premarket_volume": 780878,
@@ -57,21 +69,9 @@
       "catalyst_url": "https://247wallst.com/investing/2026/11/12/lucky-strike-stock-has-crashed-59-now-its-dividend-is-gone/"
     },
     {
-      "ticker": "CING",
-      "price": 4.41,
-      "gap_pct": 17.6,
-      "catalyst": "Cingulate Inc.",
-      "prev_close": 3.75,
-      "premarket_volume": 363769,
-      "session": "regular",
-      "catalyst_source": "Insider Monkey",
-      "catalyst_headline": "Here is Why Cingulate (CING) is One of the Best NASDAQ Growth Stocks to Buy and Hold Forever",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/why-cingulate-cing-one-best-190318706.html"
-    },
-    {
       "ticker": "USDE",
-      "price": 4.71,
-      "gap_pct": 16.87,
+      "price": 4.68,
+      "gap_pct": 16.13,
       "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n...",
       "prev_close": 4.03,
       "premarket_volume": 188598,
@@ -81,21 +81,33 @@
       "catalyst_url": "https://www.cryptoprowl.com/releases/stablecoinx-shares-slide-15-as-1002m-loss-overshadows-revenue-surge-7933"
     },
     {
+      "ticker": "CING",
+      "price": 4.35,
+      "gap_pct": 16.0,
+      "catalyst": "Cingulate Inc.",
+      "prev_close": 3.75,
+      "premarket_volume": 363769,
+      "session": "regular",
+      "catalyst_source": "Insider Monkey",
+      "catalyst_headline": "Here is Why Cingulate (CING) is One of the Best NASDAQ Growth Stocks to Buy and Hold Forever",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/why-cingulate-cing-one-best-190318706.html"
+    },
+    {
       "ticker": "FUBO",
-      "price": 8.25,
-      "gap_pct": 11.64,
-      "catalyst": "FuboTV plans to explore new mobile experiences and revenue models while targeting at least $300 million in adjusted EBITDA by FY28.",
+      "price": 8.19,
+      "gap_pct": 10.83,
+      "catalyst": "FuboTV Inc.",
       "prev_close": 7.39,
       "premarket_volume": 61644,
       "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "FuboTV Unveils Growth Strategy Beyond Traditional Pay TV After Q4 Results — CEO Highlights New Opportunities For Growth",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/fubo-tv-unveils-growth-strategy-beyond-traditional-pay-tv-after-q4-results-ceo-highlights-new-opportunities-for-growth/cNbaDelR9W8"
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "FuboTV Reports $1.50 Billion in Quarterly Revenue as Adjusted Loss Exceeds Estimates",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40234/fubotv-reports-1-50-billion-in-quarterly-revenue-as-adjusted-loss-exceeds-estimates"
     },
     {
       "ticker": "AS",
-      "price": 31.91,
-      "gap_pct": 9.66,
+      "price": 31.58,
+      "gap_pct": 8.51,
       "catalyst": "Amer Sports Inc (NYSE:AS), the owner of Arc'teryx, Salomon and Wilson, raised its full-year 2026 guidance after third-quarter revenue increased 24% and adjusted earnings exceeded its previous expectations.",
       "prev_close": 29.1,
       "premarket_volume": 1001509,
@@ -105,57 +117,21 @@
       "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1101936/amer-sports-raises-2026-guidance-after-third-quarter-revenue-and-earnings-beat-1101936.html"
     },
     {
-      "ticker": "OMH",
-      "price": 4.27,
-      "gap_pct": 7.29,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
-      "prev_close": 3.98,
-      "premarket_volume": 513437,
+      "ticker": "MNSO",
+      "price": 12.05,
+      "gap_pct": 7.16,
+      "catalyst": "MINISO Group Holding Limited (NYSE:MNSO) reported third-quarter 2026 revenue of RMB6.",
+      "prev_close": 11.24,
+      "premarket_volume": 58177,
       "session": "regular",
-      "catalyst_source": "Associated Press",
-      "catalyst_headline": "BC-Most Active Stocks",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021165.html"
-    },
-    {
-      "ticker": "KURA",
-      "price": 7.6,
-      "gap_pct": 7.19,
-      "catalyst": "Moby summary of Kura Oncology, Inc.'s Q3 2026 earnings call.",
-      "prev_close": 7.09,
-      "premarket_volume": 53312,
-      "session": "regular",
-      "catalyst_source": "Moby",
-      "catalyst_headline": "Kura Oncology, Inc. Q3 2026 Earnings Call Summary",
-      "catalyst_url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kura-oncology-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
-    },
-    {
-      "ticker": "FPS",
-      "price": 21.98,
-      "gap_pct": 6.83,
-      "catalyst": "These fast-growing businesses have been beaten down, but their businesses are doing fine.",
-      "prev_close": 20.57,
-      "premarket_volume": 235994,
-      "session": "regular",
-      "catalyst_source": "Motley Fool",
-      "catalyst_headline": "Stock Market Turbulence: 5 Stocks Down 40% or More That I'd Buy Right Now",
-      "catalyst_url": "https://www.fool.com/investing/2026/11/13/stock-market-turbulence-5-stocks-down-40-or-more-that-i-d-buy-right-now/"
-    },
-    {
-      "ticker": "KLAR",
-      "price": 14.46,
-      "gap_pct": 6.09,
-      "catalyst": "Strong customer and merchant growth isn’t enough to offset a wider-than-expected third-quarter loss.",
-      "prev_close": 13.63,
-      "premarket_volume": 1143821,
-      "session": "regular",
-      "catalyst_source": "Barrons.com",
-      "catalyst_headline": "Klarna Keeps Winning Shoppers but Hasn’t Been Winning Over Investors",
-      "catalyst_url": "https://www.barrons.com/articles/klarna-earnings-stock-price-31ca974b?siteid=yhoof2&yptr=yahoo"
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "MINISO Reports 14.3% Third-Quarter Revenue Growth to RMB6.63 Billion, Beating Analyst Estimates",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40230/miniso-reports-14-3-third-quarter-revenue-growth-to-rmb6-63-billion-beating-analyst-estimates"
     },
     {
       "ticker": "SNAP",
-      "price": 5.36,
-      "gap_pct": 5.26,
+      "price": 5.44,
+      "gap_pct": 6.88,
       "catalyst": "Today's big story: Could Nvidia Stock Fall 50%?",
       "prev_close": 5.09,
       "premarket_volume": 231903,
@@ -163,6 +139,30 @@
       "catalyst_source": "Trefis",
       "catalyst_headline": "Roblox Stock Fell Nearly 8%. What Happened?",
       "catalyst_url": "https://www.trefis.com/stock/rblx/articles/625794/why-did-roblox-stock-fall-nearly-8/2026-11-17"
+    },
+    {
+      "ticker": "SHAZ",
+      "price": 21.27,
+      "gap_pct": 5.66,
+      "catalyst": "SharonAI (NASDAQ:SHAZ) expects its annualized revenue run rate to rise to $400 million to $450 million in January 2027, up from approximately $50 million in September, as it brings artificial intelligence computing…",
+      "prev_close": 20.13,
+      "premarket_volume": 86864,
+      "session": "regular",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "What SharonAI (SHAZ) Said on Its Q3 Earnings Call",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-sharonai-shaz-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "TME",
+      "price": 9.37,
+      "gap_pct": 5.52,
+      "catalyst": "Tencent Music Entertainment Group (NYSE:TME) reported a 6% increase in third-quarter revenue as its newly consolidated Ximalaya audio business, merchandise sales and live performances helped offset pressure on its…",
+      "prev_close": 8.88,
+      "premarket_volume": 313298,
+      "session": "regular",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Tencent Music Entertainment Group Q3 Earnings Call Highlights",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-tencent-music-entertainment-group-q3-earnings-call-highlights-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
   ]
 }
