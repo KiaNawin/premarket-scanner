@@ -1,7 +1,42 @@
 {
   "ticker": "SLS",
-  "saved_at_et": "2026-11-17T09:02:56-05:00",
+  "saved_at_et": "2026-11-17T09:32:21-05:00",
   "response": [
+    {
+      "id": "e0cbb953-a38f-3732-986f-0f8f34546cb7",
+      "content": {
+        "id": "e0cbb953-a38f-3732-986f-0f8f34546cb7",
+        "contentType": "STORY",
+        "title": "SELLAS Life Sciences stock soars 240% on positive cancer trial",
+        "description": null,
+        "summary": "Investing.com -- SELLAS Life Sciences Group (NASDAQ:SLS) shares surged 240% after the company announced positive topline results from its pivotal Phase 3 REGAL trial of galinpepimut-S (GPS), an immunotherapeutic cancer vaccine for acute myeloid leukemia.",
+        "pubDate": "2026-11-17T14:12:21Z",
+        "displayTime": "2026-11-17T14:12:21Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-stock-soars-141221879.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-stock-soars-141221879.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "SLS"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "4cf25219-837c-3746-821e-032ba744531c",
       "content": {
@@ -124,62 +159,6 @@
             },
             {
               "symbol": "CL=F"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "be3a871a-ad29-3099-8985-522a20781662",
-      "content": {
-        "id": "be3a871a-ad29-3099-8985-522a20781662",
-        "contentType": "STORY",
-        "title": "SLS Stock Jumps After-Hours: Retail Eyes Lilly’s Cancer Deal for Valuation Clues — 2 Big Investors Grab Shares",
-        "description": null,
-        "summary": "Susquehanna and Prudential added 1.3 million SLS shares in Q3. Prudential’s stake grew nearly 24-fold.",
-        "pubDate": "2026-11-17T01:54:11Z",
-        "displayTime": "2026-11-17T01:54:11Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
-          "originalWidth": 1280,
-          "originalHeight": 853,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
-              "width": 1280,
-              "height": 853,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/eb5826ccae42f1ecb7debabc0f38a538b36c2e0a47a74ef9ab8d406f6a9c4f2a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F5f36199c6764cab9de43350a0b91cc9a",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Stocktwits",
-          "url": "https://stocktwits.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://stocktwits.com/news-articles/markets/equity/sls-stock-retail-lilly-cancer-deal-valuation-clues-2-big-investors-grab-shares/cNbagyYR9gZ"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sls-stock-jumps-hours-retail-015411970.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "LLY"
-            },
-            {
-              "symbol": "SLS"
             }
           ]
         }
