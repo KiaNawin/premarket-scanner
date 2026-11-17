@@ -1,15 +1,15 @@
 **Trend-join Long — 2026-11-17**
-0 valid entries out of 12 pre-market gappers (generated 2026-11-17 13:05:00 EST)
+0 valid entries out of 12 pre-market gappers (generated 2026-11-17 13:35:01 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - AS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CAPR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - CING: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- FUBO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- KURA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - LUCK: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - MNSO: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- OMH: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - SHAZ: SHORT_HISTORY — Only 189 trading days of history (< 200 needed for SMA200)
 - SLS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - SNAP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
