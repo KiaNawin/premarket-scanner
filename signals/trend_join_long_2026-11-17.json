@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-17",
-  "generated_at_et": "2026-11-17 14:05:00 EST",
+  "generated_at_et": "2026-11-17 14:35:02 EST",
   "source_premarket_file": "premarket_scan_2026-11-17.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -23,8 +23,8 @@
       "yesterday_close": 29.1,
       "sma200": 33.3627,
       "premarket_high": 31.11,
-      "last_price": 30.8382,
-      "last_bar_et": "14:04",
+      "last_price": 30.79,
+      "last_bar_et": "14:34",
       "high_of_day": 31.97,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -45,8 +45,8 @@
       "yesterday_close": 3.75,
       "sma200": 5.3807,
       "premarket_high": 4.4535,
-      "last_price": 4.68,
-      "last_bar_et": "14:04",
+      "last_price": 4.7551,
+      "last_bar_et": "14:34",
       "high_of_day": 4.9299,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -67,8 +67,8 @@
       "yesterday_close": 7.09,
       "sma200": 9.7695,
       "premarket_high": 7.69,
-      "last_price": 7.53,
-      "last_bar_et": "14:04",
+      "last_price": 7.525,
+      "last_bar_et": "14:34",
       "high_of_day": 7.75,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -89,13 +89,13 @@
       "yesterday_close": 3.32,
       "sma200": 6.9813,
       "premarket_high": 4.05,
-      "last_price": 4.015,
-      "last_bar_et": "14:04",
+      "last_price": 4.1,
+      "last_bar_et": "14:34",
       "high_of_day": 4.48,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
@@ -111,9 +111,9 @@
       "yesterday_close": 11.24,
       "sma200": 13.1878,
       "premarket_high": 12.1842,
-      "last_price": 12.145,
-      "last_bar_et": "14:04",
-      "high_of_day": 12.155,
+      "last_price": 12.135,
+      "last_bar_et": "14:34",
+      "high_of_day": 12.2,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -142,8 +142,8 @@
       "yesterday_close": 7.47,
       "sma200": 8.8013,
       "premarket_high": 34.0,
-      "last_price": 19.665,
-      "last_bar_et": "14:04",
+      "last_price": 19.6999,
+      "last_bar_et": "14:35",
       "high_of_day": 24.89,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -164,8 +164,8 @@
       "yesterday_close": 5.09,
       "sma200": 5.3188,
       "premarket_high": 5.1239,
-      "last_price": 5.465,
-      "last_bar_et": "14:04",
+      "last_price": 5.475,
+      "last_bar_et": "14:35",
       "high_of_day": 5.51,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -186,8 +186,8 @@
       "yesterday_close": 2.47,
       "sma200": 4.3226,
       "premarket_high": 3.5893,
-      "last_price": 3.0001,
-      "last_bar_et": "14:04",
+      "last_price": 2.98,
+      "last_bar_et": "14:35",
       "high_of_day": 3.37,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -208,8 +208,8 @@
       "yesterday_close": 8.88,
       "sma200": 9.8355,
       "premarket_high": 9.35,
-      "last_price": 9.455,
-      "last_bar_et": "14:04",
+      "last_price": 9.465,
+      "last_bar_et": "14:34",
       "high_of_day": 9.62,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -231,5 +231,5 @@
       "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n..."
     }
   ],
-  "scan_time_et": "14:05"
+  "scan_time_et": "14:35"
 }
