@@ -1,6 +1,6 @@
 {
   "ticker": "SLS",
-  "saved_at_et": "2026-11-17T12:33:19-05:00",
+  "saved_at_et": "2026-11-17T13:03:26-05:00",
   "response": [
     {
       "id": "73265628-d900-3b2d-8301-d0fb3120e645",
@@ -135,19 +135,31 @@
           },
           "stockTickers": [
             {
-              "symbol": "SHFS"
-            },
-            {
               "symbol": "FRTT"
             },
             {
               "symbol": "YFOR"
             },
             {
-              "symbol": "SMTK"
+              "symbol": "LICN"
             },
             {
               "symbol": "NVDA"
+            },
+            {
+              "symbol": "SHFS"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "SMTK"
+            },
+            {
+              "symbol": "FNGR"
             },
             {
               "symbol": "SLS"
@@ -156,16 +168,13 @@
               "symbol": "POLA"
             },
             {
+              "symbol": "GRAB"
+            },
+            {
               "symbol": "SAFX"
             },
             {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "LICN"
-            },
-            {
-              "symbol": "FNGR"
+              "symbol": "INTC"
             }
           ]
         }
