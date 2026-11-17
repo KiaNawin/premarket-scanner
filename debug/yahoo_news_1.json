@@ -1,7 +1,58 @@
 {
   "ticker": "SLS",
-  "saved_at_et": "2026-11-17T09:32:21-05:00",
+  "saved_at_et": "2026-11-17T10:03:03-05:00",
   "response": [
+    {
+      "id": "73265628-d900-3b2d-8301-d0fb3120e645",
+      "content": {
+        "id": "73265628-d900-3b2d-8301-d0fb3120e645",
+        "contentType": "STORY",
+        "title": "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 220%",
+        "description": null,
+        "summary": "Sellas Life Sciences catapulted early Tuesday after its experimental cancer vaccine cut the risk of death for leukemia patients.",
+        "pubDate": "2026-11-17T14:29:07Z",
+        "displayTime": "2026-11-17T14:29:07Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/73265628-d900-3b2d-8301-d0fb3120e645/another-cancer-vaccine-just.html",
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/ibd.com/65f2fd0c3f7dff4700ee50a4dae88553.jpg",
+          "originalWidth": 1000,
+          "originalHeight": 563,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/ibd.com/65f2fd0c3f7dff4700ee50a4dae88553.jpg",
+              "width": 1000,
+              "height": 563,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/1f8ddb8538269566586201f623f1c72264fdeef57517be18f44aaca94fe4c47d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F65f2fd0c3f7dff4700ee50a4dae88553.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Investor's Business Daily",
+          "url": "http://www.investors.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.investors.com/news/technology/sellas-life-sciences-stock-cancer-vaccine-aml/?src=A00220&yptr=yahoo"
+        },
+        "clickThroughUrl": null,
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "SLS"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "e0cbb953-a38f-3732-986f-0f8f34546cb7",
       "content": {
@@ -85,80 +136,6 @@
           "stockTickers": [
             {
               "symbol": "SLS"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "c9425411-054e-3261-a646-7e9cba869b9d",
-      "content": {
-        "id": "c9425411-054e-3261-a646-7e9cba869b9d",
-        "contentType": "STORY",
-        "title": "US Stock Futures Edge Lower After Tech Sell-Off — NVDA Earnings, AMD, SPCX, DIS In Focus",
-        "description": null,
-        "summary": "Oil prices slipped and then recovered as recovering Middle East exports and expectations of a global supply surplus outweighed concerns over tanker attacks.",
-        "pubDate": "2026-11-17T10:24:14Z",
-        "displayTime": "2026-11-17T10:24:14Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/c7634fde93d5659b1c214c18c765f895.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 853,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/stocktwits_383/c7634fde93d5659b1c214c18c765f895.jpg",
-              "width": 1280,
-              "height": 853,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/1fc7ece4fe007d2db49e6da9c8c6e0f77e75991317c5fb89044fee1d2ac8022d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fc7634fde93d5659b1c214c18c765f895.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Stocktwits",
-          "url": "https://stocktwits.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-edge-lower-after-tech-sell-off-nvda-earnings-amd-spcx-dis-in-focus/cNbaAmCR9Wf"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-102414813.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "^DJI"
-            },
-            {
-              "symbol": "AMD"
-            },
-            {
-              "symbol": "SPCX"
-            },
-            {
-              "symbol": "^GSPC"
-            },
-            {
-              "symbol": "SLS"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "CL=F"
             }
           ]
         }

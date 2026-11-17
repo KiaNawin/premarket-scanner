@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-17",
-  "generated_at_et": "2026-11-17 09:35:00 EST",
+  "generated_at_et": "2026-11-17 10:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-17.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,32 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 10,
+  "candidates": 12,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "AS",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.3024,
+      "yesterday_high": 30.05,
+      "yesterday_close": 29.1,
+      "sma200": 33.3627,
+      "premarket_high": 31.11,
+      "last_price": 31.82,
+      "last_bar_et": "10:04",
+      "high_of_day": 31.97,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.66,
+      "catalyst": "Amer Sports Inc (NYSE:AS), the owner of Arc'teryx, Salomon and Wilson, raised its full-year 2026 guidance after third-quarter revenue increased 24% and adjusted earnings exceeded its previous expectations."
+    },
     {
       "ticker": "CING",
       "status": "FAIL",
@@ -23,31 +45,9 @@
       "yesterday_close": 3.75,
       "sma200": 5.3807,
       "premarket_high": 4.4535,
-      "last_price": 4.405,
-      "last_bar_et": "09:34",
+      "last_price": 4.1984,
+      "last_bar_et": "10:04",
       "high_of_day": 4.8127,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 23.07,
-      "catalyst": "Cingulate Inc."
-    },
-    {
-      "ticker": "FCUV",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8007,
-      "yesterday_high": 5.23,
-      "yesterday_close": 4.72,
-      "sma200": 8.4048,
-      "premarket_high": 5.787,
-      "last_price": 4.79,
-      "last_bar_et": "09:34",
-      "high_of_day": 5.4,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -55,8 +55,17 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.97,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+      "gap_pct": 17.6,
+      "catalyst": "Cingulate Inc."
+    },
+    {
+      "ticker": "FPS",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 197 trading days of history (< 200 needed for SMA200)",
+      "history_days": 197,
+      "gap_pct": 6.83,
+      "catalyst": "These fast-growing businesses have been beaten down, but their businesses are doing fine."
     },
     {
       "ticker": "FUBO",
@@ -67,18 +76,40 @@
       "yesterday_close": 7.39,
       "sma200": 10.8783,
       "premarket_high": 7.77,
-      "last_price": 7.561,
-      "last_bar_et": "09:34",
-      "high_of_day": 8.1845,
+      "last_price": 8.4,
+      "last_bar_et": "10:04",
+      "high_of_day": 8.405,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.22,
+      "gap_pct": 11.64,
       "catalyst": "FuboTV plans to explore new mobile experiences and revenue models while targeting at least $300 million in adjusted EBITDA by FY28."
+    },
+    {
+      "ticker": "KLAR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.6711,
+      "yesterday_high": 14.045,
+      "yesterday_close": 13.63,
+      "sma200": 15.6209,
+      "premarket_high": 14.3,
+      "last_price": 14.455,
+      "last_bar_et": "10:04",
+      "high_of_day": 14.75,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.09,
+      "catalyst": "Strong customer and merchant growth isn’t enough to offset a wider-than-expected third-quarter loss."
     },
     {
       "ticker": "KURA",
@@ -89,9 +120,9 @@
       "yesterday_close": 7.09,
       "sma200": 9.7695,
       "premarket_high": 7.69,
-      "last_price": 7.595,
-      "last_bar_et": "09:34",
-      "high_of_day": 7.74,
+      "last_price": 7.55,
+      "last_bar_et": "10:04",
+      "high_of_day": 7.75,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -99,7 +130,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.26,
+      "gap_pct": 7.19,
       "catalyst": "Moby summary of Kura Oncology, Inc.'s Q3 2026 earnings call."
     },
     {
@@ -111,8 +142,8 @@
       "yesterday_close": 3.32,
       "sma200": 6.9813,
       "premarket_high": 4.05,
-      "last_price": 4.2307,
-      "last_bar_et": "09:33",
+      "last_price": 4.0599,
+      "last_bar_et": "10:04",
       "high_of_day": 4.48,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -121,30 +152,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 26.81,
+      "gap_pct": 21.69,
       "catalyst": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back."
     },
     {
-      "ticker": "PAVS",
+      "ticker": "OMH",
       "status": "FAIL",
       "signal": false,
-      "atr14": 0.353,
-      "yesterday_high": 2.58,
-      "yesterday_close": 2.26,
-      "sma200": 289.0852,
-      "premarket_high": 4.11,
-      "last_price": 3.0,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.0,
+      "atr14": 15.8644,
+      "yesterday_high": 4.64,
+      "yesterday_close": 3.98,
+      "sma200": 30.2311,
+      "premarket_high": 3.97,
+      "last_price": 4.27,
+      "last_bar_et": "09:58",
+      "high_of_day": 4.27,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 46.75,
-      "catalyst": "Investors welcomed reduced dilution, AI expansion plans and share consolidation."
+      "gap_pct": 7.29,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
       "ticker": "SLS",
@@ -155,8 +186,8 @@
       "yesterday_close": 7.47,
       "sma200": 8.8013,
       "premarket_high": 34.0,
-      "last_price": 21.5,
-      "last_bar_et": "09:34",
+      "last_price": 19.73,
+      "last_bar_et": "10:04",
       "high_of_day": 24.89,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -165,8 +196,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 207.76,
-      "catalyst": "Investing.com -- SELLAS Life Sciences Group (NASDAQ:SLS) shares surged 240% after the company announced positive topline results from its pivotal Phase 3 REGAL trial of galinpepimut-S (GPS), an immunotherapeutic cancer…"
+      "gap_pct": 142.57,
+      "catalyst": "Sellas Life Sciences catapulted early Tuesday after its experimental cancer vaccine cut the risk of death for leukemia patients."
+    },
+    {
+      "ticker": "SNAP",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3464,
+      "yesterday_high": 5.165,
+      "yesterday_close": 5.09,
+      "sma200": 5.3188,
+      "premarket_high": 5.1239,
+      "last_price": 5.3734,
+      "last_bar_et": "10:04",
+      "high_of_day": 5.43,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.26,
+      "catalyst": "Today's big story: Could Nvidia Stock Fall 50%?"
     },
     {
       "ticker": "SPAI",
@@ -177,8 +230,8 @@
       "yesterday_close": 2.47,
       "sma200": 4.3226,
       "premarket_high": 3.5893,
-      "last_price": 3.1701,
-      "last_bar_et": "09:34",
+      "last_price": 3.0901,
+      "last_bar_et": "10:04",
       "high_of_day": 3.37,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -187,30 +240,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 30.97,
+      "gap_pct": 26.65,
       "catalyst": "Safe Pro Group Inc."
-    },
-    {
-      "ticker": "TME",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3071,
-      "yesterday_high": 9.21,
-      "yesterday_close": 8.88,
-      "sma200": 9.8355,
-      "premarket_high": 9.58,
-      "last_price": 9.23,
-      "last_bar_et": "09:34",
-      "high_of_day": 9.62,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.42,
-      "catalyst": "Tencent Music Entertainment Group (NYSE:TME) reported a 6% increase in third-quarter revenue as its newly consolidated Ximalaya audio business, merchandise sales and live performances helped offset pressure on its…"
     },
     {
       "ticker": "USDE",
@@ -218,9 +249,9 @@
       "signal": false,
       "reason": "Only 100 trading days of history (< 200 needed for SMA200)",
       "history_days": 100,
-      "gap_pct": 14.14,
+      "gap_pct": 16.87,
       "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n..."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "ADIG",
-  "saved_at_et": "2026-11-17T09:31:05-05:00",
+  "saved_at_et": "2026-11-17T10:01:23-05:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $9.3",
@@ -19,7 +19,7 @@
         },
         "rows": [
           {
-            "consolidated": "$9.84 +0.54 (+5.81%)",
+            "consolidated": "$9.86 +0.56 (+6.02%)",
             "volume": "22,307",
             "highPrice": "$9.95 (09:01:24 AM)",
             "lowPrice": "$9.51 (08:56:36 AM)",
@@ -35,6 +35,11 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "09:30:00",
+            "price": "$9.86",
+            "shareVolume": "100"
+          },
           {
             "time": "09:13:52",
             "price": "$9.84",
