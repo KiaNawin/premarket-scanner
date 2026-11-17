@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-17",
-  "generated_at_et": "2026-11-17 08:35:00 EST",
+  "generated_at_et": "2026-11-17 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-17.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 10,
+  "candidates": 8,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -24,21 +24,8 @@
       "sma200": 114.9848,
       "premarket_high": 49.99,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.86,
+      "gap_pct": 7.93,
       "catalyst": "Investing.com -- Shares of US optical technology companies rallied on Tuesday after Reuters reported that the Trump administration plans to move forward with efforts to restrict imports of Chinese data center equipment…"
-    },
-    {
-      "ticker": "AS",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 1.3024,
-      "yesterday_high": 30.05,
-      "yesterday_close": 29.1,
-      "sma200": 33.3627,
-      "premarket_high": 31.1,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.15,
-      "catalyst": "Amer Sports, Inc."
     },
     {
       "ticker": "CING",
@@ -50,7 +37,7 @@
       "sma200": 5.3807,
       "premarket_high": 4.2,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.33,
+      "gap_pct": 8.27,
       "catalyst": "Cingulate Inc."
     },
     {
@@ -63,21 +50,8 @@
       "sma200": 296.7699,
       "premarket_high": 228.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.12,
-      "catalyst": "Investing.com -- Shares of US optical technology companies rallied on Tuesday after Reuters reported that the Trump administration plans to move forward with efforts to restrict imports of Chinese data center equipment…"
-    },
-    {
-      "ticker": "FWDI",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.5121,
-      "yesterday_high": 4.62,
-      "yesterday_close": 4.27,
-      "sma200": 5.1956,
-      "premarket_high": 4.5386,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.29,
-      "catalyst": "Solana treasury company Forward Industries (NASDAQ: $FWDI) said Thursday it plans to invest up to $30 million in Gr..."
+      "gap_pct": 7.55,
+      "catalyst": "Key TakeawaysCoherent stock is up 46% in the past year, but it has more than halved since its June high."
     },
     {
       "ticker": "LITE",
@@ -89,8 +63,8 @@
       "sma200": 814.6476,
       "premarket_high": 593.99,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.23,
-      "catalyst": "Investing.com -- Shares of US optical technology companies rallied on Tuesday after Reuters reported that the Trump administration plans to move forward with efforts to restrict imports of Chinese data center equipment…"
+      "gap_pct": 5.86,
+      "catalyst": "Key TakeawaysCoherent stock is up 46% in the past year, but it has more than halved since its June high."
     },
     {
       "ticker": "LUCK",
@@ -102,7 +76,7 @@
       "sma200": 6.9813,
       "premarket_high": 4.05,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 13.88,
+      "gap_pct": 17.95,
       "catalyst": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back."
     },
     {
@@ -115,7 +89,7 @@
       "sma200": 8.8013,
       "premarket_high": 34.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.1,
+      "gap_pct": 239.82,
       "catalyst": "The trial also showed a median overall survival of 24 months compared with 14.7 months for patients receiving the best available treatment."
     },
     {
@@ -128,7 +102,7 @@
       "sma200": 57.4765,
       "premarket_high": 68.7,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.57,
+      "gap_pct": 5.3,
       "catalyst": "Ark Invest increased its exposure to AI infrastructure and aerospace stocks while reducing holdings in Palantir, Tempus AI and other technology companies."
     },
     {
@@ -137,9 +111,9 @@
       "signal": false,
       "reason": "Only 100 trading days of history (< 200 needed for SMA200)",
       "history_days": 100,
-      "gap_pct": 10.67,
+      "gap_pct": 15.63,
       "catalyst": "StablecoinX (NASDAQ: $USDE) reported Monday a third-quarter net loss of $100.2 million, driven almost entirely by n..."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }

@@ -1,91 +1,32 @@
 {
-  "ticker": "LUCK",
-  "saved_at_et": "2026-11-17T08:32:20-05:00",
+  "ticker": "SLS",
+  "saved_at_et": "2026-11-17T09:02:56-05:00",
   "response": [
     {
-      "id": "aaa66184-024c-3edf-84e5-abed0baa334a",
+      "id": "4cf25219-837c-3746-821e-032ba744531c",
       "content": {
-        "id": "aaa66184-024c-3edf-84e5-abed0baa334a",
+        "id": "4cf25219-837c-3746-821e-032ba744531c",
         "contentType": "STORY",
-        "title": "Lucky Strike Stock Has Crashed 59%. Now Its Dividend Is Gone",
+        "title": "Sellas’ GPS Cuts Death Risk By 41% In Pivotal AML Trial – Firm Eyes FDA Filing In First Half Of 2027",
         "description": null,
-        "summary": "Lucky Strike's board just chose debt over shareholders, and management won't say what it would take to bring the check back. Income investors now face a turnaround with a few encouraging signs and one unresolved problem.",
-        "pubDate": "2026-11-12T13:17:52Z",
-        "displayTime": "2026-11-12T13:17:52Z",
+        "summary": "The trial also showed a median overall survival of 24 months compared with 14.7 months for patients receiving the best available treatment.",
+        "pubDate": "2026-11-17T12:59:15Z",
+        "displayTime": "2026-11-17T12:59:15Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/fd74575dc2686f4901f638a030c5b032.jpg",
-          "originalWidth": 1366,
-          "originalHeight": 768,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/24_7_wall_st__718/fd74575dc2686f4901f638a030c5b032.jpg",
-              "width": 1366,
-              "height": 768,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/8e3af8f178bfec9c5e460038657a422dff737c35607a9de0be209cbe40f56956/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ffd74575dc2686f4901f638a030c5b032.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "24/7 Wall St.",
-          "url": "https://247wallst.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://247wallst.com/investing/2026/11/12/lucky-strike-stock-has-crashed-59-now-its-dividend-is-gone/"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-stock-crashed-59-131752018.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "LUCK"
-            },
-            {
-              "symbol": "PLAY"
-            },
-            {
-              "symbol": "FUN"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "851d958e-d150-3f8c-b309-8bcb1f2cd6cd",
-      "content": {
-        "id": "851d958e-d150-3f8c-b309-8bcb1f2cd6cd",
-        "contentType": "STORY",
-        "title": "Lucky Strike (LUCK) Q1 2027 Earnings Call Transcript",
-        "description": null,
-        "summary": "Retail softness lingered, but management is pressing ahead with a deleveraging plan.",
-        "pubDate": "2026-11-06T15:58:16Z",
-        "displayTime": "2026-11-06T15:58:16Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
           "originalWidth": 1280,
-          "originalHeight": 1366,
+          "originalHeight": 853,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
               "width": 1280,
-              "height": 1366,
+              "height": 853,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/eb5826ccae42f1ecb7debabc0f38a538b36c2e0a47a74ef9ab8d406f6a9c4f2a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F5f36199c6764cab9de43350a0b91cc9a",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -93,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Motley Fool",
-          "url": "http://www.fool.com/"
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/lucky-strike-luck-q1-2027-earnings-call-transcript/"
+          "url": "https://stocktwits.com/news-articles/markets/equity/sellas-gps-cuts-death-risk-by-41-in-pivotal-aml-trial-fda-filing-in-first-half-2027/cNbaHYbR9WZ"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-luck-q1-2027-155816029.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/sellas-gps-cuts-death-risk-125915492.html"
         },
         "finance": {
           "premiumFinance": {
@@ -108,37 +49,37 @@
           },
           "stockTickers": [
             {
-              "symbol": "LUCK"
+              "symbol": "SLS"
             }
           ]
         }
       }
     },
     {
-      "id": "80ae8a2c-c51f-3062-9056-fff6fa86da01",
+      "id": "c9425411-054e-3261-a646-7e9cba869b9d",
       "content": {
-        "id": "80ae8a2c-c51f-3062-9056-fff6fa86da01",
+        "id": "c9425411-054e-3261-a646-7e9cba869b9d",
         "contentType": "STORY",
-        "title": "Lucky Strike Entertainment Corporation Q1 2027 Earnings Call Summary",
+        "title": "US Stock Futures Edge Lower After Tech Sell-Off — NVDA Earnings, AMD, SPCX, DIS In Focus",
         "description": null,
-        "summary": "Moby summary of Lucky Strike Entertainment Corporation's Q1 2027 earnings call",
-        "pubDate": "2026-11-06T13:30:00Z",
-        "displayTime": "2026-11-06T13:30:00Z",
+        "summary": "Oil prices slipped and then recovered as recovering Middle East exports and expectations of a global supply surplus outweighed concerns over tanker attacks.",
+        "pubDate": "2026-11-17T10:24:14Z",
+        "displayTime": "2026-11-17T10:24:14Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/moby_896/4fdffaa52605dbc29343e35b87037d6e.png",
-          "originalWidth": 1200,
-          "originalHeight": 675,
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/c7634fde93d5659b1c214c18c765f895.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 853,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/moby_896/4fdffaa52605dbc29343e35b87037d6e.png",
-              "width": 1200,
-              "height": 675,
+              "url": "https://media.zenfs.com/en/stocktwits_383/c7634fde93d5659b1c214c18c765f895.jpg",
+              "width": 1280,
+              "height": 853,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/9a0248add23753f267aa293213d4ff7e2d4dd5ee4ea861ac1bdf016dece97240/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoby_896%2F4fdffaa52605dbc29343e35b87037d6e.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/1fc7ece4fe007d2db49e6da9c8c6e0f77e75991317c5fb89044fee1d2ac8022d/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fc7634fde93d5659b1c214c18c765f895.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -146,14 +87,14 @@
           ]
         },
         "provider": {
-          "displayName": "Moby",
-          "url": "https://moby.co/"
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
         },
         "canonicalUrl": {
-          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-lucky-strike-entertainment-corporation-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-edge-lower-after-tech-sell-off-nvda-earnings-amd-spcx-dis-in-focus/cNbaAmCR9Wf"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lucky-strike-entertainment-corporation-q1-133000217.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-102414813.html"
         },
         "finance": {
           "premiumFinance": {
@@ -164,7 +105,81 @@
               "symbol": "NVDA"
             },
             {
-              "symbol": "LUCK"
+              "symbol": "^DJI"
+            },
+            {
+              "symbol": "AMD"
+            },
+            {
+              "symbol": "SPCX"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "SLS"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "CL=F"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "be3a871a-ad29-3099-8985-522a20781662",
+      "content": {
+        "id": "be3a871a-ad29-3099-8985-522a20781662",
+        "contentType": "STORY",
+        "title": "SLS Stock Jumps After-Hours: Retail Eyes Lilly’s Cancer Deal for Valuation Clues — 2 Big Investors Grab Shares",
+        "description": null,
+        "summary": "Susquehanna and Prudential added 1.3 million SLS shares in Q3. Prudential’s stake grew nearly 24-fold.",
+        "pubDate": "2026-11-17T01:54:11Z",
+        "displayTime": "2026-11-17T01:54:11Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
+          "originalWidth": 1280,
+          "originalHeight": 853,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
+              "width": 1280,
+              "height": 853,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/eb5826ccae42f1ecb7debabc0f38a538b36c2e0a47a74ef9ab8d406f6a9c4f2a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F5f36199c6764cab9de43350a0b91cc9a",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://stocktwits.com/news-articles/markets/equity/sls-stock-retail-lilly-cancer-deal-valuation-clues-2-big-investors-grab-shares/cNbagyYR9gZ"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sls-stock-jumps-hours-retail-015411970.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "LLY"
+            },
+            {
+              "symbol": "SLS"
             }
           ]
         }
