@@ -1,6 +1,6 @@
 {
   "ticker": "AKAN",
-  "saved_at_et": "2026-11-18T13:05:01-05:00",
+  "saved_at_et": "2026-11-18T13:34:44-05:00",
   "response": [
     {
       "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
@@ -31,25 +31,16 @@
           },
           "stockTickers": [
             {
-              "symbol": "INTC"
-            },
-            {
               "symbol": "NVDA"
             },
             {
               "symbol": "CHSN"
             },
             {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "IBIT"
-            },
-            {
               "symbol": "LICN"
             },
             {
-              "symbol": "CRWV"
+              "symbol": "^IXIC"
             },
             {
               "symbol": "AKAN"
@@ -58,25 +49,31 @@
               "symbol": "HIHO"
             },
             {
-              "symbol": "BRNX"
+              "symbol": "IREN"
             },
             {
-              "symbol": "IREN"
+              "symbol": "BRNX"
             },
             {
               "symbol": "YFOR"
             },
             {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "GRAB"
+            },
+            {
+              "symbol": "IBIT"
+            },
+            {
               "symbol": "ABTS"
             },
             {
-              "symbol": "SAFX"
-            },
-            {
-              "symbol": "ZNB"
-            },
-            {
-              "symbol": "MDLN"
+              "symbol": "GMM"
             }
           ]
         }
