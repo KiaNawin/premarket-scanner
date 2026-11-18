@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-18",
-  "generated_at_et": "2026-11-18 11:05:00 EST",
+  "generated_at_et": "2026-11-18 11:35:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-18.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,28 +10,28 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 20,
+  "candidates": 18,
   "valid_count": 4,
   "valid_entries": [
     {
       "ticker": "PANW",
       "signal_time_et": "2026-11-18 10:00",
       "entry_price": 323.2191,
-      "last_price": 329.365,
-      "gap_pct": 6.16,
+      "last_price": 327.905,
+      "gap_pct": 6.1,
       "yesterday_high": 316.05,
       "yesterday_close": 309.29,
       "sma200": 278.598,
       "premarket_high": 317.6904,
       "hod_before_signal": 323.17,
-      "catalyst": "Google is forecasting a wave of machine-run hacking while selling the cure, and Palo Alto reports earnings in the middle of it."
+      "catalyst": "October’s Consumer Price Index rose 0.4% from September, above the 0.3% economists expected, while core prices rose 0.3% against a forecast of 0.2%, the third straight month at that pace, Investing.com reported on…"
     },
     {
       "ticker": "TGT",
       "signal_time_et": "2026-11-18 10:00",
       "entry_price": 168.72,
-      "last_price": 168.44,
-      "gap_pct": 5.86,
+      "last_price": 168.785,
+      "gap_pct": 5.52,
       "yesterday_high": 161.27,
       "yesterday_close": 159.53,
       "sma200": 137.2425,
@@ -43,8 +43,8 @@
       "ticker": "CRWD",
       "signal_time_et": "2026-11-18 10:07",
       "entry_price": 228.9224,
-      "last_price": 233.505,
-      "gap_pct": 6.39,
+      "last_price": 232.425,
+      "gap_pct": 6.21,
       "yesterday_high": 226.0,
       "yesterday_close": 219.58,
       "sma200": 174.1598,
@@ -56,8 +56,8 @@
       "ticker": "CLRO",
       "signal_time_et": "2026-11-18 10:45",
       "entry_price": 7.91,
-      "last_price": 8.005,
-      "gap_pct": 64.62,
+      "last_price": 6.96,
+      "gap_pct": 58.47,
       "yesterday_high": 5.25,
       "yesterday_close": 4.72,
       "sma200": 4.5377,
@@ -76,8 +76,8 @@
       "yesterday_close": 309.29,
       "sma200": 278.598,
       "premarket_high": 317.6904,
-      "last_price": 329.365,
-      "last_bar_et": "11:04",
+      "last_price": 327.905,
+      "last_bar_et": "11:34",
       "high_of_day": 333.29,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -89,8 +89,8 @@
       "entry_price": 323.2191,
       "hod_before_signal": 323.17,
       "low_5m": 316.79,
-      "gap_pct": 6.16,
-      "catalyst": "Google is forecasting a wave of machine-run hacking while selling the cure, and Palo Alto reports earnings in the middle of it."
+      "gap_pct": 6.1,
+      "catalyst": "October’s Consumer Price Index rose 0.4% from September, above the 0.3% economists expected, while core prices rose 0.3% against a forecast of 0.2%, the third straight month at that pace, Investing.com reported on…"
     },
     {
       "ticker": "TGT",
@@ -101,8 +101,8 @@
       "yesterday_close": 159.53,
       "sma200": 137.2425,
       "premarket_high": 163.0,
-      "last_price": 168.44,
-      "last_bar_et": "11:04",
+      "last_price": 168.785,
+      "last_bar_et": "11:34",
       "high_of_day": 169.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -114,7 +114,7 @@
       "entry_price": 168.72,
       "hod_before_signal": 168.6599,
       "low_5m": 167.25,
-      "gap_pct": 5.86,
+      "gap_pct": 5.52,
       "catalyst": "Yahoo Finance Executive Editor Brian Sozzi."
     },
     {
@@ -126,9 +126,9 @@
       "yesterday_close": 219.58,
       "sma200": 174.1598,
       "premarket_high": 224.7,
-      "last_price": 233.505,
-      "last_bar_et": "11:04",
-      "high_of_day": 234.37,
+      "last_price": 232.425,
+      "last_bar_et": "11:34",
+      "high_of_day": 235.3,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -139,7 +139,7 @@
       "entry_price": 228.9224,
       "hod_before_signal": 228.22,
       "low_5m": 225.21,
-      "gap_pct": 6.39,
+      "gap_pct": 6.21,
       "catalyst": "Google is forecasting a wave of machine-run hacking while selling the cure, and Palo Alto reports earnings in the middle of it."
     },
     {
@@ -151,8 +151,8 @@
       "yesterday_close": 4.72,
       "sma200": 4.5377,
       "premarket_high": 5.48,
-      "last_price": 8.005,
-      "last_bar_et": "11:04",
+      "last_price": 6.96,
+      "last_bar_et": "11:34",
       "high_of_day": 8.65,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -164,7 +164,7 @@
       "entry_price": 7.91,
       "hod_before_signal": 7.88,
       "low_5m": 6.6201,
-      "gap_pct": 64.62,
+      "gap_pct": 58.47,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
     },
     {
@@ -176,8 +176,8 @@
       "yesterday_close": 2.05,
       "sma200": 8.0528,
       "premarket_high": 2.85,
-      "last_price": 3.43,
-      "last_bar_et": "11:04",
+      "last_price": 3.32,
+      "last_bar_et": "11:34",
       "high_of_day": 3.96,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -186,7 +186,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 68.73,
+      "gap_pct": 63.41,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -198,8 +198,8 @@
       "yesterday_close": 19.27,
       "sma200": 31.5453,
       "premarket_high": 21.7467,
-      "last_price": 21.03,
-      "last_bar_et": "11:04",
+      "last_price": 21.135,
+      "last_bar_et": "11:34",
       "high_of_day": 21.6,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -208,7 +208,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.98,
+      "gap_pct": 9.44,
       "catalyst": "Bullish earnings, revenue surge despite falling crypto prices."
     },
     {
@@ -220,8 +220,8 @@
       "yesterday_close": 11.01,
       "sma200": 12.3825,
       "premarket_high": 13.53,
-      "last_price": 13.4799,
-      "last_bar_et": "11:04",
+      "last_price": 13.51,
+      "last_bar_et": "11:34",
       "high_of_day": 14.015,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -230,7 +230,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 23.73,
+      "gap_pct": 22.25,
       "catalyst": "One chipmaker is lifting the Nasdaq while the Dow and small caps barely budge."
     },
     {
@@ -242,17 +242,17 @@
       "yesterday_close": 8.41,
       "sma200": 19.8141,
       "premarket_high": 9.15,
-      "last_price": 9.015,
-      "last_bar_et": "11:04",
+      "last_price": 9.25,
+      "last_bar_et": "11:34",
       "high_of_day": 9.49,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.9,
+      "gap_pct": 9.39,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
     },
     {
@@ -264,8 +264,8 @@
       "yesterday_close": 2.83,
       "sma200": 21.5519,
       "premarket_high": 3.6599,
-      "last_price": 4.1349,
-      "last_bar_et": "11:04",
+      "last_price": 4.03,
+      "last_bar_et": "11:34",
       "high_of_day": 4.26,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -274,7 +274,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 48.06,
+      "gap_pct": 46.82,
       "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…"
     },
     {
@@ -286,8 +286,8 @@
       "yesterday_close": 6.26,
       "sma200": 7.9692,
       "premarket_high": 6.34,
-      "last_price": 6.595,
-      "last_bar_et": "11:04",
+      "last_price": 6.62,
+      "last_bar_et": "11:34",
       "high_of_day": 6.69,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -308,8 +308,8 @@
       "yesterday_close": 34.86,
       "sma200": 53.4852,
       "premarket_high": 35.59,
-      "last_price": 37.0001,
-      "last_bar_et": "11:04",
+      "last_price": 36.6,
+      "last_bar_et": "11:34",
       "high_of_day": 38.16,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -318,8 +318,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.63,
-      "catalyst": "Insulet downgraded, Tandem Diabetes upgraded: Wall Street's top analyst calls."
+      "gap_pct": 5.08,
+      "catalyst": "Trump promised to overtake China on rare earths in 10 months, yet he never said which part of the supply chain he meant."
     },
     {
       "ticker": "NUAI",
@@ -330,17 +330,17 @@
       "yesterday_close": 3.2,
       "sma200": 4.7709,
       "premarket_high": 3.4,
-      "last_price": 3.4,
-      "last_bar_et": "11:04",
+      "last_price": 3.375,
+      "last_bar_et": "11:34",
       "high_of_day": 3.58,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.78,
+      "gap_pct": 5.47,
       "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers."
     },
     {
@@ -352,9 +352,9 @@
       "yesterday_close": 44.0,
       "sma200": 50.6974,
       "premarket_high": 45.0,
-      "last_price": 47.005,
-      "last_bar_et": "11:04",
-      "high_of_day": 47.1999,
+      "last_price": 47.13,
+      "last_bar_et": "11:34",
+      "high_of_day": 47.4,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -362,30 +362,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.95,
+      "gap_pct": 7.16,
       "catalyst": "Jefferies flagged near term bookings and engagement risks for Roblox (NYSE:RBLX) in a fresh report released this week."
     },
     {
-      "ticker": "RIOT",
-      "status": "FAIL",
+      "ticker": "SLS",
+      "status": "NO_SIGNAL",
       "signal": false,
-      "atr14": 1.5634,
-      "yesterday_high": 17.65,
-      "yesterday_close": 17.05,
-      "sma200": 19.3652,
-      "premarket_high": 18.0006,
-      "last_price": 17.96,
-      "last_bar_et": "11:04",
-      "high_of_day": 18.2283,
+      "atr14": 2.1321,
+      "yesterday_high": 24.89,
+      "yesterday_close": 19.15,
+      "sma200": 8.8772,
+      "premarket_high": 19.6,
+      "last_price": 21.055,
+      "last_bar_et": "11:34",
+      "high_of_day": 21.4,
       "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.51,
-      "catalyst": "In our list of 10 Best Stocks to Buy Ahead of Anthropic’s IPO, Riot Platforms, Inc."
+      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
+      "gap_pct": 9.82,
+      "catalyst": "The FDA had several issues with ivonescimab, according to the letter."
     },
     {
       "ticker": "SVRA",
@@ -396,8 +396,8 @@
       "yesterday_close": 4.48,
       "sma200": 5.3241,
       "premarket_high": 4.91,
-      "last_price": 4.84,
-      "last_bar_et": "11:04",
+      "last_price": 4.76,
+      "last_bar_et": "11:34",
       "high_of_day": 4.87,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -406,7 +406,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.15,
+      "gap_pct": 6.22,
       "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval."
     },
     {
@@ -418,8 +418,8 @@
       "yesterday_close": 3.63,
       "sma200": 3.1961,
       "premarket_high": 4.85,
-      "last_price": 4.305,
-      "last_bar_et": "11:04",
+      "last_price": 4.05,
+      "last_bar_et": "11:34",
       "high_of_day": 4.3493,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -428,7 +428,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 15.43,
+      "gap_pct": 13.25,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -440,9 +440,9 @@
       "yesterday_close": 129.85,
       "sma200": 150.2682,
       "premarket_high": 141.0,
-      "last_price": 143.01,
-      "last_bar_et": "11:04",
-      "high_of_day": 143.56,
+      "last_price": 143.28,
+      "last_bar_et": "11:34",
+      "high_of_day": 143.69,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -450,7 +450,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.16,
+      "gap_pct": 10.43,
       "catalyst": "TJX's CEO says stores are \"very strongly positioned\" for holiday gifting."
     },
     {
@@ -462,63 +462,19 @@
       "yesterday_close": 203.93,
       "sma200": 218.2956,
       "premarket_high": 219.5,
-      "last_price": 220.885,
-      "last_bar_et": "11:04",
-      "high_of_day": 221.59,
+      "last_price": 219.985,
+      "last_bar_et": "11:34",
+      "high_of_day": 221.82,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.44,
+      "gap_pct": 7.91,
       "catalyst": "Take-Two Interactive (TTWO) shares surge 5% as excitement builds ahead of the anticipated November 18 launch of Grand Theft Auto VI."
-    },
-    {
-      "ticker": "USAR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.9229,
-      "yesterday_high": 7.14,
-      "yesterday_close": 6.635,
-      "sma200": 18.0548,
-      "premarket_high": 6.8,
-      "last_price": 7.0166,
-      "last_bar_et": "11:04",
-      "high_of_day": 7.52,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.4,
-      "catalyst": "The Army signed a non-binding term sheet letting REalloys build a heavy rare earth plant at Utah's Tooele depot as the Jan."
-    },
-    {
-      "ticker": "WYHG",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.4596,
-      "yesterday_high": 3.179,
-      "yesterday_close": 2.71,
-      "sma200": 3.338,
-      "premarket_high": 3.33,
-      "last_price": 3.1198,
-      "last_bar_et": "11:04",
-      "high_of_day": 3.28,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.24,
-      "catalyst": "These are the upcoming stock splits for the week of June 1 to June 5, based on TipRanks’ Stock Splits Calendar."
     }
   ],
-  "scan_time_et": "11:05"
+  "scan_time_et": "11:35"
 }
