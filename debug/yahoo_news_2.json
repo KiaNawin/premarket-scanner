@@ -1,32 +1,85 @@
 {
-  "ticker": "CING",
-  "saved_at_et": "2026-11-17T14:03:21-05:00",
+  "ticker": "CUE",
+  "saved_at_et": "2026-11-18T08:32:13-05:00",
   "response": [
     {
-      "id": "8db133a3-ea21-3e2a-a3ab-c1e15fb9b9f3",
+      "id": "522ca06f-03d6-3588-9c7a-ac352931f4c4",
       "content": {
-        "id": "8db133a3-ea21-3e2a-a3ab-c1e15fb9b9f3",
+        "id": "522ca06f-03d6-3588-9c7a-ac352931f4c4",
         "contentType": "STORY",
-        "title": "Here is Why Cingulate (CING) is One of the Best NASDAQ Growth Stocks to Buy and Hold Forever",
+        "title": "Cue Biopharma’s CUE-221 Hits Phase II Goals, Shows Durable CSU Response",
         "description": null,
-        "summary": "Cingulate Inc. (NASDAQ:CING) is one of the best NASDAQ growth stocks to buy and hold forever. On March 18, Cingulate reported its financial results for Q4 and the full year 2025, highlighting the recent acceptance of an NDA for its lead ADHD candidate, CTx-1301. The company also announced a strengthened intellectual property portfolio, including a […]",
-        "pubDate": "2026-04-24T19:03:18Z",
-        "displayTime": "2026-04-24T19:03:18Z",
+        "summary": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with H1 antihistamines. The randomized, double-blind, placebo-controlled study evaluate",
+        "pubDate": "2026-09-28T09:02:14Z",
+        "displayTime": "2026-09-28T09:02:14Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/bc88f40a0f5a23bcaeb70a0e0ec4012c",
-          "originalWidth": 640,
-          "originalHeight": 425,
+          "originalUrl": "https://media.zenfs.com/en/marketbeat_955/676daaab1aa81cd73e1eb037cf271785.png",
+          "originalWidth": 1200,
+          "originalHeight": 675,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/insidermonkey.com/bc88f40a0f5a23bcaeb70a0e0ec4012c",
-              "width": 640,
-              "height": 425,
+              "url": "https://media.zenfs.com/en/marketbeat_955/676daaab1aa81cd73e1eb037cf271785.png",
+              "width": 1200,
+              "height": 675,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/6d620a3b878c121b9ec3d2af6275de8f3a519f883ea5dd8cf784671c6fb7e402/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fbc88f40a0f5a23bcaeb70a0e0ec4012c",
+              "url": "https://s.yimg.com/lo/mysterio/api/3602efbeebaac6e7ac413142ce14937b1f2ae43488d4393466d4046b956faa59/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F676daaab1aa81cd73e1eb037cf271785.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "MarketBeat",
+          "url": "https://www.marketbeat.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.marketbeat.com/instant-alerts/event-cue-biopharmas-cue-221-hits-phase-ii-goals-shows-durable-csu-response-2026-09-28/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/cue-biopharma-cue-221-hits-090214796.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "CUE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "197c8739-e07e-3210-b68b-3e491b3d6e17",
+      "content": {
+        "id": "197c8739-e07e-3210-b68b-3e491b3d6e17",
+        "contentType": "STORY",
+        "title": "Cue Biopharma (CUE) Reports Hives Drug Results. Can Longer Relief Set it Apart?",
+        "description": null,
+        "summary": "Cue Biopharma, Inc. (NASDAQ:CUE) reported positive Phase 2 results for CUE-221 on September 20. The randomized, double-blind study enrolled 145 patients in China with moderate to severe chronic spontaneous urticaria, or chronic hives, inadequately controlled by H1 antihistamines. At week 12, complete hive resolution occurred in 54% of patients receiving 4 mg/kg CUE-221 versus 11% […]",
+        "pubDate": "2026-09-26T03:45:38Z",
+        "displayTime": "2026-09-26T03:45:38Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/46e2ef10a16eefcbc202197f73a3c663.jpg",
+          "originalWidth": 1456,
+          "originalHeight": 816,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/insidermonkey.com/46e2ef10a16eefcbc202197f73a3c663.jpg",
+              "width": 1456,
+              "height": 816,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/c8c7bf134e77ecd8507486d1391c3314c0bccd9a7952236bc6cfdd21cf7d37e3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F46e2ef10a16eefcbc202197f73a3c663.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -38,10 +91,10 @@
           "url": "http://www.insidermonkey.com"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-cingulate-cing-one-best-190318706.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/cue-biopharma-cue-reports-hives-034538959.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-cingulate-cing-one-best-190318706.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/cue-biopharma-cue-reports-hives-034538959.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,37 +102,37 @@
           },
           "stockTickers": [
             {
-              "symbol": "CING"
+              "symbol": "CUE"
             }
           ]
         }
       }
     },
     {
-      "id": "0ff9d891-6fa4-3d03-9acc-a78886b8c814",
+      "id": "93a6b646-f7fc-350b-a77c-350c11af13b3",
       "content": {
-        "id": "0ff9d891-6fa4-3d03-9acc-a78886b8c814",
+        "id": "93a6b646-f7fc-350b-a77c-350c11af13b3",
         "contentType": "STORY",
-        "title": "Cingulate price target lowered to $16 from $17 at Roth Capital",
+        "title": "An orexin drug’s ‘proof-of-concept’ in ADHD; Cue’s ‘unwarranted’ share slide",
         "description": null,
-        "summary": "Roth Capital analyst Boobalan Pachaiyappan lowered the firm’s price target on Cingulate (CING) to $16 from $17 and keeps a Buy rating on the shares after meeting with its management to discuss Q3 results. The company is ratcheting up its CTx-1301 U.S. pre-commercialization efforts through its Indegene partnership, though the firm is adjusting its model on expectation that Cingulate may choose to raise capital during the next 6 to 12 months, the analyst tells investors in a research note.TipRanks",
-        "pubDate": "2025-11-20T12:40:10Z",
-        "displayTime": "2025-11-20T12:40:10Z",
+        "summary": "Alkermes’ results heightened anticipation for a coming readout in 2027. Elsewhere, AbbVie leaned into AI drug discovery and the FDA expanded use of Eli Lilly’s breast cancer pill.",
+        "pubDate": "2026-09-22T14:17:00Z",
+        "displayTime": "2026-09-22T14:17:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/tipranks_452/060c7819ab2e6aac03de78d24e089052",
-          "originalWidth": 192,
-          "originalHeight": 192,
+          "originalUrl": "https://media.zenfs.com/en/biopharma_dive_768/e36d70a3849ea73409df7aca9613c259",
+          "originalWidth": 1600,
+          "originalHeight": 900,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/tipranks_452/060c7819ab2e6aac03de78d24e089052",
-              "width": 192,
-              "height": 192,
+              "url": "https://media.zenfs.com/en/biopharma_dive_768/e36d70a3849ea73409df7aca9613c259",
+              "width": 1600,
+              "height": 900,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/ece224a676d0e95f363300dae18bdc6ef631ed2fff664be74dddd60acfa09d8b/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftipranks_452%2F060c7819ab2e6aac03de78d24e089052",
+              "url": "https://s.yimg.com/lo/mysterio/api/a57610992d45e5678773ff99726cfa72090e0483d3204c0b60cb2d365d104e36/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbiopharma_dive_768%2Fe36d70a3849ea73409df7aca9613c259",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -87,14 +140,14 @@
           ]
         },
         "provider": {
-          "displayName": "TipRanks",
-          "url": "https://www.tipranks.com/"
+          "displayName": "BioPharma Dive",
+          "url": "https://biopharmadive.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/news/cingulate-price-target-lowered-16-124010238.html"
+          "url": "https://www.biopharmadive.com/news/orexin-adhd-cue-urticaria-/830847/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/news/cingulate-price-target-lowered-16-124010238.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/orexin-drug-proof-concept-adhd-141700739.html"
         },
         "finance": {
           "premiumFinance": {
@@ -102,10 +155,19 @@
           },
           "stockTickers": [
             {
-              "symbol": "CING"
+              "symbol": "ALKS"
             },
             {
-              "symbol": "INDGN.BO"
+              "symbol": "CUE"
+            },
+            {
+              "symbol": "LLY"
+            },
+            {
+              "symbol": "ABBV"
+            },
+            {
+              "symbol": "JNJ"
             }
           ]
         }

@@ -1,0 +1,144 @@
+{
+  "scan_date": "2026-11-18",
+  "generated_at_et": "2026-11-18 08:32:14 EST",
+  "scan_time_et": "08:32",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7074,
+    "prefilter": 158,
+    "with_data": 154,
+    "gap": 35,
+    "gap_price": 30,
+    "passed": 10,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7074,
+  "count": 10,
+  "results": [
+    {
+      "ticker": "BRBR",
+      "price": 12.82,
+      "gap_pct": 16.44,
+      "catalyst": "LOUIS (AP) — BellRing Brands Inc.",
+      "prev_close": 11.01,
+      "premarket_volume": 98246,
+      "session": "pre-market",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "BellRing Brands: Fiscal Q4 Earnings Snapshot",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-fiscal-q4-earnings-121655127.html"
+    },
+    {
+      "ticker": "CUE",
+      "price": 3.28,
+      "gap_pct": 15.91,
+      "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…",
+      "prev_close": 2.83,
+      "premarket_volume": 583600,
+      "session": "pre-market",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "Cue Biopharma’s CUE-221 Hits Phase II Goals, Shows Durable CSU Response",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/event-cue-biopharmas-cue-221-hits-phase-ii-goals-shows-durable-csu-response-2026-09-28/?utm_source=yahoofinance&utm_medium=yahoofinance"
+    },
+    {
+      "ticker": "CLRO",
+      "price": 5.27,
+      "gap_pct": 11.65,
+      "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
+      "prev_close": 4.72,
+      "premarket_volume": 114090,
+      "session": "pre-market",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "ClearOne: Q3 Earnings Snapshot",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/clearone-q3-earnings-snapshot-234826536.html"
+    },
+    {
+      "ticker": "PONY",
+      "price": 4.39,
+      "gap_pct": 9.95,
+      "catalyst": "CFO Leo Wang reaffirmed the company's 2026 targets of deploying 3,500 Robotaxis across 20 cities worldwide and growing full-year Robotaxi services revenue to 3.5 times its 2025 level.",
+      "prev_close": 3.99,
+      "premarket_volume": 515021,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "Why Is PONY Stock Rising In Pre-Market?",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/why-is-pony-stock-rising-in-pre-market/cNbXCy5R9La"
+    },
+    {
+      "ticker": "BORR",
+      "price": 3.46,
+      "gap_pct": 8.81,
+      "catalyst": "NextNRG Inc.",
+      "prev_close": 3.18,
+      "premarket_volume": 159249,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "NextNRG Inc. (NXXT) Reports Q3 Loss, Lags Revenue Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/nextnrg-inc-nxxt-reports-q3-231002724.html"
+    },
+    {
+      "ticker": "BLSH",
+      "price": 20.53,
+      "gap_pct": 6.54,
+      "catalyst": "Bullish (BLSH) delivered earnings and revenue surprises of +50.00% and +6.50%, respectively, for the quarter ended September 2026.",
+      "prev_close": 19.27,
+      "premarket_volume": 67177,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Bullish (BLSH) Q3 Earnings and Revenues Surpass Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bullish-blsh-q3-earnings-revenues-115501859.html"
+    },
+    {
+      "ticker": "CAPR",
+      "price": 8.89,
+      "gap_pct": 5.68,
+      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
+      "prev_close": 8.41,
+      "premarket_volume": 160487,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — Here Are 2 Drugs With Better FDA Approval Odds This Month",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
+    },
+    {
+      "ticker": "SVRA",
+      "price": 4.73,
+      "gap_pct": 5.58,
+      "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval.",
+      "prev_close": 4.48,
+      "premarket_volume": 166332,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "FDA Decision Watch: Capricor’s DMD Therapy Faces Make-Or-Break Decision, Savara’s Lung Disease Drug In The Spotlight This Week",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/fda-decision-watch-capricor-s-dmd-therapy-faces-make-or-break-decision-savara-s-lung-disease-drug-in-the-spotlight-this-week/cNb7lT0R9X8"
+    },
+    {
+      "ticker": "TJX",
+      "price": 137.03,
+      "gap_pct": 5.53,
+      "catalyst": "(TJX) on Wednesday reported fiscal third-quarter earnings of $1.The Framingham, Massachusetts-based company said it had profit of $1.",
+      "prev_close": 129.85,
+      "premarket_volume": 417388,
+      "session": "pre-market",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "TJX: Fiscal Q3 Earnings Snapshot",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/tjx-fiscal-q3-earnings-snapshot-123719182.html"
+    },
+    {
+      "ticker": "TTWO",
+      "price": 215.09,
+      "gap_pct": 5.47,
+      "catalyst": "Grand Theft Auto VI comes out Thursday, and players have already spent an estimated $1.54 billion preordering it, according to market intelligence firm Sensor Tower.",
+      "prev_close": 203.93,
+      "premarket_volume": 429111,
+      "session": "pre-market",
+      "catalyst_source": "Benzinga Prediction Markets",
+      "catalyst_headline": "GTA 6 Preorders Hit an Estimated $1.5 Billion. Its Launch Could Boost DoorDash, Hurt Fortnite and Mobile Streaming",
+      "catalyst_url": "https://www.benzinga.com/markets/prediction-markets/26/11/63373009/gta-6-preorders-2?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
+    }
+  ]
+}
