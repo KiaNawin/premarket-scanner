@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-18",
-  "generated_at_et": "2026-11-18 13:34:46 EST",
-  "scan_time_et": "13:34",
+  "generated_at_et": "2026-11-18 14:04:57 EST",
+  "scan_time_et": "14:04",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7075,
-    "prefilter": 545,
-    "with_data": 378,
-    "gap": 136,
-    "gap_price": 129,
-    "passed": 14,
+    "prefilter": 570,
+    "with_data": 396,
+    "gap": 132,
+    "gap_price": 125,
+    "passed": 16,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7075,
-  "count": 14,
+  "count": 16,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 3.97,
-      "gap_pct": 93.66,
+      "price": 3.85,
+      "gap_pct": 87.8,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 2.05,
       "premarket_volume": 5705800,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "CLRO",
-      "price": 7.55,
-      "gap_pct": 59.85,
+      "price": 7.52,
+      "gap_pct": 59.32,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
       "prev_close": 4.72,
       "premarket_volume": 241597,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "CUE",
-      "price": 4.2,
-      "gap_pct": 48.35,
+      "price": 4.28,
+      "gap_pct": 51.28,
       "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…",
       "prev_close": 2.83,
       "premarket_volume": 1483721,
@@ -58,8 +58,8 @@
     },
     {
       "ticker": "NCPL",
-      "price": 3.11,
-      "gap_pct": 31.24,
+      "price": 3.12,
+      "gap_pct": 31.65,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 2.37,
       "premarket_volume": 2173425,
@@ -70,8 +70,8 @@
     },
     {
       "ticker": "BRBR",
-      "price": 13.57,
-      "gap_pct": 23.25,
+      "price": 13.44,
+      "gap_pct": 22.07,
       "catalyst": "BellRing Brands (NYSE:BRBR) expects fiscal 2027 sales to range from a 3% decline to 1% growth as price increases, retailer inventory adjustments and tougher distribution comparisons weigh on shipments, even as demand…",
       "prev_close": 11.01,
       "premarket_volume": 330138,
@@ -82,8 +82,8 @@
     },
     {
       "ticker": "NUAI",
-      "price": 3.66,
-      "gap_pct": 14.53,
+      "price": 3.71,
+      "gap_pct": 16.09,
       "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers.",
       "prev_close": 3.2,
       "premarket_volume": 176498,
@@ -94,8 +94,8 @@
     },
     {
       "ticker": "BLSH",
-      "price": 21.45,
-      "gap_pct": 11.31,
+      "price": 21.7,
+      "gap_pct": 12.61,
       "catalyst": "Scott Melker discusses crypto exchange Bullish (BLSH) topping third quarter revenue estimates.",
       "prev_close": 19.27,
       "premarket_volume": 108328,
@@ -106,8 +106,8 @@
     },
     {
       "ticker": "CRWD",
-      "price": 237.95,
-      "gap_pct": 8.37,
+      "price": 238.93,
+      "gap_pct": 8.81,
       "catalyst": "Cybersecurity stocks are rising after a string of recent outages spooked Wall Street and Main Street alike.",
       "prev_close": 219.58,
       "premarket_volume": 86802,
@@ -118,8 +118,8 @@
     },
     {
       "ticker": "CPIX",
-      "price": 6.27,
-      "gap_pct": 8.1,
+      "price": 6.28,
+      "gap_pct": 8.28,
       "catalyst": "Cumberland Pharmaceuticals (NASDAQ:CPIX) reported third-quarter net income of $77.8 million, reflecting the sale of its commercial products to Apotex Health, and outlined plans to advance its lead drug candidate toward…",
       "prev_close": 5.8,
       "premarket_volume": 53752,
@@ -129,21 +129,9 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-cumberland-pharmaceuticals-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
-      "ticker": "IBRX",
-      "price": 6.72,
-      "gap_pct": 7.35,
-      "catalyst": "ImmunityBio plans to present the full response rates at a medical meeting, showing how much benefit Anktiva added.",
-      "prev_close": 6.26,
-      "premarket_volume": 88043,
-      "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "IBRX CEO Reveals Fresh Anktiva Data After Bladder Cancer Trial Win — Says FDA Filing Is Just Weeks Away",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/ibrx-ceo-fresh-anktiva-data-bladder-cancer-trial-win-fda-filing-weeks-away/cNbaZkAR9Wb"
-    },
-    {
       "ticker": "PANW",
-      "price": 331.21,
-      "gap_pct": 7.09,
+      "price": 333.95,
+      "gap_pct": 7.97,
       "catalyst": "The Dow Jones index falls Wednesday as a Fed official calls for a \"shock\" in rate hikes to cool inflation.",
       "prev_close": 309.29,
       "premarket_volume": 175978,
@@ -153,9 +141,21 @@
       "catalyst_url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/?src=A00220&yptr=yahoo"
     },
     {
+      "ticker": "PSIG",
+      "price": 3.63,
+      "gap_pct": 7.08,
+      "catalyst": "Shares of AI infrastructure firm BlockchAIn (NYSE: $AIB) were up over 16 percent in pre market ...",
+      "prev_close": 3.39,
+      "premarket_volume": 156325,
+      "session": "regular",
+      "catalyst_source": "CryptoProwl",
+      "catalyst_headline": "BlockchAIn Secures 20 MW AI Data Center, Shares Take Off",
+      "catalyst_url": "https://www.cryptoprowl.com/releases/blockchain-secures-20-mw-ai-data-center-shares-take-off-3886"
+    },
+    {
       "ticker": "CAPR",
-      "price": 8.97,
-      "gap_pct": 6.6,
+      "price": 8.89,
+      "gap_pct": 5.71,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
       "prev_close": 8.41,
       "premarket_volume": 198763,
@@ -165,21 +165,33 @@
       "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
     },
     {
-      "ticker": "CIFR",
-      "price": 6.8,
-      "gap_pct": 5.84,
-      "catalyst": "Key TakeawaysBTIG reiterated its Buy rating and $27 price target on MARA Holdings on Nov.",
-      "prev_close": 6.42,
-      "premarket_volume": 732017,
+      "ticker": "IBRX",
+      "price": 6.61,
+      "gap_pct": 5.67,
+      "catalyst": "ImmunityBio plans to present the full response rates at a medical meeting, showing how much benefit Anktiva added.",
+      "prev_close": 6.26,
+      "premarket_volume": 88043,
       "session": "regular",
-      "catalyst_source": "TIKR",
-      "catalyst_headline": "A $27 Price Target on MARA? BTIG Is Sticking With It After a 57% Drop",
-      "catalyst_url": "https://www.tikr.com/blog/a-27-price-target-on-mara-btig-is-sticking-with-it-after-a-57-drop?ref=yahoofinance&tlnk=yf-261118-j5q626g6"
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "IBRX CEO Reveals Fresh Anktiva Data After Bladder Cancer Trial Win — Says FDA Filing Is Just Weeks Away",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/ibrx-ceo-fresh-anktiva-data-bladder-cancer-trial-win-fda-filing-weeks-away/cNbaZkAR9Wb"
+    },
+    {
+      "ticker": "DT",
+      "price": 45.55,
+      "gap_pct": 5.46,
+      "catalyst": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+      "prev_close": 43.19,
+      "premarket_volume": 102922,
+      "session": "regular",
+      "catalyst_source": "Trefis",
+      "catalyst_headline": "Can Datadog Stock Jump 50%?",
+      "catalyst_url": "https://www.trefis.com/stock/ddog/articles/626225/can-datadog-stock-jump-50/2026-11-18"
     },
     {
       "ticker": "MOD",
-      "price": 137.13,
-      "gap_pct": 5.7,
+      "price": 136.5,
+      "gap_pct": 5.22,
       "catalyst": "The investment firm expanded positions in SpaceX, Micron and Lam Research while reducing its holdings in Alphabet and Amazon.",
       "prev_close": 129.73,
       "premarket_volume": 186588,
@@ -187,6 +199,18 @@
       "catalyst_source": "GuruFocus.com",
       "catalyst_headline": "Billionaire David Tepper Dumps AMD Stock, Makes $172 Million Bet on Oracle",
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-david-tepper-dumps-amd-115625542.html"
+    },
+    {
+      "ticker": "BB",
+      "price": 8.59,
+      "gap_pct": 5.21,
+      "catalyst": "BlackBerry (NYSE:BB) executives said growth in the company’s QNX automotive software business is being supported by a rising royalty backlog, higher-priced products and the expected expansion of high-performance…",
+      "prev_close": 8.16,
+      "premarket_volume": 197497,
+      "session": "regular",
+      "catalyst_source": "MarketBeat",
+      "catalyst_headline": "BlackBerry’s QNX Backlog Rises $250 Million as Higher-Priced Auto Software Gains Traction",
+      "catalyst_url": "https://www.marketbeat.com/instant-alerts/event-blackberrys-qnx-backlog-rises-250-million-as-higher-priced-auto-software-gains-traction-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance"
     }
   ]
 }
