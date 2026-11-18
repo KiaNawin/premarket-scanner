@@ -1,12 +1,12 @@
 {
   "ticker": "ANGX",
-  "saved_at_et": "2026-11-18T08:31:08-05:00",
+  "saved_at_et": "2026-11-18T09:01:07-05:00",
   "response": {
     "data": {
       "previousInfo": " Market Close: $4.14",
       "lastUpdateInfo": [
         "This page refreshes every 30 seconds.",
-        "Data last updated Nov 18, 2026 08:30 AM ET."
+        "Data last updated Nov 18, 2026 09:00 AM ET."
       ],
       "sessionText": "",
       "infoTable": {
@@ -19,9 +19,9 @@
         },
         "rows": [
           {
-            "consolidated": "$4.41 +0.27 (+6.52%)",
-            "volume": "25,424",
-            "highPrice": "$4.46 (08:26:29 AM)",
+            "consolidated": "$4.43 +0.29 (+7.00%)",
+            "volume": "33,545",
+            "highPrice": "$4.48 (08:35:46 AM)",
             "lowPrice": "$4.3 (04:02:54 AM)",
             "delta": "up"
           }
@@ -35,6 +35,46 @@
           "shareVolume": "Pre-Market Share Volume"
         },
         "rows": [
+          {
+            "time": "08:43:03",
+            "price": "$4.43",
+            "shareVolume": "4"
+          },
+          {
+            "time": "08:42:40",
+            "price": "$4.4514",
+            "shareVolume": "2"
+          },
+          {
+            "time": "08:42:17",
+            "price": "$4.47",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:35:46",
+            "price": "$4.48",
+            "shareVolume": "1,372"
+          },
+          {
+            "time": "08:34:05",
+            "price": "$4.4785",
+            "shareVolume": "250"
+          },
+          {
+            "time": "08:33:58",
+            "price": "$4.48",
+            "shareVolume": "1"
+          },
+          {
+            "time": "08:31:36",
+            "price": "$4.48",
+            "shareVolume": "3,500"
+          },
+          {
+            "time": "08:26:29",
+            "price": "$4.46",
+            "shareVolume": "250"
+          },
           {
             "time": "08:11:02",
             "price": "$4.41",

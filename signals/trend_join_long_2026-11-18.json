@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-18",
-  "generated_at_et": "2026-11-18 08:35:00 EST",
+  "generated_at_et": "2026-11-18 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-18.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,23 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 10,
+  "candidates": 14,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "APLD",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.8175,
+      "yesterday_high": 15.255,
+      "yesterday_close": 14.22,
+      "sma200": 30.098,
+      "premarket_high": 15.22,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.06,
+      "catalyst": "Shares in Nvidia are up about 3% premarket after its earnings handily beat Wall Street expectations."
+    },
     {
       "ticker": "BLSH",
       "status": "WAITING",
@@ -24,7 +37,7 @@
       "sma200": 31.5453,
       "premarket_high": 21.7467,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.54,
+      "gap_pct": 8.27,
       "catalyst": "Bullish (BLSH) delivered earnings and revenue surprises of +50.00% and +6.50%, respectively, for the quarter ended September 2026."
     },
     {
@@ -35,9 +48,9 @@
       "yesterday_high": 3.25,
       "yesterday_close": 3.18,
       "sma200": 4.8235,
-      "premarket_high": 3.461,
+      "premarket_high": 3.48,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.81,
+      "gap_pct": 7.55,
       "catalyst": "NextNRG Inc."
     },
     {
@@ -48,9 +61,9 @@
       "yesterday_high": 11.045,
       "yesterday_close": 11.01,
       "sma200": 12.3825,
-      "premarket_high": 12.95,
+      "premarket_high": 13.53,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 16.44,
+      "gap_pct": 19.89,
       "catalyst": "LOUIS (AP) — BellRing Brands Inc."
     },
     {
@@ -63,7 +76,7 @@
       "sma200": 19.8141,
       "premarket_high": 9.15,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.68,
+      "gap_pct": 5.83,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
     },
     {
@@ -74,9 +87,9 @@
       "yesterday_high": 5.25,
       "yesterday_close": 4.72,
       "sma200": 4.5377,
-      "premarket_high": 5.3,
+      "premarket_high": 5.48,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 11.65,
+      "gap_pct": 13.76,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
     },
     {
@@ -89,8 +102,21 @@
       "sma200": 21.5519,
       "premarket_high": 3.44,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 15.91,
+      "gap_pct": 16.61,
       "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…"
+    },
+    {
+      "ticker": "GP",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.3923,
+      "yesterday_high": 3.39,
+      "yesterday_close": 2.62,
+      "sma200": 5.0597,
+      "premarket_high": 3.4499,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 15.27,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
       "ticker": "PONY",
@@ -100,10 +126,23 @@
       "yesterday_high": 4.17,
       "yesterday_close": 3.99,
       "sma200": 8.5981,
-      "premarket_high": 4.44,
+      "premarket_high": 4.5,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.95,
+      "gap_pct": 12.03,
       "catalyst": "CFO Leo Wang reaffirmed the company's 2026 targets of deploying 3,500 Robotaxis across 20 cities worldwide and growing full-year Robotaxi services revenue to 3.5 times its 2025 level."
+    },
+    {
+      "ticker": "SPAI",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.3667,
+      "yesterday_high": 3.37,
+      "yesterday_close": 3.04,
+      "sma200": 4.3142,
+      "premarket_high": 3.21,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.01,
+      "catalyst": "Net Loss Narrows 69% to $(0."
     },
     {
       "ticker": "SVRA",
@@ -119,6 +158,19 @@
       "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval."
     },
     {
+      "ticker": "TGL",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2865,
+      "yesterday_high": 3.92,
+      "yesterday_close": 3.63,
+      "sma200": 3.1961,
+      "premarket_high": 4.85,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 11.57,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
       "ticker": "TJX",
       "status": "WAITING",
       "signal": false,
@@ -128,22 +180,22 @@
       "sma200": 150.2682,
       "premarket_high": 141.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.53,
-      "catalyst": "(TJX) on Wednesday reported fiscal third-quarter earnings of $1.The Framingham, Massachusetts-based company said it had profit of $1."
+      "gap_pct": 6.01,
+      "catalyst": "TJX Companies Inc (NYSE:TJX), the owner of the TJ Maxx and Marshalls off-price chains, reported third-quarter sales of $15.95 billion on Wednesday, 0.7% above the $15.85 billion analysts had forecast."
     },
     {
-      "ticker": "TTWO",
+      "ticker": "WULF",
       "status": "WAITING",
       "signal": false,
-      "atr14": 12.0264,
-      "yesterday_high": 220.13,
-      "yesterday_close": 203.93,
-      "sma200": 218.2956,
-      "premarket_high": 219.5,
+      "atr14": 1.3457,
+      "yesterday_high": 12.4,
+      "yesterday_close": 11.67,
+      "sma200": 17.9726,
+      "premarket_high": 12.4,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.47,
-      "catalyst": "Grand Theft Auto VI comes out Thursday, and players have already spent an estimated $1.54 billion preordering it, according to market intelligence firm Sensor Tower."
+      "gap_pct": 5.14,
+      "catalyst": "Fresh US restrictions on China’s access to advanced AI chips put the spotlight on where the real power in artificial intelligence sits."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
