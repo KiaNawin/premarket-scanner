@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-18",
-  "generated_at_et": "2026-11-18 09:35:00 EST",
+  "generated_at_et": "2026-11-18 10:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-18.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,31 +10,70 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 13,
-  "valid_count": 0,
-  "valid_entries": [],
+  "candidates": 22,
+  "valid_count": 1,
+  "valid_entries": [
+    {
+      "ticker": "TGT",
+      "signal_time_et": "2026-11-18 10:00",
+      "entry_price": 168.72,
+      "last_price": 169.63,
+      "gap_pct": 5.76,
+      "yesterday_high": 161.27,
+      "yesterday_close": 159.53,
+      "sma200": 137.2425,
+      "premarket_high": 163.0,
+      "hod_before_signal": 168.6599,
+      "catalyst": "\"The 8:30\" hosts Julie Hyman, Pras Subramanian, and Jake Conley take a closer look at Target's (TGT) impressive third quarter earnings results."
+    }
+  ],
   "evaluated": [
     {
-      "ticker": "BLSH",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.9217,
-      "yesterday_high": 20.29,
-      "yesterday_close": 19.27,
-      "sma200": 31.5453,
-      "premarket_high": 21.7467,
-      "last_price": 21.29,
-      "last_bar_et": "09:34",
-      "high_of_day": 21.47,
+      "ticker": "TGT",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 5.5493,
+      "yesterday_high": 161.27,
+      "yesterday_close": 159.53,
+      "sma200": 137.2425,
+      "premarket_high": 163.0,
+      "last_price": 169.63,
+      "last_bar_et": "10:04",
+      "high_of_day": 169.8442,
       "checks_now": {
         "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-18 10:00",
+      "entry_price": 168.72,
+      "hod_before_signal": 168.6599,
+      "low_5m": 167.25,
+      "gap_pct": 5.76,
+      "catalyst": "\"The 8:30\" hosts Julie Hyman, Pras Subramanian, and Jake Conley take a closer look at Target's (TGT) impressive third quarter earnings results."
+    },
+    {
+      "ticker": "AMPX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.8584,
+      "yesterday_high": 7.2,
+      "yesterday_close": 6.77,
+      "sma200": 13.2003,
+      "premarket_high": 7.04,
+      "last_price": 7.075,
+      "last_bar_et": "10:04",
+      "high_of_day": 7.2374,
+      "checks_now": {
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.82,
-      "catalyst": "Bullish (BLSH) delivered earnings and revenue surprises of +50.00% and +6.50%, respectively, for the quarter ended September 2026."
+      "gap_pct": 6.06,
+      "catalyst": "Here is how Amprius Technologies (AMPX) and Deluxe (DLX) have performed compared to their sector so far this year."
     },
     {
       "ticker": "BORR",
@@ -45,17 +84,17 @@
       "yesterday_close": 3.18,
       "sma200": 4.8235,
       "premarket_high": 3.48,
-      "last_price": 3.41,
-      "last_bar_et": "09:34",
-      "high_of_day": 3.42,
+      "last_price": 3.54,
+      "last_bar_et": "10:04",
+      "high_of_day": 3.57,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.29,
+      "gap_pct": 11.01,
       "catalyst": "NextNRG Inc."
     },
     {
@@ -67,9 +106,9 @@
       "yesterday_close": 11.01,
       "sma200": 12.3825,
       "premarket_high": 13.53,
-      "last_price": 13.1895,
-      "last_bar_et": "09:34",
-      "high_of_day": 14.01,
+      "last_price": 13.09,
+      "last_bar_et": "10:04",
+      "high_of_day": 14.015,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -77,7 +116,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 18.35,
+      "gap_pct": 21.34,
       "catalyst": "One chipmaker is lifting the Nasdaq while the Dow and small caps barely budge."
     },
     {
@@ -89,40 +128,62 @@
       "yesterday_close": 8.41,
       "sma200": 19.8141,
       "premarket_high": 9.15,
-      "last_price": 8.72,
-      "last_bar_et": "09:34",
-      "high_of_day": 8.9999,
+      "last_price": 9.4264,
+      "last_bar_et": "10:04",
+      "high_of_day": 9.45,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.24,
+      "gap_pct": 11.24,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
     },
     {
       "ticker": "CLRO",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 1.0614,
       "yesterday_high": 5.25,
       "yesterday_close": 4.72,
       "sma200": 4.5377,
       "premarket_high": 5.48,
-      "last_price": 5.5818,
-      "last_bar_et": "09:34",
-      "high_of_day": 5.9,
+      "last_price": 7.01,
+      "last_bar_et": "10:04",
+      "high_of_day": 7.6299,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 17.16,
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 52.97,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
+    },
+    {
+      "ticker": "CRML",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.6301,
+      "yesterday_high": 4.29,
+      "yesterday_close": 3.82,
+      "sma200": 8.6114,
+      "premarket_high": 3.95,
+      "last_price": 4.045,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.13,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.94,
+      "catalyst": "The Army signed a non-binding term sheet letting REalloys build a heavy rare earth plant at Utah's Tooele depot as the Jan."
     },
     {
       "ticker": "CUE",
@@ -133,18 +194,62 @@
       "yesterday_close": 2.83,
       "sma200": 21.5519,
       "premarket_high": 3.6599,
-      "last_price": 3.6499,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.0,
+      "last_price": 3.9501,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.04,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 18.02,
+      "gap_pct": 35.87,
       "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…"
+    },
+    {
+      "ticker": "FLNC",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5196,
+      "yesterday_high": 4.34,
+      "yesterday_close": 4.08,
+      "sma200": 14.0914,
+      "premarket_high": 4.2545,
+      "last_price": 4.255,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.35,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.76,
+      "catalyst": "Golar LNG (GLNG) delivered earnings and revenue surprises of +2,300.00% and +23.81%, respectively, for the quarter ended September 2026."
+    },
+    {
+      "ticker": "MP",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.6957,
+      "yesterday_high": 37.09,
+      "yesterday_close": 34.86,
+      "sma200": 53.4852,
+      "premarket_high": 35.59,
+      "last_price": 37.595,
+      "last_bar_et": "10:04",
+      "high_of_day": 38.16,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.86,
+      "catalyst": "Insulet downgraded, Tandem Diabetes upgraded: Wall Street's top analyst calls."
     },
     {
       "ticker": "NUAI",
@@ -155,53 +260,9 @@
       "yesterday_close": 3.2,
       "sma200": 4.7709,
       "premarket_high": 3.4,
-      "last_price": 3.299,
-      "last_bar_et": "09:34",
+      "last_price": 3.395,
+      "last_bar_et": "10:04",
       "high_of_day": 3.519,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.81,
-      "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers."
-    },
-    {
-      "ticker": "PEPG",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.6598,
-      "yesterday_high": 4.2,
-      "yesterday_close": 3.88,
-      "sma200": 2.9222,
-      "premarket_high": 4.21,
-      "last_price": 4.07,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.2098,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 7.47,
-      "catalyst": "PepGen Inc."
-    },
-    {
-      "ticker": "PONY",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3012,
-      "yesterday_high": 4.17,
-      "yesterday_close": 3.99,
-      "sma200": 8.5981,
-      "premarket_high": 4.5,
-      "last_price": 4.36,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.53,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -209,52 +270,228 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.08,
-      "catalyst": "CFO Leo Wang reaffirmed the company's 2026 targets of deploying 3,500 Robotaxis across 20 cities worldwide and growing full-year Robotaxi services revenue to 3.5 times its 2025 level."
+      "gap_pct": 7.66,
+      "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers."
     },
     {
-      "ticker": "SLS",
-      "status": "WAITING",
+      "ticker": "OKLO",
+      "status": "FAIL",
       "signal": false,
-      "atr14": 2.1321,
-      "yesterday_high": 24.89,
-      "yesterday_close": 19.15,
-      "sma200": 8.8772,
-      "premarket_high": 19.6,
-      "last_price": 18.425,
-      "last_bar_et": "09:34",
-      "high_of_day": 21.16,
+      "atr14": 2.4586,
+      "yesterday_high": 23.31,
+      "yesterday_close": 22.37,
+      "sma200": 50.0373,
+      "premarket_high": 23.16,
+      "last_price": 23.312,
+      "last_bar_et": "10:04",
+      "high_of_day": 23.865,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.54,
+      "catalyst": "Key TakeawaysNuScale fell 22% in a week to a 52-week low after Canada’s first GE Vernova Hitachi small modular reactor ran late and over budget."
+    },
+    {
+      "ticker": "OMH",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 16.0722,
+      "yesterday_high": 6.43,
+      "yesterday_close": 4.53,
+      "sma200": 29.9688,
+      "premarket_high": 5.19,
+      "last_price": 4.69,
+      "last_bar_et": "10:04",
+      "high_of_day": 5.23,
       "checks_now": {
         "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
+        "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 5.23,
-      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.6,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
+      "ticker": "ONDS",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5571,
+      "yesterday_high": 4.71,
+      "yesterday_close": 4.39,
+      "sma200": 8.6356,
+      "premarket_high": 4.52,
+      "last_price": 4.58,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.6694,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.13,
+      "catalyst": "Ondas raises its 2026 revenue target to $550M as surging defense demand and an $835M backlog fuel growth, though margin pressure and losses remain concerns."
+    },
+    {
+      "ticker": "RBLX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 3.6895,
+      "yesterday_high": 46.15,
+      "yesterday_close": 44.0,
+      "sma200": 50.6974,
+      "premarket_high": 45.0,
+      "last_price": 46.49,
+      "last_bar_et": "10:04",
+      "high_of_day": 47.1999,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.36,
+      "catalyst": "Jefferies flagged near term bookings and engagement risks for Roblox (NYSE:RBLX) in a fresh report released this week."
+    },
+    {
+      "ticker": "RDW",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.7716,
+      "yesterday_high": 7.2,
+      "yesterday_close": 6.78,
+      "sma200": 10.8291,
+      "premarket_high": 7.08,
+      "last_price": 7.045,
+      "last_bar_et": "10:04",
+      "high_of_day": 7.195,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.31,
+      "catalyst": "RDW's partnership with Paragon targets integrated life-support systems for space stations and lunar habitats as demand for crewed infrastructure grows."
+    },
+    {
+      "ticker": "RIOT",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.5634,
+      "yesterday_high": 17.65,
+      "yesterday_close": 17.05,
+      "sma200": 19.3652,
+      "premarket_high": 18.0006,
+      "last_price": 17.845,
+      "last_bar_et": "10:04",
+      "high_of_day": 18.14,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.04,
+      "catalyst": "Riot Platforms (RIOT) just delivered third quarter 2026 results, giving investors a fresh look at its mix of bitcoin mining and data center activity as profitability shifted sharply year on year."
+    },
+    {
+      "ticker": "SMR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4993,
+      "yesterday_high": 4.37,
+      "yesterday_close": 4.09,
+      "sma200": 9.9974,
+      "premarket_high": 4.21,
+      "last_price": 4.34,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.475,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.83,
+      "catalyst": "The heavy selling pressure might have exhausted for NuScale Power (SMR) as it is technically in oversold territory now."
+    },
+    {
+      "ticker": "SVRA",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3068,
+      "yesterday_high": 4.6,
+      "yesterday_close": 4.48,
+      "sma200": 5.3241,
+      "premarket_high": 4.91,
+      "last_price": 4.75,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.8,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.69,
+      "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval."
     },
     {
       "ticker": "TGL",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 0.2865,
       "yesterday_high": 3.92,
       "yesterday_close": 3.63,
       "sma200": 3.1961,
       "premarket_high": 4.85,
-      "last_price": 3.95,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.0001,
+      "last_price": 3.8496,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.1,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 5.23,
+      "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 10.19,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
+      "ticker": "TJX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 4.0779,
+      "yesterday_high": 133.07,
+      "yesterday_close": 129.85,
+      "sma200": 150.2682,
+      "premarket_high": 141.0,
+      "last_price": 142.65,
+      "last_bar_et": "10:04",
+      "high_of_day": 143.125,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 9.97,
+      "catalyst": "\"The 8:30\" hosts Julie Hyman, Pras Subramanian, and Jake Conley go over a few stories to watch on Wednesday: Lowe's (LOW) lifting its revenue forecast, TJX (TJX) earnings results, and California temporarily banning…"
     },
     {
       "ticker": "TTWO",
@@ -265,8 +502,8 @@
       "yesterday_close": 203.93,
       "sma200": 218.2956,
       "premarket_high": 219.5,
-      "last_price": 213.14,
-      "last_bar_et": "09:34",
+      "last_price": 218.49,
+      "last_bar_et": "10:03",
       "high_of_day": 221.0,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -275,31 +512,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.09,
-      "catalyst": "Grand Theft Auto VI comes out Thursday, and players have already spent an estimated $1.54 billion preordering it, according to market intelligence firm Sensor Tower."
-    },
-    {
-      "ticker": "WYHG",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.4596,
-      "yesterday_high": 3.179,
-      "yesterday_close": 2.71,
-      "sma200": 3.338,
-      "premarket_high": 3.33,
-      "last_price": 3.1,
-      "last_bar_et": "09:32",
-      "high_of_day": 3.14,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 15.87,
-      "catalyst": "These are the upcoming stock splits for the week of June 1 to June 5, based on TipRanks’ Stock Splits Calendar."
+      "gap_pct": 7.25,
+      "catalyst": "Take-Two Interactive's 'GTA VI' is shaping up to be one of the biggest entertainment launches in history."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }
