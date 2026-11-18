@@ -1,6 +1,6 @@
 {
   "ticker": "CLRO",
-  "saved_at_et": "2026-11-18T11:34:32-05:00",
+  "saved_at_et": "2026-11-18T12:05:06-05:00",
   "response": [
     {
       "id": "6d0a88c6-8fee-3a7a-a07b-660ae68ec878",
@@ -32,83 +32,6 @@
           "stockTickers": [
             {
               "symbol": "CLRO"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "21f5ce58-f7e1-3dd2-b61a-35eac888450a",
-      "content": {
-        "id": "21f5ce58-f7e1-3dd2-b61a-35eac888450a",
-        "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
-        "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Solowin Holdings 314,526,127 0.",
-        "pubDate": "2026-10-27T14:30:16Z",
-        "displayTime": "2026-10-27T14:30:16Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143016210.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143016210.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "AXG"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "DVLT"
-            },
-            {
-              "symbol": "NEXR"
-            },
-            {
-              "symbol": "SOFI"
-            },
-            {
-              "symbol": "XXII"
-            },
-            {
-              "symbol": "WFF"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "JBLU"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "SNTI"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "RCT"
             }
           ]
         }
@@ -183,6 +106,98 @@
             },
             {
               "symbol": "JBLU"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "25baa7e7-af68-3e56-8127-4bc4c7648b53",
+      "content": {
+        "id": "25baa7e7-af68-3e56-8127-4bc4c7648b53",
+        "contentType": "STORY",
+        "title": "XSD Delivers 1,138% in Ten Years, Yet Trails SOXX in the AI Boom",
+        "description": null,
+        "summary": "The standard way to own semiconductors is to buy a cap-weighted fund and accept that NVIDIA, Broadcom, and TSMC will dominate the returns. SPDR S&P Semiconductor ETF (NYSEARCA:XSD) takes the opposite approach. It uses a modified equal-weight methodology against the S&P Semiconductor Select Industry Index, so a $200 billion analog chipmaker carries roughly the same ... XSD Delivers 1,138% in Ten Years, Yet Trails SOXX in the AI Boom",
+        "pubDate": "2026-05-04T11:45:49Z",
+        "displayTime": "2026-05-04T11:45:49Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/13241ce3c87a731112a89ad91f3413cd",
+          "originalWidth": 1500,
+          "originalHeight": 1001,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/13241ce3c87a731112a89ad91f3413cd",
+              "width": 1500,
+              "height": 1001,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/750cc2c4da47add8c4f6b9cbc25e11e75bb154a5478465e905d6bf4fada997d2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F13241ce3c87a731112a89ad91f3413cd",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/05/04/xsd-delivers-1138-in-ten-years-yet-trails-soxx-in-the-ai-boom/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/xsd-delivers-1-138-ten-114549103.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "SMH"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "MRVL"
+            },
+            {
+              "symbol": "AVGO"
+            },
+            {
+              "symbol": "2330.TW"
+            },
+            {
+              "symbol": "CLRO"
+            },
+            {
+              "symbol": "SOXX"
+            },
+            {
+              "symbol": "LSCC"
+            },
+            {
+              "symbol": "POWI"
+            },
+            {
+              "symbol": "XSD"
+            },
+            {
+              "symbol": "ON"
+            },
+            {
+              "symbol": "MPWR"
+            },
+            {
+              "symbol": "TSM"
+            },
+            {
+              "symbol": "ADI"
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-18",
-  "generated_at_et": "2026-11-18 11:34:34 EST",
-  "scan_time_et": "11:34",
+  "generated_at_et": "2026-11-18 12:05:09 EST",
+  "scan_time_et": "12:05",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7075,
-    "prefilter": 463,
-    "with_data": 355,
-    "gap": 86,
-    "gap_price": 77,
-    "passed": 18,
+    "prefilter": 489,
+    "with_data": 356,
+    "gap": 89,
+    "gap_price": 82,
+    "passed": 15,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7075,
-  "count": 18,
+  "count": 15,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 3.35,
-      "gap_pct": 63.41,
+      "price": 3.37,
+      "gap_pct": 64.39,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 2.05,
       "premarket_volume": 5705800,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "CLRO",
-      "price": 7.48,
-      "gap_pct": 58.47,
+      "price": 7.15,
+      "gap_pct": 51.48,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc.",
       "prev_close": 4.72,
       "premarket_volume": 241597,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "CUE",
-      "price": 4.16,
-      "gap_pct": 46.82,
+      "price": 4.05,
+      "gap_pct": 43.11,
       "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…",
       "prev_close": 2.83,
       "premarket_volume": 1483721,
@@ -58,8 +58,8 @@
     },
     {
       "ticker": "BRBR",
-      "price": 13.46,
-      "gap_pct": 22.25,
+      "price": 13.73,
+      "gap_pct": 24.75,
       "catalyst": "One chipmaker is lifting the Nasdaq while the Dow and small caps barely budge.",
       "prev_close": 11.01,
       "premarket_volume": 330138,
@@ -69,21 +69,21 @@
       "catalyst_url": "https://247wallst.com/investing/2026/11/18/stock-market-today-nvidia-earnings-are-driving-the-market-but-uncertainty-still-reigns/"
     },
     {
-      "ticker": "TGL",
-      "price": 4.11,
-      "gap_pct": 13.25,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
-      "prev_close": 3.63,
-      "premarket_volume": 1125013,
+      "ticker": "BLSH",
+      "price": 21.37,
+      "gap_pct": 10.89,
+      "catalyst": "Shares in Bullish(NYSE: BLSH) rose over 9% to $21.06 on Wednesday noon, outperforming several cryptocurrency-related stocks as investors welcomed stronger-than-expected quarterly revenue, higher adjusted earnings and a…",
+      "prev_close": 19.27,
+      "premarket_volume": 108328,
       "session": "regular",
-      "catalyst_source": "Associated Press",
-      "catalyst_headline": "BC-Most Active Stocks",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017076.html"
+      "catalyst_source": "Proactive",
+      "catalyst_headline": "Bullish shares jump over 9% after earnings beat and $300 million buyback authorization",
+      "catalyst_url": "https://www.proactiveinvestors.com/companies/news/1102034/bullish-shares-jump-over-9-after-earnings-beat-and-300-million-buyback-authorization-1102034.html"
     },
     {
       "ticker": "TJX",
-      "price": 143.39,
-      "gap_pct": 10.43,
+      "price": 143.44,
+      "gap_pct": 10.47,
       "catalyst": "TJX's CEO says stores are \"very strongly positioned\" for holiday gifting.",
       "prev_close": 129.85,
       "premarket_volume": 538994,
@@ -93,33 +93,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/tj-maxx-owner-tjx-gets-the-holiday-lift-it-needed-to-shake-off-its-summer-slowdown-153905102.html"
     },
     {
-      "ticker": "SLS",
-      "price": 21.03,
-      "gap_pct": 9.82,
-      "catalyst": "The FDA had several issues with ivonescimab, according to the letter.",
-      "prev_close": 19.15,
-      "premarket_volume": 1272460,
-      "session": "regular",
-      "catalyst_source": "BioPharma Dive",
-      "catalyst_headline": "FDA publishes rejection letter for Summit drug; Nuvalent buyout pays more dividends for GSK",
-      "catalyst_url": "https://www.biopharmadive.com/news/summit-crl-sellas-data-nelkarmi-lilly-astrazeneca-biogen/874825/"
-    },
-    {
-      "ticker": "BLSH",
-      "price": 21.09,
-      "gap_pct": 9.44,
-      "catalyst": "Bullish earnings, revenue surge despite falling crypto prices.",
-      "prev_close": 19.27,
-      "premarket_volume": 108328,
-      "session": "regular",
-      "catalyst_source": "Investor's Business Daily",
-      "catalyst_headline": "Bullish Stock Jumps On Earnings, Revenue Gains. Board Approves $300 Mil Buyback Plan.",
-      "catalyst_url": "https://www.investors.com/news/bullish-earnings-q3-2026-blsh-stock-tokenized-stocks-bitcoin-cryptocurrency/?src=A00220&yptr=yahoo"
-    },
-    {
       "ticker": "CAPR",
-      "price": 9.2,
-      "gap_pct": 9.39,
+      "price": 9.17,
+      "gap_pct": 9.02,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
       "prev_close": 8.41,
       "premarket_volume": 198763,
@@ -129,9 +105,21 @@
       "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
     },
     {
+      "ticker": "TGL",
+      "price": 3.9,
+      "gap_pct": 7.58,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
+      "prev_close": 3.63,
+      "premarket_volume": 1125013,
+      "session": "regular",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "BC-Most Active Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017076.html"
+    },
+    {
       "ticker": "TTWO",
-      "price": 220.07,
-      "gap_pct": 7.91,
+      "price": 218.68,
+      "gap_pct": 7.23,
       "catalyst": "Take-Two Interactive (TTWO) shares surge 5% as excitement builds ahead of the anticipated November 18 launch of Grand Theft Auto VI.",
       "prev_close": 203.93,
       "premarket_volume": 614530,
@@ -142,8 +130,8 @@
     },
     {
       "ticker": "RBLX",
-      "price": 47.15,
-      "gap_pct": 7.16,
+      "price": 47.01,
+      "gap_pct": 6.84,
       "catalyst": "Jefferies flagged near term bookings and engagement risks for Roblox (NYSE:RBLX) in a fresh report released this week.",
       "prev_close": 44.0,
       "premarket_volume": 84756,
@@ -153,9 +141,45 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/roblox-rblx-faces-near-term-121059402.html"
     },
     {
+      "ticker": "TGT",
+      "price": 168.79,
+      "gap_pct": 5.81,
+      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi.",
+      "prev_close": 159.53,
+      "premarket_volume": 584851,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance Video",
+      "catalyst_headline": "Nvidia earnings call takeaways and 3 things explaining the stock's market moves",
+      "catalyst_url": "https://finance.yahoo.com/video/nvidia-earnings-call-takeaways-and-3-things-explaining-the-stocks-market-moves-150945023.html"
+    },
+    {
+      "ticker": "PANW",
+      "price": 327.11,
+      "gap_pct": 5.76,
+      "catalyst": "The Dow Jones index falls Wednesday as a Fed official calls for a \"shock\" in rate hikes.",
+      "prev_close": 309.29,
+      "premarket_volume": 175978,
+      "session": "regular",
+      "catalyst_source": "Investor's Business Daily",
+      "catalyst_headline": "Stock Market Today: Dow Drops Amid Rate-Hike 'Shock' Fears; CoreWeave Tumbles (Live Coverage)",
+      "catalyst_url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/?src=A00220&yptr=yahoo"
+    },
+    {
+      "ticker": "IBRX",
+      "price": 6.59,
+      "gap_pct": 5.27,
+      "catalyst": "ImmunityBio plans to present the full response rates at a medical meeting, showing how much benefit Anktiva added.",
+      "prev_close": 6.26,
+      "premarket_volume": 88043,
+      "session": "regular",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "IBRX CEO Reveals Fresh Anktiva Data After Bladder Cancer Trial Win — Says FDA Filing Is Just Weeks Away",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/ibrx-ceo-fresh-anktiva-data-bladder-cancer-trial-win-fda-filing-weeks-away/cNbaZkAR9Wb"
+    },
+    {
       "ticker": "SVRA",
-      "price": 4.76,
-      "gap_pct": 6.22,
+      "price": 4.72,
+      "gap_pct": 5.25,
       "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval.",
       "prev_close": 4.48,
       "premarket_volume": 222451,
@@ -166,8 +190,8 @@
     },
     {
       "ticker": "CRWD",
-      "price": 233.21,
-      "gap_pct": 6.21,
+      "price": 231.1,
+      "gap_pct": 5.24,
       "catalyst": "Google is forecasting a wave of machine-run hacking while selling the cure, and Palo Alto reports earnings in the middle of it.",
       "prev_close": 219.58,
       "premarket_volume": 86802,
@@ -175,66 +199,6 @@
       "catalyst_source": "24/7 Wall St.",
       "catalyst_headline": "Google Says Fully Autonomous AI Cyberattacks Are Likely Within 6 Months",
       "catalyst_url": "https://247wallst.com/investing/2026/11/18/google-says-fully-autonomous-ai-cyberattacks-are-likely-within-6-months/"
-    },
-    {
-      "ticker": "PANW",
-      "price": 328.17,
-      "gap_pct": 6.1,
-      "catalyst": "October’s Consumer Price Index rose 0.4% from September, above the 0.3% economists expected, while core prices rose 0.3% against a forecast of 0.2%, the third straight month at that pace, Investing.com reported on…",
-      "prev_close": 309.29,
-      "premarket_volume": 175978,
-      "session": "regular",
-      "catalyst_source": "Insider Monkey",
-      "catalyst_headline": "Buy Alert: 5 Stocks Analysts Upgraded on Friday",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/buy-alert-5-stocks-analysts-161233275.html"
-    },
-    {
-      "ticker": "TGT",
-      "price": 168.34,
-      "gap_pct": 5.52,
-      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi.",
-      "prev_close": 159.53,
-      "premarket_volume": 584851,
-      "session": "regular",
-      "catalyst_source": "Yahoo Finance Video",
-      "catalyst_headline": "Nvidia earnings call takeaways and 3 things explaining the stock's market moves",
-      "catalyst_url": "https://finance.yahoo.com/video/nvidia-earnings-call-takeaways-and-3-things-explaining-the-stocks-market-moves-150945023.html"
-    },
-    {
-      "ticker": "NUAI",
-      "price": 3.38,
-      "gap_pct": 5.47,
-      "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers.",
-      "prev_close": 3.2,
-      "premarket_volume": 176498,
-      "session": "regular",
-      "catalyst_source": "Investing.com",
-      "catalyst_headline": "New Era Energy: A closer look",
-      "catalyst_url": "https://finance.yahoo.com/energy/articles/era-energy-closer-look-141542034.html"
-    },
-    {
-      "ticker": "IBRX",
-      "price": 6.6,
-      "gap_pct": 5.43,
-      "catalyst": "ImmunityBio plans to present the full response rates at a medical meeting, showing how much benefit Anktiva added.",
-      "prev_close": 6.26,
-      "premarket_volume": 88043,
-      "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "IBRX CEO Reveals Fresh Anktiva Data After Bladder Cancer Trial Win — Says FDA Filing Is Just Weeks Away",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/ibrx-ceo-fresh-anktiva-data-bladder-cancer-trial-win-fda-filing-weeks-away/cNbaZkAR9Wb"
-    },
-    {
-      "ticker": "MP",
-      "price": 36.63,
-      "gap_pct": 5.08,
-      "catalyst": "Trump promised to overtake China on rare earths in 10 months, yet he never said which part of the supply chain he meant.",
-      "prev_close": 34.86,
-      "premarket_volume": 101756,
-      "session": "regular",
-      "catalyst_source": "24/7 Wall St.",
-      "catalyst_headline": "Trump Says the U.S. Will “Catch” China on Rare Earths Within 10 Months",
-      "catalyst_url": "https://247wallst.com/investing/2026/11/18/trump-says-the-u-s-will-catch-china-on-rare-earths-within-10-months/"
     }
   ]
 }
