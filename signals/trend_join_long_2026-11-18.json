@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-18",
-  "generated_at_et": "2026-11-18 12:05:10 EST",
+  "generated_at_et": "2026-11-18 12:35:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-18.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 15,
+  "candidates": 12,
   "valid_count": 4,
   "valid_entries": [
     {
       "ticker": "PANW",
       "signal_time_et": "2026-11-18 10:00",
       "entry_price": 323.2191,
-      "last_price": 328.0293,
-      "gap_pct": 5.76,
+      "last_price": 333.09,
+      "gap_pct": 7.61,
       "yesterday_high": 316.05,
       "yesterday_close": 309.29,
       "sma200": 278.598,
@@ -27,24 +27,11 @@
       "catalyst": "The Dow Jones index falls Wednesday as a Fed official calls for a \"shock\" in rate hikes."
     },
     {
-      "ticker": "TGT",
-      "signal_time_et": "2026-11-18 10:00",
-      "entry_price": 168.72,
-      "last_price": 168.94,
-      "gap_pct": 5.81,
-      "yesterday_high": 161.27,
-      "yesterday_close": 159.53,
-      "sma200": 137.2425,
-      "premarket_high": 163.0,
-      "hod_before_signal": 168.6599,
-      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi."
-    },
-    {
       "ticker": "CRWD",
       "signal_time_et": "2026-11-18 10:07",
       "entry_price": 228.9224,
-      "last_price": 232.105,
-      "gap_pct": 5.24,
+      "last_price": 237.18,
+      "gap_pct": 8.03,
       "yesterday_high": 226.0,
       "yesterday_close": 219.58,
       "sma200": 174.1598,
@@ -56,14 +43,27 @@
       "ticker": "CLRO",
       "signal_time_et": "2026-11-18 10:45",
       "entry_price": 7.91,
-      "last_price": 7.11,
-      "gap_pct": 51.48,
+      "last_price": 7.05,
+      "gap_pct": 48.73,
       "yesterday_high": 5.25,
       "yesterday_close": 4.72,
       "sma200": 4.5377,
       "premarket_high": 5.48,
       "hod_before_signal": 7.88,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
+    },
+    {
+      "ticker": "CPIX",
+      "signal_time_et": "2026-11-18 11:40",
+      "entry_price": 6.1,
+      "last_price": 6.21,
+      "gap_pct": 5.43,
+      "yesterday_high": 5.84,
+      "yesterday_close": 5.8,
+      "sma200": 5.5918,
+      "premarket_high": 6.0911,
+      "hod_before_signal": 6.03,
+      "catalyst": "Cumberland Pharmaceuticals (NASDAQ:CPIX) reported third-quarter net income of $77.8 million, reflecting the sale of its commercial products to Apotex Health, and outlined plans to advance its lead drug candidate toward…"
     }
   ],
   "evaluated": [
@@ -76,9 +76,9 @@
       "yesterday_close": 309.29,
       "sma200": 278.598,
       "premarket_high": 317.6904,
-      "last_price": 328.0293,
-      "last_bar_et": "12:05",
-      "high_of_day": 333.29,
+      "last_price": 333.09,
+      "last_bar_et": "12:34",
+      "high_of_day": 333.55,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -89,33 +89,8 @@
       "entry_price": 323.2191,
       "hod_before_signal": 323.17,
       "low_5m": 316.79,
-      "gap_pct": 5.76,
+      "gap_pct": 7.61,
       "catalyst": "The Dow Jones index falls Wednesday as a Fed official calls for a \"shock\" in rate hikes."
-    },
-    {
-      "ticker": "TGT",
-      "status": "VALID_ENTRY",
-      "signal": true,
-      "atr14": 5.5493,
-      "yesterday_high": 161.27,
-      "yesterday_close": 159.53,
-      "sma200": 137.2425,
-      "premarket_high": 163.0,
-      "last_price": 168.94,
-      "last_bar_et": "12:05",
-      "high_of_day": 169.88,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "signal_time_et": "2026-11-18 10:00",
-      "entry_price": 168.72,
-      "hod_before_signal": 168.6599,
-      "low_5m": 167.25,
-      "gap_pct": 5.81,
-      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi."
     },
     {
       "ticker": "CRWD",
@@ -126,9 +101,9 @@
       "yesterday_close": 219.58,
       "sma200": 174.1598,
       "premarket_high": 224.7,
-      "last_price": 232.105,
-      "last_bar_et": "12:04",
-      "high_of_day": 235.3,
+      "last_price": 237.18,
+      "last_bar_et": "12:34",
+      "high_of_day": 237.57,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -139,7 +114,7 @@
       "entry_price": 228.9224,
       "hod_before_signal": 228.22,
       "low_5m": 225.21,
-      "gap_pct": 5.24,
+      "gap_pct": 8.03,
       "catalyst": "Google is forecasting a wave of machine-run hacking while selling the cure, and Palo Alto reports earnings in the middle of it."
     },
     {
@@ -151,8 +126,8 @@
       "yesterday_close": 4.72,
       "sma200": 4.5377,
       "premarket_high": 5.48,
-      "last_price": 7.11,
-      "last_bar_et": "12:04",
+      "last_price": 7.05,
+      "last_bar_et": "12:34",
       "high_of_day": 8.65,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -164,8 +139,33 @@
       "entry_price": 7.91,
       "hod_before_signal": 7.88,
       "low_5m": 6.6201,
-      "gap_pct": 51.48,
+      "gap_pct": 48.73,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
+    },
+    {
+      "ticker": "CPIX",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.7293,
+      "yesterday_high": 5.84,
+      "yesterday_close": 5.8,
+      "sma200": 5.5918,
+      "premarket_high": 6.0911,
+      "last_price": 6.21,
+      "last_bar_et": "12:33",
+      "high_of_day": 6.21,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "signal_time_et": "2026-11-18 11:40",
+      "entry_price": 6.1,
+      "hod_before_signal": 6.03,
+      "low_5m": 6.1,
+      "gap_pct": 5.43,
+      "catalyst": "Cumberland Pharmaceuticals (NASDAQ:CPIX) reported third-quarter net income of $77.8 million, reflecting the sale of its commercial products to Apotex Health, and outlined plans to advance its lead drug candidate toward…"
     },
     {
       "ticker": "AKAN",
@@ -176,8 +176,8 @@
       "yesterday_close": 2.05,
       "sma200": 8.0528,
       "premarket_high": 2.85,
-      "last_price": 3.415,
-      "last_bar_et": "12:05",
+      "last_price": 3.56,
+      "last_bar_et": "12:34",
       "high_of_day": 3.96,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -186,7 +186,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 64.39,
+      "gap_pct": 69.51,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -198,9 +198,9 @@
       "yesterday_close": 19.27,
       "sma200": 31.5453,
       "premarket_high": 21.7467,
-      "last_price": 21.24,
-      "last_bar_et": "12:05",
-      "high_of_day": 21.6,
+      "last_price": 21.74,
+      "last_bar_et": "12:34",
+      "high_of_day": 21.8402,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -208,8 +208,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.89,
-      "catalyst": "Shares in Bullish(NYSE: BLSH) rose over 9% to $21.06 on Wednesday noon, outperforming several cryptocurrency-related stocks as investors welcomed stronger-than-expected quarterly revenue, higher adjusted earnings and a…"
+      "gap_pct": 12.87,
+      "catalyst": "Bullish (NYSE:BLSH) reported third-quarter adjusted revenue growth of 10% and raised its projected cost savings from its pending Equiniti acquisition, even as executives warned that a weak crypto market could slow…"
     },
     {
       "ticker": "BRBR",
@@ -220,18 +220,18 @@
       "yesterday_close": 11.01,
       "sma200": 12.3825,
       "premarket_high": 13.53,
-      "last_price": 13.77,
-      "last_bar_et": "12:05",
+      "last_price": 13.51,
+      "last_bar_et": "12:34",
       "high_of_day": 14.015,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 24.75,
-      "catalyst": "One chipmaker is lifting the Nasdaq while the Dow and small caps barely budge."
+      "gap_pct": 24.25,
+      "catalyst": "BellRing Brands (NYSE:BRBR) expects fiscal 2027 sales to range from a 3% decline to 1% growth as price increases, retailer inventory adjustments and tougher distribution comparisons weigh on shipments, even as demand…"
     },
     {
       "ticker": "CAPR",
@@ -242,8 +242,8 @@
       "yesterday_close": 8.41,
       "sma200": 19.8141,
       "premarket_high": 9.15,
-      "last_price": 9.215,
-      "last_bar_et": "12:04",
+      "last_price": 9.27,
+      "last_bar_et": "12:34",
       "high_of_day": 9.49,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -252,8 +252,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.02,
+      "gap_pct": 9.51,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
+    },
+    {
+      "ticker": "CIFR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.9929,
+      "yesterday_high": 6.745,
+      "yesterday_close": 6.42,
+      "sma200": 17.0993,
+      "premarket_high": 6.89,
+      "last_price": 6.935,
+      "last_bar_et": "12:34",
+      "high_of_day": 6.95,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.85,
+      "catalyst": "Key TakeawaysBTIG reiterated its Buy rating and $27 price target on MARA Holdings on Nov."
     },
     {
       "ticker": "CUE",
@@ -264,9 +286,9 @@
       "yesterday_close": 2.83,
       "sma200": 21.5519,
       "premarket_high": 3.6599,
-      "last_price": 4.17,
-      "last_bar_et": "12:05",
-      "high_of_day": 4.26,
+      "last_price": 4.32,
+      "last_bar_et": "12:33",
+      "high_of_day": 4.47,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -274,7 +296,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 43.11,
+      "gap_pct": 50.3,
       "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…"
     },
     {
@@ -286,9 +308,9 @@
       "yesterday_close": 6.26,
       "sma200": 7.9692,
       "premarket_high": 6.34,
-      "last_price": 6.6197,
-      "last_bar_et": "12:05",
-      "high_of_day": 6.69,
+      "last_price": 6.75,
+      "last_bar_et": "12:34",
+      "high_of_day": 6.77,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -296,21 +318,21 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.27,
+      "gap_pct": 7.83,
       "catalyst": "ImmunityBio plans to present the full response rates at a medical meeting, showing how much benefit Anktiva added."
     },
     {
-      "ticker": "RBLX",
+      "ticker": "NUAI",
       "status": "FAIL",
       "signal": false,
-      "atr14": 3.6895,
-      "yesterday_high": 46.15,
-      "yesterday_close": 44.0,
-      "sma200": 50.6974,
-      "premarket_high": 45.0,
-      "last_price": 47.06,
-      "last_bar_et": "12:05",
-      "high_of_day": 47.4,
+      "atr14": 0.4859,
+      "yesterday_high": 3.32,
+      "yesterday_close": 3.2,
+      "sma200": 4.7709,
+      "premarket_high": 3.4,
+      "last_price": 3.535,
+      "last_bar_et": "12:34",
+      "high_of_day": 3.58,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -318,97 +340,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.84,
-      "catalyst": "Jefferies flagged near term bookings and engagement risks for Roblox (NYSE:RBLX) in a fresh report released this week."
-    },
-    {
-      "ticker": "SVRA",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.3068,
-      "yesterday_high": 4.6,
-      "yesterday_close": 4.48,
-      "sma200": 5.3241,
-      "premarket_high": 4.91,
-      "last_price": 4.7,
-      "last_bar_et": "12:04",
-      "high_of_day": 4.87,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.25,
-      "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval."
-    },
-    {
-      "ticker": "TGL",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.2865,
-      "yesterday_high": 3.92,
-      "yesterday_close": 3.63,
-      "sma200": 3.1961,
-      "premarket_high": 4.85,
-      "last_price": 3.92,
-      "last_bar_et": "12:05",
-      "high_of_day": 4.3493,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_yesterday_high, price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 7.58,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
-    },
-    {
-      "ticker": "TJX",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 4.0779,
-      "yesterday_high": 133.07,
-      "yesterday_close": 129.85,
-      "sma200": 150.2682,
-      "premarket_high": 141.0,
-      "last_price": 143.51,
-      "last_bar_et": "12:05",
-      "high_of_day": 143.7,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.47,
-      "catalyst": "TJX's CEO says stores are \"very strongly positioned\" for holiday gifting."
-    },
-    {
-      "ticker": "TTWO",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 12.0264,
-      "yesterday_high": 220.13,
-      "yesterday_close": 203.93,
-      "sma200": 218.2956,
-      "premarket_high": 219.5,
-      "last_price": 217.8997,
-      "last_bar_et": "12:05",
-      "high_of_day": 221.82,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.23,
-      "catalyst": "Take-Two Interactive (TTWO) shares surge 5% as excitement builds ahead of the anticipated November 18 launch of Grand Theft Auto VI."
+      "gap_pct": 10.01,
+      "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers."
     }
   ],
-  "scan_time_et": "12:05"
+  "scan_time_et": "12:35"
 }
