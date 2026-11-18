@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-18",
-  "generated_at_et": "2026-11-18 12:35:01 EST",
+  "generated_at_et": "2026-11-18 13:05:03 EST",
   "source_premarket_file": "premarket_scan_2026-11-18.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 12,
-  "valid_count": 4,
+  "candidates": 13,
+  "valid_count": 5,
   "valid_entries": [
     {
       "ticker": "PANW",
       "signal_time_et": "2026-11-18 10:00",
       "entry_price": 323.2191,
-      "last_price": 333.09,
-      "gap_pct": 7.61,
+      "last_price": 329.625,
+      "gap_pct": 6.64,
       "yesterday_high": 316.05,
       "yesterday_close": 309.29,
       "sma200": 278.598,
@@ -30,8 +30,8 @@
       "ticker": "CRWD",
       "signal_time_et": "2026-11-18 10:07",
       "entry_price": 228.9224,
-      "last_price": 237.18,
-      "gap_pct": 8.03,
+      "last_price": 235.545,
+      "gap_pct": 6.94,
       "yesterday_high": 226.0,
       "yesterday_close": 219.58,
       "sma200": 174.1598,
@@ -43,8 +43,8 @@
       "ticker": "CLRO",
       "signal_time_et": "2026-11-18 10:45",
       "entry_price": 7.91,
-      "last_price": 7.05,
-      "gap_pct": 48.73,
+      "last_price": 6.96,
+      "gap_pct": 47.22,
       "yesterday_high": 5.25,
       "yesterday_close": 4.72,
       "sma200": 4.5377,
@@ -56,14 +56,27 @@
       "ticker": "CPIX",
       "signal_time_et": "2026-11-18 11:40",
       "entry_price": 6.1,
-      "last_price": 6.21,
-      "gap_pct": 5.43,
+      "last_price": 6.14,
+      "gap_pct": 5.78,
       "yesterday_high": 5.84,
       "yesterday_close": 5.8,
       "sma200": 5.5918,
       "premarket_high": 6.0911,
       "hod_before_signal": 6.03,
       "catalyst": "Cumberland Pharmaceuticals (NASDAQ:CPIX) reported third-quarter net income of $77.8 million, reflecting the sale of its commercial products to Apotex Health, and outlined plans to advance its lead drug candidate toward…"
+    },
+    {
+      "ticker": "NCPL",
+      "signal_time_et": "2026-11-18 12:08",
+      "entry_price": 2.95,
+      "last_price": 3.03,
+      "gap_pct": 29.96,
+      "yesterday_high": 2.75,
+      "yesterday_close": 2.37,
+      "sma200": 0.7316,
+      "premarket_high": 2.95,
+      "hod_before_signal": 2.94,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     }
   ],
   "evaluated": [
@@ -76,9 +89,9 @@
       "yesterday_close": 309.29,
       "sma200": 278.598,
       "premarket_high": 317.6904,
-      "last_price": 333.09,
-      "last_bar_et": "12:34",
-      "high_of_day": 333.55,
+      "last_price": 329.625,
+      "last_bar_et": "13:05",
+      "high_of_day": 333.56,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -89,7 +102,7 @@
       "entry_price": 323.2191,
       "hod_before_signal": 323.17,
       "low_5m": 316.79,
-      "gap_pct": 7.61,
+      "gap_pct": 6.64,
       "catalyst": "The Dow Jones index falls Wednesday as a Fed official calls for a \"shock\" in rate hikes."
     },
     {
@@ -101,8 +114,8 @@
       "yesterday_close": 219.58,
       "sma200": 174.1598,
       "premarket_high": 224.7,
-      "last_price": 237.18,
-      "last_bar_et": "12:34",
+      "last_price": 235.545,
+      "last_bar_et": "13:05",
       "high_of_day": 237.57,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -114,7 +127,7 @@
       "entry_price": 228.9224,
       "hod_before_signal": 228.22,
       "low_5m": 225.21,
-      "gap_pct": 8.03,
+      "gap_pct": 6.94,
       "catalyst": "Google is forecasting a wave of machine-run hacking while selling the cure, and Palo Alto reports earnings in the middle of it."
     },
     {
@@ -126,8 +139,8 @@
       "yesterday_close": 4.72,
       "sma200": 4.5377,
       "premarket_high": 5.48,
-      "last_price": 7.05,
-      "last_bar_et": "12:34",
+      "last_price": 6.96,
+      "last_bar_et": "13:05",
       "high_of_day": 8.65,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -139,7 +152,7 @@
       "entry_price": 7.91,
       "hod_before_signal": 7.88,
       "low_5m": 6.6201,
-      "gap_pct": 48.73,
+      "gap_pct": 47.22,
       "catalyst": "WEST JORDAN, Utah (AP) — WEST JORDAN, Utah (AP) — ClearOne Inc."
     },
     {
@@ -151,21 +164,46 @@
       "yesterday_close": 5.8,
       "sma200": 5.5918,
       "premarket_high": 6.0911,
-      "last_price": 6.21,
-      "last_bar_et": "12:33",
+      "last_price": 6.14,
+      "last_bar_et": "13:01",
       "high_of_day": 6.21,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "signal_time_et": "2026-11-18 11:40",
       "entry_price": 6.1,
       "hod_before_signal": 6.03,
       "low_5m": 6.1,
-      "gap_pct": 5.43,
+      "gap_pct": 5.78,
       "catalyst": "Cumberland Pharmaceuticals (NASDAQ:CPIX) reported third-quarter net income of $77.8 million, reflecting the sale of its commercial products to Apotex Health, and outlined plans to advance its lead drug candidate toward…"
+    },
+    {
+      "ticker": "NCPL",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.3955,
+      "yesterday_high": 2.75,
+      "yesterday_close": 2.37,
+      "sma200": 0.7316,
+      "premarket_high": 2.95,
+      "last_price": 3.03,
+      "last_bar_et": "13:05",
+      "high_of_day": 3.1284,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-18 12:08",
+      "entry_price": 2.95,
+      "hod_before_signal": 2.94,
+      "low_5m": 2.8662,
+      "gap_pct": 29.96,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
       "ticker": "AKAN",
@@ -176,8 +214,8 @@
       "yesterday_close": 2.05,
       "sma200": 8.0528,
       "premarket_high": 2.85,
-      "last_price": 3.56,
-      "last_bar_et": "12:34",
+      "last_price": 3.81,
+      "last_bar_et": "13:05",
       "high_of_day": 3.96,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -186,7 +224,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 69.51,
+      "gap_pct": 85.37,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -198,9 +236,9 @@
       "yesterday_close": 19.27,
       "sma200": 31.5453,
       "premarket_high": 21.7467,
-      "last_price": 21.74,
-      "last_bar_et": "12:34",
-      "high_of_day": 21.8402,
+      "last_price": 21.635,
+      "last_bar_et": "13:04",
+      "high_of_day": 22.01,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -208,8 +246,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.87,
-      "catalyst": "Bullish (NYSE:BLSH) reported third-quarter adjusted revenue growth of 10% and raised its projected cost savings from its pending Equiniti acquisition, even as executives warned that a weak crypto market could slow…"
+      "gap_pct": 12.38,
+      "catalyst": "Scott Melker discusses crypto exchange Bullish (BLSH) topping third quarter revenue estimates."
     },
     {
       "ticker": "BRBR",
@@ -220,8 +258,8 @@
       "yesterday_close": 11.01,
       "sma200": 12.3825,
       "premarket_high": 13.53,
-      "last_price": 13.51,
-      "last_bar_et": "12:34",
+      "last_price": 13.48,
+      "last_bar_et": "13:04",
       "high_of_day": 14.015,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -230,7 +268,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 24.25,
+      "gap_pct": 22.38,
       "catalyst": "BellRing Brands (NYSE:BRBR) expects fiscal 2027 sales to range from a 3% decline to 1% growth as price increases, retailer inventory adjustments and tougher distribution comparisons weigh on shipments, even as demand…"
     },
     {
@@ -242,8 +280,8 @@
       "yesterday_close": 8.41,
       "sma200": 19.8141,
       "premarket_high": 9.15,
-      "last_price": 9.27,
-      "last_bar_et": "12:34",
+      "last_price": 9.16,
+      "last_bar_et": "13:04",
       "high_of_day": 9.49,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -252,7 +290,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.51,
+      "gap_pct": 8.92,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
     },
     {
@@ -264,17 +302,17 @@
       "yesterday_close": 6.42,
       "sma200": 17.0993,
       "premarket_high": 6.89,
-      "last_price": 6.935,
-      "last_bar_et": "12:34",
-      "high_of_day": 6.95,
+      "last_price": 6.8,
+      "last_bar_et": "13:05",
+      "high_of_day": 7.02,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.85,
+      "gap_pct": 6.15,
       "catalyst": "Key TakeawaysBTIG reiterated its Buy rating and $27 price target on MARA Holdings on Nov."
     },
     {
@@ -286,8 +324,8 @@
       "yesterday_close": 2.83,
       "sma200": 21.5519,
       "premarket_high": 3.6599,
-      "last_price": 4.32,
-      "last_bar_et": "12:33",
+      "last_price": 4.24,
+      "last_bar_et": "13:04",
       "high_of_day": 4.47,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -296,7 +334,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 50.3,
+      "gap_pct": 47.88,
       "catalyst": "Cue Biopharma (NASDAQ:CUE) reported positive top-line results from a Phase II trial of CUE-221 in patients with moderate-to-severe chronic spontaneous urticaria, or CSU, whose disease was inadequately controlled with…"
     },
     {
@@ -308,8 +346,8 @@
       "yesterday_close": 6.26,
       "sma200": 7.9692,
       "premarket_high": 6.34,
-      "last_price": 6.75,
-      "last_bar_et": "12:34",
+      "last_price": 6.715,
+      "last_bar_et": "13:04",
       "high_of_day": 6.77,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -318,7 +356,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.83,
+      "gap_pct": 7.19,
       "catalyst": "ImmunityBio plans to present the full response rates at a medical meeting, showing how much benefit Anktiva added."
     },
     {
@@ -330,9 +368,9 @@
       "yesterday_close": 3.2,
       "sma200": 4.7709,
       "premarket_high": 3.4,
-      "last_price": 3.535,
-      "last_bar_et": "12:34",
-      "high_of_day": 3.58,
+      "last_price": 3.575,
+      "last_bar_et": "13:04",
+      "high_of_day": 3.595,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -340,9 +378,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.01,
+      "gap_pct": 11.41,
       "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers."
     }
   ],
-  "scan_time_et": "12:35"
+  "scan_time_et": "13:05"
 }
