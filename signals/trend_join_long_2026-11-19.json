@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-19",
-  "generated_at_et": "2026-11-19 08:35:01 EST",
+  "generated_at_et": "2026-11-19 09:05:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-19.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 24,
+  "candidates": 27,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -24,8 +24,21 @@
       "sma200": 76.2693,
       "premarket_high": 52.75,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.09,
+      "gap_pct": 5.38,
       "catalyst": "Nvidia’s sharp 28% slide from its peak has pushed questions about China exposure in AI chips from background noise to front page risk."
+    },
+    {
+      "ticker": "AMBA",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 4.0586,
+      "yesterday_high": 55.12,
+      "yesterday_close": 54.64,
+      "sma200": 67.0223,
+      "premarket_high": 61.9998,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.63,
+      "catalyst": "QuickLogic (QUIK) delivered earnings and revenue surprises of -40.00% and -6.58%, respectively, for the quarter ended September 2026."
     },
     {
       "ticker": "APLD",
@@ -37,7 +50,7 @@
       "sma200": 29.9867,
       "premarket_high": 15.45,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.54,
+      "gap_pct": 6.26,
       "catalyst": "Key TakeawaysCoreWeave fell 4% today after Nvidia said it would be more selective about which neoclouds it helps finance."
     },
     {
@@ -50,7 +63,7 @@
       "sma200": 72.3659,
       "premarket_high": 28.1,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 8.24,
+      "gap_pct": 8.83,
       "catalyst": "Bulls welcomed early findings from ULA because Blue Origin’s New Glenn, slated to carry three AST BlueBirds in early 2027, uses the same BE-4 engines."
     },
     {
@@ -63,7 +76,7 @@
       "sma200": 66.3425,
       "premarket_high": 38.1189,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.5,
+      "gap_pct": 5.73,
       "catalyst": "Nvidia’s record US$116b quarter and firm stance on export control oversight have turned AI chips into a live test of how profit, policy and leadership all pull on a stock at once."
     },
     {
@@ -76,21 +89,8 @@
       "sma200": 223.7576,
       "premarket_high": 185.66,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.54,
+      "gap_pct": 6.58,
       "catalyst": "For companies racing to build AI data centers, getting electricity can mean waiting years for the grid to catch up."
-    },
-    {
-      "ticker": "BTDR",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.8808,
-      "yesterday_high": 4.23,
-      "yesterday_close": 3.89,
-      "sma200": 11.1594,
-      "premarket_high": 4.13,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.49,
-      "catalyst": "Bitdeer Technologies Group (NASDAQ:BTDR) is one of the 10 Stocks Investors Are Fleeing."
     },
     {
       "ticker": "CIFR",
@@ -102,7 +102,7 @@
       "sma200": 17.0508,
       "premarket_high": 7.05,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.94,
+      "gap_pct": 6.09,
       "catalyst": "Key TakeawaysRiot Platforms jumped 7% after activist Starboard Value said its CEO would pitch the stock at an investor conference."
     },
     {
@@ -115,21 +115,8 @@
       "sma200": 296.6303,
       "premarket_high": 231.39,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.59,
+      "gap_pct": 7.82,
       "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "ticker": "CRDO",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 15.2096,
-      "yesterday_high": 128.12,
-      "yesterday_close": 122.94,
-      "sma200": 180.9164,
-      "premarket_high": 130.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.21,
-      "catalyst": "Anthropic’s record sized IPO has pulled huge attention back to AI and high growth stories, even as some big chip stocks face selling pressure and fresh export rules."
     },
     {
       "ticker": "CRWD",
@@ -141,21 +128,47 @@
       "sma200": 174.8178,
       "premarket_high": 253.79,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.09,
+      "gap_pct": 5.31,
       "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "ticker": "FCEL",
+      "ticker": "CRWV",
       "status": "WAITING",
       "signal": false,
-      "atr14": 1.1464,
-      "yesterday_high": 8.41,
-      "yesterday_close": 7.76,
-      "sma200": 15.0034,
-      "premarket_high": 8.25,
+      "atr14": 6.3564,
+      "yesterday_high": 51.07,
+      "yesterday_close": 47.83,
+      "sma200": 88.3643,
+      "premarket_high": 51.0,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.67,
-      "catalyst": "Valvoline (VVV) delivered earnings and revenue surprises of 0.00% and -2.23%, respectively, for the quarter ended September 2026."
+      "gap_pct": 5.1,
+      "catalyst": "Anthropic priced its IPO at $83 a share on Wednesday evening."
+    },
+    {
+      "ticker": "GLXY",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.753,
+      "yesterday_high": 13.75,
+      "yesterday_close": 13.32,
+      "sma200": 23.1722,
+      "premarket_high": 14.22,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.46,
+      "catalyst": "Anthropic’s record breaking IPO, with a valuation reported around US$1.5b, has pushed digital infrastructure and transaction technology back into the spotlight."
+    },
+    {
+      "ticker": "HUT",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 7.2969,
+      "yesterday_high": 59.14,
+      "yesterday_close": 57.19,
+      "sma200": 82.3179,
+      "premarket_high": 61.3,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 6.52,
+      "catalyst": "Key TakeawaysNearwater Capital Markets, a $4."
     },
     {
       "ticker": "INHD",
@@ -167,8 +180,21 @@
       "sma200": 14.132,
       "premarket_high": 4.74,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 38.69,
+      "gap_pct": 39.12,
       "catalyst": "The micro-cap stock led Barchart’s bullish price surprises on Monday with a 3,661% gain on the day."
+    },
+    {
+      "ticker": "IREN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 2.6451,
+      "yesterday_high": 16.31,
+      "yesterday_close": 15.24,
+      "sma200": 42.0203,
+      "premarket_high": 16.25,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.05,
+      "catalyst": "Anthropic's Huge Spending Plan Is Lifting AI Cloud Stocks."
     },
     {
       "ticker": "MPU",
@@ -180,7 +206,7 @@
       "sma200": 8.053,
       "premarket_high": 3.49,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.15,
+      "gap_pct": 13.38,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -193,7 +219,7 @@
       "sma200": 179.6376,
       "premarket_high": 114.7,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.69,
+      "gap_pct": 5.47,
       "catalyst": "Anthropic's Huge Spending Plan Is Lifting AI Cloud Stocks."
     },
     {
@@ -206,8 +232,21 @@
       "sma200": 0.7426,
       "premarket_high": 3.4254,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 12.11,
+      "gap_pct": 11.07,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
+      "ticker": "P",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 10.0551,
+      "yesterday_high": 105.205,
+      "yesterday_close": 100.74,
+      "sma200": 87.7475,
+      "premarket_high": 109.0,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.7,
+      "catalyst": "Tech futures jumped on Palo Alto, Everpure and a strong Anthropic IPO , which will start trading as ANT."
     },
     {
       "ticker": "PANW",
@@ -219,21 +258,8 @@
       "sma200": 279.4664,
       "premarket_high": 376.7499,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.21,
+      "gap_pct": 8.21,
       "catalyst": "Cybersecurity giant keeps real on the alarming number of network outages."
-    },
-    {
-      "ticker": "PDD",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 2.57,
-      "yesterday_high": 77.84,
-      "yesterday_close": 77.45,
-      "sma200": 89.4368,
-      "premarket_high": 85.8,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.02,
-      "catalyst": "The results ended a string of profit declines for PDD Holdings, whose profitability has been under pressure in recent quarters it strengthens its e-commerce ecosystem."
     },
     {
       "ticker": "PL",
@@ -245,7 +271,7 @@
       "sma200": 25.8653,
       "premarket_high": 13.1106,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.81,
+      "gap_pct": 6.39,
       "catalyst": "If SpaceX retires the Falcon 9, Planet Labs will be ready with a replacement ride to space."
     },
     {
@@ -258,8 +284,21 @@
       "sma200": 79.7248,
       "premarket_high": 117.07,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.91,
+      "gap_pct": 5.6,
       "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
+    },
+    {
+      "ticker": "RERE",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.2394,
+      "yesterday_high": 4.135,
+      "yesterday_close": 3.99,
+      "sma200": 4.4548,
+      "premarket_high": 4.2,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 5.26,
+      "catalyst": "The latest US jobs report on 6 November showed 165,000 new roles added and a lower unemployment rate, which keeps pressure on interest rates and squeezes easy wins in big benchmark stocks."
     },
     {
       "ticker": "RIOT",
@@ -271,8 +310,17 @@
       "sma200": 19.3797,
       "premarket_high": 19.5011,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.43,
+      "gap_pct": 5.76,
       "catalyst": "Riot Platforms has shifted a large portion of its power and infrastructure toward AI data centers, securing around US$38b of contracted lease revenue over roughly 15 years, including a US$28b agreement for its…"
+    },
+    {
+      "ticker": "SKHY",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 93 trading days of history (< 200 needed for SMA200)",
+      "history_days": 93,
+      "gap_pct": 5.07,
+      "catalyst": "The chip sector rose on Thursday, led by shares of semiconductor giants AMD and Nvidia, as well as memory chip maker Micron."
     },
     {
       "ticker": "STX",
@@ -284,7 +332,7 @@
       "sma200": 702.2096,
       "premarket_high": 550.92,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.87,
+      "gap_pct": 5.45,
       "catalyst": "The AI trade gets a shot in the arm as investors await Anthropic’s IPO, as the Claude developer aims for a $1.5 trillion valuation."
     },
     {
@@ -297,21 +345,8 @@
       "sma200": 18.9183,
       "premarket_high": 10.6999,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 9.78,
+      "gap_pct": 10.2,
       "catalyst": "This article looks at the 5 Best Drone Stocks to Buy According to Wall Street Analysts."
-    },
-    {
-      "ticker": "WDC",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 27.33,
-      "yesterday_high": 295.6,
-      "yesterday_close": 288.19,
-      "sma200": 422.1933,
-      "premarket_high": 306.0,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.01,
-      "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
       "ticker": "WULF",
@@ -321,11 +356,11 @@
       "yesterday_high": 12.6,
       "yesterday_close": 12.0,
       "sma200": 17.9586,
-      "premarket_high": 12.73,
+      "premarket_high": 12.8242,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.83,
+      "gap_pct": 6.64,
       "catalyst": "Anthropic’s record breaking IPO, with a valuation reported around US$1.5b, has pushed digital infrastructure and transaction technology back into the spotlight."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
