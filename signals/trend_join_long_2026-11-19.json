@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-19",
-  "generated_at_et": "2026-11-19 10:05:01 EST",
+  "generated_at_et": "2026-11-19 10:35:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-19.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,21 +10,73 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 38,
-  "valid_count": 1,
+  "candidates": 25,
+  "valid_count": 5,
   "valid_entries": [
     {
       "ticker": "NTSK",
       "signal_time_et": "2026-11-19 10:01",
       "entry_price": 26.1,
-      "last_price": 26.275,
-      "gap_pct": 10.96,
+      "last_price": 25.525,
+      "gap_pct": 9.3,
       "yesterday_high": 23.743,
       "yesterday_close": 23.505,
       "sma200": 13.6325,
       "premarket_high": 24.77,
       "hod_before_signal": 26.07,
       "catalyst": "Today’s big story: Could Anthropic Stock Fall 25."
+    },
+    {
+      "ticker": "NET",
+      "signal_time_et": "2026-11-19 10:08",
+      "entry_price": 324.415,
+      "last_price": 318.34,
+      "gap_pct": 5.8,
+      "yesterday_high": 307.48,
+      "yesterday_close": 300.91,
+      "sma200": 255.0152,
+      "premarket_high": 320.92,
+      "hod_before_signal": 324.0762,
+      "catalyst": "Palo Alto Networks hiked its fiscal 2027 guidance, signaling that customers are spending more to protect AI systems."
+    },
+    {
+      "ticker": "S",
+      "signal_time_et": "2026-11-19 10:08",
+      "entry_price": 25.22,
+      "last_price": 24.7675,
+      "gap_pct": 5.87,
+      "yesterday_high": 23.525,
+      "yesterday_close": 23.34,
+      "sma200": 18.1793,
+      "premarket_high": 24.49,
+      "hod_before_signal": 25.21,
+      "catalyst": "Today’s big story: Could Anthropic Stock Fall 25."
+    },
+    {
+      "ticker": "P",
+      "signal_time_et": "2026-11-19 10:11",
+      "entry_price": 113.99,
+      "last_price": 113.4,
+      "gap_pct": 11.44,
+      "yesterday_high": 105.205,
+      "yesterday_close": 100.74,
+      "sma200": 87.7475,
+      "premarket_high": 109.3562,
+      "hod_before_signal": 113.8,
+      "catalyst": "Tech futures jumped on Palo Alto, Everpure and a strong Anthropic IPO , which will start trading as ANT."
+    },
+    {
+      "ticker": "NCPL",
+      "signal_time_et": "2026-11-19 10:20",
+      "entry_price": 3.69,
+      "last_price": 3.82,
+      "gap_pct": 29.34,
+      "yesterday_high": 3.21,
+      "yesterday_close": 2.89,
+      "sma200": 0.7426,
+      "premarket_high": 3.57,
+      "hod_before_signal": 3.67,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     }
   ],
   "evaluated": [
@@ -37,65 +89,121 @@
       "yesterday_close": 23.505,
       "sma200": 13.6325,
       "premarket_high": 24.77,
-      "last_price": 26.275,
-      "last_bar_et": "10:04",
-      "high_of_day": 26.28,
+      "last_price": 25.525,
+      "last_bar_et": "10:34",
+      "high_of_day": 26.45,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "signal_time_et": "2026-11-19 10:01",
       "entry_price": 26.1,
       "hod_before_signal": 26.07,
       "low_5m": 25.67,
-      "gap_pct": 10.96,
+      "gap_pct": 9.3,
       "catalyst": "Today’s big story: Could Anthropic Stock Fall 25."
     },
     {
-      "ticker": "AEHR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 8.1157,
-      "yesterday_high": 51.72,
-      "yesterday_close": 49.48,
-      "sma200": 76.2693,
-      "premarket_high": 52.75,
-      "last_price": 53.91,
-      "last_bar_et": "10:04",
-      "high_of_day": 53.91,
+      "ticker": "NET",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 23.5314,
+      "yesterday_high": 307.48,
+      "yesterday_close": 300.91,
+      "sma200": 255.0152,
+      "premarket_high": 320.92,
+      "last_price": 318.34,
+      "last_bar_et": "10:34",
+      "high_of_day": 326.5,
       "checks_now": {
         "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
       },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.97,
-      "catalyst": "Nvidia’s sharp 28% slide from its peak has pushed questions about China exposure in AI chips from background noise to front page risk."
+      "signal_time_et": "2026-11-19 10:08",
+      "entry_price": 324.415,
+      "hod_before_signal": 324.0762,
+      "low_5m": 316.12,
+      "gap_pct": 5.8,
+      "catalyst": "Palo Alto Networks hiked its fiscal 2027 guidance, signaling that customers are spending more to protect AI systems."
     },
     {
-      "ticker": "ALAB",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 24.9172,
-      "yesterday_high": 222.01,
-      "yesterday_close": 216.75,
-      "sma200": 258.3094,
-      "premarket_high": 229.3,
-      "last_price": 239.0308,
-      "last_bar_et": "10:04",
-      "high_of_day": 239.0308,
+      "ticker": "S",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 1.5574,
+      "yesterday_high": 23.525,
+      "yesterday_close": 23.34,
+      "sma200": 18.1793,
+      "premarket_high": 24.49,
+      "last_price": 24.7675,
+      "last_bar_et": "10:34",
+      "high_of_day": 25.24,
       "checks_now": {
         "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
+        "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.96,
-      "catalyst": "The biggest IPO in history has just landed."
+      "signal_time_et": "2026-11-19 10:08",
+      "entry_price": 25.22,
+      "hod_before_signal": 25.21,
+      "low_5m": 24.69,
+      "gap_pct": 5.87,
+      "catalyst": "Today’s big story: Could Anthropic Stock Fall 25."
+    },
+    {
+      "ticker": "P",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 10.0551,
+      "yesterday_high": 105.205,
+      "yesterday_close": 100.74,
+      "sma200": 87.7475,
+      "premarket_high": 109.3562,
+      "last_price": 113.4,
+      "last_bar_et": "10:34",
+      "high_of_day": 114.245,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-19 10:11",
+      "entry_price": 113.99,
+      "hod_before_signal": 113.8,
+      "low_5m": 111.305,
+      "gap_pct": 11.44,
+      "catalyst": "Tech futures jumped on Palo Alto, Everpure and a strong Anthropic IPO , which will start trading as ANT."
+    },
+    {
+      "ticker": "NCPL",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.4004,
+      "yesterday_high": 3.21,
+      "yesterday_close": 2.89,
+      "sma200": 0.7426,
+      "premarket_high": 3.57,
+      "last_price": 3.82,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.84,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-19 10:20",
+      "entry_price": 3.69,
+      "hod_before_signal": 3.67,
+      "low_5m": 3.58,
+      "gap_pct": 29.34,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
       "ticker": "AMBA",
@@ -106,8 +214,8 @@
       "yesterday_close": 54.64,
       "sma200": 67.0223,
       "premarket_high": 61.9998,
-      "last_price": 61.805,
-      "last_bar_et": "10:04",
+      "last_price": 59.86,
+      "last_bar_et": "10:34",
       "high_of_day": 62.25,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -116,74 +224,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.55,
+      "gap_pct": 10.4,
       "catalyst": "QuickLogic (QUIK) delivered earnings and revenue surprises of -40.00% and -6.58%, respectively, for the quarter ended September 2026."
-    },
-    {
-      "ticker": "APLD",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.8132,
-      "yesterday_high": 14.9,
-      "yesterday_close": 14.45,
-      "sma200": 29.9867,
-      "premarket_high": 15.45,
-      "last_price": 15.39,
-      "last_bar_et": "10:04",
-      "high_of_day": 15.69,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.06,
-      "catalyst": "Key TakeawaysCoreWeave fell 4% today after Nvidia said it would be more selective about which neoclouds it helps finance."
-    },
-    {
-      "ticker": "ASTS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 4.065,
-      "yesterday_high": 28.1,
-      "yesterday_close": 25.49,
-      "sma200": 72.3659,
-      "premarket_high": 28.1,
-      "last_price": 27.23,
-      "last_bar_et": "10:04",
-      "high_of_day": 28.47,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.75,
-      "catalyst": "B."
-    },
-    {
-      "ticker": "BE",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 22.4589,
-      "yesterday_high": 180.47,
-      "yesterday_close": 170.98,
-      "sma200": 223.7576,
-      "premarket_high": 185.66,
-      "last_price": 186.1,
-      "last_bar_et": "10:04",
-      "high_of_day": 186.1876,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.67,
-      "catalyst": "For companies racing to build AI data centers, getting electricity can mean waiting years for the grid to catch up."
     },
     {
       "ticker": "BLZE",
@@ -194,9 +236,9 @@
       "yesterday_close": 6.98,
       "sma200": 9.4006,
       "premarket_high": 7.3,
-      "last_price": 7.635,
-      "last_bar_et": "10:04",
-      "high_of_day": 7.64,
+      "last_price": 7.45,
+      "last_bar_et": "10:34",
+      "high_of_day": 7.6607,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -204,7 +246,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.59,
+      "gap_pct": 6.88,
       "catalyst": "Investors need to pay close attention to BLZE stock based on the movements in the options market lately."
     },
     {
@@ -216,9 +258,9 @@
       "yesterday_close": 8.03,
       "sma200": 19.7299,
       "premarket_high": 8.37,
-      "last_price": 8.72,
-      "last_bar_et": "10:04",
-      "high_of_day": 8.79,
+      "last_price": 8.62,
+      "last_bar_et": "10:34",
+      "high_of_day": 9.12,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -226,52 +268,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.04,
+      "gap_pct": 7.47,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
-    },
-    {
-      "ticker": "CIFR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.9839,
-      "yesterday_high": 7.02,
-      "yesterday_close": 6.57,
-      "sma200": 17.0508,
-      "premarket_high": 7.05,
-      "last_price": 6.945,
-      "last_bar_et": "10:04",
-      "high_of_day": 7.225,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.25,
-      "catalyst": "CIFR secures 700 MW of HPC capacity, representing $16.6 billion in base-term revenues, with long-term leases supporting future growth."
-    },
-    {
-      "ticker": "CLS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 23.0907,
-      "yesterday_high": 249.84,
-      "yesterday_close": 243.32,
-      "sma200": 327.611,
-      "premarket_high": 257.02,
-      "last_price": 260.96,
-      "last_bar_et": "10:04",
-      "high_of_day": 263.72,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.13,
-      "catalyst": "The European Central Bank just warned that the AI boom and mega IPOs like Anthropic’s planned $1.4t listing could echo past credit bubbles, which puts growth and balance sheet quality firmly under the spotlight."
     },
     {
       "ticker": "COHR",
@@ -282,40 +280,18 @@
       "yesterday_close": 212.84,
       "sma200": 296.6303,
       "premarket_high": 232.48,
-      "last_price": 239.735,
-      "last_bar_et": "10:04",
-      "high_of_day": 239.84,
+      "last_price": 225.665,
+      "last_bar_et": "10:34",
+      "high_of_day": 240.77,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.39,
-      "catalyst": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it."
-    },
-    {
-      "ticker": "CRDO",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 15.2096,
-      "yesterday_high": 128.12,
-      "yesterday_close": 122.94,
-      "sma200": 180.9164,
-      "premarket_high": 130.0,
-      "last_price": 130.2051,
-      "last_bar_et": "10:04",
-      "high_of_day": 131.15,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.35,
-      "catalyst": "Key TakeawaysCredo Technology (CRDO:NASDAQ) stock fell 8% in the past week as turmoil at Nvidia (NVDA:NASDAQ) hit AI chip stocks, Marvell included."
+      "gap_pct": 7.68,
+      "catalyst": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it."
     },
     {
       "ticker": "CRWD",
@@ -326,93 +302,18 @@
       "yesterday_close": 237.03,
       "sma200": 174.8178,
       "premarket_high": 253.79,
-      "last_price": 254.98,
-      "last_bar_et": "10:04",
+      "last_price": 250.09,
+      "last_bar_et": "10:34",
       "high_of_day": 256.73,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 6.91,
-      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi runs down a list of guests, including CrowdStrike (CRWD) CEO George Kurtz and O'Leary Ventures chairman Kevin O'Leary, who weighed in on Anthropic's (ANT) IPO and its…"
-    },
-    {
-      "ticker": "CRWV",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 6.3564,
-      "yesterday_high": 51.07,
-      "yesterday_close": 47.83,
-      "sma200": 88.3643,
-      "premarket_high": 51.0,
-      "last_price": 51.93,
-      "last_bar_et": "10:04",
-      "high_of_day": 52.86,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.88,
-      "catalyst": "Brian Venturo's debt purchase comes as investors assess CoreWeave's financing needs and AI infrastructure growth."
-    },
-    {
-      "ticker": "DDOG",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 14.8951,
-      "yesterday_high": 170.26,
-      "yesterday_close": 167.11,
-      "sma200": 201.9992,
-      "premarket_high": 176.15,
-      "last_price": 181.815,
-      "last_bar_et": "10:04",
-      "high_of_day": 182.39,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.27,
-      "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "ticker": "DELL",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 36.9764,
-      "yesterday_high": 329.25,
-      "yesterday_close": 313.11,
-      "sma200": 346.4289,
-      "premarket_high": 328.7874,
-      "last_price": 335.325,
-      "last_bar_et": "10:04",
-      "high_of_day": 335.5794,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.51,
-      "catalyst": "Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Dell Technologies (DELL), delve into some of its key metrics to gain a deeper insight into the company's potential performance for the quarter…"
-    },
-    {
-      "ticker": "FRVO",
-      "status": "SHORT_HISTORY",
-      "signal": false,
-      "reason": "Only 132 trading days of history (< 200 needed for SMA200)",
-      "history_days": 132,
-      "gap_pct": 5.92,
-      "catalyst": "Energy stocks were mixed in early trading on Thursday, with the State Street Energy Select Sector SP."
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 5.77,
+      "catalyst": "Palo Alto Networks hiked its fiscal 2027 guidance, signaling that customers are spending more to protect AI systems."
     },
     {
       "ticker": "FUTU",
@@ -423,17 +324,17 @@
       "yesterday_close": 83.18,
       "sma200": 120.8805,
       "premarket_high": 86.53,
-      "last_price": 90.7,
-      "last_bar_et": "10:04",
-      "high_of_day": 90.7,
+      "last_price": 88.38,
+      "last_bar_et": "10:34",
+      "high_of_day": 91.29,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.32,
+      "gap_pct": 6.62,
       "catalyst": "Anthropic’s planned ~$1.4tn Nasdaq IPO, with up to ~$90bn on the table, puts a global spotlight on who actually gets access to the next wave of AI giants."
     },
     {
@@ -445,8 +346,8 @@
       "yesterday_close": 145.14,
       "sma200": 133.2384,
       "premarket_high": 148.7,
-      "last_price": 153.15,
-      "last_bar_et": "10:04",
+      "last_price": 152.2025,
+      "last_bar_et": "10:34",
       "high_of_day": 155.97,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -455,52 +356,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 5.83,
+      "gap_pct": 5.09,
       "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "ticker": "HOOD",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 5.1806,
-      "yesterday_high": 69.96,
-      "yesterday_close": 69.17,
-      "sma200": 91.079,
-      "premarket_high": 73.04,
-      "last_price": 73.18,
-      "last_bar_et": "10:04",
-      "high_of_day": 74.04,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.8,
-      "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "ticker": "HY",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.2107,
-      "yesterday_high": 21.2,
-      "yesterday_close": 15.44,
-      "sma200": 33.9714,
-      "premarket_high": 16.14,
-      "last_price": 16.32,
-      "last_bar_et": "10:04",
-      "high_of_day": 17.24,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.51,
-      "catalyst": "Investing.com -- Hyster-Yale Inc (NYSE:HY) shares tumbled 28% Wednesday following the company's announcement of a $125 million convertible senior notes offering."
     },
     {
       "ticker": "INHD",
@@ -511,8 +368,8 @@
       "yesterday_close": 2.3,
       "sma200": 14.132,
       "premarket_high": 4.74,
-      "last_price": 3.4,
-      "last_bar_et": "10:04",
+      "last_price": 3.22,
+      "last_bar_et": "10:34",
       "high_of_day": 3.46,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -521,96 +378,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 39.78,
+      "gap_pct": 42.16,
       "catalyst": "The micro-cap stock led Barchart’s bullish price surprises on Monday with a 3,661% gain on the day."
-    },
-    {
-      "ticker": "INTC",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 6.1114,
-      "yesterday_high": 56.0,
-      "yesterday_close": 54.67,
-      "sma200": 87.5031,
-      "premarket_high": 57.6,
-      "last_price": 59.34,
-      "last_bar_et": "10:04",
-      "high_of_day": 59.34,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.72,
-      "catalyst": "Intel just landed a mystery customer for its most advanced chip process, and the rebound is lifting NVIDIA and AMD too."
-    },
-    {
-      "ticker": "IONQ",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 3.0831,
-      "yesterday_high": 25.6,
-      "yesterday_close": 23.48,
-      "sma200": 41.0235,
-      "premarket_high": 24.79,
-      "last_price": 25.29,
-      "last_bar_et": "10:04",
-      "high_of_day": 25.97,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.33,
-      "catalyst": "IonQ just posted a blockbuster quarter, yet its shares sank anyway and now sit near a 52-week low."
-    },
-    {
-      "ticker": "IREN",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 2.6451,
-      "yesterday_high": 16.31,
-      "yesterday_close": 15.24,
-      "sma200": 42.0203,
-      "premarket_high": 16.25,
-      "last_price": 16.19,
-      "last_bar_et": "10:04",
-      "high_of_day": 16.66,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.48,
-      "catalyst": "IREN's $20.3 billion backlog and surging AI Cloud revenues strengthen its growth outlook, but execution challenges and capital demands remain key risks."
-    },
-    {
-      "ticker": "LITE",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 74.7566,
-      "yesterday_high": 580.0,
-      "yesterday_close": 551.07,
-      "sma200": 815.9102,
-      "premarket_high": 580.08,
-      "last_price": 583.6224,
-      "last_bar_et": "10:04",
-      "high_of_day": 587.69,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.15,
-      "catalyst": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it."
     },
     {
       "ticker": "MPU",
@@ -621,8 +390,8 @@
       "yesterday_close": 2.84,
       "sma200": 8.053,
       "premarket_high": 3.49,
-      "last_price": 3.41,
-      "last_bar_et": "10:03",
+      "last_price": 3.345,
+      "last_bar_et": "10:30",
       "high_of_day": 3.73,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -631,74 +400,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 20.42,
+      "gap_pct": 17.78,
       "catalyst": "No recent news catalyst found."
-    },
-    {
-      "ticker": "MU",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 65.4514,
-      "yesterday_high": 722.96,
-      "yesterday_close": 705.27,
-      "sma200": 769.9294,
-      "premarket_high": 749.2,
-      "last_price": 756.5994,
-      "last_bar_et": "10:04",
-      "high_of_day": 757.1499,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.3,
-      "catalyst": "The chip sector rose on Thursday, led by shares of semiconductor giants AMD and Nvidia, as well as memory chipmaker Micron."
-    },
-    {
-      "ticker": "NCPL",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.4004,
-      "yesterday_high": 3.21,
-      "yesterday_close": 2.89,
-      "sma200": 0.7426,
-      "premarket_high": 3.57,
-      "last_price": 3.445,
-      "last_bar_et": "10:04",
-      "high_of_day": 3.67,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 20.42,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
-    },
-    {
-      "ticker": "NET",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 23.5314,
-      "yesterday_high": 307.48,
-      "yesterday_close": 300.91,
-      "sma200": 255.0152,
-      "premarket_high": 320.92,
-      "last_price": 321.7175,
-      "last_bar_et": "10:04",
-      "high_of_day": 324.0762,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 6.06,
-      "catalyst": "Key TakeawaysPalo Alto Networks shares jumped 6% after revenue grew 39% and the company raised its full-year outlook."
     },
     {
       "ticker": "NUAI",
@@ -709,84 +412,18 @@
       "yesterday_close": 3.99,
       "sma200": 4.7576,
       "premarket_high": 4.19,
-      "last_price": 4.2582,
-      "last_bar_et": "10:04",
-      "high_of_day": 4.31,
+      "last_price": 4.13,
+      "last_bar_et": "10:34",
+      "high_of_day": 4.395,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.14,
-      "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers."
-    },
-    {
-      "ticker": "NVTS",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.971,
-      "yesterday_high": 7.98,
-      "yesterday_close": 7.3,
-      "sma200": 13.2467,
-      "premarket_high": 7.69,
-      "last_price": 7.7894,
-      "last_bar_et": "10:04",
-      "high_of_day": 7.92,
-      "checks_now": {
-        "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.99,
-      "catalyst": "Key TakeawaysNavitas shares fell 18% in a week as AI chip stocks sold off after NVIDIA CEO Jensen Huang resigned, with no bad news from Navitas itself."
-    },
-    {
-      "ticker": "P",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 10.0551,
-      "yesterday_high": 105.205,
-      "yesterday_close": 100.74,
-      "sma200": 87.7475,
-      "premarket_high": 109.3562,
-      "last_price": 113.23,
-      "last_bar_et": "10:04",
-      "high_of_day": 113.8,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 11.76,
-      "catalyst": "Tech futures jumped on Palo Alto, Everpure and a strong Anthropic IPO , which will start trading as ANT."
-    },
-    {
-      "ticker": "PANW",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 20.1986,
-      "yesterday_high": 342.36,
-      "yesterday_close": 339.92,
-      "sma200": 279.4664,
-      "premarket_high": 376.7499,
-      "last_price": 364.84,
-      "last_bar_et": "10:04",
-      "high_of_day": 370.0,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 8.28,
-      "catalyst": "Palo Alto Networks (PANW) topped Wall Street's Q1 earnings expectations and raised its full-year outlook amid growing demand for cybersecurity solutions."
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.14,
+      "catalyst": "Investing.com -- New Era Energy & Digital (NUAI) builds data center campuses and power supply for AI hyperscalers."
     },
     {
       "ticker": "PDD",
@@ -797,40 +434,18 @@
       "yesterday_close": 77.45,
       "sma200": 89.4368,
       "premarket_high": 85.8,
-      "last_price": 86.8448,
-      "last_bar_et": "10:04",
+      "last_price": 85.73,
+      "last_bar_et": "10:34",
       "high_of_day": 87.38,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
+        "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.76,
+      "gap_pct": 10.29,
       "catalyst": "PDD Holdings Inc (NASDAQ:PDD) shares climbed about 8% in premarket trading on Thursday after the Chinese e-commerce group reported third-quarter adjusted earnings and operating profit above analyst expectations,…"
-    },
-    {
-      "ticker": "PLTR",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 9.8096,
-      "yesterday_high": 158.44,
-      "yesterday_close": 156.67,
-      "sma200": 153.8298,
-      "premarket_high": 161.49,
-      "last_price": 166.8999,
-      "last_bar_et": "10:04",
-      "high_of_day": 167.13,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 5.82,
-      "catalyst": "The fund sold $186.2 million of stock and bought nothing, cutting 103 positions while adding no new ones."
     },
     {
       "ticker": "PURR",
@@ -841,8 +456,8 @@
       "yesterday_close": 7.95,
       "sma200": 7.9679,
       "premarket_high": 8.37,
-      "last_price": 8.805,
-      "last_bar_et": "10:04",
+      "last_price": 8.52,
+      "last_bar_et": "10:34",
       "high_of_day": 9.0016,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -851,9 +466,185 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.63,
+      "gap_pct": 7.04,
       "catalyst": "Elon Musk called the Hyperliquid and TradeXYZ partnership \"interesting\" Thursday, reposting Stan Druckenmiller’s comments and sending HYPE up as much as 17%."
+    },
+    {
+      "ticker": "RBRK",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 8.4684,
+      "yesterday_high": 110.02,
+      "yesterday_close": 110.0,
+      "sma200": 79.7248,
+      "premarket_high": 117.07,
+      "last_price": 118.4701,
+      "last_bar_et": "10:34",
+      "high_of_day": 123.65,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 7.88,
+      "catalyst": "Today's big story: Could Anthropic Stock Fall 25."
+    },
+    {
+      "ticker": "SMX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 3.5295,
+      "yesterday_high": 3.388,
+      "yesterday_close": 2.85,
+      "sma200": 903.6077,
+      "premarket_high": 3.0439,
+      "last_price": 3.1071,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.4,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 8.77,
+      "catalyst": "SMX (NASDAQ:SMX) announced the development of SMX Scientific Intelligence (SMX SCI), an artificial intelligence-powered platform designed to support industrial material research, chemical analysis and manufacturing…"
+    },
+    {
+      "ticker": "STX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 49.8371,
+      "yesterday_high": 525.52,
+      "yesterday_close": 515.9,
+      "sma200": 702.2096,
+      "premarket_high": 550.92,
+      "last_price": 545.65,
+      "last_bar_et": "10:34",
+      "high_of_day": 568.31,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.33,
+      "catalyst": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it."
+    },
+    {
+      "ticker": "SVRA",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3189,
+      "yesterday_high": 4.87,
+      "yesterday_close": 4.72,
+      "sma200": 5.3194,
+      "premarket_high": 4.95,
+      "last_price": 5.005,
+      "last_bar_et": "10:34",
+      "high_of_day": 5.14,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.25,
+      "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval."
+    },
+    {
+      "ticker": "TIGR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2201,
+      "yesterday_high": 3.79,
+      "yesterday_close": 3.55,
+      "sma200": 5.5232,
+      "premarket_high": 3.69,
+      "last_price": 3.83,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.89,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.79,
+      "catalyst": "A near trillion dollar Anthropic IPO with a large retail allocation is about to pull huge attention back into trading apps and brokerage platforms, and that surge in curiosity about AI and option fueled speculation…"
+    },
+    {
+      "ticker": "TU",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.3536,
+      "yesterday_high": 9.65,
+      "yesterday_close": 9.51,
+      "sma200": 11.0272,
+      "premarket_high": 9.96,
+      "last_price": 10.6509,
+      "last_bar_et": "10:34",
+      "high_of_day": 10.737,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 12.3,
+      "catalyst": "(Updates third paragraph with BCE declining to comment.) BCE (BCE.TO) has held preliminary discus."
+    },
+    {
+      "ticker": "UMAC",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.4996,
+      "yesterday_high": 10.42,
+      "yesterday_close": 9.61,
+      "sma200": 18.9183,
+      "premarket_high": 10.6999,
+      "last_price": 10.18,
+      "last_bar_et": "10:34",
+      "high_of_day": 11.078,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.31,
+      "catalyst": "This article looks at the 5 Best Drone Stocks to Buy According to Wall Street Analysts."
+    },
+    {
+      "ticker": "WDC",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 27.33,
+      "yesterday_high": 295.6,
+      "yesterday_close": 288.19,
+      "sma200": 422.1933,
+      "premarket_high": 307.64,
+      "last_price": 304.63,
+      "last_bar_et": "10:34",
+      "high_of_day": 316.11,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.77,
+      "catalyst": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it."
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }
