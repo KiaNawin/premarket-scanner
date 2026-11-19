@@ -1,162 +1,32 @@
 {
-  "ticker": "NCPL",
-  "saved_at_et": "2026-11-19T09:34:11-05:00",
+  "ticker": "INHD",
+  "saved_at_et": "2026-11-19T10:04:31-05:00",
   "response": [
     {
-      "id": "c4442ae2-5e35-3b3f-a831-8319d7fda857",
+      "id": "46677614-e4d9-3639-8837-7f35d63d53a7",
       "content": {
-        "id": "c4442ae2-5e35-3b3f-a831-8319d7fda857",
+        "id": "46677614-e4d9-3639-8837-7f35d63d53a7",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "From Penny Stock to $100 Million in One Day: The Ultimate Meme Stock Has Arrived",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  WF Holding Ltd.",
-        "pubDate": "2026-10-29T14:30:51Z",
-        "displayTime": "2026-10-29T14:30:51Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143051087.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143051087.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "GOOG"
-            },
-            {
-              "symbol": "INLF"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "WFF"
-            },
-            {
-              "symbol": "RBNE"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "PURR"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "SOFI"
-            },
-            {
-              "symbol": "IOVA"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "NCPL"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "DVLT"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "4c2f33d1-bfa0-3d3d-9a51-d37fadbf9e6f",
-      "content": {
-        "id": "4c2f33d1-bfa0-3d3d-9a51-d37fadbf9e6f",
-        "contentType": "STORY",
-        "title": "Netcapital charged by US SEC with fraud for allegedly inflating revenue",
-        "description": null,
-        "summary": "Securities and Exchange Commission charged Netcapital with securities fraud ‌on Monday over the fintech company's alleged ‌scheme to overstate revenue. The SEC said in a civil complaint ​filed in Boston federal court that Netcapital improperly recorded nearly $14 million in revenue from consulting agreements with John Fanning, a co-founder of the music sharing ‌service Napster who created ⁠the Netcapital brand.",
-        "pubDate": "2026-08-10T21:56:00Z",
-        "displayTime": "2026-08-10T21:56:00Z",
+        "summary": "The micro-cap stock led Barchart’s bullish price surprises on Monday with a 3,661% gain on the day. As a result of the massive surge, it is temporarily a $100 million market cap. That makes it the ultimate meme stock.",
+        "pubDate": "2026-06-09T15:20:34Z",
+        "displayTime": "2026-06-09T15:20:34Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/reuters.com/60b24a7eabbd6542069a105daab9091b",
-          "originalWidth": 800,
-          "originalHeight": 532,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/reuters.com/60b24a7eabbd6542069a105daab9091b",
-              "width": 800,
-              "height": 532,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/f2a96239bd2329fb0a7c97d6899529afa680debe1feffef6dbd464e7b845873e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F60b24a7eabbd6542069a105daab9091b",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Reuters",
-          "url": "https://www.reuters.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/netcapital-charged-us-sec-fraud-215600127.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/netcapital-charged-us-sec-fraud-215600127.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "NCPL"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "b38ebd3e-78e4-3a05-b9a2-b67ae8e5e6cb",
-      "content": {
-        "id": "b38ebd3e-78e4-3a05-b9a2-b67ae8e5e6cb",
-        "contentType": "STORY",
-        "title": "This Penny Stock Just Doubled on a Blockchain Expansion. Should You Buy Shares Here?",
-        "description": null,
-        "summary": "Netcapital stock doubles as the company announces a blockchain pivot and names Rich Wheeless its new chief executive. Here’s why NCPL shares still aren’t worth owning heading into 2026.",
-        "pubDate": "2025-12-10T16:13:57Z",
-        "displayTime": "2025-12-10T16:13:57Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/barchart_com_477/125a3ae061686d8ab9297ac1378a394f",
+          "originalUrl": "https://media.zenfs.com/en/barchart_com_477/f005acfb5b0a0630e169a7a7fbfeff07",
           "originalWidth": 1600,
           "originalHeight": 1067,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/barchart_com_477/125a3ae061686d8ab9297ac1378a394f",
+              "url": "https://media.zenfs.com/en/barchart_com_477/f005acfb5b0a0630e169a7a7fbfeff07",
               "width": 1600,
               "height": 1067,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/90e63c0f792d4500efb6b8ffa66330a9c0dfb024dd8b0df286bd2b8bc5a757f2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F125a3ae061686d8ab9297ac1378a394f",
+              "url": "https://s.yimg.com/lo/mysterio/api/1e29e875b0b433d281fa631c90cb8b0af1ee9a1fe1b72936bc878556c22c567e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Ff005acfb5b0a0630e169a7a7fbfeff07",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -168,10 +38,10 @@
           "url": "https://www.barchart.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.barchart.com/story/news/36554252/this-penny-stock-just-doubled-on-a-blockchain-expansion-should-you-buy-shares-here"
+          "url": "https://www.barchart.com/story/news/2381393/from-penny-stock-to-100-million-in-one-day-the-ultimate-meme-stock-has-arrived"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/news/penny-stock-just-doubled-blockchain-161357337.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/penny-stock-100-million-one-152034221.html"
         },
         "finance": {
           "premiumFinance": {
@@ -179,7 +49,116 @@
           },
           "stockTickers": [
             {
-              "symbol": "NCPL"
+              "symbol": "INHD"
+            },
+            {
+              "symbol": "NVDA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "008d93c1-7670-375f-bcf4-4e3a0d7b908e",
+      "content": {
+        "id": "008d93c1-7670-375f-bcf4-4e3a0d7b908e",
+        "contentType": "STORY",
+        "title": "Used Phone Seller Adds 31x Its AI Deal Value in a Single Day",
+        "description": null,
+        "summary": "Inno Holdings stock surged 3,661% after a $3 million AI deal added $95 million in value, reviving bubble fears.",
+        "pubDate": "2026-06-09T12:06:46Z",
+        "displayTime": "2026-06-09T12:06:46Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/beincrypto_us_662/601aa44880be32173ad925fad12c8471",
+          "originalWidth": 2368,
+          "originalHeight": 1332,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/beincrypto_us_662/601aa44880be32173ad925fad12c8471",
+              "width": 2368,
+              "height": 1332,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/0674dc2ec274953ebe5201ea244569c04dea5be8c53b3c59c40fd827f5f9609a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F601aa44880be32173ad925fad12c8471",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "BeInCrypto",
+          "url": "https://beincrypto.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://beincrypto.com/inno-holdings-stock-surge-ai-deal/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/used-phone-seller-adds-31x-120646486.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "INHD"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dc57f004-ab69-3d68-b905-65a6f4a1116f",
+      "content": {
+        "id": "dc57f004-ab69-3d68-b905-65a6f4a1116f",
+        "contentType": "STORY",
+        "title": "INHD Stock, Which Has Seen 2 Reverse Splits Over 6 Months, Has Soared Nearly 700% Today – Everything To Know About Its Latest Partnership",
+        "description": null,
+        "summary": "Inno Holdings announced a $3 million agreement with a Hong Kong-based AI services provider to develop an AI-powered sales platform for its used-mobile-phone business.",
+        "pubDate": "2026-06-08T16:30:57Z",
+        "displayTime": "2026-06-08T16:30:57Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/a4679fcf550d2806b58f6caa3fe226c0",
+          "originalWidth": 1000,
+          "originalHeight": 750,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/stocktwits_383/a4679fcf550d2806b58f6caa3fe226c0",
+              "width": 1000,
+              "height": 750,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/86c6152607967026f1b32682b2a4616eb7175958983183b32bb52dc1b567149a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fa4679fcf550d2806b58f6caa3fe226c0",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://stocktwits.com/news-articles/markets/equity/why-is-inhd-stock-up-700percent-today/cZ0vaI8R7Go"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/inhd-stock-seen-2-reverse-163057365.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "INHD"
             }
           ]
         }
