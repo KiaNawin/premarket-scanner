@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-19",
-  "generated_at_et": "2026-11-19 13:05:01 EST",
+  "generated_at_et": "2026-11-19 13:35:01 EST",
   "source_premarket_file": "premarket_scan_2026-11-19.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -17,8 +17,8 @@
       "ticker": "NTSK",
       "signal_time_et": "2026-11-19 10:01",
       "entry_price": 26.1,
-      "last_price": 25.19,
-      "gap_pct": 7.59,
+      "last_price": 25.03,
+      "gap_pct": 6.21,
       "yesterday_high": 23.743,
       "yesterday_close": 23.505,
       "sma200": 13.6325,
@@ -30,8 +30,8 @@
       "ticker": "P",
       "signal_time_et": "2026-11-19 10:11",
       "entry_price": 113.99,
-      "last_price": 110.02,
-      "gap_pct": 10.09,
+      "last_price": 109.41,
+      "gap_pct": 8.86,
       "yesterday_high": 105.205,
       "yesterday_close": 100.74,
       "sma200": 87.7475,
@@ -43,7 +43,7 @@
       "ticker": "NCPL",
       "signal_time_et": "2026-11-19 10:20",
       "entry_price": 3.69,
-      "last_price": 3.8644,
+      "last_price": 3.91,
       "gap_pct": 34.78,
       "yesterday_high": 3.21,
       "yesterday_close": 2.89,
@@ -63,8 +63,8 @@
       "yesterday_close": 23.505,
       "sma200": 13.6325,
       "premarket_high": 24.77,
-      "last_price": 25.19,
-      "last_bar_et": "13:04",
+      "last_price": 25.03,
+      "last_bar_et": "13:34",
       "high_of_day": 26.45,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -76,7 +76,7 @@
       "entry_price": 26.1,
       "hod_before_signal": 26.07,
       "low_5m": 25.67,
-      "gap_pct": 7.59,
+      "gap_pct": 6.21,
       "catalyst": "Today’s big story: Could Anthropic Stock Fall 25."
     },
     {
@@ -88,8 +88,8 @@
       "yesterday_close": 100.74,
       "sma200": 87.7475,
       "premarket_high": 109.3562,
-      "last_price": 110.02,
-      "last_bar_et": "13:04",
+      "last_price": 109.41,
+      "last_bar_et": "13:34",
       "high_of_day": 116.51,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -101,7 +101,7 @@
       "entry_price": 113.99,
       "hod_before_signal": 113.8,
       "low_5m": 111.305,
-      "gap_pct": 10.09,
+      "gap_pct": 8.86,
       "catalyst": "Record margins and a rare cash flow milestone, with a warning on component costs."
     },
     {
@@ -113,8 +113,8 @@
       "yesterday_close": 2.89,
       "sma200": 0.7426,
       "premarket_high": 3.57,
-      "last_price": 3.8644,
-      "last_bar_et": "13:04",
+      "last_price": 3.91,
+      "last_bar_et": "13:34",
       "high_of_day": 4.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -138,8 +138,8 @@
       "yesterday_close": 54.64,
       "sma200": 67.0223,
       "premarket_high": 61.9998,
-      "last_price": 60.01,
-      "last_bar_et": "13:03",
+      "last_price": 59.8,
+      "last_bar_et": "13:34",
       "high_of_day": 62.25,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -148,8 +148,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.75,
-      "catalyst": "QuickLogic (QUIK) delivered earnings and revenue surprises of -40.00% and -6.58%, respectively, for the quarter ended September 2026."
+      "gap_pct": 9.1,
+      "catalyst": "Ambarella Shares Rally as Report Signals Potential Sale to Chip Giant NXP."
     },
     {
       "ticker": "FUTU",
@@ -160,8 +160,8 @@
       "yesterday_close": 83.18,
       "sma200": 120.8805,
       "premarket_high": 86.53,
-      "last_price": 88.755,
-      "last_bar_et": "13:04",
+      "last_price": 88.2,
+      "last_bar_et": "13:33",
       "high_of_day": 91.29,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -170,7 +170,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.72,
+      "gap_pct": 6.24,
       "catalyst": "Moby summary of Futu Holdings Limited's Q3 2026 earnings call."
     },
     {
@@ -182,8 +182,8 @@
       "yesterday_close": 2.87,
       "sma200": 5.049,
       "premarket_high": 2.92,
-      "last_price": 3.02,
-      "last_bar_et": "13:04",
+      "last_price": 3.0,
+      "last_bar_et": "13:34",
       "high_of_day": 3.23,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -192,8 +192,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.93,
+      "gap_pct": 5.23,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
+      "ticker": "HY",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.2107,
+      "yesterday_high": 21.2,
+      "yesterday_close": 15.44,
+      "sma200": 33.9714,
+      "premarket_high": 16.14,
+      "last_price": 16.26,
+      "last_bar_et": "13:34",
+      "high_of_day": 17.24,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.18,
+      "catalyst": "Investing.com -- Hyster-Yale Inc (NYSE:HY) shares tumbled 28% Wednesday following the company's announcement of a $125 million convertible senior notes offering."
     },
     {
       "ticker": "INHD",
@@ -204,8 +226,8 @@
       "yesterday_close": 2.3,
       "sma200": 14.132,
       "premarket_high": 4.74,
-      "last_price": 3.1,
-      "last_bar_et": "13:04",
+      "last_price": 3.0201,
+      "last_bar_et": "13:34",
       "high_of_day": 3.46,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -214,7 +236,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 34.78,
+      "gap_pct": 32.67,
       "catalyst": "The micro-cap stock led Barchart’s bullish price surprises on Monday with a 3,661% gain on the day."
     },
     {
@@ -226,9 +248,9 @@
       "yesterday_close": 2.84,
       "sma200": 8.053,
       "premarket_high": 3.49,
-      "last_price": 4.0,
-      "last_bar_et": "13:04",
-      "high_of_day": 4.12,
+      "last_price": 4.24,
+      "last_bar_et": "13:34",
+      "high_of_day": 4.3295,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -236,7 +258,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 41.19,
+      "gap_pct": 43.31,
       "catalyst": "No recent news catalyst found."
     },
     {
@@ -248,8 +270,8 @@
       "yesterday_close": 339.92,
       "sma200": 279.4664,
       "premarket_high": 376.7499,
-      "last_price": 359.675,
-      "last_bar_et": "13:04",
+      "last_price": 359.58,
+      "last_bar_et": "13:34",
       "high_of_day": 370.0,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -258,7 +280,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.83,
+      "gap_pct": 5.69,
       "catalyst": "Palo Alto Networks hiked its fiscal 2027 guidance, signaling that customers are spending more to protect AI systems."
     },
     {
@@ -270,8 +292,8 @@
       "yesterday_close": 77.45,
       "sma200": 89.4368,
       "premarket_high": 85.8,
-      "last_price": 85.985,
-      "last_bar_et": "13:04",
+      "last_price": 86.25,
+      "last_bar_et": "13:34",
       "high_of_day": 87.38,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -280,7 +302,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.94,
+      "gap_pct": 11.18,
       "catalyst": "Temu's parent cut costs while transaction services revenue fell 12%, and cash reached RMB455.4 billion."
     },
     {
@@ -292,8 +314,8 @@
       "yesterday_close": 7.95,
       "sma200": 7.9679,
       "premarket_high": 8.37,
-      "last_price": 8.59,
-      "last_bar_et": "13:04",
+      "last_price": 8.715,
+      "last_bar_et": "13:34",
       "high_of_day": 9.0016,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -302,30 +324,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.8,
+      "gap_pct": 9.56,
       "catalyst": "Elon Musk called the Hyperliquid and TradeXYZ partnership \"interesting\" Thursday, reposting Stan Druckenmiller’s comments and sending HYPE up as much as 17%."
-    },
-    {
-      "ticker": "RBRK",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 8.4684,
-      "yesterday_high": 110.02,
-      "yesterday_close": 110.0,
-      "sma200": 79.7248,
-      "premarket_high": 117.07,
-      "last_price": 116.58,
-      "last_bar_et": "13:04",
-      "high_of_day": 123.65,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 5.87,
-      "catalyst": "Jefferies sees room for organic revenue growth to accelerate as the company prepares to report earnings on Dec."
     },
     {
       "ticker": "SMX",
@@ -336,8 +336,8 @@
       "yesterday_close": 2.85,
       "sma200": 903.6077,
       "premarket_high": 3.0439,
-      "last_price": 3.0001,
-      "last_bar_et": "13:03",
+      "last_price": 3.02,
+      "last_bar_et": "13:33",
       "high_of_day": 3.4,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -346,7 +346,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.84,
+      "gap_pct": 6.32,
       "catalyst": "SMX (NASDAQ:SMX) announced the development of SMX Scientific Intelligence (SMX SCI), an artificial intelligence-powered platform designed to support industrial material research, chemical analysis and manufacturing…"
     },
     {
@@ -358,8 +358,8 @@
       "yesterday_close": 4.72,
       "sma200": 5.3194,
       "premarket_high": 4.95,
-      "last_price": 4.979,
-      "last_bar_et": "13:04",
+      "last_price": 5.11,
+      "last_bar_et": "13:34",
       "high_of_day": 5.14,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -368,7 +368,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.51,
+      "gap_pct": 7.31,
       "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval."
     },
     {
@@ -380,8 +380,8 @@
       "yesterday_close": 3.55,
       "sma200": 5.5232,
       "premarket_high": 3.69,
-      "last_price": 3.83,
-      "last_bar_et": "13:04",
+      "last_price": 3.84,
+      "last_bar_et": "13:33",
       "high_of_day": 3.89,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -390,7 +390,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.03,
+      "gap_pct": 8.17,
       "catalyst": "A near trillion dollar Anthropic IPO with a large retail allocation is about to pull huge attention back into trading apps and brokerage platforms, and that surge in curiosity about AI and option fueled speculation…"
     },
     {
@@ -402,8 +402,8 @@
       "yesterday_close": 9.51,
       "sma200": 11.0272,
       "premarket_high": 9.96,
-      "last_price": 10.605,
-      "last_bar_et": "13:04",
+      "last_price": 10.5578,
+      "last_bar_et": "13:34",
       "high_of_day": 10.737,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -412,9 +412,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.58,
+      "gap_pct": 10.94,
       "catalyst": "Quebecor (QBR-B.TO, QBR-A.TO) on Thursday said a combination between Bell (BCE.TO) and Telus (T.TO)."
     }
   ],
-  "scan_time_et": "13:05"
+  "scan_time_et": "13:35"
 }

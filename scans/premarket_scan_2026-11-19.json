@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-19",
-  "generated_at_et": "2026-11-19 13:04:09 EST",
-  "scan_time_et": "13:04",
+  "generated_at_et": "2026-11-19 13:33:47 EST",
+  "scan_time_et": "13:33",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,8 +9,8 @@
   },
   "funnel": {
     "universe": 7075,
-    "prefilter": 599,
-    "with_data": 531,
+    "prefilter": 590,
+    "with_data": 521,
     "gap": 54,
     "gap_price": 51,
     "passed": 16,
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "MPU",
-      "price": 4.01,
-      "gap_pct": 41.19,
+      "price": 4.07,
+      "gap_pct": 43.31,
       "catalyst": "No recent news catalyst found.",
       "prev_close": 2.84,
       "premarket_volume": 134617,
@@ -31,18 +31,6 @@
       "catalyst_source": null,
       "catalyst_headline": null,
       "catalyst_url": null
-    },
-    {
-      "ticker": "INHD",
-      "price": 3.1,
-      "gap_pct": 34.78,
-      "catalyst": "The micro-cap stock led Barchart’s bullish price surprises on Monday with a 3,661% gain on the day.",
-      "prev_close": 2.3,
-      "premarket_volume": 10608779,
-      "session": "regular",
-      "catalyst_source": "Barchart",
-      "catalyst_headline": "From Penny Stock to $100 Million in One Day: The Ultimate Meme Stock Has Arrived",
-      "catalyst_url": "https://www.barchart.com/story/news/2381393/from-penny-stock-to-100-million-in-one-day-the-ultimate-meme-stock-has-arrived"
     },
     {
       "ticker": "NCPL",
@@ -57,21 +45,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143051087.html"
     },
     {
-      "ticker": "TU",
-      "price": 10.61,
-      "gap_pct": 11.58,
-      "catalyst": "Quebecor (QBR-B.TO, QBR-A.TO) on Thursday said a combination between Bell (BCE.TO) and Telus (T.TO).",
-      "prev_close": 9.51,
-      "premarket_volume": 480679,
+      "ticker": "INHD",
+      "price": 3.05,
+      "gap_pct": 32.67,
+      "catalyst": "The micro-cap stock led Barchart’s bullish price surprises on Monday with a 3,661% gain on the day.",
+      "prev_close": 2.3,
+      "premarket_volume": 10608779,
       "session": "regular",
-      "catalyst_source": "MT Newswires",
-      "catalyst_headline": "Quebecor Says Combining Bell And Telus Will Not Be A Good Outcome For Customers",
-      "catalyst_url": "https://finance.yahoo.com/technology/articles/quebecor-says-combining-bell-telus-174601149.html"
+      "catalyst_source": "Barchart",
+      "catalyst_headline": "From Penny Stock to $100 Million in One Day: The Ultimate Meme Stock Has Arrived",
+      "catalyst_url": "https://www.barchart.com/story/news/2381393/from-penny-stock-to-100-million-in-one-day-the-ultimate-meme-stock-has-arrived"
     },
     {
       "ticker": "PDD",
-      "price": 85.93,
-      "gap_pct": 10.94,
+      "price": 86.11,
+      "gap_pct": 11.18,
       "catalyst": "Temu's parent cut costs while transaction services revenue fell 12%, and cash reached RMB455.4 billion.",
       "prev_close": 77.45,
       "premarket_volume": 1845335,
@@ -81,45 +69,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/pdd-stocks-jump-11-10-170738876.html"
     },
     {
-      "ticker": "P",
-      "price": 110.9,
-      "gap_pct": 10.09,
-      "catalyst": "Record margins and a rare cash flow milestone, with a warning on component costs.",
-      "prev_close": 100.74,
-      "premarket_volume": 87649,
+      "ticker": "TU",
+      "price": 10.55,
+      "gap_pct": 10.94,
+      "catalyst": "Quebecor (QBR-B.TO, QBR-A.TO) on Thursday said a combination between Bell (BCE.TO) and Telus (T.TO).",
+      "prev_close": 9.51,
+      "premarket_volume": 480679,
       "session": "regular",
-      "catalyst_source": "Motley Fool",
-      "catalyst_headline": "Everpure (P) Q3 2027 Earnings Call Transcript",
-      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/19/everpure-p-q3-2027-earnings-call-transcript/"
-    },
-    {
-      "ticker": "AMBA",
-      "price": 59.97,
-      "gap_pct": 9.75,
-      "catalyst": "QuickLogic (QUIK) delivered earnings and revenue surprises of -40.00% and -6.58%, respectively, for the quarter ended September 2026.",
-      "prev_close": 54.64,
-      "premarket_volume": 134636,
-      "session": "regular",
-      "catalyst_source": "Zacks",
-      "catalyst_headline": "QuickLogic (QUIK) Reports Q3 Loss, Lags Revenue Estimates",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/quicklogic-quik-reports-q3-loss-212002824.html"
-    },
-    {
-      "ticker": "TIGR",
-      "price": 3.84,
-      "gap_pct": 8.03,
-      "catalyst": "A near trillion dollar Anthropic IPO with a large retail allocation is about to pull huge attention back into trading apps and brokerage platforms, and that surge in curiosity about AI and option fueled speculation…",
-      "prev_close": 3.55,
-      "premarket_volume": 293693,
-      "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "Anthropic IPO Buzz Has Coinbase Stock And Retail Broker Shares Back On Watch",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-buzz-coinbase-stock-160929432.html"
+      "catalyst_source": "MT Newswires",
+      "catalyst_headline": "Quebecor Says Combining Bell And Telus Will Not Be A Good Outcome For Customers",
+      "catalyst_url": "https://finance.yahoo.com/technology/articles/quebecor-says-combining-bell-telus-174601149.html"
     },
     {
       "ticker": "PURR",
-      "price": 8.57,
-      "gap_pct": 7.8,
+      "price": 8.71,
+      "gap_pct": 9.56,
       "catalyst": "Elon Musk called the Hyperliquid and TradeXYZ partnership \"interesting\" Thursday, reposting Stan Druckenmiller’s comments and sending HYPE up as much as 17%.",
       "prev_close": 7.95,
       "premarket_volume": 246545,
@@ -129,21 +93,57 @@
       "catalyst_url": "https://finance.yahoo.com/markets/crypto/articles/elon-musk-notes-interesting-hyperliquid-114509735.html"
     },
     {
-      "ticker": "NTSK",
-      "price": 25.29,
-      "gap_pct": 7.59,
-      "catalyst": "Today’s big story: Could Anthropic Stock Fall 25.",
-      "prev_close": 23.5,
-      "premarket_volume": 116174,
+      "ticker": "AMBA",
+      "price": 59.61,
+      "gap_pct": 9.1,
+      "catalyst": "Ambarella Shares Rally as Report Signals Potential Sale to Chip Giant NXP.",
+      "prev_close": 54.64,
+      "premarket_volume": 134636,
       "session": "regular",
-      "catalyst_source": "Trefis",
-      "catalyst_headline": "Why Did Netskope Stock Move?",
-      "catalyst_url": "https://www.trefis.com/stock/ntsk/articles/626890/why-did-netskope-stock-move/2026-11-19"
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "Ambarella Stock Soars on Potential Billion-Dollar Chip Deal",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/ambarella-stock-soars-potential-billion-180441846.html"
+    },
+    {
+      "ticker": "P",
+      "price": 109.67,
+      "gap_pct": 8.86,
+      "catalyst": "Record margins and a rare cash flow milestone, with a warning on component costs.",
+      "prev_close": 100.74,
+      "premarket_volume": 87649,
+      "session": "regular",
+      "catalyst_source": "Motley Fool",
+      "catalyst_headline": "Everpure (P) Q3 2027 Earnings Call Transcript",
+      "catalyst_url": "https://www.fool.com/earnings/call-transcripts/2026/11/19/everpure-p-q3-2027-earnings-call-transcript/"
+    },
+    {
+      "ticker": "TIGR",
+      "price": 3.84,
+      "gap_pct": 8.17,
+      "catalyst": "A near trillion dollar Anthropic IPO with a large retail allocation is about to pull huge attention back into trading apps and brokerage platforms, and that surge in curiosity about AI and option fueled speculation…",
+      "prev_close": 3.55,
+      "premarket_volume": 293693,
+      "session": "regular",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Anthropic IPO Buzz Has Coinbase Stock And Retail Broker Shares Back On Watch",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-buzz-coinbase-stock-160929432.html"
+    },
+    {
+      "ticker": "SVRA",
+      "price": 5.07,
+      "gap_pct": 7.31,
+      "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval.",
+      "prev_close": 4.72,
+      "premarket_volume": 120720,
+      "session": "regular",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "FDA Decision Watch: Capricor’s DMD Therapy Faces Make-Or-Break Decision, Savara’s Lung Disease Drug In The Spotlight This Week",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/fda-decision-watch-capricor-s-dmd-therapy-faces-make-or-break-decision-savara-s-lung-disease-drug-in-the-spotlight-this-week/cNb7lT0R9X8"
     },
     {
       "ticker": "SMX",
-      "price": 3.05,
-      "gap_pct": 6.84,
+      "price": 3.03,
+      "gap_pct": 6.32,
       "catalyst": "SMX (NASDAQ:SMX) announced the development of SMX Scientific Intelligence (SMX SCI), an artificial intelligence-powered platform designed to support industrial material research, chemical analysis and manufacturing…",
       "prev_close": 2.85,
       "premarket_volume": 52530,
@@ -154,8 +154,8 @@
     },
     {
       "ticker": "FUTU",
-      "price": 88.77,
-      "gap_pct": 6.72,
+      "price": 88.37,
+      "gap_pct": 6.24,
       "catalyst": "Moby summary of Futu Holdings Limited's Q3 2026 earnings call.",
       "prev_close": 83.18,
       "premarket_volume": 223175,
@@ -165,33 +165,21 @@
       "catalyst_url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-futu-holdings-limited-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
     },
     {
-      "ticker": "GP",
-      "price": 3.04,
-      "gap_pct": 5.93,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
-      "prev_close": 2.87,
-      "premarket_volume": 225220,
+      "ticker": "NTSK",
+      "price": 24.97,
+      "gap_pct": 6.21,
+      "catalyst": "Today’s big story: Could Anthropic Stock Fall 25.",
+      "prev_close": 23.5,
+      "premarket_volume": 116174,
       "session": "regular",
-      "catalyst_source": "Associated Press",
-      "catalyst_headline": "BC-Most Active Stocks",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017705.html"
-    },
-    {
-      "ticker": "RBRK",
-      "price": 116.46,
-      "gap_pct": 5.87,
-      "catalyst": "Jefferies sees room for organic revenue growth to accelerate as the company prepares to report earnings on Dec.",
-      "prev_close": 110.0,
-      "premarket_volume": 115083,
-      "session": "regular",
-      "catalyst_source": "Barrons.com",
-      "catalyst_headline": "Software Stocks Are Throwing a Party. Salesforce Didn’t Get the Invite—Yet.",
-      "catalyst_url": "https://www.barrons.com/articles/salesforce-stock-software-rally-jefferies-460156cf?siteid=yhoof2&yptr=yahoo"
+      "catalyst_source": "Trefis",
+      "catalyst_headline": "Why Did Netskope Stock Move?",
+      "catalyst_url": "https://www.trefis.com/stock/ntsk/articles/626890/why-did-netskope-stock-move/2026-11-19"
     },
     {
       "ticker": "PANW",
-      "price": 359.74,
-      "gap_pct": 5.83,
+      "price": 359.27,
+      "gap_pct": 5.69,
       "catalyst": "Palo Alto Networks hiked its fiscal 2027 guidance, signaling that customers are spending more to protect AI systems.",
       "prev_close": 339.92,
       "premarket_volume": 699264,
@@ -201,16 +189,28 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/palo-alto-networks-soars-on-q1-earnings-and-applied-compute-deal-150705343.html"
     },
     {
-      "ticker": "SVRA",
-      "price": 4.98,
-      "gap_pct": 5.51,
-      "catalyst": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval.",
-      "prev_close": 4.72,
-      "premarket_volume": 120720,
+      "ticker": "GP",
+      "price": 3.02,
+      "gap_pct": 5.23,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
+      "prev_close": 2.87,
+      "premarket_volume": 225220,
       "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "FDA Decision Watch: Capricor’s DMD Therapy Faces Make-Or-Break Decision, Savara’s Lung Disease Drug In The Spotlight This Week",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/fda-decision-watch-capricor-s-dmd-therapy-faces-make-or-break-decision-savara-s-lung-disease-drug-in-the-spotlight-this-week/cNb7lT0R9X8"
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "BC-Most Active Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017705.html"
+    },
+    {
+      "ticker": "HY",
+      "price": 16.24,
+      "gap_pct": 5.18,
+      "catalyst": "Investing.com -- Hyster-Yale Inc (NYSE:HY) shares tumbled 28% Wednesday following the company's announcement of a $125 million convertible senior notes offering.",
+      "prev_close": 15.44,
+      "premarket_volume": 139693,
+      "session": "regular",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Hyster-Yale stock plunges on $125M debt offering plan",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/hyster-yale-stock-plunges-125m-164811122.html"
     }
   ]
 }
