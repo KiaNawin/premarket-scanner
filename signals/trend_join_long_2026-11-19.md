@@ -1,33 +1,47 @@
 **Trend-join Long — 2026-11-19**
-0 valid entries out of 27 pre-market gappers (generated 2026-11-19 09:05:01 EST)
+0 valid entries out of 41 pre-market gappers (generated 2026-11-19 09:35:02 EST)
 
 _No valid entries yet._
 
 Not triggered:
-- AEHR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AMBA: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- APLD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- ASTS: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- AXTI: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- BE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CIFR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- COHR: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CRWD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- CRWV: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- GLXY: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- HUT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- INHD: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- IREN: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- MPU: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NBIS: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- NCPL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- P: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- PANW: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- PL: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- RBRK: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- RERE: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- RIOT: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- SKHY: SHORT_HISTORY — Only 93 trading days of history (< 200 needed for SMA200)
-- STX: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- UMAC: WAITING — Market opens 09:30 ET; signals start 10:00 ET
-- WULF: WAITING — Market opens 09:30 ET; signals start 10:00 ET
+- ACHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AMBA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ASTS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AXTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- BTDR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CIFR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CLSK: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- COHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- CRWV: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DDOG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- DELL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HOOD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HUT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- HY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- INFQ: SHORT_HISTORY — Only 192 trading days of history (< 200 needed for SMA200)
+- INTC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- IONQ: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- IREN: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- MPU: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NBIS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- NCPL: WAITING — Before 10:00 ET signal window
+- OUST: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- PANW: WAITING — Before 10:00 ET signal window
+- PDD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- PL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- PURR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- QBTS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- RBRK: WAITING — Before 10:00 ET signal window
+- RGTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- RIOT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- RKLB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- SBET: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- SNDK: SHORT_HISTORY — Only 2 trading days of history (< 200 needed for SMA200)
+- STX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- TU: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- UMAC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- WDC: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- WULF: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ZYN: WAITING — Before 10:00 ET signal window

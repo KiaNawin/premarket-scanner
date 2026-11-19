@@ -1,54 +1,54 @@
 {
   "ticker": "MPU",
-  "saved_at_et": "2026-11-19T09:04:14-05:00",
+  "saved_at_et": "2026-11-19T09:34:14-05:00",
   "response": {
     "data": {
+      "message": null,
       "rows": [
         {
-          "title": "Friday Sector Laggards: Rubber & Plastics, Transportation Services",
-          "image": "",
-          "created": "Sep 26, 2025",
           "ago": "Sep 26, 2025",
+          "created": "Sep 26, 2025",
+          "description": "In trading on Friday, rubber & plastics shares were relative laggards, down on the day by about 1.1%.  Helping drag down the group were shares of Braskem, down about 14.1% and shares of Lightwave Logic down about 9.8% on the day.\n\nAlso lagging the market Friday are transport",
+          "id": 25815241,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "bak",
           "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
           "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
           "related_symbols": [
             "bak|stocks",
             "lwlg|stocks",
             "eh|stocks",
             "mpu|stocks"
           ],
-          "url": "/articles/friday-sector-laggards-rubber-plastics-transportation-services",
-          "id": 25815241,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "In trading on Friday, rubber & plastics shares were relative laggards, down on the day by about 1.1%.  Helping drag down the group were shares of Braskem, down about 14.1% and shares of Lightwave Logic down about 9.8% on the day.\n\nAlso lagging the market Friday are transport",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
+          "title": "Friday Sector Laggards: Rubber & Plastics, Transportation Services",
+          "url": "/articles/friday-sector-laggards-rubber-plastics-transportation-services"
         },
         {
-          "title": "Thursday Sector Laggards: Transportation Services, Packaging & Containers",
-          "image": "",
-          "created": "Aug 14, 2025",
           "ago": "Aug 14, 2025",
+          "created": "Aug 14, 2025",
+          "description": "In trading on Thursday, transportation services shares were relative laggards, down on the day by about 3.7%.  Helping drag down the group were shares of Mega Matrix, down about 23.6% and shares of Mobile Infrastructure off about 6.2% on the day.\n\nAlso lagging the market Thursda",
+          "id": 25549976,
+          "image": "",
+          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
           "primarysymbol": "mpu",
           "primarytopic": "Markets|4006",
+          "primarytopic_url": "/topic/markets",
           "publisher": "BNK Invest",
+          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png",
           "related_symbols": [
             "mpu|stocks",
             "beep|stocks",
             "amcr|stocks",
             "pack|stocks"
           ],
-          "url": "/articles/thursday-sector-laggards-transportation-services-packaging-containers",
-          "id": 25549976,
-          "imagedomain": "https://www.nasdaq.com/sites/acquia.prod/files",
-          "description": "In trading on Thursday, transportation services shares were relative laggards, down on the day by about 3.7%.  Helping drag down the group were shares of Mega Matrix, down about 23.6% and shares of Mobile Infrastructure off about 6.2% on the day.\n\nAlso lagging the market Thursda",
-          "primarytopic_url": "/topic/markets",
-          "publisher_logo": "/sites/acquia.prod/files/2022/09/22/BNK.png"
+          "title": "Thursday Sector Laggards: Transportation Services, Packaging & Containers",
+          "url": "/articles/thursday-sector-laggards-transportation-services-packaging-containers"
         }
       ],
-      "totalrecords": 2,
-      "message": null
+      "totalrecords": 2
     },
     "message": null,
     "status": {
