@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 12:02:52 EST",
-  "scan_time_et": "12:02",
+  "generated_at_et": "2026-11-20 12:32:26 EST",
+  "scan_time_et": "12:32",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7070,
-    "prefilter": 539,
-    "with_data": 485,
-    "gap": 28,
-    "gap_price": 28,
-    "passed": 5,
+    "prefilter": 590,
+    "with_data": 534,
+    "gap": 27,
+    "gap_price": 26,
+    "passed": 4,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7070,
-  "count": 5,
+  "count": 4,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.39,
-      "gap_pct": 27.84,
+      "price": 4.4,
+      "gap_pct": 28.22,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
       "premarket_volume": 16880626,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "GAP",
-      "price": 21.19,
-      "gap_pct": 12.8,
+      "price": 21.05,
+      "gap_pct": 12.03,
       "catalyst": "Gap Inc.",
       "prev_close": 18.79,
       "premarket_volume": 162652,
@@ -45,33 +45,9 @@
       "catalyst_url": "https://finance.yahoo.com/video/gap-inc-ceo-touts-happy-stripe-as-brand-gains-cultural-traction-162841362.html"
     },
     {
-      "ticker": "BORR",
-      "price": 3.45,
-      "gap_pct": 5.5,
-      "catalyst": "Borr Drilling Ltd (BORR) reported 97.3% economic utilization and $269 million in new backlog, but a tragic rig sinking and a $38.7 million net loss weighed on quarterly results.",
-      "prev_close": 3.27,
-      "premarket_volume": 83165,
-      "session": "regular",
-      "catalyst_source": "GuruFocus.com",
-      "catalyst_headline": "Borr Drilling Ltd (BORR) (Q3 2026) Earnings Call Highlights: Strong Contract Backlog and High ...",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/borr-drilling-ltd-borr-q3-210058628.html"
-    },
-    {
-      "ticker": "GIS",
-      "price": 36.28,
-      "gap_pct": 5.23,
-      "catalyst": "Key TakeawaysWalmart beat third-quarter estimates and raised its outlook again, with grocery growing at a mid-single-digit rate.",
-      "prev_close": 34.48,
-      "premarket_volume": 84544,
-      "session": "regular",
-      "catalyst_source": "TIKR",
-      "catalyst_headline": "Forget Walmart: General Mills Has More to Gain From Its Beat. Walmart Is 22% of Sales",
-      "catalyst_url": "https://www.tikr.com/blog/forget-walmart-general-mills-has-more-to-gain-from-its-beat-walmart-is-22-of-sales?ref=yahoofinance&tlnk=yf-261120-cpmf2pw3"
-    },
-    {
       "ticker": "YSWY",
-      "price": 20.29,
-      "gap_pct": 5.13,
+      "price": 20.42,
+      "gap_pct": 5.8,
       "catalyst": "By the time the company finishes the rebrands next year, just 26 of its more than 400 stores will carry the Yesway banner.",
       "prev_close": 19.3,
       "premarket_volume": 469312,
@@ -79,6 +55,18 @@
       "catalyst_source": "C-Store Dive",
       "catalyst_headline": "Yesway to convert all Texas c-stores to Allsup’s",
       "catalyst_url": "https://www.cstoredive.com/news/yesway-to-convert-all-texas-c-stores-to-allsups/874698/"
+    },
+    {
+      "ticker": "CAPR",
+      "price": 7.93,
+      "gap_pct": 5.37,
+      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
+      "prev_close": 7.53,
+      "premarket_volume": 1283940,
+      "session": "regular",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
     }
   ]
 }
