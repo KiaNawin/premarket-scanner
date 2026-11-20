@@ -1,48 +1,84 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 09:01:42 EST",
-  "scan_time_et": "09:01",
+  "generated_at_et": "2026-11-20 09:31:48 EST",
+  "scan_time_et": "09:31",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
     "min_premarket_volume": 50000
   },
   "funnel": {
-    "universe": 7069,
-    "prefilter": 71,
-    "with_data": 67,
-    "gap": 23,
-    "gap_price": 19,
-    "passed": 2,
+    "universe": 7070,
+    "prefilter": 87,
+    "with_data": 60,
+    "gap": 17,
+    "gap_price": 15,
+    "passed": 5,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
-  "symbols_scanned": 7069,
-  "count": 2,
+  "symbols_scanned": 7070,
+  "count": 5,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.65,
-      "gap_pct": 35.57,
+      "price": 4.84,
+      "gap_pct": 40.96,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
-      "premarket_volume": 15533158,
-      "session": "pre-market",
+      "premarket_volume": 16880626,
+      "session": "regular",
       "catalyst_source": "Associated Press",
       "catalyst_headline": "BC-Most Active Stocks",
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
     },
     {
+      "ticker": "GAP",
+      "price": 21.02,
+      "gap_pct": 11.87,
+      "catalyst": "The Gap, Inc., which is set to report third-quarter earnings after the closing bell on Thursday, Nov.",
+      "prev_close": 18.79,
+      "premarket_volume": 162652,
+      "session": "regular",
+      "catalyst_source": "Benzinga",
+      "catalyst_headline": "How to Earn $500 A Month From Gap Stock Ahead of Q3 Earnings",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-gap-stock-110016282.html"
+    },
+    {
+      "ticker": "SKYA",
+      "price": 4.3,
+      "gap_pct": 7.5,
+      "catalyst": "SkyAI, Inc.",
+      "prev_close": 4.0,
+      "premarket_volume": 70456,
+      "session": "regular",
+      "catalyst_source": "Benzinga",
+      "catalyst_headline": "Why Is SkyAI Stock Surging Monday?",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/why-skyai-stock-surging-monday-094326790.html"
+    },
+    {
       "ticker": "CAPR",
-      "price": 8.65,
-      "gap_pct": 14.87,
+      "price": 8.01,
+      "gap_pct": 6.37,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
       "prev_close": 7.53,
-      "premarket_volume": 1098076,
-      "session": "pre-market",
+      "premarket_volume": 1283940,
+      "session": "regular",
       "catalyst_source": "Stocktwits",
       "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
       "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
+    },
+    {
+      "ticker": "HDB",
+      "price": 27.57,
+      "gap_pct": 5.07,
+      "catalyst": "Asian equities traded in the US as American depositary receipts were tracking higher Thursday mornin.",
+      "prev_close": 26.24,
+      "premarket_volume": 125607,
+      "session": "regular",
+      "catalyst_source": "MT Newswires",
+      "catalyst_headline": "Asian Equities Traded in the US as American Depositary Receipts Rise in Thursday Trading",
+      "catalyst_url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-154541394.html"
     }
   ]
 }
