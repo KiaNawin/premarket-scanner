@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 10:02:38 EST",
-  "scan_time_et": "10:02",
+  "generated_at_et": "2026-11-20 10:32:32 EST",
+  "scan_time_et": "10:32",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7070,
-    "prefilter": 188,
-    "with_data": 143,
-    "gap": 38,
-    "gap_price": 36,
-    "passed": 7,
+    "prefilter": 367,
+    "with_data": 317,
+    "gap": 32,
+    "gap_price": 29,
+    "passed": 3,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7070,
-  "count": 7,
+  "count": 3,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.16,
-      "gap_pct": 21.28,
+      "price": 4.38,
+      "gap_pct": 27.7,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
       "premarket_volume": 16880626,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "GAP",
-      "price": 21.88,
-      "gap_pct": 16.44,
+      "price": 22.01,
+      "gap_pct": 17.14,
       "catalyst": "The Gap, Inc., which is set to report third-quarter earnings after the closing bell on Thursday, Nov.",
       "prev_close": 18.79,
       "premarket_volume": 162652,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "BORR",
-      "price": 3.52,
-      "gap_pct": 7.49,
+      "price": 3.54,
+      "gap_pct": 8.1,
       "catalyst": "Borr Drilling Ltd (BORR) reported 97.3% economic utilization and $269 million in new backlog, but a tragic rig sinking and a $38.7 million net loss weighed on quarterly results.",
       "prev_close": 3.27,
       "premarket_volume": 83165,
@@ -55,54 +55,6 @@
       "catalyst_source": "GuruFocus.com",
       "catalyst_headline": "Borr Drilling Ltd (BORR) (Q3 2026) Earnings Call Highlights: Strong Contract Backlog and High ...",
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/borr-drilling-ltd-borr-q3-210058628.html"
-    },
-    {
-      "ticker": "DJT",
-      "price": 4.37,
-      "gap_pct": 6.85,
-      "catalyst": "Both Strategy and Trump Media may have convertible bond regrets.",
-      "prev_close": 4.09,
-      "premarket_volume": 198312,
-      "session": "regular",
-      "catalyst_source": "Investor's Business Daily",
-      "catalyst_headline": "Strategy Is Worth Less Than Its Bitcoin, Trump Media May Have To Sell",
-      "catalyst_url": "https://www.investors.com/news/mstr-stock-discount-vs-bitcoin-trump-media-convertible/?src=A00220&yptr=yahoo"
-    },
-    {
-      "ticker": "FIG",
-      "price": 17.22,
-      "gap_pct": 5.9,
-      "catalyst": "Datadog and Figma pull in opposite directions, one with real profits and one with rapid growth, and the valuation gap may be the deciding factor.",
-      "prev_close": 16.26,
-      "premarket_volume": 161315,
-      "session": "regular",
-      "catalyst_source": "Motley Fool",
-      "catalyst_headline": "Datadog vs. Figma: Which Technology Stock Is a Better Buy for 2027?",
-      "catalyst_url": "https://www.fool.com/coverage/better-buy/2026/11/18/datadog-vs-figma-which-technology-stock-is-a-better-buy-for-2027/"
-    },
-    {
-      "ticker": "CBRS",
-      "price": 91.52,
-      "gap_pct": 5.25,
-      "catalyst": "Execs and investors at the TomorrowX conference in Austin, Texas, are as bullish as ever about AI’s ability to improve lives.",
-      "prev_close": 86.96,
-      "premarket_volume": 503179,
-      "session": "regular",
-      "catalyst_source": "Barrons.com",
-      "catalyst_headline": "At AI Summit, Industry Titans Wave Off Market Woes—and Defend Jensen Huang",
-      "catalyst_url": "https://www.barrons.com/articles/ai-trade-stocks-bull-bear-anthropic-ipo-4139cf71?siteid=yhoof2&yptr=yahoo"
-    },
-    {
-      "ticker": "HYMC",
-      "price": 14.49,
-      "gap_pct": 5.15,
-      "catalyst": "Hycroft Mining Holding has seen sharp swings in its share price in recent years, which puts a spotlight on a simpler question for investors.",
-      "prev_close": 13.78,
-      "premarket_volume": 65104,
-      "session": "regular",
-      "catalyst_source": "Simply Wall St.",
-      "catalyst_headline": "Hycroft Mining (HYMC) Stock Looks Fully Priced On Current Assets",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/hycroft-mining-hymc-stock-looks-002305465.html"
     }
   ]
 }
