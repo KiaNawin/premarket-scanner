@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 09:35:00 EST",
+  "generated_at_et": "2026-11-20 10:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-20.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 5,
+  "candidates": 7,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -23,40 +23,93 @@
       "yesterday_close": 3.43,
       "sma200": 8.0376,
       "premarket_high": 5.6,
-      "last_price": 5.125,
-      "last_bar_et": "09:34",
-      "high_of_day": 5.35,
+      "last_price": 4.16,
+      "last_bar_et": "09:58",
+      "high_of_day": 5.54,
       "checks_now": {
         "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": true
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 40.96,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
-    },
-    {
-      "ticker": "CAPR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.2571,
-      "yesterday_high": 9.12,
-      "yesterday_close": 7.53,
-      "sma200": 19.645,
-      "premarket_high": 8.94,
-      "last_price": 8.13,
-      "last_bar_et": "09:34",
-      "high_of_day": 8.34,
-      "checks_now": {
-        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.37,
-      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
+      "gap_pct": 21.28,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
+      "ticker": "BORR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2302,
+      "yesterday_high": 3.32,
+      "yesterday_close": 3.27,
+      "sma200": 4.8053,
+      "premarket_high": 3.35,
+      "last_price": 3.5199,
+      "last_bar_et": "10:04",
+      "high_of_day": 3.555,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.49,
+      "catalyst": "Borr Drilling Ltd (BORR) reported 97.3% economic utilization and $269 million in new backlog, but a tragic rig sinking and a $38.7 million net loss weighed on quarterly results."
+    },
+    {
+      "ticker": "CBRS",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 132 trading days of history (< 200 needed for SMA200)",
+      "history_days": 132,
+      "gap_pct": 5.25,
+      "catalyst": "Execs and investors at the TomorrowX conference in Austin, Texas, are as bullish as ever about AI’s ability to improve lives."
+    },
+    {
+      "ticker": "DJT",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.5566,
+      "yesterday_high": 4.25,
+      "yesterday_close": 4.09,
+      "sma200": 8.6765,
+      "premarket_high": 4.04,
+      "last_price": 4.355,
+      "last_bar_et": "10:04",
+      "high_of_day": 4.3999,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.85,
+      "catalyst": "Both Strategy and Trump Media may have convertible bond regrets."
+    },
+    {
+      "ticker": "FIG",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.3323,
+      "yesterday_high": 17.685,
+      "yesterday_close": 16.26,
+      "sma200": 22.5232,
+      "premarket_high": 16.32,
+      "last_price": 17.195,
+      "last_bar_et": "10:04",
+      "high_of_day": 17.24,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.9,
+      "catalyst": "Datadog and Figma pull in opposite directions, one with real profits and one with rapid growth, and the valuation gap may be the deciding factor."
     },
     {
       "ticker": "GAP",
@@ -66,10 +119,10 @@
       "yesterday_high": 19.97,
       "yesterday_close": 18.79,
       "sma200": 22.6939,
-      "premarket_high": 20.49,
-      "last_price": 21.13,
-      "last_bar_et": "09:34",
-      "high_of_day": 21.3,
+      "premarket_high": 19.6477,
+      "last_price": 21.91,
+      "last_bar_et": "10:04",
+      "high_of_day": 21.96,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -77,53 +130,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.87,
+      "gap_pct": 16.44,
       "catalyst": "The Gap, Inc., which is set to report third-quarter earnings after the closing bell on Thursday, Nov."
     },
     {
-      "ticker": "HDB",
-      "status": "WAITING",
+      "ticker": "HYMC",
+      "status": "FAIL",
       "signal": false,
-      "atr14": 0.6557,
-      "yesterday_high": 26.77,
-      "yesterday_close": 26.24,
-      "sma200": 25.2949,
-      "premarket_high": 27.68,
-      "last_price": 27.52,
-      "last_bar_et": "09:34",
-      "high_of_day": 27.71,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 5.07,
-      "catalyst": "Asian equities traded in the US as American depositary receipts were tracking higher Thursday mornin."
-    },
-    {
-      "ticker": "SKYA",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.302,
-      "yesterday_high": 4.37,
-      "yesterday_close": 4.0,
-      "sma200": 1.7406,
-      "premarket_high": 4.36,
-      "last_price": 4.19,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.33,
+      "atr14": 1.7196,
+      "yesterday_high": 15.49,
+      "yesterday_close": 13.78,
+      "sma200": 28.2125,
+      "premarket_high": 13.86,
+      "last_price": 14.24,
+      "last_bar_et": "10:04",
+      "high_of_day": 14.5168,
       "checks_now": {
         "price_above_yesterday_high": false,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 7.5,
-      "catalyst": "SkyAI, Inc."
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.15,
+      "catalyst": "Hycroft Mining Holding has seen sharp swings in its share price in recent years, which puts a spotlight on a simpler question for investors."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }
