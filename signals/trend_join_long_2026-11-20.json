@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 14:05:00 EST",
+  "generated_at_et": "2026-11-20 14:35:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-20.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -23,11 +23,11 @@
       "yesterday_close": 3.43,
       "sma200": 8.0376,
       "premarket_high": 5.6,
-      "last_price": 4.3403,
-      "last_bar_et": "14:04",
+      "last_price": 3.795,
+      "last_bar_et": "14:34",
       "high_of_day": 5.6,
       "checks_now": {
-        "price_above_yesterday_high": true,
+        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
@@ -45,8 +45,8 @@
       "yesterday_close": 18.79,
       "sma200": 22.6939,
       "premarket_high": 19.6477,
-      "last_price": 21.22,
-      "last_bar_et": "14:04",
+      "last_price": 20.835,
+      "last_bar_et": "14:34",
       "high_of_day": 22.155,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -59,5 +59,5 @@
       "catalyst": "Yahoo Finance Executive Editor Brian Sozzi breaks down the biggest stories to kick off the trading day, including the performance of Anthropic (ANT)’s IPO, whether AMD (AMD)’s pullback presents a buying opportunity,…"
     }
   ],
-  "scan_time_et": "14:05"
+  "scan_time_et": "14:35"
 }
