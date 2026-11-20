@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 13:32:34 EST",
-  "scan_time_et": "13:32",
+  "generated_at_et": "2026-11-20 14:02:27 EST",
+  "scan_time_et": "14:02",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,52 +9,40 @@
   },
   "funnel": {
     "universe": 7070,
-    "prefilter": 583,
-    "with_data": 525,
-    "gap": 22,
-    "gap_price": 21,
-    "passed": 3,
+    "prefilter": 558,
+    "with_data": 500,
+    "gap": 19,
+    "gap_price": 17,
+    "passed": 2,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7070,
-  "count": 3,
+  "count": 2,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.41,
-      "gap_pct": 28.57,
+      "price": 4.38,
+      "gap_pct": 27.7,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
       "premarket_volume": 16880626,
       "session": "regular",
       "catalyst_source": "Associated Press",
       "catalyst_headline": "BC-Most Active Stocks",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
     },
     {
       "ticker": "GAP",
-      "price": 21.06,
-      "gap_pct": 12.09,
-      "catalyst": "Gap CEO Richard Dickson thinks the holiday shopping season will be just fine.",
+      "price": 21.24,
+      "gap_pct": 13.01,
+      "catalyst": "Yahoo Finance Executive Editor Brian Sozzi breaks down the biggest stories to kick off the trading day, including the performance of Anthropic (ANT)’s IPO, whether AMD (AMD)’s pullback presents a buying opportunity,…",
       "prev_close": 18.79,
       "premarket_volume": 162652,
       "session": "regular",
-      "catalyst_source": "Yahoo Finance",
-      "catalyst_headline": "Gap CEO: 'Consumer is resilient but discerning'",
-      "catalyst_url": "https://finance.yahoo.com/markets/article/gap-ceo-consumer-is-resilient-but-discerning-180232378.html"
-    },
-    {
-      "ticker": "CAPR",
-      "price": 7.95,
-      "gap_pct": 5.58,
-      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
-      "prev_close": 7.53,
-      "premarket_volume": 1283940,
-      "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
+      "catalyst_source": "Yahoo Finance Video",
+      "catalyst_headline": "Sozzi: Anthropic’s IPO Surges; Is AMD’s Pullback a Buy?",
+      "catalyst_url": "https://finance.yahoo.com/video/sozzi-anthropics-ipo-surges-is-amds-pullback-a-buy-181915349.html"
     }
   ]
 }
