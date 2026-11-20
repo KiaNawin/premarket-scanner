@@ -1,7 +1,60 @@
 {
   "ticker": "GAP",
-  "saved_at_et": "2026-11-20T13:02:42-05:00",
+  "saved_at_et": "2026-11-20T13:32:33-05:00",
   "response": [
+    {
+      "id": "8f90eee8-e585-454f-8990-eb12fb961d52",
+      "content": {
+        "id": "8f90eee8-e585-454f-8990-eb12fb961d52",
+        "contentType": "STORY",
+        "title": "Gap CEO: 'Consumer is resilient but discerning'",
+        "description": null,
+        "summary": "Gap CEO Richard Dickson thinks the holiday shopping season will be just fine.",
+        "pubDate": "2026-11-20T18:02:32Z",
+        "displayTime": "2026-11-20T18:02:32Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://s.yimg.com/os/creatr-images/2019-11/cfcbacb0-0237-11ea-b9bf-42468361a1cf",
+          "originalWidth": 5120,
+          "originalHeight": 3413,
+          "resolutions": [
+            {
+              "url": "https://s.yimg.com/os/creatr-images/2019-11/cfcbacb0-0237-11ea-b9bf-42468361a1cf",
+              "width": 5120,
+              "height": 3413,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/0d885be3dbb9cef16ac7ff3374338e7a9a62855efda317a0386ec21057134ba9/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2019-11%2Fcfcbacb0-0237-11ea-b9bf-42468361a1cf",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/article/gap-ceo-consumer-is-resilient-but-discerning-180232378.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/article/gap-ceo-consumer-is-resilient-but-discerning-180232378.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "GAP"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "0fea2129-7d6d-4540-8377-f57884769dc0",
       "content": {
@@ -103,65 +156,6 @@
           "stockTickers": [
             {
               "symbol": "GAP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "2c6998fa-efff-4d7a-a802-e5ca2cb71fb1",
-      "content": {
-        "id": "2c6998fa-efff-4d7a-a802-e5ca2cb71fb1",
-        "contentType": "VIDEO",
-        "title": "Gap Inc. slashed its full-year sales outlook — and it might be due to the weather",
-        "description": "<p>The Gap Inc. (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/GAP/\" data-i13n=\"slk:GAP;cpos:1;pos:1\">GAP</a>) reported solid third quarter earnings results but cut its full-year sales outlook. The results came after a busy week of other retail earnings from Walmart (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/WMT/\" data-i13n=\"slk:WMT;cpos:2;pos:1\">WMT</a>) and Target (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/TGT/\" data-i13n=\"slk:TGT;cpos:3;pos:1\">TGT</a>).</p>\n<p>Yahoo Finance Executive Editor Brian Sozzi takes a closer look.</p>",
-        "summary": "The Gap Inc. (GAP) reported solid third quarter earnings results but cut its full-year sales outlook. The results came after a busy week of other retail earnings from Walmart (WMT) and Target (TGT).\n\nYahoo Finance Executive Editor Brian Sozzi takes a closer look.",
-        "pubDate": "2026-11-20T15:25:04Z",
-        "displayTime": "2026-11-20T15:25:04Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/83c1c7f9-6369-4a18-9ded-04a18b6c6936_62c9f0b8eefaba5794bd3da0f6ee6ce19399e9b111a1c648333c10c31e09c586.jpg",
-          "originalWidth": 5500,
-          "originalHeight": 3093,
-          "resolutions": [
-            {
-              "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/83c1c7f9-6369-4a18-9ded-04a18b6c6936_62c9f0b8eefaba5794bd3da0f6ee6ce19399e9b111a1c648333c10c31e09c586.jpg",
-              "width": 5500,
-              "height": 3093,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/7f5377e336e0b54014605923d41e3e0364bb2d3e99e9904793a3b39e80b837bb/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2F83c1c7f9-6369-4a18-9ded-04a18b6c6936_62c9f0b8eefaba5794bd3da0f6ee6ce19399e9b111a1c648333c10c31e09c586.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/video/gap-inc-slashed-its-full-year-sales-outlook--and-it-might-be-due-to-the-weather-152504625.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/video/gap-inc-slashed-its-full-year-sales-outlook--and-it-might-be-due-to-the-weather-152504625.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "GAP"
-            },
-            {
-              "symbol": "WMT"
-            },
-            {
-              "symbol": "TGT"
             }
           ]
         }

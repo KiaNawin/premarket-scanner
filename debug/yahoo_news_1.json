@@ -1,84 +1,7 @@
 {
   "ticker": "AKAN",
-  "saved_at_et": "2026-11-20T13:02:41-05:00",
+  "saved_at_et": "2026-11-20T13:32:33-05:00",
   "response": [
-    {
-      "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
-      "content": {
-        "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
-        "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
-        "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
-        "pubDate": "2026-11-18T15:30:23Z",
-        "displayTime": "2026-11-18T15:30:23Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "CHSN"
-            },
-            {
-              "symbol": "LICN"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "HIHO"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "BRNX"
-            },
-            {
-              "symbol": "IBIT"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "OPEN"
-            }
-          ]
-        }
-      }
-    },
     {
       "id": "d6078fee-bdc5-3404-beed-bccad34497ec",
       "content": {
@@ -219,6 +142,59 @@
             },
             {
               "symbol": "NBIS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "0194290c-5e3b-34af-a4b7-0d1c3f221ac3",
+      "content": {
+        "id": "0194290c-5e3b-34af-a4b7-0d1c3f221ac3",
+        "contentType": "STORY",
+        "title": "Akanda’s First Towers & Fiber Generates First Cash Flow From 200 KM Fiber Network",
+        "description": null,
+        "summary": "Akanda (NASDAQ:AKAN) subsidiary First Towers & Fiber has collected its first cash lease payment from a new 200-kilometer fiber network in Mexico, marking the shift from network construction to recurring revenue generation as the business discusses a potential expansion with its client. Key Investor TakeawaysAkanda (NASDAQ:AKAN) subsidiary First Towers & Fiber collected its first cash lease payment from the 200-kilometer fiber network in August 2026.",
+        "pubDate": "2026-09-04T13:54:16Z",
+        "displayTime": "2026-09-04T13:54:16Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/d59c132b40b6594d4d34ab7530dd6059.png",
+          "originalWidth": 1200,
+          "originalHeight": 659,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/investorshub_458/d59c132b40b6594d4d34ab7530dd6059.png",
+              "width": 1200,
+              "height": 659,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/8a8951466ee0d3c5b7462a223f73dc5247d41ba2b8e03b7fff5fde3d98f03784/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fd59c132b40b6594d4d34ab7530dd6059.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://investorshub.advfn.com/market-news/article/35712/akandas-first-towers-fiber-generates-first-cash-flow-from-200-km-fiber-network"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/technology/articles/akanda-first-towers-fiber-generates-135416723.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "AKAN"
             }
           ]
         }

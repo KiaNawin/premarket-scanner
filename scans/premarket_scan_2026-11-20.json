@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 13:02:42 EST",
-  "scan_time_et": "13:02",
+  "generated_at_et": "2026-11-20 13:32:34 EST",
+  "scan_time_et": "13:32",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7070,
-    "prefilter": 600,
-    "with_data": 541,
-    "gap": 26,
-    "gap_price": 24,
+    "prefilter": 583,
+    "with_data": 525,
+    "gap": 22,
+    "gap_price": 21,
     "passed": 3,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,39 +22,39 @@
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.39,
-      "gap_pct": 27.99,
+      "price": 4.41,
+      "gap_pct": 28.57,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
       "premarket_volume": 16880626,
       "session": "regular",
       "catalyst_source": "Associated Press",
       "catalyst_headline": "BC-Most Active Stocks",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
     },
     {
       "ticker": "GAP",
-      "price": 21.07,
-      "gap_pct": 12.13,
-      "catalyst": "Warm weather chilled Gap's forecast.",
+      "price": 21.06,
+      "gap_pct": 12.09,
+      "catalyst": "Gap CEO Richard Dickson thinks the holiday shopping season will be just fine.",
       "prev_close": 18.79,
       "premarket_volume": 162652,
       "session": "regular",
       "catalyst_source": "Yahoo Finance",
-      "catalyst_headline": "'Happy Stripes is signature Gap': CEO Richard Dickson bets on nostalgia as stock soars",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/happy-stripes-is-signature-gap-ceo-richard-dickson-bets-on-nostalgia-as-stock-soars-174748504.html"
+      "catalyst_headline": "Gap CEO: 'Consumer is resilient but discerning'",
+      "catalyst_url": "https://finance.yahoo.com/markets/article/gap-ceo-consumer-is-resilient-but-discerning-180232378.html"
     },
     {
-      "ticker": "YSWY",
-      "price": 20.31,
-      "gap_pct": 5.25,
-      "catalyst": "By the time the company finishes the rebrands next year, just 26 of its more than 400 stores will carry the Yesway banner.",
-      "prev_close": 19.3,
-      "premarket_volume": 469312,
+      "ticker": "CAPR",
+      "price": 7.95,
+      "gap_pct": 5.58,
+      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
+      "prev_close": 7.53,
+      "premarket_volume": 1283940,
       "session": "regular",
-      "catalyst_source": "C-Store Dive",
-      "catalyst_headline": "Yesway to convert all Texas c-stores to Allsup’s",
-      "catalyst_url": "https://www.cstoredive.com/news/yesway-to-convert-all-texas-c-stores-to-allsups/874698/"
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
     }
   ]
 }
