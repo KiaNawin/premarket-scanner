@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 12:32:26 EST",
-  "scan_time_et": "12:32",
+  "generated_at_et": "2026-11-20 13:02:42 EST",
+  "scan_time_et": "13:02",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7070,
-    "prefilter": 590,
-    "with_data": 534,
-    "gap": 27,
-    "gap_price": 26,
-    "passed": 4,
+    "prefilter": 600,
+    "with_data": 541,
+    "gap": 26,
+    "gap_price": 24,
+    "passed": 3,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7070,
-  "count": 4,
+  "count": 3,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.4,
-      "gap_pct": 28.22,
+      "price": 4.39,
+      "gap_pct": 27.99,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
       "premarket_volume": 16880626,
@@ -34,20 +34,20 @@
     },
     {
       "ticker": "GAP",
-      "price": 21.05,
-      "gap_pct": 12.03,
-      "catalyst": "Gap Inc.",
+      "price": 21.07,
+      "gap_pct": 12.13,
+      "catalyst": "Warm weather chilled Gap's forecast.",
       "prev_close": 18.79,
       "premarket_volume": 162652,
       "session": "regular",
-      "catalyst_source": "Yahoo Finance Video",
-      "catalyst_headline": "Gap Inc. CEO touts 'Happy Stripe' as brand gains cultural traction",
-      "catalyst_url": "https://finance.yahoo.com/video/gap-inc-ceo-touts-happy-stripe-as-brand-gains-cultural-traction-162841362.html"
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "'Happy Stripes is signature Gap': CEO Richard Dickson bets on nostalgia as stock soars",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/happy-stripes-is-signature-gap-ceo-richard-dickson-bets-on-nostalgia-as-stock-soars-174748504.html"
     },
     {
       "ticker": "YSWY",
-      "price": 20.42,
-      "gap_pct": 5.8,
+      "price": 20.31,
+      "gap_pct": 5.25,
       "catalyst": "By the time the company finishes the rebrands next year, just 26 of its more than 400 stores will carry the Yesway banner.",
       "prev_close": 19.3,
       "premarket_volume": 469312,
@@ -55,18 +55,6 @@
       "catalyst_source": "C-Store Dive",
       "catalyst_headline": "Yesway to convert all Texas c-stores to Allsup’s",
       "catalyst_url": "https://www.cstoredive.com/news/yesway-to-convert-all-texas-c-stores-to-allsups/874698/"
-    },
-    {
-      "ticker": "CAPR",
-      "price": 7.93,
-      "gap_pct": 5.37,
-      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
-      "prev_close": 7.53,
-      "premarket_volume": 1283940,
-      "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
     }
   ]
 }

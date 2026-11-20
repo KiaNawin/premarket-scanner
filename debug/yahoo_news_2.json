@@ -1,7 +1,60 @@
 {
   "ticker": "GAP",
-  "saved_at_et": "2026-11-20T12:32:26-05:00",
+  "saved_at_et": "2026-11-20T13:02:42-05:00",
   "response": [
+    {
+      "id": "0fea2129-7d6d-4540-8377-f57884769dc0",
+      "content": {
+        "id": "0fea2129-7d6d-4540-8377-f57884769dc0",
+        "contentType": "STORY",
+        "title": "'Happy Stripes is signature Gap': CEO Richard Dickson bets on nostalgia as stock soars",
+        "description": null,
+        "summary": "Warm weather chilled Gap's forecast. Investors bought the stock anyway.",
+        "pubDate": "2026-11-20T17:47:48Z",
+        "displayTime": "2026-11-20T17:47:48Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/file_8543.png",
+          "originalWidth": 1164,
+          "originalHeight": 1556,
+          "resolutions": [
+            {
+              "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/file_8543.png",
+              "width": 1164,
+              "height": 1556,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/80fdb70019c3f54da6d36655421c470b971b164d04733940eb6010c187a1f466/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Ffile_8543.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/article/happy-stripes-is-signature-gap-ceo-richard-dickson-bets-on-nostalgia-as-stock-soars-174748504.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/article/happy-stripes-is-signature-gap-ceo-richard-dickson-bets-on-nostalgia-as-stock-soars-174748504.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "GAP"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "58e3f7d7-a3aa-4ffa-b1c1-0f8042dcbe22",
       "content": {
@@ -109,59 +162,6 @@
             },
             {
               "symbol": "TGT"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "df333b32-fe3e-4dcc-8729-74966fad3c4a",
-      "content": {
-        "id": "df333b32-fe3e-4dcc-8729-74966fad3c4a",
-        "contentType": "STORY",
-        "title": "Gap stock pops even as warm fall weather leads the retail giant to cut its forecast",
-        "description": null,
-        "summary": "Gap takes a more measured approach on its business as the holidays kick into gear.",
-        "pubDate": "2026-11-20T10:48:55Z",
-        "displayTime": "2026-11-20T14:46:20Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/cdcff36f-8517-4d64-ac58-6dffc0fd52e2",
-          "originalWidth": 3478,
-          "originalHeight": 2303,
-          "resolutions": [
-            {
-              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/cdcff36f-8517-4d64-ac58-6dffc0fd52e2",
-              "width": 3478,
-              "height": 2303,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/fb08a2b87d7c00774dcd44c9431f719d4b4665ee3c32397a7ac08af27a7d6f73/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fcdcff36f-8517-4d64-ac58-6dffc0fd52e2",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/article/gap-stock-pops-even-as-warm-fall-weather-leads-the-retail-giant-to-cut-its-forecast-130937620.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/article/gap-stock-pops-even-as-warm-fall-weather-leads-the-retail-giant-to-cut-its-forecast-130937620.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "GAP"
             }
           ]
         }
