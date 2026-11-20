@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 08:35:00 EST",
+  "generated_at_et": "2026-11-20 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-20.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -24,7 +24,7 @@
       "sma200": 8.0376,
       "premarket_high": 5.6,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 37.61,
+      "gap_pct": 35.57,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -37,9 +37,9 @@
       "sma200": 19.645,
       "premarket_high": 8.94,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 7.57,
+      "gap_pct": 14.87,
       "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
