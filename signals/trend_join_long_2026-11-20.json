@@ -1,0 +1,45 @@
+{
+  "strategy": "Trend-join Long",
+  "scan_date": "2026-11-20",
+  "generated_at_et": "2026-11-20 08:35:00 EST",
+  "source_premarket_file": "premarket_scan_2026-11-20.json",
+  "criteria": [
+    "Price > yesterday's daily high",
+    "Yesterday's close > daily 200 SMA",
+    "Price > today's pre-market high",
+    "Price > current high of day (new HOD)",
+    "Signal only after 10:00 AM ET"
+  ],
+  "candidates": 2,
+  "valid_count": 0,
+  "valid_entries": [],
+  "evaluated": [
+    {
+      "ticker": "AKAN",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 0.5354,
+      "yesterday_high": 3.84,
+      "yesterday_close": 3.43,
+      "sma200": 8.0376,
+      "premarket_high": 5.6,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 37.61,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+    },
+    {
+      "ticker": "CAPR",
+      "status": "WAITING",
+      "signal": false,
+      "atr14": 1.2571,
+      "yesterday_high": 9.12,
+      "yesterday_close": 7.53,
+      "sma200": 19.645,
+      "premarket_high": 8.94,
+      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
+      "gap_pct": 7.57,
+      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision."
+    }
+  ],
+  "scan_time_et": "08:35"
+}

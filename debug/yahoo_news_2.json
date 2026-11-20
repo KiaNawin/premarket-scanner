@@ -1,109 +1,32 @@
 {
-  "ticker": "NCPL",
-  "saved_at_et": "2026-11-19T14:03:37-05:00",
+  "ticker": "CAPR",
+  "saved_at_et": "2026-11-20T08:31:36-05:00",
   "response": [
     {
-      "id": "c4442ae2-5e35-3b3f-a831-8319d7fda857",
+      "id": "7403f423-64e4-35b2-9bfc-2001fd235106",
       "content": {
-        "id": "c4442ae2-5e35-3b3f-a831-8319d7fda857",
+        "id": "7403f423-64e4-35b2-9bfc-2001fd235106",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  WF Holding Ltd.",
-        "pubDate": "2026-10-29T14:30:51Z",
-        "displayTime": "2026-10-29T14:30:51Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143051087.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143051087.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "GOOG"
-            },
-            {
-              "symbol": "INLF"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "WFF"
-            },
-            {
-              "symbol": "RBNE"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "PURR"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "SOFI"
-            },
-            {
-              "symbol": "IOVA"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "NCPL"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "DVLT"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "4c2f33d1-bfa0-3d3d-9a51-d37fadbf9e6f",
-      "content": {
-        "id": "4c2f33d1-bfa0-3d3d-9a51-d37fadbf9e6f",
-        "contentType": "STORY",
-        "title": "Netcapital charged by US SEC with fraud for allegedly inflating revenue",
-        "description": null,
-        "summary": "Securities and Exchange Commission charged Netcapital with securities fraud ‌on Monday over the fintech company's alleged ‌scheme to overstate revenue. The SEC said in a civil complaint ​filed in Boston federal court that Netcapital improperly recorded nearly $14 million in revenue from consulting agreements with John Fanning, a co-founder of the music sharing ‌service Napster who created ⁠the Netcapital brand.",
-        "pubDate": "2026-08-10T21:56:00Z",
-        "displayTime": "2026-08-10T21:56:00Z",
+        "summary": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
+        "pubDate": "2026-11-18T07:51:38Z",
+        "displayTime": "2026-11-18T07:51:38Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/reuters.com/60b24a7eabbd6542069a105daab9091b",
-          "originalWidth": 800,
-          "originalHeight": 532,
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/13464255346f053aa0ce94d4bc85d7a8",
+          "originalWidth": 1280,
+          "originalHeight": 853,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/reuters.com/60b24a7eabbd6542069a105daab9091b",
-              "width": 800,
-              "height": 532,
+              "url": "https://media.zenfs.com/en/stocktwits_383/13464255346f053aa0ce94d4bc85d7a8",
+              "width": 1280,
+              "height": 853,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/f2a96239bd2329fb0a7c97d6899529afa680debe1feffef6dbd464e7b845873e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F60b24a7eabbd6542069a105daab9091b",
+              "url": "https://s.yimg.com/lo/mysterio/api/aefd9219d784e0a27c1fc279fa01fc5dbce7ac58703e9db6fcd3f6e4afc3788a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F13464255346f053aa0ce94d4bc85d7a8",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -111,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Reuters",
-          "url": "https://www.reuters.com/"
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/netcapital-charged-us-sec-fraud-215600127.html"
+          "url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/netcapital-charged-us-sec-fraud-215600127.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/capr-stock-retail-attention-sls-075138702.html"
         },
         "finance": {
           "premiumFinance": {
@@ -126,37 +49,40 @@
           },
           "stockTickers": [
             {
-              "symbol": "NCPL"
+              "symbol": "CAPR"
+            },
+            {
+              "symbol": "SLS"
             }
           ]
         }
       }
     },
     {
-      "id": "b38ebd3e-78e4-3a05-b9a2-b67ae8e5e6cb",
+      "id": "87e44d9e-4467-3a64-9a6b-540552da29ab",
       "content": {
-        "id": "b38ebd3e-78e4-3a05-b9a2-b67ae8e5e6cb",
+        "id": "87e44d9e-4467-3a64-9a6b-540552da29ab",
         "contentType": "STORY",
-        "title": "This Penny Stock Just Doubled on a Blockchain Expansion. Should You Buy Shares Here?",
+        "title": "‘Pharma Bro’ Shkreli Calls SLS Results ‘Sketch,’ Compares Leukemia Vaccine Data To Capricor’s Deramiocel",
         "description": null,
-        "summary": "Netcapital stock doubles as the company announces a blockchain pivot and names Rich Wheeless its new chief executive. Here’s why NCPL shares still aren’t worth owning heading into 2026.",
-        "pubDate": "2025-12-10T16:13:57Z",
-        "displayTime": "2025-12-10T16:13:57Z",
+        "summary": "Martin Shkreli dismissed SLS’s trial data as statistically fragile, drawing a parallel between the company’s data and Capricor Therapeutics’ Deramiocel data.",
+        "pubDate": "2026-11-17T20:53:35Z",
+        "displayTime": "2026-11-17T20:53:35Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/barchart_com_477/125a3ae061686d8ab9297ac1378a394f",
-          "originalWidth": 1600,
-          "originalHeight": 1067,
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
+          "originalWidth": 1280,
+          "originalHeight": 853,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/barchart_com_477/125a3ae061686d8ab9297ac1378a394f",
-              "width": 1600,
-              "height": 1067,
+              "url": "https://media.zenfs.com/en/stocktwits_383/5f36199c6764cab9de43350a0b91cc9a",
+              "width": 1280,
+              "height": 853,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/90e63c0f792d4500efb6b8ffa66330a9c0dfb024dd8b0df286bd2b8bc5a757f2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F125a3ae061686d8ab9297ac1378a394f",
+              "url": "https://s.yimg.com/lo/mysterio/api/eb5826ccae42f1ecb7debabc0f38a538b36c2e0a47a74ef9ab8d406f6a9c4f2a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F5f36199c6764cab9de43350a0b91cc9a",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -164,14 +90,14 @@
           ]
         },
         "provider": {
-          "displayName": "Barchart",
-          "url": "https://www.barchart.com/"
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.barchart.com/story/news/36554252/this-penny-stock-just-doubled-on-a-blockchain-expansion-should-you-buy-shares-here"
+          "url": "https://stocktwits.com/news-articles/markets/equity/pharma-bro-shkreli-calls-sls-results-sketch-compares-leukemia-vaccine-data-to-capricor-s-deramiocel/cNbO4Q6R9hf"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/news/penny-stock-just-doubled-blockchain-161357337.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/pharma-bro-shkreli-calls-sls-205335099.html"
         },
         "finance": {
           "premiumFinance": {
@@ -179,7 +105,69 @@
           },
           "stockTickers": [
             {
-              "symbol": "NCPL"
+              "symbol": "CAPR"
+            },
+            {
+              "symbol": "SLS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "10e6b278-5beb-30e4-962f-9c7c2b3c97f9",
+      "content": {
+        "id": "10e6b278-5beb-30e4-962f-9c7c2b3c97f9",
+        "contentType": "STORY",
+        "title": "FDA Decision Watch: Capricor’s DMD Therapy Faces Make-Or-Break Decision, Savara’s Lung Disease Drug In The Spotlight This Week",
+        "description": null,
+        "summary": "Wall Street is divided on Capricor’s FDA approval prospects, with Oppenheimer betting on a favorable decision and significant upside in the stock price, while Roth Capital sees only a 25% chance of approval.",
+        "pubDate": "2026-11-16T10:09:58Z",
+        "displayTime": "2026-11-16T10:09:58Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/eb7577cc6c61628dd78f54b773dfcf2d",
+          "originalWidth": 1280,
+          "originalHeight": 853,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/stocktwits_383/eb7577cc6c61628dd78f54b773dfcf2d",
+              "width": 1280,
+              "height": 853,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/318bf9c5375f441c9edb9931a0ba5007eb28fcee502a5124a03b325ce2a44399/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Feb7577cc6c61628dd78f54b773dfcf2d",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://stocktwits.com/news-articles/markets/equity/fda-decision-watch-capricor-s-dmd-therapy-faces-make-or-break-decision-savara-s-lung-disease-drug-in-the-spotlight-this-week/cNb7lT0R9X8"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/fda-decision-watch-capricor-dmd-100958121.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "CAPR"
+            },
+            {
+              "symbol": "SVRA"
+            },
+            {
+              "symbol": "SMMT"
             }
           ]
         }

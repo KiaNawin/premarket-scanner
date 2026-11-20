@@ -1,5 +1,228 @@
 {
-  "ticker": "MPU",
-  "saved_at_et": "2026-11-19T14:03:33-05:00",
-  "response": []
+  "ticker": "AKAN",
+  "saved_at_et": "2026-11-20T08:31:36-05:00",
+  "response": [
+    {
+      "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+      "content": {
+        "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+        "contentType": "STORY",
+        "title": "BC-Most Active Stocks",
+        "description": null,
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
+        "pubDate": "2026-11-18T15:30:23Z",
+        "displayTime": "2026-11-18T15:30:23Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Associated Press",
+          "url": "https://apnews.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "CHSN"
+            },
+            {
+              "symbol": "LICN"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "AKAN"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "GRAB"
+            },
+            {
+              "symbol": "HIHO"
+            },
+            {
+              "symbol": "YFOR"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "BRNX"
+            },
+            {
+              "symbol": "IBIT"
+            },
+            {
+              "symbol": "PLUG"
+            },
+            {
+              "symbol": "OPEN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "d6078fee-bdc5-3404-beed-bccad34497ec",
+      "content": {
+        "id": "d6078fee-bdc5-3404-beed-bccad34497ec",
+        "contentType": "STORY",
+        "title": "BC-Most Active Stocks",
+        "description": null,
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Cyabra Inc.",
+        "pubDate": "2026-11-16T15:30:19Z",
+        "displayTime": "2026-11-16T15:30:19Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Associated Press",
+          "url": "https://apnews.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "DVLT"
+            },
+            {
+              "symbol": "SHFS"
+            },
+            {
+              "symbol": "GMM"
+            },
+            {
+              "symbol": "CYAB"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "HIHO"
+            },
+            {
+              "symbol": "AKAN"
+            },
+            {
+              "symbol": "POLA"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "RBNE"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "YFOR"
+            },
+            {
+              "symbol": "SAFX"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+      "content": {
+        "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+        "contentType": "STORY",
+        "title": "BC-Most Active Stocks",
+        "description": null,
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  SHF Holdings Inc.",
+        "pubDate": "2026-11-13T15:30:18Z",
+        "displayTime": "2026-11-13T15:30:18Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Associated Press",
+          "url": "https://apnews.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "SHFS"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "IBIT"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "ONFO"
+            },
+            {
+              "symbol": "FCUV"
+            },
+            {
+              "symbol": "AKAN"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "YFOR"
+            },
+            {
+              "symbol": "GRAB"
+            },
+            {
+              "symbol": "NBIS"
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
