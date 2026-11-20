@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 10:32:32 EST",
-  "scan_time_et": "10:32",
+  "generated_at_et": "2026-11-20 11:02:36 EST",
+  "scan_time_et": "11:02",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7070,
-    "prefilter": 367,
-    "with_data": 317,
-    "gap": 32,
+    "prefilter": 423,
+    "with_data": 371,
+    "gap": 29,
     "gap_price": 29,
-    "passed": 3,
+    "passed": 5,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7070,
-  "count": 3,
+  "count": 5,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.38,
-      "gap_pct": 27.7,
+      "price": 4.76,
+      "gap_pct": 38.78,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
       "premarket_volume": 16880626,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "GAP",
-      "price": 22.01,
-      "gap_pct": 17.14,
+      "price": 21.53,
+      "gap_pct": 14.58,
       "catalyst": "The Gap, Inc., which is set to report third-quarter earnings after the closing bell on Thursday, Nov.",
       "prev_close": 18.79,
       "premarket_volume": 162652,
@@ -46,8 +46,8 @@
     },
     {
       "ticker": "BORR",
-      "price": 3.54,
-      "gap_pct": 8.1,
+      "price": 3.49,
+      "gap_pct": 6.88,
       "catalyst": "Borr Drilling Ltd (BORR) reported 97.3% economic utilization and $269 million in new backlog, but a tragic rig sinking and a $38.7 million net loss weighed on quarterly results.",
       "prev_close": 3.27,
       "premarket_volume": 83165,
@@ -55,6 +55,30 @@
       "catalyst_source": "GuruFocus.com",
       "catalyst_headline": "Borr Drilling Ltd (BORR) (Q3 2026) Earnings Call Highlights: Strong Contract Backlog and High ...",
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/borr-drilling-ltd-borr-q3-210058628.html"
+    },
+    {
+      "ticker": "CAPR",
+      "price": 7.93,
+      "gap_pct": 5.31,
+      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
+      "prev_close": 7.53,
+      "premarket_volume": 1283940,
+      "session": "regular",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
+    },
+    {
+      "ticker": "GIS",
+      "price": 36.22,
+      "gap_pct": 5.03,
+      "catalyst": "Key TakeawaysWalmart beat third-quarter estimates and raised its outlook again, with grocery growing at a mid-single-digit rate.",
+      "prev_close": 34.48,
+      "premarket_volume": 84544,
+      "session": "regular",
+      "catalyst_source": "TIKR",
+      "catalyst_headline": "Forget Walmart: General Mills Has More to Gain From Its Beat. Walmart Is 22% of Sales",
+      "catalyst_url": "https://www.tikr.com/blog/forget-walmart-general-mills-has-more-to-gain-from-its-beat-walmart-is-22-of-sales?ref=yahoofinance&tlnk=yf-261120-cpmf2pw3"
     }
   ]
 }
