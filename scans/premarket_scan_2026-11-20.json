@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-20",
-  "generated_at_et": "2026-11-20 11:02:36 EST",
-  "scan_time_et": "11:02",
+  "generated_at_et": "2026-11-20 11:32:46 EST",
+  "scan_time_et": "11:32",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,10 +9,10 @@
   },
   "funnel": {
     "universe": 7070,
-    "prefilter": 423,
-    "with_data": 371,
-    "gap": 29,
-    "gap_price": 29,
+    "prefilter": 478,
+    "with_data": 423,
+    "gap": 26,
+    "gap_price": 26,
     "passed": 5,
     "volume_source": "nasdaq",
     "mode": "fast"
@@ -22,8 +22,8 @@
   "results": [
     {
       "ticker": "AKAN",
-      "price": 4.76,
-      "gap_pct": 38.78,
+      "price": 4.79,
+      "gap_pct": 39.75,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 3.43,
       "premarket_volume": 16880626,
@@ -34,20 +34,20 @@
     },
     {
       "ticker": "GAP",
-      "price": 21.53,
-      "gap_pct": 14.58,
-      "catalyst": "The Gap, Inc., which is set to report third-quarter earnings after the closing bell on Thursday, Nov.",
+      "price": 21.47,
+      "gap_pct": 14.24,
+      "catalyst": "Gap Inc.",
       "prev_close": 18.79,
       "premarket_volume": 162652,
       "session": "regular",
-      "catalyst_source": "Benzinga",
-      "catalyst_headline": "How to Earn $500 A Month From Gap Stock Ahead of Q3 Earnings",
-      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-gap-stock-110016282.html"
+      "catalyst_source": "Yahoo Finance Video",
+      "catalyst_headline": "Gap Inc. CEO touts ‘Happy Stripe’ as brand gains cultural traction",
+      "catalyst_url": "https://finance.yahoo.com/video/gap-inc-ceo-touts-happy-stripe-as-brand-gains-cultural-traction-162841362.html"
     },
     {
       "ticker": "BORR",
-      "price": 3.49,
-      "gap_pct": 6.88,
+      "price": 3.51,
+      "gap_pct": 7.19,
       "catalyst": "Borr Drilling Ltd (BORR) reported 97.3% economic utilization and $269 million in new backlog, but a tragic rig sinking and a $38.7 million net loss weighed on quarterly results.",
       "prev_close": 3.27,
       "premarket_volume": 83165,
@@ -57,21 +57,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/borr-drilling-ltd-borr-q3-210058628.html"
     },
     {
-      "ticker": "CAPR",
-      "price": 7.93,
-      "gap_pct": 5.31,
-      "catalyst": "Estimated approval odds are 62% for Capricor’s therapy, 85% for Savara’s drug facing the same Sunday target date, and 79% for Sanofi’s drug awaiting a Nov.25 decision.",
-      "prev_close": 7.53,
-      "premarket_volume": 1283940,
-      "session": "regular",
-      "catalyst_source": "Stocktwits",
-      "catalyst_headline": "CAPR Stock Has Retail’s Attention After SLS Rally — But 2 Other Drugs Could Have Better Estimated FDA Approval Odds This Month",
-      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/capr-stock-retail-sls-rally-2-drugs-better-fda-approval-odds-this-month/cNbXuncR9LG"
-    },
-    {
       "ticker": "GIS",
-      "price": 36.22,
-      "gap_pct": 5.03,
+      "price": 36.43,
+      "gap_pct": 5.66,
       "catalyst": "Key TakeawaysWalmart beat third-quarter estimates and raised its outlook again, with grocery growing at a mid-single-digit rate.",
       "prev_close": 34.48,
       "premarket_volume": 84544,
@@ -79,6 +67,18 @@
       "catalyst_source": "TIKR",
       "catalyst_headline": "Forget Walmart: General Mills Has More to Gain From Its Beat. Walmart Is 22% of Sales",
       "catalyst_url": "https://www.tikr.com/blog/forget-walmart-general-mills-has-more-to-gain-from-its-beat-walmart-is-22-of-sales?ref=yahoofinance&tlnk=yf-261120-cpmf2pw3"
+    },
+    {
+      "ticker": "UNH",
+      "price": 347.3,
+      "gap_pct": 5.09,
+      "catalyst": "UnitedHealth shares popped on Friday as TD Cowen analysts raised their rating on the stock to Buy from Hold.",
+      "prev_close": 330.48,
+      "premarket_volume": 259743,
+      "session": "regular",
+      "catalyst_source": "Yahoo Finance",
+      "catalyst_headline": "UnitedHealth stock pops on Buy rating, price target raise from TD Cowen",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/unitedhealth-stock-pops-on-buy-rating-best-idea-pick-at-td-cowen-153003745.html"
     }
   ]
 }

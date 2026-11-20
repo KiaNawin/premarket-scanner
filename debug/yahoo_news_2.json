@@ -1,14 +1,67 @@
 {
   "ticker": "GAP",
-  "saved_at_et": "2026-11-20T11:02:35-05:00",
+  "saved_at_et": "2026-11-20T11:32:45-05:00",
   "response": [
+    {
+      "id": "58e3f7d7-a3aa-4ffa-b1c1-0f8042dcbe22",
+      "content": {
+        "id": "58e3f7d7-a3aa-4ffa-b1c1-0f8042dcbe22",
+        "contentType": "VIDEO",
+        "title": "Gap Inc. CEO touts ‘Happy Stripe’ as brand gains cultural traction",
+        "description": "<p>Gap Inc. (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/GAP/\" data-i13n=\"cpos:1;pos:1\">GAP</a>) CEO Richard Dickson joins Yahoo Finance Executive Editor Brian Sozzi after the retailer posted better-than-expected third quarter profits even as investors overlook a lowered full-year forecast.  </p>\n<p>Dickson pointed out that the Gap brand is gaining cultural traction through its signature \"Happy Stripe,\" leveraging brand nostalgia to attract new generations, alongside celebrity-led marketing campaigns at Old Navy.</p>",
+        "summary": "Gap Inc. (GAP) CEO Richard Dickson joins Yahoo Finance Executive Editor Brian Sozzi after the retailer posted better-than-expected third quarter profits even as investors overlook a lowered full-year forecast.  \n\nDickson pointed out that the Gap brand is gaining cultural traction through its signature \"Happy Stripe,\" leveraging brand nostalgia to attract new generations, alongside celebrity-led marketing campaigns at Old Navy.",
+        "pubDate": "2026-11-20T16:28:41Z",
+        "displayTime": "2026-11-20T16:28:41Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/261120-sozzi-gapinc-ceo-al00-05-11-15still004_4876.jpg",
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "resolutions": [
+            {
+              "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/261120-sozzi-gapinc-ceo-al00-05-11-15still004_4876.jpg",
+              "width": 1920,
+              "height": 1080,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/9e28b83f6e86b415b8acaff81a3c73c4c46d4df81a4dddf2d1571be43b149f7e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2F261120-sozzi-gapinc-ceo-al00-05-11-15still004_4876.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/video/gap-inc-ceo-touts-happy-stripe-as-brand-gains-cultural-traction-162841362.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/video/gap-inc-ceo-touts-happy-stripe-as-brand-gains-cultural-traction-162841362.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "GAP"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2c6998fa-efff-4d7a-a802-e5ca2cb71fb1",
       "content": {
         "id": "2c6998fa-efff-4d7a-a802-e5ca2cb71fb1",
         "contentType": "VIDEO",
         "title": "Gap Inc. slashed its full-year sales outlook — and it might be due to the weather",
-        "description": "<p>The Gap Inc. (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/GAP/\" data-i13n=\"cpos:1;pos:1\">GAP</a>) reported solid third quarter earnings results but cut its full-year sales outlook. The results came after a busy week of other retail earnings from Walmart (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/WMT/\" data-i13n=\"cpos:2;pos:1\">WMT</a>) and Target (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/TGT/\" data-i13n=\"cpos:3;pos:1\">TGT</a>).</p>\n<p>Yahoo Finance Executive Editor Brian Sozzi takes a closer look.</p>",
+        "description": "<p>The Gap Inc. (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/GAP/\" data-i13n=\"slk:GAP;cpos:1;pos:1\">GAP</a>) reported solid third quarter earnings results but cut its full-year sales outlook. The results came after a busy week of other retail earnings from Walmart (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/WMT/\" data-i13n=\"slk:WMT;cpos:2;pos:1\">WMT</a>) and Target (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/TGT/\" data-i13n=\"slk:TGT;cpos:3;pos:1\">TGT</a>).</p>\n<p>Yahoo Finance Executive Editor Brian Sozzi takes a closer look.</p>",
         "summary": "The Gap Inc. (GAP) reported solid third quarter earnings results but cut its full-year sales outlook. The results came after a busy week of other retail earnings from Walmart (WMT) and Target (TGT).\n\nYahoo Finance Executive Editor Brian Sozzi takes a closer look.",
         "pubDate": "2026-11-20T15:25:04Z",
         "displayTime": "2026-11-20T15:25:04Z",
@@ -101,59 +154,6 @@
         },
         "clickThroughUrl": {
           "url": "https://finance.yahoo.com/markets/stocks/article/gap-stock-pops-even-as-warm-fall-weather-leads-the-retail-giant-to-cut-its-forecast-130937620.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "GAP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "59fafd13-8bc9-3ada-8710-2694ca7f01da",
-      "content": {
-        "id": "59fafd13-8bc9-3ada-8710-2694ca7f01da",
-        "contentType": "STORY",
-        "title": "Gap (GAP) Q3 2026 Earnings Call Transcript",
-        "description": null,
-        "summary": "Athleta's sales decline deepened even as Old Navy and Gap posted gains.",
-        "pubDate": "2026-11-20T15:45:04Z",
-        "displayTime": "2026-11-20T15:45:04Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
-          "originalWidth": 1280,
-          "originalHeight": 1366,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
-              "width": 1280,
-              "height": 1366,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Motley Fool",
-          "url": "http://www.fool.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/20/gap-gap-q3-2026-earnings-call-transcript/"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/gap-gap-q3-2026-earnings-154504842.html"
         },
         "finance": {
           "premiumFinance": {
