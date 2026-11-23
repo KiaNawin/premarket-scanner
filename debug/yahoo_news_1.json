@@ -1,6 +1,6 @@
 {
   "ticker": "APLD",
-  "saved_at_et": "2026-11-23T11:05:59-05:00",
+  "saved_at_et": "2026-11-23T11:36:10-05:00",
   "response": [
     {
       "id": "1d2035e1-321e-45d8-8ed6-1260929cefea",
@@ -148,30 +148,30 @@
       }
     },
     {
-      "id": "eb53f8f9-077e-37af-a271-be6f923019a7",
+      "id": "7126d2e2-fc53-3c9a-8ba8-f70b8016e29b",
       "content": {
-        "id": "eb53f8f9-077e-37af-a271-be6f923019a7",
+        "id": "7126d2e2-fc53-3c9a-8ba8-f70b8016e29b",
         "contentType": "STORY",
-        "title": "Applied Digital Shares Surge 13% After Securing $5.4 Billion AI Data Centre Lease Agreement",
+        "title": "PENG vs. APLD: Which AI Infrastructure Stock Is the Better Investment?",
         "description": null,
-        "summary": "Applied Digital (NASDAQ:APLD) shares jumped 13% in Monday morning trading after the company announced a long-term lease agreement worth approximately $5. 4 billion with a tier-one, investment-grade hyperscaler, strengthening its contracted revenue pipeline and expanding its artificial intelligence data centre infrastructure business.",
-        "pubDate": "2026-11-23T14:57:07Z",
-        "displayTime": "2026-11-23T14:57:07Z",
+        "summary": "Penguin beats Applied Digital on profitability and valuation, while its rival grapples with rising debt and losses.",
+        "pubDate": "2026-11-23T15:02:00Z",
+        "displayTime": "2026-11-23T15:02:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/investorshub_458/e24696ef71b9bf7a7f0958a3fba1d44f.jpg",
-          "originalWidth": 1311,
-          "originalHeight": 720,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/d3e6082245f05efd98282f79c39d114d.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 807,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/investorshub_458/e24696ef71b9bf7a7f0958a3fba1d44f.jpg",
-              "width": 1311,
-              "height": 720,
+              "url": "https://media.zenfs.com/en/zacks.com/d3e6082245f05efd98282f79c39d114d.jpg_up.jpg",
+              "width": 1280,
+              "height": 807,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/26965be981a40ac76fee6a65babbba3726464db3d5706787fb8945fca3487875/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fe24696ef71b9bf7a7f0958a3fba1d44f.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/424d8eb2c26d821459151cd2bef341584beb8adcbcf4e9083bfb7169849634cb/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fd3e6082245f05efd98282f79c39d114d.jpg_up.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -179,14 +179,14 @@
           ]
         },
         "provider": {
-          "displayName": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://investorshub.advfn.com/market-news/article/40547/applied-digital-shares-surge-13-after-securing-5-4-billion-ai-data-centre-lease-agreement"
+          "url": "https://finance.yahoo.com/technology/ai/articles/peng-vs-apld-ai-infrastructure-150200067.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-shares-surge-13-145707495.html"
+          "url": "https://finance.yahoo.com/technology/ai/articles/peng-vs-apld-ai-infrastructure-150200067.html"
         },
         "finance": {
           "premiumFinance": {
@@ -195,6 +195,9 @@
           "stockTickers": [
             {
               "symbol": "APLD"
+            },
+            {
+              "symbol": "PENG"
             }
           ]
         }
