@@ -1,32 +1,32 @@
 {
-  "ticker": "ASX",
-  "saved_at_et": "2026-11-23T09:04:51-05:00",
+  "ticker": "AAOI",
+  "saved_at_et": "2026-11-23T09:36:29-05:00",
   "response": [
     {
-      "id": "3a49688e-8261-358b-a01d-75bfdc4a1d10",
+      "id": "eb03ea2d-623b-352c-be38-e3e11c74452d",
       "content": {
-        "id": "3a49688e-8261-358b-a01d-75bfdc4a1d10",
+        "id": "eb03ea2d-623b-352c-be38-e3e11c74452d",
         "contentType": "STORY",
-        "title": "LSCC Rides on Balanced Organic & Inorganic Growth: Should You Buy?",
+        "title": "3 AI Infrastructure Stocks With Up To 68% Revenue Growth",
         "description": null,
-        "summary": "Lattice's surging AI infrastructure demand, expanding FPGA portfolio and AMI acquisition fuel growth, while industrial recovery opens fresh opportunities.",
-        "pubDate": "2026-11-23T12:15:00Z",
-        "displayTime": "2026-11-23T12:15:00Z",
+        "summary": "Wall Street just reminded everyone that AI stocks can fall hard, with a sharp sell-off that pulled the Dow and S&P 500 into correction territory after a steep drop in artificial intelligence favorites. When headline AI companies stumble, attention often shifts to the quieter plumbing behind them: the routers, switches and servers that keep AI running. This article walks through three hardware-focused AI networking and server stocks from the screener that may be worth a closer look. The stocks...",
+        "pubDate": "2026-11-21T08:13:41Z",
+        "displayTime": "2026-11-21T08:13:41Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/c148afeaf671cd9b76653364f8737563.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 807,
+          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1be9f76f003675746bbcdc9e37ba93c7.jpg",
+          "originalWidth": 1600,
+          "originalHeight": 900,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/c148afeaf671cd9b76653364f8737563.jpg_up.jpg",
-              "width": 1280,
-              "height": 807,
+              "url": "https://media.zenfs.com/en/simply_wall_st__316/1be9f76f003675746bbcdc9e37ba93c7.jpg",
+              "width": 1600,
+              "height": 900,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/80e5a64d102131eaa59709e425fdf3e56763bceebd5a3823128a0890a48c4234/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fc148afeaf671cd9b76653364f8737563.jpg_up.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/9518f093cf65997f6d7093d05c745cea3b9e6a51879e84d0cc61c5de951eeef5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F1be9f76f003675746bbcdc9e37ba93c7.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "Simply Wall St.",
+          "url": "https://simplywall.st/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lscc-rides-balanced-organic-inorganic-121500392.html"
+          "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-68-081341637.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lscc-rides-balanced-organic-inorganic-121500392.html"
+          "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-68-081341637.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,87 +49,46 @@
           },
           "stockTickers": [
             {
-              "symbol": "LSCC"
+              "symbol": "VSH"
             },
             {
-              "symbol": "DIOD"
+              "symbol": "^DJI"
             },
             {
-              "symbol": "ASX"
+              "symbol": "HPE"
+            },
+            {
+              "symbol": "AAOI"
             }
           ]
         }
       }
     },
     {
-      "id": "60268c39-167b-36e6-9f93-330c55d635d5",
+      "id": "32109409-4794-31d7-9dff-a02717f2d898",
       "content": {
-        "id": "60268c39-167b-36e6-9f93-330c55d635d5",
+        "id": "32109409-4794-31d7-9dff-a02717f2d898",
         "contentType": "STORY",
-        "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week",
+        "title": "3 Growth Stocks With Revenue Growth Up To 68%",
         "description": null,
-        "summary": "Asian equities traded in the US as American depositary receipts were heading sharply lower Friday mo",
-        "pubDate": "2026-11-20T15:40:56Z",
-        "displayTime": "2026-11-20T15:40:56Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "MT Newswires",
-          "url": "https://www.mtnewswires.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-154056709.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-154056709.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": true
-          },
-          "stockTickers": [
-            {
-              "symbol": "KEP"
-            },
-            {
-              "symbol": "TAK"
-            },
-            {
-              "symbol": "ASX"
-            },
-            {
-              "symbol": "HDB"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "70f72764-02bc-3d28-99e5-ae7c43c2b6f8",
-      "content": {
-        "id": "70f72764-02bc-3d28-99e5-ae7c43c2b6f8",
-        "contentType": "STORY",
-        "title": "ESTC Q2 Earnings Beat Estimates on Strong Subscription Growth",
-        "description": null,
-        "summary": "Elastic's Q2 earnings beat estimates as strong subscription growth, rising cloud revenues and robust enterprise demand fuel double-digit revenue gains.",
-        "pubDate": "2026-11-20T14:32:00Z",
-        "displayTime": "2026-11-20T14:32:00Z",
+        "summary": "The recent plunge in tech valuations, especially around artificial intelligence, has pushed many fast growing companies out of the spotlight just as their business ambitions remain hefty. For investors, that creates a gap between stories and share prices that can be tempting to exploit. This piece unpacks three US listed growth candidates with robust balance sheets that analysts expect to grow quickly over the next few years. The three stocks below are just a sample, and the full screen...",
+        "pubDate": "2026-11-20T15:13:21Z",
+        "displayTime": "2026-11-20T15:13:21Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/086d96fa0c9fd357349c5bcc6304d3ca.png",
-          "originalWidth": 568,
-          "originalHeight": 264,
+          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/3c6ff8aabba9d6021dd61ad640943b86.jpg",
+          "originalWidth": 1600,
+          "originalHeight": 900,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/086d96fa0c9fd357349c5bcc6304d3ca.png",
-              "width": 568,
-              "height": 264,
+              "url": "https://media.zenfs.com/en/simply_wall_st__316/3c6ff8aabba9d6021dd61ad640943b86.jpg",
+              "width": 1600,
+              "height": 900,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/d752a2aa6c77b01968f51bf219e0d9f7ccc35e16e4bab74cdfbc4600183a05a5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F086d96fa0c9fd357349c5bcc6304d3ca.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/953375e38a7ea99d040934c3643334e07712ccf9f38e69d0a14838f5a2427727/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F3c6ff8aabba9d6021dd61ad640943b86.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -137,14 +96,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "Simply Wall St.",
+          "url": "https://simplywall.st/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/estc-q2-earnings-beat-estimates-143200200.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-revenue-growth-151321360.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/estc-q2-earnings-beat-estimates-143200200.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-revenue-growth-151321360.html"
         },
         "finance": {
           "premiumFinance": {
@@ -152,16 +111,78 @@
           },
           "stockTickers": [
             {
-              "symbol": "ESTC"
+              "symbol": "AAOI"
             },
             {
-              "symbol": "AVT"
+              "symbol": "VICR"
             },
             {
-              "symbol": "ASX"
+              "symbol": "BANC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "70679ad4-6931-310b-a2e5-9020c2e76551",
+      "content": {
+        "id": "70679ad4-6931-310b-a2e5-9020c2e76551",
+        "contentType": "STORY",
+        "title": "Applied Optoelectronics Sinks 7% as Optics Stocks Reverse Thursday’s Rally; Coherent Declines 4%, Lumentum Slides 5%",
+        "description": null,
+        "summary": "Thursday’s rebound in optical networking stocks is unwinding as the broader AI sell-off rolls on. Applied Optoelectronics (NASDAQ:AAOI) stock is at $36.70, down 7% in morning trading. Over the past month, Applied Optoelectronics stock has dropped 54%, and that slide makes the prior session’s bounce look modest. On November 17, Applied Optoelectronics disclosed an at-the-market […]",
+        "pubDate": "2026-11-20T14:54:46Z",
+        "displayTime": "2026-11-20T14:54:46Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/d04457b82ae9c05c0ed11aa694bb8347.jpg",
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/d04457b82ae9c05c0ed11aa694bb8347.jpg",
+              "width": 2560,
+              "height": 1440,
+              "tag": "original"
             },
             {
-              "symbol": "AEIS"
+              "url": "https://s.yimg.com/lo/mysterio/api/b72507539d83ccca2b588310228ced3abd050677cdcf4711f05521f29936c839/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fd04457b82ae9c05c0ed11aa694bb8347.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/11/20/applied-optoelectronics-sinks-10-as-optics-stocks-reverse-thursdays-rally-coherent-tumbles-8-lumentum-slides-7/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-sinks-7-optics-145446209.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "AAOI"
+            },
+            {
+              "symbol": "COHR"
+            },
+            {
+              "symbol": "ANT"
+            },
+            {
+              "symbol": "^NDX"
+            },
+            {
+              "symbol": "LITE"
             }
           ]
         }
