@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-23",
-  "generated_at_et": "2026-11-23 13:37:00 EST",
+  "generated_at_et": "2026-11-23 14:06:33 EST",
   "source_premarket_file": "premarket_scan_2026-11-23.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,7 +10,7 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 26,
+  "candidates": 25,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
@@ -23,9 +23,9 @@
       "yesterday_close": 11.9,
       "sma200": 13.4417,
       "premarket_high": 12.59,
-      "last_price": 12.701,
-      "last_bar_et": "13:36",
-      "high_of_day": 12.74,
+      "last_price": 12.7521,
+      "last_bar_et": "14:06",
+      "high_of_day": 12.77,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
@@ -33,7 +33,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.89,
+      "gap_pct": 6.69,
       "catalyst": "CNBC host Jim Cramer pledged to help Dell Technologies Inc."
     },
     {
@@ -45,8 +45,8 @@
       "yesterday_close": 32.93,
       "sma200": 114.9352,
       "premarket_high": 43.32,
-      "last_price": 38.38,
-      "last_bar_et": "13:36",
+      "last_price": 38.485,
+      "last_bar_et": "14:06",
       "high_of_day": 42.21,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -55,7 +55,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.1,
+      "gap_pct": 15.61,
       "catalyst": "One boardroom announcement sent three AI optics suppliers surging after a brutal month of selling."
     },
     {
@@ -67,8 +67,8 @@
       "yesterday_close": 9.69,
       "sma200": 7.4203,
       "premarket_high": 10.5,
-      "last_price": 10.56,
-      "last_bar_et": "13:36",
+      "last_price": 10.64,
+      "last_bar_et": "14:06",
       "high_of_day": 10.741,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -89,8 +89,8 @@
       "yesterday_close": 7.51,
       "sma200": 6.9527,
       "premarket_high": 8.58,
-      "last_price": 8.505,
-      "last_bar_et": "13:36",
+      "last_price": 8.475,
+      "last_bar_et": "14:06",
       "high_of_day": 8.585,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -99,7 +99,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 13.58,
+      "gap_pct": 12.18,
       "catalyst": "Absci reported a net loss of US$33.3 million for Q3 2026 and US$96.11 million for the first nine months, and appointed industry veteran Gerry Muhle as Chief Commercial Officer to lead commercialization of ABS-201 and…"
     },
     {
@@ -111,8 +111,8 @@
       "yesterday_close": 2.91,
       "sma200": 5.518,
       "premarket_high": 3.25,
-      "last_price": 3.1061,
-      "last_bar_et": "13:36",
+      "last_price": 3.0983,
+      "last_bar_et": "14:06",
       "high_of_day": 3.25,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -121,7 +121,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.7,
+      "gap_pct": 5.5,
       "catalyst": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
     },
     {
@@ -133,8 +133,8 @@
       "yesterday_close": 345.92,
       "sma200": 378.1163,
       "premarket_high": 396.17,
-      "last_price": 377.225,
-      "last_bar_et": "13:36",
+      "last_price": 378.23,
+      "last_bar_et": "14:06",
       "high_of_day": 388.74,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -143,7 +143,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.21,
+      "gap_pct": 8.56,
       "catalyst": "On Monday, Nov."
     },
     {
@@ -155,8 +155,8 @@
       "yesterday_close": 39.84,
       "sma200": 76.4741,
       "premarket_high": 49.3,
-      "last_price": 48.48,
-      "last_bar_et": "13:36",
+      "last_price": 48.74,
+      "last_bar_et": "14:06",
       "high_of_day": 49.87,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -165,7 +165,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 22.3,
+      "gap_pct": 21.56,
       "catalyst": "Nvidia’s sharp 28% slide from its peak has pushed questions about China exposure in AI chips from background noise to front page risk."
     },
     {
@@ -177,8 +177,8 @@
       "yesterday_close": 54.0,
       "sma200": 66.416,
       "premarket_high": 58.32,
-      "last_price": 58.865,
-      "last_bar_et": "13:36",
+      "last_price": 58.54,
+      "last_bar_et": "14:06",
       "high_of_day": 59.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -187,30 +187,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.1,
+      "gap_pct": 7.96,
       "catalyst": "SoFi posted record member growth and seven straight earnings beats, yet its stock has lost more than half its value this year."
-    },
-    {
-      "ticker": "AG",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8786,
-      "yesterday_high": 11.34,
-      "yesterday_close": 10.91,
-      "sma200": 19.321,
-      "premarket_high": 11.9397,
-      "last_price": 11.425,
-      "last_bar_et": "13:36",
-      "high_of_day": 11.9495,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.04,
-      "catalyst": "Today’s big story: Could Anthropic Stock Fall 25."
     },
     {
       "ticker": "AGI",
@@ -221,8 +199,8 @@
       "yesterday_close": 24.87,
       "sma200": 37.2559,
       "premarket_high": 26.53,
-      "last_price": 26.31,
-      "last_bar_et": "13:36",
+      "last_price": 26.395,
+      "last_bar_et": "14:06",
       "high_of_day": 26.69,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -231,7 +209,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.07,
+      "gap_pct": 5.75,
       "catalyst": "John McCluskey has led Alamos Gold for more than two decades."
     },
     {
@@ -243,8 +221,8 @@
       "yesterday_close": 85.11,
       "sma200": 111.8002,
       "premarket_high": 90.99,
-      "last_price": 89.7,
-      "last_bar_et": "13:36",
+      "last_price": 90.29,
+      "last_bar_et": "14:06",
       "high_of_day": 90.8,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -253,7 +231,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.69,
+      "gap_pct": 5.16,
       "catalyst": "Key TakeawaysA fund that manages $11."
     },
     {
@@ -265,8 +243,8 @@
       "yesterday_close": 180.35,
       "sma200": 258.8317,
       "premarket_high": 221.44,
-      "last_price": 217.625,
-      "last_bar_et": "13:36",
+      "last_price": 216.74,
+      "last_bar_et": "14:06",
       "high_of_day": 221.6,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -275,7 +253,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 21.04,
+      "gap_pct": 18.3,
       "catalyst": "Stock Market Today: The Dow Jones index surges Monday."
     },
     {
@@ -287,8 +265,8 @@
       "yesterday_close": 7.31,
       "sma200": 7.8721,
       "premarket_high": 7.6,
-      "last_price": 7.77,
-      "last_bar_et": "13:36",
+      "last_price": 7.73,
+      "last_bar_et": "14:03",
       "high_of_day": 7.8387,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -297,7 +275,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.98,
+      "gap_pct": 5.61,
       "catalyst": "Activists also report to the SEC on Allot, Orthofix Medical, and Veradermics."
     },
     {
@@ -309,17 +287,17 @@
       "yesterday_close": 6.39,
       "sma200": 15.5977,
       "premarket_high": 7.2448,
-      "last_price": 7.295,
-      "last_bar_et": "13:36",
-      "high_of_day": 7.405,
+      "last_price": 7.455,
+      "last_bar_et": "14:06",
+      "high_of_day": 7.455,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": false
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.08,
+      "gap_pct": 14.71,
       "catalyst": "Materion shares rose 11.0% by 12:02 p.m."
     },
     {
@@ -331,8 +309,8 @@
       "yesterday_close": 3.79,
       "sma200": 10.6345,
       "premarket_high": 4.31,
-      "last_price": 4.14,
-      "last_bar_et": "13:36",
+      "last_price": 4.15,
+      "last_bar_et": "14:06",
       "high_of_day": 4.34,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -341,7 +319,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.5,
+      "gap_pct": 8.71,
       "catalyst": "In a bid to stimulate domestic rare earth processing, the US Army is trying something fundamentally different at its Tooele Army Depot: providing land and security while a private company finances, builds, and operates…"
     },
     {
@@ -353,8 +331,8 @@
       "yesterday_close": 302.63,
       "sma200": 447.1513,
       "premarket_high": 355.31,
-      "last_price": 343.27,
-      "last_bar_et": "13:36",
+      "last_price": 345.08,
+      "last_bar_et": "14:06",
       "high_of_day": 352.91,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -363,8 +341,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.62,
-      "catalyst": "Speaking at the Forbes Global CEO Conference in Singapore on October 7, Ray Dalio was of the opinion that the AI boom had entered a “classic bubble,” and that there was a distinction between “how terrific a technology…"
+      "gap_pct": 13.27,
+      "catalyst": "On Monday, Nov."
     },
     {
       "ticker": "AMBA",
@@ -375,8 +353,8 @@
       "yesterday_close": 53.07,
       "sma200": 66.9813,
       "premarket_high": 58.5,
-      "last_price": 56.13,
-      "last_bar_et": "13:36",
+      "last_price": 56.45,
+      "last_bar_et": "14:06",
       "high_of_day": 57.08,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -385,7 +363,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.49,
+      "gap_pct": 5.32,
       "catalyst": "Analog Devices (ADI) is expected to deliver another strong quarter, while Ambarella (AMBA) could fac."
     },
     {
@@ -397,8 +375,8 @@
       "yesterday_close": 424.39,
       "sma200": 429.7861,
       "premarket_high": 481.5,
-      "last_price": 454.0001,
-      "last_bar_et": "13:36",
+      "last_price": 454.4301,
+      "last_bar_et": "14:06",
       "high_of_day": 477.38,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -407,7 +385,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.49,
+      "gap_pct": 6.12,
       "catalyst": "The 8:30 team is joined by Roundhill Investments Chief Investment Strategist Drew Pettit to discuss why washed-out sentiment doesn't mean a fundamental bottom, his $50-to-$250 bull-bear range on Anthropic, and how to…"
     },
     {
@@ -419,8 +397,8 @@
       "yesterday_close": 30.24,
       "sma200": 56.209,
       "premarket_high": 35.46,
-      "last_price": 34.285,
-      "last_bar_et": "13:36",
+      "last_price": 34.41,
+      "last_bar_et": "14:06",
       "high_of_day": 35.4795,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -429,7 +407,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.77,
+      "gap_pct": 13.03,
       "catalyst": "TTM and Amkor ride AI-driven semiconductor demand, but gaps in sales momentum, earnings outlooks and valuations could decide which stock has more upside."
     },
     {
@@ -441,8 +419,8 @@
       "yesterday_close": 5.77,
       "sma200": 13.1065,
       "premarket_high": 6.6,
-      "last_price": 6.31,
-      "last_bar_et": "13:36",
+      "last_price": 6.325,
+      "last_bar_et": "14:06",
       "high_of_day": 6.75,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -451,7 +429,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.62,
+      "gap_pct": 8.75,
       "catalyst": "Here is how Amprius Technologies (AMPX) and Deluxe (DLX) have performed compared to their sector so far this year."
     },
     {
@@ -463,8 +441,8 @@
       "yesterday_close": 167.62,
       "sma200": 168.5772,
       "premarket_high": 182.21,
-      "last_price": 180.235,
-      "last_bar_et": "13:36",
+      "last_price": 180.005,
+      "last_bar_et": "14:06",
       "high_of_day": 187.48,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -473,7 +451,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.65,
+      "gap_pct": 6.51,
       "catalyst": "Investing.com -- Goldman Sachs has released its latest rankings for the communication technology sector, highlighting key players positioned to benefit from ongoing digital transformation and cloud infrastructure growth."
     },
     {
@@ -485,8 +463,8 @@
       "yesterday_close": 69.72,
       "sma200": 75.652,
       "premarket_high": 79.22,
-      "last_price": 77.11,
-      "last_bar_et": "13:36",
+      "last_price": 77.01,
+      "last_bar_et": "14:06",
       "high_of_day": 77.26,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -495,7 +473,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.57,
+      "gap_pct": 10.01,
       "catalyst": "On Monday, Nov."
     },
     {
@@ -507,8 +485,8 @@
       "yesterday_close": 11.49,
       "sma200": 29.8171,
       "premarket_high": 14.49,
-      "last_price": 13.995,
-      "last_bar_et": "13:36",
+      "last_price": 13.8598,
+      "last_bar_et": "14:06",
       "high_of_day": 15.49,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -517,7 +495,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 22.15,
+      "gap_pct": 20.45,
       "catalyst": "CoreWeave and Nebius shares soared on Monday as CEO Jensen Huang returned to Nvidia, a major backer of the AI trade."
     },
     {
@@ -529,8 +507,8 @@
       "yesterday_close": 348.29,
       "sma200": 404.5539,
       "premarket_high": 385.61,
-      "last_price": 371.645,
-      "last_bar_et": "13:36",
+      "last_price": 373.31,
+      "last_bar_et": "14:06",
       "high_of_day": 384.82,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -539,7 +517,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.47,
+      "gap_pct": 6.6,
       "catalyst": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept."
     },
     {
@@ -551,8 +529,8 @@
       "yesterday_close": 152.2,
       "sma200": 234.5091,
       "premarket_high": 185.92,
-      "last_price": 176.68,
-      "last_bar_et": "13:36",
+      "last_price": 176.9,
+      "last_bar_et": "14:05",
       "high_of_day": 183.57,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -561,31 +539,31 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.29,
+      "gap_pct": 15.2,
       "catalyst": "The 8:30 team is joined by Roundhill Investments Chief Investment Strategist Drew Pettit to discuss why washed-out sentiment doesn't mean a fundamental bottom, his $50-to-$250 bull-bear range on Anthropic, and how to…"
     },
     {
-      "ticker": "ARRY",
+      "ticker": "ASM",
       "status": "FAIL",
       "signal": false,
-      "atr14": 0.5775,
-      "yesterday_high": 4.21,
-      "yesterday_close": 3.785,
-      "sma200": 6.4359,
-      "premarket_high": 4.04,
-      "last_price": 3.97,
-      "last_bar_et": "13:36",
-      "high_of_day": 4.19,
+      "atr14": 0.2971,
+      "yesterday_high": 3.63,
+      "yesterday_close": 3.44,
+      "sma200": 6.5225,
+      "premarket_high": 3.8,
+      "last_price": 3.7218,
+      "last_bar_et": "14:06",
+      "high_of_day": 3.84,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.55,
-      "catalyst": "The Senate’s BAAJA vote has thrown a spotlight on the pipes and wires behind the clean energy story, not just the panels and turbines."
+      "gap_pct": 7.7,
+      "catalyst": "DOW's growth investments, cost-saving initiatives and strong cash flow support its outlook, despite weak demand and cost pressures."
     }
   ],
-  "scan_time_et": "13:37"
+  "scan_time_et": "14:06"
 }
