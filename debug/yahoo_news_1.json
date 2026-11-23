@@ -1,7 +1,69 @@
 {
   "ticker": "APLD",
-  "saved_at_et": "2026-11-23T12:05:41-05:00",
+  "saved_at_et": "2026-11-23T12:36:26-05:00",
   "response": [
+    {
+      "id": "540f26cd-7ba0-3e38-975d-091507d6a473",
+      "content": {
+        "id": "540f26cd-7ba0-3e38-975d-091507d6a473",
+        "contentType": "STORY",
+        "title": "Bill Ackman Predicts “The Fed Will Put the U.S. and World in Recession” if It Hikes Rates after Thanksgiving",
+        "description": null,
+        "summary": "Key TakeawaysBill Ackman warned that the Fed will push the U. S.",
+        "pubDate": "2026-11-23T17:18:56Z",
+        "displayTime": "2026-11-23T17:18:56Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/cf170222d308619f34dfe4f8faaca293",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/tikr_258/cf170222d308619f34dfe4f8faaca293",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/81cf526adf8d8f0bd5ac7a6bf7398b48d8b295d7a41e56149dac3ee20660ca0a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Fcf170222d308619f34dfe4f8faaca293",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.tikr.com/blog/bill-ackman-predicts-the-fed-will-put-the-u-s-and-world-in-recession-if-it-hikes-rates-after-thanksgiving?ref=yahoofinance&tlnk=yf-261123-hg5m7wch"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/economy/policy/articles/bill-ackman-predicts-fed-put-171856867.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "SPCX"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "APLD"
+            },
+            {
+              "symbol": "PS"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "1d2035e1-321e-45d8-8ed6-1260929cefea",
       "content": {
@@ -142,62 +204,6 @@
             },
             {
               "symbol": "^GSPC"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "7126d2e2-fc53-3c9a-8ba8-f70b8016e29b",
-      "content": {
-        "id": "7126d2e2-fc53-3c9a-8ba8-f70b8016e29b",
-        "contentType": "STORY",
-        "title": "PENG vs. APLD: Which AI Infrastructure Stock Is the Better Investment?",
-        "description": null,
-        "summary": "Penguin beats Applied Digital on profitability and valuation, while its rival grapples with rising debt and losses.",
-        "pubDate": "2026-11-23T15:02:00Z",
-        "displayTime": "2026-11-23T15:02:00Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/d3e6082245f05efd98282f79c39d114d.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 807,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/d3e6082245f05efd98282f79c39d114d.jpg_up.jpg",
-              "width": 1280,
-              "height": 807,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/424d8eb2c26d821459151cd2bef341584beb8adcbcf4e9083bfb7169849634cb/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fd3e6082245f05efd98282f79c39d114d.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/technology/ai/articles/peng-vs-apld-ai-infrastructure-150200067.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/technology/ai/articles/peng-vs-apld-ai-infrastructure-150200067.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "APLD"
-            },
-            {
-              "symbol": "PENG"
             }
           ]
         }

@@ -1,19 +1,19 @@
 **Trend-join Long — 2026-11-23**
-0 valid entries out of 29 pre-market gappers (generated 2026-11-23 12:05:47 EST)
+0 valid entries out of 25 pre-market gappers (generated 2026-11-23 12:36:31 EST)
 
 _No valid entries yet._
 
 Not triggered:
 - AAL: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AAOI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- ABCL: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
+- ABCL: NO_SIGNAL — Failing now: price_above_high_of_day
 - ABSI: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - ACHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ADI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AEHR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AFRM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- AG: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AGI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AKAM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALAB: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALLT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -27,9 +27,5 @@ Not triggered:
 - APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - APP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ARM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- ARRY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ASM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ASML: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- ASST: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- ASTS: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- ASX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
