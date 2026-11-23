@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-11-23**
-0 valid entries out of 25 pre-market gappers (generated 2026-11-23 12:36:31 EST)
+0 valid entries out of 28 pre-market gappers (generated 2026-11-23 13:06:33 EST)
 
 _No valid entries yet._
 
@@ -19,6 +19,7 @@ Not triggered:
 - ALM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ALOY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AMAT: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- AMBA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AMD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AMKR: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - AMPX: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -27,5 +28,7 @@ Not triggered:
 - APLD: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - APP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ARM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ARRY: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ASM: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - ASML: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
+- ASST: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
