@@ -1,7 +1,122 @@
 {
   "ticker": "APLD",
-  "saved_at_et": "2026-11-23T09:36:29-05:00",
+  "saved_at_et": "2026-11-23T10:05:52-05:00",
   "response": [
+    {
+      "id": "eb53f8f9-077e-37af-a271-be6f923019a7",
+      "content": {
+        "id": "eb53f8f9-077e-37af-a271-be6f923019a7",
+        "contentType": "STORY",
+        "title": "Applied Digital Shares Surge 13% After Securing $5.4 Billion AI Data Centre Lease Agreement",
+        "description": null,
+        "summary": "Applied Digital (NASDAQ:APLD) shares jumped 13% in Monday morning trading after the company announced a long-term lease agreement worth approximately $5. 4 billion with a tier-one, investment-grade hyperscaler, strengthening its contracted revenue pipeline and expanding its artificial intelligence data centre infrastructure business.",
+        "pubDate": "2026-11-23T14:57:07Z",
+        "displayTime": "2026-11-23T14:57:07Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/e24696ef71b9bf7a7f0958a3fba1d44f.jpg",
+          "originalWidth": 1311,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/investorshub_458/e24696ef71b9bf7a7f0958a3fba1d44f.jpg",
+              "width": 1311,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/26965be981a40ac76fee6a65babbba3726464db3d5706787fb8945fca3487875/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fe24696ef71b9bf7a7f0958a3fba1d44f.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://investorshub.advfn.com/market-news/article/40547/applied-digital-shares-surge-13-after-securing-5-4-billion-ai-data-centre-lease-agreement"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-shares-surge-13-145707495.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "APLD"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6545ab46-9fa3-3786-91e5-5c908c8151ab",
+      "content": {
+        "id": "6545ab46-9fa3-3786-91e5-5c908c8151ab",
+        "contentType": "STORY",
+        "title": "Applied Digital Soars 27% on 18-Year Hyperscaler Lease as Potential Revenue “Nears $100 Billion”",
+        "description": null,
+        "summary": "Key TakeawaysApplied Digital stock jumped 27% after an 18-year, 150 MW hyperscaler lease lifted contracted base-term revenue above $41 billion. The lease pays more per megawatt than earlier ones and shrinks CoreWeave’s share of the backlog to about a quarter.",
+        "pubDate": "2026-11-23T14:33:00Z",
+        "displayTime": "2026-11-23T14:33:00Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/3cd29a0641c6eb10e62195f0b15be6f1",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/tikr_258/3cd29a0641c6eb10e62195f0b15be6f1",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/97dcb88cf951a58c892da658a9850ed417c18ae808a430b5ed37599e42c8e952/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F3cd29a0641c6eb10e62195f0b15be6f1",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.tikr.com/blog/applied-digital-soars-27-on-18-year-hyperscaler-lease-as-potential-revenue-nears-100-billion?ref=yahoofinance&tlnk=yf-261123-g68whxj6"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-soars-27-18-143300723.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "APLD"
+            },
+            {
+              "symbol": "CRWV"
+            },
+            {
+              "symbol": "CORZ"
+            },
+            {
+              "symbol": "WULF"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "48d2673b-8ba7-38b4-91c8-244848857d5a",
       "content": {
@@ -53,97 +168,6 @@
             },
             {
               "symbol": "MQG.AX"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "b6a67348-7e7d-31fe-ba29-bdfed8829df9",
-      "content": {
-        "id": "b6a67348-7e7d-31fe-ba29-bdfed8829df9",
-        "contentType": "STORY",
-        "title": "Applied Digital Stock Gets A Lift From New 18 Year Lease",
-        "description": null,
-        "summary": "Applied Digital has closed a US$300 million senior secured bridge facility and signed an 18 year, 150 MW lease with a tier one investment grade hyperscaler. This lifts contracted base term lease revenue above US$41b, with potential renewal value near US$100b. The new long duration hyperscaler agreement improves pricing and extends Applied Digital's contracted cash flow runway. This directly intersects with earlier concerns about heavy debt, high interest costs and concentration risk tied to...",
-        "pubDate": "2026-11-23T14:08:24Z",
-        "displayTime": "2026-11-23T14:08:24Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1483dc6f19a26cc4775cbcb0606c0b9d.jpg",
-          "originalWidth": 1600,
-          "originalHeight": 900,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/1483dc6f19a26cc4775cbcb0606c0b9d.jpg",
-              "width": 1600,
-              "height": 900,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/d847454b74d9de3751f3390759f6a10ac748d9d53c15fbf9977293c2915182c7/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F1483dc6f19a26cc4775cbcb0606c0b9d.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-stock-gets-lift-140824041.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-stock-gets-lift-140824041.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "APLD"
-            },
-            {
-              "symbol": "CRWV"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "6dac9878-299c-3653-a0a8-a5dfce208d89",
-      "content": {
-        "id": "6dac9878-299c-3653-a0a8-a5dfce208d89",
-        "contentType": "STORY",
-        "title": "Applied Digital stock jumps on $5.4 billion hyperscaler lease deal",
-        "description": null,
-        "summary": "Investing.com -- Applied Digital (NASDAQ:APLD) shares rose 13% Monday morning after the company announced an 18-year lease agreement with a tier-one, investment-grade hyperscaler for 150 megawatts of critical IT capacity.",
-        "pubDate": "2026-11-23T13:53:20Z",
-        "displayTime": "2026-11-23T13:53:20Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Investing.com",
-          "url": "https://www.investing.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-stock-jumps-5-135320409.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-stock-jumps-5-135320409.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "APLD"
             }
           ]
         }
