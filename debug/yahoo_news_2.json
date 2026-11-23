@@ -1,32 +1,32 @@
 {
-  "ticker": "GAP",
-  "saved_at_et": "2026-11-20T14:02:27-05:00",
+  "ticker": "ASX",
+  "saved_at_et": "2026-11-23T08:34:56-05:00",
   "response": [
     {
-      "id": "845f54ea-c861-418d-8544-19f25f442a0d",
+      "id": "3a49688e-8261-358b-a01d-75bfdc4a1d10",
       "content": {
-        "id": "845f54ea-c861-418d-8544-19f25f442a0d",
-        "contentType": "VIDEO",
-        "title": "Sozzi: Anthropic’s IPO Surges; Is AMD’s Pullback a Buy?",
-        "description": "<p>Yahoo Finance Executive Editor Brian Sozzi breaks down the biggest stories to kick off the trading day, including the performance of Anthropic (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/ANT/\" data-i13n=\"cpos:1;pos:1\">ANT</a>)’s IPO, whether AMD (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/AMD/\" data-i13n=\"cpos:2;pos:1\">AMD</a>)’s pullback presents a buying opportunity, and Gap (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/GAP/\" data-i13n=\"cpos:3;pos:1\">GAP</a>)’s fall earnings warning.</p>\n<p>Sozzi then sits down with former Bridgewater (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/BWB/\" data-i13n=\"cpos:4;pos:1\">BWB</a>) Associates Chief Investment Strategist Rebecca Patterson and former BNY (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/BNY/\" data-i13n=\"cpos:5;pos:1\">BNY</a>) Wealth Management CEO Catherine Keating to discuss their new book, <em>Investment Wisdom</em>, and how its lessons can help friends and loved ones navigate investing.</p>",
-        "summary": "Yahoo Finance Executive Editor Brian Sozzi breaks down the biggest stories to kick off the trading day, including the performance of Anthropic (ANT)’s IPO, whether AMD (AMD)’s pullback presents a buying opportunity, and Gap (GAP)’s fall earnings warning.\n\nSozzi then sits down with former Bridgewater (BWB) Associates Chief Investment Strategist Rebecca Patterson and former BNY (BNY) Wealth Management CEO Catherine Keating to discuss their new book, Investment Wisdom, and how its lessons can help friends and loved ones navigate investing.",
-        "pubDate": "2026-11-20T18:19:15Z",
-        "displayTime": "2026-11-20T18:19:15Z",
+        "id": "3a49688e-8261-358b-a01d-75bfdc4a1d10",
+        "contentType": "STORY",
+        "title": "LSCC Rides on Balanced Organic & Inorganic Growth: Should You Buy?",
+        "description": null,
+        "summary": "Lattice's surging AI infrastructure demand, expanding FPGA portfolio and AMI acquisition fuel growth, while industrial recovery opens fresh opportunities.",
+        "pubDate": "2026-11-23T12:15:00Z",
+        "displayTime": "2026-11-23T12:15:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/video-frame-1795191785453_1096.jpg_622ec60eedc6fbbc01ff030cd2f5edcf055c92e8f59be5ab9a5a0f66fbad2046.jpg",
-          "originalWidth": 1596,
-          "originalHeight": 898,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/c148afeaf671cd9b76653364f8737563.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 807,
           "resolutions": [
             {
-              "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/video-frame-1795191785453_1096.jpg_622ec60eedc6fbbc01ff030cd2f5edcf055c92e8f59be5ab9a5a0f66fbad2046.jpg",
-              "width": 1596,
-              "height": 898,
+              "url": "https://media.zenfs.com/en/zacks.com/c148afeaf671cd9b76653364f8737563.jpg_up.jpg",
+              "width": 1280,
+              "height": 807,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/48f083ff79cd7e41b2b8308345d886ceecfc6ab4b140d8e3a06750df59c2472b/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fvideo-frame-1795191785453_1096.jpg_622ec60eedc6fbbc01ff030cd2f5edcf055c92e8f59be5ab9a5a0f66fbad2046.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/80e5a64d102131eaa59709e425fdf3e56763bceebd5a3823128a0890a48c4234/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fc148afeaf671cd9b76653364f8737563.jpg_up.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/video/sozzi-anthropics-ipo-surges-is-amds-pullback-a-buy-181915349.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lscc-rides-balanced-organic-inorganic-121500392.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/video/sozzi-anthropics-ipo-surges-is-amds-pullback-a-buy-181915349.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lscc-rides-balanced-organic-inorganic-121500392.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,117 +49,87 @@
           },
           "stockTickers": [
             {
-              "symbol": "AMD"
+              "symbol": "LSCC"
             },
             {
-              "symbol": "GAP"
+              "symbol": "DIOD"
             },
             {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "ANT"
-            },
-            {
-              "symbol": "BWB"
-            },
-            {
-              "symbol": "^GSPC"
-            },
-            {
-              "symbol": "NOW"
-            },
-            {
-              "symbol": "WMT"
-            },
-            {
-              "symbol": "TGT"
-            },
-            {
-              "symbol": "^IXIC"
+              "symbol": "ASX"
             }
           ]
         }
       }
     },
     {
-      "id": "8f90eee8-e585-454f-8990-eb12fb961d52",
+      "id": "60268c39-167b-36e6-9f93-330c55d635d5",
       "content": {
-        "id": "8f90eee8-e585-454f-8990-eb12fb961d52",
+        "id": "60268c39-167b-36e6-9f93-330c55d635d5",
         "contentType": "STORY",
-        "title": "Gap CEO: 'Consumer is resilient but discerning'",
+        "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week",
         "description": null,
-        "summary": "Gap CEO Richard Dickson thinks the holiday shopping season will be just fine.",
-        "pubDate": "2026-11-20T18:02:32Z",
-        "displayTime": "2026-11-20T18:02:32Z",
+        "summary": "Asian equities traded in the US as American depositary receipts were heading sharply lower Friday mo",
+        "pubDate": "2026-11-20T15:40:56Z",
+        "displayTime": "2026-11-20T15:40:56Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://s.yimg.com/os/creatr-images/2019-11/cfcbacb0-0237-11ea-b9bf-42468361a1cf",
-          "originalWidth": 5120,
-          "originalHeight": 3413,
-          "resolutions": [
-            {
-              "url": "https://s.yimg.com/os/creatr-images/2019-11/cfcbacb0-0237-11ea-b9bf-42468361a1cf",
-              "width": 5120,
-              "height": 3413,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/0d885be3dbb9cef16ac7ff3374338e7a9a62855efda317a0386ec21057134ba9/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2019-11%2Fcfcbacb0-0237-11ea-b9bf-42468361a1cf",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
+        "thumbnail": null,
         "provider": {
-          "displayName": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/"
+          "displayName": "MT Newswires",
+          "url": "https://www.mtnewswires.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/article/gap-ceo-consumer-is-resilient-but-discerning-180232378.html"
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-154056709.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/article/gap-ceo-consumer-is-resilient-but-discerning-180232378.html"
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-154056709.html"
         },
         "finance": {
           "premiumFinance": {
-            "isPremiumNews": false
+            "isPremiumNews": true
           },
           "stockTickers": [
             {
-              "symbol": "GAP"
+              "symbol": "KEP"
+            },
+            {
+              "symbol": "TAK"
+            },
+            {
+              "symbol": "ASX"
+            },
+            {
+              "symbol": "HDB"
             }
           ]
         }
       }
     },
     {
-      "id": "0fea2129-7d6d-4540-8377-f57884769dc0",
+      "id": "70f72764-02bc-3d28-99e5-ae7c43c2b6f8",
       "content": {
-        "id": "0fea2129-7d6d-4540-8377-f57884769dc0",
+        "id": "70f72764-02bc-3d28-99e5-ae7c43c2b6f8",
         "contentType": "STORY",
-        "title": "'Happy Stripes is signature Gap': CEO Richard Dickson bets on nostalgia as stock soars",
+        "title": "ESTC Q2 Earnings Beat Estimates on Strong Subscription Growth",
         "description": null,
-        "summary": "Warm weather chilled Gap's forecast. Investors bought the stock anyway.",
-        "pubDate": "2026-11-20T17:47:48Z",
-        "displayTime": "2026-11-20T17:47:48Z",
+        "summary": "Elastic's Q2 earnings beat estimates as strong subscription growth, rising cloud revenues and robust enterprise demand fuel double-digit revenue gains.",
+        "pubDate": "2026-11-20T14:32:00Z",
+        "displayTime": "2026-11-20T14:32:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/file_8543.png",
-          "originalWidth": 1164,
-          "originalHeight": 1556,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/086d96fa0c9fd357349c5bcc6304d3ca.png",
+          "originalWidth": 568,
+          "originalHeight": 264,
           "resolutions": [
             {
-              "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/file_8543.png",
-              "width": 1164,
-              "height": 1556,
+              "url": "https://media.zenfs.com/en/zacks.com/086d96fa0c9fd357349c5bcc6304d3ca.png",
+              "width": 568,
+              "height": 264,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/80fdb70019c3f54da6d36655421c470b971b164d04733940eb6010c187a1f466/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Ffile_8543.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/d752a2aa6c77b01968f51bf219e0d9f7ccc35e16e4bab74cdfbc4600183a05a5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F086d96fa0c9fd357349c5bcc6304d3ca.png",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -167,14 +137,14 @@
           ]
         },
         "provider": {
-          "displayName": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/article/happy-stripes-is-signature-gap-ceo-richard-dickson-bets-on-nostalgia-as-stock-soars-174748504.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/estc-q2-earnings-beat-estimates-143200200.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/article/happy-stripes-is-signature-gap-ceo-richard-dickson-bets-on-nostalgia-as-stock-soars-174748504.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/estc-q2-earnings-beat-estimates-143200200.html"
         },
         "finance": {
           "premiumFinance": {
@@ -182,7 +152,16 @@
           },
           "stockTickers": [
             {
-              "symbol": "GAP"
+              "symbol": "ESTC"
+            },
+            {
+              "symbol": "AVT"
+            },
+            {
+              "symbol": "ASX"
+            },
+            {
+              "symbol": "AEIS"
             }
           ]
         }

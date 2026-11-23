@@ -1,29 +1,47 @@
 {
-  "ticker": "AKAN",
-  "saved_at_et": "2026-11-20T14:02:27-05:00",
+  "ticker": "APLD",
+  "saved_at_et": "2026-11-23T08:34:56-05:00",
   "response": [
     {
-      "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+      "id": "556b001c-7882-30bc-8534-6c2f1dcdffef",
       "content": {
-        "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+        "id": "556b001c-7882-30bc-8534-6c2f1dcdffef",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "What Just Happened To Applied Digital Stock?",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
-        "pubDate": "2026-11-18T15:30:23Z",
-        "displayTime": "2026-11-18T15:30:23Z",
+        "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+        "pubDate": "2026-11-23T12:22:51Z",
+        "displayTime": "2026-11-23T12:22:51Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/trefis_142/282b2de041f61e72e2e65f389df3ed54.jpg",
+          "originalWidth": 2560,
+          "originalHeight": 1920,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/trefis_142/282b2de041f61e72e2e65f389df3ed54.jpg",
+              "width": 2560,
+              "height": 1920,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/d2469f8945071c6964c716b5d4f940127fa6abf6f864f7ead67e56d70ef64a09/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F282b2de041f61e72e2e65f389df3ed54.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "Trefis",
+          "url": "https://www.trefis.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+          "url": "https://www.trefis.com/stock/apld/articles/627717/what-just-happened-to-applied-digital-stock/2026-11-23"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-applied-digital-stock-122251439.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,76 +49,61 @@
           },
           "stockTickers": [
             {
+              "symbol": "APLD"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
               "symbol": "NVDA"
             },
             {
-              "symbol": "CHSN"
-            },
-            {
-              "symbol": "LICN"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "HIHO"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "BRNX"
-            },
-            {
-              "symbol": "IBIT"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "OPEN"
+              "symbol": "CORZ"
             }
           ]
         }
       }
     },
     {
-      "id": "d6078fee-bdc5-3404-beed-bccad34497ec",
+      "id": "10256415-0bc4-31de-98f5-9d44311f0610",
       "content": {
-        "id": "d6078fee-bdc5-3404-beed-bccad34497ec",
+        "id": "10256415-0bc4-31de-98f5-9d44311f0610",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "CoreWeave Is the Real Loser in Anthropic’s IPO Slide: $22.4 Billion of OpenAI Contracts",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Cyabra Inc.",
-        "pubDate": "2026-11-16T15:30:19Z",
-        "displayTime": "2026-11-16T15:30:19Z",
+        "summary": "Key TakeawaysAnthropic gave back most of its first-day pop, raising doubts about an OpenAI IPO. CoreWeave’s $22.",
+        "pubDate": "2026-11-23T00:48:02Z",
+        "displayTime": "2026-11-23T00:48:02Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/4e49d0eab11896ab055f95d0b7ba3877",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/tikr_258/4e49d0eab11896ab055f95d0b7ba3877",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/187fba5929ef3d92c9543a65582dca5d248eeb84f6d57afc5b209182c28b9abb/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F4e49d0eab11896ab055f95d0b7ba3877",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
+          "url": "https://www.tikr.com/blog/coreweave-is-the-real-loser-in-anthropics-ipo-slide-22-4-billion-of-openai-contracts?ref=yahoofinance&tlnk=yf-261123-h2vq3cr2"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-real-loser-anthropic-ipo-004802096.html"
         },
         "finance": {
           "premiumFinance": {
@@ -108,73 +111,64 @@
           },
           "stockTickers": [
             {
-              "symbol": "NVDA"
+              "symbol": "OPAI.PVT"
             },
             {
-              "symbol": "DVLT"
+              "symbol": "ANT"
             },
             {
-              "symbol": "SHFS"
+              "symbol": "CRWV"
             },
             {
-              "symbol": "GMM"
+              "symbol": "CORZ"
             },
             {
-              "symbol": "CYAB"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "HIHO"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "POLA"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "RBNE"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "SAFX"
+              "symbol": "APLD"
             }
           ]
         }
       }
     },
     {
-      "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+      "id": "990abfa6-fe5c-3255-88eb-a6431638a451",
       "content": {
-        "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+        "id": "990abfa6-fe5c-3255-88eb-a6431638a451",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Warning for CoreWeave: Satya Nadella Says “Selling to One or Two Customers Is Not a Business”",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  SHF Holdings Inc.",
-        "pubDate": "2026-11-13T15:30:18Z",
-        "displayTime": "2026-11-13T15:30:18Z",
+        "summary": "Key TakeawaysMicrosoft CEO Satya Nadella said selling to one or two customers “is not a business,” and that Microsoft builds its own capacity first and rents last. That’s a warning for CoreWeave, whose three biggest customers made up 72% of second-quarter revenue, and for Nebius and IREN, which count Microsoft as an anchor customer.",
+        "pubDate": "2026-11-22T14:43:32Z",
+        "displayTime": "2026-11-22T14:43:32Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/285fbf30cc4f2af8bb3b0905f114cb97",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/tikr_258/285fbf30cc4f2af8bb3b0905f114cb97",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/a9309b6892d7fd61f3fa3c1b225023ed448e15bc666cf563122eda31f71ad2c1/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F285fbf30cc4f2af8bb3b0905f114cb97",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+          "url": "https://www.tikr.com/blog/warning-for-coreweave-satya-nadella-says-selling-to-one-or-two-customers-is-not-a-business?ref=yahoofinance&tlnk=yf-261122-jxpj37r5"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/warning-coreweave-satya-nadella-says-144332433.html"
         },
         "finance": {
           "premiumFinance": {
@@ -182,43 +176,19 @@
           },
           "stockTickers": [
             {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "IBIT"
+              "symbol": "MSFT"
             },
             {
               "symbol": "CRWV"
-            },
-            {
-              "symbol": "ONFO"
-            },
-            {
-              "symbol": "FCUV"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "GRAB"
             },
             {
               "symbol": "NBIS"
+            },
+            {
+              "symbol": "IREN"
+            },
+            {
+              "symbol": "APLD"
             }
           ]
         }
