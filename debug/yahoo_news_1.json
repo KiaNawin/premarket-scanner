@@ -1,32 +1,32 @@
 {
-  "ticker": "APLD",
-  "saved_at_et": "2026-11-23T08:34:56-05:00",
+  "ticker": "ASX",
+  "saved_at_et": "2026-11-23T09:04:51-05:00",
   "response": [
     {
-      "id": "556b001c-7882-30bc-8534-6c2f1dcdffef",
+      "id": "3a49688e-8261-358b-a01d-75bfdc4a1d10",
       "content": {
-        "id": "556b001c-7882-30bc-8534-6c2f1dcdffef",
+        "id": "3a49688e-8261-358b-a01d-75bfdc4a1d10",
         "contentType": "STORY",
-        "title": "What Just Happened To Applied Digital Stock?",
+        "title": "LSCC Rides on Balanced Organic & Inorganic Growth: Should You Buy?",
         "description": null,
-        "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
-        "pubDate": "2026-11-23T12:22:51Z",
-        "displayTime": "2026-11-23T12:22:51Z",
+        "summary": "Lattice's surging AI infrastructure demand, expanding FPGA portfolio and AMI acquisition fuel growth, while industrial recovery opens fresh opportunities.",
+        "pubDate": "2026-11-23T12:15:00Z",
+        "displayTime": "2026-11-23T12:15:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/trefis_142/282b2de041f61e72e2e65f389df3ed54.jpg",
-          "originalWidth": 2560,
-          "originalHeight": 1920,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/c148afeaf671cd9b76653364f8737563.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 807,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/trefis_142/282b2de041f61e72e2e65f389df3ed54.jpg",
-              "width": 2560,
-              "height": 1920,
+              "url": "https://media.zenfs.com/en/zacks.com/c148afeaf671cd9b76653364f8737563.jpg_up.jpg",
+              "width": 1280,
+              "height": 807,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/d2469f8945071c6964c716b5d4f940127fa6abf6f864f7ead67e56d70ef64a09/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F282b2de041f61e72e2e65f389df3ed54.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/80e5a64d102131eaa59709e425fdf3e56763bceebd5a3823128a0890a48c4234/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fc148afeaf671cd9b76653364f8737563.jpg_up.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Trefis",
-          "url": "https://www.trefis.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.trefis.com/stock/apld/articles/627717/what-just-happened-to-applied-digital-stock/2026-11-23"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lscc-rides-balanced-organic-inorganic-121500392.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-applied-digital-stock-122251439.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lscc-rides-balanced-organic-inorganic-121500392.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,111 +49,87 @@
           },
           "stockTickers": [
             {
-              "symbol": "APLD"
+              "symbol": "LSCC"
             },
             {
-              "symbol": "^GSPC"
+              "symbol": "DIOD"
             },
             {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "CORZ"
+              "symbol": "ASX"
             }
           ]
         }
       }
     },
     {
-      "id": "10256415-0bc4-31de-98f5-9d44311f0610",
+      "id": "60268c39-167b-36e6-9f93-330c55d635d5",
       "content": {
-        "id": "10256415-0bc4-31de-98f5-9d44311f0610",
+        "id": "60268c39-167b-36e6-9f93-330c55d635d5",
         "contentType": "STORY",
-        "title": "CoreWeave Is the Real Loser in Anthropic’s IPO Slide: $22.4 Billion of OpenAI Contracts",
+        "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Tumble 7% for Week",
         "description": null,
-        "summary": "Key TakeawaysAnthropic gave back most of its first-day pop, raising doubts about an OpenAI IPO. CoreWeave’s $22.",
-        "pubDate": "2026-11-23T00:48:02Z",
-        "displayTime": "2026-11-23T00:48:02Z",
+        "summary": "Asian equities traded in the US as American depositary receipts were heading sharply lower Friday mo",
+        "pubDate": "2026-11-20T15:40:56Z",
+        "displayTime": "2026-11-20T15:40:56Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/tikr_258/4e49d0eab11896ab055f95d0b7ba3877",
-          "originalWidth": 1280,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/tikr_258/4e49d0eab11896ab055f95d0b7ba3877",
-              "width": 1280,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/187fba5929ef3d92c9543a65582dca5d248eeb84f6d57afc5b209182c28b9abb/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F4e49d0eab11896ab055f95d0b7ba3877",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
+        "thumbnail": null,
         "provider": {
-          "displayName": "TIKR",
-          "url": "https://www.tikr.com/"
+          "displayName": "MT Newswires",
+          "url": "https://www.mtnewswires.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.tikr.com/blog/coreweave-is-the-real-loser-in-anthropics-ipo-slide-22-4-billion-of-openai-contracts?ref=yahoofinance&tlnk=yf-261123-h2vq3cr2"
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-154056709.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-real-loser-anthropic-ipo-004802096.html"
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-154056709.html"
         },
         "finance": {
           "premiumFinance": {
-            "isPremiumNews": false
+            "isPremiumNews": true
           },
           "stockTickers": [
             {
-              "symbol": "OPAI.PVT"
+              "symbol": "KEP"
             },
             {
-              "symbol": "ANT"
+              "symbol": "TAK"
             },
             {
-              "symbol": "CRWV"
+              "symbol": "ASX"
             },
             {
-              "symbol": "CORZ"
-            },
-            {
-              "symbol": "APLD"
+              "symbol": "HDB"
             }
           ]
         }
       }
     },
     {
-      "id": "990abfa6-fe5c-3255-88eb-a6431638a451",
+      "id": "70f72764-02bc-3d28-99e5-ae7c43c2b6f8",
       "content": {
-        "id": "990abfa6-fe5c-3255-88eb-a6431638a451",
+        "id": "70f72764-02bc-3d28-99e5-ae7c43c2b6f8",
         "contentType": "STORY",
-        "title": "Warning for CoreWeave: Satya Nadella Says “Selling to One or Two Customers Is Not a Business”",
+        "title": "ESTC Q2 Earnings Beat Estimates on Strong Subscription Growth",
         "description": null,
-        "summary": "Key TakeawaysMicrosoft CEO Satya Nadella said selling to one or two customers “is not a business,” and that Microsoft builds its own capacity first and rents last. That’s a warning for CoreWeave, whose three biggest customers made up 72% of second-quarter revenue, and for Nebius and IREN, which count Microsoft as an anchor customer.",
-        "pubDate": "2026-11-22T14:43:32Z",
-        "displayTime": "2026-11-22T14:43:32Z",
+        "summary": "Elastic's Q2 earnings beat estimates as strong subscription growth, rising cloud revenues and robust enterprise demand fuel double-digit revenue gains.",
+        "pubDate": "2026-11-20T14:32:00Z",
+        "displayTime": "2026-11-20T14:32:00Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/tikr_258/285fbf30cc4f2af8bb3b0905f114cb97",
-          "originalWidth": 1280,
-          "originalHeight": 720,
+          "originalUrl": "https://media.zenfs.com/en/zacks.com/086d96fa0c9fd357349c5bcc6304d3ca.png",
+          "originalWidth": 568,
+          "originalHeight": 264,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/tikr_258/285fbf30cc4f2af8bb3b0905f114cb97",
-              "width": 1280,
-              "height": 720,
+              "url": "https://media.zenfs.com/en/zacks.com/086d96fa0c9fd357349c5bcc6304d3ca.png",
+              "width": 568,
+              "height": 264,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/a9309b6892d7fd61f3fa3c1b225023ed448e15bc666cf563122eda31f71ad2c1/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F285fbf30cc4f2af8bb3b0905f114cb97",
+              "url": "https://s.yimg.com/lo/mysterio/api/d752a2aa6c77b01968f51bf219e0d9f7ccc35e16e4bab74cdfbc4600183a05a5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F086d96fa0c9fd357349c5bcc6304d3ca.png",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -161,14 +137,14 @@
           ]
         },
         "provider": {
-          "displayName": "TIKR",
-          "url": "https://www.tikr.com/"
+          "displayName": "Zacks",
+          "url": "http://www.zacks.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.tikr.com/blog/warning-for-coreweave-satya-nadella-says-selling-to-one-or-two-customers-is-not-a-business?ref=yahoofinance&tlnk=yf-261122-jxpj37r5"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/estc-q2-earnings-beat-estimates-143200200.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/warning-coreweave-satya-nadella-says-144332433.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/estc-q2-earnings-beat-estimates-143200200.html"
         },
         "finance": {
           "premiumFinance": {
@@ -176,19 +152,16 @@
           },
           "stockTickers": [
             {
-              "symbol": "MSFT"
+              "symbol": "ESTC"
             },
             {
-              "symbol": "CRWV"
+              "symbol": "AVT"
             },
             {
-              "symbol": "NBIS"
+              "symbol": "ASX"
             },
             {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "APLD"
+              "symbol": "AEIS"
             }
           ]
         }
