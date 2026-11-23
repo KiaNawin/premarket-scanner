@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-11-23**
-0 valid entries out of 25 pre-market gappers (generated 2026-11-23 14:06:33 EST)
+0 valid entries out of 25 pre-market gappers (generated 2026-11-23 14:35:03 EST)
 
 _No valid entries yet._
 
