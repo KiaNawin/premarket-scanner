@@ -1,32 +1,32 @@
 {
-  "ticker": "AXTI",
-  "saved_at_et": "2026-11-23T10:05:52-05:00",
+  "ticker": "APLD",
+  "saved_at_et": "2026-11-23T10:35:18-05:00",
   "response": [
     {
-      "id": "5953f26f-d1d7-30f7-aad5-4b16017fb661",
+      "id": "1d2035e1-321e-45d8-8ed6-1260929cefea",
       "content": {
-        "id": "5953f26f-d1d7-30f7-aad5-4b16017fb661",
+        "id": "1d2035e1-321e-45d8-8ed6-1260929cefea",
         "contentType": "STORY",
-        "title": "3 Top AI Stocks To Watch With Up To 43% Revenue Growth",
+        "title": "CoreWeave, Nebius lead neocloud stocks higher as Jensen Huang's Nvidia return lifts AI trade",
         "description": null,
-        "summary": "Anthropic’s record-shattering IPO and huge infrastructure commitments have reminded investors that AI is no longer just about software. All that compute needs factories, warehouses, chip plants, logistics hubs and data centers that run with as few people as possible. That is where real world automation comes in. This article highlights three robotics and automation leaders from our screener that are positioned to serve that build out. The three stocks below are a starter set, while the full...",
-        "pubDate": "2026-11-20T02:11:21Z",
-        "displayTime": "2026-11-20T02:11:21Z",
+        "summary": "CoreWeave and Nebius shares soared on Monday as CEO Jensen Huang returned to Nvidia, a major backer of the AI trade.",
+        "pubDate": "2026-11-23T15:14:17Z",
+        "displayTime": "2026-11-23T15:14:17Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/d5a4184a23616b1f9a7e12a4c834fa04.jpg",
-          "originalWidth": 1600,
-          "originalHeight": 900,
+          "originalUrl": "https://d29szjachogqwa.cloudfront.net/images/2026-11/f68e5f4b-0807-4e7a-a1b0-12131991f369",
+          "originalWidth": 6048,
+          "originalHeight": 4032,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/d5a4184a23616b1f9a7e12a4c834fa04.jpg",
-              "width": 1600,
-              "height": 900,
+              "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/f68e5f4b-0807-4e7a-a1b0-12131991f369",
+              "width": 6048,
+              "height": 4032,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/67b765f6f652a83c61ff23ca2c9f29f5fad2762398373d3fbd30fad2fec90c37/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fd5a4184a23616b1f9a7e12a4c834fa04.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/e5bdb5360c18cbfcfed7b86460d4fb5c78de59cb8b9ca52a4a8c763bdcaa2948/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Ff68e5f4b-0807-4e7a-a1b0-12131991f369",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
+          "displayName": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/technology/ai/articles/3-top-ai-stocks-watch-021121041.html"
+          "url": "https://finance.yahoo.com/markets/article/coreweave-nebius-lead-neocloud-stocks-higher-as-jensen-huang-is-reinstated-as-ceo-of-nvidia-151417634.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/technology/ai/articles/3-top-ai-stocks-watch-021121041.html"
+          "url": "https://finance.yahoo.com/markets/article/coreweave-nebius-lead-neocloud-stocks-higher-as-jensen-huang-is-reinstated-as-ceo-of-nvidia-151417634.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,105 +49,55 @@
           },
           "stockTickers": [
             {
-              "symbol": "AVAV"
+              "symbol": "NVDA"
             },
             {
-              "symbol": "ANT"
+              "symbol": "CRWV"
             },
             {
-              "symbol": "OUST"
+              "symbol": "NBIS"
             },
             {
-              "symbol": "AXTI"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "1e60fd29-1d03-3c29-830a-027bd52790ae",
-      "content": {
-        "id": "1e60fd29-1d03-3c29-830a-027bd52790ae",
-        "contentType": "STORY",
-        "title": "Can AXTI Convert Its $500M InP Backlog Into Sustained Revenue Growth?",
-        "description": null,
-        "summary": "AXT's InP backlog tops $500M as AI data center demand lifts sales and strains supply. With capacity set to double again in 2027, can growth keep pace?",
-        "pubDate": "2026-11-19T15:37:00Z",
-        "displayTime": "2026-11-19T15:37:00Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/7d3240dbe57d80203230fc85b78badab.jpg",
-          "originalWidth": 900,
-          "originalHeight": 876,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/7d3240dbe57d80203230fc85b78badab.jpg",
-              "width": 900,
-              "height": 876,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/49d6988b70c8ff2914d1cc91d9a3abb16fd4bb42eb1a8dbed50afb35f5deee51/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F7d3240dbe57d80203230fc85b78badab.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/axti-convert-500m-inp-backlog-153700574.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/axti-convert-500m-inp-backlog-153700574.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "AXTI"
+              "symbol": "APLD"
             },
             {
               "symbol": "COHR"
             },
             {
-              "symbol": "MTSI"
+              "symbol": "BE"
+            },
+            {
+              "symbol": "IREN"
             }
           ]
         }
       }
     },
     {
-      "id": "9feda359-2ed3-3872-9e16-e1f93bbfb6bb",
+      "id": "7fb15aab-238b-3375-bf23-554bef95c51e",
       "content": {
-        "id": "9feda359-2ed3-3872-9e16-e1f93bbfb6bb",
+        "id": "7fb15aab-238b-3375-bf23-554bef95c51e",
         "contentType": "STORY",
-        "title": "3 U.S. AI Chip Stocks Facing Export Rules Investors Should Watch",
+        "title": "Applied Digital Soars 26% on $5.4B Hyperscaler Lease; Cipher Digital Jumps 19%, TeraWulf Surges 15%",
         "description": null,
-        "summary": "Nvidia’s record US$116b quarter and firm stance on export control oversight have turned AI chips into a live test of how profit, policy and leadership all pull on a stock at once. This is where opportunity often hides, when prices swing and headlines focus on the wrong thing. The rest of this piece breaks down three U.S.-listed AI chip exporters most exposed to this news and what that could mean for your portfolio. The three stocks in this article are a starting sample, and the full screen...",
-        "pubDate": "2026-11-18T02:14:57Z",
-        "displayTime": "2026-11-18T02:14:57Z",
+        "summary": "An 18-year lease with a mystery hyperscaler lit up AI data center stocks, but a surprise boardroom reversal at NVIDIA may be doing just as much of the lifting. Can the rebound survive a week of heavy macro data and chip export curbs?",
+        "pubDate": "2026-11-23T15:02:41Z",
+        "displayTime": "2026-11-23T15:02:41Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0b7bda1a281e265f85b2b01e91b73caf.jpg",
-          "originalWidth": 1600,
-          "originalHeight": 900,
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/b2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
+          "originalWidth": 2560,
+          "originalHeight": 1707,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/simply_wall_st__316/0b7bda1a281e265f85b2b01e91b73caf.jpg",
-              "width": 1600,
-              "height": 900,
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/b2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
+              "width": 2560,
+              "height": 1707,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/2b64c5c90badc3a814891b3c4fe7e27f575835fe8e90a24425ff05a7563e77f6/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F0b7bda1a281e265f85b2b01e91b73caf.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/39c1b9a6f872ea8cfb9baa35495d1f72f3a2438204451974dc45678fdd1e3494/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fb2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -155,14 +105,14 @@
           ]
         },
         "provider": {
-          "displayName": "Simply Wall St.",
-          "url": "https://simplywall.st/"
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/technology/ai/articles/3-u-ai-chip-stocks-021457283.html"
+          "url": "https://247wallst.com/investing/2026/11/23/applied-digital-soars-26-on-5-4b-hyperscaler-lease-cipher-digital-jumps-19-terawulf-surges-15/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/technology/ai/articles/3-u-ai-chip-stocks-021457283.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-soars-26-5-150241878.html"
         },
         "finance": {
           "premiumFinance": {
@@ -170,16 +120,81 @@
           },
           "stockTickers": [
             {
-              "symbol": "NSIT"
+              "symbol": "APLD"
+            },
+            {
+              "symbol": "WULF"
+            },
+            {
+              "symbol": "CIFR"
+            },
+            {
+              "symbol": "IREN"
             },
             {
               "symbol": "NVDA"
             },
             {
-              "symbol": "AXTI"
+              "symbol": "CORZ"
             },
             {
-              "symbol": "LITE"
+              "symbol": "^NDX"
+            },
+            {
+              "symbol": "^GSPC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eb53f8f9-077e-37af-a271-be6f923019a7",
+      "content": {
+        "id": "eb53f8f9-077e-37af-a271-be6f923019a7",
+        "contentType": "STORY",
+        "title": "Applied Digital Shares Surge 13% After Securing $5.4 Billion AI Data Centre Lease Agreement",
+        "description": null,
+        "summary": "Applied Digital (NASDAQ:APLD) shares jumped 13% in Monday morning trading after the company announced a long-term lease agreement worth approximately $5. 4 billion with a tier-one, investment-grade hyperscaler, strengthening its contracted revenue pipeline and expanding its artificial intelligence data centre infrastructure business.",
+        "pubDate": "2026-11-23T14:57:07Z",
+        "displayTime": "2026-11-23T14:57:07Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/e24696ef71b9bf7a7f0958a3fba1d44f.jpg",
+          "originalWidth": 1311,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/investorshub_458/e24696ef71b9bf7a7f0958a3fba1d44f.jpg",
+              "width": 1311,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/26965be981a40ac76fee6a65babbba3726464db3d5706787fb8945fca3487875/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fe24696ef71b9bf7a7f0958a3fba1d44f.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://investorshub.advfn.com/market-news/article/40547/applied-digital-shares-surge-13-after-securing-5-4-billion-ai-data-centre-lease-agreement"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-shares-surge-13-145707495.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "APLD"
             }
           ]
         }
