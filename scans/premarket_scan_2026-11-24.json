@@ -1,0 +1,168 @@
+{
+  "scan_date": "2026-11-24",
+  "generated_at_et": "2026-11-24 08:33:15 EST",
+  "scan_time_et": "08:33",
+  "criteria": {
+    "min_gap_pct": 5.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000
+  },
+  "funnel": {
+    "universe": 7066,
+    "prefilter": 722,
+    "with_data": 692,
+    "gap": 38,
+    "gap_price": 34,
+    "passed": 12,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7066,
+  "count": 12,
+  "results": [
+    {
+      "ticker": "AKAN",
+      "price": 3.23,
+      "gap_pct": 25.19,
+      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
+      "prev_close": 2.58,
+      "premarket_volume": 3312301,
+      "session": "pre-market",
+      "catalyst_source": "Associated Press",
+      "catalyst_headline": "BC-Most Active Stocks",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+    },
+    {
+      "ticker": "FLNC",
+      "price": 4.68,
+      "gap_pct": 23.16,
+      "catalyst": "Fluence Energy (NASDAQ:FLNC) shares rose 16.",
+      "prev_close": 3.8,
+      "premarket_volume": 2717093,
+      "session": "pre-market",
+      "catalyst_source": "InvestorsHub",
+      "catalyst_headline": "Why Is Fluence Energy Stock Rising 16.5% Today?",
+      "catalyst_url": "https://investorshub.advfn.com/market-news/article/40583/why-is-fluence-energy-stock-rising-16-5-today"
+    },
+    {
+      "ticker": "INSM",
+      "price": 170.7,
+      "gap_pct": 14.49,
+      "catalyst": "U.S. stock futures fell amid investor concerns around Jensen Huang’s return as Nvidia chief and the artificial-intelligence buildout after Monday’s stunning rally.",
+      "prev_close": 149.09,
+      "premarket_volume": 13765259,
+      "session": "pre-market",
+      "catalyst_source": "The Wall Street Journal",
+      "catalyst_headline": "Nasdaq Futures Fall as Questions Linger Over AI Trade",
+      "catalyst_url": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71"
+    },
+    {
+      "ticker": "DKS",
+      "price": 151.5,
+      "gap_pct": 13.34,
+      "catalyst": "Key TakeawaysNike’s dividend yield reached 5.",
+      "prev_close": 133.67,
+      "premarket_volume": 282035,
+      "session": "pre-market",
+      "catalyst_source": "TIKR",
+      "catalyst_headline": "Nike Stock Is Down 48% in a Year, Pushing Its Dividend Yield to 5%",
+      "catalyst_url": "https://www.tikr.com/blog/nike-stock-is-down-48-in-a-year-pushing-its-dividend-yield-to-5?ref=yahoofinancedividend&tlnk=yf-261124-56c359w3"
+    },
+    {
+      "ticker": "ANF",
+      "price": 154.75,
+      "gap_pct": 10.18,
+      "catalyst": "It's Thanksgiving week and Black Friday looms.",
+      "prev_close": 140.45,
+      "premarket_volume": 172128,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "5 Retail and Tech Earnings Charts to Watch This Week",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/5-retail-tech-earnings-charts-232700654.html"
+    },
+    {
+      "ticker": "KSS",
+      "price": 22.88,
+      "gap_pct": 7.92,
+      "catalyst": "Investing.com -- Kohl’s shares jumped over 4% in premarket trading on Tuesday after the department-store chain lifted its full-year profit forecast to $4.30-$4.50 a share, roughly double Wall Street’s $2.14 estimate,…",
+      "prev_close": 21.2,
+      "premarket_volume": 193804,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Kohl’s jumps 4% in premarket as one-off gains inflate profit outlook",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/kohl-jumps-4-premarket-one-124722187.html"
+    },
+    {
+      "ticker": "BURL",
+      "price": 251.0,
+      "gap_pct": 6.74,
+      "catalyst": "Investing.com -- Burlington Stores Inc.",
+      "prev_close": 235.16,
+      "premarket_volume": 208481,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Burlington Stores shares rise despite earnings miss",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/burlington-stores-shares-rise-despite-123804775.html"
+    },
+    {
+      "ticker": "SNY",
+      "price": 49.91,
+      "gap_pct": 6.71,
+      "catalyst": "U.S. stock futures fell amid investor concerns around Jensen Huang’s return as Nvidia chief and the artificial-intelligence buildout after Monday’s stunning rally.",
+      "prev_close": 46.77,
+      "premarket_volume": 2027430,
+      "session": "pre-market",
+      "catalyst_source": "The Wall Street Journal",
+      "catalyst_headline": "Nasdaq Futures Fall as Questions Linger Over AI Trade",
+      "catalyst_url": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71"
+    },
+    {
+      "ticker": "DLTR",
+      "price": 148.03,
+      "gap_pct": 6.42,
+      "catalyst": "CEO Mike Creedon said traffic growth helped comparable sales exceed the high end of the company's expectations.",
+      "prev_close": 139.1,
+      "premarket_volume": 152140,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "DLTR Stock Rockets To Over 2-Year High After Q3 Beat And Raise: CEO Says Traffic Growth Drove Momentum",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/dltr-stock-rockets-to-over-2-year-high-after-q3-beat-and-raise-ceo-says-traffic-growth-drove-momentum/cNbsJWUR9kk"
+    },
+    {
+      "ticker": "VXX",
+      "price": 24.86,
+      "gap_pct": 5.34,
+      "catalyst": "As AI-related concerns weigh on stocks, low-volatility and volatility ETFs offer two distinct ways to approach the turbulent market environment.",
+      "prev_close": 23.6,
+      "premarket_volume": 1030744,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "Market Turmoil Deepens: ETFs to Consider to Navigate the Volatility",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/market-turmoil-deepens-etfs-consider-161300749.html"
+    },
+    {
+      "ticker": "CUE",
+      "price": 6.05,
+      "gap_pct": 5.22,
+      "catalyst": "The average analyst fair value estimate for Cue Biopharma has shifted from US$88 to about US$68.67, which represents a little more than a 20% cut to the implied price target.",
+      "prev_close": 5.75,
+      "premarket_volume": 83867,
+      "session": "pre-market",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Cue Biopharma (CUE) Stock Fair Value Moves Lower As CUE 221 Debate Clouds Outlook",
+      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cue-biopharma-cue-stock-fair-090742078.html"
+    },
+    {
+      "ticker": "KYMR",
+      "price": 158.0,
+      "gap_pct": 5.07,
+      "catalyst": "Kymera Therapeutics has seen its share price surge in recent years, which puts fresh attention on whether the current market value lines up with the strength of its balance sheet and book value.",
+      "prev_close": 150.37,
+      "premarket_volume": 50169,
+      "session": "pre-market",
+      "catalyst_source": "Simply Wall St.",
+      "catalyst_headline": "Kymera Therapeutics (KYMR) Stock Could Look Stretched Despite Positive KT 621 Data",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/kymera-therapeutics-kymr-stock-could-121127362.html"
+    }
+  ]
+}
