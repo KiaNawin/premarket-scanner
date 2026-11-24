@@ -1,17 +1,17 @@
 {
-  "ticker": "AKAN",
-  "saved_at_et": "2026-11-24T10:05:20-05:00",
+  "ticker": "RBNE",
+  "saved_at_et": "2026-11-24T10:34:42-05:00",
   "response": [
     {
-      "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+      "id": "1141e749-deac-3eb0-8970-1b22637db538",
       "content": {
-        "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+        "id": "1141e749-deac-3eb0-8970-1b22637db538",
         "contentType": "STORY",
         "title": "BC-Most Active Stocks",
         "description": null,
         "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
-        "pubDate": "2026-11-18T15:30:23Z",
-        "displayTime": "2026-11-18T15:30:23Z",
+        "pubDate": "2026-11-23T15:30:20Z",
+        "displayTime": "2026-11-23T15:30:20Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -20,10 +20,10 @@
           "url": "https://apnews.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153020024.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153020024.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,19 +31,19 @@
           },
           "stockTickers": [
             {
+              "symbol": "RBNE"
+            },
+            {
+              "symbol": "WETO"
+            },
+            {
               "symbol": "NVDA"
-            },
-            {
-              "symbol": "CHSN"
-            },
-            {
-              "symbol": "LICN"
             },
             {
               "symbol": "^IXIC"
             },
             {
-              "symbol": "AKAN"
+              "symbol": "FCHL"
             },
             {
               "symbol": "IREN"
@@ -52,28 +52,22 @@
               "symbol": "INTC"
             },
             {
-              "symbol": "GRAB"
+              "symbol": "SNDK"
             },
             {
-              "symbol": "HIHO"
-            },
-            {
-              "symbol": "YFOR"
+              "symbol": "DCGO"
             },
             {
               "symbol": "CRWV"
             },
             {
-              "symbol": "BRNX"
+              "symbol": "IVVD"
             },
             {
               "symbol": "IBIT"
             },
             {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "OPEN"
+              "symbol": "MEDS"
             }
           ]
         }
@@ -154,15 +148,15 @@
       }
     },
     {
-      "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+      "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
       "content": {
-        "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+        "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
         "contentType": "STORY",
         "title": "BC-Most Active Stocks",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  SHF Holdings Inc.",
-        "pubDate": "2026-11-13T15:30:18Z",
-        "displayTime": "2026-11-13T15:30:18Z",
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Mercer International Inc.",
+        "pubDate": "2026-11-03T15:30:18Z",
+        "displayTime": "2026-11-03T15:30:18Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -171,10 +165,10 @@
           "url": "https://apnews.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
         },
         "finance": {
           "premiumFinance": {
@@ -182,43 +176,49 @@
           },
           "stockTickers": [
             {
-              "symbol": "INTC"
+              "symbol": "MERC"
             },
             {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "IBIT"
-            },
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "ONFO"
-            },
-            {
-              "symbol": "FCUV"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "YFOR"
+              "symbol": "HUBC"
             },
             {
               "symbol": "GRAB"
             },
             {
-              "symbol": "NBIS"
+              "symbol": "INLF"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "RBNE"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "SGRX"
+            },
+            {
+              "symbol": "SHFS"
+            },
+            {
+              "symbol": "CHSN"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "CIFR"
+            },
+            {
+              "symbol": "AAL"
+            },
+            {
+              "symbol": "AAPL"
+            },
+            {
+              "symbol": "PLTR"
             }
           ]
         }
