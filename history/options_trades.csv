@@ -1,0 +1,4 @@
+date,ticker,kind,signal_time_et,contract,expiry,strike,dte,stock_entry,ask,bid,mid,spread_pct,iv,open_interest,liquid,stock_exit,stock_exit_time_et,stock_exit_reason,stock_r,stock_pct,est_value,est_pct,close_bid,close_iv,close_pct,stock_close,note
+2026-11-24,ABCL,B,2026-11-24 10:00,ABCL261218C00010000,2026-12-18,10.0,24,10.82,1.5,1.0,1.25,40.0,0.6289,10,False,10.5794,11:01,stop,-1.0,-2.22,0.7596,-49.4,1.0,0.7460962890625,-33.3,10.96,
+2026-11-24,ABBV,B,2026-11-24 10:10,ABBV261204C00295000,2026-12-04,295.0,10,295.89,8.55,7.6,8.075,11.8,0.261,118,True,299.6336,11:24,target 2R,2.0,1.27,7.5507,-11.7,8.3,0.324103438720703,-2.9,300.46,
+2026-11-24,CDW,A,2026-11-24 14:29,CDW261218C00160000,2026-12-18,160.0,24,163.565,10.0,8.1,9.05,21.0,0.4858,1304,False,164.26,15:59,close,0.25,0.42,9.6472,-3.5,8.6,0.5904581970214844,-14.0,164.26,
