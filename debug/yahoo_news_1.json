@@ -1,6 +1,6 @@
 {
   "ticker": "AKAN",
-  "saved_at_et": "2026-11-24T12:34:54-05:00",
+  "saved_at_et": "2026-11-24T13:05:27-05:00",
   "response": [
     {
       "id": "32299318-b824-3336-bbc4-15fe507e41e1",
@@ -9,7 +9,7 @@
         "contentType": "STORY",
         "title": "BC-Most Active Stocks",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Beneficient 219,865,881 0.",
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Beneficient 253,192,068 0.",
         "pubDate": "2026-11-24T15:30:19Z",
         "displayTime": "2026-11-24T15:30:19Z",
         "isHosted": true,
@@ -34,16 +34,10 @@
               "symbol": "FCHL"
             },
             {
-              "symbol": "RMSG"
-            },
-            {
               "symbol": "NVDA"
             },
             {
-              "symbol": "SNDK"
-            },
-            {
-              "symbol": "INTC"
+              "symbol": "RMSG"
             },
             {
               "symbol": "^IXIC"
@@ -55,19 +49,25 @@
               "symbol": "FGL"
             },
             {
-              "symbol": "INSM"
-            },
-            {
               "symbol": "AKAN"
             },
             {
-              "symbol": "VIVS"
+              "symbol": "INSM"
             },
             {
-              "symbol": "ONFO"
+              "symbol": "SNDK"
+            },
+            {
+              "symbol": "INTC"
             },
             {
               "symbol": "IREN"
+            },
+            {
+              "symbol": "PLUG"
+            },
+            {
+              "symbol": "VIVS"
             }
           ]
         }
