@@ -1,29 +1,47 @@
 {
-  "ticker": "AKAN",
-  "saved_at_et": "2026-11-24T10:34:42-05:00",
+  "ticker": "ANF",
+  "saved_at_et": "2026-11-24T11:04:57-05:00",
   "response": [
     {
-      "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+      "id": "2c0951b9-8de9-3d72-ac76-8b0f958f8203",
       "content": {
-        "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+        "id": "2c0951b9-8de9-3d72-ac76-8b0f958f8203",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Abercrombie & Fitch shares jump as earnings beat estimates and outlook rises",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
-        "pubDate": "2026-11-18T15:30:23Z",
-        "displayTime": "2026-11-18T15:30:23Z",
+        "summary": "Abercrombie & Fitch (NYSE:ANF) shares surged more than 24% Tuesday after the retailer reported stronger-than-expected third-quarter earnings and raised its full-year guidance. Revenue for the quarter ended November 2026 increased 11% year over year to $1.44 billion, ahead of the $1.37...",
+        "pubDate": "2026-11-24T15:47:00Z",
+        "displayTime": "2026-11-24T15:47:00Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/proactive_us_504/3f319130fe7af2ae1e10bae51fe2125a.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/proactive_us_504/3f319130fe7af2ae1e10bae51fe2125a.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/18011a1c0a0e05003e8bfdbb771574d523a595a3c358946522764da42e2097f6/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2F3f319130fe7af2ae1e10bae51fe2125a.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "Proactive",
+          "url": "https://www.proactiveinvestors.com/us"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+          "url": "https://www.proactiveinvestors.com/companies/news/1102362/abercrombie-fitch-shares-jump-as-earnings-beat-estimates-and-outlook-rises-1102362.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-shares-jump-earnings-154700067.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,150 +49,124 @@
           },
           "stockTickers": [
             {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "CHSN"
-            },
-            {
-              "symbol": "LICN"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "HIHO"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "BRNX"
-            },
-            {
-              "symbol": "IBIT"
-            },
-            {
-              "symbol": "PLUG"
-            },
-            {
-              "symbol": "OPEN"
+              "symbol": "ANF"
             }
           ]
         }
       }
     },
     {
-      "id": "d6078fee-bdc5-3404-beed-bccad34497ec",
+      "id": "0c69688e-4fdf-305b-9afa-ac8253166177",
       "content": {
-        "id": "d6078fee-bdc5-3404-beed-bccad34497ec",
+        "id": "0c69688e-4fdf-305b-9afa-ac8253166177",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Dollar Tree Turnaround Blooms; Abercrombie Struts With Double-Digit Growth",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Cyabra Inc.",
-        "pubDate": "2026-11-16T15:30:19Z",
-        "displayTime": "2026-11-16T15:30:19Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
+        "summary": "Tariff refunds are fueling a turnaround strategy at one S&P 500 retailer.",
+        "pubDate": "2026-11-24T15:35:49Z",
+        "displayTime": "2026-11-24T15:35:49Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/0c69688e-4fdf-305b-9afa-ac8253166177/dollar-tree-turnaround.html",
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/ibd.com/8f7062c759c1d9c2ea5bac6effc2bd9f.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 721,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/ibd.com/8f7062c759c1d9c2ea5bac6effc2bd9f.jpg_up.jpg",
+              "width": 1280,
+              "height": 721,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/822cdacab1848ac32571f5d03f6888f7f82d227599e82ba852878145a87cd7e8/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F8f7062c759c1d9c2ea5bac6effc2bd9f.jpg_up.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "Investor's Business Daily",
+          "url": "http://www.investors.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
+          "url": "https://www.investors.com/news/dollar-tree-stock-q3-earnings-anf-kss/?src=A00220&yptr=yahoo"
         },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019012.html"
-        },
+        "clickThroughUrl": null,
         "finance": {
           "premiumFinance": {
             "isPremiumNews": false
           },
           "stockTickers": [
             {
-              "symbol": "NVDA"
+              "symbol": "DLTR"
             },
             {
-              "symbol": "DVLT"
+              "symbol": "ANF"
             },
             {
-              "symbol": "SHFS"
+              "symbol": "KSS"
             },
             {
-              "symbol": "GMM"
+              "symbol": "WMT"
             },
             {
-              "symbol": "CYAB"
+              "symbol": "^GSPC"
             },
             {
-              "symbol": "^IXIC"
+              "symbol": "DKS"
             },
             {
-              "symbol": "HIHO"
+              "symbol": "BURL"
             },
             {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "POLA"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "RBNE"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "SAFX"
+              "symbol": "DG"
             }
           ]
         }
       }
     },
     {
-      "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+      "id": "c6370312-c39d-375e-9454-175fc0f6453d",
       "content": {
-        "id": "068723f6-5ec3-31f8-b647-623a80287e1b",
+        "id": "c6370312-c39d-375e-9454-175fc0f6453d",
         "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
+        "title": "Abercrombie & Fitch Powers Through Another Strong Quarter, Raises Outlook",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  SHF Holdings Inc.",
-        "pubDate": "2026-11-13T15:30:18Z",
-        "displayTime": "2026-11-13T15:30:18Z",
+        "summary": "CEO Fran Horowitz said, \"Growth was balanced across regions and brands, with each seeing growth rates accelerate from second-quarter levels.\"",
+        "pubDate": "2026-11-24T15:16:08Z",
+        "displayTime": "2026-11-24T15:16:08Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/wwd_409/4c45ae81d37dbf95ace9d551107f2e42.jpg",
+          "originalWidth": 1500,
+          "originalHeight": 2000,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/wwd_409/4c45ae81d37dbf95ace9d551107f2e42.jpg",
+              "width": 1500,
+              "height": 2000,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/6f04e00020fe6678a3500ee2ac2dd1fe2fafea1bb2b7c77296722d56f4bb6893/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2F4c45ae81d37dbf95ace9d551107f2e42.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
+          "displayName": "WWD",
+          "url": "https://wwd.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+          "url": "https://wwd.com/business-news/retail/abercrombie-fitch-q3-raised-outlook-1239463752/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018603.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-powers-another-strong-151608813.html"
         },
         "finance": {
           "premiumFinance": {
@@ -182,43 +174,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "IBIT"
-            },
-            {
-              "symbol": "CRWV"
-            },
-            {
-              "symbol": "ONFO"
-            },
-            {
-              "symbol": "FCUV"
-            },
-            {
-              "symbol": "AKAN"
-            },
-            {
-              "symbol": "IREN"
-            },
-            {
-              "symbol": "YFOR"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "NBIS"
+              "symbol": "ANF"
             }
           ]
         }

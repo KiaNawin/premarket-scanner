@@ -1,17 +1,17 @@
 {
-  "ticker": "RBNE",
-  "saved_at_et": "2026-11-24T10:34:42-05:00",
+  "ticker": "AKAN",
+  "saved_at_et": "2026-11-24T11:04:57-05:00",
   "response": [
     {
-      "id": "1141e749-deac-3eb0-8970-1b22637db538",
+      "id": "32299318-b824-3336-bbc4-15fe507e41e1",
       "content": {
-        "id": "1141e749-deac-3eb0-8970-1b22637db538",
+        "id": "32299318-b824-3336-bbc4-15fe507e41e1",
         "contentType": "STORY",
         "title": "BC-Most Active Stocks",
         "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
-        "pubDate": "2026-11-23T15:30:20Z",
-        "displayTime": "2026-11-23T15:30:20Z",
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Beneficient 149,982,389 0.",
+        "pubDate": "2026-11-24T15:30:19Z",
+        "displayTime": "2026-11-24T15:30:19Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -20,10 +20,10 @@
           "url": "https://apnews.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153020024.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019321.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153020024.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019321.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,19 +31,90 @@
           },
           "stockTickers": [
             {
-              "symbol": "RBNE"
+              "symbol": "FCHL"
             },
             {
-              "symbol": "WETO"
+              "symbol": "RMSG"
             },
             {
               "symbol": "NVDA"
             },
             {
+              "symbol": "SNDK"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
               "symbol": "^IXIC"
             },
             {
-              "symbol": "FCHL"
+              "symbol": "FNGR"
+            },
+            {
+              "symbol": "FGL"
+            },
+            {
+              "symbol": "INSM"
+            },
+            {
+              "symbol": "AKAN"
+            },
+            {
+              "symbol": "VIVS"
+            },
+            {
+              "symbol": "ONFO"
+            },
+            {
+              "symbol": "IREN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+      "content": {
+        "id": "2995d1b8-31f5-3797-974b-fe1bd7df0074",
+        "contentType": "STORY",
+        "title": "BC-Most Active Stocks",
+        "description": null,
+        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  NVIDIA Corp.",
+        "pubDate": "2026-11-18T15:30:23Z",
+        "displayTime": "2026-11-18T15:30:23Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Associated Press",
+          "url": "https://apnews.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153023964.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "CHSN"
+            },
+            {
+              "symbol": "LICN"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "AKAN"
             },
             {
               "symbol": "IREN"
@@ -52,22 +123,28 @@
               "symbol": "INTC"
             },
             {
-              "symbol": "SNDK"
+              "symbol": "GRAB"
             },
             {
-              "symbol": "DCGO"
+              "symbol": "HIHO"
+            },
+            {
+              "symbol": "YFOR"
             },
             {
               "symbol": "CRWV"
             },
             {
-              "symbol": "IVVD"
+              "symbol": "BRNX"
             },
             {
               "symbol": "IBIT"
             },
             {
-              "symbol": "MEDS"
+              "symbol": "PLUG"
+            },
+            {
+              "symbol": "OPEN"
             }
           ]
         }
@@ -142,83 +219,6 @@
             },
             {
               "symbol": "SAFX"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
-      "content": {
-        "id": "c8c6340a-e4a3-3d5a-8b5f-67040a084a5a",
-        "contentType": "STORY",
-        "title": "BC-Most Active Stocks",
-        "description": null,
-        "summary": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Change  Mercer International Inc.",
-        "pubDate": "2026-11-03T15:30:18Z",
-        "displayTime": "2026-11-03T15:30:18Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Associated Press",
-          "url": "https://apnews.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153018770.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "MERC"
-            },
-            {
-              "symbol": "HUBC"
-            },
-            {
-              "symbol": "GRAB"
-            },
-            {
-              "symbol": "INLF"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "RBNE"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "SGRX"
-            },
-            {
-              "symbol": "SHFS"
-            },
-            {
-              "symbol": "CHSN"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "CIFR"
-            },
-            {
-              "symbol": "AAL"
-            },
-            {
-              "symbol": "AAPL"
-            },
-            {
-              "symbol": "PLTR"
             }
           ]
         }
