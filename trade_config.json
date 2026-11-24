@@ -48,7 +48,7 @@
     ]
   },
   "pullback": {
-    "_help": "ข้อ A — ย่อลงแนวรับ (หุ้นจากสแกนโมเมนตัม). near_atr/below_atr = แตะแนวรับได้ใกล้แค่ไหน (×ATR14 รายวัน) · max_bars_after_touch = ต้องมีแท่ง 5 นาทีปิดเหนือ high แท่งก่อนภายในกี่แท่งหลังแตะ · max_entry_atr = ไม่ไล่ราคาเกินแนวรับ + n×ATR · stop = low ต่ำสุดตั้งแต่แตะ · include_no_setup = เฝ้าหุ้นแรงที่ยังไม่มี setup รายวันด้วย",
+    "_help": "ข้อ A — ย่อลงแนวรับ (หุ้นจากสแกนโมเมนตัม). near_atr/below_atr = แตะแนวรับได้ใกล้แค่ไหน (×ATR14 รายวัน) · max_bars_after_touch = ต้องมีแท่ง 5 นาทีปิดเหนือ high แท่งก่อนภายในกี่แท่งหลังแตะ · max_entry_atr = ไม่ไล่ราคาเกินแนวรับ + n×ATR · stop = low ต่ำสุดตั้งแต่แตะ · include_no_setup = เฝ้าหุ้นแรงที่ยังไม่มี setup รายวันด้วย · min_market_cap = มูลค่าตลาดขั้นต่ำ (0 = ไม่กรอง)",
     "enabled": true,
     "near_atr": 0.3,
     "below_atr": 0.5,
@@ -65,6 +65,16 @@
     ],
     "exit_target_r": 2,
     "max_list_age_days": 4,
-    "include_no_setup": true
+    "include_no_setup": true,
+    "min_market_cap": 2000000000.0
+  },
+  "options": {
+    "_help": "🧾 ออปชันเงา: ทุกสัญญาณ 🚨/🎯 เลือก call หมดอายุ ≥ min_dte วัน strike ต่ำกว่าราคาเข้าที่ใกล้สุด แล้วเทียบผลกับซื้อหุ้น · liquid = spread ≤ max_spread_pct% และ OI ≥ min_open_interest",
+    "enabled": true,
+    "min_dte": 7,
+    "max_dte": 60,
+    "max_spread_pct": 15,
+    "min_open_interest": 100,
+    "rate": 0.04
   }
 }

@@ -210,6 +210,20 @@ close (only trades already at 3R are held overnight). Rows store a rule id (`be3
 be reassigned without touching history; the first test (`orig`, stop never moves) was retired on 2026-11-02.
 Settings: `"swing"` in `trade_config.json` (`account_usd` + `risk_pct` for %-of-account sizing).
 
+## Size filter (mid & large caps only)
+Scanner A keeps only stocks with a **market cap ≥ $2B** (Yahoo quote `marketCap`; unknown caps such as ETFs are
+dropped) and lowers the gap threshold to **3 %**, because big stocks rarely gap 5 %. The funnel in the 30-min
+report shows the step; dropped small caps are listed in the run log. ข้อ A uses the same $2B floor
+(`"pullback": {"min_market_cap": ...}`). Change with `--min-gap / --min-mcap` or env `SCANNER_MIN_GAP`,
+`SCANNER_MIN_MCAP` (0 = off).
+
+## 🧾 Options shadow test (`options_shadow.py`)
+Nothing is traded. After every new 🚨/🎯 alert the bot picks one call (first expiry ≥ 7 days, highest strike at or
+below the entry) and saves its bid/ask/IV/open interest (`history/options_signals/`). The EOD run scores it two
+ways — a Black-Scholes estimate at the stock plan's exit (entry IV, sold at mid − half spread) and the contract's
+real bid after the close — as % of the premium paid at the ask, i.e. in R if the premium is 1R
+(`history/options_trades.csv`, "🧾 ออปชันเงา" block in the EOD message). Settings: `"options"` in `trade_config.json`.
+
 ## 🎯 ข้อ A — Pullback to support (`pullback_scanner.py`)
 Second intraday entry, on the **momentum list** instead of the gappers. Before the open,
 `.github/workflows/momentum.yml` runs the whole-market momentum scan (same rules as the PC's

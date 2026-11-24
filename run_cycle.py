@@ -213,6 +213,13 @@ def send_new_alerts(rep: dict | None, day: dt.date, args, pb: dict | None = None
             trade_journal.record_alerts(day, new_a, at, signals_dir=pullback_scanner.SIGNALS_DIR)
         except Exception:
             traceback.print_exc()
+    if (new_b or new_a) and not args.dry_run:     # 🧾 options shadow test: after the alert, so it never delays it
+        try:
+            import options_shadow
+            options_shadow.record_alerts(day, new_b, "B")
+            options_shadow.record_alerts(day, new_a, "A")
+        except Exception:
+            traceback.print_exc()
     tickers = [r["ticker"] for r in new_b] + [r["ticker"] for r in new_a]
     if quiet:
         print(f"Already alerted today on the other signal (recorded, no message): {', '.join(quiet)}", file=sys.stderr)
@@ -302,7 +309,14 @@ def run_eod(day: dt.date, args) -> int:
         pbres = {"scored": pb_scored, "stats": trade_journal.stats(PBS.TRADES_CSV)}
     except Exception:
         traceback.print_exc()
-    msg = tg.build_eod_message(day.isoformat(), scored, st, swing, pullback=pbres)
+    optres = None
+    try:                                           # 🧾 options shadow test on the same alerts
+        import options_shadow
+        opt_new = options_shadow.score_day(day, {"B": scored or [], "A": (pbres or {}).get("scored") or []})
+        optres = {"scored": opt_new, "stats": options_shadow.stats()}
+    except Exception:
+        traceback.print_exc()
+    msg = tg.build_eod_message(day.isoformat(), scored, st, swing, pullback=pbres, options=optres)
     if args.dry_run:
         print("----- EOD SUMMARY (silent) -----\n" + msg)
     else:

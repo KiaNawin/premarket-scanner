@@ -44,7 +44,7 @@ BAR = dt.timedelta(minutes=5)
 DEFAULTS = {"enabled": True, "near_atr": 0.3, "below_atr": 0.5, "max_bars_after_touch": 6,
             "max_entry_atr": 1.0, "start_et": "09:45", "end_et": "15:30", "min_stop_pct": 0.5,
             "wide_stop_pct": 6.0, "targets_r": [1, 2, 3], "exit_target_r": 2, "max_list_age_days": 4,
-            "include_no_setup": True}
+            "include_no_setup": True, "min_market_cap": 2e9}
 LEVEL_NAMES = {"ema9": "EMA9", "ema21": "EMA21", "retest": "แนวเดิม"}
 
 
@@ -183,7 +183,7 @@ def make_plan(entry: float, low: float, cfg: dict) -> dict | None:
 def evaluate(info: dict, daily: pd.DataFrame | None, minute: pd.DataFrame | None, today: dt.date,
              now: dt.datetime | None, cfg: dict) -> dict:
     t = info["ticker"]
-    res = {"ticker": t, "signal": False, "status": "NO_DATA",
+    res = {"ticker": t, "signal": False, "status": "NO_DATA", "market_cap": info.get("market_cap"),
            "setup": "base" if (info.get("base_tight") or {}).get("ok") else "retest" if info.get("first_retest") else None,
            "ret_3m": info.get("ret_3m"), "rank": info.get("ret_rank_top_pct")}
     if daily is None or getattr(daily, "empty", True):
@@ -238,7 +238,13 @@ def fetch(tickers: list[str]):
     return {t: (daily.get(t), minute.get(t)) for t in tickers}
 
 
-def run(day: dt.date, now: dt.datetime | None = None, fetcher=None, watch_dir: str = WATCH_DIR) -> dict:
+def _market_caps(tickers: list[str]) -> dict:
+    import premarket_scanner
+    return premarket_scanner.fetch_market_caps(tickers)
+
+
+def run(day: dt.date, now: dt.datetime | None = None, fetcher=None, watch_dir: str = WATCH_DIR,
+        caps_fetcher=None) -> dict:
     """{"as_of": momentum list date, "watch": n, "evaluated": [...], "error": str|None}"""
     cfg = load_config()
     out = {"as_of": None, "watch": 0, "evaluated": [], "error": None, "check_time_et": None}
@@ -255,6 +261,17 @@ def run(day: dt.date, now: dt.datetime | None = None, fetcher=None, watch_dir: s
         else:
             out["error"] = f"รายชื่อหุ้นโมเมนตัม {as_of} ว่าง (ไม่มีหุ้นผ่านเกณฑ์ หรือสแกนไม่สำเร็จ)"
         return out
+    if cfg.get("min_market_cap"):                                # mid/large caps only (same rule as Scanner A)
+        try:
+            caps = (caps_fetcher or _market_caps)([r["ticker"] for r in rows])
+        except Exception:
+            caps = {}
+        if caps and any(v for v in caps.values()):               # lookup failed -> don't drop everything
+            for r in rows:
+                r["market_cap"] = caps.get(r["ticker"])
+            out["dropped_small"] = sum(1 for r in rows if (r.get("market_cap") or 0) < cfg["min_market_cap"])
+            rows = [r for r in rows if (r.get("market_cap") or 0) >= cfg["min_market_cap"]]
+            out["watch"] = len(rows)
     now = now or dt.datetime.now(ET)
     out["check_time_et"] = now.strftime("%H:%M")
     try:

@@ -248,6 +248,7 @@ def run_strategy(src: str, outdir: str = "signals", sma_len: int = 200, fetcher=
             r = evaluate(t, *data.get(t, (None, None)), today=day, sma_len=sma_len)
             r["gap_pct"] = info[t].get("gap_pct")
             r["catalyst"] = info[t].get("catalyst")
+            r["market_cap"] = info[t].get("market_cap")
             results.append(r)
     results.sort(key=lambda r: (not r["signal"], r.get("signal_time_et") or "", r["ticker"]))
 

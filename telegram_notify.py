@@ -81,6 +81,12 @@ def _vol(v) -> str:
     return str(v)
 
 
+def _cap(c) -> str:
+    if not c:
+        return "n/a"
+    return f"${c / 1e12:.2f}T" if c >= 1e12 else f"${c / 1e9:.1f}B" if c >= 1e9 else f"${c / 1e6:.0f}M"
+
+
 def _exit_th(reason: str) -> str:
     reason = str(reason)
     if reason.startswith("target"):
@@ -101,13 +107,16 @@ def section_a(payload: dict | None, note: str | None = None) -> str:
     lines.append(f"🕒 สแกน {payload.get('scan_time_et', '?')} ET · {payload.get('scan_date', '')}"
                  + (f" · {_e(note)}" if note else ""))
     lines.append(f"เกณฑ์: gap &gt;{c.get('min_gap_pct', 5):g}% · ราคา &gt;${c.get('min_price', 3):g} · "
-                 f"vol ก่อนเปิด &gt;{_vol(c.get('min_premarket_volume', 50000))}")
+                 f"vol ก่อนเปิด &gt;{_vol(c.get('min_premarket_volume', 50000))}"
+                 + (f" · มูลค่าตลาด ≥{_cap(c['min_market_cap'])}" if c.get("min_market_cap") else ""))
     f = payload.get("funnel") or {}
     if f:
         steps = [f"{f.get('universe', 0):,} ตัว"]
         if f.get("prefilter") is not None:
             steps.append(f"ขึ้น≥4%: {f['prefilter']}")
         steps += [f"gap&gt;{c.get('min_gap_pct', 5):g}%: {f.get('gap', 0)}", f"ราคา&gt;${c.get('min_price', 3):g}: {f.get('gap_price', 0)}"]
+        if f.get("mcap") is not None:
+            steps.append(f"≥{_cap(c.get('min_market_cap'))}: {f['mcap']}")
         if f.get("volume_source") != "unavailable":
             steps.append(f"vol ก่อนเปิด: {f.get('passed', 0)}")
         lines.append("🔎 " + " → ".join(steps))
@@ -123,7 +132,8 @@ def section_a(payload: dict | None, note: str | None = None) -> str:
     lines.append("")
     for i, r in enumerate(results[:MAX_A_ROWS], 1):
         lines.append(f"{i}. <b>{_e(r['ticker'])}</b> {_money(r.get('price'))} "
-                     f"<b>{r.get('gap_pct', 0):+.2f}%</b> · vol ก่อนเปิด {_vol(r.get('premarket_volume'))}")
+                     f"<b>{r.get('gap_pct', 0):+.2f}%</b> · vol ก่อนเปิด {_vol(r.get('premarket_volume'))}"
+                     + (f" · {_cap(r['market_cap'])}" if r.get("market_cap") else ""))
         if r.get("catalyst"):
             lines.append(f"   📰 {_e(r['catalyst'])}")
     if len(results) > MAX_A_ROWS:
@@ -152,7 +162,8 @@ def setup_lines(r: dict) -> list[str]:
         out += _plan_lines(p)
         out.append(f"   จุดทะลุ {_money(p['breakout_level'])} ({_e(p['breakout_name'])})"
                    + (f" · ATR {_money(p['atr14'])}" if p.get("atr14") else "")
-                   + f" · Gap {r.get('gap_pct') or 0:+.2f}%")
+                   + f" · Gap {r.get('gap_pct') or 0:+.2f}%"
+                   + (f" · มูลค่า {_cap(r['market_cap'])}" if r.get("market_cap") else ""))
     else:
         out += [
             f"   High เมื่อวาน {_money(r.get('yesterday_high'))} · High ก่อนเปิด {_money(r.get('premarket_high'))} · "
@@ -192,6 +203,8 @@ def pullback_lines(r: dict, header: bool = True) -> list[str]:
     bits.append({"base": "ฐานแน่น", "retest": "retest ครั้งแรก"}.get(r.get("setup"), "ยังไม่มี setup รายวัน"))
     if r.get("atr14"):
         bits.append(f"ATR {_money(r['atr14'])}")
+    if r.get("market_cap"):
+        bits.append(f"มูลค่า {_cap(r['market_cap'])}")
     out.append("   " + " · ".join(bits))
     if r.get("last_price") is not None and r.get("entry_price") and abs(r["last_price"] - r["entry_price"]) > 1e-9:
         out.append(f"   ราคาล่าสุด {_money(r['last_price'])} ({r.get('last_bar_et', '')} ET)")
@@ -308,8 +321,38 @@ def pullback_eod_section(pb: dict | None) -> list[str]:
     return out
 
 
+def options_eod_section(opt: dict | None) -> list[str]:
+    """🧾 Options shadow test: call bought at the ask vs the stock plan, in R (premium = 1R)."""
+    if not opt or (not opt.get("scored") and not (opt.get("stats") or {}).get("signals")):
+        return []
+    out = ["", "<b>🧾 ออปชันเงา — ถ้าซื้อ call แทนหุ้น (ใช้ค่า premium = 1R)</b>"]
+    for r in opt.get("scored") or []:
+        tag = "🚨" if r.get("kind") == "B" else "🎯"
+        if r.get("ask") in (None, "", 0) or r.get("est_pct") is None:
+            out.append(f"   ❔ {tag} {_e(r['ticker'])} — {_e(r.get('note') or 'ไม่มีข้อมูล')}")
+            continue
+        exp = str(r.get("expiry") or "")[5:]
+        liq = "" if r.get("liquid") in (True, "True") else " ⚠️สภาพคล่องต่ำ"
+        close = (f" · ถือถึงปิดจริง {float(r['close_pct']):+.0f}%" if r.get("close_pct") not in (None, "") else "")
+        stock_r = r.get("stock_r")
+        out.append(f"   {tag} {_e(r['ticker'])} call {float(r['strike']):g} หมดอายุ {exp} ซื้อ {_money(float(r['ask']))}: "
+                   f"ประมาณ <b>{float(r['est_pct']):+.0f}%</b>{close}"
+                   + (f" · หุ้น {float(stock_r):+.2f}R" if stock_r not in (None, "") else "") + liq)
+    st = opt.get("stats") or {}
+    if st.get("liquid"):
+        b = lambda x: (f"{x['n']} ไม้ · ชนะ {x['win']:.0%} · เฉลี่ย {x['avg']:+.2f}R · รวม <b>{x['total']:+.2f}R</b>"
+                       if x.get("n") else "ยังไม่มีข้อมูล")
+        out.append(f"รวม {st['liquid']} ไม้ที่สภาพคล่องพอ (ตั้งแต่ {st['since']}):")
+        out.append(f"   ออปชัน (ประมาณ ณ จุดออกของแผนหุ้น): {b(st['est_r'])}")
+        out.append(f"   ออปชัน (ถือถึงปิด ราคาจริง): {b(st['close_r'])}")
+        out.append(f"   หุ้นตามแผนเดิม: {b(st['stock_r'])}")
+    out.append("<i>ทดสอบเงาเท่านั้น · ค่าประมาณใช้ Black-Scholes กับ IV ตอนเข้า (ไม่รวม IV ที่ลดลง) · "
+               "ราคาออปชัน Yahoo อาจช้า ~15 นาที</i>")
+    return out
+
+
 def build_eod_message(day: str, scored: list[dict], st: dict, swing: dict | None = None,
-                      pullback: dict | None = None) -> str:
+                      pullback: dict | None = None, options: dict | None = None) -> str:
     """Daily summary after the close: today's alerts replayed with the plan, plus all-time stats."""
     lines = [f"<b>📊 สรุปประจำวัน {day} — Trend-join Long 🚨</b>"]
     done = [r for r in scored if r.get("result_r") is not None]
@@ -326,6 +369,7 @@ def build_eod_message(day: str, scored: list[dict], st: dict, swing: dict | None
         lines += [""] + sl
     lines.append("<i>จำลองตามกติกาสัญญาณ: ออกที่ stop / เป้า / ปิดตลาด ไม่รวม slippage และค่าธรรมเนียม</i>")
     lines += pullback_eod_section(pullback)
+    lines += options_eod_section(options)
     lines += swing_section(swing)
     return "\n".join(lines)
 

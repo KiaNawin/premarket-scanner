@@ -163,12 +163,19 @@ def scan_yahoo(tickers: list[str], today: dt.date, batch_size: int = 200, pause:
 # the exact gap / price / pre-market volume checks still run on 1-minute bars.
 # --------------------------------------------------------------------------- #
 QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote"
-QUOTE_FIELDS = ("symbol,marketState,regularMarketPrice,regularMarketPreviousClose,regularMarketChangePercent,"
+QUOTE_FIELDS = ("symbol,marketCap,quoteType,marketState,regularMarketPrice,regularMarketPreviousClose,regularMarketChangePercent,"
                 "regularMarketTime,preMarketPrice,preMarketChangePercent,preMarketTime")
 QUOTE_BATCH = 150
 PREFILTER_MARGIN = 1.0          # keep anything up ≥ (min_gap - 1)% to be safe
 PREFILTER_MIN_UNIVERSE = 300    # small ticker lists are scanned directly
 PREFILTER_MIN_COVERAGE = 0.5    # need quotes for ≥50% of symbols, else fall back
+
+# Size filter: day trades only in mid- and large-cap stocks (market cap from Yahoo quotes).
+# Big stocks rarely gap 5%, so the gap threshold is 3%. Override with env SCANNER_MIN_GAP / SCANNER_MIN_MCAP
+# or the --min-gap / --min-mcap options.
+DEFAULT_MIN_GAP = float(os.environ.get("SCANNER_MIN_GAP") or 3.0)
+DEFAULT_MIN_MCAP = float(os.environ.get("SCANNER_MIN_MCAP") or 2e9)
+_MCAP: dict[str, float | None] = {}             # market caps seen in quote calls this run
 
 
 def _quote_candidate(q: dict, gap_floor: float, price_floor: float, today: dt.date) -> bool:
@@ -232,6 +239,9 @@ def prefilter_quotes(universe: list[str], min_gap: float, min_price: float, toda
                 return None
             continue
         quoted += len(result)
+        for q in result:
+            if q.get("symbol"):
+                _MCAP[q["symbol"]] = q.get("marketCap")
         cands += [q["symbol"] for q in result if q.get("symbol") and _quote_candidate(q, gap_floor, price_floor, today)]
         time.sleep(0.2)
 
@@ -239,6 +249,36 @@ def prefilter_quotes(universe: list[str], min_gap: float, min_price: float, toda
         print(f"  pre-filter got quotes for only {quoted}/{len(universe)} symbols", file=sys.stderr)
         return None
     return sorted(set(cands))
+
+
+def fetch_market_caps(tickers: list[str]) -> dict[str, float | None]:
+    """Market cap per ticker from Yahoo batch quotes (None = unknown, e.g. ETFs). Uses this run's cache first."""
+    out = {t: _MCAP[t] for t in tickers if t in _MCAP}
+    need = [t for t in tickers if t not in out]
+    if need:
+        try:
+            from yfinance.data import YfData
+            yf_utils._setup_cache()
+            data = YfData()
+            for i in range(0, len(need), QUOTE_BATCH):
+                batch = need[i : i + QUOTE_BATCH]
+                js = data.get_raw_json(QUOTE_URL, params={"symbols": ",".join(batch), "fields": "symbol,marketCap",
+                                                          "formatted": "false", "lang": "en-US", "region": "US"})
+                for q in (js.get("quoteResponse") or {}).get("result") or []:
+                    if q.get("symbol"):
+                        _MCAP[q["symbol"]] = out[q["symbol"]] = q.get("marketCap")
+        except Exception as e:
+            print(f"  market-cap lookup failed: {e}", file=sys.stderr)
+    return {t: out.get(t) for t in tickers}
+
+
+def size_filter(rows: list[dict], min_mcap: float, caps: dict[str, float | None]) -> list[dict]:
+    """Keep rows whose market cap is known and >= min_mcap; sets r['market_cap'] on every row."""
+    for r in rows:
+        r["market_cap"] = caps.get(r["ticker"])
+    if not min_mcap:
+        return list(rows)
+    return [r for r in rows if (r.get("market_cap") or 0) >= min_mcap]
 
 
 # --------------------------------------------------------------------------- #
@@ -326,6 +366,12 @@ def nasdaq_premarket_volume(ticker: str) -> int | None:
     except Exception as e:
         print(f"    Nasdaq volume {ticker}: {e}", file=sys.stderr)
         return None
+
+
+def _fmt_cap(c) -> str:
+    if not c:
+        return "n/a"
+    return f"${c / 1e12:.2f}T" if c >= 1e12 else f"${c / 1e9:.1f}B" if c >= 1e9 else f"${c / 1e6:.0f}M"
 
 
 def apply_filters(rows: list[dict], min_gap: float, min_price: float, min_volume: int) -> list[dict]:
@@ -517,6 +563,7 @@ def save_json(results: list[dict], today: dt.date, outdir: str, criteria: dict, 
                 "catalyst": r["catalyst"],
                 "prev_close": r["prev_close"],
                 "premarket_volume": r["premarket_volume"],
+                "market_cap": r.get("market_cap"),
                 "session": r.get("session"),
                 "catalyst_source": r.get("catalyst_source"),
                 "catalyst_headline": r.get("catalyst_headline"),
@@ -533,9 +580,9 @@ def save_json(results: list[dict], today: dt.date, outdir: str, criteria: dict, 
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
-def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: float = 3.0,
+def run_scan(tickers: list[str] | None = None, min_gap: float = DEFAULT_MIN_GAP, min_price: float = 3.0,
              min_volume: int = 50_000, outdir: str = "scans", batch_size: int = 200,
-             fetch_catalysts: bool = True) -> tuple[str, dict]:
+             fetch_catalysts: bool = True, min_mcap: float = DEFAULT_MIN_MCAP) -> tuple[str, dict]:
     """Run one full scan and save the day's JSON. Returns (path, payload).
     fetch_catalysts=False skips the news lookups (used by the fast 5-min alert check)."""
     today = dt.datetime.now(ET).date()
@@ -561,7 +608,12 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
 
     # ---- funnel: gap → price → pre-market volume (with source fallback)
     gapped = [r for r in rows if r["gap_pct"] > min_gap]
-    gp = [r for r in gapped if r["price"] > min_price]
+    gp_all = [r for r in gapped if r["price"] > min_price]
+    gp = size_filter(gp_all, min_mcap, fetch_market_caps([r["ticker"] for r in gp_all]) if gp_all else {})
+    small = sorted((r for r in gp_all if r not in gp), key=lambda r: r["gap_pct"], reverse=True)
+    if small:
+        print(f"Size filter (≥${min_mcap / 1e9:g}B): dropped " + ", ".join(
+            f"{r['ticker']} ({_fmt_cap(r.get('market_cap'))})" for r in small[:15]), file=sys.stderr)
     volume_status = "yahoo"
     if gp:
         got = 0
@@ -582,7 +634,8 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
     else:
         hits = apply_filters(gp, min_gap, min_price, min_volume)
     funnel = {"universe": len(universe), "prefilter": len(to_scan) if mode == "fast" else None,
-              "with_data": len(rows), "gap": len(gapped), "gap_price": len(gp), "passed": len(hits),
+              "with_data": len(rows), "gap": len(gapped), "gap_price": len(gp_all), "mcap": len(gp),
+              "passed": len(hits),
               "volume_source": volume_status, "mode": mode}
     print("Funnel: " + " → ".join(f"{k} {v}" for k, v in funnel.items() if v is not None), file=sys.stderr)
     for r in sorted(gp, key=lambda r: r["gap_pct"], reverse=True)[:8]:
@@ -596,7 +649,8 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
         print(f"{len(hits)} stocks passed the filters (news lookup skipped).", file=sys.stderr)
 
     print_table(hits)
-    criteria = {"min_gap_pct": min_gap, "min_price": min_price, "min_premarket_volume": min_volume}
+    criteria = {"min_gap_pct": min_gap, "min_price": min_price, "min_premarket_volume": min_volume,
+                "min_market_cap": min_mcap}
     path, payload = save_json(hits, today, outdir, criteria, scanned=len(universe), funnel=funnel)
     print(f"Saved → {path}")
     return path, payload
@@ -605,7 +659,8 @@ def run_scan(tickers: list[str] | None = None, min_gap: float = 5.0, min_price: 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Pre-market gap scanner (Yahoo Finance + Benzinga)")
     ap.add_argument("--tickers", help="Comma-separated list to scan instead of the full US universe")
-    ap.add_argument("--min-gap", type=float, default=5.0, help="Minimum gap up %% (default 5)")
+    ap.add_argument("--min-gap", type=float, default=DEFAULT_MIN_GAP, help="Minimum gap up %% (default 3)")
+    ap.add_argument("--min-mcap", type=float, default=DEFAULT_MIN_MCAP, help="Minimum market cap $ (default 2e9; 0 = off)")
     ap.add_argument("--min-price", type=float, default=3.0, help="Minimum price $ (default 3)")
     ap.add_argument("--min-volume", type=int, default=50_000, help="Minimum pre-market volume (default 50,000)")
     ap.add_argument("--outdir", default="scans", help="Folder for daily JSON files (default ./scans)")
@@ -621,7 +676,8 @@ def main() -> int:
         print(f"Warning: it is {now_et:%H:%M} ET, outside 04:00–16:00 ET.", file=sys.stderr)
 
     tickers = args.tickers.split(",") if args.tickers else None
-    run_scan(tickers, args.min_gap, args.min_price, args.min_volume, args.outdir, args.batch_size)
+    run_scan(tickers, args.min_gap, args.min_price, args.min_volume, args.outdir, args.batch_size,
+             min_mcap=args.min_mcap)
     return 0
 
 
