@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-24",
-  "generated_at_et": "2026-11-24 09:35:00 EST",
+  "generated_at_et": "2026-11-24 10:05:25 EST",
   "source_premarket_file": "premarket_scan_2026-11-24.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,87 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 12,
-  "valid_count": 0,
-  "valid_entries": [],
+  "candidates": 17,
+  "valid_count": 2,
+  "valid_entries": [
+    {
+      "ticker": "MRNA",
+      "signal_time_et": "2026-11-24 10:00",
+      "entry_price": 226.675,
+      "last_price": 224.26,
+      "gap_pct": 6.89,
+      "yesterday_high": 212.66,
+      "yesterday_close": 212.08,
+      "sma200": 101.2707,
+      "premarket_high": 214.5893,
+      "hod_before_signal": 226.65,
+      "catalyst": "Biotech stocks have traded somewhat uneasily in the wake of the blue tsunami that swept Washington D.C. earlier this month."
+    },
+    {
+      "ticker": "ANF",
+      "signal_time_et": "2026-11-24 10:04",
+      "entry_price": 173.825,
+      "last_price": 173.77,
+      "gap_pct": 22.24,
+      "yesterday_high": 145.19,
+      "yesterday_close": 140.45,
+      "sma200": 108.782,
+      "premarket_high": 157.99,
+      "hod_before_signal": 173.78,
+      "catalyst": "Abercrombie & Fitch Co."
+    }
+  ],
   "evaluated": [
+    {
+      "ticker": "MRNA",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 19.0586,
+      "yesterday_high": 212.66,
+      "yesterday_close": 212.08,
+      "sma200": 101.2707,
+      "premarket_high": 214.5893,
+      "last_price": 224.26,
+      "last_bar_et": "10:05",
+      "high_of_day": 227.2153,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-24 10:00",
+      "entry_price": 226.675,
+      "hod_before_signal": 226.65,
+      "low_5m": 223.4105,
+      "gap_pct": 6.89,
+      "catalyst": "Biotech stocks have traded somewhat uneasily in the wake of the blue tsunami that swept Washington D.C. earlier this month."
+    },
+    {
+      "ticker": "ANF",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 8.4014,
+      "yesterday_high": 145.19,
+      "yesterday_close": 140.45,
+      "sma200": 108.782,
+      "premarket_high": 157.99,
+      "last_price": 173.77,
+      "last_bar_et": "10:05",
+      "high_of_day": 173.95,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-24 10:04",
+      "entry_price": 173.825,
+      "hod_before_signal": 173.78,
+      "low_5m": 170.05,
+      "gap_pct": 22.24,
+      "catalyst": "Abercrombie & Fitch Co."
+    },
     {
       "ticker": "AKAN",
       "status": "FAIL",
@@ -23,17 +100,17 @@
       "yesterday_close": 2.58,
       "sma200": 8.0297,
       "premarket_high": 3.71,
-      "last_price": 4.485,
-      "last_bar_et": "09:34",
-      "high_of_day": 4.5,
+      "last_price": 5.45,
+      "last_bar_et": "10:05",
+      "high_of_day": 6.77,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 38.37,
+      "gap_pct": 133.33,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
     },
     {
@@ -44,10 +121,10 @@
       "yesterday_high": 21.06,
       "yesterday_close": 20.65,
       "sma200": 23.3662,
-      "premarket_high": 23.4,
-      "last_price": 24.9216,
-      "last_bar_et": "09:34",
-      "high_of_day": 24.95,
+      "premarket_high": 22.4,
+      "last_price": 23.99,
+      "last_bar_et": "10:05",
+      "high_of_day": 25.35,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -55,30 +132,8 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.19,
+      "gap_pct": 15.3,
       "catalyst": "Investing.com -- Amentum Holdings LLC (NYSE:AMTM) reported fourth-quarter adjusted earnings per share of $0.71, beating analyst estimates of $0.66, while revenue of $3.62 billion fell short of the $3.7 billion consensus."
-    },
-    {
-      "ticker": "ANF",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 8.4014,
-      "yesterday_high": 145.19,
-      "yesterday_close": 140.45,
-      "sma200": 108.782,
-      "premarket_high": 157.99,
-      "last_price": 169.64,
-      "last_bar_et": "09:34",
-      "high_of_day": 171.98,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 14.46,
-      "catalyst": "The company raised its full-year 2026 sales growth expectations to around 6%, from its previous forecast of about 5%."
     },
     {
       "ticker": "BURL",
@@ -89,17 +144,17 @@
       "yesterday_close": 235.16,
       "sma200": 303.2246,
       "premarket_high": 259.4,
-      "last_price": 248.4,
-      "last_bar_et": "09:34",
-      "high_of_day": 253.38,
+      "last_price": 256.95,
+      "last_bar_et": "10:05",
+      "high_of_day": 257.46,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.55,
+      "gap_pct": 8.85,
       "catalyst": "Burlington Stores (NYSE:BURL) shares rose 6."
     },
     {
@@ -111,9 +166,9 @@
       "yesterday_close": 28.11,
       "sma200": 35.0254,
       "premarket_high": 30.86,
-      "last_price": 34.5901,
-      "last_bar_et": "09:34",
-      "high_of_day": 34.66,
+      "last_price": 32.885,
+      "last_bar_et": "10:05",
+      "high_of_day": 35.1256,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -121,8 +176,52 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 14.91,
+      "gap_pct": 17.72,
       "catalyst": "Cogent Biosciences has seen a very large share price gain over the past three years, which puts a spotlight on whether the current US$27.85 level still lines up with the balance sheet behind it."
+    },
+    {
+      "ticker": "CPNG",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.8066,
+      "yesterday_high": 14.845,
+      "yesterday_close": 14.74,
+      "sma200": 16.9062,
+      "premarket_high": 14.8,
+      "last_price": 15.925,
+      "last_bar_et": "10:05",
+      "high_of_day": 15.935,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 7.63,
+      "catalyst": "Coupang's valuation is higher than DICK'S, but the answer depends on how much growth you're willing to pay for."
+    },
+    {
+      "ticker": "CUE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 3.0179,
+      "yesterday_high": 10.24,
+      "yesterday_close": 5.75,
+      "sma200": 21.4564,
+      "premarket_high": 6.32,
+      "last_price": 6.9278,
+      "last_bar_et": "10:05",
+      "high_of_day": 7.3,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 19.42,
+      "catalyst": "The average analyst fair value estimate for Cue Biopharma has shifted from US$88 to about US$68.67, which represents a little more than a 20% cut to the implied price target."
     },
     {
       "ticker": "DKS",
@@ -133,8 +232,8 @@
       "yesterday_close": 133.67,
       "sma200": 187.495,
       "premarket_high": 158.0,
-      "last_price": 149.725,
-      "last_bar_et": "09:34",
+      "last_price": 152.21,
+      "last_bar_et": "10:05",
       "high_of_day": 155.78,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -143,30 +242,30 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 12.53,
-      "catalyst": "Key TakeawaysNike’s dividend yield reached 5."
+      "gap_pct": 14.05,
+      "catalyst": "Stocks declined on Tuesday as the semiconductor sector retreated."
     },
     {
       "ticker": "DLTR",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 6.0964,
       "yesterday_high": 139.77,
       "yesterday_close": 139.1,
       "sma200": 117.8098,
       "premarket_high": 156.25,
-      "last_price": 152.055,
-      "last_bar_et": "09:34",
-      "high_of_day": 153.29,
+      "last_price": 153.75,
+      "last_bar_et": "10:05",
+      "high_of_day": 155.07,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 7.01,
-      "catalyst": "Dollar Tree (NASDAQ:DLTR) shares rose 6% in premarket trading on Tuesday after the discount retailer reported stronger-than-expected third-quarter fiscal 2026 financial results and raised its full-year adjusted…"
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 9.91,
+      "catalyst": "Dollar Tree (DLTR) raised its full-year earnings outlook on Tuesday as the discount retailer's fisca."
     },
     {
       "ticker": "FLNC",
@@ -177,74 +276,140 @@
       "yesterday_close": 3.8,
       "sma200": 13.6689,
       "premarket_high": 4.76,
-      "last_price": 3.9891,
-      "last_bar_et": "09:34",
+      "last_price": 4.16,
+      "last_bar_et": "10:05",
       "high_of_day": 4.49,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.17,
+      "gap_pct": 10.53,
       "catalyst": "Fluence Energy (NASDAQ:FLNC) shares rose 16."
     },
     {
+      "ticker": "FOUR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 3.0902,
+      "yesterday_high": 40.89,
+      "yesterday_close": 40.68,
+      "sma200": 44.7746,
+      "premarket_high": 41.3,
+      "last_price": 42.845,
+      "last_bar_et": "10:05",
+      "high_of_day": 43.79,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.03,
+      "catalyst": "DraftKings downgraded, Dollar General upgraded: Wall Street's top analyst calls."
+    },
+    {
       "ticker": "INSM",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 7.295,
       "yesterday_high": 149.83,
       "yesterday_close": 149.09,
       "sma200": 122.5538,
       "premarket_high": 171.4775,
-      "last_price": 170.36,
-      "last_bar_et": "09:34",
-      "high_of_day": 170.55,
+      "last_price": 170.53,
+      "last_bar_et": "10:04",
+      "high_of_day": 170.61,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 14.3,
-      "catalyst": "Sanofi said Tuesday it would spend $41 billion to acquire Insmed in the biggest biotech buyout since Pfizer bought Seagen for $43 billion."
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 14.35,
+      "catalyst": "Barron's reporter Jacob Sonenshine sits down with \"The 8:30\" hosts Julie Hyman and Jake Conley to discuss Sanofi's (SNY) roughly $4 billion-plus deal for respiratory-focused drug developer Insmed."
+    },
+    {
+      "ticker": "INTR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2201,
+      "yesterday_high": 3.83,
+      "yesterday_close": 3.69,
+      "sma200": 6.367,
+      "premarket_high": 3.86,
+      "last_price": 3.875,
+      "last_bar_et": "10:05",
+      "high_of_day": 3.93,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.15,
+      "catalyst": "After one of the roughest weeks for equities in decades, with major US indices sliding into correction territory, many investors are looking at the recent selloff as a reset rather than the end of the story."
+    },
+    {
+      "ticker": "IVA",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.2834,
+      "yesterday_high": 3.325,
+      "yesterday_close": 3.22,
+      "sma200": 4.6608,
+      "premarket_high": 3.38,
+      "last_price": 3.43,
+      "last_bar_et": "10:05",
+      "high_of_day": 3.505,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.37,
+      "catalyst": "Is IVA a good stock to buy?"
     },
     {
       "ticker": "KSS",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 1.3907,
       "yesterday_high": 22.89,
       "yesterday_close": 21.2,
       "sma200": 17.435,
       "premarket_high": 24.2143,
-      "last_price": 23.44,
-      "last_bar_et": "09:34",
-      "high_of_day": 23.93,
+      "last_price": 24.06,
+      "last_bar_et": "10:05",
+      "high_of_day": 24.6281,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 7.1,
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 13.33,
       "catalyst": "Kohl's Corp. has made a turnaround as the company has reported a sales increase for the first time in five years."
     },
     {
       "ticker": "KYMR",
-      "status": "WAITING",
+      "status": "NO_SIGNAL",
       "signal": false,
       "atr14": 9.9471,
       "yesterday_high": 161.49,
       "yesterday_close": 150.37,
       "sma200": 100.9192,
       "premarket_high": 160.63,
-      "last_price": 178.76,
-      "last_bar_et": "09:34",
+      "last_price": 167.445,
+      "last_bar_et": "10:05",
       "high_of_day": 180.0,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -252,32 +417,10 @@
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 11.29,
+      "reason": "Failing now: price_above_high_of_day",
+      "gap_pct": 11.46,
       "catalyst": "Kymera Therapeutics has seen its share price surge in recent years, which puts fresh attention on whether the current market value lines up with the strength of its balance sheet and book value."
-    },
-    {
-      "ticker": "SNY",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 1.0964,
-      "yesterday_high": 46.9,
-      "yesterday_close": 46.77,
-      "sma200": 44.3483,
-      "premarket_high": 50.8223,
-      "last_price": 50.85,
-      "last_bar_et": "09:34",
-      "high_of_day": 50.87,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": true
-      },
-      "reason": "Before 10:00 ET signal window",
-      "gap_pct": 8.17,
-      "catalyst": "Sanofi said Tuesday it would spend $41 billion to acquire Insmed in the biggest biotech buyout since Pfizer bought Seagen for $43 billion."
     }
   ],
-  "scan_time_et": "09:35"
+  "scan_time_et": "10:05"
 }

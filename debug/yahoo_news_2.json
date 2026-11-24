@@ -1,67 +1,32 @@
 {
-  "ticker": "AMTM",
-  "saved_at_et": "2026-11-24T09:32:22-05:00",
+  "ticker": "ANF",
+  "saved_at_et": "2026-11-24T10:05:20-05:00",
   "response": [
     {
-      "id": "f02ca313-ecdf-3032-96ac-cadb29167146",
+      "id": "1b776567-6e1b-3ddc-9281-eae8a73cf43e",
       "content": {
-        "id": "f02ca313-ecdf-3032-96ac-cadb29167146",
+        "id": "1b776567-6e1b-3ddc-9281-eae8a73cf43e",
         "contentType": "STORY",
-        "title": "Amentum surges on earnings beat and buyback program",
+        "title": "Abercrombie & Fitch Shares Rise 4.7% as Record Third-Quarter Sales Drive Earnings Beat",
         "description": null,
-        "summary": "Investing.com -- Amentum Holdings LLC (NYSE:AMTM) reported fourth-quarter adjusted earnings per share of $0.71, beating analyst estimates of $0.66, while revenue of $3.62 billion fell short of the $3.7 billion consensus. The engineering and technology company also announced its first-ever $500 million share repurchase program, driving shares up 7.8% in after-hours trading Monday.",
-        "pubDate": "2026-11-23T22:37:52Z",
-        "displayTime": "2026-11-23T22:37:52Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": null,
-        "provider": {
-          "displayName": "Investing.com",
-          "url": "https://www.investing.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-surges-earnings-beat-buyback-223752582.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-surges-earnings-beat-buyback-223752582.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "AMTM"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "812e783a-5bd9-356a-b615-8fe1146dcc52",
-      "content": {
-        "id": "812e783a-5bd9-356a-b615-8fe1146dcc52",
-        "contentType": "STORY",
-        "title": "Amentum (AMTM) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
-        "description": null,
-        "summary": "Although the revenue and EPS for Amentum (AMTM) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
-        "pubDate": "2026-11-23T22:30:02Z",
-        "displayTime": "2026-11-23T22:30:02Z",
+        "summary": "Abercrombie & Fitch Co. (NYSE:ANF) reported third-quarter financial results above analyst expectations, extending its growth streak to 16 consecutive quarters and raising its full-year fiscal 2026 outlook.",
+        "pubDate": "2026-11-24T14:22:21Z",
+        "displayTime": "2026-11-24T14:22:21Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/7853de8d69faeccb7d1ad6ebba40b8a2.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 1054,
+          "originalUrl": "https://media.zenfs.com/en/investorshub_458/64189c536d174a1097ac894b8abddea3.jpg",
+          "originalWidth": 1311,
+          "originalHeight": 720,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/7853de8d69faeccb7d1ad6ebba40b8a2.jpg_up.jpg",
-              "width": 1280,
-              "height": 1054,
+              "url": "https://media.zenfs.com/en/investorshub_458/64189c536d174a1097ac894b8abddea3.jpg",
+              "width": 1311,
+              "height": 720,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/976f0c0e34f7aca4df593d65675b9897da32cde6af9069535ba56e79e59cf4f6/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F7853de8d69faeccb7d1ad6ebba40b8a2.jpg_up.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/118ff410c2426440236135e2d9df824ae4ee10bc83a9027fb5a6963586f9edb7/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F64189c536d174a1097ac894b8abddea3.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -69,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-amtm-q4-earnings-taking-223002346.html"
+          "url": "https://investorshub.advfn.com/market-news/article/40645/abercrombie-fitch-shares-rise-4-7-as-record-third-quarter-sales-drive-earnings-beat"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-amtm-q4-earnings-taking-223002346.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-shares-rise-4-142221382.html"
         },
         "finance": {
           "premiumFinance": {
@@ -84,37 +49,37 @@
           },
           "stockTickers": [
             {
-              "symbol": "AMTM"
+              "symbol": "ANF"
             }
           ]
         }
       }
     },
     {
-      "id": "e040797c-7e15-3dcb-9091-76895fbb046b",
+      "id": "83fefc64-4f85-3cc5-a169-efef32caff02",
       "content": {
-        "id": "e040797c-7e15-3dcb-9091-76895fbb046b",
+        "id": "83fefc64-4f85-3cc5-a169-efef32caff02",
         "contentType": "STORY",
-        "title": "Amentum Holdings (AMTM) Q4 Earnings Top Estimates",
+        "title": "Abercrombie & Fitch CEO Eyes ‘Another Year Of Record Net Sales’ After ‘Best-Ever’ Q3 Topline Across Brands",
         "description": null,
-        "summary": "Amentum (AMTM) delivered earnings and revenue surprises of +7.58% and -0.96%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
-        "pubDate": "2026-11-23T21:45:02Z",
-        "displayTime": "2026-11-23T21:45:02Z",
+        "summary": "The company raised its full-year 2026 sales growth expectations to around 6%, from its previous forecast of about 5%.",
+        "pubDate": "2026-11-24T13:59:36Z",
+        "displayTime": "2026-11-24T13:59:36Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94.jpg_up.jpg",
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/d9c44aa5754a1f66e3ee1235ed9f3a33.jpg",
           "originalWidth": 1280,
-          "originalHeight": 837,
+          "originalHeight": 834,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94.jpg_up.jpg",
+              "url": "https://media.zenfs.com/en/stocktwits_383/d9c44aa5754a1f66e3ee1235ed9f3a33.jpg",
               "width": 1280,
-              "height": 837,
+              "height": 834,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/6ac6b912bcfb7a98175fc51638ac7ecfeda8c44567df791b4aacec69b69db2de/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F3496571a811465d910e99bd171c71a94.jpg_up.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/20e3b8c42957674556d2ee59fe59211dae0e8d89d1918fc303c373b1dc8cfe64/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fd9c44aa5754a1f66e3ee1235ed9f3a33.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -122,14 +87,14 @@
           ]
         },
         "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-holdings-amtm-q4-earnings-214502931.html"
+          "url": "https://stocktwits.com/news-articles/markets/equity/abercrombie-and-fitch-ceo-eyes-another-year-of-record-net-sales-after-best-ever-q3-topline-across-brands/cNbsBOwR9kV"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-holdings-amtm-q4-earnings-214502931.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-ceo-eyes-another-135936554.html"
         },
         "finance": {
           "premiumFinance": {
@@ -137,10 +102,58 @@
           },
           "stockTickers": [
             {
-              "symbol": "AMTM"
+              "symbol": "ANF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cd90fb5f-4b71-3435-8fb6-dfe8027dc2f8",
+      "content": {
+        "id": "cd90fb5f-4b71-3435-8fb6-dfe8027dc2f8",
+        "contentType": "STORY",
+        "title": "Abercrombie & Fitch Stock Heads Toward Best Day in 3 Months on Sales Growth",
+        "description": null,
+        "summary": "Abercrombie & Fitch stock soars as same-store sales in the fiscal third quarter rise 6%, topping analysts’ estimates.",
+        "pubDate": "2026-11-24T13:45:00Z",
+        "displayTime": "2026-11-24T13:45:00Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/cd90fb5f-4b71-3435-8fb6-dfe8027dc2f8/abercrombie-fitch-stock.html",
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/Barrons.com/5d16b5b148d9cf3ffd2c34025fe998f4.jpg_up.jpg",
+          "originalWidth": 1440,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/Barrons.com/5d16b5b148d9cf3ffd2c34025fe998f4.jpg_up.jpg",
+              "width": 1440,
+              "height": 720,
+              "tag": "original"
             },
             {
-              "symbol": "WOR"
+              "url": "https://s.yimg.com/lo/mysterio/api/a6c105dbfbedf30afdc0e88b61d7491ee6a9b2c18b4f798696595e18eeb72398/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F5d16b5b148d9cf3ffd2c34025fe998f4.jpg_up.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Barrons.com",
+          "url": "http://www.barrons.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.barrons.com/articles/abercrombie-fitch-earnings-stock-price-a8c12ab2?siteid=yhoof2&yptr=yahoo"
+        },
+        "clickThroughUrl": null,
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ANF"
             }
           ]
         }
