@@ -1,5 +1,5 @@
 **Trend-join Long — 2026-11-24**
-5 valid entries out of 14 pre-market gappers (generated 2026-11-24 14:05:51 EST)
+5 valid entries out of 14 pre-market gappers (generated 2026-11-24 14:35:02 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
