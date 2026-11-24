@@ -1,17 +1,105 @@
 {
-  "ticker": "ANF",
-  "saved_at_et": "2026-11-24T13:05:27-05:00",
+  "ticker": "COGT",
+  "saved_at_et": "2026-11-24T13:35:37-05:00",
   "response": [
     {
-      "id": "a4a9932c-f693-38be-a622-3fdd3d85b5dd",
+      "id": "31d2efb7-fa57-35b5-9fcf-422091d84f14",
       "content": {
-        "id": "a4a9932c-f693-38be-a622-3fdd3d85b5dd",
+        "id": "31d2efb7-fa57-35b5-9fcf-422091d84f14",
         "contentType": "STORY",
-        "title": "Abercrombie & Fitch Co (ANF) (Q3 2026) Earnings Call Highlights: Record $1. ...",
+        "title": "COGT Stock Heads For Best Session In Over A Year After FDA Approves Gastrointestinal Cancer Drug",
         "description": null,
-        "summary": "Abercrombie & Fitch Co (ANF) posted 11% net sales growth with a 15.5% operating margin, double-digit gains across all regions and both brands, and $382 million in year-to-date buybacks.",
-        "pubDate": "2026-11-24T16:21:21Z",
-        "displayTime": "2026-11-24T16:21:21Z",
+        "summary": "The FDA approval is based on a Phase 3 trial that showed a statistically significant improvement in progression-free survival.",
+        "pubDate": "2026-11-24T16:33:21Z",
+        "displayTime": "2026-11-24T16:33:21Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/stocktwits_383/e746d819fc5ac3d8167f658aa730d79e.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 853,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/stocktwits_383/e746d819fc5ac3d8167f658aa730d79e.jpg",
+              "width": 1280,
+              "height": 853,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/63ae6d9c3257fb1eb4b8f179e469d77123ddee44544420459b928bcf7b0e48e2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fe746d819fc5ac3d8167f658aa730d79e.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Stocktwits",
+          "url": "https://stocktwits.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://stocktwits.com/news-articles/markets/equity/cogt-stock-heads-for-best-session-in-over-a-year-after-fda-approves-gastrointestinal-cancer-drug/cNbsgimR9ku"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/cogt-stock-heads-best-session-163321036.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "COGT"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6bbe54cb-164a-3887-8fcc-b3c3727b1eab",
+      "content": {
+        "id": "6bbe54cb-164a-3887-8fcc-b3c3727b1eab",
+        "contentType": "STORY",
+        "title": "Cogent Biosciences stock surges on FDA approval of EKITNA",
+        "description": null,
+        "summary": "Investing.com -- Cogent Biosciences Inc (NASDAQ:COGT) shares jumped 14% Tuesday following the FDA approval of EKITNA (bezuclastinib) for the treatment of advanced gastrointestinal stromal tumors in adult patients who have received prior treatment with imatinib.",
+        "pubDate": "2026-11-24T15:25:43Z",
+        "displayTime": "2026-11-24T15:25:43Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "Investing.com",
+          "url": "https://www.investing.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-stock-surges-fda-152543515.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-stock-surges-fda-152543515.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "COGT"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "203c878c-41b0-361f-a3d0-7c0d65a9318e",
+      "content": {
+        "id": "203c878c-41b0-361f-a3d0-7c0d65a9318e",
+        "contentType": "STORY",
+        "title": "Why Is Cogent Biosciences (COGT) Stock Up Today? FDA Clearance for Ekitna",
+        "description": null,
+        "summary": "On Tuesday, Nov. 24, shares rose 15.6% after the company gained FDA clearance for Ekitna in advanced GIST, according to GuruFocus",
+        "pubDate": "2026-11-24T15:00:47Z",
+        "displayTime": "2026-11-24T15:00:47Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -20,10 +108,10 @@
           "url": "http://www.gurufocus.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-co-anf-q3-162121493.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/why-cogent-biosciences-cogt-stock-150047862.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-co-anf-q3-162121493.html"
+          "url": "https://finance.yahoo.com/healthcare/articles/why-cogent-biosciences-cogt-stock-150047862.html"
         },
         "finance": {
           "premiumFinance": {
@@ -31,113 +119,10 @@
           },
           "stockTickers": [
             {
-              "symbol": "ANF"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "09f340cb-64b1-3a60-b303-c280b2ea3f94",
-      "content": {
-        "id": "09f340cb-64b1-3a60-b303-c280b2ea3f94",
-        "contentType": "STORY",
-        "title": "What Abercrombie & Fitch (ANF) Said on Its Q3 Earnings Call",
-        "description": null,
-        "summary": "Abercrombie & Fitch (NYSE:ANF) raised its full-year sales and earnings outlook after reporting record third-quarter revenue, as growth across both brands and all three regions helped the retailer extend its sales growth streak to 16 consecutive quarters. Net sales rose 11% to $1.44 billion in t",
-        "pubDate": "2026-11-24T16:16:27Z",
-        "displayTime": "2026-11-24T16:16:27Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/marketbeat_955/ff6aa0087457fd5db15e525999a20fce.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/marketbeat_955/ff6aa0087457fd5db15e525999a20fce.jpg_up.jpg",
-              "width": 1280,
-              "height": 720,
-              "tag": "original"
+              "symbol": "COGT"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/9bb0b27ed5c090e2534abb41715b1c576f056175ab6522cbde161e5c42ae8b84/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2Fff6aa0087457fd5db15e525999a20fce.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "MarketBeat",
-          "url": "https://www.marketbeat.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-what-abercrombie-fitch-anf-said-on-its-q3-earnings-call-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-said-q3-161627092.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ANF"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "2c0951b9-8de9-3d72-ac76-8b0f958f8203",
-      "content": {
-        "id": "2c0951b9-8de9-3d72-ac76-8b0f958f8203",
-        "contentType": "STORY",
-        "title": "Abercrombie & Fitch shares jump as earnings beat estimates and outlook rises",
-        "description": null,
-        "summary": "Abercrombie & Fitch (NYSE:ANF) shares surged more than 24% Tuesday after the retailer reported stronger-than-expected third-quarter earnings and raised its full-year guidance. Revenue for the quarter ended November 2026 increased 11% year over year to $1.44 billion, ahead of the $1.37...",
-        "pubDate": "2026-11-24T15:47:00Z",
-        "displayTime": "2026-11-24T15:47:00Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/proactive_us_504/3f319130fe7af2ae1e10bae51fe2125a.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/proactive_us_504/3f319130fe7af2ae1e10bae51fe2125a.jpg",
-              "width": 1280,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/18011a1c0a0e05003e8bfdbb771574d523a595a3c358946522764da42e2097f6/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2F3f319130fe7af2ae1e10bae51fe2125a.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Proactive",
-          "url": "https://www.proactiveinvestors.com/us"
-        },
-        "canonicalUrl": {
-          "url": "https://www.proactiveinvestors.com/companies/news/1102362/abercrombie-fitch-shares-jump-as-earnings-beat-estimates-and-outlook-rises-1102362.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-shares-jump-earnings-154700067.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ANF"
+              "symbol": "^GSPC"
             }
           ]
         }

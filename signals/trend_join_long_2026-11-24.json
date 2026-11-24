@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-24",
-  "generated_at_et": "2026-11-24 13:05:31 EST",
+  "generated_at_et": "2026-11-24 13:35:39 EST",
   "source_premarket_file": "premarket_scan_2026-11-24.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -11,14 +11,27 @@
     "Signal only after 10:00 AM ET"
   ],
   "candidates": 13,
-  "valid_count": 3,
+  "valid_count": 5,
   "valid_entries": [
+    {
+      "ticker": "ABCL",
+      "signal_time_et": "2026-11-24 10:00",
+      "entry_price": 10.82,
+      "last_price": 10.93,
+      "gap_pct": 3.7,
+      "yesterday_high": 10.741,
+      "yesterday_close": 10.53,
+      "sma200": 7.4571,
+      "premarket_high": 10.5978,
+      "hod_before_signal": 10.8037,
+      "catalyst": "The analyst fair value estimate for AbCellera Biologics has shifted higher, with the average price target moving from about US$17.17 to roughly US$18.69 per share."
+    },
     {
       "ticker": "ANF",
       "signal_time_et": "2026-11-24 10:04",
       "entry_price": 173.825,
-      "last_price": 175.765,
-      "gap_pct": 24.95,
+      "last_price": 174.565,
+      "gap_pct": 24.12,
       "yesterday_high": 145.19,
       "yesterday_close": 140.45,
       "sma200": 108.782,
@@ -27,11 +40,24 @@
       "catalyst": "Abercrombie & Fitch Co (ANF) posted 11% net sales growth with a 15.5% operating margin, double-digit gains across all regions and both brands, and $382 million in year-to-date buybacks."
     },
     {
+      "ticker": "ABBV",
+      "signal_time_et": "2026-11-24 10:10",
+      "entry_price": 295.89,
+      "last_price": 300.505,
+      "gap_pct": 4.16,
+      "yesterday_high": 291.07,
+      "yesterday_close": 288.45,
+      "sma200": 242.7761,
+      "premarket_high": 292.0,
+      "hod_before_signal": 295.81,
+      "catalyst": "Sanofi’s US$41b move for lung disease specialist Insmed has put pharma deal making firmly back on the radar, and investors do not want to be the last to notice where the next late stage pipelines might sit."
+    },
+    {
       "ticker": "AMC",
       "signal_time_et": "2026-11-24 10:53",
       "entry_price": 2.895,
-      "last_price": 3.065,
-      "gap_pct": 7.17,
+      "last_price": 3.03,
+      "gap_pct": 6.47,
       "yesterday_high": 2.89,
       "yesterday_close": 2.86,
       "sma200": 2.11,
@@ -43,8 +69,8 @@
       "ticker": "DLTR",
       "signal_time_et": "2026-11-24 10:57",
       "entry_price": 156.295,
-      "last_price": 155.91,
-      "gap_pct": 11.72,
+      "last_price": 155.785,
+      "gap_pct": 11.97,
       "yesterday_high": 139.77,
       "yesterday_close": 139.1,
       "sma200": 117.8098,
@@ -55,6 +81,32 @@
   ],
   "evaluated": [
     {
+      "ticker": "ABCL",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.8971,
+      "yesterday_high": 10.741,
+      "yesterday_close": 10.53,
+      "sma200": 7.4571,
+      "premarket_high": 10.5978,
+      "last_price": 10.93,
+      "last_bar_et": "13:35",
+      "high_of_day": 10.94,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-24 10:00",
+      "entry_price": 10.82,
+      "hod_before_signal": 10.8037,
+      "low_5m": 10.72,
+      "gap_pct": 3.7,
+      "catalyst": "The analyst fair value estimate for AbCellera Biologics has shifted higher, with the average price target moving from about US$17.17 to roughly US$18.69 per share.",
+      "market_cap": 3566667264
+    },
+    {
       "ticker": "ANF",
       "status": "VALID_ENTRY",
       "signal": true,
@@ -63,8 +115,8 @@
       "yesterday_close": 140.45,
       "sma200": 108.782,
       "premarket_high": 157.99,
-      "last_price": 175.765,
-      "last_bar_et": "13:05",
+      "last_price": 174.565,
+      "last_bar_et": "13:35",
       "high_of_day": 178.38,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -76,8 +128,35 @@
       "entry_price": 173.825,
       "hod_before_signal": 173.78,
       "low_5m": 170.05,
-      "gap_pct": 24.95,
-      "catalyst": "Abercrombie & Fitch Co (ANF) posted 11% net sales growth with a 15.5% operating margin, double-digit gains across all regions and both brands, and $382 million in year-to-date buybacks."
+      "gap_pct": 24.12,
+      "catalyst": "Abercrombie & Fitch Co (ANF) posted 11% net sales growth with a 15.5% operating margin, double-digit gains across all regions and both brands, and $382 million in year-to-date buybacks.",
+      "market_cap": 7390587392
+    },
+    {
+      "ticker": "ABBV",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 7.1671,
+      "yesterday_high": 291.07,
+      "yesterday_close": 288.45,
+      "sma200": 242.7761,
+      "premarket_high": 292.0,
+      "last_price": 300.505,
+      "last_bar_et": "13:35",
+      "high_of_day": 300.56,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-24 10:10",
+      "entry_price": 295.89,
+      "hod_before_signal": 295.81,
+      "low_5m": 294.62,
+      "gap_pct": 4.16,
+      "catalyst": "Sanofi’s US$41b move for lung disease specialist Insmed has put pharma deal making firmly back on the radar, and investors do not want to be the last to notice where the next late stage pipelines might sit.",
+      "market_cap": 530938888192
     },
     {
       "ticker": "AMC",
@@ -88,8 +167,8 @@
       "yesterday_close": 2.86,
       "sma200": 2.11,
       "premarket_high": 2.88,
-      "last_price": 3.065,
-      "last_bar_et": "13:05",
+      "last_price": 3.03,
+      "last_bar_et": "13:35",
       "high_of_day": 3.1,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -101,8 +180,9 @@
       "entry_price": 2.895,
       "hod_before_signal": 2.89,
       "low_5m": 2.87,
-      "gap_pct": 7.17,
-      "catalyst": "AMC Entertainment Holdings (AMC) has started generating positive free cash flow about two years earlier than expected, helped by stronger than anticipated box office takings from releases like Hunger Games, which have…"
+      "gap_pct": 6.47,
+      "catalyst": "AMC Entertainment Holdings (AMC) has started generating positive free cash flow about two years earlier than expected, helped by stronger than anticipated box office takings from releases like Hunger Games, which have…",
+      "market_cap": 2714142720
     },
     {
       "ticker": "DLTR",
@@ -113,8 +193,8 @@
       "yesterday_close": 139.1,
       "sma200": 117.8098,
       "premarket_high": 156.25,
-      "last_price": 155.91,
-      "last_bar_et": "13:05",
+      "last_price": 155.785,
+      "last_bar_et": "13:35",
       "high_of_day": 156.89,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -126,30 +206,9 @@
       "entry_price": 156.295,
       "hod_before_signal": 155.88,
       "low_5m": 154.23,
-      "gap_pct": 11.72,
-      "catalyst": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day."
-    },
-    {
-      "ticker": "AKAN",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.7997,
-      "yesterday_high": 4.05,
-      "yesterday_close": 2.58,
-      "sma200": 8.0297,
-      "premarket_high": 3.71,
-      "last_price": 4.911,
-      "last_bar_et": "13:05",
-      "high_of_day": 6.77,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 92.44,
-      "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks."
+      "gap_pct": 11.97,
+      "catalyst": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day.",
+      "market_cap": 29230923776
     },
     {
       "ticker": "AMTM",
@@ -160,8 +219,8 @@
       "yesterday_close": 20.65,
       "sma200": 23.3662,
       "premarket_high": 22.4,
-      "last_price": 24.9616,
-      "last_bar_et": "13:05",
+      "last_price": 24.725,
+      "last_bar_et": "13:35",
       "high_of_day": 25.35,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -170,8 +229,32 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 20.41,
-      "catalyst": "Amentum (NYSE:AMTM) reported fiscal 2026 revenue of $13.8 billion and a 13% increase in adjusted earnings per share, as expanding margins and cash generation helped the company reduce debt and launch its first share…"
+      "gap_pct": 19.85,
+      "catalyst": "Amentum (NYSE:AMTM) reported fiscal 2026 revenue of $13.8 billion and a 13% increase in adjusted earnings per share, as expanding margins and cash generation helped the company reduce debt and launch its first share…",
+      "market_cap": 6046643712
+    },
+    {
+      "ticker": "BBY",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 4.2514,
+      "yesterday_high": 100.45,
+      "yesterday_close": 97.0,
+      "sma200": 77.9386,
+      "premarket_high": 104.0,
+      "last_price": 100.53,
+      "last_bar_et": "13:35",
+      "high_of_day": 101.79,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
+      "gap_pct": 4.3,
+      "catalyst": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day.",
+      "market_cap": 21256951808
     },
     {
       "ticker": "BURL",
@@ -182,8 +265,8 @@
       "yesterday_close": 235.16,
       "sma200": 303.2246,
       "premarket_high": 259.4,
-      "last_price": 258.86,
-      "last_bar_et": "13:05",
+      "last_price": 257.1,
+      "last_bar_et": "13:35",
       "high_of_day": 262.0,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -192,8 +275,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.38,
-      "catalyst": "On Tuesday, Nov."
+      "gap_pct": 9.32,
+      "catalyst": "On Tuesday, Nov.",
+      "market_cap": 16149473280
     },
     {
       "ticker": "COGT",
@@ -204,8 +288,8 @@
       "yesterday_close": 28.11,
       "sma200": 35.0254,
       "premarket_high": 30.86,
-      "last_price": 33.84,
-      "last_bar_et": "13:04",
+      "last_price": 33.965,
+      "last_bar_et": "13:35",
       "high_of_day": 35.1256,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -214,8 +298,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 20.47,
-      "catalyst": "The FDA approval is based on a Phase 3 trial that showed a statistically significant improvement in progression-free survival."
+      "gap_pct": 20.49,
+      "catalyst": "The FDA approval is based on a Phase 3 trial that showed a statistically significant improvement in progression-free survival.",
+      "market_cap": 5897542144
     },
     {
       "ticker": "CPNG",
@@ -226,8 +311,8 @@
       "yesterday_close": 14.74,
       "sma200": 16.9062,
       "premarket_high": 14.8,
-      "last_price": 16.055,
-      "last_bar_et": "13:05",
+      "last_price": 16.005,
+      "last_bar_et": "13:35",
       "high_of_day": 16.135,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -236,30 +321,32 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.19,
-      "catalyst": "Coupang's valuation is higher than DICK'S, but the answer depends on how much growth you're willing to pay for."
+      "gap_pct": 8.72,
+      "catalyst": "Coupang's valuation is higher than DICK'S, but the answer depends on how much growth you're willing to pay for.",
+      "market_cap": 28748455936
     },
     {
-      "ticker": "CUE",
+      "ticker": "CRM",
       "status": "FAIL",
       "signal": false,
-      "atr14": 3.0179,
-      "yesterday_high": 10.24,
-      "yesterday_close": 5.75,
-      "sma200": 21.4564,
-      "premarket_high": 6.32,
-      "last_price": 6.95,
-      "last_bar_et": "13:05",
-      "high_of_day": 7.3,
+      "atr14": 8.6071,
+      "yesterday_high": 185.83,
+      "yesterday_close": 185.46,
+      "sma200": 197.7303,
+      "premarket_high": 186.27,
+      "last_price": 193.6,
+      "last_bar_et": "13:35",
+      "high_of_day": 194.8335,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 21.74,
-      "catalyst": "The average analyst fair value estimate for Cue Biopharma has shifted from US$88 to about US$68.67, which represents a little more than a 20% cut to the implied price target."
+      "gap_pct": 4.22,
+      "catalyst": "Stock Market Today: The Dow Jones index rises but the Nasdaq falls Tuesday.",
+      "market_cap": 159061213184
     },
     {
       "ticker": "DKS",
@@ -270,9 +357,9 @@
       "yesterday_close": 133.67,
       "sma200": 187.495,
       "premarket_high": 158.0,
-      "last_price": 157.085,
-      "last_bar_et": "13:05",
-      "high_of_day": 157.495,
+      "last_price": 156.95,
+      "last_bar_et": "13:35",
+      "high_of_day": 157.695,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -280,52 +367,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 17.42,
-      "catalyst": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day."
-    },
-    {
-      "ticker": "FLNC",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.5121,
-      "yesterday_high": 4.1,
-      "yesterday_close": 3.8,
-      "sma200": 13.6689,
-      "premarket_high": 4.76,
-      "last_price": 4.265,
-      "last_bar_et": "13:05",
-      "high_of_day": 4.49,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.97,
-      "catalyst": "Fluence Energy Inc (FLNC) posted record orders and a 68% backlog jump, but revenue shortfalls, negative EBITDA, and no fiscal 2027 guidance left investors weighing growth against execution risk."
-    },
-    {
-      "ticker": "FLO",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.445,
-      "yesterday_high": 5.07,
-      "yesterday_close": 4.94,
-      "sma200": 7.5869,
-      "premarket_high": 5.0401,
-      "last_price": 5.21,
-      "last_bar_et": "13:05",
-      "high_of_day": 5.255,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.36,
-      "catalyst": "Flowers Foods, Inc. will release its third-quarter earnings report after the closing bell on Thursday, Nov."
+      "gap_pct": 17.69,
+      "catalyst": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day.",
+      "market_cap": 13995706368
     },
     {
       "ticker": "FOUR",
@@ -336,8 +380,8 @@
       "yesterday_close": 40.68,
       "sma200": 44.7746,
       "premarket_high": 41.3,
-      "last_price": 42.91,
-      "last_bar_et": "13:05",
+      "last_price": 42.63,
+      "last_bar_et": "13:35",
       "high_of_day": 43.79,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -346,9 +390,10 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.29,
-      "catalyst": "DraftKings downgraded, Dollar General upgraded: Wall Street's top analyst calls."
+      "gap_pct": 4.9,
+      "catalyst": "DraftKings downgraded, Dollar General upgraded: Wall Street's top analyst calls.",
+      "market_cap": 3202354688
     }
   ],
-  "scan_time_et": "13:05"
+  "scan_time_et": "13:35"
 }
