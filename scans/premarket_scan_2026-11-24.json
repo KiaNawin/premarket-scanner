@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-24",
-  "generated_at_et": "2026-11-24 11:35:01 EST",
-  "scan_time_et": "11:35",
+  "generated_at_et": "2026-11-24 12:05:10 EST",
+  "scan_time_et": "12:05",
   "criteria": {
     "min_gap_pct": 5.0,
     "min_price": 3.0,
@@ -9,21 +9,21 @@
   },
   "funnel": {
     "universe": 7066,
-    "prefilter": 646,
-    "with_data": 488,
-    "gap": 121,
-    "gap_price": 117,
-    "passed": 15,
+    "prefilter": 649,
+    "with_data": 484,
+    "gap": 137,
+    "gap_price": 131,
+    "passed": 16,
     "volume_source": "nasdaq",
     "mode": "fast"
   },
   "symbols_scanned": 7066,
-  "count": 15,
+  "count": 16,
   "results": [
     {
       "ticker": "AKAN",
-      "price": 5.36,
-      "gap_pct": 107.75,
+      "price": 4.9,
+      "gap_pct": 89.91,
       "catalyst": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.",
       "prev_close": 2.58,
       "premarket_volume": 3583297,
@@ -34,8 +34,8 @@
     },
     {
       "ticker": "ANF",
-      "price": 175.47,
-      "gap_pct": 24.93,
+      "price": 174.28,
+      "gap_pct": 24.09,
       "catalyst": "Abercrombie & Fitch Co (ANF) posted 11% net sales growth with a 15.5% operating margin, double-digit gains across all regions and both brands, and $382 million in year-to-date buybacks.",
       "prev_close": 140.45,
       "premarket_volume": 260187,
@@ -45,9 +45,21 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-co-anf-q3-162121493.html"
     },
     {
+      "ticker": "COGT",
+      "price": 33.5,
+      "gap_pct": 19.17,
+      "catalyst": "The FDA approval is based on a Phase 3 trial that showed a statistically significant improvement in progression-free survival.",
+      "prev_close": 28.11,
+      "premarket_volume": 88641,
+      "session": "regular",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "COGT Stock Heads For Best Session In Over A Year After FDA Approves Gastrointestinal Cancer Drug",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/cogt-stock-heads-for-best-session-in-over-a-year-after-fda-approves-gastrointestinal-cancer-drug/cNbsgimR9ku"
+    },
+    {
       "ticker": "AMTM",
-      "price": 24.73,
-      "gap_pct": 19.73,
+      "price": 24.48,
+      "gap_pct": 18.55,
       "catalyst": "Amentum (NYSE:AMTM) reported fiscal 2026 revenue of $13.8 billion and a 13% increase in adjusted earnings per share, as expanding margins and cash generation helped the company reduce debt and launch its first share…",
       "prev_close": 20.65,
       "premarket_volume": 80861,
@@ -57,33 +69,9 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-amentum-amtm-said-on-its-q4-earnings-call-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
-      "ticker": "COGT",
-      "price": 33.4,
-      "gap_pct": 18.8,
-      "catalyst": "Investing.com -- Cogent Biosciences Inc (NASDAQ:COGT) shares jumped 14% Tuesday following the FDA approval of EKITNA (bezuclastinib) for the treatment of advanced gastrointestinal stromal tumors in adult patients who…",
-      "prev_close": 28.11,
-      "premarket_volume": 88641,
-      "session": "regular",
-      "catalyst_source": "Investing.com",
-      "catalyst_headline": "Cogent Biosciences stock surges on FDA approval of EKITNA",
-      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-stock-surges-fda-152543515.html"
-    },
-    {
-      "ticker": "KSS",
-      "price": 24.76,
-      "gap_pct": 16.79,
-      "catalyst": "Kohl's astounded investors who were expecting no profit this morning -- by earning $2.15 per share instead.",
-      "prev_close": 21.2,
-      "premarket_volume": 258620,
-      "session": "regular",
-      "catalyst_source": "Motley Fool",
-      "catalyst_headline": "Kohl's Stock Rocks on Tuesday. Here's Why.",
-      "catalyst_url": "https://www.fool.com/investing/2026/11/24/kohl-s-stock-rocks-on-tuesday-here-s-why/"
-    },
-    {
       "ticker": "CUE",
-      "price": 6.7,
-      "gap_pct": 16.52,
+      "price": 6.8,
+      "gap_pct": 18.28,
       "catalyst": "The average analyst fair value estimate for Cue Biopharma has shifted from US$88 to about US$68.67, which represents a little more than a 20% cut to the implied price target.",
       "prev_close": 5.75,
       "premarket_volume": 118473,
@@ -93,9 +81,21 @@
       "catalyst_url": "https://finance.yahoo.com/healthcare/articles/cue-biopharma-cue-stock-fair-090742078.html"
     },
     {
+      "ticker": "KSS",
+      "price": 24.91,
+      "gap_pct": 17.48,
+      "catalyst": "Turnaround efforts, financial discipline and tax and tariff benefits contributed to the bottom line.",
+      "prev_close": 21.2,
+      "premarket_volume": 258620,
+      "session": "regular",
+      "catalyst_source": "WWD",
+      "catalyst_headline": "Kohl’s Returns to Growth in Q3, Raises Outlook",
+      "catalyst_url": "https://wwd.com/business-news/retail/kohls-returns-to-growth-q3-raises-outlook-1239463675/"
+    },
+    {
       "ticker": "DKS",
-      "price": 154.3,
-      "gap_pct": 15.43,
+      "price": 154.04,
+      "gap_pct": 15.24,
       "catalyst": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day.",
       "prev_close": 133.67,
       "premarket_volume": 415840,
@@ -106,8 +106,8 @@
     },
     {
       "ticker": "INSM",
-      "price": 170.24,
-      "gap_pct": 14.19,
+      "price": 170.26,
+      "gap_pct": 14.2,
       "catalyst": "Barron's reporter Jacob Sonenshine sits down with \"The 8:30\" hosts Julie Hyman and Jake Conley to discuss Sanofi's (SNY) roughly $4 billion-plus deal for respiratory-focused drug developer Insmed.",
       "prev_close": 149.09,
       "premarket_volume": 19357379,
@@ -118,8 +118,8 @@
     },
     {
       "ticker": "DLTR",
-      "price": 155.1,
-      "gap_pct": 11.5,
+      "price": 155.17,
+      "gap_pct": 11.56,
       "catalyst": "Dollar Tree's Q3 earnings beat estimates as retailer raises full-year profit outlook.",
       "prev_close": 139.1,
       "premarket_volume": 232480,
@@ -129,33 +129,9 @@
       "catalyst_url": "https://finance.yahoo.com/markets/stocks/article/dollar-tree-stock-pops-as-thrifty-shoppers-power-a-6th-straight-earnings-beat-150530467.html"
     },
     {
-      "ticker": "KYMR",
-      "price": 165.04,
-      "gap_pct": 9.76,
-      "catalyst": "Kymera’s experimental eczema pill could challenge Dupixent, but larger trials and safety questions remain.",
-      "prev_close": 150.37,
-      "premarket_volume": 136401,
-      "session": "regular",
-      "catalyst_source": "TheStreet",
-      "catalyst_headline": "Kymera stock soars as eczema pill takes aim at Dupixent",
-      "catalyst_url": "https://www.thestreet.com/investing/stocks/kymera-stock-soars-as-eczema-pill-kt-621-competes-with-dupixent"
-    },
-    {
-      "ticker": "IVA",
-      "price": 3.49,
-      "gap_pct": 8.39,
-      "catalyst": "Is IVA a good stock to buy?",
-      "prev_close": 3.22,
-      "premarket_volume": 106530,
-      "session": "regular",
-      "catalyst_source": "Insider Monkey",
-      "catalyst_headline": "Inventiva (IVA) vs. CRSP and MDGL: Can Lanifibranor’s Phase 3 Trial Unlock 62% Upside?",
-      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/inventiva-iva-vs-crsp-mdgl-131323643.html"
-    },
-    {
       "ticker": "BURL",
-      "price": 254.57,
-      "gap_pct": 8.25,
+      "price": 258.7,
+      "gap_pct": 10.01,
       "catalyst": "Burlington Stores (NYSE:BURL) reported 8% sales growth for its fiscal 2026 third quarter, but Chief Executive Officer Michael O’Sullivan said the company was disappointed by a 1% increase in comparable-store sales as…",
       "prev_close": 235.16,
       "premarket_volume": 311420,
@@ -165,9 +141,45 @@
       "catalyst_url": "https://www.marketbeat.com/instant-alerts/transcript-what-burlington-stores-burl-said-on-its-q3-earnings-call-2026-11-24/?utm_source=yahoofinance&utm_medium=yahoofinance"
     },
     {
+      "ticker": "KYMR",
+      "price": 164.29,
+      "gap_pct": 9.26,
+      "catalyst": "Kymera Therapeutics' (KYMR) \"solid win\" in the results of its phase 2b trial of KT-621 in patients w.",
+      "prev_close": 150.37,
+      "premarket_volume": 136401,
+      "session": "regular",
+      "catalyst_source": "MT Newswires",
+      "catalyst_headline": "Kymera Therapeutics Posts 'Solid Win' in Phase 2b Results, But Upside Likely Priced In, RBC Says",
+      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-posts-apos-solid-164542597.html"
+    },
+    {
+      "ticker": "IVA",
+      "price": 3.51,
+      "gap_pct": 8.85,
+      "catalyst": "Is IVA a good stock to buy?",
+      "prev_close": 3.22,
+      "premarket_volume": 106530,
+      "session": "regular",
+      "catalyst_source": "Insider Monkey",
+      "catalyst_headline": "Inventiva (IVA) vs. CRSP and MDGL: Can Lanifibranor’s Phase 3 Trial Unlock 62% Upside?",
+      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/inventiva-iva-vs-crsp-mdgl-131323643.html"
+    },
+    {
+      "ticker": "MRNA",
+      "price": 226.99,
+      "gap_pct": 7.03,
+      "catalyst": "On Tuesday, Nov.",
+      "prev_close": 212.08,
+      "premarket_volume": 119907,
+      "session": "regular",
+      "catalyst_source": "GuruFocus.com",
+      "catalyst_headline": "Jasper Therapeutics (JSPR) Stock Is Up 19.8% Today Without Company News",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/jasper-therapeutics-jspr-stock-19-163033977.html"
+    },
+    {
       "ticker": "CPNG",
-      "price": 15.83,
-      "gap_pct": 7.39,
+      "price": 15.74,
+      "gap_pct": 6.82,
       "catalyst": "Coupang's valuation is higher than DICK'S, but the answer depends on how much growth you're willing to pay for.",
       "prev_close": 14.74,
       "premarket_volume": 74432,
@@ -177,28 +189,28 @@
       "catalyst_url": "https://www.fool.com/coverage/better-buy/2026/11/22/coupang-vs-dick-s-sporting-goods-which-retail-stock-is-a-better-buy-for-2027/"
     },
     {
-      "ticker": "MRNA",
-      "price": 224.21,
-      "gap_pct": 5.72,
-      "catalyst": "On Tuesday, Nov.",
-      "prev_close": 212.08,
-      "premarket_volume": 119907,
+      "ticker": "IOVA",
+      "price": 7.19,
+      "gap_pct": 5.58,
+      "catalyst": "New drug approvals and encouraging pipeline progress should maintain momentum in the Zacks Biomedical and Genetics industry despite the volatile macroeconomic environment.",
+      "prev_close": 6.81,
+      "premarket_volume": 71161,
       "session": "regular",
-      "catalyst_source": "GuruFocus.com",
-      "catalyst_headline": "Why Cytokinetics (CYTK) Stock Is Up 7.3% Today: Biotech Peers Rally",
-      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/why-cytokinetics-cytk-stock-7-160107220.html"
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "5 Biotech Stocks Investors Can Consider Adding to Their Portfolio",
+      "catalyst_url": "https://finance.yahoo.com/healthcare/articles/5-biotech-stocks-investors-consider-125300629.html"
     },
     {
-      "ticker": "NKE",
-      "price": 35.51,
-      "gap_pct": 5.17,
-      "catalyst": "Stock Market Today: The Dow Jones index gains but the Nasdaq sells off Tuesday.",
-      "prev_close": 33.76,
-      "premarket_volume": 727387,
+      "ticker": "FLO",
+      "price": 5.21,
+      "gap_pct": 5.47,
+      "catalyst": "Flowers Foods, Inc. will release its third-quarter earnings report after the closing bell on Thursday, Nov.",
+      "prev_close": 4.94,
+      "premarket_volume": 229095,
       "session": "regular",
-      "catalyst_source": "Investor's Business Daily",
-      "catalyst_headline": "Stock Market Today: Dow Up But Nasdaq Skids As Nvidia Dives; Bears Bite Chips (Live Coverage)",
-      "catalyst_url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amd-anthropic-nvidia/?src=A00220&yptr=yahoo"
+      "catalyst_source": "Benzinga",
+      "catalyst_headline": "How to Earn $500 a Month From Flowers Foods Stock Ahead of Q3 Earnings",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-flowers-foods-003006780.html"
     }
   ]
 }
