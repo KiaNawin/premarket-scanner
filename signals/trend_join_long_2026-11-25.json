@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-25",
-  "generated_at_et": "2026-11-25 08:35:00 EST",
+  "generated_at_et": "2026-11-25 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-25.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,24 +10,10 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 5,
+  "candidates": 3,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
-    {
-      "ticker": "BZ",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.8807,
-      "yesterday_high": 13.06,
-      "yesterday_close": 12.74,
-      "sma200": 14.9546,
-      "premarket_high": 13.4,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 4.4,
-      "catalyst": "Kanzhun (BZ) delivered earnings and revenue surprises of +9.38% and -0.63%, respectively, for the quarter ended September 2026.",
-      "market_cap": 5573822464
-    },
     {
       "ticker": "HPQ",
       "status": "WAITING",
@@ -36,9 +22,9 @@
       "yesterday_high": 28.88,
       "yesterday_close": 27.94,
       "sma200": 25.3043,
-      "premarket_high": 29.0,
+      "premarket_high": 29.78,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 3.65,
+      "gap_pct": 6.12,
       "catalyst": "Micron Technology makes the memory chips inside PCs, phones and servers.",
       "market_cap": 25196040192
     },
@@ -52,7 +38,7 @@
       "sma200": 14.3654,
       "premarket_high": 11.55,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.73,
+      "gap_pct": 5.89,
       "catalyst": "Li reported a 5.4% jump in Q3 revenue to RMB28.83 billion, beating Wall Street’s estimates of RMB27.45 billion, according to Fiscal.ai.",
       "market_cap": 10456837120
     },
@@ -66,24 +52,10 @@
       "sma200": 44.3664,
       "premarket_high": 54.01,
       "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 3.18,
+      "gap_pct": 3.45,
       "catalyst": "Investing.com -- Bank of America and Barclays have both upgraded Sanofi after it agreed to buy Insmed for about $41 billion, saying the deal helps offset the looming loss of patent protection for its blockbuster drug…",
       "market_cap": 124622938112
-    },
-    {
-      "ticker": "STLA",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.1721,
-      "yesterday_high": 3.48,
-      "yesterday_close": 3.44,
-      "sma200": 6.1013,
-      "premarket_high": 3.63,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 3.49,
-      "catalyst": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
-      "market_cap": 9991812096
     }
   ],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
