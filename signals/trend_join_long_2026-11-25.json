@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-25",
-  "generated_at_et": "2026-11-25 11:35:00 EST",
+  "generated_at_et": "2026-11-25 12:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-25.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,15 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 8,
-  "valid_count": 2,
+  "candidates": 12,
+  "valid_count": 4,
   "valid_entries": [
     {
       "ticker": "KSS",
       "signal_time_et": "2026-11-25 10:00",
       "entry_price": 26.64,
-      "last_price": 26.36,
-      "gap_pct": 4.32,
+      "last_price": 26.99,
+      "gap_pct": 5.13,
       "yesterday_high": 25.44,
       "yesterday_close": 25.33,
       "sma200": 17.4739,
@@ -30,14 +30,40 @@
       "ticker": "INFY",
       "signal_time_et": "2026-11-25 10:01",
       "entry_price": 12.82,
-      "last_price": 12.985,
-      "gap_pct": 3.96,
+      "last_price": 13.035,
+      "gap_pct": 4.24,
       "yesterday_high": 12.64,
       "yesterday_close": 12.49,
       "sma200": 12.3517,
       "premarket_high": 12.47,
       "hod_before_signal": 12.805,
       "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda."
+    },
+    {
+      "ticker": "HDB",
+      "signal_time_et": "2026-11-25 10:13",
+      "entry_price": 28.21,
+      "last_price": 28.52,
+      "gap_pct": 3.27,
+      "yesterday_high": 27.76,
+      "yesterday_close": 27.56,
+      "sma200": 25.1939,
+      "premarket_high": 28.0,
+      "hod_before_signal": 28.19,
+      "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda."
+    },
+    {
+      "ticker": "RKT",
+      "signal_time_et": "2026-11-25 10:55",
+      "entry_price": 14.59,
+      "last_price": 14.84,
+      "gap_pct": 3.56,
+      "yesterday_high": 14.38,
+      "yesterday_close": 14.25,
+      "sma200": 14.116,
+      "premarket_high": 14.4,
+      "hod_before_signal": 14.58,
+      "catalyst": "Diamond Hill Capital, a First Eagle Investment Management company, issued its Q3 2026 investor letter for its “Large Mid Strategy”."
     }
   ],
   "evaluated": [
@@ -50,8 +76,8 @@
       "yesterday_close": 25.33,
       "sma200": 17.4739,
       "premarket_high": 25.34,
-      "last_price": 26.36,
-      "last_bar_et": "11:34",
+      "last_price": 26.99,
+      "last_bar_et": "12:04",
       "high_of_day": 27.28,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -63,9 +89,9 @@
       "entry_price": 26.64,
       "hod_before_signal": 26.6,
       "low_5m": 26.08,
-      "gap_pct": 4.32,
+      "gap_pct": 5.13,
       "catalyst": "Macy's, Kohl's and Toys R Us all enter Black Friday with something to prove, as bankruptcies and off-price growth reshape the field.",
-      "market_cap": 2995405824
+      "market_cap": 3019214592
     },
     {
       "ticker": "INFY",
@@ -76,9 +102,9 @@
       "yesterday_close": 12.49,
       "sma200": 12.3517,
       "premarket_high": 12.47,
-      "last_price": 12.985,
-      "last_bar_et": "11:34",
-      "high_of_day": 12.99,
+      "last_price": 13.035,
+      "last_bar_et": "12:04",
+      "high_of_day": 13.055,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -89,9 +115,84 @@
       "entry_price": 12.82,
       "hod_before_signal": 12.805,
       "low_5m": 12.76,
-      "gap_pct": 3.96,
+      "gap_pct": 4.24,
       "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda.",
-      "market_cap": 52553637888
+      "market_cap": 52756152320
+    },
+    {
+      "ticker": "HDB",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.6621,
+      "yesterday_high": 27.76,
+      "yesterday_close": 27.56,
+      "sma200": 25.1939,
+      "premarket_high": 28.0,
+      "last_price": 28.52,
+      "last_bar_et": "12:03",
+      "high_of_day": 28.53,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "signal_time_et": "2026-11-25 10:13",
+      "entry_price": 28.21,
+      "hod_before_signal": 28.19,
+      "low_5m": 28.1,
+      "gap_pct": 3.27,
+      "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda.",
+      "market_cap": 146414944256
+    },
+    {
+      "ticker": "RKT",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.6029,
+      "yesterday_high": 14.38,
+      "yesterday_close": 14.25,
+      "sma200": 14.116,
+      "premarket_high": 14.4,
+      "last_price": 14.84,
+      "last_bar_et": "12:04",
+      "high_of_day": 14.84,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "signal_time_et": "2026-11-25 10:55",
+      "entry_price": 14.59,
+      "hod_before_signal": 14.58,
+      "low_5m": 14.48,
+      "gap_pct": 3.56,
+      "catalyst": "Diamond Hill Capital, a First Eagle Investment Management company, issued its Q3 2026 investor letter for its “Large Mid Strategy”.",
+      "market_cap": 41844781056
+    },
+    {
+      "ticker": "AMC",
+      "status": "NO_SIGNAL",
+      "signal": false,
+      "atr14": 0.265,
+      "yesterday_high": 3.1,
+      "yesterday_close": 2.95,
+      "sma200": 2.118,
+      "premarket_high": 2.95,
+      "last_price": 3.055,
+      "last_bar_et": "12:04",
+      "high_of_day": 3.06,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
+      "gap_pct": 3.03,
+      "catalyst": "AMC Entertainment Holdings (AMC) has started generating positive free cash flow about two years earlier than expected, helped by stronger than anticipated box office takings from releases like Hunger Games, which have…",
+      "market_cap": 2709054976
     },
     {
       "ticker": "BZ",
@@ -102,9 +203,9 @@
       "yesterday_close": 12.74,
       "sma200": 14.9546,
       "premarket_high": 13.6,
-      "last_price": 13.95,
-      "last_bar_et": "11:34",
-      "high_of_day": 14.105,
+      "last_price": 14.135,
+      "last_bar_et": "12:04",
+      "high_of_day": 14.18,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -112,32 +213,55 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.73,
+      "gap_pct": 11.11,
       "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
-      "market_cap": 6114142208
+      "market_cap": 6197267968
     },
     {
-      "ticker": "DE",
+      "ticker": "CSGP",
       "status": "FAIL",
       "signal": false,
-      "atr14": 21.6179,
-      "yesterday_high": 638.54,
-      "yesterday_close": 613.76,
-      "sma200": 615.2952,
-      "premarket_high": 615.0,
-      "last_price": 631.83,
-      "last_bar_et": "11:34",
-      "high_of_day": 638.4925,
+      "atr14": 1.3614,
+      "yesterday_high": 32.94,
+      "yesterday_close": 32.64,
+      "sma200": 34.154,
+      "premarket_high": 33.07,
+      "last_price": 34.05,
+      "last_bar_et": "12:04",
+      "high_of_day": 34.12,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.17,
-      "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
-      "market_cap": 170420781056
+      "gap_pct": 4.11,
+      "catalyst": "Staybridge Suites Naples - Marco Island by IHG has changed hands, reflecting the strength of the Naples and Marco Island market, per the CEO of Kabani Hotel Group, which brokered the transaction.",
+      "market_cap": 13671422976
+    },
+    {
+      "ticker": "GGB",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.18,
+      "yesterday_high": 4.35,
+      "yesterday_close": 4.27,
+      "sma200": 4.4763,
+      "premarket_high": 4.32,
+      "last_price": 4.4312,
+      "last_bar_et": "12:04",
+      "high_of_day": 4.44,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.63,
+      "catalyst": "Gerdau is back in focus after recent research lifted bullish price targets into a range of US$5.80 to US$6.50, while more cautious views held closer to R$28.",
+      "market_cap": 8669566976
     },
     {
       "ticker": "HPQ",
@@ -148,8 +272,8 @@
       "yesterday_close": 27.94,
       "sma200": 25.3043,
       "premarket_high": 29.87,
-      "last_price": 31.035,
-      "last_bar_et": "11:34",
+      "last_price": 31.01,
+      "last_bar_et": "12:04",
       "high_of_day": 32.05,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -158,9 +282,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 11.08,
+      "gap_pct": 10.79,
       "catalyst": "New CEO Emma Walmsley arrives in January as AI PC shipments surge.",
-      "market_cap": 28054718464
+      "market_cap": 27969046528
     },
     {
       "ticker": "LI",
@@ -171,8 +295,8 @@
       "yesterday_close": 10.7,
       "sma200": 14.3654,
       "premarket_high": 11.5691,
-      "last_price": 11.265,
-      "last_bar_et": "11:34",
+      "last_price": 11.365,
+      "last_bar_et": "12:04",
       "high_of_day": 11.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -181,9 +305,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.65,
-      "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
-      "market_cap": 11057860608
+      "gap_pct": 6.12,
+      "catalyst": "Net loss narrowed and free cash flow turned positive as its lineup changed over.",
+      "market_cap": 11096951808
     },
     {
       "ticker": "SNY",
@@ -194,8 +318,8 @@
       "yesterday_close": 51.9,
       "sma200": 44.3664,
       "premarket_high": 54.01,
-      "last_price": 53.72,
-      "last_bar_et": "11:34",
+      "last_price": 53.99,
+      "last_bar_et": "12:04",
       "high_of_day": 54.0399,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -204,9 +328,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 3.43,
+      "gap_pct": 3.88,
       "catalyst": "European equities traded in the US as American depositary receipts were sharply lower late Wednesday.",
-      "market_cap": 128801046528
+      "market_cap": 129473380352
     },
     {
       "ticker": "STLA",
@@ -217,8 +341,8 @@
       "yesterday_close": 3.44,
       "sma200": 6.1013,
       "premarket_high": 3.63,
-      "last_price": 3.5599,
-      "last_bar_et": "11:34",
+      "last_price": 3.597,
+      "last_bar_et": "12:04",
       "high_of_day": 3.63,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -227,10 +351,10 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.37,
+      "gap_pct": 4.22,
       "catalyst": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
-      "market_cap": 10355176448
+      "market_cap": 10427210752
     }
   ],
-  "scan_time_et": "11:35"
+  "scan_time_et": "12:05"
 }

@@ -1,32 +1,32 @@
 {
-  "ticker": "HPQ",
-  "saved_at_et": "2026-11-25T11:33:09-05:00",
+  "ticker": "BZ",
+  "saved_at_et": "2026-11-25T12:03:27-05:00",
   "response": [
     {
-      "id": "2e4a007d-7690-3431-86e1-5c1f3d7019b5",
+      "id": "dcfd7d97-275e-3f01-b707-fa58b0a0da75",
       "content": {
-        "id": "2e4a007d-7690-3431-86e1-5c1f3d7019b5",
+        "id": "dcfd7d97-275e-3f01-b707-fa58b0a0da75",
         "contentType": "STORY",
-        "title": "HP (HPQ) Q4 2026 Earnings Call Transcript",
+        "title": "Stock Market Today: Huangover Is Causing Headache for Tech Stocks",
         "description": null,
-        "summary": "New CEO Emma Walmsley arrives in January as AI PC shipments surge.",
-        "pubDate": "2026-11-25T15:43:28Z",
-        "displayTime": "2026-11-25T15:43:28Z",
+        "summary": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs. Something other than earnings is spooking traders, and your index fund may be more exposed than you think.",
+        "pubDate": "2026-11-25T15:56:42Z",
+        "displayTime": "2026-11-25T15:56:42Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
-          "originalWidth": 1280,
-          "originalHeight": 1366,
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/18cf0c6715556c4977219ed511e047d5.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
-              "width": 1280,
-              "height": 1366,
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/18cf0c6715556c4977219ed511e047d5.jpg",
+              "width": 1366,
+              "height": 768,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "url": "https://s.yimg.com/lo/mysterio/api/385633ce29e2c2af473df50fe2940090d4a88ec629b1a083bb16d3d8296a09e5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F18cf0c6715556c4977219ed511e047d5.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -34,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "Motley Fool",
-          "url": "http://www.fool.com/"
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/25/hp-hpq-q4-2026-earnings-call-transcript/"
+          "url": "https://247wallst.com/investing/2026/11/25/stock-market-today-huangover-is-causing-headache-for-tech-stocks/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-q4-2026-earnings-154328309.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-huangover-causing-155642565.html"
         },
         "finance": {
           "premiumFinance": {
@@ -49,22 +49,99 @@
           },
           "stockTickers": [
             {
-              "symbol": "HPQ"
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "GDS"
+            },
+            {
+              "symbol": "^DJI"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "LI"
+            },
+            {
+              "symbol": "BZ"
+            },
+            {
+              "symbol": "DE"
+            },
+            {
+              "symbol": "GDS"
+            },
+            {
+              "symbol": "LI"
             }
           ]
         }
       }
     },
     {
-      "id": "82f9d310-9bb6-337f-b169-75c514176fbf",
+      "id": "90982223-99e9-3944-986a-5c8873962df6",
       "content": {
-        "id": "82f9d310-9bb6-337f-b169-75c514176fbf",
+        "id": "90982223-99e9-3944-986a-5c8873962df6",
         "contentType": "STORY",
-        "title": "HP (HPQ) Stock Is Up 10.4% Today: Barclays Raises Price Target to $24",
+        "title": "KANZHUN Q3 Earnings Call Highlights",
         "description": null,
-        "summary": "On Wednesday, Nov. 25, the shares rose 10.4% after Barclays raised its price target to $24.00, as the S&P 500 fell 2.8%.",
-        "pubDate": "2026-11-25T15:00:45Z",
-        "displayTime": "2026-11-25T15:00:45Z",
+        "summary": "KANZHUN (NASDAQ:BZ) reported an 11.7% increase in third-quarter revenue, but forecast slower growth for the fourth quarter as recruitment demand weakened. The operator of the BOSS Zhipin recruitment platform also announced a new $500 million share repurchase program. Revenue rose to CNY 2.42 billio",
+        "pubDate": "2026-11-25T15:14:36Z",
+        "displayTime": "2026-11-25T15:14:36Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/marketbeat_955/70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/marketbeat_955/70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/0370744717498a676fc6da761166bf049785a718bafa3d082bf3e8d0bd9d8054/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "MarketBeat",
+          "url": "https://www.marketbeat.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-kanzhun-q3-earnings-call-highlights-2026-11-25/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-q3-earnings-call-highlights-151436438.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "BZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "92d70c7f-9b31-367a-82ec-edfa9d2a42d0",
+      "content": {
+        "id": "92d70c7f-9b31-367a-82ec-edfa9d2a42d0",
+        "contentType": "STORY",
+        "title": "Kanzhun Ltd (BZ) (Q3 2026) Earnings Call Highlights: Record Margins, $500 Million Buyback, and ...",
+        "description": null,
+        "summary": "Kanzhun Ltd (BZ) posted 11.7% revenue growth and a record 44.5% adjusted operating margin in Q3 2026, but guided to a sharp deceleration in Q4 as recruitment demand softens.",
+        "pubDate": "2026-11-25T14:20:39Z",
+        "displayTime": "2026-11-25T14:20:39Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": null,
@@ -73,10 +150,10 @@
           "url": "http://www.gurufocus.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-stock-10-4-150045887.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-ltd-bz-q3-2026-142039576.html"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-stock-10-4-150045887.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-ltd-bz-q3-2026-142039576.html"
         },
         "finance": {
           "premiumFinance": {
@@ -84,103 +161,7 @@
           },
           "stockTickers": [
             {
-              "symbol": "HPQ"
-            },
-            {
-              "symbol": "^GSPC"
-            },
-            {
-              "symbol": "DELL"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "18e72c51-c6d7-33b1-aa90-ccce17a9b32f",
-      "content": {
-        "id": "18e72c51-c6d7-33b1-aa90-ccce17a9b32f",
-        "contentType": "STORY",
-        "title": "Anthropic, Nvidia, Micron, Dell, HP, Deere, and More Stocks That Explain Today’s Market",
-        "description": null,
-        "summary": "Anthropic, Nvidia, and other AI stocks take a hammering as the tech selloff gathers pace ahead of the Thanksgiving break.",
-        "pubDate": "2026-11-25T14:57:00Z",
-        "displayTime": "2026-11-25T14:57:00Z",
-        "isHosted": false,
-        "previewUrl": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic-nvidia-micron-.html",
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/Barrons.com/7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
-          "originalWidth": 1440,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/Barrons.com/7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
-              "width": 1440,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/f66192663272cce65355a1847e904dad7b10b8353d4d554620c95015b584e65e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Barrons.com",
-          "url": "http://www.barrons.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.barrons.com/articles/stock-movers-07929503?siteid=yhoof2&yptr=yahoo"
-        },
-        "clickThroughUrl": null,
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ANT"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "MU"
-            },
-            {
-              "symbol": "HPQ"
-            },
-            {
-              "symbol": "DELL"
-            },
-            {
-              "symbol": "DE"
-            },
-            {
-              "symbol": "SKHY"
-            },
-            {
-              "symbol": "WDC"
-            },
-            {
-              "symbol": "SNDK"
-            },
-            {
-              "symbol": "^GSPC"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "MRVL"
-            },
-            {
-              "symbol": "SPCX"
-            },
-            {
-              "symbol": "TSLA"
+              "symbol": "BZ"
             }
           ]
         }
