@@ -1,0 +1,91 @@
+{
+  "scan_date": "2026-11-25",
+  "generated_at_et": "2026-11-25 08:31:52 EST",
+  "scan_time_et": "08:31",
+  "criteria": {
+    "min_gap_pct": 3.0,
+    "min_price": 3.0,
+    "min_premarket_volume": 50000,
+    "min_market_cap": 2000000000.0
+  },
+  "funnel": {
+    "universe": 7065,
+    "prefilter": 448,
+    "with_data": 431,
+    "gap": 40,
+    "gap_price": 38,
+    "mcap": 10,
+    "passed": 5,
+    "volume_source": "nasdaq",
+    "mode": "fast"
+  },
+  "symbols_scanned": 7065,
+  "count": 5,
+  "results": [
+    {
+      "ticker": "LI",
+      "price": 11.42,
+      "gap_pct": 6.73,
+      "catalyst": "Li reported a 5.4% jump in Q3 revenue to RMB28.83 billion, beating Wall Street’s estimates of RMB27.45 billion, according to Fiscal.ai.",
+      "prev_close": 10.7,
+      "premarket_volume": 542335,
+      "market_cap": 10456837120,
+      "session": "pre-market",
+      "catalyst_source": "Stocktwits",
+      "catalyst_headline": "Li Auto CEO Says MACH M100 Chip, Lianshan Battery Are Reinforcing Competitive Moat – EV Maker Sees Up To 15% Revenue Growth In Q4",
+      "catalyst_url": "https://stocktwits.com/news-articles/markets/equity/li-auto-ceo-mach-m100-chip-lianshan-battery-ev-maker-revenue-growth-in-q4/cNbHiGMR9mO"
+    },
+    {
+      "ticker": "BZ",
+      "price": 13.3,
+      "gap_pct": 4.4,
+      "catalyst": "Kanzhun (BZ) delivered earnings and revenue surprises of +9.38% and -0.63%, respectively, for the quarter ended September 2026.",
+      "prev_close": 12.74,
+      "premarket_volume": 51550,
+      "market_cap": 5573822464,
+      "session": "pre-market",
+      "catalyst_source": "Zacks",
+      "catalyst_headline": "KANZHUN LIMITED Sponsored ADR (BZ) Beats Q3 Earnings Estimates",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-limited-sponsored-adr-bz-112502949.html"
+    },
+    {
+      "ticker": "HPQ",
+      "price": 28.96,
+      "gap_pct": 3.65,
+      "catalyst": "Micron Technology makes the memory chips inside PCs, phones and servers.",
+      "prev_close": 27.94,
+      "premarket_volume": 173051,
+      "market_cap": 25196040192,
+      "session": "pre-market",
+      "catalyst_source": "Trefis",
+      "catalyst_headline": "Is Micron's Record Margin Squeezing Apple And HP?",
+      "catalyst_url": "https://www.trefis.com/stock/mu/articles/628762/is-micron-s-record-margin-squeezing-apple-and-hp/2026-11-25"
+    },
+    {
+      "ticker": "STLA",
+      "price": 3.56,
+      "gap_pct": 3.49,
+      "catalyst": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
+      "prev_close": 3.44,
+      "premarket_volume": 1724957,
+      "market_cap": 9991812096,
+      "session": "pre-market",
+      "catalyst_source": "Trefis",
+      "catalyst_headline": "Has Carvana Become A Different Bet For Holders?",
+      "catalyst_url": "https://www.trefis.com/stock/cvna/articles/628921/has-carvana-become-a-different-bet-for-holders/2026-11-25"
+    },
+    {
+      "ticker": "SNY",
+      "price": 53.55,
+      "gap_pct": 3.18,
+      "catalyst": "Investing.com -- Bank of America and Barclays have both upgraded Sanofi after it agreed to buy Insmed for about $41 billion, saying the deal helps offset the looming loss of patent protection for its blockbuster drug…",
+      "prev_close": 51.9,
+      "premarket_volume": 506916,
+      "market_cap": 124622938112,
+      "session": "pre-market",
+      "catalyst_source": "Investing.com",
+      "catalyst_headline": "Sanofi upgraded by BofA and Barclays after $41 billion Insmed deal",
+      "catalyst_url": "https://finance.yahoo.com/markets/stocks/articles/sanofi-upgraded-bofa-barclays-41-123912672.html"
+    }
+  ]
+}
