@@ -1,7 +1,66 @@
 {
   "ticker": "HPQ",
-  "saved_at_et": "2026-11-25T09:31:29-05:00",
+  "saved_at_et": "2026-11-25T10:01:36-05:00",
   "response": [
+    {
+      "id": "277dc5c6-cd93-3ce3-9dc4-005138a4aa69",
+      "content": {
+        "id": "277dc5c6-cd93-3ce3-9dc4-005138a4aa69",
+        "contentType": "STORY",
+        "title": "Invest in the Laptops, Mainframes and Network Switches for Passive Income: $90,000 Across These 3 Tech Hardware Stocks Pays More Than $2,600 a Year",
+        "description": null,
+        "summary": "One stock in this trio yields more than double another, yet the highest payer faces a shrinking PC market and a CEO handoff. Which office hardware name earns your $30,000 the most, and which one is the riskiest?",
+        "pubDate": "2026-11-25T14:46:07Z",
+        "displayTime": "2026-11-25T14:46:07Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/c700d258a58ef99f841e06e98e9f831a",
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/c700d258a58ef99f841e06e98e9f831a",
+              "width": 1920,
+              "height": 1080,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/53501c36cd7d60e211221c7317938832429a638d956c69b906ea5cd1c2114ec2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fc700d258a58ef99f841e06e98e9f831a",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/11/25/invest-in-the-laptops-mainframes-and-network-switches-for-passive-income-90000-across-these-3-tech-hardware-stocks-pays-more-than-2600-a-year/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-laptops-mainframes-network-switches-144607217.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "IBM"
+            },
+            {
+              "symbol": "CSCO"
+            },
+            {
+              "symbol": "HPQ"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "b85d398c-3d6b-3afc-b620-b817cfb3d392",
       "content": {
@@ -118,57 +177,6 @@
             },
             {
               "symbol": "^GSPC"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "4b401220-b5bf-304c-baa7-2adfa263c3c5",
-      "content": {
-        "id": "4b401220-b5bf-304c-baa7-2adfa263c3c5",
-        "contentType": "STORY",
-        "title": "HP Stock Up Slightly as PC Maker Overcomes Down Market With Solid Earnings",
-        "description": null,
-        "summary": "HP stock has held up in 2026, but the company is feeling the pain of a weak market for personal computers.",
-        "pubDate": "2026-11-25T10:58:00Z",
-        "displayTime": "2026-11-25T10:58:00Z",
-        "isHosted": false,
-        "previewUrl": "https://finance.yahoo.com/m/4b401220-b5bf-304c-baa7-2adfa263c3c5/hp-stock-up-slightly-as-pc.html",
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/Barrons.com/20dd290c5c34dff8ee1780bbd7c58f32.jpg_up.jpg",
-          "originalWidth": 1440,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/Barrons.com/20dd290c5c34dff8ee1780bbd7c58f32.jpg_up.jpg",
-              "width": 1440,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/831ac5eed62359f15149d4d44c7f6f318bc9ab0c9598da2ab31e5eaa937fdaa3/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F20dd290c5c34dff8ee1780bbd7c58f32.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Barrons.com",
-          "url": "http://www.barrons.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.barrons.com/articles/hp-stock-earnings-low-pc-sales-1fce528b?siteid=yhoof2&yptr=yahoo"
-        },
-        "clickThroughUrl": null,
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "HPQ"
             }
           ]
         }

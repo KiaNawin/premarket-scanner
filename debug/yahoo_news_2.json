@@ -1,7 +1,42 @@
 {
   "ticker": "BZ",
-  "saved_at_et": "2026-11-25T09:31:29-05:00",
+  "saved_at_et": "2026-11-25T10:01:36-05:00",
   "response": [
+    {
+      "id": "92d70c7f-9b31-367a-82ec-edfa9d2a42d0",
+      "content": {
+        "id": "92d70c7f-9b31-367a-82ec-edfa9d2a42d0",
+        "contentType": "STORY",
+        "title": "Kanzhun Ltd (BZ) (Q3 2026) Earnings Call Highlights: Record Margins, $500 Million Buyback, and ...",
+        "description": null,
+        "summary": "Kanzhun Ltd (BZ) posted 11.7% revenue growth and a record 44.5% adjusted operating margin in Q3 2026, but guided to a sharp deceleration in Q4 as recruitment demand softens.",
+        "pubDate": "2026-11-25T14:20:39Z",
+        "displayTime": "2026-11-25T14:20:39Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "GuruFocus.com",
+          "url": "http://www.gurufocus.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-ltd-bz-q3-2026-142039576.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-ltd-bz-q3-2026-142039576.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "BZ"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "824b2430-9bee-30ac-b961-0d0fdb397185",
       "content": {
@@ -106,62 +141,6 @@
           "stockTickers": [
             {
               "symbol": "SURG"
-            },
-            {
-              "symbol": "BZ"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "68fd3757-a8cd-36da-939d-62b70afbe556",
-      "content": {
-        "id": "68fd3757-a8cd-36da-939d-62b70afbe556",
-        "contentType": "STORY",
-        "title": "Analysts Estimate Rubrik, Inc. (RBRK) to Report a Decline in Earnings: What to Look Out for",
-        "description": null,
-        "summary": "Rubrik, Inc. (RBRK) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
-        "pubDate": "2026-11-23T14:00:01Z",
-        "displayTime": "2026-11-23T14:00:01Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 855,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f.jpg_up.jpg",
-              "width": 1280,
-              "height": 855,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/b38ef46ae3ecb14216a1510bf412d975b527bc35379ea00a2e28fbe23b5e8d75/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fbdc2850a48a0f40806db817a9e24f36f.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-rubrik-inc-rbrk-140001870.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-rubrik-inc-rbrk-140001870.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "RBRK"
             },
             {
               "symbol": "BZ"
