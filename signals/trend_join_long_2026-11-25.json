@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-25",
-  "generated_at_et": "2026-11-25 13:36:23 EST",
+  "generated_at_et": "2026-11-25 14:05:56 EST",
   "source_premarket_file": "premarket_scan_2026-11-25.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,28 +10,15 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 12,
-  "valid_count": 2,
+  "candidates": 13,
+  "valid_count": 1,
   "valid_entries": [
-    {
-      "ticker": "FA",
-      "signal_time_et": "2026-11-25 12:15",
-      "entry_price": 21.63,
-      "last_price": 21.79,
-      "gap_pct": 3.22,
-      "yesterday_high": 21.58,
-      "yesterday_close": 21.13,
-      "sma200": 17.041,
-      "premarket_high": 21.13,
-      "hod_before_signal": 21.59,
-      "catalyst": "We just published our list, 10 Best US Stocks to Buy Under $25, and First Advantage Corporation. ranked 10th on this list."
-    },
     {
       "ticker": "AMC",
       "signal_time_et": "2026-11-25 12:55",
       "entry_price": 3.105,
-      "last_price": 3.095,
-      "gap_pct": 4.91,
+      "last_price": 3.1101,
+      "gap_pct": 4.75,
       "yesterday_high": 3.1,
       "yesterday_close": 2.95,
       "sma200": 2.118,
@@ -42,32 +29,6 @@
   ],
   "evaluated": [
     {
-      "ticker": "FA",
-      "status": "VALID_ENTRY",
-      "signal": true,
-      "atr14": 1.0041,
-      "yesterday_high": 21.58,
-      "yesterday_close": 21.13,
-      "sma200": 17.041,
-      "premarket_high": 21.13,
-      "last_price": 21.79,
-      "last_bar_et": "13:35",
-      "high_of_day": 21.85,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "signal_time_et": "2026-11-25 12:15",
-      "entry_price": 21.63,
-      "hod_before_signal": 21.59,
-      "low_5m": 21.49,
-      "gap_pct": 3.22,
-      "catalyst": "We just published our list, 10 Best US Stocks to Buy Under $25, and First Advantage Corporation. ranked 10th on this list.",
-      "market_cap": 3751531520
-    },
-    {
       "ticker": "AMC",
       "status": "VALID_ENTRY",
       "signal": true,
@@ -76,11 +37,11 @@
       "yesterday_close": 2.95,
       "sma200": 2.118,
       "premarket_high": 2.95,
-      "last_price": 3.095,
-      "last_bar_et": "13:36",
+      "last_price": 3.1101,
+      "last_bar_et": "14:05",
       "high_of_day": 3.13,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
@@ -89,9 +50,9 @@
       "entry_price": 3.105,
       "hod_before_signal": 3.1,
       "low_5m": 3.09,
-      "gap_pct": 4.91,
+      "gap_pct": 4.75,
       "catalyst": "AMC Entertainment Holdings (AMC) has started generating positive free cash flow about two years earlier than expected, helped by stronger than anticipated box office takings from releases like Hunger Games, which have…",
-      "market_cap": 2767074304
+      "market_cap": 2766538752
     },
     {
       "ticker": "ACHR",
@@ -102,9 +63,9 @@
       "yesterday_close": 2.88,
       "sma200": 5.4744,
       "premarket_high": 2.8733,
-      "last_price": 3.09,
-      "last_bar_et": "13:35",
-      "high_of_day": 3.1,
+      "last_price": 3.085,
+      "last_bar_et": "14:05",
+      "high_of_day": 3.1199,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -112,9 +73,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.12,
+      "gap_pct": 6.59,
       "catalyst": "Joby and Archer are racing to launch electric air taxis in the UAE, and an early lead in Dubai could change how investors see both stocks.",
-      "market_cap": 2410275840
+      "market_cap": 2402450432
     },
     {
       "ticker": "ADI",
@@ -125,19 +86,52 @@
       "yesterday_close": 312.95,
       "sma200": 378.3577,
       "premarket_high": 309.58,
-      "last_price": 324.6,
-      "last_bar_et": "13:36",
-      "high_of_day": 326.2,
+      "last_price": 328.06,
+      "last_bar_et": "14:05",
+      "high_of_day": 328.06,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": false
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.6,
-      "catalyst": "A CEO reinstatement sent chip stocks soaring one day and a fresh selloff erased most of it the next.",
-      "market_cap": 156754001920
+      "gap_pct": 4.3,
+      "catalyst": "Record revenue, a clear earnings beat, and still a 17% one-day wipeout.",
+      "market_cap": 157429743616
+    },
+    {
+      "ticker": "AG",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.8686,
+      "yesterday_high": 11.26,
+      "yesterday_close": 10.76,
+      "sma200": 19.2024,
+      "premarket_high": 10.7,
+      "last_price": 11.255,
+      "last_bar_et": "14:05",
+      "high_of_day": 11.255,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.44,
+      "catalyst": "First Majestic Silver reported positive 2026 drilling results at the Jerritt Canyon Gold Mine in Nevada, with near-surface Saval intercepts such as 48.8 metres at 4.24 g/t Au and 36.6 metres at 5.87 g/t Au.",
+      "market_cap": 5477856768
+    },
+    {
+      "ticker": "ANT",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 4 trading days of history (< 200 needed for SMA200)",
+      "history_days": 4,
+      "gap_pct": 3.42,
+      "catalyst": "The 8:30 hosts Julie Hyman and Jake Conley, joined on the couch by BD8 Capital Partners CEO and CIO Barbara Doran, tackle the top stories of the day.",
+      "market_cap": 1131352686592
     },
     {
       "ticker": "ASTS",
@@ -148,9 +142,9 @@
       "yesterday_close": 23.6,
       "sma200": 70.853,
       "premarket_high": 23.18,
-      "last_price": 25.82,
-      "last_bar_et": "13:36",
-      "high_of_day": 26.09,
+      "last_price": 26.22,
+      "last_bar_et": "14:05",
+      "high_of_day": 26.34,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -158,9 +152,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.11,
-      "catalyst": "Needham initiated coverage of Firefly Aerospace with a ‘Buy’ rating and a $35 price target, citing growing capabilities across multiple space industry segments.",
-      "market_cap": 10338782208
+      "gap_pct": 10.42,
+      "catalyst": "Our list of beaten-down stocks insiders are still selling put AST SpaceMobile, Inc.",
+      "market_cap": 10420730880
     },
     {
       "ticker": "BTI",
@@ -171,9 +165,9 @@
       "yesterday_close": 58.24,
       "sma200": 59.1713,
       "premarket_high": 59.41,
-      "last_price": 60.44,
-      "last_bar_et": "13:36",
-      "high_of_day": 60.54,
+      "last_price": 60.445,
+      "last_bar_et": "14:05",
+      "high_of_day": 60.56,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -181,9 +175,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.86,
+      "gap_pct": 3.83,
       "catalyst": "European equities traded in the US as American depositary receipts were sharply lower late Wednesday.",
-      "market_cap": 129903976448
+      "market_cap": 129839579136
     },
     {
       "ticker": "BZ",
@@ -194,9 +188,9 @@
       "yesterday_close": 12.74,
       "sma200": 14.9546,
       "premarket_high": 13.6,
-      "last_price": 14.095,
-      "last_bar_et": "13:36",
-      "high_of_day": 14.21,
+      "last_price": 14.22,
+      "last_bar_et": "14:05",
+      "high_of_day": 14.25,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -204,9 +198,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 10.6,
+      "gap_pct": 11.22,
       "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
-      "market_cap": 6168830464
+      "market_cap": 6197267968
     },
     {
       "ticker": "CDE",
@@ -217,19 +211,19 @@
       "yesterday_close": 11.19,
       "sma200": 18.1153,
       "premarket_high": 11.06,
-      "last_price": 11.565,
-      "last_bar_et": "13:36",
-      "high_of_day": 11.6,
+      "last_price": 11.745,
+      "last_bar_et": "14:05",
+      "high_of_day": 11.745,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": false
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.12,
+      "gap_pct": 4.16,
       "catalyst": "On Nov.",
-      "market_cap": 11808095232
+      "market_cap": 11890665472
     },
     {
       "ticker": "CLF",
@@ -240,9 +234,9 @@
       "yesterday_close": 10.96,
       "sma200": 11.2108,
       "premarket_high": 10.8,
-      "last_price": 11.335,
-      "last_bar_et": "13:36",
-      "high_of_day": 11.355,
+      "last_price": 11.4,
+      "last_bar_et": "14:05",
+      "high_of_day": 11.41,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -250,7 +244,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.1,
+      "gap_pct": 3.38,
       "catalyst": "We just published a list of the 10 Stocks Stanley Druckenmiller Just Dumped—and What His Big Exit Signals Next and Cleveland-Cliffs (NYSE:CLF) ranked 8th on this list.",
       "market_cap": 6456168448
     },
@@ -263,8 +257,8 @@
       "yesterday_close": 32.64,
       "sma200": 34.154,
       "premarket_high": 33.07,
-      "last_price": 34.06,
-      "last_bar_et": "13:36",
+      "last_price": 34.14,
+      "last_bar_et": "14:05",
       "high_of_day": 34.315,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -273,9 +267,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.56,
+      "gap_pct": 4.5,
       "catalyst": "Staybridge Suites Naples - Marco Island by IHG has changed hands, reflecting the strength of the Naples and Marco Island market, per the CEO of Kabani Hotel Group, which brokered the transaction.",
-      "market_cap": 13731774464
+      "market_cap": 13703610368
     },
     {
       "ticker": "DE",
@@ -286,9 +280,9 @@
       "yesterday_close": 613.76,
       "sma200": 615.2952,
       "premarket_high": 615.0,
-      "last_price": 642.67,
-      "last_bar_et": "13:36",
-      "high_of_day": 644.35,
+      "last_price": 643.98,
+      "last_bar_et": "14:05",
+      "high_of_day": 646.97,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -296,9 +290,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.67,
+      "gap_pct": 5.01,
       "catalyst": "Deere CEO sees \"early signs of improvement\" as the stock rebounds from a forecast miss.",
-      "market_cap": 173172310016
+      "market_cap": 173166919680
     },
     {
       "ticker": "GGB",
@@ -309,8 +303,8 @@
       "yesterday_close": 4.27,
       "sma200": 4.4763,
       "premarket_high": 4.32,
-      "last_price": 4.505,
-      "last_bar_et": "13:36",
+      "last_price": 4.497,
+      "last_bar_et": "14:05",
       "high_of_day": 4.535,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -319,10 +313,10 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.74,
+      "gap_pct": 5.15,
       "catalyst": "Gerdau is back in focus after recent research lifted bullish price targets into a range of US$5.80 to US$6.50, while more cautious views held closer to R$28.",
-      "market_cap": 8865118208
+      "market_cap": 8816475136
     }
   ],
-  "scan_time_et": "13:36"
+  "scan_time_et": "14:05"
 }
