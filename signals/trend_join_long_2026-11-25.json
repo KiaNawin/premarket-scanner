@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-25",
-  "generated_at_et": "2026-11-25 12:35:10 EST",
+  "generated_at_et": "2026-11-25 13:05:38 EST",
   "source_premarket_file": "premarket_scan_2026-11-25.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,28 +10,28 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 14,
+  "candidates": 16,
   "valid_count": 3,
   "valid_entries": [
     {
       "ticker": "KSS",
       "signal_time_et": "2026-11-25 10:00",
       "entry_price": 26.64,
-      "last_price": 26.72,
-      "gap_pct": 5.65,
+      "last_price": 26.515,
+      "gap_pct": 4.99,
       "yesterday_high": 25.44,
       "yesterday_close": 25.33,
       "sma200": 17.4739,
       "premarket_high": 25.34,
       "hod_before_signal": 26.6,
-      "catalyst": "Macy's, Kohl's and Toys R Us all enter Black Friday with something to prove, as bankruptcies and off-price growth reshape the field."
+      "catalyst": "The 8:30 hosts Julie Hyman and Jake Conley, joined on the couch by BD8 Capital Partners CEO and CIO Barbara Doran, tackle the top stories of the day."
     },
     {
       "ticker": "INFY",
       "signal_time_et": "2026-11-25 10:01",
       "entry_price": 12.82,
-      "last_price": 13.04,
-      "gap_pct": 4.36,
+      "last_price": 13.125,
+      "gap_pct": 5.08,
       "yesterday_high": 12.64,
       "yesterday_close": 12.49,
       "sma200": 12.3517,
@@ -43,8 +43,8 @@
       "ticker": "HDB",
       "signal_time_et": "2026-11-25 10:13",
       "entry_price": 28.21,
-      "last_price": 28.66,
-      "gap_pct": 3.88,
+      "last_price": 28.715,
+      "gap_pct": 4.15,
       "yesterday_high": 27.76,
       "yesterday_close": 27.56,
       "sma200": 25.1939,
@@ -63,8 +63,8 @@
       "yesterday_close": 25.33,
       "sma200": 17.4739,
       "premarket_high": 25.34,
-      "last_price": 26.72,
-      "last_bar_et": "12:35",
+      "last_price": 26.515,
+      "last_bar_et": "13:05",
       "high_of_day": 27.28,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -76,9 +76,9 @@
       "entry_price": 26.64,
       "hod_before_signal": 26.6,
       "low_5m": 26.08,
-      "gap_pct": 5.65,
-      "catalyst": "Macy's, Kohl's and Toys R Us all enter Black Friday with something to prove, as bankruptcies and off-price growth reshape the field.",
-      "market_cap": 3029418496
+      "gap_pct": 4.99,
+      "catalyst": "The 8:30 hosts Julie Hyman and Jake Conley, joined on the couch by BD8 Capital Partners CEO and CIO Barbara Doran, tackle the top stories of the day.",
+      "market_cap": 2999940608
     },
     {
       "ticker": "INFY",
@@ -89,9 +89,9 @@
       "yesterday_close": 12.49,
       "sma200": 12.3517,
       "premarket_high": 12.47,
-      "last_price": 13.04,
-      "last_bar_et": "12:34",
-      "high_of_day": 13.1,
+      "last_price": 13.125,
+      "last_bar_et": "13:05",
+      "high_of_day": 13.1351,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -102,9 +102,9 @@
       "entry_price": 12.82,
       "hod_before_signal": 12.805,
       "low_5m": 12.76,
-      "gap_pct": 4.36,
+      "gap_pct": 5.08,
       "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda.",
-      "market_cap": 52796657664
+      "market_cap": 53120688128
     },
     {
       "ticker": "HDB",
@@ -115,9 +115,9 @@
       "yesterday_close": 27.56,
       "sma200": 25.1939,
       "premarket_high": 28.0,
-      "last_price": 28.66,
-      "last_bar_et": "12:35",
-      "high_of_day": 28.7,
+      "last_price": 28.715,
+      "last_bar_et": "13:05",
+      "high_of_day": 28.735,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -128,9 +128,32 @@
       "entry_price": 28.21,
       "hod_before_signal": 28.19,
       "low_5m": 28.1,
-      "gap_pct": 3.88,
+      "gap_pct": 4.15,
       "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda.",
-      "market_cap": 147314737152
+      "market_cap": 147571949568
+    },
+    {
+      "ticker": "ACHR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4298,
+      "yesterday_high": 3.03,
+      "yesterday_close": 2.88,
+      "sma200": 5.4744,
+      "premarket_high": 2.8733,
+      "last_price": 3.04,
+      "last_bar_et": "13:05",
+      "high_of_day": 3.04,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 4.34,
+      "catalyst": "Joby and Archer are racing to launch electric air taxis in the UAE, and an early lead in Dubai could change how investors see both stocks.",
+      "market_cap": 2351584256
     },
     {
       "ticker": "AMC",
@@ -141,9 +164,9 @@
       "yesterday_close": 2.95,
       "sma200": 2.118,
       "premarket_high": 2.95,
-      "last_price": 3.0716,
-      "last_bar_et": "12:35",
-      "high_of_day": 3.09,
+      "last_price": 3.095,
+      "last_bar_et": "13:05",
+      "high_of_day": 3.11,
       "checks_now": {
         "price_above_yesterday_high": false,
         "yesterday_close_above_sma": true,
@@ -151,9 +174,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_yesterday_high, price_above_high_of_day",
-      "gap_pct": 4.18,
+      "gap_pct": 4.75,
       "catalyst": "AMC Entertainment Holdings (AMC) has started generating positive free cash flow about two years earlier than expected, helped by stronger than anticipated box office takings from releases like Hunger Games, which have…",
-      "market_cap": 2744759296
+      "market_cap": 2758951424
     },
     {
       "ticker": "ASTS",
@@ -164,19 +187,19 @@
       "yesterday_close": 23.6,
       "sma200": 70.853,
       "premarket_high": 23.18,
-      "last_price": 24.6,
-      "last_bar_et": "12:35",
-      "high_of_day": 24.78,
+      "last_price": 25.945,
+      "last_bar_et": "13:05",
+      "high_of_day": 25.945,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": false
+        "price_above_high_of_day": true
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.9,
+      "gap_pct": 7.88,
       "catalyst": "Needham initiated coverage of Firefly Aerospace with a ‘Buy’ rating and a $35 price target, citing growing capabilities across multiple space industry segments.",
-      "market_cap": 9847890944
+      "market_cap": 10162462720
     },
     {
       "ticker": "BTI",
@@ -187,19 +210,19 @@
       "yesterday_close": 58.24,
       "sma200": 59.1713,
       "premarket_high": 59.41,
-      "last_price": 60.31,
-      "last_bar_et": "12:35",
-      "high_of_day": 60.31,
+      "last_price": 60.465,
+      "last_bar_et": "13:05",
+      "high_of_day": 60.515,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.48,
+      "gap_pct": 3.87,
       "catalyst": "European equities traded in the US as American depositary receipts were sharply lower late Wednesday.",
-      "market_cap": 129367277568
+      "market_cap": 129796636672
     },
     {
       "ticker": "BZ",
@@ -210,8 +233,8 @@
       "yesterday_close": 12.74,
       "sma200": 14.9546,
       "premarket_high": 13.6,
-      "last_price": 14.102,
-      "last_bar_et": "12:35",
+      "last_price": 14.1454,
+      "last_bar_et": "13:05",
       "high_of_day": 14.21,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -220,9 +243,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 11.19,
+      "gap_pct": 11.08,
       "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
-      "market_cap": 6195080704
+      "market_cap": 6188518400
     },
     {
       "ticker": "CSGP",
@@ -233,8 +256,8 @@
       "yesterday_close": 32.64,
       "sma200": 34.154,
       "premarket_high": 33.07,
-      "last_price": 34.17,
-      "last_bar_et": "12:35",
+      "last_price": 34.1,
+      "last_bar_et": "13:05",
       "high_of_day": 34.315,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -256,8 +279,8 @@
       "yesterday_close": 613.76,
       "sma200": 615.2952,
       "premarket_high": 615.0,
-      "last_price": 635.76,
-      "last_bar_et": "12:35",
+      "last_price": 636.6,
+      "last_bar_et": "13:05",
       "high_of_day": 638.4925,
       "checks_now": {
         "price_above_yesterday_high": false,
@@ -266,9 +289,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.34,
-      "catalyst": "Its overall earnings dip was partially offset by positive construction and small farm equipment sales driven by data center projects and livestock market demand.",
-      "market_cap": 171031494656
+      "gap_pct": 3.73,
+      "catalyst": "Deere stock rises even as the company’s outlook leaves Wall Street asking questions.",
+      "market_cap": 171206737920
     },
     {
       "ticker": "GGB",
@@ -279,9 +302,9 @@
       "yesterday_close": 4.27,
       "sma200": 4.4763,
       "premarket_high": 4.32,
-      "last_price": 4.455,
-      "last_bar_et": "12:34",
-      "high_of_day": 4.46,
+      "last_price": 4.5101,
+      "last_bar_et": "13:05",
+      "high_of_day": 4.52,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -289,9 +312,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.2,
+      "gap_pct": 5.61,
       "catalyst": "Gerdau is back in focus after recent research lifted bullish price targets into a range of US$5.80 to US$6.50, while more cautious views held closer to R$28.",
-      "market_cap": 8728212480
+      "market_cap": 8826478592
     },
     {
       "ticker": "HPQ",
@@ -302,8 +325,8 @@
       "yesterday_close": 27.94,
       "sma200": 25.3043,
       "premarket_high": 29.87,
-      "last_price": 31.04,
-      "last_bar_et": "12:35",
+      "last_price": 30.46,
+      "last_bar_et": "13:05",
       "high_of_day": 32.05,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -312,9 +335,32 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 10.99,
-      "catalyst": "HP beat earnings estimates and raised its dividend, yet its PC business is shipping far fewer machines while AI-driven chip demand reshapes what each one costs to build.",
-      "market_cap": 28018644992
+      "gap_pct": 9.06,
+      "catalyst": "Wall Street's brief recovery is unraveling as persistent inflation, renewed tariff concerns, and mounting skepticism over AI valuations drive another wave of selling across major indexes.",
+      "market_cap": 27455025152
+    },
+    {
+      "ticker": "IBM",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 6.7979,
+      "yesterday_high": 235.91,
+      "yesterday_close": 235.62,
+      "sma200": 244.3396,
+      "premarket_high": 235.62,
+      "last_price": 242.76,
+      "last_bar_et": "13:05",
+      "high_of_day": 243.88,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.09,
+      "catalyst": "While debt-fueled GPU builders get hammered, one century-old tech name is quietly holding its ground.",
+      "market_cap": 229650186240
     },
     {
       "ticker": "IP",
@@ -325,9 +371,9 @@
       "yesterday_close": 30.62,
       "sma200": 36.515,
       "premarket_high": 30.7701,
-      "last_price": 31.77,
-      "last_bar_et": "12:35",
-      "high_of_day": 31.8,
+      "last_price": 32.025,
+      "last_bar_et": "13:05",
+      "high_of_day": 32.05,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -335,9 +381,32 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.56,
-      "catalyst": "International Paper (IP) has moved back into focus after its board approved the spin off of its EMEA packaging arm as DS Smith, with International Paper set to delist from London.",
-      "market_cap": 16775159808
+      "gap_pct": 4.51,
+      "catalyst": "On Wednesday, Nov.",
+      "market_cap": 16915505152
+    },
+    {
+      "ticker": "JOBY",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4718,
+      "yesterday_high": 3.79,
+      "yesterday_close": 3.51,
+      "sma200": 7.9782,
+      "premarket_high": 3.49,
+      "last_price": 3.755,
+      "last_bar_et": "13:04",
+      "high_of_day": 3.76,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.41,
+      "catalyst": "Joby and Archer are racing to launch electric air taxis in the UAE, and an early lead in Dubai could change how investors see both stocks.",
+      "market_cap": 3773166080
     },
     {
       "ticker": "LI",
@@ -348,43 +417,20 @@
       "yesterday_close": 10.7,
       "sma200": 14.3654,
       "premarket_high": 11.5691,
-      "last_price": 11.525,
-      "last_bar_et": "12:35",
-      "high_of_day": 11.59,
+      "last_price": 11.68,
+      "last_bar_et": "13:05",
+      "high_of_day": 11.685,
       "checks_now": {
         "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.57,
-      "catalyst": "Net loss narrowed and free cash flow turned positive as its lineup changed over.",
-      "market_cap": 11227711488
-    },
-    {
-      "ticker": "PBR-A",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.5007,
-      "yesterday_high": 14.44,
-      "yesterday_close": 13.73,
-      "sma200": 17.5101,
-      "premarket_high": 14.01,
-      "last_price": 14.18,
-      "last_bar_et": "12:34",
-      "high_of_day": 14.19,
-      "checks_now": {
-        "price_above_yesterday_high": false,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.24,
-      "catalyst": "Petroleo Brasileiro S.A. - Petrobras (NYSE:PBR) outlined a $122 billion investment portfolio for 2027 through 2031, saying higher oil production and expanded refining capacity could support an additional $10 billion in…",
-      "market_cap": 97049337856
+      "gap_pct": 9.07,
+      "catalyst": "Net loss narrowed and free cash flow turned positive as its lineup changed over.",
+      "market_cap": 11380362240
     }
   ],
-  "scan_time_et": "12:35"
+  "scan_time_et": "13:05"
 }
