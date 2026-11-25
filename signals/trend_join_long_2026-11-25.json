@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-25",
-  "generated_at_et": "2026-11-25 09:05:00 EST",
+  "generated_at_et": "2026-11-25 09:35:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-25.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,10 +10,33 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 3,
+  "candidates": 4,
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [
+    {
+      "ticker": "BZ",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.8807,
+      "yesterday_high": 13.06,
+      "yesterday_close": 12.74,
+      "sma200": 14.9546,
+      "premarket_high": 13.6,
+      "last_price": 13.825,
+      "last_bar_et": "09:34",
+      "high_of_day": 13.85,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 4.2,
+      "catalyst": "Kanzhun (BZ) delivered earnings and revenue surprises of +9.38% and -0.63%, respectively, for the quarter ended September 2026.",
+      "market_cap": 5775075328
+    },
     {
       "ticker": "HPQ",
       "status": "WAITING",
@@ -22,25 +45,20 @@
       "yesterday_high": 28.88,
       "yesterday_close": 27.94,
       "sma200": 25.3043,
-      "premarket_high": 29.78,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 6.12,
+      "premarket_high": 29.87,
+      "last_price": 31.525,
+      "last_bar_et": "09:34",
+      "high_of_day": 32.05,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Before 10:00 ET signal window",
+      "gap_pct": 7.3,
       "catalyst": "Micron Technology makes the memory chips inside PCs, phones and servers.",
-      "market_cap": 25196040192
-    },
-    {
-      "ticker": "LI",
-      "status": "WAITING",
-      "signal": false,
-      "atr14": 0.43,
-      "yesterday_high": 10.74,
-      "yesterday_close": 10.7,
-      "sma200": 14.3654,
-      "premarket_high": 11.55,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 5.89,
-      "catalyst": "Li reported a 5.4% jump in Q3 revenue to RMB28.83 billion, beating Wall Street’s estimates of RMB27.45 billion, according to Fiscal.ai.",
-      "market_cap": 10456837120
+      "market_cap": 27216502784
     },
     {
       "ticker": "SNY",
@@ -51,11 +69,43 @@
       "yesterday_close": 51.9,
       "sma200": 44.3664,
       "premarket_high": 54.01,
-      "reason": "Market opens 09:30 ET; signals start 10:00 ET",
-      "gap_pct": 3.45,
+      "last_price": 53.845,
+      "last_bar_et": "09:34",
+      "high_of_day": 53.98,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Before 10:00 ET signal window",
+      "gap_pct": 3.72,
       "catalyst": "Investing.com -- Bank of America and Barclays have both upgraded Sanofi after it agreed to buy Insmed for about $41 billion, saying the deal helps offset the looming loss of patent protection for its blockbuster drug…",
-      "market_cap": 124622938112
+      "market_cap": 129245274112
+    },
+    {
+      "ticker": "STLA",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.1721,
+      "yesterday_high": 3.48,
+      "yesterday_close": 3.44,
+      "sma200": 6.1013,
+      "premarket_high": 3.63,
+      "last_price": 3.56,
+      "last_bar_et": "09:34",
+      "high_of_day": 3.57,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.34,
+      "catalyst": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
+      "market_cap": 10297084928
     }
   ],
-  "scan_time_et": "09:05"
+  "scan_time_et": "09:35"
 }
