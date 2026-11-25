@@ -1,7 +1,63 @@
 {
   "ticker": "HPQ",
-  "saved_at_et": "2026-11-25T12:03:28-05:00",
+  "saved_at_et": "2026-11-25T12:35:05-05:00",
   "response": [
+    {
+      "id": "48f3aa73-d692-3ee4-93be-24866d441342",
+      "content": {
+        "id": "48f3aa73-d692-3ee4-93be-24866d441342",
+        "contentType": "STORY",
+        "title": "HP Earnings: Memory Went From 15% to 40% of a PC’s Parts Cost in a Year",
+        "description": null,
+        "summary": "HP beat earnings estimates and raised its dividend, yet its PC business is shipping far fewer machines while AI-driven chip demand reshapes what each one costs to build. Is a steady printing business enough to justify owning the stock?",
+        "pubDate": "2026-11-25T17:07:04Z",
+        "displayTime": "2026-11-25T17:07:04Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/632fa042675985b76004c4b0a995e0fb.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/632fa042675985b76004c4b0a995e0fb.jpg",
+              "width": 1366,
+              "height": 768,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/d480fc4448487025e65060ba76ab83b098a3d8203269667455bdfe0891dd99d1/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F632fa042675985b76004c4b0a995e0fb.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/11/25/hp-earnings-memory-went-from-15-to-40-of-a-pcs-parts-cost-in-a-year/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-earnings-memory-went-15-170704194.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "MU"
+            },
+            {
+              "symbol": "HPQ"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2e4a007d-7690-3431-86e1-5c1f3d7019b5",
       "content": {
@@ -91,96 +147,6 @@
             },
             {
               "symbol": "DELL"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "18e72c51-c6d7-33b1-aa90-ccce17a9b32f",
-      "content": {
-        "id": "18e72c51-c6d7-33b1-aa90-ccce17a9b32f",
-        "contentType": "STORY",
-        "title": "Anthropic, Nvidia, Micron, Dell, HP, Deere, and More Stocks That Explain Today’s Market",
-        "description": null,
-        "summary": "Anthropic, Nvidia, and other AI stocks take a hammering as the tech selloff gathers pace ahead of the Thanksgiving break.",
-        "pubDate": "2026-11-25T14:57:00Z",
-        "displayTime": "2026-11-25T14:57:00Z",
-        "isHosted": false,
-        "previewUrl": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic-nvidia-micron-.html",
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/Barrons.com/7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
-          "originalWidth": 1440,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/Barrons.com/7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
-              "width": 1440,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/f66192663272cce65355a1847e904dad7b10b8353d4d554620c95015b584e65e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Barrons.com",
-          "url": "http://www.barrons.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.barrons.com/articles/stock-movers-07929503?siteid=yhoof2&yptr=yahoo"
-        },
-        "clickThroughUrl": null,
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "ANT"
-            },
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "MU"
-            },
-            {
-              "symbol": "HPQ"
-            },
-            {
-              "symbol": "DELL"
-            },
-            {
-              "symbol": "DE"
-            },
-            {
-              "symbol": "SKHY"
-            },
-            {
-              "symbol": "WDC"
-            },
-            {
-              "symbol": "SNDK"
-            },
-            {
-              "symbol": "^GSPC"
-            },
-            {
-              "symbol": "INTC"
-            },
-            {
-              "symbol": "MRVL"
-            },
-            {
-              "symbol": "SPCX"
-            },
-            {
-              "symbol": "TSLA"
             }
           ]
         }
