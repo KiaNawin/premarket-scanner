@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-25",
-  "generated_at_et": "2026-11-25 10:35:00 EST",
+  "generated_at_et": "2026-11-25 11:35:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-25.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,21 +10,34 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 6,
-  "valid_count": 1,
+  "candidates": 8,
+  "valid_count": 2,
   "valid_entries": [
     {
       "ticker": "KSS",
       "signal_time_et": "2026-11-25 10:00",
       "entry_price": 26.64,
-      "last_price": 26.94,
-      "gap_pct": 7.3,
+      "last_price": 26.36,
+      "gap_pct": 4.32,
       "yesterday_high": 25.44,
       "yesterday_close": 25.33,
       "sma200": 17.4739,
       "premarket_high": 25.34,
       "hod_before_signal": 26.6,
-      "catalyst": "US gas prices (RB=F) have slipped lower for 31 straight days, setting retailers up for what could be a hotter-than-expected holiday shopping season."
+      "catalyst": "Macy's, Kohl's and Toys R Us all enter Black Friday with something to prove, as bankruptcies and off-price growth reshape the field."
+    },
+    {
+      "ticker": "INFY",
+      "signal_time_et": "2026-11-25 10:01",
+      "entry_price": 12.82,
+      "last_price": 12.985,
+      "gap_pct": 3.96,
+      "yesterday_high": 12.64,
+      "yesterday_close": 12.49,
+      "sma200": 12.3517,
+      "premarket_high": 12.47,
+      "hod_before_signal": 12.805,
+      "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda."
     }
   ],
   "evaluated": [
@@ -37,8 +50,8 @@
       "yesterday_close": 25.33,
       "sma200": 17.4739,
       "premarket_high": 25.34,
-      "last_price": 26.94,
-      "last_bar_et": "10:34",
+      "last_price": 26.36,
+      "last_bar_et": "11:34",
       "high_of_day": 27.28,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -50,9 +63,35 @@
       "entry_price": 26.64,
       "hod_before_signal": 26.6,
       "low_5m": 26.08,
-      "gap_pct": 7.3,
-      "catalyst": "US gas prices (RB=F) have slipped lower for 31 straight days, setting retailers up for what could be a hotter-than-expected holiday shopping season.",
-      "market_cap": 3085585408
+      "gap_pct": 4.32,
+      "catalyst": "Macy's, Kohl's and Toys R Us all enter Black Friday with something to prove, as bankruptcies and off-price growth reshape the field.",
+      "market_cap": 2995405824
+    },
+    {
+      "ticker": "INFY",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.3564,
+      "yesterday_high": 12.64,
+      "yesterday_close": 12.49,
+      "sma200": 12.3517,
+      "premarket_high": 12.47,
+      "last_price": 12.985,
+      "last_bar_et": "11:34",
+      "high_of_day": 12.99,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-25 10:01",
+      "entry_price": 12.82,
+      "hod_before_signal": 12.805,
+      "low_5m": 12.76,
+      "gap_pct": 3.96,
+      "catalyst": "Asian equities traded in the US as American depositary receipts were dropping sharply lower Wednesda.",
+      "market_cap": 52553637888
     },
     {
       "ticker": "BZ",
@@ -63,9 +102,9 @@
       "yesterday_close": 12.74,
       "sma200": 14.9546,
       "premarket_high": 13.6,
-      "last_price": 13.85,
-      "last_bar_et": "10:34",
-      "high_of_day": 14.08,
+      "last_price": 13.95,
+      "last_bar_et": "11:34",
+      "high_of_day": 14.105,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -73,9 +112,32 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 8.71,
-      "catalyst": "KANZHUN (NASDAQ:BZ) reported an 11.7% increase in third-quarter revenue, but forecast slower growth for the fourth quarter as recruitment demand weakened.",
-      "market_cap": 6052891136
+      "gap_pct": 9.73,
+      "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
+      "market_cap": 6114142208
+    },
+    {
+      "ticker": "DE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 21.6179,
+      "yesterday_high": 638.54,
+      "yesterday_close": 613.76,
+      "sma200": 615.2952,
+      "premarket_high": 615.0,
+      "last_price": 631.83,
+      "last_bar_et": "11:34",
+      "high_of_day": 638.4925,
+      "checks_now": {
+        "price_above_yesterday_high": false,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.17,
+      "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
+      "market_cap": 170420781056
     },
     {
       "ticker": "HPQ",
@@ -86,8 +148,8 @@
       "yesterday_close": 27.94,
       "sma200": 25.3043,
       "premarket_high": 29.87,
-      "last_price": 30.87,
-      "last_bar_et": "10:33",
+      "last_price": 31.035,
+      "last_bar_et": "11:34",
       "high_of_day": 32.05,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -96,9 +158,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_high_of_day",
-      "gap_pct": 11.18,
-      "catalyst": "On Wednesday, Nov.",
-      "market_cap": 28005120000
+      "gap_pct": 11.08,
+      "catalyst": "New CEO Emma Walmsley arrives in January as AI PC shipments surge.",
+      "market_cap": 28054718464
     },
     {
       "ticker": "LI",
@@ -109,8 +171,8 @@
       "yesterday_close": 10.7,
       "sma200": 14.3654,
       "premarket_high": 11.5691,
-      "last_price": 11.09,
-      "last_bar_et": "10:34",
+      "last_price": 11.265,
+      "last_bar_et": "11:34",
       "high_of_day": 11.5,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -119,9 +181,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.47,
-      "catalyst": "Li Auto (NASDAQ:LI) expects to return to profitability in the fourth quarter of 2026 after narrowing its third-quarter loss and improving margins, executives said on the company’s earnings call.",
-      "market_cap": 10823314432
+      "gap_pct": 5.65,
+      "catalyst": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs.",
+      "market_cap": 11057860608
     },
     {
       "ticker": "SNY",
@@ -132,8 +194,8 @@
       "yesterday_close": 51.9,
       "sma200": 44.3664,
       "premarket_high": 54.01,
-      "last_price": 53.875,
-      "last_bar_et": "10:34",
+      "last_price": 53.72,
+      "last_bar_et": "11:34",
       "high_of_day": 54.0399,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -142,9 +204,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 3.93,
-      "catalyst": "Medicare's new out-of-pocket cap sounds like protection, but a pricey new lung pill can drain almost all of it at a single pharmacy counter.",
-      "market_cap": 129518772224
+      "gap_pct": 3.43,
+      "catalyst": "European equities traded in the US as American depositary receipts were sharply lower late Wednesday.",
+      "market_cap": 128801046528
     },
     {
       "ticker": "STLA",
@@ -155,8 +217,8 @@
       "yesterday_close": 3.44,
       "sma200": 6.1013,
       "premarket_high": 3.63,
-      "last_price": 3.5876,
-      "last_bar_et": "10:34",
+      "last_price": 3.5599,
+      "last_bar_et": "11:34",
       "high_of_day": 3.63,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -165,10 +227,10 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.84,
+      "gap_pct": 3.37,
       "catalyst": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
-      "market_cap": 10369699840
+      "market_cap": 10355176448
     }
   ],
-  "scan_time_et": "10:35"
+  "scan_time_et": "11:35"
 }

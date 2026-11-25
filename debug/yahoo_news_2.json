@@ -1,7 +1,84 @@
 {
   "ticker": "BZ",
-  "saved_at_et": "2026-11-25T10:32:32-05:00",
+  "saved_at_et": "2026-11-25T11:33:09-05:00",
   "response": [
+    {
+      "id": "dcfd7d97-275e-3f01-b707-fa58b0a0da75",
+      "content": {
+        "id": "dcfd7d97-275e-3f01-b707-fa58b0a0da75",
+        "contentType": "STORY",
+        "title": "Stock Market Today: Huangover Is Causing Headache for Tech Stocks",
+        "description": null,
+        "summary": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs. Something other than earnings is spooking traders, and your index fund may be more exposed than you think.",
+        "pubDate": "2026-11-25T15:56:42Z",
+        "displayTime": "2026-11-25T15:56:42Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/18cf0c6715556c4977219ed511e047d5.jpg",
+          "originalWidth": 1366,
+          "originalHeight": 768,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/24_7_wall_st__718/18cf0c6715556c4977219ed511e047d5.jpg",
+              "width": 1366,
+              "height": 768,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/385633ce29e2c2af473df50fe2940090d4a88ec629b1a083bb16d3d8296a09e5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F18cf0c6715556c4977219ed511e047d5.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "24/7 Wall St.",
+          "url": "https://247wallst.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://247wallst.com/investing/2026/11/25/stock-market-today-huangover-is-causing-headache-for-tech-stocks/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-huangover-causing-155642565.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "GDS"
+            },
+            {
+              "symbol": "^DJI"
+            },
+            {
+              "symbol": "^IXIC"
+            },
+            {
+              "symbol": "LI"
+            },
+            {
+              "symbol": "BZ"
+            },
+            {
+              "symbol": "DE"
+            },
+            {
+              "symbol": "GDS"
+            },
+            {
+              "symbol": "LI"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "90982223-99e9-3944-986a-5c8873962df6",
       "content": {
@@ -85,62 +162,6 @@
           "stockTickers": [
             {
               "symbol": "BZ"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "824b2430-9bee-30ac-b961-0d0fdb397185",
-      "content": {
-        "id": "824b2430-9bee-30ac-b961-0d0fdb397185",
-        "contentType": "STORY",
-        "title": "KANZHUN LIMITED Sponsored ADR (BZ) Beats Q3 Earnings Estimates",
-        "description": null,
-        "summary": "Kanzhun (BZ) delivered earnings and revenue surprises of +9.38% and -0.63%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
-        "pubDate": "2026-11-25T11:25:02Z",
-        "displayTime": "2026-11-25T11:25:02Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/8442d24e11d454aa89061259a9714d43.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 855,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/8442d24e11d454aa89061259a9714d43.jpg_up.jpg",
-              "width": 1280,
-              "height": 855,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/23527df7f49aedef42ac6fd44ea94c7d2677f4c5404468944d63197c4acbe72e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F8442d24e11d454aa89061259a9714d43.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-limited-sponsored-adr-bz-112502949.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-limited-sponsored-adr-bz-112502949.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "BZ"
-            },
-            {
-              "symbol": "TTAN"
             }
           ]
         }

@@ -1,7 +1,60 @@
 {
   "ticker": "HPQ",
-  "saved_at_et": "2026-11-25T10:32:32-05:00",
+  "saved_at_et": "2026-11-25T11:33:09-05:00",
   "response": [
+    {
+      "id": "2e4a007d-7690-3431-86e1-5c1f3d7019b5",
+      "content": {
+        "id": "2e4a007d-7690-3431-86e1-5c1f3d7019b5",
+        "contentType": "STORY",
+        "title": "HP (HPQ) Q4 2026 Earnings Call Transcript",
+        "description": null,
+        "summary": "New CEO Emma Walmsley arrives in January as AI PC shipments surge.",
+        "pubDate": "2026-11-25T15:43:28Z",
+        "displayTime": "2026-11-25T15:43:28Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+          "originalWidth": 1280,
+          "originalHeight": 1366,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73.png",
+              "width": 1280,
+              "height": 1366,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/e6f185c6474df3623a11023772c3c6273cd5bd432ba2accc4fd5043e0ae8b648/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Motley Fool",
+          "url": "http://www.fool.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/25/hp-hpq-q4-2026-earnings-call-transcript/"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-q4-2026-earnings-154328309.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "HPQ"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "82f9d310-9bb6-337f-b169-75c514176fbf",
       "content": {
@@ -44,30 +97,30 @@
       }
     },
     {
-      "id": "277dc5c6-cd93-3ce3-9dc4-005138a4aa69",
+      "id": "18e72c51-c6d7-33b1-aa90-ccce17a9b32f",
       "content": {
-        "id": "277dc5c6-cd93-3ce3-9dc4-005138a4aa69",
+        "id": "18e72c51-c6d7-33b1-aa90-ccce17a9b32f",
         "contentType": "STORY",
-        "title": "Invest in the Laptops, Mainframes and Network Switches for Passive Income: $90,000 Across These 3 Tech Hardware Stocks Pays More Than $2,600 a Year",
+        "title": "Anthropic, Nvidia, Micron, Dell, HP, Deere, and More Stocks That Explain Today’s Market",
         "description": null,
-        "summary": "One stock in this trio yields more than double another, yet the highest payer faces a shrinking PC market and a CEO handoff. Which office hardware name earns your $30,000 the most, and which one is the riskiest?",
-        "pubDate": "2026-11-25T14:46:07Z",
-        "displayTime": "2026-11-25T14:46:07Z",
-        "isHosted": true,
-        "previewUrl": null,
+        "summary": "Anthropic, Nvidia, and other AI stocks take a hammering as the tech selloff gathers pace ahead of the Thanksgiving break.",
+        "pubDate": "2026-11-25T14:57:00Z",
+        "displayTime": "2026-11-25T14:57:00Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/18e72c51-c6d7-33b1-aa90-ccce17a9b32f/anthropic-nvidia-micron-.html",
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/c700d258a58ef99f841e06e98e9f831a",
-          "originalWidth": 1920,
-          "originalHeight": 1080,
+          "originalUrl": "https://media.zenfs.com/en/Barrons.com/7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
+          "originalWidth": 1440,
+          "originalHeight": 720,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/24_7_wall_st__718/c700d258a58ef99f841e06e98e9f831a",
-              "width": 1920,
-              "height": 1080,
+              "url": "https://media.zenfs.com/en/Barrons.com/7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
+              "width": 1440,
+              "height": 720,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/53501c36cd7d60e211221c7317938832429a638d956c69b906ea5cd1c2114ec2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fc700d258a58ef99f841e06e98e9f831a",
+              "url": "https://s.yimg.com/lo/mysterio/api/f66192663272cce65355a1847e904dad7b10b8353d4d554620c95015b584e65e/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F7279741f5e8565b78d42983feb84f719.jpg_up.jpg",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -75,79 +128,24 @@
           ]
         },
         "provider": {
-          "displayName": "24/7 Wall St.",
-          "url": "https://247wallst.com/"
+          "displayName": "Barrons.com",
+          "url": "http://www.barrons.com/"
         },
         "canonicalUrl": {
-          "url": "https://247wallst.com/investing/2026/11/25/invest-in-the-laptops-mainframes-and-network-switches-for-passive-income-90000-across-these-3-tech-hardware-stocks-pays-more-than-2600-a-year/"
+          "url": "https://www.barrons.com/articles/stock-movers-07929503?siteid=yhoof2&yptr=yahoo"
         },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-laptops-mainframes-network-switches-144607217.html"
-        },
+        "clickThroughUrl": null,
         "finance": {
           "premiumFinance": {
             "isPremiumNews": false
           },
           "stockTickers": [
             {
-              "symbol": "IBM"
+              "symbol": "ANT"
             },
             {
-              "symbol": "CSCO"
+              "symbol": "NVDA"
             },
-            {
-              "symbol": "HPQ"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "b85d398c-3d6b-3afc-b620-b817cfb3d392",
-      "content": {
-        "id": "b85d398c-3d6b-3afc-b620-b817cfb3d392",
-        "contentType": "STORY",
-        "title": "Is Micron's Record Margin Squeezing Apple And HP?",
-        "description": null,
-        "summary": "Micron Technology makes the memory chips inside PCs, phones and servers. Its gross margin is the share of sales left after the direct cost of making its chips. That margin hit 86.8% in the three months to Sep 3, 2026. It was 44.7% a year earlier, so it rose 42.1 points. It is the highest in our quarterly data back to March 2015.",
-        "pubDate": "2026-11-25T11:38:09Z",
-        "displayTime": "2026-11-25T11:38:09Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/trefis_142/e548de09c99ff4de0c947c4e9994c2bd.jpg",
-          "originalWidth": 2560,
-          "originalHeight": 1920,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/trefis_142/e548de09c99ff4de0c947c4e9994c2bd.jpg",
-              "width": 2560,
-              "height": 1920,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/b5d15303b0cd683aeb55953b5a8d2dac2a51f87f7c0cf684f83cee136d9d5bb2/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2Fe548de09c99ff4de0c947c4e9994c2bd.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Trefis",
-          "url": "https://www.trefis.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://www.trefis.com/stock/mu/articles/628762/is-micron-s-record-margin-squeezing-apple-and-hp/2026-11-25"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microns-record-margin-squeezing-apple-113809466.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
             {
               "symbol": "MU"
             },
@@ -155,10 +153,34 @@
               "symbol": "HPQ"
             },
             {
-              "symbol": "AAPL"
+              "symbol": "DELL"
             },
             {
-              "symbol": "DELL"
+              "symbol": "DE"
+            },
+            {
+              "symbol": "SKHY"
+            },
+            {
+              "symbol": "WDC"
+            },
+            {
+              "symbol": "SNDK"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "INTC"
+            },
+            {
+              "symbol": "MRVL"
+            },
+            {
+              "symbol": "SPCX"
+            },
+            {
+              "symbol": "TSLA"
             }
           ]
         }
