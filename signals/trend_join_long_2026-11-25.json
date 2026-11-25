@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-25",
-  "generated_at_et": "2026-11-25 10:05:00 EST",
+  "generated_at_et": "2026-11-25 10:35:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-25.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -10,20 +10,20 @@
     "Price > current high of day (new HOD)",
     "Signal only after 10:00 AM ET"
   ],
-  "candidates": 5,
+  "candidates": 6,
   "valid_count": 1,
   "valid_entries": [
     {
       "ticker": "KSS",
       "signal_time_et": "2026-11-25 10:00",
       "entry_price": 26.64,
-      "last_price": 26.825,
-      "gap_pct": 5.49,
+      "last_price": 26.94,
+      "gap_pct": 7.3,
       "yesterday_high": 25.44,
       "yesterday_close": 25.33,
       "sma200": 17.4739,
       "premarket_high": 25.34,
-      "hod_before_signal": 26.59,
+      "hod_before_signal": 26.6,
       "catalyst": "US gas prices (RB=F) have slipped lower for 31 straight days, setting retailers up for what could be a hotter-than-expected holiday shopping season."
     }
   ],
@@ -37,22 +37,22 @@
       "yesterday_close": 25.33,
       "sma200": 17.4739,
       "premarket_high": 25.34,
-      "last_price": 26.825,
-      "last_bar_et": "10:01",
-      "high_of_day": 26.825,
+      "last_price": 26.94,
+      "last_bar_et": "10:34",
+      "high_of_day": 27.28,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
         "price_above_premarket_high": true,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "signal_time_et": "2026-11-25 10:00",
       "entry_price": 26.64,
-      "hod_before_signal": 26.59,
-      "low_5m": 25.54,
-      "gap_pct": 5.49,
+      "hod_before_signal": 26.6,
+      "low_5m": 26.08,
+      "gap_pct": 7.3,
       "catalyst": "US gas prices (RB=F) have slipped lower for 31 straight days, setting retailers up for what could be a hotter-than-expected holiday shopping season.",
-      "market_cap": 3019214592
+      "market_cap": 3085585408
     },
     {
       "ticker": "BZ",
@@ -63,8 +63,8 @@
       "yesterday_close": 12.74,
       "sma200": 14.9546,
       "premarket_high": 13.6,
-      "last_price": 13.87,
-      "last_bar_et": "10:01",
+      "last_price": 13.85,
+      "last_bar_et": "10:34",
       "high_of_day": 14.08,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -73,9 +73,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 9.03,
-      "catalyst": "Kanzhun Ltd (BZ) posted 11.7% revenue growth and a record 44.5% adjusted operating margin in Q3 2026, but guided to a sharp deceleration in Q4 as recruitment demand softens.",
-      "market_cap": 6107579392
+      "gap_pct": 8.71,
+      "catalyst": "KANZHUN (NASDAQ:BZ) reported an 11.7% increase in third-quarter revenue, but forecast slower growth for the fourth quarter as recruitment demand weakened.",
+      "market_cap": 6052891136
     },
     {
       "ticker": "HPQ",
@@ -86,8 +86,8 @@
       "yesterday_close": 27.94,
       "sma200": 25.3043,
       "premarket_high": 29.87,
-      "last_price": 31.08,
-      "last_bar_et": "10:01",
+      "last_price": 30.87,
+      "last_bar_et": "10:33",
       "high_of_day": 32.05,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -97,8 +97,31 @@
       },
       "reason": "Failing now: price_above_high_of_day",
       "gap_pct": 11.18,
-      "catalyst": "One stock in this trio yields more than double another, yet the highest payer faces a shrinking PC market and a CEO handoff.",
-      "market_cap": 27982575616
+      "catalyst": "On Wednesday, Nov.",
+      "market_cap": 28005120000
+    },
+    {
+      "ticker": "LI",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.43,
+      "yesterday_high": 10.74,
+      "yesterday_close": 10.7,
+      "sma200": 14.3654,
+      "premarket_high": 11.5691,
+      "last_price": 11.09,
+      "last_bar_et": "10:34",
+      "high_of_day": 11.5,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.47,
+      "catalyst": "Li Auto (NASDAQ:LI) expects to return to profitability in the fourth quarter of 2026 after narrowing its third-quarter loss and improving margins, executives said on the company’s earnings call.",
+      "market_cap": 10823314432
     },
     {
       "ticker": "SNY",
@@ -109,9 +132,9 @@
       "yesterday_close": 51.9,
       "sma200": 44.3664,
       "premarket_high": 54.01,
-      "last_price": 53.8,
-      "last_bar_et": "10:01",
-      "high_of_day": 53.98,
+      "last_price": 53.875,
+      "last_bar_et": "10:34",
+      "high_of_day": 54.0399,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -119,9 +142,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 3.61,
-      "catalyst": "Investing.com -- Bank of America and Barclays have both upgraded Sanofi after it agreed to buy Insmed for about $41 billion, saying the deal helps offset the looming loss of patent protection for its blockbuster drug…",
-      "market_cap": 129137213440
+      "gap_pct": 3.93,
+      "catalyst": "Medicare's new out-of-pocket cap sounds like protection, but a pricey new lung pill can drain almost all of it at a single pharmacy counter.",
+      "market_cap": 129518772224
     },
     {
       "ticker": "STLA",
@@ -132,20 +155,20 @@
       "yesterday_close": 3.44,
       "sma200": 6.1013,
       "premarket_high": 3.63,
-      "last_price": 3.615,
-      "last_bar_et": "10:01",
-      "high_of_day": 3.615,
+      "last_price": 3.5876,
+      "last_bar_et": "10:34",
+      "high_of_day": 3.63,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.94,
+      "gap_pct": 3.84,
       "catalyst": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
-      "market_cap": 10456547328
+      "market_cap": 10369699840
     }
   ],
-  "scan_time_et": "10:05"
+  "scan_time_et": "10:35"
 }

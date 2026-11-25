@@ -1,7 +1,60 @@
 {
   "ticker": "BZ",
-  "saved_at_et": "2026-11-25T10:01:36-05:00",
+  "saved_at_et": "2026-11-25T10:32:32-05:00",
   "response": [
+    {
+      "id": "90982223-99e9-3944-986a-5c8873962df6",
+      "content": {
+        "id": "90982223-99e9-3944-986a-5c8873962df6",
+        "contentType": "STORY",
+        "title": "KANZHUN Q3 Earnings Call Highlights",
+        "description": null,
+        "summary": "KANZHUN (NASDAQ:BZ) reported an 11.7% increase in third-quarter revenue, but forecast slower growth for the fourth quarter as recruitment demand weakened. The operator of the BOSS Zhipin recruitment platform also announced a new $500 million share repurchase program. Revenue rose to CNY 2.42 billio",
+        "pubDate": "2026-11-25T15:14:36Z",
+        "displayTime": "2026-11-25T15:14:36Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/marketbeat_955/70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/marketbeat_955/70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/0370744717498a676fc6da761166bf049785a718bafa3d082bf3e8d0bd9d8054/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "MarketBeat",
+          "url": "https://www.marketbeat.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-kanzhun-q3-earnings-call-highlights-2026-11-25/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-q3-earnings-call-highlights-151436438.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "BZ"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "92d70c7f-9b31-367a-82ec-edfa9d2a42d0",
       "content": {
@@ -88,62 +141,6 @@
             },
             {
               "symbol": "TTAN"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "c8c3dfcf-9fb5-3f0b-b701-18ddd81d1dfd",
-      "content": {
-        "id": "c8c3dfcf-9fb5-3f0b-b701-18ddd81d1dfd",
-        "contentType": "STORY",
-        "title": "SurgePays, Inc. (SURG) Reports Q3 Loss, Tops Revenue Estimates",
-        "description": null,
-        "summary": "SurgePays, Inc. (SURG) delivered earnings and revenue surprises of +42.86% and +4.64%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
-        "pubDate": "2026-11-23T22:45:02Z",
-        "displayTime": "2026-11-23T22:45:02Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee.jpg_up.jpg",
-          "originalWidth": 1280,
-          "originalHeight": 1246,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee.jpg_up.jpg",
-              "width": 1280,
-              "height": 1246,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/4f67a216d2231852cbdbc061d85c1d3d4fc00399721d5774e5edf0b11432ca04/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fd0d4ab152198da2f423d92da8a7d22ee.jpg_up.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "Zacks",
-          "url": "http://www.zacks.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/surgepays-inc-surg-reports-q3-224502285.html"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/surgepays-inc-surg-reports-q3-224502285.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "SURG"
-            },
-            {
-              "symbol": "BZ"
             }
           ]
         }

@@ -1,7 +1,48 @@
 {
   "ticker": "HPQ",
-  "saved_at_et": "2026-11-25T10:01:36-05:00",
+  "saved_at_et": "2026-11-25T10:32:32-05:00",
   "response": [
+    {
+      "id": "82f9d310-9bb6-337f-b169-75c514176fbf",
+      "content": {
+        "id": "82f9d310-9bb6-337f-b169-75c514176fbf",
+        "contentType": "STORY",
+        "title": "HP (HPQ) Stock Is Up 10.4% Today: Barclays Raises Price Target to $24",
+        "description": null,
+        "summary": "On Wednesday, Nov. 25, the shares rose 10.4% after Barclays raised its price target to $24.00, as the S&P 500 fell 2.8%.",
+        "pubDate": "2026-11-25T15:00:45Z",
+        "displayTime": "2026-11-25T15:00:45Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": null,
+        "provider": {
+          "displayName": "GuruFocus.com",
+          "url": "http://www.gurufocus.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-stock-10-4-150045887.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-stock-10-4-150045887.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "HPQ"
+            },
+            {
+              "symbol": "^GSPC"
+            },
+            {
+              "symbol": "DELL"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "277dc5c6-cd93-3ce3-9dc4-005138a4aa69",
       "content": {
@@ -118,65 +159,6 @@
             },
             {
               "symbol": "DELL"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "8246a6cd-f881-3ef6-be6f-46be5f4db510",
-      "content": {
-        "id": "8246a6cd-f881-3ef6-be6f-46be5f4db510",
-        "contentType": "STORY",
-        "title": "HP Shares Decline 1.65% as PC Margin Pressure and Cautious Earnings Outlook Overshadow Quarterly Beat",
-        "description": null,
-        "summary": "HP (NYSE:HPQ) shares fell 1. 65% to $27.",
-        "pubDate": "2026-11-25T11:21:05Z",
-        "displayTime": "2026-11-25T11:21:05Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/investorshub_458/8f6062c3858a8b9e7797dbd242bf0b9f.jpg",
-          "originalWidth": 1311,
-          "originalHeight": 720,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/investorshub_458/8f6062c3858a8b9e7797dbd242bf0b9f.jpg",
-              "width": 1311,
-              "height": 720,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/f382d5aa6c3624ed3a938ecd2d49813176dab01ef1b1fb5e28ebc57dc24d6299/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F8f6062c3858a8b9e7797dbd242bf0b9f.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://investorshub.advfn.com/market-news/article/40688/hp-shares-decline-1-65-as-pc-margin-pressure-and-cautious-earnings-outlook-overshadow-quarterly-beat"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-shares-decline-1-65-112105776.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "HPQ"
-            },
-            {
-              "symbol": "^NDX"
-            },
-            {
-              "symbol": "^GSPC"
             }
           ]
         }
