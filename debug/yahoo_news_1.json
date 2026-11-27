@@ -1,109 +1,32 @@
 {
-  "ticker": "BZ",
-  "saved_at_et": "2026-11-25T14:05:52-05:00",
+  "ticker": "EMBJ",
+  "saved_at_et": "2026-11-27T09:35:49-05:00",
   "response": [
     {
-      "id": "dcfd7d97-275e-3f01-b707-fa58b0a0da75",
+      "id": "b25f6575-5616-3231-8c8a-2893da5113a9",
       "content": {
-        "id": "dcfd7d97-275e-3f01-b707-fa58b0a0da75",
+        "id": "b25f6575-5616-3231-8c8a-2893da5113a9",
         "contentType": "STORY",
-        "title": "Stock Market Today: Huangover Is Causing Headache for Tech Stocks",
+        "title": "SkyWest Is the Real Loser in the U.S. Duty on Embraer Jets",
         "description": null,
-        "summary": "NVIDIA just posted a record quarter, yet its stock is sliding and dragging the Nasdaq with it while the Dow climbs. Something other than earnings is spooking traders, and your index fund may be more exposed than you think.",
-        "pubDate": "2026-11-25T15:56:42Z",
-        "displayTime": "2026-11-25T15:56:42Z",
+        "summary": "Key TakeawaysThe U. S. proposed a 10% duty on finished Brazilian aircraft, which could hit Embraer’s E175s as soon as January.",
+        "pubDate": "2026-11-27T02:52:03Z",
+        "displayTime": "2026-11-27T02:52:03Z",
         "isHosted": true,
         "previewUrl": null,
         "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/18cf0c6715556c4977219ed511e047d5.jpg",
-          "originalWidth": 1366,
-          "originalHeight": 768,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/24_7_wall_st__718/18cf0c6715556c4977219ed511e047d5.jpg",
-              "width": 1366,
-              "height": 768,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/385633ce29e2c2af473df50fe2940090d4a88ec629b1a083bb16d3d8296a09e5/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F18cf0c6715556c4977219ed511e047d5.jpg",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "24/7 Wall St.",
-          "url": "https://247wallst.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://247wallst.com/investing/2026/11/25/stock-market-today-huangover-is-causing-headache-for-tech-stocks/"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-huangover-causing-155642565.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "NVDA"
-            },
-            {
-              "symbol": "GDS"
-            },
-            {
-              "symbol": "^DJI"
-            },
-            {
-              "symbol": "^IXIC"
-            },
-            {
-              "symbol": "LI"
-            },
-            {
-              "symbol": "BZ"
-            },
-            {
-              "symbol": "DE"
-            },
-            {
-              "symbol": "GDS"
-            },
-            {
-              "symbol": "LI"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "90982223-99e9-3944-986a-5c8873962df6",
-      "content": {
-        "id": "90982223-99e9-3944-986a-5c8873962df6",
-        "contentType": "STORY",
-        "title": "KANZHUN Q3 Earnings Call Highlights",
-        "description": null,
-        "summary": "KANZHUN (NASDAQ:BZ) reported an 11.7% increase in third-quarter revenue, but forecast slower growth for the fourth quarter as recruitment demand weakened. The operator of the BOSS Zhipin recruitment platform also announced a new $500 million share repurchase program. Revenue rose to CNY 2.42 billio",
-        "pubDate": "2026-11-25T15:14:36Z",
-        "displayTime": "2026-11-25T15:14:36Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/marketbeat_955/70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+          "originalUrl": "https://media.zenfs.com/en/tikr_258/0312f78f8f62dc53908fb8b0c3bbe4e8",
           "originalWidth": 1280,
           "originalHeight": 720,
           "resolutions": [
             {
-              "url": "https://media.zenfs.com/en/marketbeat_955/70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+              "url": "https://media.zenfs.com/en/tikr_258/0312f78f8f62dc53908fb8b0c3bbe4e8",
               "width": 1280,
               "height": 720,
               "tag": "original"
             },
             {
-              "url": "https://s.yimg.com/lo/mysterio/api/0370744717498a676fc6da761166bf049785a718bafa3d082bf3e8d0bd9d8054/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F70aa29f64e6e2e41b6a449b6ed770460.jpg_up.jpg",
+              "url": "https://s.yimg.com/lo/mysterio/api/47d82e72652a09fc37cbbaaa18d2b7563000637d5b1374ec56c9c9ecf7c21500/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F0312f78f8f62dc53908fb8b0c3bbe4e8",
               "width": 170,
               "height": 128,
               "tag": "170x128"
@@ -111,14 +34,14 @@
           ]
         },
         "provider": {
-          "displayName": "MarketBeat",
-          "url": "https://www.marketbeat.com/"
+          "displayName": "TIKR",
+          "url": "https://www.tikr.com/"
         },
         "canonicalUrl": {
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-kanzhun-q3-earnings-call-highlights-2026-11-25/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "url": "https://www.tikr.com/blog/skywest-is-the-real-loser-in-the-u-s-duty-on-embraer-jets?ref=yahoofinance&tlnk=yf-261127-r5954rx5"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-q3-earnings-call-highlights-151436438.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/skywest-real-loser-u-duty-025203905.html"
         },
         "finance": {
           "premiumFinance": {
@@ -126,34 +49,61 @@
           },
           "stockTickers": [
             {
-              "symbol": "BZ"
+              "symbol": "SKYW"
+            },
+            {
+              "symbol": "EMBJ"
+            },
+            {
+              "symbol": "UAL"
+            },
+            {
+              "symbol": "DAL"
             }
           ]
         }
       }
     },
     {
-      "id": "92d70c7f-9b31-367a-82ec-edfa9d2a42d0",
+      "id": "fd89370d-6b73-355e-ac19-7f5b710ee36e",
       "content": {
-        "id": "92d70c7f-9b31-367a-82ec-edfa9d2a42d0",
+        "id": "fd89370d-6b73-355e-ac19-7f5b710ee36e",
         "contentType": "STORY",
-        "title": "Kanzhun Ltd (BZ) (Q3 2026) Earnings Call Highlights: Record Margins, $500 Million Buyback, and ...",
+        "title": "Brazil says US tariff threat on Embraer jets is aimed at Pix",
         "description": null,
-        "summary": "Kanzhun Ltd (BZ) posted 11.7% revenue growth and a record 44.5% adjusted operating margin in Q3 2026, but guided to a sharp deceleration in Q4 as recruitment demand softens.",
-        "pubDate": "2026-11-25T14:20:39Z",
-        "displayTime": "2026-11-25T14:20:39Z",
+        "summary": "IntelliNews summary: Camex's Gecex has ruled the US tariffs fall under Brazil's Economic Reciprocity Law and set up a working group to draft countermeasures; no products or rates have been set. Brazil made its first request for a WTO dispute panel on November 24; a second request on December 17 would establish a panel under WTO rules.",
+        "pubDate": "2026-11-26T23:21:26Z",
+        "displayTime": "2026-11-26T23:21:26Z",
         "isHosted": true,
         "previewUrl": null,
-        "thumbnail": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/intellinews_516/52d0de6b7882fa409e4df60b444e1506.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 726,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/intellinews_516/52d0de6b7882fa409e4df60b444e1506.jpg_up.jpg",
+              "width": 1280,
+              "height": 726,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/731d0947e5950ab9cff14d706b597589beb0601a29ea268d531a4ba5842e7b90/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fintellinews_516%2F52d0de6b7882fa409e4df60b444e1506.jpg_up.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
         "provider": {
-          "displayName": "GuruFocus.com",
-          "url": "http://www.gurufocus.com/"
+          "displayName": "IntelliNews",
+          "url": "https://www.intellinews.com/"
         },
         "canonicalUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-ltd-bz-q3-2026-142039576.html"
+          "url": "http://www.intellinews.com/brazil-says-us-tariff-threat-on-embraer-jets-is-aimed-at-pix-488897/"
         },
         "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-ltd-bz-q3-2026-142039576.html"
+          "url": "https://finance.yahoo.com/economy/policy/articles/brazil-says-us-tariff-threat-232126166.html"
         },
         "finance": {
           "premiumFinance": {
@@ -161,7 +111,63 @@
           },
           "stockTickers": [
             {
-              "symbol": "BZ"
+              "symbol": "EMBJ"
+            },
+            {
+              "symbol": "CAMEXLTD.BO"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fd5181fc-02ef-32a9-8ed9-f5488a4eb758",
+      "content": {
+        "id": "fd5181fc-02ef-32a9-8ed9-f5488a4eb758",
+        "contentType": "STORY",
+        "title": "Brazil's Embraer criticizes new US tariffs, warns of air travel inflation",
+        "description": null,
+        "summary": "By Gabriel Araujo BRASILIA, Nov 26 (Reuters) - Embraer warned on Thursday that Washington's proposed 10% tariff on aircraft imports from Brazil could drive up US airline costs and airfares, as the",
+        "pubDate": "2026-11-26T16:46:49Z",
+        "displayTime": "2026-11-26T16:46:49Z",
+        "isHosted": true,
+        "previewUrl": null,
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/reuters.com/d7ea76ca2aefe9d2fa1607fb2d13d014.jpg_up.jpg",
+          "originalWidth": 1280,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/reuters.com/d7ea76ca2aefe9d2fa1607fb2d13d014.jpg_up.jpg",
+              "width": 1280,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/5bb2db8f0e721990402ceb1b71bd65f60077f4e1c00303ce875e35294069a2ba/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2Fd7ea76ca2aefe9d2fa1607fb2d13d014.jpg_up.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Reuters",
+          "url": "https://www.reuters.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://finance.yahoo.com/economy/policy/articles/brazils-embraer-ceo-says-us-141503568.html"
+        },
+        "clickThroughUrl": {
+          "url": "https://finance.yahoo.com/economy/policy/articles/brazils-embraer-ceo-says-us-141503568.html"
+        },
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "EMBJ"
             }
           ]
         }
