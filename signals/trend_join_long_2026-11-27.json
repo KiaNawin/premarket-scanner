@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-27",
-  "generated_at_et": "2026-11-27 10:06:40 EST",
+  "generated_at_et": "2026-11-27 10:36:44 EST",
   "source_premarket_file": "premarket_scan_2026-11-27.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -11,9 +11,118 @@
     "Signal only after 10:00 AM ET"
   ],
   "candidates": 29,
-  "valid_count": 0,
-  "valid_entries": [],
+  "valid_count": 1,
+  "valid_entries": [
+    {
+      "ticker": "CVNA",
+      "signal_time_et": "2026-11-27 10:18",
+      "entry_price": 70.055,
+      "last_price": 70.69,
+      "gap_pct": 3.86,
+      "yesterday_high": 68.718,
+      "yesterday_close": 67.84,
+      "sma200": 67.8342,
+      "premarket_high": 69.99,
+      "hod_before_signal": 69.97,
+      "catalyst": "CPRT's fiscal Q1 revenues are poised to benefit from rising ASPs and international expansion, but elevated operating expenses could keep margins under pressure."
+    }
+  ],
   "evaluated": [
+    {
+      "ticker": "CVNA",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 4.0141,
+      "yesterday_high": 68.718,
+      "yesterday_close": 67.84,
+      "sma200": 67.8342,
+      "premarket_high": 69.99,
+      "last_price": 70.69,
+      "last_bar_et": "10:36",
+      "high_of_day": 70.75,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-27 10:18",
+      "entry_price": 70.055,
+      "hod_before_signal": 69.97,
+      "low_5m": 69.315,
+      "gap_pct": 3.86,
+      "catalyst": "CPRT's fiscal Q1 revenues are poised to benefit from rising ASPs and international expansion, but elevated operating expenses could keep margins under pressure.",
+      "market_cap": 77581320192
+    },
+    {
+      "ticker": "AA",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 1.7891,
+      "yesterday_high": 35.24,
+      "yesterday_close": 35.07,
+      "sma200": 54.4077,
+      "premarket_high": 37.52,
+      "last_price": 36.13,
+      "last_bar_et": "10:36",
+      "high_of_day": 36.48,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.22,
+      "catalyst": "Key TakeawaysA $3.",
+      "market_cap": 9555709952
+    },
+    {
+      "ticker": "AAOI",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 6.2483,
+      "yesterday_high": 37.4,
+      "yesterday_close": 37.02,
+      "sma200": 114.8023,
+      "premarket_high": 41.0,
+      "last_price": 39.28,
+      "last_bar_et": "10:36",
+      "high_of_day": 40.69,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 6.04,
+      "catalyst": "By now, we’re all familiar with how an artificial-intelligence rally works.",
+      "market_cap": 3563026688
+    },
+    {
+      "ticker": "ACHR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 0.4159,
+      "yesterday_high": 3.12,
+      "yesterday_close": 3.04,
+      "sma200": 5.4538,
+      "premarket_high": 3.27,
+      "last_price": 3.2348,
+      "last_bar_et": "10:36",
+      "high_of_day": 3.2399,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 5.43,
+      "catalyst": "Today's big story: Anthropic Broke Its $83 IPO Price.",
+      "market_cap": 2510991104
+    },
     {
       "ticker": "AG",
       "status": "FAIL",
@@ -23,8 +132,8 @@
       "yesterday_close": 11.23,
       "sma200": 19.1396,
       "premarket_high": 12.29,
-      "last_price": 11.885,
-      "last_bar_et": "10:06",
+      "last_price": 11.9499,
+      "last_bar_et": "10:36",
       "high_of_day": 12.03,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -33,9 +142,32 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.21,
+      "gap_pct": 6.23,
       "catalyst": "First Majestic Silver reported positive 2026 drilling results at the Jerritt Canyon Gold Mine in Nevada, with near-surface Saval intercepts such as 48.8 metres at 4.24 g/t Au and 36.6 metres at 5.87 g/t Au.",
-      "market_cap": 5820478976
+      "market_cap": 5879645184
+    },
+    {
+      "ticker": "ALAB",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 25.0169,
+      "yesterday_high": 191.95,
+      "yesterday_close": 190.34,
+      "sma200": 259.1486,
+      "premarket_high": 209.0,
+      "last_price": 198.5,
+      "last_bar_et": "10:36",
+      "high_of_day": 200.0,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.64,
+      "catalyst": "Marvell heads into Q3 earnings with strong AI infrastructure demand and expanding hyperscaler opportunities, but competition and premium valuation support a Hold stance.",
+      "market_cap": 34382852096
     },
     {
       "ticker": "ALM",
@@ -46,8 +178,8 @@
       "yesterday_close": 6.78,
       "sma200": 15.4859,
       "premarket_high": 7.31,
-      "last_price": 7.04,
-      "last_bar_et": "10:06",
+      "last_price": 7.215,
+      "last_bar_et": "10:36",
       "high_of_day": 7.35,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -56,9 +188,65 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.54,
-      "catalyst": "ALM, BNPQY and BDRFY have been added to the Zacks Rank #5 (Strong Sell) List on November 26, 2026.",
-      "market_cap": 2008262272
+      "gap_pct": 6.71,
+      "catalyst": "On Friday, Nov.",
+      "market_cap": 2069681280
+    },
+    {
+      "ticker": "AMKR",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 3.0179,
+      "yesterday_high": 32.16,
+      "yesterday_close": 32.02,
+      "sma200": 55.9255,
+      "premarket_high": 34.4,
+      "last_price": 33.17,
+      "last_bar_et": "10:36",
+      "high_of_day": 33.6678,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.37,
+      "catalyst": "ASE Technology's accelerating LEAP demand, driven by AI infrastructure investments and aggressive capacity expansion, sets the stage for strong revenue growth through 2027.",
+      "market_cap": 8191366144
+    },
+    {
+      "ticker": "ANET",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 14.7629,
+      "yesterday_high": 165.0,
+      "yesterday_close": 163.99,
+      "sma200": 169.0181,
+      "premarket_high": 174.99,
+      "last_price": 171.39,
+      "last_bar_et": "10:36",
+      "high_of_day": 171.39,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": true
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 4.11,
+      "catalyst": "ANET, APA and TXN made it to the Zacks Rank #1 (Strong Buy) momentum stocks list on November 27, 2026.",
+      "market_cap": 215675420672
+    },
+    {
+      "ticker": "ANT",
+      "status": "SHORT_HISTORY",
+      "signal": false,
+      "reason": "Only 5 trading days of history (< 200 needed for SMA200)",
+      "history_days": 5,
+      "gap_pct": 8.39,
+      "catalyst": "Anthropic's stock continues to be very volatile in the wake of its IPO.",
+      "market_cap": 1200035725312
     },
     {
       "ticker": "APP",
@@ -69,8 +257,8 @@
       "yesterday_close": 378.95,
       "sma200": 403.5237,
       "premarket_high": 399.81,
-      "last_price": 392.105,
-      "last_bar_et": "10:06",
+      "last_price": 396.7395,
+      "last_bar_et": "10:36",
       "high_of_day": 404.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -79,9 +267,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.05,
+      "gap_pct": 4.25,
       "catalyst": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept.",
-      "market_cap": 129266966528
+      "market_cap": 131024625664
     },
     {
       "ticker": "ASX",
@@ -92,8 +280,8 @@
       "yesterday_close": 29.49,
       "sma200": 34.5542,
       "premarket_high": 31.55,
-      "last_price": 30.38,
-      "last_bar_et": "10:06",
+      "last_price": 30.91,
+      "last_bar_et": "10:36",
       "high_of_day": 31.2,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -102,9 +290,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.56,
+      "gap_pct": 4.34,
       "catalyst": "ASE Technology's accelerating LEAP demand, driven by AI infrastructure investments and aggressive capacity expansion, sets the stage for strong revenue growth through 2027.",
-      "market_cap": 67375153152
+      "market_cap": 67971198976
     },
     {
       "ticker": "AXTI",
@@ -115,8 +303,8 @@
       "yesterday_close": 31.98,
       "sma200": 66.6006,
       "premarket_high": 36.19,
-      "last_price": 33.39,
-      "last_bar_et": "10:06",
+      "last_price": 34.21,
+      "last_bar_et": "10:35",
       "high_of_day": 34.845,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -125,9 +313,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.09,
-      "catalyst": "Semiconductor chips recently overtook oil and gas in global export value, which indicates a shift in where economic influence is growing.",
-      "market_cap": 2167194368
+      "gap_pct": 6.91,
+      "catalyst": "AXTI, ARW and VIAV emerge as compelling momentum picks amid tariff threats and market volatility, combining strong annual gains with short-term pullbacks.",
+      "market_cap": 2247704576
     },
     {
       "ticker": "B",
@@ -138,8 +326,8 @@
       "yesterday_close": 34.52,
       "sma200": 41.0873,
       "premarket_high": 36.99,
-      "last_price": 35.92,
-      "last_bar_et": "10:06",
+      "last_price": 35.895,
+      "last_bar_et": "10:36",
       "high_of_day": 36.325,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -148,9 +336,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.74,
+      "gap_pct": 3.82,
       "catalyst": "Record bullion prices have turned gold miners into cash machines, yet two of these three payers have cut income for shareholders before.",
-      "market_cap": 58337632256
+      "market_cap": 58435350528
     },
     {
       "ticker": "BABA",
@@ -161,8 +349,8 @@
       "yesterday_close": 86.26,
       "sma200": 119.6569,
       "premarket_high": 90.71,
-      "last_price": 89.765,
-      "last_bar_et": "10:06",
+      "last_price": 90.1,
+      "last_bar_et": "10:36",
       "high_of_day": 90.5795,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -171,9 +359,55 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.93,
+      "gap_pct": 4.47,
       "catalyst": "Nvidia (NVDA) has reportedly halted chip orders to Southeast Asia, according to the Financial Times, as US regulators aim to tighten export controls to China.",
-      "market_cap": 222989025280
+      "market_cap": 224270221312
+    },
+    {
+      "ticker": "BE",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 21.2946,
+      "yesterday_high": 155.545,
+      "yesterday_close": 152.89,
+      "sma200": 224.0431,
+      "premarket_high": 168.0,
+      "last_price": 159.5565,
+      "last_bar_et": "10:36",
+      "high_of_day": 162.4,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.08,
+      "catalyst": "AI stocks are flying on Black Friday, with memory-card supplier Sandisk and data-center power provider Bloom Energy leading the way.",
+      "market_cap": 46625062912
+    },
+    {
+      "ticker": "BHP",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 2.71,
+      "yesterday_high": 70.83,
+      "yesterday_close": 70.77,
+      "sma200": 82.1062,
+      "premarket_high": 73.59,
+      "last_price": 73.12,
+      "last_bar_et": "10:36",
+      "high_of_day": 73.205,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.22,
+      "catalyst": "HubSpot, AST SpaceMobile downgraded: Wall Street's top analyst calls.",
+      "market_cap": 185654886400
     },
     {
       "ticker": "BILI",
@@ -184,8 +418,8 @@
       "yesterday_close": 11.43,
       "sma200": 18.9417,
       "premarket_high": 12.39,
-      "last_price": 12.18,
-      "last_bar_et": "10:06",
+      "last_price": 12.225,
+      "last_bar_et": "10:36",
       "high_of_day": 12.41,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -194,9 +428,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 6.21,
+      "gap_pct": 6.87,
       "catalyst": "Based on the average brokerage recommendation (ABR), Bilibili (BILI) should be added to one's portfolio.",
-      "market_cap": 4852979200
+      "market_cap": 4882960384
     },
     {
       "ticker": "BTG",
@@ -207,19 +441,19 @@
       "yesterday_close": 4.48,
       "sma200": 4.8026,
       "premarket_high": 4.75,
-      "last_price": 4.715,
-      "last_bar_et": "10:06",
-      "high_of_day": 4.72,
+      "last_price": 4.755,
+      "last_bar_et": "10:36",
+      "high_of_day": 4.7555,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.91,
+      "gap_pct": 5.69,
       "catalyst": "Key TakeawaysA $3.",
-      "market_cap": 6197522944
+      "market_cap": 6237039616
     },
     {
       "ticker": "CCJ",
@@ -230,8 +464,8 @@
       "yesterday_close": 61.55,
       "sma200": 99.5018,
       "premarket_high": 65.37,
-      "last_price": 63.98,
-      "last_bar_et": "10:06",
+      "last_price": 63.89,
+      "last_bar_et": "10:36",
       "high_of_day": 64.84,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -240,9 +474,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.59,
+      "gap_pct": 3.75,
       "catalyst": "BWX Technologies' multi-year TRISO fuel agreement with Antares opens new growth opportunities in the emerging microreactor market as advanced reactor deployment progresses.",
-      "market_cap": 27787003904
+      "market_cap": 27861045248
     },
     {
       "ticker": "CDE",
@@ -253,8 +487,8 @@
       "yesterday_close": 11.75,
       "sma200": 18.0598,
       "premarket_high": 12.73,
-      "last_price": 12.3715,
-      "last_bar_et": "10:06",
+      "last_price": 12.4501,
+      "last_bar_et": "10:36",
       "high_of_day": 12.59,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -263,9 +497,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.55,
+      "gap_pct": 5.96,
       "catalyst": "On Nov.",
-      "market_cap": 12574522368
+      "market_cap": 12730464256
     },
     {
       "ticker": "CLF",
@@ -276,8 +510,8 @@
       "yesterday_close": 11.27,
       "sma200": 11.2058,
       "premarket_high": 11.81,
-      "last_price": 11.61,
-      "last_bar_et": "10:06",
+      "last_price": 11.65,
+      "last_bar_et": "10:35",
       "high_of_day": 11.82,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -286,7 +520,7 @@
         "price_above_high_of_day": false
       },
       "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 3.59,
+      "gap_pct": 3.28,
       "catalyst": "We just published a list of the 10 Stocks Stanley Druckenmiller Just Dumped—and What His Big Exit Signals Next and Cleveland-Cliffs (NYSE:CLF) ranked 8th on this list.",
       "market_cap": 6658726400
     },
@@ -299,19 +533,19 @@
       "yesterday_close": 196.19,
       "sma200": 296.0886,
       "premarket_high": 216.76,
-      "last_price": 210.58,
-      "last_bar_et": "10:05",
-      "high_of_day": 214.33,
+      "last_price": 217.54,
+      "last_bar_et": "10:36",
+      "high_of_day": 218.5791,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.04,
+      "gap_pct": 10.83,
       "catalyst": "Stocks rose on Friday as the AI trade rebounded amid a low-volume trading day.",
-      "market_cap": 41511993344
+      "market_cap": 42984263680
     },
     {
       "ticker": "DELL",
@@ -322,19 +556,19 @@
       "yesterday_close": 297.06,
       "sma200": 350.9909,
       "premarket_high": 319.5,
-      "last_price": 312.57,
-      "last_bar_et": "10:06",
-      "high_of_day": 312.57,
+      "last_price": 313.5617,
+      "last_bar_et": "10:36",
+      "high_of_day": 314.96,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
-        "price_above_high_of_day": true
+        "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.04,
-      "catalyst": "Nvidia's GB300 NVL72 rack, containing 72 Blackwell Ultra chips, was installed at a Shanghai data center despite U.S. export restrictions, according to a Bloomberg report.",
-      "market_cap": 196580573184
+      "gap_pct": 4.99,
+      "catalyst": "Supermicro posted a record quarter and raised its outlook, yet shares tumbled anyway.",
+      "market_cap": 199384514560
     },
     {
       "ticker": "EMBJ",
@@ -346,7 +580,7 @@
       "sma200": 65.8398,
       "premarket_high": 19.24,
       "last_price": 18.86,
-      "last_bar_et": "10:06",
+      "last_bar_et": "10:36",
       "high_of_day": 19.28,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -355,9 +589,9 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.9,
+      "gap_pct": 5.84,
       "catalyst": "Key TakeawaysThe U.",
-      "market_cap": 13418055680
+      "market_cap": 13460764672
     },
     {
       "ticker": "EQX",
@@ -368,9 +602,9 @@
       "yesterday_close": 9.07,
       "sma200": 12.2931,
       "premarket_high": 9.72,
-      "last_price": 9.565,
-      "last_bar_et": "10:06",
-      "high_of_day": 9.59,
+      "last_price": 9.61,
+      "last_bar_et": "10:36",
+      "high_of_day": 9.6301,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -378,9 +612,32 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.63,
+      "gap_pct": 6.01,
       "catalyst": "AuMEGA Metals Ltd (ASX:AAM, TSX-V:AUM, OTCQB:AUMMF) earlier this week announced its first porphyry discovery at the Cape Ray Project in Newfoundland, Canada, expanding exploration opportunities beyond its established…",
-      "market_cap": 11364092928
+      "market_cap": 11496923136
+    },
+    {
+      "ticker": "FCX",
+      "status": "FAIL",
+      "signal": false,
+      "atr14": 3.3271,
+      "yesterday_high": 48.82,
+      "yesterday_close": 48.55,
+      "sma200": 64.7432,
+      "premarket_high": 52.0,
+      "last_price": 50.2,
+      "last_bar_et": "10:35",
+      "high_of_day": 50.5,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": false,
+        "price_above_premarket_high": false,
+        "price_above_high_of_day": false
+      },
+      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
+      "gap_pct": 3.15,
+      "catalyst": "ETFs sold a net $19.8 million of Freeport-McMoRan (FCX) on Nov.",
+      "market_cap": 71875944448
     },
     {
       "ticker": "FIG",
@@ -391,9 +648,9 @@
       "yesterday_close": 17.11,
       "sma200": 22.4058,
       "premarket_high": 17.7,
-      "last_price": 17.9415,
-      "last_bar_et": "10:06",
-      "high_of_day": 18.055,
+      "last_price": 18.08,
+      "last_bar_et": "10:36",
+      "high_of_day": 18.145,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -401,22 +658,22 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.56,
+      "gap_pct": 5.96,
       "catalyst": "ADBE's freemium strategy fuels rapid user growth and rising Firefly monetization, but can it convert free users into paying customers amid AI competition?",
-      "market_cap": 9582497792
+      "market_cap": 9703015424
     },
     {
-      "ticker": "FUTU",
+      "ticker": "FLY",
       "status": "FAIL",
       "signal": false,
-      "atr14": 5.4242,
-      "yesterday_high": 88.68,
-      "yesterday_close": 87.94,
-      "sma200": 119.2077,
-      "premarket_high": 92.08,
-      "last_price": 91.31,
-      "last_bar_et": "10:06",
-      "high_of_day": 93.16,
+      "atr14": 2.6503,
+      "yesterday_high": 18.83,
+      "yesterday_close": 18.14,
+      "sma200": 26.6186,
+      "premarket_high": 19.51,
+      "last_price": 19.29,
+      "last_bar_et": "10:36",
+      "high_of_day": 19.33,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -424,263 +681,10 @@
         "price_above_high_of_day": false
       },
       "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.16,
-      "catalyst": "Nvidia’s 31.5% surge and the S&P 500’s 4.7% jump after Jensen Huang’s return as CEO have pulled risk appetite sharply back into focus, and retail trading apps are often where that mood shows up first.",
-      "market_cap": 12728258560
-    },
-    {
-      "ticker": "GFI",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.9614,
-      "yesterday_high": 34.35,
-      "yesterday_close": 34.06,
-      "sma200": 41.0703,
-      "premarket_high": 36.2821,
-      "last_price": 35.74,
-      "last_bar_et": "10:06",
-      "high_of_day": 35.77,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.55,
-      "catalyst": "Nigeria’s Dangote refinery is poised to become Africa’s most valuable primarily listed company at a $48 billion valuation following a record-breaking IPO.",
-      "market_cap": 31533043712
-    },
-    {
-      "ticker": "GGAL",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 1.6036,
-      "yesterday_high": 27.05,
-      "yesterday_close": 26.66,
-      "sma200": 43.4048,
-      "premarket_high": 29.44,
-      "last_price": 28.55,
-      "last_bar_et": "10:06",
-      "high_of_day": 29.29,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 7.22,
-      "catalyst": "If you only skimmed the latest quarterly report, Grupo Financiero Galicia looked like a comeback story.",
-      "market_cap": 4836269056
-    },
-    {
-      "ticker": "GGB",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.1793,
-      "yesterday_high": 4.54,
-      "yesterday_close": 4.47,
-      "sma200": 4.4775,
-      "premarket_high": 4.9,
-      "last_price": 4.745,
-      "last_bar_et": "10:06",
-      "high_of_day": 4.805,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 5.93,
-      "catalyst": "Gerdau is back in focus after recent research lifted bullish price targets into a range of US$5.80 to US$6.50, while more cautious views held closer to R$28.",
-      "market_cap": 9287211008
-    },
-    {
-      "ticker": "HL",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8114,
-      "yesterday_high": 11.4,
-      "yesterday_close": 11.28,
-      "sma200": 17.4881,
-      "premarket_high": 12.18,
-      "last_price": 11.8,
-      "last_bar_et": "10:06",
-      "high_of_day": 12.02,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.08,
-      "catalyst": "For questions about this article or underlying research, email help@trefis.com.",
-      "market_cap": 7896742912
-    },
-    {
-      "ticker": "HMY",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8193,
-      "yesterday_high": 13.9,
-      "yesterday_close": 13.8,
-      "sma200": 17.2509,
-      "premarket_high": 14.7979,
-      "last_price": 14.4,
-      "last_bar_et": "10:06",
-      "high_of_day": 14.57,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.06,
-      "catalyst": "This under-the-radar gold mining stock boasts a Superscore of 75 from our Hidden Gems Primary database, part of The Motley Fool's Moneyball Database system.",
-      "market_cap": 9032418304
-    },
-    {
-      "ticker": "HPE",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 4.1736,
-      "yesterday_high": 40.84,
-      "yesterday_close": 40.82,
-      "sma200": 43.0017,
-      "premarket_high": 43.2,
-      "last_price": 42.025,
-      "last_bar_et": "10:06",
-      "high_of_day": 42.68,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.01,
-      "catalyst": "Salesforce stock has come under selling pressure ahead of its upcoming report, but Docusign continues to hold up quite well pre-earnings.",
-      "market_cap": 55443083264
-    },
-    {
-      "ticker": "HSAI",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8575,
-      "yesterday_high": 12.51,
-      "yesterday_close": 12.38,
-      "sma200": 18.6847,
-      "premarket_high": 13.15,
-      "last_price": 12.96,
-      "last_bar_et": "10:06",
-      "high_of_day": 13.32,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 4.52,
-      "catalyst": "Hesai Group recently announced a US$100 million share repurchase plan over 12 months from November 18, 2026, funded from existing cash and focused on canceling Class B shares and ADSs.",
-      "market_cap": 2038707712
-    },
-    {
-      "ticker": "INTR",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.2255,
-      "yesterday_high": 4.075,
-      "yesterday_close": 4.01,
-      "sma200": 6.3139,
-      "premarket_high": 5.05,
-      "last_price": 4.665,
-      "last_bar_et": "10:06",
-      "high_of_day": 4.75,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 16.46,
-      "catalyst": "Inter & Co shares rose 14.5% in premarket trading on Friday, Nov.",
-      "market_cap": 2081876352
-    },
-    {
-      "ticker": "IONQ",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 3.0666,
-      "yesterday_high": 23.895,
-      "yesterday_close": 23.54,
-      "sma200": 40.7299,
-      "premarket_high": 25.3,
-      "last_price": 24.42,
-      "last_bar_et": "10:06",
-      "high_of_day": 24.9454,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.55,
-      "catalyst": "D-Wave is broadening its quantum computing opportunities through advances in annealing and gate-model technologies, targeting larger and fault-tolerant systems.",
-      "market_cap": 11285059584
-    },
-    {
-      "ticker": "ITUB",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.2407,
-      "yesterday_high": 6.98,
-      "yesterday_close": 6.88,
-      "sma200": 8.2522,
-      "premarket_high": 8.12,
-      "last_price": 7.795,
-      "last_bar_et": "10:06",
-      "high_of_day": 7.87,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 13.3,
-      "catalyst": "NU's expanding customer base, banking transition and Mexico's digital payments push unlock new revenue streams across lending and cross-selling.",
-      "market_cap": 85806465024
-    },
-    {
-      "ticker": "JD",
-      "status": "FAIL",
-      "signal": false,
-      "atr14": 0.8393,
-      "yesterday_high": 26.415,
-      "yesterday_close": 26.38,
-      "sma200": 28.4228,
-      "premarket_high": 27.35,
-      "last_price": 27.435,
-      "last_bar_et": "10:06",
-      "high_of_day": 27.57,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": false,
-        "price_above_premarket_high": true,
-        "price_above_high_of_day": false
-      },
-      "reason": "Yesterday's close is below the 200 SMA (not in an uptrend)",
-      "gap_pct": 3.92,
-      "catalyst": "It wasn't just U.S. stocks that were rallying on Friday.",
-      "market_cap": 37023956992
+      "gap_pct": 5.97,
+      "catalyst": "Berenberg expects AST SpaceMobile to complete its constellation of around 100 satellites in 2028 and achieve positive free cash flow in 2030.",
+      "market_cap": 3309735168
     }
   ],
-  "scan_time_et": "10:06"
+  "scan_time_et": "10:36"
 }
