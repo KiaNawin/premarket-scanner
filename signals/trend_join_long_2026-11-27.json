@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-27",
-  "generated_at_et": "2026-11-27 12:07:51 EST",
+  "generated_at_et": "2026-11-27 12:35:02 EST",
   "source_premarket_file": "premarket_scan_2026-11-27.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -11,13 +11,13 @@
     "Signal only after 10:00 AM ET"
   ],
   "candidates": 35,
-  "valid_count": 2,
+  "valid_count": 3,
   "valid_entries": [
     {
       "ticker": "CVNA",
       "signal_time_et": "2026-11-27 10:18",
       "entry_price": 70.055,
-      "last_price": 69.8,
+      "last_price": 70.3801,
       "gap_pct": 3.23,
       "yesterday_high": 68.718,
       "yesterday_close": 67.84,
@@ -30,7 +30,7 @@
       "ticker": "CLF",
       "signal_time_et": "2026-11-27 11:49",
       "entry_price": 11.835,
-      "last_price": 11.755,
+      "last_price": 11.7208,
       "gap_pct": 4.7,
       "yesterday_high": 11.41,
       "yesterday_close": 11.27,
@@ -38,6 +38,19 @@
       "premarket_high": 11.81,
       "hod_before_signal": 11.83,
       "catalyst": "We just published a list of the 10 Stocks Stanley Druckenmiller Just Dumped—and What His Big Exit Signals Next and Cleveland-Cliffs (NYSE:CLF) ranked 8th on this list."
+    },
+    {
+      "ticker": "BB",
+      "signal_time_et": "2026-11-27 12:24",
+      "entry_price": 8.9,
+      "last_price": 8.94,
+      "gap_pct": 4.0,
+      "yesterday_high": 8.55,
+      "yesterday_close": 8.5,
+      "sma200": 7.3083,
+      "premarket_high": 8.89,
+      "hod_before_signal": 8.88,
+      "catalyst": "BlackBerry stock reacts to tech rebound and upcoming earnings BlackBerry (TSX:BB) moved back into the spotlight after an 8.38% jump on a broader technology rally sparked by Nvidia's CEO reinstatement, with traders now…"
     }
   ],
   "evaluated": [
@@ -50,13 +63,13 @@
       "yesterday_close": 67.84,
       "sma200": 67.8342,
       "premarket_high": 69.99,
-      "last_price": 69.8,
-      "last_bar_et": "12:07",
+      "last_price": 70.3801,
+      "last_bar_et": "12:35",
       "high_of_day": 70.97,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
+        "price_above_premarket_high": true,
         "price_above_high_of_day": false
       },
       "signal_time_et": "2026-11-27 10:18",
@@ -76,8 +89,8 @@
       "yesterday_close": 11.27,
       "sma200": 11.2058,
       "premarket_high": 11.81,
-      "last_price": 11.755,
-      "last_bar_et": "12:07",
+      "last_price": 11.7208,
+      "last_bar_et": "12:34",
       "high_of_day": 11.865,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -94,6 +107,32 @@
       "market_cap": 6727254016
     },
     {
+      "ticker": "BB",
+      "status": "VALID_ENTRY",
+      "signal": true,
+      "atr14": 0.5907,
+      "yesterday_high": 8.55,
+      "yesterday_close": 8.5,
+      "sma200": 7.3083,
+      "premarket_high": 8.89,
+      "last_price": 8.94,
+      "last_bar_et": "12:34",
+      "high_of_day": 8.95,
+      "checks_now": {
+        "price_above_yesterday_high": true,
+        "yesterday_close_above_sma": true,
+        "price_above_premarket_high": true,
+        "price_above_high_of_day": false
+      },
+      "signal_time_et": "2026-11-27 12:24",
+      "entry_price": 8.9,
+      "hod_before_signal": 8.88,
+      "low_5m": 8.85,
+      "gap_pct": 4.0,
+      "catalyst": "BlackBerry stock reacts to tech rebound and upcoming earnings BlackBerry (TSX:BB) moved back into the spotlight after an 8.38% jump on a broader technology rally sparked by Nvidia's CEO reinstatement, with traders now…",
+      "market_cap": 5183905792
+    },
+    {
       "ticker": "AA",
       "status": "FAIL",
       "signal": false,
@@ -102,9 +141,9 @@
       "yesterday_close": 35.07,
       "sma200": 54.4077,
       "premarket_high": 37.52,
-      "last_price": 36.375,
-      "last_bar_et": "12:07",
-      "high_of_day": 36.54,
+      "last_price": 36.23,
+      "last_bar_et": "12:34",
+      "high_of_day": 36.55,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -125,8 +164,8 @@
       "yesterday_close": 37.02,
       "sma200": 114.8023,
       "premarket_high": 41.0,
-      "last_price": 39.6793,
-      "last_bar_et": "12:07",
+      "last_price": 39.74,
+      "last_bar_et": "12:34",
       "high_of_day": 40.69,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -148,8 +187,8 @@
       "yesterday_close": 3.04,
       "sma200": 5.4538,
       "premarket_high": 3.27,
-      "last_price": 3.215,
-      "last_bar_et": "12:07",
+      "last_price": 3.21,
+      "last_bar_et": "12:34",
       "high_of_day": 3.26,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -171,9 +210,9 @@
       "yesterday_close": 11.23,
       "sma200": 19.1396,
       "premarket_high": 12.29,
-      "last_price": 12.105,
-      "last_bar_et": "12:07",
-      "high_of_day": 12.18,
+      "last_price": 12.26,
+      "last_bar_et": "12:34",
+      "high_of_day": 12.27,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -194,8 +233,8 @@
       "yesterday_close": 190.34,
       "sma200": 259.1486,
       "premarket_high": 209.0,
-      "last_price": 198.8,
-      "last_bar_et": "12:07",
+      "last_price": 199.315,
+      "last_bar_et": "12:34",
       "high_of_day": 203.48,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -217,8 +256,8 @@
       "yesterday_close": 6.78,
       "sma200": 15.4859,
       "premarket_high": 7.31,
-      "last_price": 7.22,
-      "last_bar_et": "12:07",
+      "last_price": 7.245,
+      "last_bar_et": "12:34",
       "high_of_day": 7.35,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -240,8 +279,8 @@
       "yesterday_close": 406.03,
       "sma200": 432.9599,
       "premarket_high": 435.54,
-      "last_price": 416.24,
-      "last_bar_et": "12:07",
+      "last_price": 418.24,
+      "last_bar_et": "12:34",
       "high_of_day": 421.9,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -263,8 +302,8 @@
       "yesterday_close": 32.02,
       "sma200": 55.9255,
       "premarket_high": 34.4,
-      "last_price": 33.445,
-      "last_bar_et": "12:07",
+      "last_price": 33.69,
+      "last_bar_et": "12:34",
       "high_of_day": 33.855,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -286,9 +325,9 @@
       "yesterday_close": 244.43,
       "sma200": 245.7811,
       "premarket_high": 252.75,
-      "last_price": 253.705,
-      "last_bar_et": "12:07",
-      "high_of_day": 254.5,
+      "last_price": 254.805,
+      "last_bar_et": "12:34",
+      "high_of_day": 254.99,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -309,9 +348,9 @@
       "yesterday_close": 163.99,
       "sma200": 169.0181,
       "premarket_high": 174.99,
-      "last_price": 173.665,
-      "last_bar_et": "12:07",
-      "high_of_day": 174.89,
+      "last_price": 174.6525,
+      "last_bar_et": "12:34",
+      "high_of_day": 175.09,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -342,8 +381,8 @@
       "yesterday_close": 12.29,
       "sma200": 29.4554,
       "premarket_high": 13.48,
-      "last_price": 12.7777,
-      "last_bar_et": "12:06",
+      "last_price": 12.775,
+      "last_bar_et": "12:34",
       "high_of_day": 13.045,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -365,8 +404,8 @@
       "yesterday_close": 378.95,
       "sma200": 403.5237,
       "premarket_high": 399.81,
-      "last_price": 392.635,
-      "last_bar_et": "12:07",
+      "last_price": 395.465,
+      "last_bar_et": "12:34",
       "high_of_day": 404.88,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -388,8 +427,8 @@
       "yesterday_close": 161.51,
       "sma200": 235.1365,
       "premarket_high": 174.84,
-      "last_price": 167.895,
-      "last_bar_et": "12:07",
+      "last_price": 167.92,
+      "last_bar_et": "12:34",
       "high_of_day": 171.69,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -411,8 +450,8 @@
       "yesterday_close": 29.49,
       "sma200": 34.5542,
       "premarket_high": 31.55,
-      "last_price": 30.835,
-      "last_bar_et": "12:07",
+      "last_price": 30.895,
+      "last_bar_et": "12:34",
       "high_of_day": 31.3,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -434,8 +473,8 @@
       "yesterday_close": 300.86,
       "sma200": 367.3087,
       "premarket_high": 316.0,
-      "last_price": 311.0575,
-      "last_bar_et": "12:07",
+      "last_price": 311.46,
+      "last_bar_et": "12:35",
       "high_of_day": 313.125,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -457,8 +496,8 @@
       "yesterday_close": 31.98,
       "sma200": 66.6006,
       "premarket_high": 36.19,
-      "last_price": 35.175,
-      "last_bar_et": "12:07",
+      "last_price": 35.22,
+      "last_bar_et": "12:34",
       "high_of_day": 35.94,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -480,8 +519,8 @@
       "yesterday_close": 34.52,
       "sma200": 41.0873,
       "premarket_high": 36.99,
-      "last_price": 36.26,
-      "last_bar_et": "12:07",
+      "last_price": 36.365,
+      "last_bar_et": "12:34",
       "high_of_day": 36.375,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -503,8 +542,8 @@
       "yesterday_close": 86.26,
       "sma200": 119.6569,
       "premarket_high": 90.71,
-      "last_price": 90.14,
-      "last_bar_et": "12:07",
+      "last_price": 89.89,
+      "last_bar_et": "12:35",
       "high_of_day": 90.5795,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -518,29 +557,6 @@
       "market_cap": 224220446720
     },
     {
-      "ticker": "BB",
-      "status": "NO_SIGNAL",
-      "signal": false,
-      "atr14": 0.5907,
-      "yesterday_high": 8.55,
-      "yesterday_close": 8.5,
-      "sma200": 7.3083,
-      "premarket_high": 8.89,
-      "last_price": 8.845,
-      "last_bar_et": "12:07",
-      "high_of_day": 8.865,
-      "checks_now": {
-        "price_above_yesterday_high": true,
-        "yesterday_close_above_sma": true,
-        "price_above_premarket_high": false,
-        "price_above_high_of_day": false
-      },
-      "reason": "Failing now: price_above_premarket_high, price_above_high_of_day",
-      "gap_pct": 4.0,
-      "catalyst": "BlackBerry stock reacts to tech rebound and upcoming earnings BlackBerry (TSX:BB) moved back into the spotlight after an 8.38% jump on a broader technology rally sparked by Nvidia's CEO reinstatement, with traders now…",
-      "market_cap": 5183905792
-    },
-    {
       "ticker": "BE",
       "status": "FAIL",
       "signal": false,
@@ -549,8 +565,8 @@
       "yesterday_close": 152.89,
       "sma200": 224.0431,
       "premarket_high": 168.0,
-      "last_price": 161.47,
-      "last_bar_et": "12:07",
+      "last_price": 161.6699,
+      "last_bar_et": "12:34",
       "high_of_day": 163.13,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -572,8 +588,8 @@
       "yesterday_close": 70.77,
       "sma200": 82.1062,
       "premarket_high": 73.59,
-      "last_price": 73.405,
-      "last_bar_et": "12:07",
+      "last_price": 73.47,
+      "last_bar_et": "12:34",
       "high_of_day": 73.59,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -595,8 +611,8 @@
       "yesterday_close": 11.43,
       "sma200": 18.9417,
       "premarket_high": 12.39,
-      "last_price": 12.2187,
-      "last_bar_et": "12:07",
+      "last_price": 12.22,
+      "last_bar_et": "12:34",
       "high_of_day": 12.41,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -618,8 +634,8 @@
       "yesterday_close": 13.44,
       "sma200": 20.1776,
       "premarket_high": 14.3679,
-      "last_price": 13.795,
-      "last_bar_et": "12:07",
+      "last_price": 13.8399,
+      "last_bar_et": "12:34",
       "high_of_day": 13.99,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -641,9 +657,9 @@
       "yesterday_close": 4.48,
       "sma200": 4.8026,
       "premarket_high": 4.75,
-      "last_price": 4.79,
-      "last_bar_et": "12:07",
-      "high_of_day": 4.81,
+      "last_price": 4.83,
+      "last_bar_et": "12:34",
+      "high_of_day": 4.835,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -674,8 +690,8 @@
       "yesterday_close": 61.55,
       "sma200": 99.5018,
       "premarket_high": 65.37,
-      "last_price": 63.475,
-      "last_bar_et": "12:07",
+      "last_price": 63.5588,
+      "last_bar_et": "12:34",
       "high_of_day": 64.84,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -697,9 +713,9 @@
       "yesterday_close": 11.75,
       "sma200": 18.0598,
       "premarket_high": 12.73,
-      "last_price": 12.5501,
-      "last_bar_et": "12:07",
-      "high_of_day": 12.64,
+      "last_price": 12.635,
+      "last_bar_et": "12:34",
+      "high_of_day": 12.65,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
@@ -720,8 +736,8 @@
       "yesterday_close": 196.19,
       "sma200": 296.0886,
       "premarket_high": 216.76,
-      "last_price": 217.59,
-      "last_bar_et": "12:07",
+      "last_price": 219.5375,
+      "last_bar_et": "12:35",
       "high_of_day": 220.78,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -743,8 +759,8 @@
       "yesterday_close": 103.72,
       "sma200": 171.5483,
       "premarket_high": 109.43,
-      "last_price": 107.465,
-      "last_bar_et": "12:07",
+      "last_price": 107.43,
+      "last_bar_et": "12:34",
       "high_of_day": 108.9,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -766,11 +782,11 @@
       "yesterday_close": 10.82,
       "sma200": 19.1849,
       "premarket_high": 11.59,
-      "last_price": 11.145,
-      "last_bar_et": "12:07",
+      "last_price": 11.155,
+      "last_bar_et": "12:34",
       "high_of_day": 11.315,
       "checks_now": {
-        "price_above_yesterday_high": false,
+        "price_above_yesterday_high": true,
         "yesterday_close_above_sma": false,
         "price_above_premarket_high": false,
         "price_above_high_of_day": false
@@ -789,8 +805,8 @@
       "yesterday_close": 106.795,
       "sma200": 180.8603,
       "premarket_high": 116.3846,
-      "last_price": 112.19,
-      "last_bar_et": "12:07",
+      "last_price": 111.805,
+      "last_bar_et": "12:34",
       "high_of_day": 113.86,
       "checks_now": {
         "price_above_yesterday_high": true,
@@ -812,9 +828,9 @@
       "yesterday_close": 209.3,
       "sma200": 177.8162,
       "premarket_high": 218.0,
-      "last_price": 214.71,
-      "last_bar_et": "12:07",
-      "high_of_day": 215.74,
+      "last_price": 215.8596,
+      "last_bar_et": "12:34",
+      "high_of_day": 216.4499,
       "checks_now": {
         "price_above_yesterday_high": true,
         "yesterday_close_above_sma": true,
@@ -827,5 +843,5 @@
       "market_cap": 222248140800
     }
   ],
-  "scan_time_et": "12:07"
+  "scan_time_et": "12:35"
 }

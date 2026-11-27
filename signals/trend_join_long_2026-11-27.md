@@ -1,10 +1,11 @@
 **Trend-join Long — 2026-11-27**
-2 valid entries out of 35 pre-market gappers (generated 2026-11-27 12:07:51 EST)
+3 valid entries out of 35 pre-market gappers (generated 2026-11-27 12:35:02 EST)
 
 | Ticker | Signal (ET) | Entry | Gap % | Catalyst |
 |---|---|---|---|---|
 | CVNA | 10:18 | $70.06 | +3.23% | Carvana (CVNA) reported earnings 30 days ago. |
 | CLF | 11:49 | $11.84 | +4.70% | We just published a list of the 10 Stocks Stanley Druckenmiller Just Dumped—and What His Big Exit Signals Next and Cleveland-Cliffs (NYSE:CLF) ranked 8th on this list. |
+| BB | 12:24 | $8.90 | +4.00% | BlackBerry stock reacts to tech rebound and upcoming earnings BlackBerry (TSX:BB) moved back into the spotlight after an 8.38% jump on a broader technology rally sparked by Nvidia's CEO reinstatement, with traders now… |
 
 Not triggered:
 - AA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
@@ -26,7 +27,6 @@ Not triggered:
 - AXTI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - B: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BABA: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
-- BB: NO_SIGNAL — Failing now: price_above_premarket_high, price_above_high_of_day
 - BE: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BHP: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
 - BILI: FAIL — Yesterday's close is below the 200 SMA (not in an uptrend)
