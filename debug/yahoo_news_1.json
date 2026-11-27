@@ -1,7 +1,85 @@
 {
   "ticker": "COHR",
-  "saved_at_et": "2026-11-27T11:36:37-05:00",
+  "saved_at_et": "2026-11-27T12:07:41-05:00",
   "response": [
+    {
+      "id": "eac9c281-033c-3c73-8b9a-a27703a8cdc9",
+      "content": {
+        "id": "eac9c281-033c-3c73-8b9a-a27703a8cdc9",
+        "contentType": "STORY",
+        "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
+        "description": null,
+        "summary": "By now, we’re all familiar with how an artificial-intelligence rally works. Less so, when it comes to Anthropic's role in it all.",
+        "pubDate": "2026-11-27T15:32:00Z",
+        "displayTime": "2026-11-27T15:32:00Z",
+        "isHosted": false,
+        "previewUrl": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html",
+        "thumbnail": {
+          "originalUrl": "https://media.zenfs.com/en/Barrons.com/c31e8917d1750a8012406f5d9ce81bbc.jpg_up.jpg",
+          "originalWidth": 1440,
+          "originalHeight": 720,
+          "resolutions": [
+            {
+              "url": "https://media.zenfs.com/en/Barrons.com/c31e8917d1750a8012406f5d9ce81bbc.jpg_up.jpg",
+              "width": 1440,
+              "height": 720,
+              "tag": "original"
+            },
+            {
+              "url": "https://s.yimg.com/lo/mysterio/api/7c7a35f85c861436a6f8a5a55ef9d192d88d76abd0549ffebb6590df1026104a/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2Fc31e8917d1750a8012406f5d9ce81bbc.jpg_up.jpg",
+              "width": 170,
+              "height": 128,
+              "tag": "170x128"
+            }
+          ]
+        },
+        "provider": {
+          "displayName": "Barrons.com",
+          "url": "http://www.barrons.com/"
+        },
+        "canonicalUrl": {
+          "url": "https://www.barrons.com/articles/anthropic-stock-ai-rally-c2453668?siteid=yhoof2&yptr=yahoo"
+        },
+        "clickThroughUrl": null,
+        "finance": {
+          "premiumFinance": {
+            "isPremiumNews": false
+          },
+          "stockTickers": [
+            {
+              "symbol": "ANT"
+            },
+            {
+              "symbol": "LITE"
+            },
+            {
+              "symbol": "GOOG"
+            },
+            {
+              "symbol": "NVDA"
+            },
+            {
+              "symbol": "AMD"
+            },
+            {
+              "symbol": "META"
+            },
+            {
+              "symbol": "COHR"
+            },
+            {
+              "symbol": "SNDK"
+            },
+            {
+              "symbol": "MU"
+            },
+            {
+              "symbol": "SKHY"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "c48fac11-f828-45b5-b226-5071b6d06c89",
       "content": {
@@ -113,59 +191,6 @@
         },
         "clickThroughUrl": {
           "url": "https://finance.yahoo.com/technology/articles/coherent-targets-250-million-quarterly-040735182.html"
-        },
-        "finance": {
-          "premiumFinance": {
-            "isPremiumNews": false
-          },
-          "stockTickers": [
-            {
-              "symbol": "COHR"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "3e824f9b-ccf3-3e98-85a5-7a3483c80723",
-      "content": {
-        "id": "3e824f9b-ccf3-3e98-85a5-7a3483c80723",
-        "contentType": "STORY",
-        "title": "Coherent’s Director Has Now Bought $50 Million of COHR Stock in 3 Trading Days",
-        "description": null,
-        "summary": "A Coherent director keeps adding shares while the stock tumbles, and the filings offer no explanation. Booming AI demand clashes with negative cash flow, so what is he betting the rest of the market is missing?",
-        "pubDate": "2026-11-26T17:22:22Z",
-        "displayTime": "2026-11-26T17:22:22Z",
-        "isHosted": true,
-        "previewUrl": null,
-        "thumbnail": {
-          "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/fd42cc9afe1fd001df80a5c603ec2bd2",
-          "originalWidth": 2560,
-          "originalHeight": 1440,
-          "resolutions": [
-            {
-              "url": "https://media.zenfs.com/en/24_7_wall_st__718/fd42cc9afe1fd001df80a5c603ec2bd2",
-              "width": 2560,
-              "height": 1440,
-              "tag": "original"
-            },
-            {
-              "url": "https://s.yimg.com/lo/mysterio/api/cb4c35c150ba3bdc30c98e6dc98f1e681239e364527f9e62989fc9f5b7b7ceaa/lightyear_networkapi/resizefill_w170_h128/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ffd42cc9afe1fd001df80a5c603ec2bd2",
-              "width": 170,
-              "height": 128,
-              "tag": "170x128"
-            }
-          ]
-        },
-        "provider": {
-          "displayName": "24/7 Wall St.",
-          "url": "https://247wallst.com/"
-        },
-        "canonicalUrl": {
-          "url": "https://247wallst.com/investing/2026/11/26/coherents-director-has-now-bought-50-million-of-cohr-stock-in-3-trading-days/"
-        },
-        "clickThroughUrl": {
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-director-now-bought-50-172222627.html"
         },
         "finance": {
           "premiumFinance": {
