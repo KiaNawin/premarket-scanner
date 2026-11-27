@@ -1,7 +1,7 @@
 {
   "scan_date": "2026-11-27",
-  "generated_at_et": "2026-11-27 08:32:37 EST",
-  "scan_time_et": "08:32",
+  "generated_at_et": "2026-11-27 09:02:02 EST",
+  "scan_time_et": "09:02",
   "criteria": {
     "min_gap_pct": 3.0,
     "min_price": 3.0,
@@ -9,8 +9,8 @@
     "min_market_cap": 2000000000.0
   },
   "funnel": {
-    "universe": 7063,
-    "prefilter": 1213,
+    "universe": 7064,
+    "prefilter": 1288,
     "with_data": 0,
     "gap": 0,
     "gap_price": 0,
@@ -19,7 +19,7 @@
     "volume_source": "yahoo",
     "mode": "fast"
   },
-  "symbols_scanned": 7063,
+  "symbols_scanned": 7064,
   "count": 0,
   "results": []
 }

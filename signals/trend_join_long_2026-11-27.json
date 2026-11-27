@@ -1,7 +1,7 @@
 {
   "strategy": "Trend-join Long",
   "scan_date": "2026-11-27",
-  "generated_at_et": "2026-11-27 08:35:00 EST",
+  "generated_at_et": "2026-11-27 09:05:00 EST",
   "source_premarket_file": "premarket_scan_2026-11-27.json",
   "criteria": [
     "Price > yesterday's daily high",
@@ -14,5 +14,5 @@
   "valid_count": 0,
   "valid_entries": [],
   "evaluated": [],
-  "scan_time_et": "08:35"
+  "scan_time_et": "09:05"
 }
